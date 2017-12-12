@@ -12,7 +12,7 @@
         padding: 10px;
       }
    ```
-  The `padding` property adds space. Can you work out what each of the other properties does? Try experimenting with different colours and numbers of pixels. 
+  The `padding` property adds space. Can you work out what each of the other properties does? Try experimenting with different colours and numbers of pixels.  ![](images/egMenuBarMoreStyle.png)
 
 - To get rid of the underline on the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules.
 
@@ -23,7 +23,7 @@
       }
    ```
    
-   The above rule applies to _links_ \(`<a>` tags\) inside _list items_ in an _unordered list_ inside a _navigation_ \(`nav`\) section. Wow! That's _four selectors_!
+   The above rule applies to _links_ \(`<a>` tags\) inside _list items_ in an _unordered list_ inside a _navigation_ \(`nav`\) section. Wow! That's _four selectors_! ![](images/egMenuBarNoUnderline.png)
 
 - Remember how you removed the link tags in some list items so you could easily see what page was clicked? Why not also change the text colour of those navigation list items which are not links! Find your `nav ul li` selector, and add the line 
    ```css

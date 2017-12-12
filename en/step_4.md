@@ -14,7 +14,7 @@
 
 - The curly braces `{ }` and the text in between them is a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit outside the curly braces a **selector**. So in this case, it is the **selector** for the **body** elements.
 
-- Change the colour to `LightSkyBlue`, and click Run \(Remember, this is the button that says "Click To Run"\). Your website should now have a blue background!
+- Change the colour to `LightSkyBlue`, and click Run \(Remember, this is the button that says "Click To Run"\). Your website should now have a blue background! ![](images/egFirstCSSbluebg.png)
 
 - What's going on? If you look at the top of the index.html file, you will see the following line:
     ```html
@@ -44,7 +44,7 @@
    }
    ```
 
-- Click Run. Your heading should be orange now, with the paragraph purple as before. ![](images/StyleColorsFonts.png)
+- Click Run. Your heading should be orange now, with the paragraph purple as before. ![](images/egCssColorsFonts.png)
 
 - Notice how the letters also look different as well as being a different colour? This is because you changed the **font family**. You can see some more fonts at [dojo.soy/font-families](http://dojo.soy/web-font-families)
 

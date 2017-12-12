@@ -2,9 +2,12 @@
 
 - In the left-hand panel, the **code panel**, click on the tab that says "index.html".
 
-- Find the line that says "Welcome to Ireland!" and change it to your own home country or town, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. Then click on the button that says "Click To Run". This is the Run button. You will see your web page updated in the right-hand panel.
+- Find the line that says "Welcome to Ireland!" and change it to your own home country or town, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. Then click on the button that says "Click To Run". This is the Run button. You will see your web page updated in the right-hand panel. ![](images/egFirstHtmlCodeRun.png)
 
 - Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`, and click Run. What happens?
+  ```html
+    <h1>Welcome to Ireland!</h1>
+  ```
 
 - When you want to put text on a page, you need to put it in between two **tags** that tell your browser how to display your text. For example, the `<p>` tag tells the browser it is a paragraph of text. The `<h1>` tag tells it that the text is a heading.
 
@@ -24,7 +27,8 @@
 - Find the code for the paragraph that says "My website is about Ireland" and change it so that it looks like this:
    ```html
       <p>
-         <em>My website</em> is about <strong>Ireland</strong>. It is going to have the following pages: Attractions, Music, Food
+         <em>My website</em> is about <strong>Ireland</strong>. 
+         It is going to have the following pages: Attractions, Music, Food
       </p>
   ```
   * Can you work out what the `<em> </em>` and `<strong> </strong>` tags do? Note: "em" is short for "emphasis".
