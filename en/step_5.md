@@ -17,7 +17,7 @@ Notice that this tag has extra bits of information inside it. They are called **
 --- collapse ---
 
 ---
-title: How the <img> tag works
+title: How the img tag works
 ---
 
 Notice that the `<img>` tag is different from the other tags you've used so far: 
