@@ -1,11 +1,11 @@
 ## Making a list
 
 On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into something that looks like this:
-  - unicorns
-  - robots
-  - cats 
+    - unicorns
+    - robots
+    - cats 
   
-- Go to the tab named index.html and add the following code:
+- In the index.html file, add the following code just above the line with `</main>` on it:
 
     ```html
     <p>
@@ -27,7 +27,7 @@ On this card you will learn how to turn a list of items, such as "unicorns, robo
 
 How about if you wanted a numbered list? It's almost the same, but instead of `ul`, you use `ol`. A numbered list is also called an **ordered** list. 
 
-- Add the following code just above the line with `</main>` on it:
+- Add the following code underneath the code you just wrote \(make sure it's **after** the `</ul>` tag!\):
    ```html
    <p>
       My favourite things to eat and drink in Ireland are:

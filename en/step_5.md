@@ -2,13 +2,14 @@
 
 Let's add a picture!
 
-- In the index.html file, after the `</ul>` tag, type the following: 
+- Go to the tab named index.html. Find the `</main>` tag and type the following above it: 
     ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
     ```
-    Here's what it should look like
+    Here's what the result should look like:
     
    ![Picture of Tito](images/ImgTito2.png)
+
 - Try experimenting with different numbers in the `width` attribute and see if you can figure out what it does. Don't delete the letters `px`!
 
 --- hints ---
@@ -23,16 +24,17 @@ Let's add a picture!
 --- collapse ---
 
 ---
-title: [The img tag]
+title: The img tag
 ---
 
-- Notice that the `<img>` tag is different from the other tags you've used so far: 
+Notice that the `<img>` tag is different from the other tags you've used so far: 
 
-   There is no closing `</img>` tag. Instead it is **self closing**: the opening tag has `/>` at the end. This is because there is no "start" and "end" like there is when you are putting text on the page. 
+1. There is no closing `</img>` tag. Instead it is **self closing**: the opening tag has `/>` at the end. This is because there is no "start" and "end" like there is when you are putting text on the page. 
 
-   The tag contains three extra pieces of information inside it called **attributes**. 
+2. The tag contains extra pieces of information inside it called **attributes**. 
     - The `src` attribute tells the browser what file to use for the picture. 
     - The `alt` attribute is a short description that the browser will show if it cannot display the picture. It also helps people using a screen reader to know what the picture is.
+    - The `width` attribute tells the browser how wide to make the picture. If you don't include this attribute, the picture will be displayed in its original size.
 
 --- /collapse ---
 
@@ -43,7 +45,7 @@ Now that you know the code to put a picture on your website, you probably want t
 --- collapse ---
 
 ---
-title: [Getting pictures from the internet]
+title: Getting pictures from the internet
 ---
 
 - Search for **images** of the thing you want a picture of.
@@ -59,7 +61,7 @@ title: [Getting pictures from the internet]
 
 --- /collapse ---
 
-Once you have a picture, you will **upload** the file to Trinket. 
+Once you have a picture, you will **upload** the file to Trinket: 
 
 - In your Trinket, click on the image icon next to the **+** sign. This is where you can see the pictures that can be used on your website. You should see the picture of Tito the CoderDojo dog.
 
@@ -79,12 +81,11 @@ The text you just changed is the **attribute** called `src`. It tells the browse
 
   _Important:_ The value you type for an **attribute** must have quotation marks around it!
 
---- challenge ---
-Find the `alt` **attribute** and change the text in it to a short description of your picture. 
+### Challenge!
+- Find the `alt` **attribute** and change the text in it to a short description of your picture. 
 
---- /challenge ---
 
-- Click Save to save your work!
+- Remember to click the "Save" button to save your work before moving on!
 
 
 
