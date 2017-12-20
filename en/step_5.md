@@ -10,37 +10,30 @@ Let's add a picture!
     
    ![Picture of Tito](images/ImgTito2.png)
 
-- Try experimenting with different numbers in the `width` attribute and see if you can figure out what it does. Don't delete the letters `px`!
+Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
---- hints ---
-
---- hint ---
-`100px` means ten **pixels**, the teeny-tiny dots that make up your screen.
-
---- /hint ---
-
---- /hints ---
+- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this **attribute** does. Don't delete the letters `px`!
 
 --- collapse ---
 
 ---
-title: The img tag
+title: How the `<img>` tag works
 ---
 
 Notice that the `<img>` tag is different from the other tags you've used so far: 
 
-1. There is no closing `</img>` tag. Instead it is **self closing**: the opening tag has `/>` at the end. This is because there is no "start" and "end" like there is when you are putting text on the page. 
+- There is no closing `</img>` tag. Instead it is **self closing**: the opening tag has `/>` at the end. This is because there is no "start" and "end" like there is when you are putting text on the page. 
 
-2. The tag contains extra pieces of information inside it called **attributes**. 
+- The tag contains extra pieces of information inside it called **attributes**. 
     - The `src` attribute tells the browser what file to use for the picture. 
     - The `alt` attribute is a short description that the browser will show if it cannot display the picture. It also helps people using a screen reader to know what the picture is.
-    - The `width` attribute tells the browser how wide to make the picture. If you don't include this attribute, the picture will be displayed in its original size.
+    - The `width` attribute tells the browser how wide to make the picture. `100px` means ten **pixels**, the teeny-tiny dots that make up your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
 --- /collapse ---
 
 Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
-- The first thing you will need is a picture! You can either use a picture you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+- The first thing you will need is a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
 
 --- collapse ---
 
@@ -53,6 +46,9 @@ title: Getting pictures from the internet
 - When you find a picture that you like, click on it once to open it up full size.
 
 - Then, **right click** the picture and select "Save Image As..." \(**not** "Save Link As..."!\).
+
+
+   ![Choose Save Image As from menu](images/saveImageAs.png)
 
 - Type a short name in the box provided. 
 
@@ -81,11 +77,12 @@ The text you just changed is the **attribute** called `src`. It tells the browse
 
   _Important:_ The value you type for an **attribute** must have quotation marks around it!
 
+- Remember to click the "Save" button to save your work before moving on!
+
 ### Challenge!
 - Find the `alt` **attribute** and change the text in it to a short description of your picture. 
 
 
-- Remember to click the "Save" button to save your work before moving on!
 
 
 

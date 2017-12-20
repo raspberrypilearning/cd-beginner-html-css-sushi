@@ -1,22 +1,21 @@
 ## Making a list
 
-On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into something that looks like this:
-    - unicorns
-    - robots
-    - cats 
+On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into a nicer looking list that you can do cool things with later.
   
 - In the index.html file, add the following code just above the line with `</main>` on it:
 
     ```html
     <p>
-        My website about Ireland will have pages about:
+        My website about Ireland will have these pages:
     </p>
     <ul>
+        <li>Home</li>
         <li>Places to visit</li>
         <li>Music</li>
         <li>Things to eat</li>
     </ul>
     ```
+- Change the text to things that your website will contain!
 
  The result should be a nice list like this: 
 

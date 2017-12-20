@@ -1,6 +1,6 @@
 ## Adding more pages
 
-Most websites have more than one page, right? On this card you'll add more pages to your website.
+This card will show you how to add more pages to your website.
 
 - At the top of the code panel, click on the **+** symbol next to the tabs and type in a name for your new file. It must end in **.html** \(including the dot!\) so that the browser knows it's a web page.
 
