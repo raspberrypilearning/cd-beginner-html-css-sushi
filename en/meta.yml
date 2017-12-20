@@ -13,14 +13,15 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Creating a web page
-  - title: Adding a stylesheet
+  - title: Your first web page!
+  - title: Controlling how it looks
   - title: Adding pictures
+  - title: Adding a map or video
   - title: Making a list
   - title: Adding more pages
   - title: Creating links
-  - title: Making a menu
+  - title: Navigating your website
+  - title: Making a menu bar
   - title: Styling the menu bar
-  - title: Adding a map or video
   - title: Adding a table
   - title: Download your project!

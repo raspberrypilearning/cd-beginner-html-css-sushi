@@ -1,25 +1,75 @@
-## Download your project!
+## Adding a table
 
-- Lets download your code and look at it! At the top left corner of the code panel, click on the menu icon that looks like three lines, and click Download. 
-  ![](images/DownloadMenuCircled.png)
+- Sometimes it can be useful to show information in a table. For example if you want to list member information on a website for a local sports club or school. Or, in this example, songs!
 
-- A zip file will be downloaded. It contains all the files for your website. 
+- A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**.
 
-- Open up the zip file and find the file called index.html. Remember this file is your homepage. Double click on it to open it up in a **browser**. Click the links and explore your website in all its glory!
+- Go to the file page\_with\_table.html. There you will see a bunch of code in between `<table> </table>` tags. Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and **copy** it. Then go to one of your files where you would like to put a table and **paste** in the code.
 
-- Can you see the page title at the top of the tab or window? Notice the title on each page. This is the text you put in between the `<title> </title>` tags.
+- At the moment your table is empty. Here's an example of a table filled with information
+  ```html
+    <table>
+      <tr>
+        <th>Artist</th>
+        <th>Song</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>Thin Lizzy</td>
+        <td>The Boys Are Back In Town</td>
+        <td>1976</td>
+      </tr>
+      <tr>
+        <td>Sinead O'Connor</td>
+        <td>Nothing Compares 2 U</td>
+        <td>1990</td>
+      </tr>
+      <tr>
+        <td>The Cranberries</td>
+        <td>Linger</td>
+        <td>1994</td>
+      </tr>
+    </table>
+  ```
 
-  ![](images/LocalFileWindowTitle.png)
+- And here's what it looks like on the website 
 
-- Leave the browser window open, and go back to the window with the list of files. Find index.html again. This time right click it \(to "right click" on a Mac, either click and hold, or click with two fingers!\), select "Open With &gt;" and choose a plain text editor such as Notepad, Notepad++ or Sublime Text. You should see all the HTML tags, like in the code panel on Trinket.
+  ![](images/TableResult2.png)
 
-  If you are using a Mac, you may need to install a plain text editor first
+- Let's have a look at all those tags. It's a bit like the code for a list \(remember `<ul>` and `<ol>`?\) but with more levels.
 
-- As you know, a web page is just made up of text, with tags to control it. Now you can see that the web page and the code are in fact the same file: depending on whether you open it in a **browser** or a **plain text editor**, you will see either the **code** \(text and tags\) or the **web page** \(just text\).
+  Each pair of `<tr> </tr>` tags is a **row**. So everything in between them will be displayed on one line.
 
-- Congratulations! Why not share your project with other people to show it off? Click the Share button (next to the Save button) and select one of the options.
+  The first row contains `<th> </th>` tags. These are used for the **headers**, so the column titles go in between them. There is one pair for each column you have in your table.
 
-![](images/badge-footer-image-html-beginner.png)
+  The `<td> </td>` tags stand for **table data**, and that's what goes in all the other rows. These are like the list item `<li> </li>` tags in a list: everything in between them is one item in your table row.
 
+- Try filling your table with anything you like! Simply put text in between the `<td> </td>` tags and also in between the `<th> </th>` tags. You can add more tags if you need to.
 
+ To add another **row**, you add another set of `<tr> </tr>` tags. In between them you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
 
+ To add another **column** you add an extra **data** item with a set of `<td> </td>` tags onto every row. You also add an extra **header** item to the first row, using `<th> </th>` tags.
+
+- If you look at the end of the styles.css file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border and background colours to design your own style.
+  ```css
+    table, th, td {
+      border: 1px solid HoneyDew;
+      border-collapse: collapse;
+    }
+    tr {
+      background-color: PaleTurquoise;
+    }
+    th, td {
+      vertical-align: top;
+      padding: 5px;
+      text-align: left;
+    }
+    th {
+      color: purple;
+    }
+    td {
+      color: purple;
+    }
+  ```
+
+ Notice how some of the selectors use **commas**, for example `table, th, td`? This is a _list of selectors_: it means it applies to _all_ `<th>` elements _and all_ `<td>` elements. It saves typing out the same set of rules again for each selector!

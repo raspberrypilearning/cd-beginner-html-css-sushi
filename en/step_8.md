@@ -1,70 +1,47 @@
-## Creating links
+## Adding more pages
 
-On this card you'll learn how to make a link that takes you to another page when clicked.
+This card will show you how to add more pages to your website.
 
-- Add the following code to index.html:
-
-    ```html
-    <a href="">Click here</a>
-    ```
- The `<a> </a>` tag turns something into a link. 
- 
-- Try clicking your link to see what happens. It does nothing, right? 
-
-That's because the `href` **attribute** is empty at the moment. It needs to contain the **URL** \(web address\) of the page that you're linking to.
-
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
-
-- Click in the address bar and select all of the text. That's the whole **URL** of the page you're on. Press the **Ctrl** \(or **cmd**\) and **C** keys together to **copy** it. 
-
-    ![URL in address bar](images/AddressBarURL.png)
-
-- In your trinket, click in between the quotation marks after `href=` and press the **Ctrl** \(or **cmd**\) and **V** keys together to **paste** in the URL you just copied. Your code should look something like this now:
-
-    ```html
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
-    ```
-
-    You just created your first link! Click on it to see if it works now.
-
-    ![Link tag](images/LinkTagWithURL.png)
- ### Note
-Trinket has trouble with some links. You can try URLs for other websites than Wikipedia if you like, but the link may not work in your Trinket. It will work when you download your project and try it out in a browser later however.
-
-- Try putting a picture in between the `<a> </a>` tags instead of the words "Click here", like this:
-
-    ```html
-    <a href="https://en.wikipedia.org/wiki/Ireland">
-        <img src="tito.png" alt="Tito the dog" width="100px" />
-    </a>
-    ```
-
-- Click on your picture. Do you see that it was turned into a link?
+- At the top of the code panel, click on the **+** symbol next to the tabs and type in a name for your new file. It must end in **.html** \(including the dot!\) so that the browser knows it's a web page.
 
 
-You can use the `<a> </a>` tags with the `href` **attribute** to turn anything into a link.
+--- collapse ---
+---
+title: Renaming or deleting a file
+---
 
-You can put a link into other parts of your web page too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+If you want to change the name of a file, click on the cog icon to the right of the filename, and click the pencil. Type in the new name and press Enter. You can also delete a file by clicking the bin icon instead of the pencil.
+  ![](images/EditFilename.png)
 
-    ```html
-    <p><a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!</p>
-    ```
+You might be wondering why you can't change the name of the index.html file. "index.html" is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. When you go to a website's homepage, the browser looks for the file called "index.html" and displays it on your screen.
 
-- Let's make links for each new page you've created for you website. In the index.html file and add the following code:
+--- /collapse ---
 
-   ```html
-   <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="attractions.html">Places to visit</a></li>
-      <li><a href="music.html">Music</a></li>
-      <li><a href="food.html">Things to eat</a></li>
-   </ul>
-   ```
+- Find the file blank\_page.html and **copy** and **paste** all of the code from it into your new file.
 
-- Change the text inside the quotation marks so that it exactly matches the names of your new files that you created!
+--- collapse ---
+---
+title: How to copy and paste
+---
+- Go the the file blank\_page.html in the code panel \(by clicking on the tab with that name\). Select all of the text in the file by doing the following: Click anywhere on the code, then press and hold the **Ctrl** key \(or if you are using a Mac, the **cmd** key\) and while holding it, press the **A** key at the same time. Notice how all the text becomes highlighted.
+  ![](images/SelectAll.png)
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+- Now, with the text selected, press and hold the **Ctrl** \(or **cmd**\) key again and then while holding it press the **C** key. This **copies** everything that was selected.
 
-Now you can navigate to your new pages! 
+- Go to your new file and click inside the code panel \(which is blank at the moment\). Press and hold the **Ctrl** \(or **cmd**\) key and then while holding it, press the **V** key. This **pastes** everything that was copied into your new page.
 
-- Don't forget to Save your work.
+  You can use these keyboard shortcuts in most programs to **copy** and **paste** stuff, including text and files!
+--- /collapse ---
+
+
+- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you'll see it at the top of your browser window when you download your project later.
+
+- In between the `<main> </main>` tags in the new file, use the tags you have learned to add stuff to the page, such as paragraphs, headings, images and lists!
+
+- Repeat the steps above for each new page that you want to add. 
+
+- When there are too many tabs to be able to see them all, you can use the **<** and **>** icons in the top left corner of the tabs to scroll between them.
+
+On the next card you'll make links so that you can get to each of your new pages!
+
+

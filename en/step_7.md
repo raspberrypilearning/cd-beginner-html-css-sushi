@@ -1,46 +1,45 @@
-## Adding more pages
+## Making a list
 
-This card will show you how to add more pages to your website.
+On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into a nicer looking list that you can do cool things with later.
+  
+- In the index.html file, add the following code just above the line with `</main>` on it:
 
-- At the top of the code panel, click on the **+** symbol next to the tabs and type in a name for your new file. It must end in **.html** \(including the dot!\) so that the browser knows it's a web page.
+    ```html
+    <p>
+        My website about Ireland will have these pages:
+    </p>
+    <ul>
+        <li>Home</li>
+        <li>Places to visit</li>
+        <li>Music</li>
+        <li>Things to eat</li>
+    </ul>
+    ```
+- Change the text to things that your website will contain!
 
+ The result should be a nice list like this: 
 
---- collapse ---
----
-title: Renaming or deleting a file
----
+  ![Unordered list](images/egUnorderedList.png)
 
-If you want to change the name of a file, click on the cog icon to the right of the filename, and click the pencil. Type in the new name and press Enter. You can also delete a file by clicking the bin icon instead of the pencil.
-  ![](images/EditFilename.png)
-
-You might be wondering why you can't change the name of the index.html file. "index.html" is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. When you go to a website's homepage, the browser looks for the file called "index.html" and displays it on your screen.
-
---- /collapse ---
-
-- Find the file blank\_page.html and **copy** and **paste** all of the code from it into your new file.
-
---- collapse ---
----
-title: How to copy and paste
----
-- Go the the file blank\_page.html in the code panel \(by clicking on the tab with that name\). Select all of the text in the file by doing the following: Click anywhere on the code, then press and hold the **Ctrl** key \(or if you are using a Mac, the **cmd** key\) and while holding it, press the **A** key at the same time. Notice how all the text becomes highlighted.
-  ![](images/SelectAll.png)
-
-- Now, with the text selected, press and hold the **Ctrl** \(or **cmd**\) key again and then while holding it press the **C** key. This **copies** everything that was selected.
-
-- Go to your new file and click inside the code panel \(which is blank at the moment\). Press and hold the **Ctrl** \(or **cmd**\) key and then while holding it, press the **V** key. This **pastes** everything that was copied into your new page.
-
-  You can use these keyboard shortcuts in most programs to **copy** and **paste** stuff, including text and files!
---- /collapse ---
+ Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 
 
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you'll see it at the top of your browser window when you download your project later.
+How about if you wanted a numbered list? It's almost the same, but instead of `ul`, you use `ol`. A numbered list is also called an **ordered** list. 
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned to add stuff to the page, such as paragraphs, headings, images and lists!
+- Add the following code underneath the code you just wrote \(make sure it's **after** the `</ul>` tag!\):
+   ```html
+   <p>
+      My favourite things to eat and drink in Ireland are:
+   </p>
+   <ol>
+      <li>Tea</li>
+      <li>Crisp sandwiches</li>
+      <li>Sausages</li>
+   </ol>
+   ```
+Here's what it should look like now 
 
-- Repeat the steps above for each new page that you want to add. 
-
-- When there are too many tabs to be able to see them all, you can use the **<** and **>** icons in the top left corner of the tabs to scroll between them.
+    ![Ordered list](images/egOrderedList.png)
 
 
 
