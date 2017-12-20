@@ -17,7 +17,7 @@ Notice that this tag has extra bits of information inside it. They are called **
 --- collapse ---
 
 ---
-title: How the `<img>` tag works
+title: How the <img> tag works
 ---
 
 Notice that the `<img>` tag is different from the other tags you've used so far: 
@@ -27,7 +27,7 @@ Notice that the `<img>` tag is different from the other tags you've used so far:
 - The tag contains extra pieces of information inside it called **attributes**. 
     - The `src` attribute tells the browser what file to use for the picture. 
     - The `alt` attribute is a short description that the browser will show if it cannot display the picture. It also helps people using a screen reader to know what the picture is.
-    - The `width` attribute tells the browser how wide to make the picture. `100px` means ten **pixels**, the teeny-tiny dots that make up your screen. If you don't include this attribute, the picture will be displayed in its original size.
+    - The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, the teeny-tiny dots that make up your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
 --- /collapse ---
 
@@ -43,12 +43,12 @@ title: Getting pictures from the internet
 
 - Search for **images** of the thing you want a picture of.
 
-- When you find a picture that you like, click on it once to open it up full size.
+- When you find a picture that you like, click to open it up full size.
 
-- Then, **right click** the picture and select "Save Image As..." \(**not** "Save Link As..."!\).
+- Then, **right click** the picture and select "Save Image As..." \(**not** "Save Link As..."\).
 
 
-   ![Choose Save Image As from menu](images/saveImageAs.png)
+   ![Menu with Save Image As selected](images/saveImgAs.png)
 
 - Type a short name in the box provided. 
 
@@ -75,9 +75,7 @@ Your picture is uploaded and ready to use!
 
 The text you just changed is the **attribute** called `src`. It tells the browser what file to display.
 
-  _Important:_ The value you type for an **attribute** must have quotation marks around it!
-
-- Remember to click the "Save" button to save your work before moving on!
+_Important:_ The value you type for an **attribute** must have quotation marks around it!
 
 ### Challenge!
 - Find the `alt` **attribute** and change the text in it to a short description of your picture. 

@@ -1,21 +1,51 @@
-## Creating a web page
+## Your first web page!
 
 - In the left-hand panel, the **code panel**, click on the tab that says "index.html".
 
-- Find the line that says "Welcome to Ireland!" and change it to your own home country or town, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. ![](images/egFirstHtmlCodeRun.png)
+- Find the line that says "Welcome to Ireland!" and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. ![](images/egFirstHtmlCodeRun.png)
 
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. What happens?
+- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
   ```html
     <h1>Welcome to Ireland!</h1>
   ```
 
-When you want to put text on a page, you need to put it in between two **tags** that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser it is a paragraph of text. The `<h1> </h1>` tags tell it that the text is a heading.
+- Try adding a new paragraph or heading to your page using some of these tags.
 
-   A **browser** is the program you use to look at websites, for example Chrome or Firefox.
+--- hints ---
+
+--- hint ---
+When you want to put text on a page, you need to put it in between two **tags** that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser it is a new paragraph of text. The `<h1> </h1>` tags tell it that the text is a heading.
+
+A **browser** is the program you use to look at websites, for example Chrome or Firefox.
+--- /hint ---
+
+--- hint ---
+
+The code for paragraphs looks like this:
+  ```html
+    <p>This is one paragraph of text.</p>
+
+    <p>This is another paragraph.
+    Everything in between one set of p tags is displayed together in one long line.</p>
+  ```
+
+--- /hint ---
+
+
+--- hint ---
+
+The code for headings looks like this:
+  ```html
+    <h1>This is a heading. It will normally be displayed bigger or bolder than the paragraphs.</h1>
+  ```
+
+--- /hint ---
+
+--- /hints ---
 
 --- collapse ---
 ---
-title: HTML and tags
+title: HTML and tags explained
 ---
 **HTML** is the code that makes a web page.
 
@@ -23,17 +53,15 @@ The **.html** in the filename tells the browser that the file is a web page, so 
 
 HTML **tags** define different pieces of a page, for example paragraphs and headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
 
-###Why do you need two tags? 
+### Why do you need two tags? 
 You have an **opening** and a **closing** tag to tell the browser where things **start** and **end**. 
 So for a paragraph, the opening `<p>` tag says "here comes some text that I want you to display as a paragraph". The closing `</p>` tag tells the browser where the paragraph ends. 
 Everything in between the `<body>` and `</body>` tags is your web page. 
- * Notice how the **closing** tag always has a forward slash, `/`.
+- Notice how the **closing** tag always has a forward slash, `/`.
   
 --- /collapse ---
 
-- Try changing the `p` to `h2` in the last paragraph, the one that says "Coding websites is fun!" Remember to change it in both the **opening** `<p>` and the **closing** `</p>` tag.
-
-- Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`.
+- Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the **opening** and **closing** tag so that they match.
 
 
 - Lastly, find the code for the paragraph that says "My website is about Ireland" and change it so that it looks like this:
@@ -48,7 +76,7 @@ Everything in between the `<body>` and `</body>` tags is your web page.
 
  ![Run your first HTML code](images/FirstTagsAndRun.png)
 
-So now you've seen that a web page is just made up of text, with **tags** to control it! On the next card you will find out how to control what the **elements** on your page look like.
+Congratulations, you've build your first web page! On the next card you'll find out how to control how it looks.
 
 
 

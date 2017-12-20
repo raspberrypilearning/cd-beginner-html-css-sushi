@@ -6,7 +6,7 @@ Many websites have a **navigation** menu to make it easy to get around the pages
 
 - Just before the opening `<ul>` tag, press enter to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds in the closing tag for you, you can delete that for now.
 
-- Just _after_ the _closing_ `</ul>` tag, press enter to go onto a new line, and type in the closing tag `</nav>`. 
+- Just **after** the **closing** `</ul>` tag, press enter to go onto a new line, and type in the closing tag `</nav>`. 
 
 - Now, select your entire `nav` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way until just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted too!
 
@@ -53,4 +53,3 @@ title: Undo!
 
 Now you will be able to click the links no matter which page you are on. 
 
-- Remember to click Save when you're done!

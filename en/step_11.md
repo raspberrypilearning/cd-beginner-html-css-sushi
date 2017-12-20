@@ -14,7 +14,7 @@ Notice how you used **two selectors** instead of one? If you used the `ul` selec
 
  ![](images/egMenuBarFirstStyle.png)
 
-Let's get rid of the bullet points. These are the spots in front of each list item. 
+Let's get rid of the bullet points. Those are the spots in front of each list item. 
 
 - Go to the styles.css tab and add the following to the file. Again, type it on a new line after a `}` so it's not accidentally inside any other block of rules.
    ```css
@@ -36,7 +36,7 @@ Now let's make the list horizontal \(across\) instead of vertical \(down\).
       margin-left: 10px;
    }
    ```
-   Remember `10px` means 10 **pixels**.
+   Remember `10px` means ten **pixels**.
 
 How about making the menu change to to tell you which page you are on? This part won't be in the stylesheet.
 
@@ -57,4 +57,6 @@ How about making the menu change to to tell you which page you are on? This part
    </header>
    ```
 
-- Click Save and explore your pages. See how the menu bar shows the page you're on as plain text instead of a link? ![](images/egMenuBarOnPage.png)
+- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? ![](images/egMenuBarOnPage.png)
+
+On the next card you'll learn even more CSS tricks to make the menu bar look cool.
