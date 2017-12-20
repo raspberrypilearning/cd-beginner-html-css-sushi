@@ -12,7 +12,7 @@
 - Click the "Remix" button at the top right of the project \(if it is not green, you have to sign in and then click it again\). This creates a copy of the project for you to work with. It should say "remixed" after you click it
   ![](images/remixedWide.png)
 
-- Next to the "Sign Out" button at the very top right corner of the page you should see your username and a drop-down menu \(the tiny triangle tells you there is a drop-down\). Click on it to show the menu and then select "My Trinkets". 
+- Click on your username at the top right of the screen \(it's beside the "Sign Out" button\) and select "My Trinkets". 
   ![](images/MyTrinketsMenuWide.png)
 
   In Trinket \(this website\), projects are called "Trinkets"
@@ -23,8 +23,6 @@
 
 - To the top left above the code panel is the name of your project. If you want to change the name, click on it and type in a new name, then press Enter. The website in these Sushi Cards is about Ireland, but yours can be about anything you like.
 
-- Click the triangle icon next to the  button that says "Autorun" and select "Click To Run". 
-  ![](images/ClickToRunWide.png)
 
 - You are ready to start coding!
 

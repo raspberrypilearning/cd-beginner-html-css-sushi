@@ -1,44 +1,46 @@
-## Adding pictures
+## Making a list
 
-- Click on the image icon next to the **+** sign. This is where you can see the pictures that can be used on your website. For now you can use the picture included with the project. 
+On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into something that looks like this:
+  - unicorns
+  - robots
+  - cats 
+  
+- Go to the tab named index.html and add the following code:
 
-- Go to the index.html file in the code panel. After the `</ul>` tag, type the following: 
     ```html
-    <img src="tito.png" alt="Tito the dog" width="100px" />
+    <p>
+        My website about Ireland will have pages about:
+    </p>
+    <ul>
+        <li>Places to visit</li>
+        <li>Music</li>
+        <li>Things to eat</li>
+    </ul>
     ```
-    Here's what it should look like
-    
-   ![Picture of Tito](images/ImgTito2.png)
 
-- Notice that the `<img>` tag is different from the other tags you've used so far: 
+ The result should be a nice list like this: 
 
-   There is no closing `</img>` tag. Instead it is **self closing**: the opening tag has `/>` at the end. This is because there is no "start" and "end" like there is when you are putting text on the page. 
+  ![Unordered list](images/egUnorderedList.png)
 
-   The tag contains three extra pieces of information inside it called **attributes**. The `src` attribute tells the browser what file to use for the picture. The `alt` attribute is a short description that the browser will show if it cannot display the picture. 
+ Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 
 
-- What do you think the `width` attribute does? 
 
---- hints ---
+How about if you wanted a numbered list? It's almost the same, but instead of `ul`, you use `ol`. A numbered list is also called an **ordered** list. 
 
---- hint ---
-**px** is short for **pixels**, the teeny-tiny dots that make up your screen
+- Add the following code just above the line with `</main>` on it:
+   ```html
+   <p>
+      My favourite things to eat and drink in Ireland are:
+   </p>
+   <ol>
+      <li>Tea</li>
+      <li>Crisp sandwiches</li>
+      <li>Sausages</li>
+   </ol>
+   ```
+Here's what it should look like now 
 
---- /hint ---
-
---- /hints ---
-
-  Try experimenting with different numbers! Don't delete the letters `px`. 
-
-- To add a picture of your own to the website, click on the image icon again, and click "Add Image". Click "Upload" and then select "Click To Select Files". Select the file on your computer that you want to upload and click "Open". Click "Done" when you are finished uploading files.
-
-    ![Upload files](images/UploadFilesWider.png)
-
-- Once you have uploaded a picture you can add it to your website using the `<img>` tag as before. Change the value of the `src` attribute so that it exactly matches the name of the file with your picture. 
-
-- Change the value of the `alt` attribute to a short description of the picture. 
-  _Important:_ Attribute values like the filename and the alt text must be inside quotation marks!
-
-- Click Save to save your work and Run to see how it looks.
+    ![Ordered list](images/egOrderedList.png)
 
 
 

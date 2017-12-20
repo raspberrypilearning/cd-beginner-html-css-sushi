@@ -1,42 +1,90 @@
-## Making a list
+## Adding pictures
 
-- When writing a list, wouldn't it be nice if the text looked more like a proper list? Well, there are html tags that do just that! Go back to the tab named index.html and change the paragraph code so that it looks like this:
+Let's add a picture!
 
+- In the index.html file, after the `</ul>` tag, type the following: 
     ```html
-    <p>
-        My website is about Ireland. It is going to have the following pages:
-    </p>
-    <ul>
-        <li>Attractions</li>
-        <li>Music</li>
-        <li>Food</li>
-    </ul>
+    <img src="tito.png" alt="Tito the dog" width="100px" />
     ```
+    Here's what it should look like
+    
+   ![Picture of Tito](images/ImgTito2.png)
+- Try experimenting with different numbers in the `width` attribute and see if you can figure out what it does. Don't delete the letters `px`!
+
+--- hints ---
+
+--- hint ---
+`100px` means ten **pixels**, the teeny-tiny dots that make up your screen.
+
+--- /hint ---
+
+--- /hints ---
+
+--- collapse ---
+
+---
+title: [The img tag]
+---
+
+- Notice that the `<img>` tag is different from the other tags you've used so far: 
+
+   There is no closing `</img>` tag. Instead it is **self closing**: the opening tag has `/>` at the end. This is because there is no "start" and "end" like there is when you are putting text on the page. 
+
+   The tag contains three extra pieces of information inside it called **attributes**. 
+    - The `src` attribute tells the browser what file to use for the picture. 
+    - The `alt` attribute is a short description that the browser will show if it cannot display the picture. It also helps people using a screen reader to know what the picture is.
+
+--- /collapse ---
+
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+
+- The first thing you will need is a picture! You can either use a picture you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+
+--- collapse ---
+
+---
+title: [Getting pictures from the internet]
+---
+
+- Search for **images** of the thing you want a picture of.
+
+- When you find a picture that you like, click on it once to open it up full size.
+
+- Then, **right click** the picture and select "Save Image As..." \(**not** "Save Link As..."!\).
+
+- Type a short name in the box provided. 
+
+- Before you click "Save", make a note of which folder it will be saved into; it might be the Downloads folder. You will need to remember this to find the picture later! You can select a different folder if you wish. Finally, click "Save"
 
 
-- Click Run. See how the text got put into a nice list? 
+--- /collapse ---
 
-  ![Unordered list](images/egUnorderedList.png)
+Once you have a picture, you will **upload** the file to Trinket. 
 
-- The `<ul> </ul>` tags go around the whole list, and they turn it into the nice looking list you now have. "ul" stands for **unordered list**. This means a list with no numbers. Each thing in the list must be in between `<li> </li>` tags. "li" stands for **list item**. 
+- In your Trinket, click on the image icon next to the **+** sign. This is where you can see the pictures that can be used on your website. You should see the picture of Tito the CoderDojo dog.
 
-    Change the text in the list items to some pages that you would like to have in your website. Your website can be about anything you want, it doesn't have to be about your home country!
+- Click the button "Add Image" and then click "Upload". 
 
-- How about if you wanted a numbered list? It's almost the same, but instead of `ul`, you use `ol`, which stands for **ordered list**. Add the following code just above the line with the closing `</main>` tag:
-   ```html
-   <p>
-      These are the things I have learned to use in my website so far:
-   </p>
-   <ol>
-      <li>Headings</li>
-      <li>Paragraphs</li>
-      <li>A stylesheet</li>
-      <li>Lists!</li>
-   </ol>
-   ```
-- Click Run. Here's what it should look like now 
+- Click on the button "Click To Select Files". Find your picture and double click on it. 
 
-    ![Ordered list](images/egOrderedList.png)
+- Click "Done".
+
+    ![Upload files](images/UploadFilesWider.png)
+
+Your picture is uploaded and ready to use!
+
+- Go to the file index.html and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the file with your picture. Note that it might end in `.jpg` instead of `.png`!
+
+The text you just changed is the **attribute** called `src`. It tells the browser what file to display.
+
+  _Important:_ The value you type for an **attribute** must have quotation marks around it!
+
+--- challenge ---
+Find the `alt` **attribute** and change the text in it to a short description of your picture. 
+
+--- /challenge ---
+
+- Click Save to save your work!
 
 
 

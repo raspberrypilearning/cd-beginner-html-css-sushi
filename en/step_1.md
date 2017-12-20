@@ -14,10 +14,10 @@ Make a website about your home country.
 
 ### What you will learn
 
-- Using an online editor to make a website composed of HTML files and a CSS file
+- Using an online editor to create a website made up of HTML files and a CSS file
 - Building a HTML site that has headings, paragraph text, lists and images
 - Using CSS to control the look of your website including designing a simple menu bar and changing colours, backgrounds and borders
-- Linking pages to each other and also linking to external websites
-- Creating a table that includes headers and multiple rows.
+- Linking pages to each other and also linking to other websites
+- Creating a table that includes headings and multiple rows.
 - Using a text editor to edit and save a HTML file.
-- Using a web browser to open this file and display your website.
+- Using a web browser to open the HTML file and display your website.
