@@ -1,13 +1,14 @@
 ## Getting Setup
 
 - Go to [dojo.soy/html-b-start](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right hand side is the website, and on the left hand side is the code that makes the website.
-  ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
-- If you have an account on Trinket, click the "Remix" button at the top right of the project \(if you are not signed in, you will be prompted to do so. After you sign in you will need to click the Remix button again\). This creates a copy of the project for you to work with. 
+- If you have an account on Trinket, click the "Remix" button at the top right of the project \(if you are not signed in, you will be prompted to do so. Once you've signed in you will then need to click the Remix button again\). This creates a copy of the project for you to work with. 
+
 ![Remix button](images/tktRemixButtonArrow.png)
 
 It should say "remixed" after you click it
-  ![Button now says "remixed"](images/tktRemixedSmall.png)
+![Button now says "remixed"](images/tktRemixedSmall.png)
 
 You are ready to start coding!
 
@@ -24,7 +25,7 @@ However, having one allows you to access your work easily from any computer. It 
 - Enter your email address and choose a password, or ask somebody to do this for you.
 
 - You can now access all your saved or remixed projects by clicking on your username and going to "My Trinkets".
-  !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+!["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
 
 --- /collapse ---
 
