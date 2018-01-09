@@ -3,26 +3,20 @@
 On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into a nicer looking list that you can do cool things with later.
   
 - In the index.html file, add the following code just above the line with `</main>` on it:
-
     ```html
-    <p>
-        My website about Ireland will have these pages:
-    </p>
     <ul>
-        <li>Home</li>
-        <li>Places to visit</li>
-        <li>Music</li>
-        <li>Things to eat</li>
+        <li>Cows</li>
+        <li>Sheep</li>
+        <li>Foxes</li>
+        <li>Bats</li>
     </ul>
     ```
-- Change the text to things that your website will contain!
+The result should be a nice list like this: 
+![Unordered list](images/egUnorderedList.png)
 
- The result should be a nice list like this: 
+Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 
 
-  ![Unordered list](images/egUnorderedList.png)
-
- Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 
-
+This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a **paragraph** above the list to describe what it's a list of, if you like!
 
 How about if you wanted a numbered list? It's almost the same, but instead of `ul`, you use `ol`. A numbered list is also called an **ordered** list. 
 
@@ -38,11 +32,8 @@ How about if you wanted a numbered list? It's almost the same, but instead of `u
    </ol>
    ```
 Here's what it should look like now 
-
-    ![Ordered list](images/egOrderedList.png)
-
+![Ordered list](images/egOrderedList.png)
 
 ### Challenge
-
 - See if you can add **CSS rules** to your stylesheet to change how your lists look.
 
