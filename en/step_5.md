@@ -25,9 +25,9 @@ Notice that the `<img>` tag is different from the other tags you've used so far:
 There is no closing `</img>` tag. Instead it is **self closing**: the opening tag has `/>` at the end. This is because there is no "start" and "end" like there is when you are putting text on the page. 
 
 The tag contains extra pieces of information inside it called **attributes**. 
-    - The `src` attribute tells the browser what file to use for the picture. 
-    - The `alt` attribute is a short description that the browser will show if it cannot display the picture. It also helps people using a screen reader to know what the picture is.
-    - The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, the teeny-tiny dots that make up your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- The `src` attribute tells the browser what file to use for the picture. 
+- The `alt` attribute is a short description that the browser will show if it cannot display the picture. It also helps people using a screen reader to know what the picture is.
+- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, the teeny-tiny dots that make up your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
 --- /collapse ---
 
@@ -59,8 +59,10 @@ title: Getting pictures from the internet
 
 Once you have a picture, you will **upload** the file to Trinket: 
 
-- In your Trinket, click on the image icon next to the **+** sign. This is where you can see the pictures that can be used on your website. You should see the picture of Tito the CoderDojo dog.
+- In your Trinket, click on the image icon next to the **+** sign. 
 ![The image icon](images/tktImageIconArrow.png)
+
+This is where you can see the pictures that can be used on your website. You should see the picture of Tito the CoderDojo dog.
 
 - Click the button "Add Image" and then click "Upload". 
 
