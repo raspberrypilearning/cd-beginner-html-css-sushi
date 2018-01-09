@@ -4,11 +4,9 @@
 ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
 - If you have an account on Trinket, click the "Remix" button at the top right of the project \(if you are not signed in, you will be prompted to do so. Once you've signed in you will then need to click the Remix button again\). This creates a copy of the project for you to work with. 
-
- ![Remix button](images/tktRemixButtonArrow.png)
-
- It should say "remixed" after you click it
- ![Button now says "remixed"](images/tktRemixedSmall.png)
+  ![Remix button](images/tktRemixButtonArrow.png)
+  It should say "remixed" after you click it
+  ![Button now says "remixed"](images/tktRemixedSmall.png)
 
 You are ready to start coding!
 
