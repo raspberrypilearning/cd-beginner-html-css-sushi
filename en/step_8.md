@@ -26,7 +26,7 @@ On this card you'll learn how to make a link that takes you to another page when
 
     You just created your first link! Click on it to see if it works now.
 
-    ![Link tag](images/LinkTagWithURL.png)
+    ![Link tag](images/egLinkTagWithURL.png)
 
 --- collapse ---
 ---
@@ -50,7 +50,7 @@ You can put a link into other elements of your web page too, such as in a paragr
 
     ```html
       <p>
-        <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+         to read the Wikipedia page!
       </p>
     ```
 

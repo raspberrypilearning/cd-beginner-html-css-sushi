@@ -12,6 +12,7 @@ On this card you will learn how to turn a list of items, such as "unicorns, robo
     </ul>
     ```
 The result should be a nice list like this: 
+
 ![Unordered list](images/egUnorderedList.png)
 
 Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 
@@ -31,7 +32,8 @@ How about if you wanted a numbered list? It's almost the same, but instead of `u
       <li>Sausages</li>
    </ol>
    ```
-Here's what it should look like now 
+Here's what it should look like now:
+
 ![Ordered list](images/egOrderedList.png)
 
 ### Challenge
