@@ -1,10 +1,10 @@
 ## Controlling how it looks
 
+The code that describes what a website looks like is called **CSS**.
+
 - Look at the tabs in the code panel and go to the file **styles.css** by clicking on the tab with that name.
 
- **CSS** is the code that describes what a website looks like.
-
- The file contains the following text:
+The file contains the following text:
 
    ```css
    body {
@@ -12,14 +12,15 @@
    }
    ```
 
-- Change the colour to `LightSkyBlue`, and see what happens. Your website should now have a blue background! ![](images/egFirstCSSbluebg.png)
+- Change the colour to `LightSkyBlue`, and see what happens. Your website should now have a blue background! 
+  ![Example with blue background](images/egFirstCSSbluebg.png)
 
 --- collapse ---
 ---
 title: How does it work?
 ---
 
-If you look at the top of the index.html file, you will see the following line:
+If you look at the top of the **index.html** file, you will see the following line:
 
    ```html
     <link type="text/css" rel="stylesheet" href="styles.css"/>
@@ -52,6 +53,7 @@ Look at how it changed the web page.
 The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your web page.
 
 - You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` **selector**. Add the following code to the styles.css file, below the closing curly brace.
+
    ```css
    h1 {
       color: orange;
@@ -59,7 +61,8 @@ The `color` property is always for text. Here, you are setting the colour of all
    }
    ```
 
-Your heading should be orange now, with the paragraph purple as before. ![](images/egCssColorsFonts.png)
+Your heading should be orange now, with the paragraph purple as before. 
+  ![Result of new CSS code](images/egCssColorsFonts.png)
 
 Notice how the letters also look different as well as being a different colour? This is because you changed the **font family**. You can see some more fonts at [dojo.soy/font-families](http://dojo.soy/web-font-families)
 
