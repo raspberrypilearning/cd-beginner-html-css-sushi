@@ -2,7 +2,8 @@
 
 - In the left-hand panel, the **code panel**, click on the tab that says "index.html".
 
-- Find the line that says "Welcome to Ireland!" and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. ![HTML paragraph example](images/egFirstHtmlCode.png)
+- Find the line that says "Welcome to Ireland!" and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
+![HTML paragraph example](images/egFirstHtmlCode.png)
 
 - Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
   ```html
@@ -73,8 +74,7 @@ Everything in between the `<body>` and `</body>` tags is your web page.
   ```
   Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 
-
- ![Example of HTML tags](images/egFirstTags.png)
+![Example of HTML tags](images/egFirstTags.png)
 
 Congratulations, you've built your first web page! On the next card you'll find out how to control how it looks.
 
