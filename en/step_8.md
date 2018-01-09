@@ -49,20 +49,9 @@ Trinket has trouble with some links. You can try URLs for other websites than Wi
 You can put a link into other elements of your web page too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
    ```html
    <p>
-      read the Wikipedia page!
+      <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
    </p>
-   <ol>
-      <li>Tea</li>
-      <li>Crisp sandwiches</li>
-      <li>Sausages</li>
-   </ol>
    ```
-
-    ```html
-      <p>
-         to read the Wikipedia page!
-      </p>
-    ```
 
 ### Challenge!
 - See if you can make a **list** that contains a link inside one of the **list items**.
