@@ -47,6 +47,16 @@ Trinket has trouble with some links. You can try URLs for other websites than Wi
 - Click on your picture. Do you see that it was turned into a link?
 
 You can put a link into other elements of your web page too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+   ```html
+   <p>
+      read the Wikipedia page!
+   </p>
+   <ol>
+      <li>Tea</li>
+      <li>Crisp sandwiches</li>
+      <li>Sausages</li>
+   </ol>
+   ```
 
     ```html
       <p>
