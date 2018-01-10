@@ -27,10 +27,11 @@ A **browser** is the program you use to look at websites, for example Chrome or 
 The code for paragraphs looks like this:
 
 ```html
-  <p>This is one paragraph of text.</p>
+<p>This is one paragraph of text.</p>
 
-  <p>This is another paragraph.
-  Everything in between one set of p tags is displayed together in one long line.</p>
+<p>This is another paragraph.
+Everything in between one set of p tags is 
+displayed together in one long line on the web page.</p>
 ```
 
 --- /hint ---
@@ -40,8 +41,9 @@ The code for paragraphs looks like this:
 
 The code for headings looks like this:
 ```html
-  <h1>This is a heading. It will normally be displayed bigger or bolder than the paragraphs.</h1>
+  <h1>This is a heading.</h1>
 ```
+Headings will normally be displayed bigger or bolder than the paragraphs.
 
 --- /hint ---
 
@@ -75,7 +77,8 @@ Everything in between the `<body>` and `</body>` tags is your web page.
     It is going to have the following pages: Attractions, Music, Food
   </p>
 ```
-  Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+
+Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 
 ![Example of HTML tags](images/egFirstTags.png)
 

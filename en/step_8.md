@@ -20,7 +20,7 @@ The `<a> </a>` tag turns something into a link.
 
 - In your Trinket, click in between the quotation marks after `href=` and press the **Ctrl** \(or **cmd**\) and **V** keys together to **paste** in the URL you just copied. Your code should look something like this now:
 ```html
-<a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
 ```
 You just created your first link! Click on it to see if it works now.
 
@@ -35,11 +35,11 @@ Trinket has trouble with some links. You can try URLs for other websites than Wi
 --- /collapse ---
 
 - Try putting a picture in between the `<a> </a>` tags instead of the words "Click here", like this:
-    ```html
-    <a href="https://en.wikipedia.org/wiki/Ireland">
-        <img src="tito.png" alt="Tito the dog" width="100px" />
-    </a>
-    ```
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">
+      <img src="tito.png" alt="Tito the dog" width="100px" />
+  </a>
+```
 
 - Click on your picture. Do you see that it was turned into a link?
 

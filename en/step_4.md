@@ -3,7 +3,6 @@
 The code that describes what a website looks like is called **CSS**.
 
 - Look at the tabs in the code panel and go to the file **styles.css** by clicking on the tab with that name.
-
 The file contains the following text:
 ```css
   body {
@@ -40,12 +39,13 @@ Each rule inside the curly braces is made up of
 --- /collapse ---
 
 - Lets add rules to change how the text looks. Add two new lines inside the curly braces like this:
+
 ```css
-  body {
-    background-color: LightSkyBlue;
-    font-family: "Helvetica", sans-serif;
-    color: purple;
-  }
+body {
+  background-color: LightSkyBlue;
+  font-family: "Helvetica", sans-serif;
+  color: purple;
+}
 ```
 Look at how it changed the web page. 
 
@@ -58,7 +58,6 @@ The `color` property is always for text. Here, you are setting the colour of all
     font-family: "Times New Roman", serif;
   }
 ```
-
 Your heading should be orange now, with the paragraph purple as before. 
 
 ![Result of new CSS code](images/egCssColorsFonts.png)

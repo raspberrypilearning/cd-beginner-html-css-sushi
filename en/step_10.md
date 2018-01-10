@@ -18,16 +18,16 @@ Many websites have a **navigation** menu to make it easy to get around the pages
 
 - At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now **paste** in the code by pressing **Ctrl** \(or **cmd**\) and **V** together as usual. The code should look something like this:
 ```html
-<header>
-    <nav>
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Attractions</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Food</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Food</a></li>
+            </ul>
+        </nav>
+    </header>
 ```
 
 --- collapse ---
