@@ -6,9 +6,9 @@ The code that describes what a website looks like is called **CSS**.
 
 The file contains the following text:
 ```css
-body {
-    background-color: white;
-}
+  body {
+      background-color: white;
+  }
 ```
 
 - Change the colour to `LightSkyBlue`, and see what happens. Your website should now have a blue background! 
@@ -41,11 +41,11 @@ Each rule inside the curly braces is made up of
 
 - Lets add rules to change how the text looks. Add two new lines inside the curly braces like this:
 ```css
-body {
-  background-color: LightSkyBlue;
-  font-family: "Helvetica", sans-serif;
-  color: purple;
-}
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
 ```
 Look at how it changed the web page. 
 
@@ -53,10 +53,10 @@ The `color` property is always for text. Here, you are setting the colour of all
 
 - You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` **selector**. Add the following code to the styles.css file, below the closing curly brace.
 ```css
-h1 {
-  color: orange;
-  font-family: "Times New Roman", serif;
-}
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
 ```
 
 Your heading should be orange now, with the paragraph purple as before. 
