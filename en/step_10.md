@@ -17,7 +17,6 @@ Many websites have a **navigation** menu to make it easy to get around the pages
 - You are going to **cut** this time instead of **copy**. Press and hold the **Ctrl** \(or **cmd**\) key and while holding it press the **X** key. The code will disappear but don't panic!
 
 - At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now **paste** in the code by pressing **Ctrl** \(or **cmd**\) and **V** together as usual. The code should look something like this:
-
 ```html
 <header>
     <nav>
