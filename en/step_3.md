@@ -3,12 +3,13 @@
 - In the left-hand panel, the **code panel**, click on the tab that says "index.html".
 
 - Find the line that says "Welcome to Ireland!" and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
+
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
 - Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
-  ```html
-    <h1>Welcome to Ireland!</h1>
-  ```
+```html
+<h1>Welcome to Ireland!</h1>
+```
 
 - Try adding a new paragraph or heading to your page using some of these tags.
 
@@ -23,12 +24,12 @@ A **browser** is the program you use to look at websites, for example Chrome or 
 --- hint ---
 
 The code for paragraphs looks like this:
-  ```html
-    <p>This is one paragraph of text.</p>
+```html
+<p>This is one paragraph of text.</p>
 
-    <p>This is another paragraph.
-    Everything in between one set of p tags is displayed together in one long line.</p>
-  ```
+<p>This is another paragraph.
+Everything in between one set of p tags is displayed together in one long line.</p>
+```
 
 --- /hint ---
 
@@ -36,9 +37,9 @@ The code for paragraphs looks like this:
 --- hint ---
 
 The code for headings looks like this:
-  ```html
-    <h1>This is a heading. It will normally be displayed bigger or bolder than the paragraphs.</h1>
-  ```
+```html
+<h1>This is a heading. It will normally be displayed bigger or bolder than the paragraphs.</h1>
+```
 
 --- /hint ---
 
@@ -66,12 +67,12 @@ Everything in between the `<body>` and `</body>` tags is your web page.
 
 
 - Lastly, find the code for the paragraph that says "My website is about Ireland" and change it so that it looks like this:
-   ```html
-      <p>
-         <em>My website</em> is about <strong>Ireland</strong>. 
-         It is going to have the following pages: Attractions, Music, Food
-      </p>
-  ```
+```html
+<p>
+  <em>My website</em> is about <strong>Ireland</strong>. 
+  It is going to have the following pages: Attractions, Music, Food
+</p>
+```
   Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 
 ![Example of HTML tags](images/egFirstTags.png)

@@ -13,6 +13,7 @@ On this card you will learn how to turn a list of items, such as "unicorns, robo
     ```
 
 The result should be a nice list like this: 
+
 ![Unordered list](images/egUnorderedList.png)
 
 Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 

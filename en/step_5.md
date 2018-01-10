@@ -3,12 +3,12 @@
 Let's add a picture!
 
 - Go to the tab named index.html. Find the `</main>` tag and type the following above it: 
-
-    ```html
-    <img src="tito.png" alt="Tito the dog" width="100px" />
-    ```
-    Here's what the result should look like:
-    ![Image code and picture of Tito](images/egImgCodeTito.png)
+```html
+<img src="tito.png" alt="Tito the dog" width="100px" />
+```
+Here's what the result should look like:
+    
+![Image code and picture of Tito](images/egImgCodeTito.png)
 
 Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
@@ -47,19 +47,18 @@ title: Getting pictures from the internet
 
 - Then, **right click** the picture and select "Save Image As..." \(**not** "Save Link As..."\).
 
-
-   ![Menu with Save Image As selected](images/saveImgAs.png)
+![Menu with Save Image As selected](images/saveImgAs.png)
 
 - Type a short name in the box provided. 
 
 - Before you click "Save", make a note of which folder it will be saved into; it might be the Downloads folder. You will need to remember this to find the picture later! You can select a different folder if you wish. Finally, click "Save"
-
 
 --- /collapse ---
 
 Once you have a picture, you will **upload** the file to Trinket: 
 
 - In your Trinket, click on the image icon next to the **+** sign. 
+
 ![The image icon](images/tktImageIconArrow.png)
 
 This is where you can see the pictures that can be used on your website. You should see the picture of Tito the CoderDojo dog.
@@ -70,7 +69,7 @@ This is where you can see the pictures that can be used on your website. You sho
 
 - Click "Done".
 
-    ![Image upload area](images/tktUploadImages.png)
+![Image upload area](images/tktUploadImages.png)
 
 Your picture is uploaded and ready to use!
 

@@ -2,7 +2,7 @@
 
 Many websites have a **navigation** menu to make it easy to get around the pages. Now that you've got a bunch of pages, a homepage, and a links to each page, let's move the list of links to a navigation section at the top of every page. 
 
-![](images/egNavLinksAtTop.png)
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
 - Find the code for your list of links that you created in the previous step.
 
@@ -12,7 +12,7 @@ Many websites have a **navigation** menu to make it easy to get around the pages
 
 - Now, select your entire `nav` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way until just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted too!
 
-![](images/egSelectedYayWoops.png)
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
 - You are going to **cut** this time instead of **copy**. Press and hold the **Ctrl** \(or **cmd**\) key and while holding it press the **X** key. The code will disappear but don't panic!
 
