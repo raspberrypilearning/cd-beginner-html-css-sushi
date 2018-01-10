@@ -23,7 +23,7 @@ The same technique works for Google maps as well.
 
 - Click on the result, then find the Share button and get the code and add it to your website as above. 
 
-  ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
 
 - If you look carefully you should be able to find `width` and `height` **attributes** in the pasted code. You can change the values to make the map appear bigger or smaller.
   ![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
