@@ -6,7 +6,7 @@ On this card you'll learn how to make a link that takes you to another page when
   ```html
   <a href="">Click here</a>
   ```
- The `<a> </a>` tag turns something into a link. 
+The `<a> </a>` tag turns something into a link. 
  
 - Try clicking your link to see what happens. It does nothing, right? 
   That's because the `href` **attribute** is empty at the moment. It needs to contain the **URL** \(web address\) of the page that you're linking to.
@@ -21,7 +21,6 @@ On this card you'll learn how to make a link that takes you to another page when
 ```html
 <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
 ```
-
   You just created your first link! Click on it to see if it works now.
 
   ![Link tag](images/egLinkTagWithURL.png)
