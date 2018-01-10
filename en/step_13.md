@@ -6,7 +6,7 @@ A table is a grid made up of **rows** and **columns**. Most tables also include 
 
 \(include a sample table if possible with markdown\)
 
-- Go to the file page\_with\_table.html. There you will see a bunch of code in between `<table> </table>` tags. 
+- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags. 
 
 - Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and **copy** it. Then go to one of your files where you would like to put a table and **paste** in the code.
 

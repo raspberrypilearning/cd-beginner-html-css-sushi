@@ -1,8 +1,8 @@
 ## Your first web page!
 
-- In the left-hand panel, the **code panel**, click on the tab that says "index.html".
+- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
 
-- Find the line that says "Welcome to Ireland!" and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
+- Find the line that says `Welcome to Ireland!` and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
@@ -56,7 +56,7 @@ title: HTML and tags explained
 ---
 **HTML** is the code that makes a web page.
 
-The **.html** in the filename tells the browser that the file is a web page, so it looks for the tags telling it what to display. 
+The `.html` in the filename tells the browser that the file is a web page, so it looks for the tags telling it what to display. 
 
 HTML **tags** define different pieces of a page, for example paragraphs and headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
 
@@ -71,7 +71,7 @@ Everything in between the `<body>` and `</body>` tags is your web page.
 - Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the **opening** and **closing** tag so that they match.
 
 
-- Lastly, find the code for the paragraph that says "My website is about Ireland" and change it so that it looks like this:
+- Lastly, find the code for the paragraph that says `My website is about Ireland` and change it so that it looks like this:
 
 ```html
   <p>

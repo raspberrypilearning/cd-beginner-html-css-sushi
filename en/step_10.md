@@ -14,9 +14,9 @@ Many websites have a **navigation** menu to make it easy to get around the pages
 
 ![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
-- You are going to **cut** this time instead of **copy**. Press and hold the **Ctrl** \(or **cmd**\) key and while holding it press the **X** key. The code will disappear but don't panic!
+- You are going to **cut** this time instead of **copy**. Press and hold the `Ctrl` \(or `cmd`\) key and while holding it press the `X` key. The code will disappear but don't panic!
 
-- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now **paste** in the code by pressing **Ctrl** \(or **cmd**\) and **V** together as usual. The code should look something like this:
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now **paste** in the code by pressing `Ctrl` \(or `cmd`\) and `V` together as usual. The code should look something like this:
 
 ```html
     <header>
@@ -36,7 +36,7 @@ Many websites have a **navigation** menu to make it easy to get around the pages
 title: Undo!
 ---
 
-   If you make a mistake, you can **undo** it by pressing **Ctrl** \(or **cmd**\) and **Z** together. You can usually press it a few times to undo the last couple of changes. This is another handy shortcut that you can use in many programs!
+If you make a mistake, you can **undo** it by pressing `Ctrl` \(or `cmd`\) and `Z` together. You can usually press it a few times to undo the last couple of changes. This is another handy shortcut that you can use in many programs!
 
 --- /collapse ---
 
@@ -47,7 +47,7 @@ title: Undo!
  --- hints ---
 
  --- hint ---
- Select the entire `nav` section like you did before, and press the **Ctrl** \(or **cmd**\) and **C** keys together to **copy** it. 
+ Select the entire `nav` section like you did before, and press the `Ctrl` \(or `cmd`\) and `C` keys together to **copy** it. 
  
  Then, in each of your html files, click inside the `<header> </header>` section and **paste** the code exactly like you did above.
  --- /hint ---

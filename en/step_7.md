@@ -2,7 +2,7 @@
 
 On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into a nicer looking list that you can do cool things with later.
   
-- In the index.html file, add the following code just above the line with `</main>` on it:
+- In the `index.html` file, add the following code just above the line with `</main>` on it:
 
 ```html
     <ul>

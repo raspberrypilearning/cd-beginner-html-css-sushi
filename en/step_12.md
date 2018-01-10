@@ -2,7 +2,7 @@
 
 With CSS, the possibilities for making your menu bar look great are endless. 
 
-- Open the styles.css file again \(the place where the magic happens!\).
+- Open the `styles.css` file again \(the place where the cool stuff happens!\).
 
 - Find your `nav ul` selector and add more rules so that it looks like this:
 

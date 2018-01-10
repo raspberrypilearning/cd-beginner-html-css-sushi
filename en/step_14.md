@@ -2,15 +2,15 @@
 
 Let's download your code and look at it! 
 
-- At the top left corner of the code panel, click on the menu icon that looks like three lines, and click Download. 
+- At the top left corner of the code panel, click on the menu icon that looks like three lines, and click **Download**. 
 
 ![The menu button](images/tktMenuButton.png) ![Menu with the Download option circled](images/tktDownloadMenuCircled.png)
 
 A zip file will be downloaded. It contains all the files for your website. 
 
-- Open up the zip file and find the file called index.html. Remember this file is your homepage. 
+- Open up the zip file and find the file called `index.html`. Remember, this file is your homepage. 
 
-- Double click on index.html to open it up in a **browser**. Click the links and explore your website in all its glory!
+- Double click on `index.html` to open it up in a **browser**. Click the links and explore your website in all its glory!
 
 Can you see the page title at the top of the tab or window? Notice the title on each page. This is the text you put in between the `<title> </title>` tags.
 
@@ -18,7 +18,7 @@ Can you see the page title at the top of the tab or window? Notice the title on 
 
 - Leave the browser window open, and go back to the window with the list of files. 
 
-- Find index.html again. This time right click it \(to "right click" on a Mac, either click and hold, or click with two fingers!\), select "Open With &gt;" and choose a plain text editor such as Notepad, Notepad++ or Sublime Text. 
+- Find `index.html` again. This time right click it \(to "right click" on a Mac, either click and hold, or click with two fingers!\), select `Open With >` and choose a plain text editor such as Notepad, Notepad++ or Sublime Text. 
 
 You should see all the HTML tags, like in the code panel on Trinket.
 

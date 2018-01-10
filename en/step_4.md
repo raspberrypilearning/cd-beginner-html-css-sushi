@@ -2,7 +2,7 @@
 
 The code that describes what a website looks like is called **CSS**.
 
-- Look at the tabs in the code panel and go to the file **styles.css** by clicking on the tab with that name.
+- Look at the tabs in the code panel and go to the file `styles.css` by clicking on the tab with that name.
 The file contains the following text:
 
 ```css
@@ -20,12 +20,13 @@ The file contains the following text:
 title: How does it work?
 ---
 
-If you look at the top of the **index.html** file, you will see the following line:
+If you look at the top of the `index.html` file, you will see the following line:
+
 ```html
-<link type="text/css" rel="stylesheet" href="styles.css"/>
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named styles.css. This special file is called a **stylesheet**. You can recognise a stylesheet file by the **.css** in its name. 
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **stylesheet**. You can recognise a stylesheet file by the `.css` in its name. 
   
 A stylesheet contains rules for what each element on your page should look like.
 
@@ -53,7 +54,7 @@ Look at how it changed the web page.
 
 The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your web page.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` **selector**. Add the following code to the styles.css file, below the closing curly brace.
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` **selector**. Add the following code to the `styles.css` file, below the closing curly brace.
 
 ```css
   h1 {

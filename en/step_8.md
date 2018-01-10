@@ -2,7 +2,7 @@
 
 On this card you'll learn how to make a link that takes you to another page when clicked.
 
-- Add the following code to index.html:
+- Add the following code to `index.html`:
 
 ```html
   <a href="">Click here</a>
@@ -15,11 +15,11 @@ The `<a> </a>` tag turns something into a link.
 
 - Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
 
-- Click in the address bar and select all of the text. That's the whole **URL** of the page you're on. Press the **Ctrl** \(or **cmd**\) and **C** keys together to **copy** it. 
+- Click in the address bar and select all of the text. That's the whole **URL** of the page you're on. Press the `Ctrl` \(or `cmd`\) and `C` keys together to **copy** it. 
 
   ![URL in address bar](images/AddressBarURL.png)
 
-- In your Trinket, click in between the quotation marks after `href=` and press the **Ctrl** \(or **cmd**\) and **V** keys together to **paste** in the URL you just copied. Your code should look something like this now:
+- In your Trinket, click in between the quotation marks after `href=` and press the `Ctrl` \(or `cmd`\) and `V` keys together to **paste** in the URL you just copied. Your code should look something like this now:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
@@ -37,7 +37,7 @@ Trinket has trouble with some links. You can try URLs for other websites than Wi
 
 --- /collapse ---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words "Click here", like this:
+- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
