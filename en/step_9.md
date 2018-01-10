@@ -3,6 +3,7 @@
 This card will show you how to add more pages to your website.
 
 - At the top of the code panel, click on the **+** symbol next to the tabs and type in a name for your new file. It must end in **.html** \(including the dot!\) so that the browser knows it's a web page.
+![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
 --- collapse ---
 ---
@@ -16,19 +17,19 @@ You might be wondering why you can't change the name of the index.html file. "in
 
 --- /collapse ---
 
-- Find the file blank\_page.html and **copy** and **paste** all of the code from it into your new file.
+- Find the file **blank\_page.html** and **copy** and **paste** all of the code from it into your new file.
 
 --- collapse ---
 ---
 title: How to copy and paste
 ---
 - Go the the file blank\_page.html in the code panel \(by clicking on the tab with that name\). Select all of the text in the file by doing the following: Click anywhere on the code, then press and hold the **Ctrl** key \(or if you are using a Mac, the **cmd** key\) and while holding it, press the **A** key at the same time. Notice how all the text becomes highlighted.
-![](images/SelectAll.png)
+![All the code selected in the blank_page.html file](images/egBlankPageSelectAll.png)
 
 - Now, with the text selected, press and hold the **Ctrl** \(or **cmd**\) key again and then while holding it press the **C** key. This **copies** everything that was selected.
 
 - Go to your new file and click inside the code panel \(which is blank at the moment\). Press and hold the **Ctrl** \(or **cmd**\) key and then while holding it, press the **V** key. This **pastes** everything that was copied into your new page.
-
+![After pasting the code into another html file](images/egBlankPageCodePasted.png)
   You can use these keyboard shortcuts in most programs to **copy** and **paste** stuff, including text and files!
 --- /collapse ---
 
@@ -39,6 +40,7 @@ title: How to copy and paste
 - Repeat the steps above for each new page that you want to add. 
 
 - When there are too many tabs to be able to see them all, you can use the **<** and **>** icons in the top left corner of the tabs to scroll between them.
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
 Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
@@ -57,4 +59,5 @@ Now you need to make links so that you can get to each of your new pages! Let's 
 - Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
 
 Now you can navigate to your new pages! 
+![Example list of links on a web page](images/egListOfPageLinks.png)
 
