@@ -4,7 +4,7 @@ Let's add a picture!
 
 - Go to the tab named index.html. Find the `</main>` tag and type the following above it: 
 ```html
-<img src="tito.png" alt="Tito the dog" width="100px" />
+    <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 Here's what the result should look like:
     

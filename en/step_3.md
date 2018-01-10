@@ -7,8 +7,9 @@
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
 - Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
+
 ```html
-  <h1>Welcome to Ireland!</h1>
+<h1>Welcome to Ireland!</h1>
 ```
 
 - Try adding a new paragraph or heading to your page using some of these tags.
