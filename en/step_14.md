@@ -3,7 +3,8 @@
 Let's download your code and look at it! 
 
 - At the top left corner of the code panel, click on the menu icon that looks like three lines, and click Download. 
-  ![](images/DownloadMenuCircled.png)
+
+![The menu button](images/tktMenuButton.png) ![Menu with the Download option circled](images/tktDownloadMenuCircled.png)
 
 A zip file will be downloaded. It contains all the files for your website. 
 
@@ -13,7 +14,7 @@ A zip file will be downloaded. It contains all the files for your website.
 
 Can you see the page title at the top of the tab or window? Notice the title on each page. This is the text you put in between the `<title> </title>` tags.
 
-  ![](images/LocalFileWindowTitle.png)
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
 - Leave the browser window open, and go back to the window with the list of files. 
 
@@ -27,7 +28,7 @@ As you've seen, a web page is just made up of text, with tags to control it. Now
 
 - Congratulations! Why not share your project with other people to show it off? Click the Share button (next to the Save button) and select one of the options.
 
-![](images/badge-footer-image-html-beginner.png)
+![Claim your badge on the CoderDojo website](images/badge-footer-image-html-beginner.png)
 
 
 

@@ -49,14 +49,15 @@ title: How to copy and paste
 Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
 - In the **index.html** file, add the following code:
-   ```html
-   <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="attractions.html">Places to visit</a></li>
-      <li><a href="music.html">Music</a></li>
-      <li><a href="food.html">Things to eat</a></li>
-   </ul>
-   ```
+
+```html
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Places to visit</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="food.html">Things to eat</a></li>
+    </ul>
+```
 
 - Change the value of the `href` **attribute** for each link \(rememeber, that's the text inside the quotation marks\) so that it exactly matches the name of each new file that you created. 
 

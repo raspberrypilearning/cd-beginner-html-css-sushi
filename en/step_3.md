@@ -27,11 +27,11 @@ A **browser** is the program you use to look at websites, for example Chrome or 
 The code for paragraphs looks like this:
 
 ```html
-<p>This is one paragraph of text.</p>
+  <p>This is one paragraph of text.</p>
 
-<p>This is another paragraph.
-Everything in between one set of p tags is 
-displayed together in one long line on the web page.</p>
+  <p>This is another paragraph.
+  Everything in between one set of p tags is 
+  displayed together in one long line on the web page.</p>
 ```
 
 --- /hint ---
@@ -40,6 +40,7 @@ displayed together in one long line on the web page.</p>
 --- hint ---
 
 The code for headings looks like this:
+
 ```html
   <h1>This is a heading.</h1>
 ```
