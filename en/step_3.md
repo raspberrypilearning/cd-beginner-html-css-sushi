@@ -9,7 +9,7 @@
 - Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
 
 ```html
-<h1>Welcome to Ireland!</h1>
+  <h1>Welcome to Ireland!</h1>
 ```
 
 - Try adding a new paragraph or heading to your page using some of these tags.
@@ -71,6 +71,7 @@ Everything in between the `<body>` and `</body>` tags is your web page.
 
 
 - Lastly, find the code for the paragraph that says "My website is about Ireland" and change it so that it looks like this:
+
 ```html
   <p>
     <em>My website</em> is about <strong>Ireland</strong>. 
