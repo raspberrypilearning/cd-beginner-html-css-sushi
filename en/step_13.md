@@ -1,10 +1,27 @@
 ## Adding a table
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school. Or, in this example, songs!
+Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
 
 A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example of a table:
 
-<table>
+![Example of information in a table](images/egTableResult.png)
+
+
+- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags. 
+
+- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and **copy** it. Then go to one of your files where you would like to put a table and **paste** in the code.
+
+At the moment your table is empty. 
+
+- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and also in between the `<th> </th>` tags. You can add more tags if you need to.
+
+--- hints ---
+--- hint ---
+
+The HTML code for the table shown above looks like this:
+
+```html
+  <table>
     <tr>
       <th>Name of pet</th>
       <th>Animal</th>
@@ -31,57 +48,21 @@ A table is a grid made up of **rows** and **columns**. Most tables also include 
       <td>Green and yellow</td>
     </tr>
   </table>
+```
 
-| Name of pet | Animal | Colour |
-| ----------- | ------ | ------ |
-| Mia         | Cat    | Black and fluffy |
-| Tito        | Dog    | Black with brown patches |
-| Honeycomb   | Guinea Pig | White with orange patches |
-| Alfie       | Budgie | Green and yellow |
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags. 
+--- /hint ---
+--- /hints ---
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and **copy** it. Then go to one of your files where you would like to put a table and **paste** in the code.
 
-At the moment your table is empty. 
+To add another **row**, you add another set of `<tr> </tr>` tags. In between them you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and also in between the `<th> </th>` tags. You can add more tags if you need to. The example below might help you if you're stuck.
+To add another **column** you add an extra **data** item with a set of `<td> </td>` tags onto every row. You also add an extra **header** item to the first row, using `<th> </th>` tags.
 
 --- collapse ---
 ---
 title: How does it work?
 ---
-
-Here's an example of a table filled with information
-
-```html
-  <table>
-    <tr>
-      <th>Artist</th>
-      <th>Song</th>
-      <th>Year</th>
-    </tr>
-    <tr>
-      <td>Thin Lizzy</td>
-      <td>The Boys Are Back In Town</td>
-      <td>1976</td>
-    </tr>
-    <tr>
-      <td>Sinead O'Connor</td>
-      <td>Nothing Compares 2 U</td>
-      <td>1990</td>
-    </tr>
-    <tr>
-      <td>The Cranberries</td>
-      <td>Linger</td>
-      <td>1994</td>
-    </tr>
-  </table>
-```
-
-And here's what it looks like on the website 
-
-![Example of a HTML table on a web page](images/TableResult2.png)
 
 Let's have a look at all those tags. It's a bit like the code for a list \(remember `<ul>` and `<ol>`?\) but with more levels.
 
@@ -92,10 +73,6 @@ The first row contains `<th> </th>` tags. These are used for the **headers**, so
 The `<td> </td>` tags define what's called **table data**, and that's what goes in all the other rows. These are like the list item `<li> </li>` tags in a list: everything in between them is one item in your table row.
 
 --- /collapse ---
-
-To add another **row**, you add another set of `<tr> </tr>` tags. In between them you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
-
-To add another **column** you add an extra **data** item with a set of `<td> </td>` tags onto every row. You also add an extra **header** item to the first row, using `<th> </th>` tags.
 
 - If you look at the end of the styles.css file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border and background colours to design your own style.
 
