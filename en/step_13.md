@@ -4,11 +4,39 @@ Sometimes it can be useful to show information in a table. For example, you migh
 
 A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example of a table:
 
+<table>
+    <tr>
+      <th>Name of pet</th>
+      <th>Animal</th>
+      <th>Colour</th>
+    </tr>
+    <tr>
+      <td>Mia</td>
+      <td>Cat</td>
+      <td>Black and fluffy</td>
+    </tr>
+    <tr>
+      <td>Tito</td>
+      <td>Dog</td>
+      <td>Black with brown patches</td>
+    </tr>
+    <tr>
+      <td>Honeycomb</td>
+      <td>Guinea Pig</td>
+      <td>White with orange patches</td>
+    </tr>
+    <tr>
+      <td>Alfie</td>
+      <td>Budgie</td>
+      <td>Green and yellow</td>
+    </tr>
+  </table>
+
 | Name of pet | Animal | Colour |
 | ----------- | ------ | ------ |
 | Mia         | Cat    | Black and fluffy |
 | Tito        | Dog    | Black with brown patches |
-| Honeycomb   | Guinea Pig | White with a orange patches |
+| Honeycomb   | Guinea Pig | White with orange patches |
 | Alfie       | Budgie | Green and yellow |
 
 - Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags. 
