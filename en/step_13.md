@@ -2,9 +2,14 @@
 
 Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school. Or, in this example, songs!
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**.
+A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example of a table:
 
-\(include a sample table if possible with markdown\)
+| Name of pet | Animal | Colour |
+| ----------- | ------ | ------ |
+| Mia         | Cat    | Black and fluffy |
+| Tito        | Dog    | Black with brown patches |
+| Honeycomb   | Guinea Pig | White with a orange patches |
+| Alfie       | Budgie | Green and yellow |
 
 - Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags. 
 
