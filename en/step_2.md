@@ -15,9 +15,7 @@ You are ready to start coding!
 title: Using Trinket without creating an account
 ---
 
-If you don't have an account on Trinket, you can save your work by using one of the options in the **Share** menu.
-
-You will get a link that you can either store somewhere, for example, in a document or send to someone via email.
+If you don't have an account on Trinket, you can save your work by using one of the options in the **Share** menu. You will get a link that you can either store somewhere, for example, in a document or send to someone via email.
 Note: each time you make a change, you will get a new link.
 
 --- /collapse ---
