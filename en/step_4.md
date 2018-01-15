@@ -67,7 +67,7 @@ Your heading should be orange now, with the paragraph purple as before.
 
 ![Result of new CSS code](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed the **font family**. You can see some more fonts at [dojo.soy/font-families](http://dojo.soy/web-font-families)
+Notice how the letters also look different as well as being a different colour? This is because you changed the **font family**. You can see some more fonts at [dojo.soy/web-font-families](http://dojo.soy/web-font-families)
 
 - Try adding a set of rules for the `<h2>` headings, using the `h2` selector. 
 

@@ -6,7 +6,6 @@ A table is a grid made up of **rows** and **columns**. Most tables also include 
 
 ![Example of information in a table](images/egTableResult.png)
 
-
 - Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags. 
 
 - Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and **copy** it. Then go to one of your files where you would like to put a table and **paste** in the code.
