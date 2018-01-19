@@ -18,7 +18,7 @@ You might be wondering why you can't change the name of the `index.html` file. `
 
 --- /collapse ---
 
-- Find the file `blank\_page.html` and **copy** and **paste** all of the code from it into your new file.
+- Find the file `blank_page.html` and **copy** and **paste** all of the code from it into your new file.
 
 --- collapse ---
 ---

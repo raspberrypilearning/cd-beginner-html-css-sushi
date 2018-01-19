@@ -37,25 +37,7 @@ Now that you know the code to put a picture on your website, you probably want t
 
 - The first thing you will need is a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
 
---- collapse ---
-
----
-title: Getting pictures from the internet
----
-
-- Search for **images** of the thing you want a picture of.
-
-- When you find a picture that you like, click to open it up full size.
-
-- Then, **right click** the picture and select **Save Image As...** \(not **Save Link As...**\).
-
-![Menu with Save Image As selected](images/saveImgAs.png)
-
-- Type a short name in the box provided. 
-
-- Before you click **Save**, make a note of which folder it will be saved into; it might be the Downloads folder. You will need to remember this to find the picture later! You can select a different folder if you wish. Finally, click **Save**
-
---- /collapse ---
+[[[Getting pictures from the internet]]]
 
 Once you have a picture, you will **upload** the file to Trinket: 
 
