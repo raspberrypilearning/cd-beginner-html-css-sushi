@@ -37,7 +37,7 @@ Now that you know the code to put a picture on your website, you probably want t
 
 - The first thing you will need is a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
 
-[[[Getting pictures from the internet]]]
+[[[generic-get-picture-from-web]]]
 
 Once you have a picture, you will **upload** the file to Trinket: 
 
