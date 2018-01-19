@@ -12,7 +12,8 @@ technologies: "html/css, scratch"
 site_areas:
 steps:
   - title: Introduction
-  - title: Getting Setup
+  - title: What you will need
+  - title: Getting setup
   - title: Your first web page!
   - title: Controlling how it looks
   - title: Adding pictures

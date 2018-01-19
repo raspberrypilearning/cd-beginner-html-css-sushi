@@ -1,45 +1,33 @@
-## Making a list
+## Adding a map or video
 
-On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into a nicer looking list that you can do cool things with later.
+YouTube provides an easy way to **embed** \(or put\) videos from it onto your website. 
+
+- Find a video on YouTube that you want to show on your website. 
+
+- Look for the **Share** button and click it. Select the option **Embed**.
+
+You will see a text box with all the text selected \(if you accidentally unselect the text, you can select it all again by clicking on it and pressing the `Ctrl` \(or `cmd` on a Mac\) and `A` keys together on your keyboard\). 
+
+![YouTube's embed option with code selected](images/EmbedYouTube.png)
+
+- Press the `Ctrl` \(or `cmd`\) and `C` keys together on your keyboard to **copy** the text.
+
+- Then go back to your website code, and click in the place where you want to put the video, for example after a heading or paragraph. **Paste** the code by pressing `Ctrl` \(or `cmd`\) and `V` on your keyboard at the same time. Don't worry about understanding all the code you just pasted! 
+
+![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
+
+You should see the video appear on your web page.
+
+The same technique works for Google maps as well. 
+
+- Give it a go! Go to [dojo.soy/google-maps](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** It's **not** a good idea to share personal information such as your home address on a website!
+
+- Click on the result, then find the Share button and get the code and add it to your website as above. 
+![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+
+- If you look carefully you should be able to find `width` and `height` **attributes** in the pasted code. You can change the values to make the map appear bigger or smaller.
   
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
 
-```html
-    <ul>
-        <li>Cows</li>
-        <li>Sheep</li>
-        <li>Foxes</li>
-        <li>Bats</li>
-    </ul>
-```
 
-The result should be a nice list like this: 
-
-![Unordered list](images/egUnorderedList.png)
-
-Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 
-
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a **paragraph** above the list to describe what it's a list of, if you like!
-
-How about if you wanted a numbered list? It's almost the same, but instead of `ul`, you use `ol`. A numbered list is also called an **ordered** list. 
-
-- Add the following code underneath the code you just wrote \(make sure it's **after** the `</ul>` tag!\):
-
-```html
-    <p>
-        My favourite things to eat and drink in Ireland are:
-    </p>
-    <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
-    </ol>
-```
-
-Here's what it should look like now:
-
-![Ordered list](images/egOrderedList.png)
-
-### Challenge
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
 

@@ -1,93 +1,43 @@
-## Your first web page!
+## Getting setup
 
-- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
+- Go to [dojo.soy/html-b-start](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right hand side is the website, and on the left hand side is the code that makes the website.
+![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
-
-![HTML paragraph example](images/egFirstHtmlCode.png)
-
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
-
-```html
-  <h1>Welcome to Ireland!</h1>
-```
-
-- Try adding a new paragraph or heading to your page using some of these tags.
-
---- hints ---
-
---- hint ---
-When you want to put text on a page, you need to put it in between two **tags** that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser it is a new paragraph of text. The `<h1> </h1>` tags tell it that the text is a heading.
-
-A **browser** is the program you use to look at websites, for example Chrome or Firefox.
---- /hint ---
-
---- hint ---
-
-The code for paragraphs looks like this:
-
-```html
-  <p>This is one paragraph of text.</p>
-
-  <p>This is another paragraph.
-  Everything in between one set of p tags is 
-  displayed together in one long line on the web page.</p>
-```
-
---- /hint ---
-
-
---- hint ---
-
-The code for headings looks like this:
-
-```html
-  <h1>This is a heading.</h1>
-```
-Headings will normally be displayed bigger or bolder than the paragraphs.
-
---- /hint ---
-
---- /hints ---
 
 --- collapse ---
 ---
-title: HTML and tags explained
+title: I have an account on Trinket
 ---
-**HTML** is the code that makes a web page.
 
-The `.html` in the filename tells the browser that the file is a web page, so it looks for the tags telling it what to display. 
+- Click the "Remix" button at the top right of the project \(if you are not signed in, you will be prompted to do so. Once you've signed in you will then need to click the Remix button again\). This creates a copy of the project for you to work with. 
 
-HTML **tags** define different pieces of a page, for example paragraphs and headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+![Remix button](images/tktRemixButtonArrow.png)
 
-### Why do you need two tags? 
-You have an **opening** and a **closing** tag to tell the browser where things **start** and **end**. 
-So for a paragraph, the opening `<p>` tag says "here comes some text that I want you to display as a paragraph". The closing `</p>` tag tells the browser where the paragraph ends. 
-Everything in between the `<body>` and `</body>` tags is your web page. 
-- Notice how the **closing** tag always has a forward slash, `/`.
-  
+It should say "remixed" after you click it:
+
+![Button now says "remixed"](images/tktRemixedSmall.png)
+
 --- /collapse ---
 
-- Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the **opening** and **closing** tag so that they match.
+--- collapse ---
+---
+title: I don't have an account on Trinket
+---
+
+You can save your work by using one of the options in the **Share** menu. You will get a link that you can either store somewhere, for example, in a document or send to someone via email.
+Note: each time you make a change, you will get a new link.
+
+If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **Remix** a project somebody else has shared with you (i.e. save a copy so you can make your own changes to it).
 
 
-- Lastly, find the code for the paragraph that says `My website is about Ireland` and change it so that it looks like this:
+- Go to [dojo.soy/trinket](http://dojo.soy/trinket) and click "Sign Up For Your Free Account" if you do not already have an account. You will need an email address to sign up. 
 
-```html
-  <p>
-    <em>My website</em> is about <strong>Ireland</strong>. 
-    It is going to have the following pages: Attractions, Music, Food
-  </p>
-```
+- Enter your email address and choose a password, or ask somebody to do this for you.
 
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+- You can now access all your saved or remixed projects by clicking on your username and going to "My Trinkets".
+!["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
 
-![Example of HTML tags](images/egFirstTags.png)
+--- /collapse ---
 
-Congratulations, you've built your first web page! On the next card you'll find out how to control how it looks.
-
-
-
-
-
+Let's start coding!
 

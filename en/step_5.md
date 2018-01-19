@@ -1,72 +1,77 @@
-## Adding pictures
+## Controlling how it looks
 
-Let's add a picture!
+The code that describes what a website looks like is called **CSS**.
 
-- Go to the tab named `index.html`. Find the `</main>` tag and type the following above it: 
+- Look at the tabs in the code panel and go to the file `styles.css` by clicking on the tab with that name.
+The file contains the following text:
 
-```html
-    <img src="tito.png" alt="Tito the dog" width="100px" />
+```css
+  body {
+      background-color: white;
+  }
 ```
 
-Here's what the result should look like:
-    
-![Image code and picture of Tito](images/egImgCodeTito.png)
+- Change the colour to `LightSkyBlue`, and see what happens. Your website should now have a blue background! 
 
-Notice that this tag has extra bits of information inside it. They are called **attributes**.
-
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this **attribute** does. Don't delete the letters `px`!
+![Example with blue background](images/egFirstCSSbluebg.png)
 
 --- collapse ---
-
 ---
-title: How the img tag works
+title: How does it work?
 ---
 
-Notice that the `<img>` tag is different from the other tags you've used so far: 
+If you look at the top of the `index.html` file, you will see the following line:
 
-There is no closing `</img>` tag. Instead it is **self closing**: the opening tag has `/>` at the end. This is because there is no "start" and "end" like there is when you are putting text on the page. 
+```html
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
+```
 
-The tag contains extra pieces of information inside it called **attributes**. 
-- The `src` attribute tells the browser what file to use for the picture. 
-- The `alt` attribute is a short description that the browser will show if it cannot display the picture. It also helps people using a screen reader to know what the picture is.
-- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, the teeny-tiny dots that make up your screen. If you don't include this attribute, the picture will be displayed in its original size.
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **stylesheet**. You can recognise a stylesheet file by the `.css` in its name. 
+  
+A stylesheet contains rules for what each element on your page should look like.
+
+The curly braces `{ }` and the text in between them is a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit outside the curly braces a **selector**. So in this case, it is the **selector** for the **body** elements.
+
+Each rule inside the curly braces is made up of 
+  - a **property** on the left, followed by a `:` symbol \(**colon**\)
+  - a **value** for the property, on the right hand side after the colon
+  - a `;` symbol \(**semi-colon**\) at the end
+   
 
 --- /collapse ---
 
-Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces like this:
 
-- The first thing you will need is a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+```css
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
+```
 
-[[[Getting pictures from the internet]]]
+Look at how it changed the web page. 
 
-Once you have a picture, you will **upload** the file to Trinket: 
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your web page.
 
-- In your Trinket, click on the image icon next to the **+** sign. 
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` **selector**. Add the following code to the `styles.css` file, below the closing curly brace.
 
-![The image icon](images/tktImageIconArrow.png)
+```css
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
+```
 
-This is where you can see the pictures that can be used on your website. You should see the picture of Tito the CoderDojo dog.
+Your heading should be orange now, with the paragraph purple as before. 
 
-- Click the button **Add Image** and then click **Upload**. 
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-- Click on the button **Click To Select Files**. Find your picture and double click on it. 
+Notice how the letters also look different as well as being a different colour? This is because you changed the **font family**. You can see some more fonts at [dojo.soy/web-font-families](http://dojo.soy/web-font-families)
 
-- Click **Done**.
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector. 
 
-![Image upload area](images/tktUploadImages.png)
-
-Your picture is uploaded and ready to use!
-
-- Go to the file index.html and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the file with your picture. Note that it might end in `.jpg` instead of `.png`!
-
-The text you just changed is the **attribute** called `src`. It tells the browser what file to display.
-
-**Important:** The value you type for an **attribute** must have quotation marks around it!
-
-### Challenge!
-- Find the `alt` **attribute** and change the text in it to a short description of your picture. 
-
-
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. For a full list of them, go to [dojo.soy/web-color-names](http://dojo.soy/web-color-names)
 
 
 

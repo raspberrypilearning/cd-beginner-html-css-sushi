@@ -1,77 +1,93 @@
-## Controlling how it looks
+## Your first web page!
 
-The code that describes what a website looks like is called **CSS**.
+- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
 
-- Look at the tabs in the code panel and go to the file `styles.css` by clicking on the tab with that name.
-The file contains the following text:
+- Find the line that says `Welcome to Ireland!` and change it to your own message, being careful not to delete the text `<p>` at the start of the line and `</p>` at the end of the line. You should see your web page updated in the right-hand panel. 
 
-```css
-  body {
-      background-color: white;
-  }
+![HTML paragraph example](images/egFirstHtmlCode.png)
+
+- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
+
+```html
+  <h1>Welcome to Ireland!</h1>
 ```
 
-- Change the colour to `LightSkyBlue`, and see what happens. Your website should now have a blue background! 
+- Try adding a new paragraph or heading to your page using some of these tags.
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+--- hints ---
+
+--- hint ---
+When you want to put text on a page, you need to put it in between two **tags** that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser it is a new paragraph of text. The `<h1> </h1>` tags tell it that the text is a heading.
+
+A **browser** is the program you use to look at websites, for example Chrome or Firefox.
+--- /hint ---
+
+--- hint ---
+
+The code for paragraphs looks like this:
+
+```html
+  <p>This is one paragraph of text.</p>
+
+  <p>This is another paragraph.
+  Everything in between one set of p tags is 
+  displayed together in one long line on the web page.</p>
+```
+
+--- /hint ---
+
+
+--- hint ---
+
+The code for headings looks like this:
+
+```html
+  <h1>This is a heading.</h1>
+```
+Headings will normally be displayed bigger or bolder than the paragraphs.
+
+--- /hint ---
+
+--- /hints ---
 
 --- collapse ---
 ---
-title: How does it work?
+title: HTML and tags explained
 ---
+**HTML** is the code that makes a web page.
 
-If you look at the top of the `index.html` file, you will see the following line:
+The `.html` in the filename tells the browser that the file is a web page, so it looks for the tags telling it what to display. 
 
-```html
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
-```
+HTML **tags** define different pieces of a page, for example paragraphs and headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **stylesheet**. You can recognise a stylesheet file by the `.css` in its name. 
+### Why do you need two tags? 
+You have an **opening** and a **closing** tag to tell the browser where things **start** and **end**. 
+So for a paragraph, the opening `<p>` tag says "here comes some text that I want you to display as a paragraph". The closing `</p>` tag tells the browser where the paragraph ends. 
+Everything in between the `<body>` and `</body>` tags is your web page. 
+- Notice how the **closing** tag always has a forward slash, `/`.
   
-A stylesheet contains rules for what each element on your page should look like.
-
-The curly braces `{ }` and the text in between them is a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit outside the curly braces a **selector**. So in this case, it is the **selector** for the **body** elements.
-
-Each rule inside the curly braces is made up of 
-  - a **property** on the left, followed by a `:` symbol \(**colon**\)
-  - a **value** for the property, on the right hand side after the colon
-  - a `;` symbol \(**semi-colon**\) at the end
-   
-
 --- /collapse ---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces like this:
+- Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the **opening** and **closing** tag so that they match.
 
-```css
-  body {
-    background-color: LightSkyBlue;
-    font-family: "Helvetica", sans-serif;
-    color: purple;
-  }
+
+- Lastly, find the code for the paragraph that says `My website is about Ireland` and change it so that it looks like this:
+
+```html
+  <p>
+    <em>My website</em> is about <strong>Ireland</strong>. 
+    It is going to have the following pages: Attractions, Music, Food
+  </p>
 ```
 
-Look at how it changed the web page. 
+Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your web page.
+![Example of HTML tags](images/egFirstTags.png)
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` **selector**. Add the following code to the `styles.css` file, below the closing curly brace.
+Congratulations, you've built your first web page! On the next card you'll find out how to control how it looks.
 
-```css
-  h1 {
-    color: orange;
-    font-family: "Times New Roman", serif;
-  }
-```
 
-Your heading should be orange now, with the paragraph purple as before. 
 
-![Result of new CSS code](images/egCssColorsFonts.png)
-
-Notice how the letters also look different as well as being a different colour? This is because you changed the **font family**. You can see some more fonts at [dojo.soy/web-font-families](http://dojo.soy/web-font-families)
-
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector. 
-
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. For a full list of them, go to [dojo.soy/web-color-names](http://dojo.soy/web-color-names)
 
 
 

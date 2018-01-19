@@ -1,63 +1,45 @@
-## Creating links
+## Making a list
 
-On this card you'll learn how to make a link that takes you to another page when clicked.
-
-- Add the following code to `index.html`:
-
-```html
-  <a href="">Click here</a>
-```
-
-The `<a> </a>` tag turns something into a link. 
- 
-- Try clicking your link to see what happens. It does nothing, right? 
-  That's because the `href` **attribute** is empty at the moment. It needs to contain the **URL** \(web address\) of the page that you're linking to.
-
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
-
-- Click in the address bar and select all of the text. That's the whole **URL** of the page you're on. Press the `Ctrl` \(or `cmd`\) and `C` keys together to **copy** it. 
-
-  ![URL in address bar](images/AddressBarURL.png)
-
-- In your Trinket, click in between the quotation marks after `href=` and press the `Ctrl` \(or `cmd`\) and `V` keys together to **paste** in the URL you just copied. Your code should look something like this now:
+On this card you will learn how to turn a list of items, such as "unicorns, robots, cats" into a nicer looking list that you can do cool things with later.
+  
+- In the `index.html` file, add the following code just above the line with `</main>` on it:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+    <ul>
+        <li>Cows</li>
+        <li>Sheep</li>
+        <li>Foxes</li>
+        <li>Bats</li>
+    </ul>
 ```
 
-You just created your first link! Click on it to see if it works now.
+The result should be a nice list like this: 
 
-![Link tag](images/egLinkTagWithURL.png)
+![Unordered list](images/egUnorderedList.png)
 
---- collapse ---
----
-title: Links to other websites
----
-Trinket has trouble with some links. You can try URLs for other websites than Wikipedia if you like, but the link may not work in your Trinket. It will work when you download your project and try it out in a browser later however.
+Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 
 
---- /collapse ---
+This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a **paragraph** above the list to describe what it's a list of, if you like!
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+How about if you wanted a numbered list? It's almost the same, but instead of `ul`, you use `ol`. A numbered list is also called an **ordered** list. 
+
+- Add the following code underneath the code you just wrote \(make sure it's **after** the `</ul>` tag!\):
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">
-      <img src="tito.png" alt="Tito the dog" width="100px" />
-  </a>
+    <p>
+        My favourite things to eat and drink in Ireland are:
+    </p>
+    <ol>
+        <li>Tea</li>
+        <li>Crisp sandwiches</li>
+        <li>Sausages</li>
+    </ol>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+Here's what it should look like now:
 
-You can put a link into other elements of your web page too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+![Ordered list](images/egOrderedList.png)
 
-```html
-  <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
-  </p>
-```
-
-### Challenge!
-- See if you can make a **list** that contains a link inside one of the **list items**.
-
-
-
+### Challenge
+- See if you can add **CSS rules** to your stylesheet to change how your lists look.
 
