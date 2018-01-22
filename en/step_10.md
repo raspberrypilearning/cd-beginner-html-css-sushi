@@ -1,69 +1,57 @@
-## Adding more pages
+## Navigating your website
 
-This card will show you how to add more pages to your website.
+Many websites have a **navigation** menu to make it easy to get around the pages. Now that you've got a bunch of pages, a homepage, and a links to each page, let's move the list of links to a navigation section at the top of every page. 
 
-- At the top of the code panel, click on the **+** symbol next to the tabs and type in a name for your new file. It must end in `.html` \(including the dot!\) so that the browser knows it's a web page.
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+- Find the code for your list of links that you created in the previous step.
 
---- collapse ---
----
-title: Renaming or deleting a file
----
+- Just before the opening `<ul>` tag, press enter to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds in the closing tag for you, you can delete that for now.
 
-If you want to change the name of a file, click on the cog icon to the right of the filename, and click the pencil. Type in the new name and press Enter. You can also delete a file by clicking the bin icon instead of the pencil.
-![](images/EditFilename.png)
+- Just **after** the **closing** `</ul>` tag, press enter to go onto a new line, and type in the closing tag `</nav>`. 
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. When you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+- Now, select your entire `nav` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way until just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted too!
 
---- /collapse ---
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
-- Find the file `blank_page.html` and **copy** and **paste** all of the code from it into your new file.
+- You are going to **cut** this time instead of **copy**. Press and hold the `Ctrl` \(or `cmd`\) key and while holding it press the `X` key. The code will disappear but don't panic!
 
---- collapse ---
----
-title: How to copy and paste
----
-- Go the the file blank\_page.html in the code panel \(by clicking on the tab with that name\). Select all of the text in the file by doing the following: Click anywhere on the code, then press and hold the `Ctrl` key \(or if you are using a Mac, the `cmd` key\) and while holding it, press the `A` key at the same time. Notice how all the text becomes highlighted.
-
-![All the code selected in the blank_page.html file](images/egBlankPageSelectAll.png)
-
-- Now, with the text selected, press and hold the `Ctrl` \(or `cmd`\) key again and then while holding it press the `C` key. This **copies** everything that was selected.
-
-- Go to your new file and click inside the code panel \(which is blank at the moment\). Press and hold the `Ctrl` \(or `cmd`\) key and then while holding it, press the `V` key. This **pastes** everything that was copied into your new page.
-
-![After pasting the code into another html file](images/egBlankPageCodePasted.png)
-  You can use these keyboard shortcuts in most programs to **copy** and **paste** stuff, including text and files!
---- /collapse ---
-
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you'll see it at the top of your browser window when you download your project later.
-
-- In between the `<main> </main>` tags in the new file, use the tags you have learned to add stuff to the page, such as paragraphs, headings, images and lists!
-
-- Repeat the steps above for each new page that you want to add. 
-
-- When there are too many tabs to be able to see them all, you can use the **<** and **>** icons in the top left corner of the tabs to scroll between them.
-
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
-
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
-
-- In the `index.html` file, add the following code:
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now **paste** in the code by pressing `Ctrl` \(or `cmd`\) and `V` together as usual. The code should look something like this:
 
 ```html
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
-    </ul>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Food</a></li>
+            </ul>
+        </nav>
+    </header>
 ```
 
-- Change the value of the `href` **attribute** for each link \(rememeber, that's the text inside the quotation marks\) so that it exactly matches the name of each new file that you created. 
+--- collapse ---
+---
+title: Undo!
+---
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+If you make a mistake, you can **undo** it by pressing `Ctrl` \(or `cmd`\) and `Z` together. You can usually press it a few times to undo the last couple of changes. This is another handy shortcut that you can use in many programs!
 
-Now you can navigate to your new pages! 
+--- /collapse ---
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+- Try out your links to make sure they are still working.
 
+- Put the same code into each new file that you created. This will make the navigation menu appear at the top of every page on your website.
+
+ --- hints ---
+
+ --- hint ---
+ Select the entire `nav` section like you did before, and press the `Ctrl` \(or `cmd`\) and `C` keys together to **copy** it. 
+ 
+ Then, in each of your html files, click inside the `<header> </header>` section and **paste** the code exactly like you did above.
+ --- /hint ---
+
+ --- /hints ---
+
+Now you will be able to click the links no matter which page you are on. 

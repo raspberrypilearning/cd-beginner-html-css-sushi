@@ -1,73 +1,69 @@
-## Making a menu bar
+## Adding more pages
 
-On this card you will see how you can transform your navigation menu into a cool looking menu bar just by adding more **CSS** rules in the stylesheet.
+This card will show you how to add more pages to your website.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+- At the top of the code panel, click on the **+** symbol next to the tabs and type in a name for your new file. It must end in `.html` \(including the dot!\) so that the browser knows it's a web page.
 
-- Go to the stylesheet file. Remember it is in the `styles.css` tab. Click **after** a closing curly brace `}` and press enter to go onto a new line. Add the following rule:
+![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
-```css
-    nav ul {
-        background-color: tomato;
-    }
-```
+--- collapse ---
+---
+title: Renaming or deleting a file
+---
 
-Notice how you used **two selectors** instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+If you want to change the name of a file, click on the cog icon to the right of the filename, and click the pencil. Type in the new name and press Enter. You can also delete a file by clicking the bin icon instead of the pencil.
+![](images/EditFilename.png)
 
-![List with red background](images/egMenuBarFirstStyle.png)
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. When you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
-Let's get rid of the bullet points. Those are the spots in front of each list item. 
+--- /collapse ---
 
-- Go to the `styles.css` tab and add the following to the file. Again, type it on a new line after a `}` so it's not accidentally inside any other block of rules.
+- Find the file `blank_page.html` and **copy** and **paste** all of the code from it into your new file.
 
-```css
-    nav ul li {
-        list-style-type: none;
-    }
-```
+--- collapse ---
+---
+title: How to copy and paste
+---
+- Go the the file blank\_page.html in the code panel \(by clicking on the tab with that name\). Select all of the text in the file by doing the following: Click anywhere on the code, then press and hold the `Ctrl` key \(or if you are using a Mac, the `cmd` key\) and while holding it, press the `A` key at the same time. Notice how all the text becomes highlighted.
 
-Notice this set of rules has **three** selectors! It selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew! 
+![All the code selected in the blank_page.html file](images/egBlankPageSelectAll.png)
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+- Now, with the text selected, press and hold the `Ctrl` \(or `cmd`\) key again and then while holding it press the `C` key. This **copies** everything that was selected.
 
-Now let's make the list horizontal \(across\) instead of vertical \(down\). 
+- Go to your new file and click inside the code panel \(which is blank at the moment\). Press and hold the `Ctrl` \(or `cmd`\) key and then while holding it, press the `V` key. This **pastes** everything that was copied into your new page.
 
-- Inside the new set of rules, add the following line: `display: inline;` ![](images/egMenuBarInline.png) 
- 
-- The menu items are all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The rules should look like this now:
+![After pasting the code into another html file](images/egBlankPageCodePasted.png)
+  You can use these keyboard shortcuts in most programs to **copy** and **paste** stuff, including text and files!
+--- /collapse ---
 
-```css
-    nav ul li {
-        list-style-type: none;
-        display: inline;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-```
-   
-Remember `10px` means ten **pixels**.
+- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you'll see it at the top of your browser window when you download your project later.
 
-How about making the menu change to to tell you which page you are on? This part won't be in the stylesheet.
+- In between the `<main> </main>` tags in the new file, use the tags you have learned to add stuff to the page, such as paragraphs, headings, images and lists!
 
-- Start with the homepage. Go to the `index.html` file. In the list, remove the link tags before and after the word `Home`, so that the **list item** for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- Repeat the steps above for each new page that you want to add. 
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item, and so on.
+- When there are too many tabs to be able to see them all, you can use the **<** and **>** icons in the top left corner of the tabs to scroll between them.
+
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+
+- In the `index.html` file, add the following code:
 
 ```html
-    <header>
-        <nav>
-            <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attractions</a></li>
-            <li>Music</li>
-            <li><a href="food.html">Food</a></li>
-            </ul>
-        </nav>
-    </header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Places to visit</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="food.html">Things to eat</a></li>
+    </ul>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- Change the value of the `href` **attribute** for each link \(rememeber, that's the text inside the quotation marks\) so that it exactly matches the name of each new file that you created. 
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
 
-On the next card you'll learn even more CSS tricks to make the menu bar look cool.
+Now you can navigate to your new pages! 
+
+![Example list of links on a web page](images/egListOfPageLinks.png)
+
