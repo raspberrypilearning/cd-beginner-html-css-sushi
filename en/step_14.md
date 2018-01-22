@@ -14,8 +14,10 @@ At the moment your table is empty.
 
 - Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and also in between the `<th> </th>` tags. You can add more tags if you need to.
 
---- hints ---
---- hint ---
+--- collapse ---
+---
+title: Example code
+---
 
 The HTML code for the table shown above looks like this:
 
@@ -49,10 +51,7 @@ The HTML code for the table shown above looks like this:
   </table>
 ```
 
-
---- /hint ---
---- /hints ---
-
+--- /collapse ---
 
 To add another **row**, you add another set of `<tr> </tr>` tags. In between them you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
 

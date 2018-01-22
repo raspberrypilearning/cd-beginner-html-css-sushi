@@ -42,6 +42,10 @@ If you make a mistake, you can **undo** it by pressing `Ctrl` \(or `cmd`\) and `
 
 - Try out your links to make sure they are still working.
 
+--- challenge ---
+
+## Challenge: Add navigation to every page
+
 - Put the same code into each new file that you created. This will make the navigation menu appear at the top of every page on your website.
 
  --- hints ---
@@ -55,3 +59,5 @@ If you make a mistake, you can **undo** it by pressing `Ctrl` \(or `cmd`\) and `
  --- /hints ---
 
 Now you will be able to click the links no matter which page you are on. 
+
+--- /challenge ---

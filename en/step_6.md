@@ -63,9 +63,13 @@ The text you just changed is the **attribute** called `src`. It tells the browse
 
 **Important:** The value you type for an **attribute** must have quotation marks around it!
 
-### Challenge!
-- Find the `alt` **attribute** and change the text in it to a short description of your picture. 
+--- challenge ---
 
+## Challenge: Change the alt-text of a picture
+
+- Find the `alt` **attribute** for your image and change the text in it to a short description of your picture. 
+
+--- /challenge ---
 
 
 

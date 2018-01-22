@@ -40,6 +40,10 @@ Here's what it should look like now:
 
 ![Ordered list](images/egOrderedList.png)
 
-### Challenge
+--- challenge ---
+
+## Challenge: Add style to your lists
+
 - See if you can add **CSS rules** to your stylesheet to change how your lists look.
 
+--- /challenge ---

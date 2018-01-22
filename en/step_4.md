@@ -12,6 +12,43 @@
   <h1>Welcome to Ireland!</h1>
 ```
 
+--- collapse ---
+---
+title: HTML and tags explained
+---
+**HTML** is the code that makes a web page.
+
+The `.html` in the filename tells the browser that the file is a web page, so it looks for the tags telling it what to display. 
+
+HTML **tags** define different pieces of a page, for example paragraphs and headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+
+### Why do you need two tags? 
+You have an **opening** and a **closing** tag to tell the browser where things **start** and **end**. 
+So for a paragraph, the opening `<p>` tag says "here comes some text that I want you to display as a paragraph". The closing `</p>` tag tells the browser where the paragraph ends. 
+Everything in between the `<body>` and `</body>` tags is your web page. 
+- Notice how the **closing** tag always has a forward slash, `/`.
+  
+--- /collapse ---
+
+- Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the **opening** and **closing** tag so that they match.
+
+
+- Lastly, find the code for the paragraph that says `My website is about Ireland` and change it so that it looks like this:
+
+```html
+  <p>
+    <em>My website</em> is about <strong>Ireland</strong>. 
+    It is going to have the following pages: Attractions, Music, Food
+  </p>
+```
+
+Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+
+![Example of HTML tags](images/egFirstTags.png)
+
+--- challenge ---
+## Challenge: Add some more text of your own
+
 - Try adding a new paragraph or heading to your page using some of these tags.
 
 --- hints ---
@@ -50,39 +87,7 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 
 --- /hints ---
 
---- collapse ---
----
-title: HTML and tags explained
----
-**HTML** is the code that makes a web page.
-
-The `.html` in the filename tells the browser that the file is a web page, so it looks for the tags telling it what to display. 
-
-HTML **tags** define different pieces of a page, for example paragraphs and headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
-
-### Why do you need two tags? 
-You have an **opening** and a **closing** tag to tell the browser where things **start** and **end**. 
-So for a paragraph, the opening `<p>` tag says "here comes some text that I want you to display as a paragraph". The closing `</p>` tag tells the browser where the paragraph ends. 
-Everything in between the `<body>` and `</body>` tags is your web page. 
-- Notice how the **closing** tag always has a forward slash, `/`.
-  
---- /collapse ---
-
-- Try changing the numbers in your **heading** tags to see the different sizes you get. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the **opening** and **closing** tag so that they match.
-
-
-- Lastly, find the code for the paragraph that says `My website is about Ireland` and change it so that it looks like this:
-
-```html
-  <p>
-    <em>My website</em> is about <strong>Ireland</strong>. 
-    It is going to have the following pages: Attractions, Music, Food
-  </p>
-```
-
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
-
-![Example of HTML tags](images/egFirstTags.png)
+--- /challenge ---
 
 Congratulations, you've built your first web page! On the next card you'll find out how to control how it looks.
 

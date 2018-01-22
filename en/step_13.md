@@ -46,10 +46,12 @@ You can add the `color` property to the `nav ul li a` rules as well if you want 
   
 The `border-radius` property is a really easy way to make anything look cooler! 
 
-### Challenge
+![Example of stylesheet and web page](images/egMenuBarFullStyles_result.png)
+
+--- challenge ---
+
+## Challenge: Make your pictures have rounded corners
 
 - Create a new set of rules in your stylesheet for pictures, using the `img` selector, and add in a `border-radius` rule there.  
 
-Here's an example of what your stylesheet and web pages might look like by now. 
-
-![Example of stylesheet and web page](images/egMenuBarFullStyles.png)
+--- /challenge ---

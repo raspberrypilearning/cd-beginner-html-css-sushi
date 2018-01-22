@@ -55,9 +55,12 @@ You can put a link into other elements of your web page too, such as in a paragr
   </p>
 ```
 
-### Challenge!
+--- challenge ---
+
+## Challenge: Put a link into a list
+
 - See if you can make a **list** that contains a link inside one of the **list items**.
 
-
+--- /challenge ---
 
 
