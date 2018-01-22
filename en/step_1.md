@@ -1,8 +1,6 @@
 ## Introduction
 
-TEST!!!!
-
-Code your first website!
+TESTing!!!! Code your first website!
 
 ### What you will make
 
