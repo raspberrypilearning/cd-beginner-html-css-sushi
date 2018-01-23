@@ -36,7 +36,9 @@ title: How to copy and paste
   You can use these keyboard shortcuts in most programs to **copy** and **paste** stuff, including text and files!
 --- /collapse ---
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you'll see it at the top of your browser window when you download your project later.
+- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you'll see it at the top of your browser window if you download your project.
+
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
 - In between the `<main> </main>` tags in the new file, use the tags you have learned to add stuff to the page, such as paragraphs, headings, images and lists!
 
