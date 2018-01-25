@@ -19,5 +19,3 @@ Make a website about your home country.
 - Using CSS to control the look of your website including designing a simple menu bar and changing colours, backgrounds and borders
 - Linking pages to each other and also linking to other websites
 - Creating a table that includes headings and multiple rows.
-- Using a text editor to edit and save a HTML file.
-- Using a web browser to open the HTML file and display your website.
