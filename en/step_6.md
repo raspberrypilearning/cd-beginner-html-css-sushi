@@ -39,6 +39,10 @@ Now that you know the code to put a picture on your website, you probably want t
 
 [[[generic-get-picture-from-web]]]
 
+Note: Not all images you will find on the internet are free for anyone to use. If you are downloading a picture, you should make sure it is one that you are allowed to use.
+
+[[[images-permissions-to-use]]]
+
 Once you have a picture, you will **upload** the file to Trinket: 
 
 - In your Trinket, click on the image icon next to the **+** sign. 
