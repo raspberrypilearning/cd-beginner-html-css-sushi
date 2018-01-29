@@ -1,4 +1,4 @@
-title: Beginner HTML & CSS Sushi Cards
+title: Beginner HTML/CSS Sushi Cards
 hero_image: images/banner.png
 description: Learn to make a website
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
@@ -13,8 +13,8 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Getting setup
-  - title: Your first web page!
+  - title: Getting set up
+  - title: Your first webpage!
   - title: Controlling how it looks
   - title: Adding pictures
   - title: Adding a map or video
