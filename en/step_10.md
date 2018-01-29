@@ -18,23 +18,7 @@ You might be wondering why you can't change the name of the `index.html` file. `
 
 --- /collapse ---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file.
-
---- collapse ---
----
-title: How to copy and paste
----
-- Go the the file blank\_page.html in the code panel \(by clicking on the tab with that name\). Select all of the text in the file by doing the following: Click anywhere on the code, then press and hold the `Ctrl` key \(or if you are using a Mac, the `cmd` key\) and while holding it, press the `A` key at the same time. Notice how all the text becomes highlighted.
-
-![All the code selected in the blank_page.html file](images/egBlankPageSelectAll.png)
-
-- Now, with the text selected, press and hold the `Ctrl` \(or `cmd`\) key again and then while holding it press the `C` key. This **copies** everything that was selected.
-
-- Go to your new file and click inside the code panel \(which is blank at the moment\). Press and hold the `Ctrl` \(or `cmd`\) key and then while holding it, press the `V` key. This **pastes** everything that was copied into your new page.
-
-![After pasting the code into another html file](images/egBlankPageCodePasted.png)
-  You can use these keyboard shortcuts in most programs to **copy** and **paste** stuff, including text and files!
---- /collapse ---
+- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. To easily select the whole file for copying, click anywhere on the code, and press the `Ctrl` (or `cmd`) and `A` keys together. Then you can copy and paste the selected text as usual.
 
 - Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you'll see it at the top of your browser window if you download your project.
 
