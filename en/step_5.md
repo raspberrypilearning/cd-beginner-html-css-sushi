@@ -11,7 +11,7 @@ The file contains the following text:
   }
 ```
 
-- Change the colour to `LightSkyBlue`, and see what happens. Your website should now have a blue background! 
+- Change the `white` colour to `LightSkyBlue`, and see what happens. Your website should now have a blue background! 
 
 ![Example with blue background](images/egFirstCSSbluebg.png)
 
@@ -26,16 +26,16 @@ If you look at the top of the `index.html` file, you will see the following line
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **stylesheet**. You can recognise a stylesheet file by the `.css` in its name. 
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name. 
   
-A stylesheet contains rules for what each element on your page should look like.
+A style sheet contains rules for what each element on your page should look like.
 
-The curly braces `{ }` and the text in between them is a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit outside the curly braces a **selector**. So in this case, it is the **selector** for the **body** elements.
+The curly braces `{ }` and the text in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit outside the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-Each rule inside the curly braces is made up of 
-  - a **property** on the left, followed by a `:` symbol \(**colon**\)
-  - a **value** for the property, on the right hand side after the colon
-  - a `;` symbol \(**semi-colon**\) at the end
+Each rule inside the curly braces is made up of:
+  - A **property** on the left, followed by a colon symbol `:`
+  - A **value** for the property on the right-hand side after the colon
+  - A semi-colon symbol `;` at the end
    
 
 --- /collapse ---
@@ -50,11 +50,11 @@ Each rule inside the curly braces is made up of
   }
 ```
 
-Look at how it changed the web page. 
+Look at how this has changed the webpage. 
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your web page.
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` **selector**. Add the following code to the `styles.css` file, below the closing curly brace.
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace with the CSS rule for the body, add the following code to the `styles.css` file.
 
 ```css
   h1 {
@@ -63,15 +63,12 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
-Your heading should be orange now, with the paragraph purple as before. 
+Your heading text should be orange now, with the paragraph in purple as before. 
 
 ![Result of new CSS code](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed the **font family**. You can see some more fonts at [dojo.soy/web-font-families](http://dojo.soy/web-font-families)
+Notice how the letters also look different as well as being a different colour? This is because you changed the **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
 - Try adding a set of rules for the `<h2>` headings, using the `h2` selector. 
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. For a full list of them, go to [dojo.soy/web-color-names](http://dojo.soy/web-color-names)
-
-
-
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
