@@ -1,6 +1,6 @@
 ## Creating links
 
-On this card you'll learn how to make a link that takes you to another page when clicked.
+On this card you'll learn how to make a link that takes you to another page when it's clicked.
 
 - Add the following code to `index.html`:
 
@@ -10,16 +10,17 @@ On this card you'll learn how to make a link that takes you to another page when
 
 The `<a> </a>` tag turns something into a link. 
  
-- Try clicking your link to see what happens. It does nothing, right? 
-  That's because the `href` **attribute** is empty at the moment. It needs to contain the **URL** \(web address\) of the page that you're linking to.
+- Try clicking your link to see what happens.
+
+It does nothing, right? That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
 
 - Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
 
-- Click in the address bar and select all of the text. That's the whole **URL** of the page you're on. Press the `Ctrl` \(or `cmd`\) and `C` keys together to **copy** it. 
+- Click in the address bar and select all of the text. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys together to copy it. 
 
   ![URL in address bar](images/AddressBarURL.png)
 
-- In your Trinket, click in between the quotation marks after `href=` and press the `Ctrl` \(or `cmd`\) and `V` keys together to **paste** in the URL you just copied. Your code should look something like this now:
+- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys together to paste in the URL you just copied. Your code should look something like this now:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
@@ -33,7 +34,7 @@ You just created your first link! Click on it to see if it works now.
 ---
 title: Links to other websites
 ---
-Trinket has trouble with some links. You can try URLs for other websites than Wikipedia if you like, but the link may not work in your Trinket. It will work when you download your project and try it out in a browser later however.
+Trinket has trouble with some links. You can try URLs for other websites than Wikipedia if you like, but the link may not work in your trinket. However, it will work when you download your project and try it out in a browser later.
 
 --- /collapse ---
 
@@ -57,9 +58,9 @@ You can put a link into other elements of your web page too, such as in a paragr
 
 --- challenge ---
 
-## Challenge: Put a link into a list
+## Challenge: put a link into a list
 
-- See if you can make a **list** that contains a link inside one of the **list items**.
+- See if you can make a list that contains a link inside one of the list items.
 
 --- /challenge ---
 
