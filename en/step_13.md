@@ -2,9 +2,9 @@
 
 With CSS, the possibilities for making your menu bar look great are endless. 
 
-- Open the `styles.css` file again \(the place where the cool stuff happens!\).
+- Move to the `styles.css` file again — the place where the cool stuff happens!
 
-- Find your `nav ul` selector and add more rules so that it looks like this:
+- Find your `nav ul` selector, and add more rules so that it looks like this:
 
 ```css
   nav ul {
@@ -16,11 +16,11 @@ With CSS, the possibilities for making your menu bar look great are endless.
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties does? Try experimenting with different colours and numbers of pixels.  
+The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.  
 
 ![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
 
-- To get rid of the underline on the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}` but it's a good idea to keep related stuff together so it's easier to find!
+- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
 
 ```css
   nav ul li a {
@@ -28,21 +28,23 @@ The `padding` property adds space. Can you work out what each of the other prope
   }
 ```
    
-The above rule applies to **links** \(`<a>` tags\) inside **list items** in an **unordered list** inside a **navigation** \(`nav`\) section. Wow! That's **four selectors**! 
+The above rule applies to links `<a>` inside list items in an unordered list inside a navigation section. Wow, that's four selectors! 
 
 ![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
 
 Remember how you removed the link tags in some list items so you could easily see what page was clicked? Why not also change the text colour of those navigation list items which are not links! 
 
-- Find your `nav ul li` selector, and add the line 
+- Find your `nav ul li` selector, and **inside** the curly braces add the line:
+
 ```css
   color: PapayaWhip;
 ```
-inside the curly braces. Choose any colour you like! 
+
+You can choose any colour you like! 
   
 You can add the `color` property to the `nav ul li a` rules as well if you want the menu links to be a different colour from other links on your website.
 
-- How about some rounded corners? Try adding the following rule to the `nav ul` rules to see what happens: `border-radius: 10px;`
+- How about some rounded corners? Try adding the following rule to the `nav ul` rules to see what happens: `border-radius: 10px;`.
   
 The `border-radius` property is a really easy way to make anything look cooler! 
 
@@ -50,8 +52,8 @@ The `border-radius` property is a really easy way to make anything look cooler!
 
 --- challenge ---
 
-## Challenge: Make your pictures have rounded corners
+## Challenge: make your pictures have rounded corners
 
-- Create a new set of rules in your stylesheet for pictures, using the `img` selector, and add in a `border-radius` rule there.  
+- In your style sheet, create a new set of rules for pictures, using the `img` selector, and add in a `border-radius` rule there.
 
 --- /challenge ---
