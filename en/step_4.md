@@ -48,7 +48,7 @@ Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 ![Example of HTML tags](images/egFirstTags.png)
 
 --- challenge ---
-## Challenge: Add some more text of your own
+## Challenge: add some more text of your own
 
 - Try adding a new paragraph or heading to your page using some of the tags you've learned about.
 
