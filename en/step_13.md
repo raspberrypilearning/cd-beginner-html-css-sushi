@@ -28,11 +28,11 @@ The `padding` property adds space. Can you work out what each of the other prope
   }
 ```
    
-The above rule applies to links `<a>` inside list items in an unordered list inside a navigation section. Wow, that's four selectors! 
+The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors! 
 
 ![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
 
-Remember how you removed the link tags in some list items so you could easily see what page was clicked? Why not also change the text colour of those navigation list items which are not links! 
+Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links! 
 
 - Find your `nav ul li` selector, and **inside** the curly braces add the line:
 
@@ -42,9 +42,9 @@ Remember how you removed the link tags in some list items so you could easily se
 
 You can choose any colour you like! 
   
-You can add the `color` property to the `nav ul li a` rules as well if you want the menu links to be a different colour from other links on your website.
+You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
 
-- How about some rounded corners? Try adding the following rule to the `nav ul` rules to see what happens: `border-radius: 10px;`.
+- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
   
 The `border-radius` property is a really easy way to make anything look cooler! 
 
@@ -54,6 +54,6 @@ The `border-radius` property is a really easy way to make anything look cooler!
 
 ## Challenge: make your pictures have rounded corners
 
-- In your style sheet, create a new set of rules for pictures, using the `img` selector, and add in a `border-radius` rule there.
+- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
 
 --- /challenge ---
