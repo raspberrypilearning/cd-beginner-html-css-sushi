@@ -2,25 +2,25 @@
 
 On this card you'll learn how to make a link that takes you to another page when it's clicked.
 
-- Add the following code to `index.html`:
+- Add the following code to the body section of `index.html`:
 
 ```html
   <a href="">Click here</a>
 ```
 
-The `<a> </a>` tag turns something into a link. 
+The `<a> </a>` tags turn whatever is in between them into a link. 
  
-- Try clicking your link to see what happens.
+- Try clicking your link to see what happens. It does nothing, right?
 
-It does nothing, right? That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
 
 - Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
 
-- Click in the address bar and select all of the text. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys together to copy it. 
+- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it. 
 
   ![URL in address bar](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys together to paste in the URL you just copied. Your code should look something like this now:
+- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
@@ -34,7 +34,7 @@ You just created your first link! Click on it to see if it works now.
 ---
 title: Links to other websites
 ---
-Trinket has trouble with some links. You can try URLs for other websites than Wikipedia if you like, but the link may not work in your trinket. However, it will work when you download your project and try it out in a browser later.
+Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, they will work when you download your project and try it out in a browser later.
 
 --- /collapse ---
 
