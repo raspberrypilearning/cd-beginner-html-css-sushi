@@ -1,4 +1,4 @@
-## Your first web page!
+## Your first webpage!
 
 - In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
 
@@ -26,7 +26,7 @@ HTML **tags** such as `<p>` and `</p>` define different pieces of a page, for ex
 You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. 
 So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends. 
 
-Everything in between the `<body>` and `</body>` tags is your web page. 
+Everything in between the `<body>` and `</body>` tags is your webpage. 
 
 - Notice how the closing tag **always** has a forward slash `/`.
   
@@ -69,7 +69,7 @@ The code for paragraphs looks like this:
 
   <p>This is another paragraph.
   Everything in between one set of <p> tags is 
-  displayed together in one long line on the web page.</p>
+  displayed together in one long line on the webpage.</p>
 ```
 
 --- /hint ---
@@ -91,9 +91,3 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 --- /challenge ---
 
 Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
-
-
-
-
-
-
