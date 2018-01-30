@@ -60,9 +60,9 @@ How about making the menu change to tell you which page you are on? This part wo
         <nav>
             <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
             <li>Music</li>
-            <li><a href="food.html">Food</a></li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>

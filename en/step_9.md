@@ -34,7 +34,7 @@ You just created your first link! Click on it to see if it works now.
 ---
 title: Links to other websites
 ---
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, they will work when you download your project and try it out in a browser later.
+Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
 
 --- /collapse ---
 

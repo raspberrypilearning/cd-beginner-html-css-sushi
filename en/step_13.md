@@ -48,7 +48,7 @@ You can add the `color` property to the `nav ul li a` rule as well if you want t
   
 The `border-radius` property is a really easy way to make anything look cooler! 
 
-![Example of stylesheet and web page](images/egMenuBarFullStyles_result.png)
+![Web page with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
 
 --- challenge ---
 

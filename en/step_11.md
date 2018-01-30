@@ -23,9 +23,9 @@ Many websites have a **navigation** menu to help visitors move between pages. No
         <nav>
             <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
             <li><a href="music.html">Music</a></li>
-            <li><a href="food.html">Food</a></li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
