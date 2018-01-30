@@ -17,13 +17,13 @@ The result should be a nice list like this:
 
 ![Unordered list](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each thing in the list. 
+Notice that there is a separate pair of `<li> </li>` tags around each item in the list. 
 
 This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
 
 How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list. 
 
-- Add the following code below the code you just wrote — make sure it's **after** the `</ul>` tag!
+- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
 
 ```html
     <p>
