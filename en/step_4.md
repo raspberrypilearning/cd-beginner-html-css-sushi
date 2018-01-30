@@ -18,13 +18,12 @@ title: HTML and tags explained
 ---
 **HTML** is the code that makes a webpage.
 
-The `.html` in the file name tells the browser that the file is a webpage, so the browser looks for the tags telling it what to display. 
+The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
 
-HTML **tags** such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
 
-### Why do you need two tags? 
-You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. 
-So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends. 
+### Why do I need two tags? 
+You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends. 
 
 Everything in between the `<body>` and `</body>` tags is your webpage. 
 
@@ -55,9 +54,8 @@ Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 --- hints ---
 
 --- hint ---
-When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text. The `<h1> </h1>` tags tell it that the text in between is a heading.
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
-A browser is the program you use to look at websites, for example Chrome or Firefox.
 --- /hint ---
 
 --- hint ---
@@ -68,7 +66,7 @@ The code for paragraphs looks like this:
   <p>This is one paragraph of text.</p>
 
   <p>This is another paragraph.
-  Everything in between one set of <p> tags is 
+  Everything in between one set of p tags is 
   displayed together in one long line on the webpage.</p>
 ```
 
