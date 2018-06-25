@@ -1,96 +1,79 @@
-## Adding a table
+## Adăugarea unui tabel
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+Uneori poate fi utilă afișarea informațiilor într-un tabel. De exemplu, ați putea dori să enumerați informațiile despre membri pe un site web pentru un club sportiv local sau o școală sau informații despre primele zece melodii preferate.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+Un tabel este o rețea formată din **rânduri** și **coloane**. Cele mai multe tabele includ , de asemenea titluri din partea de sus a fiecărei coloane, numit **antet**. Iată un exemplu:
 
-![Example of information in a table](images/egTableResult.png)
+![Exemplu de informații într-un tabel](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- Accesați fișierul `page_with_table.html`. Acolo veți vedea o grămadă de cod între `<table> </table>` tag-uri.
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- Selectați tot codul de la începutul etichetei `<table>` până la sfârșitul etichetei de încheiere `</table>` și copiați-l. Apoi, mergeți la unul dintre fișierele în care doriți să puneți o masă și să inserați codul.
 
-At the moment your table is empty.
+În momentul în care masa dvs. este goală.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- Mergi la completarea mesei cu tot ce îți place! Purtați simplu text între etichetele `<td> </td>` și între etichetele `<th> </th>`. Puteți adăuga mai multe etichete dacă aveți nevoie de ele.
 
-## \--- collapse \---
+## \--- colaps \---
 
-## title: Example code
+## titlu: cod exemplu
 
-The HTML code for the table shown above looks like this:
+Codul HTML pentru tabelul de mai sus arată astfel:
 
 ```html
   <table>
     <tr>
-      <th>Name of pet</th>
-      <th>Animal</th>
-      <th>Colour</th>
+      <th>Numele animalului de companie</th>
+      <th>Animale</th>
+      <th>Culoare</th>
     </tr>
     <tr>
       <td>Mia</td>
       <td>Cat</td>
-      <td>Black and fluffy</td>
+      <td>Negru și pufos</td>
     </tr>
     <tr>
       <td>Tito</td>
-      <td>Dog</td>
-      <td>Black with brown patches</td>
+      <td>Câine</td>
+      <td>Negru cu patch-uri maro</td>
     </tr>
     <tr>
-      <td>Honeycomb</td>
-      <td>Guinea Pig</td>
-      <td>White with orange patches</td>
+      <td>Fagure de miere</td>
+      <td>Cobai</td>
+      <td>Alb cu patch-uri portocalii</td>
     </tr>
     <tr>
       <td>Alfie</td>
       <td>Budgie</td>
-      <td>Green and yellow</td>
+      <td>Verde și galben</td>
     </tr>
   </table>
 ```
 
-\--- /collapse \---
+\--- / colaps \---
 
-To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+Pentru a adăuga încă **rândul**, adăugați un alt set de etichete `<tr> </tr>`. Între ele, puneți același număr de date **date** cu `<td> </td>` etichete pe care le aveți în celelalte rânduri.
 
-To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+Pentru a adăuga un alt **coloană**, se adaugă un plus de **date** articol cu un set de `<td> </td>` etichete la **la fiecare** rând. Adăugați, de asemenea, un extra **antet** element la primul rând, utilizând `<th> </th>` etichete.
 
-## \--- collapse \---
+## \--- colaps \---
 
-## title: How does it work?
+## titlu: Cum funcționează?
 
-Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+Să aruncăm o privire la toate etichetele. Este un pic ca un cod pentru o listă (amintiți-vă `<ul>` și `<ol>`), dar cu mai multe nivele.
 
-Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+Fiecare pereche de etichete `<tr> </tr>` este un rând, astfel încât totul între ele va fi afișat pe o singură linie.
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+Primul rând conține `<th> </th>` etichete. Acestea sunt folosite pentru anteturi, deci titlurile coloanelor intră între ele. Există o pereche pentru fiecare coloană pe care o aveți în tabelul dvs.
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+Etichetele `<td> </td>` definesc ceea ce se numește date de tabel, și asta se întâmplă în toate celelalte rânduri. Acestea sunt similare cu tag-urile item list `<li> </li>`: totul între ele este un element în rândul tău de tabel.
 
-\--- /collapse \---
+\--- / colaps \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- Dacă te uiți la sfârșitul fișierului `styles.css` , vei vedea codul CSS care descrie cum ar trebui să arate tabelul. Nu trebuie să înțelegi totul! Dar puteți experimenta modificarea culorilor de text, de frontieră și de fundal pentru a vă crea propriul stil.
 
 ```css
-  table, th, td {
-    border: 1px solid HoneyDew;
-    border-collapse: collapse;
-  }
-  tr {
-    background-color: PaleTurquoise;
-  }
-  th, td {
-    vertical-align: top;
-    padding: 5px;
-    text-align: left;
-  }
-  th {
-    color: purple;
-  }
-  td {
-    color: purple;
-  }
+  tabel, th, td {border: 1px solid HoneyDew; colaps de frontieră: colaps; } tr {fundal-culoare: PaleTurquoise; } th, td {vertical-align: top; padding: 5px; text-aliniere: stânga; } th {culoare: violet; } td {culoare: mov; }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+Observați cum unora dintre selectori se folosesc virgule, de exemplu `tabel, th, td`? Aceasta este o listă **de selectori**: înseamnă că se aplică tuturor celor `<th>` elemente și tuturor celor `<td>` elemente. Salvează tastarea aceluiași set de reguli pentru fiecare selector!
