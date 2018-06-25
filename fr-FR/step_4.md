@@ -1,92 +1,91 @@
-## Your first webpage!
+## Votre première page Web!
 
-- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
+- Dans le panneau de gauche, le **panneau de code**, cliquez sur l'onglet qui dit `index.html`.
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
+- Trouvez la ligne qui dit `Bienvenue en Irlande!` et changez-le en votre propre message - faites attention **pas** pour supprimer les étiquettes`<p>` au début de la ligne et `</p>` à la fin de la ligne. Vous devriez voir la mise à jour de votre page Web dans le panneau de droite.
 
-![HTML paragraph example](images/egFirstHtmlCode.png)
+![Exemple de paragraphe HTML](images/egFirstHtmlCode.png)
 
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
+- Maintenant, sur la même ligne, changez le `<p>` et `</p>` en `<h1>` et `</h1>`. Avez-vous remarqué un changement dans le résultat sur la droite?
 
 ```html
-  <h1>Welcome to Ireland!</h1>
+  <h1>Bienvenue en Irlande!</h1>
 ```
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: HTML and tags explained
+## title: HTML et tags expliqués
 
-**HTML** is the code that makes a webpage.
+**HTML** est le code qui crée une page Web.
 
-The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
+Le `.html` dans le nom de fichier indique au navigateur que le fichier est une page Web, de sorte que le navigateur sait rechercher **étiquettes** lui indiquant ce qu'il doit afficher. (Un navigateur est le programme que vous utilisez pour consulter des sites Web, par exemple Chrome ou Firefox.)
 
-HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+Les balises HTML telles que `<p>` et `</p>` définissent différentes parties d'une page, par exemple des paragraphes, des en-têtes ou le corps. Les pièces sont toutes appelées **éléments**. Pensez-y comme des blocs de construction.
 
-### Why do I need two tags?
+### Pourquoi ai-je besoin de deux tags?
 
-You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
+Vous avez besoin d'une balise **ouverture** et **fermeture** pour indiquer au navigateur où les éléments **commencent** et **fin**. Donc, pour un paragraphe, l'étiquette `<p>` ouverture dit "Voici un texte que je veux que vous affichiez en tant que paragraphe." La balise de fermeture `</p>` indique au navigateur où se termine le paragraphe.
 
-Everything in between the `<body>` and `</body>` tags is your webpage.
+Tout ce qui se trouve entre les balises `<body>` et `</body>` est votre page Web.
 
-- Notice how the closing tag **always** has a forward slash `/`.
+- Remarquez comment la balise de fermeture **toujours** a une barre oblique `/`.
 
-\--- /collapse \---
+\--- /effondrer \---
 
-- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
+- Essayez de changer les numéros dans vos balises **rubrique** pour voir les différentes tailles qu'ils vous donnent. Ils peuvent aller de `<h1>` jusqu'à `<h6>`. N'oubliez pas de changer les balises d'ouverture et de fermeture afin qu'elles correspondent.
 
-- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
+- Trouvez le code pour le paragraphe qui dit `Mon site Web est sur l'Irlande.` et changez-le pour qu'il ressemble à ceci:
 
 ```html
   <p>
-    <em>My website</em> is about <strong>Ireland</strong>. 
-    It is going to have the following pages: Attractions, Music, Food
+    <em>Mon site Web</em> est au sujet de <strong>Irlande</strong>. 
+    Il va avoir les pages suivantes: Attractions, Musique, Nourriture
   </p>
 ```
 
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+Pouvez-vous déterminer ce que font les étiquettes `<em> </em>` et `<strong> </strong>`?
 
-![Example of HTML tags](images/egFirstTags.png)
+![Exemple de balises HTML](images/egFirstTags.png)
 
-\--- challenge \---
+\--- défi \---
 
-## Challenge: add some more text of your own
+## Défi: ajouter un peu plus de texte de votre choix
 
-- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
+- Essayez d'ajouter un nouveau paragraphe ou un nouveau titre à votre page en utilisant certains des tags que vous avez appris.
 
-\--- hints \---
+\--- astuces \---
 
-\--- hint \--- When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+\--- Astuce \--- Lorsque vous voulez mettre du texte sur une page, vous devez le mettre entre deux balises qui indiquent à votre navigateur comment afficher votre texte. Par exemple, les balises `<p> </p>` indiquent au navigateur que tout ce qui se trouve entre eux est un nouveau paragraphe de texte, et les balises `<h1> </h1>` indiquent que le texte entre les deux est un en-tête.
 
-\--- /hint \---
+\--- / indice \---
 
-\--- hint \---
+\--- indice \---
 
-The code for paragraphs looks like this:
-
-```html
-  <p>This is one paragraph of text.</p>
-
-  <p>This is another paragraph.
-  Everything in between one set of p tags is 
-  displayed together in one long line on the webpage.</p>
-```
-
-\--- /hint \---
-
-\--- hint \---
-
-The code for headings looks like this:
+Le code pour les paragraphes ressemble à ceci:
 
 ```html
-  <h1>This is a heading.</h1>
+  <p>Ceci est un paragraphe de texte.</p>
+
+  <p>Ceci est un autre paragraphe.
+  Tout ce qui se trouve entre un ensemble de points p est affiché ensemble dans une longue ligne sur la page Web.</p>
 ```
 
-Headings will normally be displayed bigger or bolder than the paragraphs.
+\--- / indice \---
 
-\--- /hint \---
+\--- indice \---
 
-\--- /hints \---
+Le code des en-têtes ressemble à ceci:
 
-\--- /challenge \---
+```html
+  <h1>Ceci est un en-tête.</h1>
+```
 
-Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
+Les titres seront normalement affichés plus grands ou plus audacieux que les paragraphes.
+
+\--- / indice \---
+
+\--- /astuces \---
+
+\--- /défi \---
+
+Félicitations, vous avez construit votre première page Web! Sur la prochaine carte, vous découvrirez comment contrôler son apparence.
