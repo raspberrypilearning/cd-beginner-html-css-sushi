@@ -1,0 +1,46 @@
+---
+title: Anfänger HTML / CSS Sushi Karten
+hero_image: Bilder / Banner.png
+description: Lernen Sie, eine Website zu erstellen
+theme: rot
+duration: 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: HTML-CSS-Javascript
+site_areas: Coderdojo, Projekte
+hardware: ''
+software: HTML-CSS-Javascript
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Einführung
+  - 
+    title: Was wirst du brauchen
+  - 
+    title: Einrichten eingerichtet
+  - 
+    title: Deine erste Webseite!
+  - 
+    title: Steuern, wie es aussieht
+  - 
+    title: Bilder hinzufügen
+  - 
+    title: Hinzufügen einer Karte oder eines Videos
+  - 
+    title: Eine Liste machen
+  - 
+    title: Erstellen von Links
+  - 
+    title: Hinzufügen weiterer Seiten
+  - 
+    title: Navigieren auf Ihrer Website
+  - 
+    title: Erstellen einer Menüleiste
+  - 
+    title: Styling der Menüleiste
+  - 
+    title: Hinzufügen einer Tabelle
