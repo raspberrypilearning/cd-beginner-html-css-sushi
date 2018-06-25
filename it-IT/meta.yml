@@ -1,8 +1,8 @@
 ---
-title: Beginner HTML/CSS Sushi Cards
-hero_image: images/banner.png
-description: Learn to make a website
-theme: red
+title: Sushi carte HTML / CSS per principianti
+hero_image: images / banner.png
+description: Impara a creare un sito web
+theme: rosso
 duration: 3
 listed: true
 ingredient: false
@@ -10,37 +10,37 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projects
+site_areas: coderdojo, progetti
 hardware: ''
 software: html-css-javascript
 version: 3
-last_tested: 2017-01-01
+last_tested: 2017/01/01
 steps:
   - 
-    title: Introduction
+    title: introduzione
   - 
-    title: What you will need
+    title: Di cosa avrai bisogno
   - 
-    title: Getting set up
+    title: Prepararsi
   - 
-    title: Your first webpage!
+    title: La tua prima pagina web!
   - 
-    title: Controlling how it looks
+    title: Controllando come appare
   - 
-    title: Adding pictures
+    title: Aggiungere foto
   - 
-    title: Adding a map or video
+    title: Aggiungere una mappa o un video
   - 
-    title: Making a list
+    title: Fare una lista
   - 
-    title: Creating links
+    title: Creare collegamenti
   - 
-    title: Adding more pages
+    title: Aggiungere più pagine
   - 
-    title: Navigating your website
+    title: Navigare nel tuo sito web
   - 
-    title: Making a menu bar
+    title: Creare una barra dei menu
   - 
-    title: Styling the menu bar
+    title: Disegnare la barra dei menu
   - 
-    title: Adding a table
+    title: Aggiungere una tabella
