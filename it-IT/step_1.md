@@ -1,19 +1,19 @@
-## Introduction
+## introduzione
 
-Learn how to code your first website!
+Scopri come codificare il tuo primo sito web!
 
-### What you will make
+### Cosa farai
 
-Build a website about your home country, like the one in the trinket below.
+Costruisci un sito web sul tuo paese d'origine, come quello nel gingillo sottostante.
 
 <div class="scratch-preview">
   <iframe src="https://trinket.io/embed/html/8d5e6e8aad" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-### What you will learn
+### Cosa imparerai
 
-- Using an online editor to create a website made up of HTML files and a CSS file
-- Building a HTML website that has headings, paragraph text, lists, and images
-- Using CSS code to control the look of your website, including designing a simple menu bar and changing colours, backgrounds, and borders
-- Linking pages to each other, and linking to other websites
-- Creating a table that includes headings and multiple rows
+- Utilizzando un editor online per creare un sito Web composto da file HTML e un file CSS
+- Creazione di un sito Web HTML con intestazioni, testo di paragrafo, elenchi e immagini
+- Utilizzando il codice CSS per controllare l'aspetto del tuo sito web, tra cui la progettazione di una semplice barra dei menu e la modifica di colori, sfondi e bordi
+- Collegamento di pagine tra loro e collegamento ad altri siti Web
+- Creazione di una tabella che include intestazioni e più righe
