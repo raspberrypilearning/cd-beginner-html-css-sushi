@@ -1,0 +1,46 @@
+---
+title: Beginner HTML / CSS Sushi Carduri
+hero_image: images / banner.png
+description: Aflați cum să creați un site web
+theme: roșu
+duration: 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-JavaScript
+site_areas: coderdojo, proiecte
+hardware: ''
+software: html-css-JavaScript
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Introducere
+  - 
+    title: Ce vei avea nevoie
+  - 
+    title: Se pregătește
+  - 
+    title: Prima pagină Web!
+  - 
+    title: Controlul cum arată
+  - 
+    title: Adăugarea de imagini
+  - 
+    title: Adăugarea unei hărți sau a unui videoclip
+  - 
+    title: Efectuarea unei liste
+  - 
+    title: Crearea de linkuri
+  - 
+    title: Adăugarea mai multor pagini
+  - 
+    title: Navigarea pe site-ul dvs. web
+  - 
+    title: Efectuarea unei bare de meniu
+  - 
+    title: Modelarea barei de meniu
+  - 
+    title: Adăugarea unui tabel
