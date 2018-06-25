@@ -1,44 +1,44 @@
-## Creating links
+## Créer des liens
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+Sur cette carte, vous apprendrez à créer un lien qui vous mènera à une autre page lorsque vous aurez cliqué dessus.
 
-- Add the following code to the body section of `index.html`:
+- Ajoutez le code suivant à la section body de `index.html`:
 
 ```html
-  <a href="">Click here</a>
+  <a href="">Cliquez ici</a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+Les balises `<a> </a>` transforment tout ce qui se trouve entre eux en un lien.
 
-- Try clicking your link to see what happens. It does nothing, right?
+- Essayez de cliquer sur votre lien pour voir ce qui se passe. Ça ne fait rien, n'est-ce pas?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+C'est parce que l'attribut `href` est vide pour le moment. Il doit contenir le **URL** (adresse Web) de la page que vous souhaitez lier.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- Aller à Wikipedia et trouver une page sur quelque chose sur votre site Web. Je vais utiliser la page sur l'Irlande.
 
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- Cliquez dans la barre d'adresse et sélectionnez tout le texte dans i5. C'est l'URL complète de la page sur laquelle vous êtes. appuie sur le <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>C</kdb> touches en même temps pour le copier.
     
-    ![URL in address bar](images/AddressBarURL.png)
+    ![URL dans la barre d'adresse](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- Dans votre bijou, cliquez entre les guillemets après `href =` et appuyez sur <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>V</kdb> touches en même temps pour coller dans l'URL que vous venez de copier. Votre code devrait ressembler à ceci:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+  <a href="https://en.wikipedia.org/wiki/Ireland">Cliquez ici</a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+Vous venez de créer votre premier lien! Cliquez dessus pour voir si cela fonctionne maintenant.
 
-![Link tag](images/egLinkTagWithURL.png)
+![Tag de lien](images/egLinkTagWithURL.png)
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: Links to other websites
+## title: Liens vers d'autres sites
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Le bijou a des problèmes avec certaines adresses Web. Vous pouvez essayer des URL de sites Web autres que Wikipédia si vous le souhaitez, mais ils peuvent ne pas fonctionner dans votre bijou. Toutefois, si vous deviez télécharger votre projet et afficher les fichiers dans un navigateur Web, vous verriez les liens fonctionner.
 
-\--- /collapse \---
+\--- /effondrer \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- Essayez de mettre une image entre les balises `<a> </a>` au lieu des mots `Cliquez ici`, comme ceci:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,20 +46,20 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- Cliquez sur votre photo Voyez-vous qu'il a été transformé en un lien?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+Vous pouvez également insérer un lien dans d'autres éléments de votre page Web, par exemple dans un paragraphe ou même dans une liste. Voici un exemple de phrase avec un lien:
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+    <a href="https://en.wikipedia.org/wiki/Ireland">Cliquez ici</a> pour lire la page Wikipedia!
   </p>
 ```
 
-\--- challenge \---
+\--- défi \---
 
-## Challenge: put a link into a list
+## Défi: mettre un lien dans une liste
 
-- See if you can make a list that contains a link inside one of the list items.
+- Voyez si vous pouvez faire une liste qui contient un lien dans l'un des éléments de la liste.
 
-\--- /challenge \---
+\--- /défi \---
