@@ -1,72 +1,63 @@
-## Controlling how it looks
+## Controlando cómo se ve
 
-The code that describes what a website looks like is called **CSS**.
+El código que describe cómo se ve un sitio web se llama **CSS**.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- Mire las pestañas en la parte superior del panel de códigos y vaya al archivo `styles.css` haciendo clic en la pestaña con ese nombre. El archivo contiene el siguiente texto:
 
 ```css
-  body {
-      background-color: white;
-  }
+  cuerpo {color de fondo: blanco; }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- Cambie el color `blanco` por `LightSkyBlue` y vea qué sucede. ¡Tu sitio web ahora debería tener un fondo azul! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![Ejemplo con fondo azul](images/egFirstCSSbluebg.png)
 
-## \--- collapse \---
+## \--- colapso \---
 
-## title: How does it work?
+## título: ¿Cómo funciona?
 
-If you look at the top of the `index.html` file, you will see the following line:
+Si miras en la parte superior del archivo `index.html` , verás la siguiente línea:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+La línea de arriba le dice al buscador que busque un archivo especial llamado `styles.css`. Este archivo especial se llama hoja de estilo ****. Puede reconocer un archivo de hoja de estilo por `.css` en su nombre.
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+Una hoja de estilo contiene **reglas** para el aspecto que debe tener cada elemento de su página web.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+Las llaves `{ }` y el código entre ellas son un conjunto de **reglas CSS**. La palabra `cuerpo` significa que las reglas son para todos los elementos `<body>` en su sitio web. Llamamos a la broca frente a las llaves un selector ****. Entonces, en este caso, es el selector para los elementos del cuerpo.
 
-Each rule inside the curly braces is made up of:
+Cada regla dentro de las llaves está compuesta de:
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- Una **propiedad** a la izquierda, seguida de un signo de `puntos <code> :`
+- Un **valor** para la propiedad en el lado derecho después de los dos puntos
+- Un símbolo de punto y coma `;` al final
 
-\--- /collapse \---
+\--- /colapso \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
-
-```css
-  body {
-    background-color: LightSkyBlue;
-    font-family: "Helvetica", sans-serif;
-    color: purple;
-  }
-```
-
-Look at how this has changed the webpage.
-
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
-
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- Vamos a agregar reglas para cambiar el aspecto del texto. Agregue dos líneas nuevas dentro de las llaves:
 
 ```css
-  h1 {
-    color: orange;
-    font-family: "Times New Roman", serif;
-  }
+  cuerpo {color de fondo: LightSkyBlue; font-family: "Helvetica", sans-serif; color morado; }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+Mira cómo esto ha cambiado la página web.
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+La propiedad `color` es siempre para texto. Aquí, está configurando el color de todo el texto en el `cuerpo` de su página web.
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+- También puede escribir reglas separadas para los títulos y los párrafos. Para los encabezados `<h1>` , usa el selector `h1`. Debajo de la llave de cierre que contiene la regla de CSS para el cuerpo, agregue el siguiente código.
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+```css
+  h1 {color: naranja; familia de fuentes: "Times New Roman", serif; }
+```
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+El texto de encabezado debe ser naranja ahora, con el párrafo en morado como antes.
+
+![Resultado del nuevo código CSS](images/egCssColorsFonts.png)
+
+¿Te das cuenta de que las letras también se ven diferentes y tienen un color diferente? Esto se debe a que cambió su familia de fuentes ****. Puedes encontrar más fuentes [aquí](http://dojo.soy/web-font-families).
+
+- Intente agregar un conjunto de reglas para los títulos `<h2>` , usando el selector `h2`.
+
+- ¿Por qué no experimentar con diferentes combinaciones de colores para el texto y el fondo? Hay muchos colores disponibles para usar. Encuentre una lista completa de ellos [aquí](http://dojo.soy/web-color-names).
