@@ -1,49 +1,49 @@
-## Making a list
+## Faire une liste
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+Maintenant, vous apprendrez comment transformer une liste d'éléments, tels que "licornes, robots, chats", en une liste plus belle que vous pouvez faire des choses cool avec plus tard.
 
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- Dans le fichier `index.html` , ajoutez le code suivant juste au-dessus de la ligne avec `</main>` dessus:
 
 ```html
     <ul>
-        <li>Cows</li>
-        <li>Sheep</li>
-        <li>Foxes</li>
-        <li>Bats</li>
+        <li>Vaches</li>
+        <li>Moutons</li>
+        <li>Renards</li>
+        <li>Chauves-souris</li>
     </ul>
 ```
 
-The result should be a nice list like this:
+Le résultat devrait être une belle liste comme ceci:
 
-![Unordered list](images/egUnorderedList.png)
+![Liste non ordonnée](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
+Notez qu'il existe une paire distincte de balises `<li> </li>` autour de chaque élément de la liste.
 
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+Ceci est une liste de quelques animaux que vous pourriez voir en Irlande. Vous pouvez modifier les éléments de la liste en fonction de ce qui est logique pour votre site Web et ajouter un paragraphe au-dessus de la liste pour décrire la liste de ceux-ci, si vous le souhaitez!
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
+Et si vous vouliez une liste numérotée? C'est presque pareil, mais au lieu de `<ul>`, vous utilisez `<ol>`. Une liste numérotée est également appelée une liste **ordonnée**.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- Ajoutez le code suivant ci-dessous le code que vous venez d'écrire - assurez-vous qu'il est **ci-dessous** le tag `</ul>`!
 
 ```html
     <p>
-        My favourite things to eat and drink in Ireland are:
+        Mes choses préférées à manger et à boire en Irlande sont:
     </p>
     <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
+        <li>Thé</li>
+        <li>Sandwichs croquants</li>
+        <li>Saucisses</li>
     </ol>
 ```
 
-Here's what it should look like now:
+Voici à quoi cela devrait ressembler maintenant:
 
-![Ordered list](images/egOrderedList.png)
+![Liste commandée](images/egOrderedList.png)
 
-\--- challenge \---
+\--- défi \---
 
-## Challenge: add style to your lists
+## Défi: ajouter du style à vos listes
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- Voyez si vous pouvez ajouter **règles CSS** à votre feuille de style pour modifier l'aspect de vos listes.
 
-\--- /challenge \---
+\--- /défi \---
