@@ -1,44 +1,44 @@
-## Creating links
+## Crearea de linkuri
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+Pe acest card veți afla cum să creați o legătură care să vă ducă la o altă pagină când este făcută clic pe ea.
 
-- Add the following code to the body section of `index.html`:
+- Adăugați următorul cod la secțiunea de corp `index.html`:
 
 ```html
-  <a href="">Click here</a>
+  <a href="">Faceți clic aici</a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+Tag-urile `<a> </a>` transformă ceea ce se află între ele într-o legătură.
 
-- Try clicking your link to see what happens. It does nothing, right?
+- Încercați să faceți clic pe linkul dvs. pentru a vedea ce se întâmplă. Nu face nimic, nu?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+Aceasta deoarece atributul `href` este gol în acest moment. Aceasta trebuie să conțină **URL -** (adresa de web) a paginii pe care doriți să creați un link.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- Accesați Wikipedia și găsiți o pagină despre ceva pe site-ul dvs. web. Voi folosi pagina despre Irlanda.
 
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- Faceți clic pe bara de adrese și selectați tot textul din i5. Aceasta este adresa URL completă a paginii pe care vă aflați. apasă pe <kdb>Ctrl</kdb> (sau <kdb>cmd</kdb>) și <kdb>C</kdb> simultan pentru copiere.
     
-    ![URL in address bar](images/AddressBarURL.png)
+    ![Adresa URL în bara de adrese](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- În trinket, faceți clic între ghilimele după `href =` și apăsați pe <kdb>Ctrl</kdb> (sau <kdb>cmd</kdb>) și <kdb>V</kdb> chei în același timp pentru a lipi în URL-ul pe care tocmai l-ați copiat. Codul dvs. ar trebui să pară așa:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+  <a href="https://en.wikipedia.org/wiki/Ireland">Faceți clic aici</a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+Tocmai ai creat primul tău link! Faceți clic pe acesta pentru a vedea dacă funcționează acum.
 
 ![Link tag](images/egLinkTagWithURL.png)
 
-## \--- collapse \---
+## \--- colaps \---
 
-## title: Links to other websites
+## titlu: Legături către alte site-uri web
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Trinket are probleme cu unele adrese web. Puteți încerca să utilizați URL-uri de alte site-uri decât Wikipedia dacă doriți, dar este posibil ca acestea să nu funcționeze în trinket. Cu toate acestea, dacă ați descărcat proiectul și ați vizualizat fișierele într-un browser web, ați vedea că link-urile funcționează.
 
-\--- /collapse \---
+\--- / colaps \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- Încercați să puneți o imagine între etichetele `<a> </a>` în loc de cuvintele `Faceți clic aici`, după cum urmează:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,20 +46,20 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- Faceți clic pe imaginea dvs. Vezi că a fost transformată într-o legătură?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+Puteți pune și un link în alte elemente ale paginii dvs. web, cum ar fi într-un paragraf sau chiar într-o listă. Iată un exemplu de propoziție cu o legătură în ea:
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+    <a href="https://en.wikipedia.org/wiki/Ireland">Faceți clic aici</a> pentru a citi pagina Wikipedia!
   </p>
 ```
 
-\--- challenge \---
+\--- provocare \---
 
-## Challenge: put a link into a list
+## Provocare: puneți o legătură într-o listă
 
-- See if you can make a list that contains a link inside one of the list items.
+- Vedeți dacă puteți crea o listă care conține o legătură într-unul din elementele listate.
 
-\--- /challenge \---
+\--- /provocare \---
