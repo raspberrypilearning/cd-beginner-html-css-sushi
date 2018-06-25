@@ -10,51 +10,51 @@ Multe site - uri au un **de navigare** meniu pentru a ajuta vizitatorii deplasa 
 
 - Doar **după** eticheta de închidere `</ul>` , apăsați **Introduceți** pentru a crea o linie nouă și introduceți eticheta de închidere `</nav>` acolo.
 
-- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+- Acum, selectați întreaga secțiune și listă `<nav>` făcând clic înainte de eticheta de deschidere `<nav>` și trăgând mouse-ul până la sfârșitul etichetei `</nav>` , astfel încât tot textul, inclusiv etichetele de deschidere și de închidere devine evidențiat. Asigurați - vă că toate **corniere** `<` și `>` la începutul și sfârșitul sunt evidențiate, de asemenea!
 
-![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+![Textul din stânga nu este complet selectat în timp ce textul din dreapta este](images/egSelectedYayWoops.png)
 
-- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+- Urmezi **tăiat** data asta în loc de copiere. Țineți apăsată tasta <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>), iar în timp ce țineți apăsată tasta <kbd>X</kbd>. Codul evidențiat va dispărea, dar nu va intra în panică!
 
-- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+- În partea de sus a fișierului, faceți clic în spațiul dintre etichetele `<header> </header>`. Asigurați-vă că vedeți cursorul care clipește acolo. Acum lipiți codul apăsând <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>) și <kbd>V</kbd> ca de obicei. Codul ar trebui să arate astfel:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="attractions.html">Locuri de vizitat</a></li>
+            <li><a href="music.html">Muzică</a></li>
+            <li><a href="food.html">Lucruri de mâncare</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-## \--- collapse \---
+## \--- colaps \---
 
-## title: Undo!
+## titlu: Anulează!
 
-If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
+Dacă faceți o greșeală, puteți **anula** prin apăsarea <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>) și <kbd>Z</kbd> împreună. De obicei, puteți apăsa de câteva ori această combinație de taste pentru a anula ultimele modificări. Aceasta este o altă comandă rapidă pe care o puteți utiliza în multe programe!
 
-\--- /collapse \---
+\--- / colaps \---
 
-- Try out your links to make sure they are still working.
+- Încercați legăturile dvs. pentru a vă asigura că încă mai funcționează.
 
-\--- challenge \---
+\--- provocare \---
 
-## Challenge: navigation menus for all pages
+## Provocare: meniuri de navigare pentru toate paginile
 
-- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+- Puneți această secțiune de cod în secțiunea antet a fiecărui fișier HTML pe care l-ați creat. Acest lucru va face ca meniul de navigare să apară în partea de sus a fiecărei pagini de pe site-ul dvs. Web.
     
-    \--- hints \---
+    \--- sugestii \---
     
-    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+    \--- Sugestie \--- Selectați întreaga secțiune `<nav>` cum ați făcut înainte și apăsați pe tastele <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>) și <kbd>C</kbd> împreună pentru ao copia.
 
-Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
+Apoi, în fiecare din fișierele dvs. `.html` , faceți clic pe secțiunea `<header> </header>` și lipiți codul exact așa cum ați făcut mai devreme. \--- / indiciu \---
 
-\--- /hints \---
+\--- / sugestii \---
 
-Now you will be able to click the links no matter which page you are on.
+Acum veți putea să faceți clic pe linkuri indiferent de pagina pe care vă aflați.
 
-\--- /challenge \---
+\--- /provocare \---
