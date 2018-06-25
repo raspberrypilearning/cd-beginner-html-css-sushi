@@ -1,59 +1,51 @@
-## Styling the menu bar
+## Modelarea barei de meniu
 
-With CSS, the possibilities for making your menu bar look great are endless.
+Cu CSS, posibilitățile de a face bara de meniu să arate bine sunt nesfârșite.
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+- Deplasați-vă din nou la fișierul `stiles.css` - locul unde se întâmplă lucrurile interesante!
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
-
-```css
-  nav ul {
-    background-color: tomato;
-    border-style: solid;
-    border-color: MediumVioletRed;
-    border-width: 2px;
-    padding: 10px;
-  }
-```
-
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
-
-![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
-
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
+- Găsiți selectorul `nav ul` și adăugați mai multe reguli astfel încât să pară următoarele:
 
 ```css
-  nav ul li a {
-      text-decoration: none;
-  }
+  nav ul {culoare-fundal: tomate; stilul frontal: solid; culoarea frontală: MediumVioletRed; lățimea frontală: 2px; padding: 10px; }
 ```
 
-The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
+Proprietatea `padding` adaugă spațiu. Puteți afla ce face fiecare dintre celelalte proprietăți? Încercați să experimentați diferite culori și numere de pixeli.
 
-![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
+![Bara de meniu cu margini și inserție adăugată](images/egMenuBarMoreStyle.png)
 
-Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
-
-- Find your `nav ul li` selector, and **inside** the curly braces add the line:
+- Pentru a scapa de sublinierea link-urilor, adăugați următorul cod pe o linie nouă după încheierea cursei `}` pentru cele `reguli nav nav`. Ai putea pune - l după orice `}`, dar este o idee bună de a păstra lucrurile legate împreună , astfel că este mai ușor de găsit!
 
 ```css
-  color: PapayaWhip;
+  nav ul li a {text-decorare: nimic; }
 ```
 
-You can choose any colour you like!
+Regula de mai sus se aplică legăturilor `<a>` elementele de listă `<li>` într-o listă neordonată `<ul>` în interiorul unei secțiuni de navigare `<nav>`. Wow, sunt patru selectori!
 
-You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
+![Bara de meniu cu sublinierea liniei a fost eliminată](images/egMenuBarNoUnderline.png)
 
-- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
+Amintiți-vă cum ați eliminat etichetele de legătură de la unele elemente din listă din secțiunea `<nav>` astfel încât să puteți vedea cu ușurință ce pagină sunteți pe această pagină. De ce nu schimbați și culoarea textului acelor elemente din lista de navigare care nu sunt link-uri!
 
-The `border-radius` property is a really easy way to make anything look cooler!
+- Găsiți selectorul dvs. `ul li` și **în interior** coarde curl adăugați linia:
 
-![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+```css
+  culoare: PapayaWhip;
+```
 
-\--- challenge \---
+Puteți alege orice culoare doriți!
 
-## Challenge: make your pictures have rounded corners
+Puteți adăuga proprietatea `color` la regula `nav ul li a` , dacă doriți ca legăturile de meniu să aibă o culoare diferită de celelalte linkuri de pe site-ul dvs. Web.
 
-- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+- Ce zici de câteva colțuri rotunjite pentru meniul tău? Încercați să adăugați următorul cod în regula `nav ul` pentru a vedea ce se întâmplă: `raza de graniță: 10 pixeli;`.
 
-\--- /challenge \---
+Proprietatea `de la raza de graniță` este o modalitate foarte ușoară de a face ceva să arate mai rece!
+
+![Pagină web cu colțuri rotunjite în bara de meniu și pe o imagine](images/egMenuBarFullStyles_result.png)
+
+\--- provocare \---
+
+## Provocare: face ca imaginile să aibă colțuri rotunjite
+
+- În foaia dvs. de stil, creați un set nou de reguli pentru imagini utilizând selectorul `img` și adăugați o regulă `de rază` limitei.
+
+\--- /provocare \---
