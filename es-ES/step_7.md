@@ -1,29 +1,29 @@
-## Adding a map or video
+## Agregar un mapa o video
 
-YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
+YouTube proporciona una manera fácil de agregar sus videos a su sitio web. Agregar elementos de otras fuentes en línea a su sitio web también se llama **incrustación**.
 
-- Find a video on YouTube that you want to show on your website.
+- Busque un video en YouTube que quiera mostrar en su sitio web.
 
-- Click on the **Share** button below the video. Select the option **Embed**.
+- Haga clic en el botón **Compartir** debajo del video. Seleccione la opción **Incrustar**.
 
-You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
+Verá un cuadro de texto con todo el texto seleccionado. Si desactiva accidentalmente el texto, puede volver a seleccionarlo haciendo clic en él y presionando <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en Mac) y <kbd>teclas A</kbd> al mismo tiempo.
 
-![YouTube's embed option with code selected](images/EmbedYouTube.png)
+![Opción de inserción de YouTube con código seleccionado](images/EmbedYouTube.png)
 
-- Press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>C</kbd> keys together to copy the text.
+- Presione las teclas <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en Mac) y <kbd>C</kbd> juntas para copiar el texto.
 
-- Then go back to your website's HTML code, and click in the place where you want to put the video, for example below a heading or paragraph. **Paste** the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>V</kbd> on your keyboard at the same time. Don't worry about understanding all the code you just pasted!
+- A continuación, vuelva al código HTML de su sitio web y haga clic en el lugar donde desea colocar el video, por ejemplo debajo de un encabezado o párrafo. **Pegue** el código presionando <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en una Mac) y <kbd>V</kbd> en su teclado al mismo tiempo. ¡No se preocupe por comprender todo el código que acaba de pegar!
 
-![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
+![Ejemplo del código de incrustación pegado en una página HTML](images/EmbedYouTube2.png)
 
-You should see the video appear on your webpage.
+Deberías ver el video aparecer en tu página web.
 
-The same technique works for Google maps as well. Give it a go!
+La misma técnica también funciona para los mapas de Google. ¡Darle una oportunidad!
 
-- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
+- Vaya [aquí](http://dojo.soy/google-maps) y busque un lugar que quiera mostrar en su sitio web. **Nota:** do **not** comparte información personal, como la dirección de su casa en un sitio web.
 
-- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+- Haga clic en el resultado, luego haga clic en el botón **Compartir** , y copie el código y agréguelo a su sitio web como se indica arriba. ![Incrustar la opción seleccionada en Google Maps](images/EmbedGoogleMap.png)
 
-- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
+- Si observa detenidamente, encontrará `ancho` y `alto` **atributos** en el código pegado. Puede cambiar sus valores para hacer que el mapa parezca más grande o más pequeño.
 
-![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
+![Ejemplo de Google Map incrustado con atributos de ancho y alto seleccionados](images/EmbeddedGoogleMapCode.png)
