@@ -1,29 +1,29 @@
-## Adding a map or video
+## Hinzufügen einer Karte oder eines Videos
 
-YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
+YouTube bietet eine einfache Möglichkeit, Videos zu Ihrer Website hinzuzufügen. Das Hinzufügen von Elementen aus anderen Online-Quellen zu Ihrer Website wird auch **Einbetten**.
 
-- Find a video on YouTube that you want to show on your website.
+- Suchen Sie auf YouTube ein Video, das Sie auf Ihrer Website anzeigen möchten.
 
-- Click on the **Share** button below the video. Select the option **Embed**.
+- Klicke auf die Schaltfläche **Teilen** unter dem Video. Wählen Sie die Option **Einbetten**.
 
-You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
+Sie sehen ein Textfeld mit dem gesamten ausgewählten Text. Wenn Sie den Text versehentlich abwählen, können Sie ihn erneut auswählen, indem Sie darauf klicken und gleichzeitig die Tasten <kbd>Ctrl</kbd> (oder <kbd>cmd</kbd> auf einem Mac) und <kbd>A</kbd> drücken.
 
-![YouTube's embed option with code selected](images/EmbedYouTube.png)
+![Die Einbettungsoption von YouTube mit ausgewähltem Code](images/EmbedYouTube.png)
 
-- Press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>C</kbd> keys together to copy the text.
+- Drücken Sie die Tastenkombination <kbd>Ctrl</kbd> (oder <kbd>cm</kbd> auf einem Mac) und <kbd>C</kbd> um den Text zu kopieren.
 
-- Then go back to your website's HTML code, and click in the place where you want to put the video, for example below a heading or paragraph. **Paste** the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>V</kbd> on your keyboard at the same time. Don't worry about understanding all the code you just pasted!
+- Kehren Sie dann zum HTML-Code Ihrer Website zurück und klicken Sie an die Stelle, an der Sie das Video einfügen möchten, beispielsweise unter eine Überschrift oder einen Absatz. **Paste** der Code durch Drücken von <kbd>Ctrl</kbd> (oder <kbd>cmd</kbd> auf einem Mac) und <kbd>V</kbd> auf der Tastatur zur gleichen Zeit. Mach dir keine Sorgen über den Code, den du gerade eingefügt hast!
 
-![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
+![Beispiel für den Einbettungscode, der in eine HTML-Seite eingefügt wird](images/EmbedYouTube2.png)
 
-You should see the video appear on your webpage.
+Sie sollten das Video auf Ihrer Webseite sehen.
 
-The same technique works for Google maps as well. Give it a go!
+Die gleiche Technik funktioniert auch für Google Maps. Probieren Sie es aus!
 
-- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
+- Gehen Sie [hier](http://dojo.soy/google-maps) und suchen Sie nach einem Ort, den Sie auf Ihrer Website zeigen möchten. **Hinweis:** do **nicht** teilen persönliche Informationen wie Ihre Wohnadresse auf einer Website!
 
-- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+- Klicken Sie auf das Ergebnis und dann auf die Schaltfläche **Teilen** , kopieren Sie den Code und fügen Sie ihn wie oben beschrieben zu Ihrer Website hinzu. ![Einbetten Option ausgewählt in Google Maps](images/EmbedGoogleMap.png)
 
-- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
+- Wenn Sie genau hinschauen, sollten Sie im eingefügten Code `Breite` und `Höhe` **Attribute**. Sie können ihre Werte ändern, um die Karte größer oder kleiner erscheinen zu lassen.
 
-![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
+![Beispiel für eine eingebettete Google Map mit ausgewählten Attributen für Breite und Höhe](images/EmbeddedGoogleMapCode.png)
