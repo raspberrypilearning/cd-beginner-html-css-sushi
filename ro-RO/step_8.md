@@ -1,49 +1,49 @@
-## Making a list
+## Efectuarea unei liste
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+Acum veți învăța cum să transformați o listă de articole, cum ar fi "unicorns, roboți, pisici", într-o listă cu aspect frumos, pe care o puteți face mai târziu.
 
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- În `index.html` fișier, adăugați următorul cod chiar deasupra liniei cu `</main>` pe ea:
 
 ```html
     <ul>
-        <li>Cows</li>
-        <li>Sheep</li>
-        <li>Foxes</li>
-        <li>Bats</li>
+        <li>Vaci</li>
+        <li>Oi</li>
+        <li>Lupi</li>
+        <li>Lilieci</li>
     </ul>
 ```
 
-The result should be a nice list like this:
+Rezultatul ar trebui să fie o listă plăcută:
 
-![Unordered list](images/egUnorderedList.png)
+![Lista neordonata](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
+Observați că există o pereche separată de taguri `<li> </li>` jurul fiecărui element din listă.
 
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+Aceasta este o listă a unor animale pe care le-ați putea vedea în Irlanda. Puteți modifica elementele din listă la lucruri care au sens pentru site-ul dvs. Web și puteți adăuga un paragraf deasupra listei pentru a descrie ce este o listă cu, dacă vă place!
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
+Ce zici dacă vrei o listă numerotată? Este aproape la fel, dar în loc de `<ul>`, folosiți `<ol>`. O listă numerotată este , de asemenea , numit un **comandat** listă.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- Adăugați următorul cod sub codul pe care tocmai l-ați scris - asigurați-vă că este sub **sub** eticheta `</ul>`!
 
 ```html
     <p>
-        My favourite things to eat and drink in Ireland are:
+        Produsele mele preferate de a mânca și bea în Irlanda sunt:
     </p>
     <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
+        <li>Ceai</li>
+        <li>Sandviciuri crud</li>
+        <li>Cârnați</li>
     </ol>
 ```
 
-Here's what it should look like now:
+Iată cum ar trebui să arate acum:
 
-![Ordered list](images/egOrderedList.png)
+![Lista ordonata](images/egOrderedList.png)
 
-\--- challenge \---
+\--- provocare \---
 
-## Challenge: add style to your lists
+## Provocare: adăugați stil la listele tale
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- Vedeți dacă puteți adăuga **reguli CSS** în foaia de stil pentru a modifica modul în care arată listele dvs.
 
-\--- /challenge \---
+\--- /provocare \---
