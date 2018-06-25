@@ -1,49 +1,49 @@
-## Making a list
+## Eine Liste machen
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+Jetzt lernst du, wie du eine Liste von Gegenständen, wie "Einhörner, Roboter, Katzen", in eine schönere Liste verwandelst, mit der du später coole Dinge tun kannst.
 
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- Fügen Sie in der Datei `index.html` den folgenden Code direkt über der Zeile mit `</main>`:
 
 ```html
     <ul>
-        <li>Cows</li>
-        <li>Sheep</li>
-        <li>Foxes</li>
-        <li>Bats</li>
+        <li>Kühe</li>
+        <li>Schafe</li>
+        <li>Füchse</li>
+        <li>Fledermäuse</li>
     </ul>
 ```
 
-The result should be a nice list like this:
+Das Ergebnis sollte eine nette Liste wie folgt sein:
 
-![Unordered list](images/egUnorderedList.png)
+![Ungeordnete Liste](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
+Beachten Sie, dass um jedes Element in der Liste ein separates Paar von `<li> </li>` -Tags besteht.
 
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+Dies ist eine Liste mit einigen Tieren, die Sie in Irland sehen können. Sie können die Elemente in der Liste in Dinge ändern, die für Ihre Website sinnvoll sind, und einen Absatz über der Liste hinzufügen, um zu beschreiben, was eine Liste von Ihnen ist, wenn Sie möchten!
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
+Wie wäre es, wenn Sie eine nummerierte Liste haben wollten? Es ist fast das Gleiche, aber statt `<ul>`Sie `<ol>`. Eine nummerierte Liste wird auch als **Ordered-** Liste bezeichnet.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- Fügen Sie den folgenden Code unterhalb des Codes ein, den Sie gerade geschrieben haben - stellen Sie sicher, dass es **unter** das `</ul>` Tag!
 
 ```html
     <p>
-        My favourite things to eat and drink in Ireland are:
+        Meine Lieblingsdinge zum Essen und Trinken in Irland sind:
     </p>
     <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
+        <li>Tee</li>
+        <li>Crisp Sandwiches</li>
+        <li>Würstchen</li>
     </ol>
 ```
 
-Here's what it should look like now:
+So sollte es jetzt aussehen:
 
-![Ordered list](images/egOrderedList.png)
+![Bestellliste](images/egOrderedList.png)
 
-\--- challenge \---
+\--- Herausforderung \---
 
-## Challenge: add style to your lists
+## Herausforderung: Fügen Sie Ihren Listen Stil hinzu
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- Sehen Sie, ob Sie Ihrem Stylesheet **CSS-Regeln** hinzufügen können, um zu ändern, wie Ihre Listen aussehen.
 
-\--- /challenge \---
+\--- /Herausforderung \---
