@@ -1,35 +1,35 @@
-## Getting set up
+## Preparándose
 
-- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- Vaya a [el abalorio inicial](http://dojo.soy/html-b-start). Verá un cuadro que contiene un proyecto de sitio web de ejemplo. En el lado derecho está el sitio web, y en el lado izquierdo está el código que hace el sitio web. ![Página web y código en Trinket](images/tktHTMLStartingPoint.png)
 
-## \--- collapse \---
+## \--- colapso \---
 
-## title: I have a Trinket account
+## título: tengo una cuenta Trinket
 
-- Click the **Remix** button at the top right of the project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
+- Haga clic en el botón **Remix** en la parte superior derecha del proyecto. Si no ha iniciado sesión, se le pedirá que lo haga. Una vez que haya iniciado sesión, deberá hacer clic en **Remix** nuevamente. Al hacer clic en este botón, se crea una copia del proyecto para que usted pueda trabajar. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Botón Remix](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Debería decir **remezclado** después de hacer clic en él:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![El botón ahora dice "remixado"](images/tktRemixedSmall.png)
 
-\--- /collapse \---
+\--- /colapso \---
 
-## \--- collapse \---
+## \--- colapso \---
 
-## title: I don't have a Trinket account
+## título: no tengo una cuenta de Trinket
 
-You can save your work by using one of the options in the **Share** menu. You will get a link that you can either save somewhere, for example in a document, or send to someone via email. **Note:** each time you make a change, you will get a new link.
+Puede guardar su trabajo utilizando una de las opciones en el menú **Compartir**. Obtendrá un enlace que puede guardar en algún lugar, por ejemplo en un documento, o enviarlo a alguien por correo electrónico. **Nota:** cada vez que realice un cambio, obtendrá un nuevo enlace.
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
+Si desea crear una cuenta en Trinket, siga los pasos a continuación. Esto le permitirá acceder fácilmente a su trabajo desde cualquier computadora, y a **remixar** proyectos que otra persona haya compartido con usted. Remezclar significa que guardará una copia de un proyecto para que pueda realizar sus propios cambios.
 
-- Go to [the Trinket website](http://dojo.soy/trinket) and click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- Vaya a [el sitio web de Trinket](http://dojo.soy/trinket) y haga clic en **Regístrese para obtener su cuenta gratuita**. Necesitarás una dirección de correo electrónico para registrarte.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Ingrese su dirección de correo electrónico y elija una contraseña, o solicite a alguien que lo haga por usted.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+- Ahora puede acceder a todos sus proyectos guardados o remixados haciendo clic en su nombre de usuario y yendo a **My Trinkets**. !["elemento de menú My Trinkets"](images/MyTrinketsMenuWide.png)
 
-\--- /collapse \---
+\--- /colapso \---
 
-Let's start coding!
+¡Comencemos la codificación!
