@@ -1,72 +1,63 @@
-## Controlling how it looks
+## Contrôler son apparence
 
-The code that describes what a website looks like is called **CSS**.
+Le code qui décrit à quoi ressemble un site s'appelle **CSS**.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- Regardez les onglets en haut du panneau de code, et allez dans le fichier `styles.css` en cliquant sur l'onglet avec ce nom. Le fichier contient le texte suivant:
 
 ```css
-  body {
-      background-color: white;
-  }
+  body {background-color: blanc; }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- Changez le `blanc` couleur en `LightSkyBlue` et voyez ce qui se passe. Votre site web devrait maintenant avoir un fond bleu! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![Exemple avec fond bleu](images/egFirstCSSbluebg.png)
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: How does it work?
+## title: Comment ça marche?
 
-If you look at the top of the `index.html` file, you will see the following line:
+Si vous regardez en haut du fichier `index.html` , vous verrez la ligne suivante:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+La ligne ci-dessus indique au navigateur de rechercher un fichier spécial nommé `styles.css`. Ce fichier spécial est appelé une feuille de style ****. Vous pouvez reconnaître un fichier de feuille de style par le `.css` dans son nom.
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+Une feuille de style contient **règles** pour ce à quoi devrait ressembler chaque élément de votre page Web.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+Les accolades `{ }` et le code entre eux sont un ensemble de **règles CSS**. Le mot `body` signifie que les règles sont pour tous les `<body>` éléments de votre site. Nous appelons le bit en face de la bouclés accolades un **sélecteur**. Donc dans ce cas, c'est le sélecteur pour les éléments du corps.
 
-Each rule inside the curly braces is made up of:
+Chaque règle à l'intérieur des accolades est composée de:
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- A **propriété** sur la gauche, suivi d'un symbole du côlon `:`
+- A **valeur** pour la propriété sur le côté droit après le côlon
+- Un symbole en forme de point-virgule `;` à la fin
 
-\--- /collapse \---
+\--- /effondrer \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
-
-```css
-  body {
-    background-color: LightSkyBlue;
-    font-family: "Helvetica", sans-serif;
-    color: purple;
-  }
-```
-
-Look at how this has changed the webpage.
-
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
-
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- Permet d'ajouter des règles pour changer l'apparence du texte. Ajoutez deux nouvelles lignes à l'intérieur des accolades:
 
 ```css
-  h1 {
-    color: orange;
-    font-family: "Times New Roman", serif;
-  }
+  body {background-color: LightSkyBlue; famille de polices: "Helvetica", sans-serif; couleur violet; }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+Regardez comment cela a changé la page Web.
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+La propriété `color` est toujours pour le texte. Ici, vous définissez la couleur de tout le texte dans le corps `` de votre page Web.
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+- Vous pouvez également écrire des règles distinctes pour les titres et les paragraphes. Pour `<h1>` titres, utilisez le sélecteur `h1`. Sous l'accolade fermante contenant la règle CSS pour le corps, ajoutez le code suivant.
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+```css
+  h1 {couleur: orange; font-family: "Times New Roman", serif; }
+```
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+Votre texte d'en-tête devrait être orange maintenant, avec le paragraphe en violet comme avant.
+
+![Résultat du nouveau code CSS](images/egCssColorsFonts.png)
+
+Remarquez comment les lettres ont l'air différentes et sont d'une couleur différente? En effet , vous avez changé leur **famille de polices**. Vous pouvez trouver plus de polices [ici](http://dojo.soy/web-font-families).
+
+- Essayez d'ajouter un ensemble de règles pour les en-têtes `<h2>` , en utilisant le sélecteur `h2`.
+
+- Pourquoi ne pas essayer différentes combinaisons de couleurs pour le texte et l'arrière-plan? Il y a beaucoup de couleurs disponibles à utiliser. Trouvez-en une liste complète [ici](http://dojo.soy/web-color-names).
