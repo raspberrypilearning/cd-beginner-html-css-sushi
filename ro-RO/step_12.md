@@ -1,75 +1,66 @@
-## Making a menu bar
+## Efectuarea unei bare de meniu
 
-On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
+Pe acest card veți vedea cum puteți transforma meniul de navigare într-o bară de meniu interesantă, adăugând mai multe reguli CSS în foaia de stil.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+![Exemplu de bara de meniu](images/egCoolMenuBar.png)
 
-- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
-
-```css
-    nav ul {
-        background-color: tomato;
-    }
-```
-
-Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
-
-![List with red background](images/egMenuBarFirstStyle.png)
-
-Let's get rid of the bullet points. Those are the dots in front of each list item.
-
-- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- Accesați fișierul foaie de stil din fila `styles.css`. Dați clic pe **mai jos** o breșă de încheiere curată `}`și apăsați **Introduceți** pentru a crea o linie nouă. Adăugați următoarea regulă CSS:
 
 ```css
-    nav ul li {
-        list-style-type: none;
-    }
+    nav ul {culoare-fundal: tomate; }
 ```
 
-Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+Observați cum ați folosit doi selectori în loc de unul? Dacă ați folosit selectorul `ul` singur, regula ar afecta toate listele neordonate de pe site-ul dvs. Web. Adăugarea selectorului `nav` face ca acesta să se aplice numai listelor care se află între `etichete nav`.
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![Lista cu fundal roșu](images/egMenuBarFirstStyle.png)
 
-Now let's make the list horizontal (across) instead of vertical (down).
+Să scăpăm de punctele glonțului. Acestea sunt punctele din fața fiecărui element din listă.
 
-- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+- Adăugați următoarele în fișierul `styles.css`. Din nou, tastați-l pe o linie nouă după un `}` deci nu este în interiorul niciunui alt bloc de reguli.
+
+```css
+    nav ul li {lista-tip-tip: nici unul; }
+```
+
+Observați că acest set de reguli are trei selectori: selectează toate cele `li` elemente care se află într-o listă de `ul` care se află în interiorul unei secțiuni `nav`. Pfiu!
+
+![Lista cu bullet eliminat](images/egMenuBarNoBullets.png)
+
+Acum să facem lista orizontală (peste) în loc de verticală (în jos).
+
+- În noua regulă CSS pe care tocmai ați creat-o, adăugați următoarea linie: `afișare: inline;`.
 
 ![](images/egMenuBarInline.png)
 
-- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+- Elementele de meniu sunt acum toate combinate, deci, să adăugăm și proprietățile `margin-right` și `margin-left` pentru a le distanța puțin. Blocul codului CSS ar trebui să arate astfel:
 
 ```css
-    nav ul li {
-        list-style-type: none;
-        display: inline;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
+    nav ul li {lista-tip-tip: nici unul; afișare: inline; margin-dreapta: 10px; margin-stânga: 10px; }
 ```
 
-Remember: `10px` means ten pixels.
+Amintiți-vă: `10px` înseamnă 10 pixeli.
 
-How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+Cum de a face schimbarea meniului pentru a vă spune care este pagina pe care vă aflați? Această parte nu va fi în foaia de stil.
 
-- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- Începeți cu pagina de pornire. Accesați fișierul index.html ``. În lista de link-uri de meniu, eliminați etichetele de legătură înainte și după cuvântul `Pagina principală`, astfel încât elementul de listă pentru pagina de pornire să fie doar text între `<li> </li>` etichete, după cum urmează: `<li>Home</li>`.
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
+- Acum mergeți la fiecare dintre celelalte fișiere ale dvs. și faceți același lucru, de fiecare dată când eliminați etichetele de legătură pentru pagina pe care o editați. Deci, de exemplu, pe `muzică.html` dosar, l - am eliminat etichetele link - ul din `Muzică` elementul listă:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li>Music</li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="attractions.html">Locuri de vizitat</a></li>
+            <li>Muzică</li>
+            <li><a href="food.html">Lucruri de mâncare</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- Explorați paginile făcând clic pe link-uri. Vedeți cum arată bara de meniuri pagina în care vă aflați ca text simplu în locul unui link? 
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+![Exemplu de bara de meniuri care evidențiază pagina curentă](images/egMenuBarOnPage.png)
 
-On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
+Pe următoarea carte veți afla mai multe trucuri CSS pentru a face bara de meniu să arate minunat.
