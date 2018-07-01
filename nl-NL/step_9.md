@@ -1,26 +1,26 @@
 ## Links maken
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+Op deze kaart leer je hoe je een link kunt maken die, wanneer er op wordt geklikt, je naar een andere pagina brengt.
 
-- Add the following code to the body section of `index.html`:
+- Voeg de volgende code toe aan de hoofdgedeelte van ` index.html `:
 
 ```html
-  <a href="">Click here</a>
+  <a href=""> Klik hier </a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+De `<a> </a>` tags veranderen alles wat er tussenin zit in een link.
 
-- Try clicking your link to see what happens. It does nothing, right?
+- Klik op uw link om te zien wat er gebeurt. Het doet niets, toch?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+Dat komt omdat het ` href ` attribuut momenteel leeg is. Het moet de ** URL ** (webadres) bevatten van de pagina waarnaar je een koppeling wilt maken.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- Ga naar Wikipedia en vind een pagina over iets op jouw website. Ik ga de pagina over Nederland gebruiken.
 
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- Klik in de adresbalk en selecteer alle tekst in adresbalk. Dat is de volledige URL van de pagina waarop je je bevindt. Druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>C</kdb> toetsen om het te kopiëren.
     
     ![URL in address bar](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- Klik in je trinket tussen de aanhalingstekens na ` href = ` en druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
