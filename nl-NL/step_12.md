@@ -12,13 +12,13 @@ Op deze kaart ziet je hoe je jouw navigatiemenu kunt transformeren in een cool u
     }
 ```
 
-Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de ` ul ` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de ` ul ` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Het toeveogen van de `nav ` selector maakt het alleen van toepassing op lijsten die tussen ` nav` tags staan.
 
 ![List with red background](images/egMenuBarFirstStyle.png)
 
-Let's get rid of the bullet points. Those are the dots in front of each list item.
+Laten we de opsommingstekens verwijderen. Dat zijn de stippen voor elk lijst item.
 
-- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- Voeg de volgende code toe aan het `style.css` bestand. Typ na een `} ` opnieuw een nieuwe regel zodat het niet in een ander regelsysteem zit.
 
 ```css
     nav ul li {
@@ -26,13 +26,13 @@ Let's get rid of the bullet points. Those are the dots in front of each list ite
     }
 ```
 
-Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+Merk op dat deze set regels drie selectors heeft: het selecteert alle ` li ` elementen die zich in een ` ul ` lijst bevinden, die zich binnen een ` nav ` sectie bevinden. Oef!
 
 ![List with bullet points removed](images/egMenuBarNoBullets.png)
 
-Now let's make the list horizontal (across) instead of vertical (down).
+Laten we nu de lijst in plaats van verticaal (naar beneden) horizontaal (over de breedte) maken.
 
-- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+- Binnen de nieuwe CSS-regel die je zojuist hebt gemaakt, voeg je de volgende regel toe: `display: inline;`.
 
 ![](images/egMenuBarInline.png)
 
