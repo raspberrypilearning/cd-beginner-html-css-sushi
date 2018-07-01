@@ -1,14 +1,14 @@
-## Adding more pages
+## Meer pagina's toevoegen
 
-This card will show you how to add more pages to your website.
+Deze kaart laat zien hoe je meer pagina's aan je website kunt toevoegen.
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+- Klik bovenaan het codepaneel op het ** + ** symbool naast de tabbladen en typ een naam voor je nieuwe bestand. Het moet eindigen op `.html ` (inclusief de punt!) zodat de browser weet dat het een webpagina is.
 
 ![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
 ## \--- collapse \---
 
-## title: Renaming or deleting a file
+## title: een bestand hernoemen of verwijderen
 
 If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
 
