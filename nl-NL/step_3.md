@@ -6,11 +6,11 @@
 
 ## titel: ik heb een Trinket-account
 
-- Klik op de **remix** knop in de rechterbovenhoek van het project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
+- Klik op de **remix** knop in de rechterbovenhoek van het project. Als je niet bent aangemeld, wordt gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** te klikken. Als je op deze knop klikt, wordt een kopie van het project gemaakt waarmee je aan het werk kan. 
 
 ![Remix button](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Het zou nadat je erop hebt geklikt **remixed** moeten zeggen:
 
 ![Button now says "remixed"](images/tktRemixedSmall.png)
 
@@ -18,11 +18,11 @@ It should say **remixed** after you click it:
 
 ## \--- collapse \---
 
-## title: I don't have a Trinket account
+## titel: ik heb geen Trinket-account
 
-You can save your work by using one of the options in the **Share** menu. You will get a link that you can either save somewhere, for example in a document, or send to someone via email. **Note:** each time you make a change, you will get a new link.
+Je kunt je werk opslaan met behulp van een van de opties in het menu **Share**. Je krijgt een link die je ergens kunt opslaan, bijvoorbeeld in een document, of via e-mail kunt versturen. **Opmerking:** elke keer dat je een wijziging aanbrengt, krijg je een nieuwe link.
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
+Als je een account op Trinket wilt maken, volg je de onderstaande stappen. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
 
 - Go to [the Trinket website](http://dojo.soy/trinket) and click **Sign Up For Your Free Account**. You will need an email address to sign up.
 
