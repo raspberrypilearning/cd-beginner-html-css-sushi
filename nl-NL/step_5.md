@@ -12,7 +12,7 @@ De code die beschrijft hoe een website eruit ziet, wordt ** CSS** genoemd.
 
 - Verander de kleur `white` (wit) naar ` LightSkyBlue `(lichtblauw) en kijk wat er gebeurt. Je website zou nu een blauwe achtergrond moeten hebben! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![Voorbeeld met een blauwe achtergrond](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
@@ -63,10 +63,10 @@ De ` color` (kleur) eigenschap is altijd voor tekst. Hier stel je de kleur van a
 
 Je koptekst moet nu oranje zijn, met de alinea in het paars als voorheen.
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![Resultaat van de nieuwe CSS-code](images/egCssColorsFonts.png)
 
 Merk ook op hoe de letters er anders uitzien en ook een andere kleur hebben? Dit komt omdat je de **font family** (lettertype) hebt gewijzigd. Je kunt [hier](http://dojo.soy/web-font-families) meer lettertypes vinden.
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+- Probeer met behulp van de ` h2 ` selector een set regels voor de `<h2>`-headings toe te voegen.
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- Waarom niet experimenteren met verschillende kleurencombinaties voor de tekst en achtergrond? Er zijn veel kleuren beschikbaar om te gebruiken. Vind [hier](http://dojo.soy/web-color-names) een volledige lijst.
