@@ -2,37 +2,37 @@
 
 - In het linker deelvenster het **codepaneel**, klik op het tabblad met `index.html`.
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. Je zou de update van je webpagina in het rechter paneel moeten zien.
+- Zoek de regel met `Welcome to Ireland!` en verander het in je eigen bericht - wees voorzichtig dat je **niet** de tags `<p>` aan het begin van de regel en `</p>` aan het einde van de regel wist. Je zou de update van je webpagina in het rechter paneel moeten zien.
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
-- Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Do you notice any change in the result on the right?
+- Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Zie je de verandering aan de rechterkant?
 
 ```html
-  <h1>Welcome to Ireland!</h1>
+  <h1> Welkom in Nederland! </h1>
 ```
 
 ## \--- collapse \---
 
-## title: HTML and tags explained
+## titel: HTML en tags uitgelegd
 
-**HTML** is the code that makes a webpage.
+**HTML** is de code die een webpagina maakt.
 
-The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
+De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar ** -tags ** zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
 
-HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+HTML-tags zoals `<p>` en ` </p>` definieert verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden alle **elements (elementen)** genoemd. Zie ze als bouwstenen.
 
-### Why do I need two tags?
+### Waarom heb ik twee tags nodig?
 
-You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
+Je hebt een **opening** en een **closing (sluit)** tag nodig om de browser te vertellen waar de elementen **starten** en **eindigen**. Dus voor een alinea, de opening label `<p>` zegt "Hier komt wat tekst die ik wil weergeven als een alinea." De afsluitende `</p>` label vertelt de browser waar de alinea eindigt.
 
-Everything in between the `<body>` and `</body>` tags is your webpage.
+Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 
-- Notice how the closing tag **always** has a forward slash `/`.
+- Let er op dat de afsluitende tag **altijd** een schuine streep ` / ` naar voren heeft.
 
 \--- /collapse \---
 
-- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
+- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te laten zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Remember to change both the opening and closing tag so that they match.
 
 - Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
 
