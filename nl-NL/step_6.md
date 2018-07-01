@@ -1,18 +1,18 @@
-## Adding pictures
+## Afbeeldingen toevoegen
 
-Let's add a picture!
+Laten we een afbeelding toevoegen!
 
-- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
+- Ga naar het tabblad met de naam ` index.html `. Vind het `</main>` label en typ het volgende **daarboven**: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Here's what the result should look like:
+Hier is hoe het resultaat eruit zou moeten zien:
 
 ![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Notice that this tag has extra bits of information inside it. They are called **attributes**.
+Merk op dat deze tag extra stukjes informatie bevat. They are called **attributes**.
 
 - Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
