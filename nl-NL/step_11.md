@@ -14,36 +14,37 @@ Veel websites hebben een ** navigatie ** menu om bezoekers tussen pagina's te la
 
 ![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
-- Je gaat deze keer ** knippen ** in plaats van kopiëren. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+- Je gaat deze keer ** knippen ** in plaats van kopiëren. Houd de <kbd>Ctrl</kbd> (of <kbd> cmd </kbd>) toets ingedrukt en druk dan op de <kbd> X </kbd> toets. De gemarkeerde code verdwijnt, maar raak niet in paniek!
 
-- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+- Klik boven in het bestand in de spatie tussen `<header> </header>` tags. Zorg ervoor dat de cursor daar knippert. Plak nu de code door zoals gewoonlijk op <kbd> Ctrl </kbd> (of <kbd> cmd </kbd>) en <kbd> V </kbd> te drukken. Je code zou er als volgt uit moeten zien:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="index. html">Home</a></li>
+            <li><a href="plaatsen. html">Plaatsen om te bezoeken</a></li>
+            <li><a href="muziek. html">Muziek</a></li>
+            <li><a href="eten. html">Dingen om te eten</a></li>
             </ul>
         </nav>
-    </header>
+ </header>
+
 ```
 
 ## \--- collapse \---
 
-## title: Undo!
+## title: ongedaan maken!
 
-If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
+Als je een fout maakt, kun je het ** ongedaan maken ** door samen op <kbd> Ctrl </kbd> (of <kbd> cmd </kbd>) en <kbd> Z </kbd> te drukken. Je kunt deze toetscombinatie meestal meerdere keren indrukken om de laatste paar wijzigingen ongedaan te maken. Dit is een handige sneltoets die je in veel programma's kunt gebruiken!
 
 \--- /collapse \---
 
-- Try out your links to make sure they are still working.
+- Probeer je links om er zeker van te zijn dat ze nog steeds werken.
 
 \--- challenge \---
 
-## Challenge: navigation menus for all pages
+## Uitdaging: navigatiemenu's voor alle pagina's
 
 - Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
     
