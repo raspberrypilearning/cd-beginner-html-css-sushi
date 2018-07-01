@@ -4,7 +4,7 @@
 
 - Zoek de regel met `Welcome to Ireland!` en verander het in je eigen bericht - wees voorzichtig dat je **niet** de tags `<p>` aan het begin van de regel en `</p>` aan het einde van de regel wist. Je zou de update van je webpagina in het rechter paneel moeten zien.
 
-![HTML paragraaf voorbeeld](images/egFirstHtmlCode.png)
+![HTML paragraph example](images/egFirstHtmlCode.png)
 
 - Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Zie je de verandering aan de rechterkant?
 
@@ -14,7 +14,7 @@
 
 ## \--- collapse \---
 
-## titel: HTML en tags uitgelegd
+## title: HTML en tags uitgelegd
 
 **HTML** is de code die een webpagina maakt.
 
@@ -43,7 +43,7 @@ Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 
 Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
 
-![Voorbeeld van HTML-tags](images/egFirstTags.png)
+![Example of HTML tags](images/egFirstTags.png)
 
 \--- challenge \---
 
