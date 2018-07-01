@@ -22,8 +22,8 @@ Dezelfde techniek werkt ook voor Google-kaarten. Probeer het eens!
 
 - Ga [hier ](http://dojo.soy/google-maps) naartoe en zoek naar een plaats die je op je website wilt laten zien. ** Opmerking: ** **niet doen ** deel geen persoonlijke informatie zoals je huisadres op een website!
 
-- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+- Klik op het menu en klik vervolgens op ** kaart delen of insluiten **, vervolgens op het tabblad <0> Een kaart insluiten</0> en dan op <0>HTML KOPIËREN</0> om de code te kopiëren en voeg deze zoals hierboven toe aan je website. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
 
-- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
+- Als je goed kijkt, vindt je `width` en `height` **attributen** in de geplakte code. Je kunt hun waarden wijzigen om de kaart groter of kleiner te maken.
 
 ![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
