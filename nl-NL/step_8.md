@@ -21,29 +21,29 @@ Merk steeds een aparte paar `<li></li>` tags rond elk item in de lijst op.
 
 Dit is een lijst van enkele dieren je in Nederland kunt zien. Je kunt de items in de lijst wijzigen in dingen die logisch zijn voor jouw website, en een alinea boven de lijst toevoegen om te beschrijven wat de lijst bevat, als je dat wilt!
 
-Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar in plaats van `<ul>` gebruikt je `<ol>`. A numbered list is also called an **ordered** list.
+Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar in plaats van `<ul>` gebruikt je `<ol>`. Een genummerde lijst wordt ook wel een ** ordered ** (gerangschikte) lijst genoemd.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- Voeg onder de code die je zojuist geschreven hebt, de onderstaande code toe - zorg ervoor dat deze ** onder** het ` </ul>` label staat!
 
 ```html
     <p>
-        My favourite things to eat and drink in Ireland are:
+        Mijn favoriete drank en eten in Nederland is:
     </p>
     <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
+        <li>Thee</li>
+        <li>Knapperige broodjes</li>
+        <li>Knakworsten</li>
     </ol>
 ```
 
-Here's what it should look like now:
+Zo zou het er nu uit zou moeten zien:
 
 ![Ordered list](images/egOrderedList.png)
 
 \--- challenge \---
 
-## Challenge: add style to your lists
+## Uitdaging: voeg stijl toe aan je lijsten
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- Kijk of je ** CSS-regels** aan je stylesheet kunt toevoegen om je lijsten er anders uit te laten zien.
 
 \--- /challenge \---
