@@ -10,21 +10,21 @@ Deze kaart laat zien hoe je meer pagina's aan je website kunt toevoegen.
 
 ## title: een bestand hernoemen of verwijderen
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
+Als je de naam van een bestand wilt wijzigen, klik je op het **tandwiel ** pictogram rechts van de bestandsnaam en klik vervolgens op het **potlood ** icoon. Typ de nieuwe naam in en druk op ** Enter **. Je kunt een bestand ook verwijderen door in plaats van op het **potlood ** pictogram, op het **vuilnisbak** pictogram te klikken. ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+Je vraagt je misschien af ​​waarom je de naam van de ` index.html` niet kunt wijzigen. ` index.html ` is een speciale naam die wordt gebruikt voor de ** startpagina ** van een website. Dat is de eerste pagina waarop je terechtkomt wanneer je een website bezoekt. Wanneer je naar de startpagina van een website gaat, zoekt de browser naar het bestand met de naam ` index.html ` en geeft het op je scherm weer.
 
 \--- /collapse \---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- Zoek het bestand ` blank_page.html ` en kopieer en plak alle code ervan in je nieuwe bestand. Omdat je alles wilt kopiëren, kunt je overal op de code klikken en de sneltoets <kbd> Ctrl</kbd> (of <kbd> cmd </kbd>) en <kbd> A </kbd> gebruiken om alles in één keer te selecteren.
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
+- Wijzig de tekst tussen de `<title> </title>` tags zodat je nieuwe pagina een geschikte titel heeft. Trinket geeft de titel niet weer, maar je kunt dit bovenaan in je browservenster zien als je jouw project downloadt.
 
 ![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
+- Gebruik tussen de `<main> </main>` tags (in het nieuwe bestand) de tags waarvan je weet dat ze dingen toevoegen aan de pagina, zoals alinea's, koppen, afbeeldingen en lijsten!
 
-- Repeat the steps above for each new page that you want to add.
+- Herhaal de bovenstaande stappen voor elke nieuwe pagina die je wilt toevoegen.
 
 When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
