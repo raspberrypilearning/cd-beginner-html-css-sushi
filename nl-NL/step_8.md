@@ -1,4 +1,4 @@
-## Making a list
+## Een lijst maken
 
 Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
 
