@@ -54,6 +54,6 @@ De eigenschap `border-radius` is echt een eenvoudige manier om iets cooler te la
 
 ## Uitdaging: geef je foto's afgeronde hoeken
 
-- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+- Maak in je stylesheet een nieuwe set regels voor afbeeldingen met de `img` selector en voeg een `border-radius` regel toe.
 
 \--- /challenge \---
