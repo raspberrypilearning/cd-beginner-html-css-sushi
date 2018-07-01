@@ -51,24 +51,24 @@ Onthoud: ` 10px ` betekent tien pixels.
 
 Hoe zou het zijn om het menu te veranderen zodat het vertelt op welke pagina je je bevindt? Dit onderdeel staat niet in de stylesheet.
 
-- Begin met de startpagina. Ga naar de ` index.html `. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- Begin met de startpagina. Ga naar de ` index.html `. Verwijder in de lijst met menu links de link-tags voor en na het woord ` Home`, zodat het lijstitem voor de startpagina alleen tekst tussen `<li> </li>` tags is, zoals deze: `<li> Home </li>`.
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
+- Ga nu naar elk van je andere bestanden en doe hetzelfde, verwijder telkens de koppeling tags voor de pagina die je aan het bewerken bent. Dus bijvoorbeeld in het ` muziek.html ` bestand, heb ik de koppeling tags verwijderd in de ` muziek ` lijst item:
 
 ```html
     <header>
         <nav>
             <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li>Music</li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="attractions.html">Plaatsen</a></li>
+            <li>Muziek</li>
+            <li><a href="food.html">Dingen om te eten</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- Verken je pagina's door op de links te klikken. Zie je hoe de menubalk de pagina die je gebruikt als platte tekst weergeeft in plaats van een link? 
 
 ![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
