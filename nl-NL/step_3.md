@@ -4,7 +4,7 @@
 
 ## \--- collapse \---
 
-## titel: ik heb een Trinket-account
+## title: ik heb een Trinket-account
 
 - Klik op de **remix** knop in de rechterbovenhoek van het project. Als je niet bent aangemeld, wordt gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** te klikken. Als je op deze knop klikt, wordt een kopie van het project gemaakt waarmee je aan het werk kan. 
 
@@ -18,7 +18,7 @@ Het zou nadat je erop hebt geklikt **remixed** moeten zeggen:
 
 ## \--- collapse \---
 
-## titel: ik heb geen Trinket-account
+## title: ik heb geen Trinket-account
 
 Je kunt je werk opslaan met behulp van een van de opties in het menu **Share**. Je krijgt een link die je ergens kunt opslaan, bijvoorbeeld in een document, of via e-mail kunt versturen. **Opmerking:** elke keer dat je een wijziging aanbrengt, krijg je een nieuwe link.
 
