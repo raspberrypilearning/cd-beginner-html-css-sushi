@@ -22,14 +22,14 @@ Het zou nadat je erop hebt geklikt **remixed** moeten zeggen:
 
 Je kunt je werk opslaan met behulp van een van de opties in het menu **Share**. Je krijgt een link die je ergens kunt opslaan, bijvoorbeeld in een document, of via e-mail kunt versturen. **Opmerking:** elke keer dat je een wijziging aanbrengt, krijg je een nieuwe link.
 
-Als je een account op Trinket wilt maken, volg je de onderstaande stappen. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
+Als je een account op Trinket wilt maken, volg je de onderstaande stappen. Hierdoor kun je eenvoudig vanaf elke computer toegang krijgen tot je werk en projecten die iemand anders met jou heeft gedeeld **remixen**. Remixen betekent dat je een kopie van een project opslaat zodat je je eigen wijzigingen kunt aanbrengen.
 
-- Go to [the Trinket website](http://dojo.soy/trinket) and click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- Ga naar [de Trinket-website](http://dojo.soy/trinket) en klik op **Sign Up For Your Free Account**. Je hebt een e-mailadres nodig om je aan te melden.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Geef je e-mailadres in en kies een wachtwoord, of vraag iemand om dit voor je te doen.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+- Je hebt nu toegang tot al je opgeslagen of geremixte projecten door op je gebruikersnaam te klikken en naar **My Trinkets** te gaan. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
 
 \--- /collapse \---
 
-Let's start coding!
+Laten we beginnen met coderen!
