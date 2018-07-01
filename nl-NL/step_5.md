@@ -1,8 +1,8 @@
-## Controlling how it looks
+## Bepalen hoe het eruit ziet
 
-The code that describes what a website looks like is called **CSS**.
+De code die beschrijft hoe een website eruit ziet, wordt ** CSS** genoemd.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- Kijk naar de tabbladen bovenaan het codepaneel en ga naar het bestand ` styles.css ` door op het tabblad met die naam te klikken. Het bestand bevat de volgende tekst:
 
 ```css
   body {
@@ -10,13 +10,13 @@ The code that describes what a website looks like is called **CSS**.
   }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- Verander de kleur `white` (wit) naar ` LightSkyBlue `(lichtblauw) en kijk wat er gebeurt. Je website zou nu een blauwe achtergrond moeten hebben! 
 
 ![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## titel: Hoe werkt het?
 
 If you look at the top of the `index.html` file, you will see the following line:
 
