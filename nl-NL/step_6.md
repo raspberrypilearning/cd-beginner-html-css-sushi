@@ -28,27 +28,27 @@ De tag bevat ** attributes ** met extra informatie:
 
 - Het ` src ` attribuut vertelt de browser welk bestand moet worden gebruikt voor de afbeelding. 
 - Het ` alt ` attribute is een korte beschrijving die de browser zal weergeven als het de afbeelding niet kan weergeven. 'alt' is een afkorting voor 'alternatief'. Deze tekst helpt ook mensen die een schermlezer gebruiken om te weten wat de afbeelding weergeeft.
-- Het ` with ` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- Het ` with ` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. ` 100px ` betekent honderd ** pixels **, dat zijn de kleine puntjes die beplalen wat je op je scherm ziet. Als je dit kenmerk niet opneemt, wordt de afbeelding in de oorspronkelijke grootte weergegeven.
 
 \--- /collapse \---
 
-Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+Nu je de code kent om een ​​afbeelding op je website te plaatsen, wil je waarschijnlijk de afbeelding veranderen, toch?
 
-- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+- Het eerste dat je nodig hebt is natuurlijk een afbeelding of foto! Je kunt er een gebruiken die je al op je computer hebt staan, zoals een foto die je hebt gemaakt, of je kunt er een downloaden van internet.
 
 [[[generic-get-picture-from-web]]]
 
-**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
+** Opmerking: ** niet alle afbeeldingen die je op internet vindt, zijn voor iedereen gratis te gebruiken. Als je een afbeelding downloadt, moet je ervoor zorgen dat dit er een is die je mag gebruiken. Lees hier meer over:
 
 [[[images-permissions-to-use]]]
 
-Once you have a picture, you can **upload** the file to Trinket:
+Zodra je een afbeelding of foto hebt, kun je het bestand ** uploaden ** naar Trinket:
 
-- In your trinket, click on the **image** icon next to the **+** sign. 
+- Klik in je trinket op het **image** pictogram naast het ** + ** teken. 
 
 ![The image icon](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+Dit is waar je de foto's kunt zien, die je kunt gebruiken op jouw website. You should see the picture of Tito, the CoderDojo dog.
 
 - Click the button **Add Image** and then click **Upload**.
 
