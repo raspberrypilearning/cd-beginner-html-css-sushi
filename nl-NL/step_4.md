@@ -2,11 +2,11 @@
 
 - In het linker deelvenster het **codepaneel**, klik op het tabblad met `index.html`.
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
+- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. Je zou de update van je webpagina in het rechter paneel moeten zien.
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
+- Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Do you notice any change in the result on the right?
 
 ```html
   <h1>Welcome to Ireland!</h1>
