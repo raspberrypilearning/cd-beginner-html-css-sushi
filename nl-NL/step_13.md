@@ -1,10 +1,10 @@
-## Styling the menu bar
+## De menubalk opmaken
 
-With CSS, the possibilities for making your menu bar look great are endless.
+Met CSS zijn de mogelijkheden om jouw menubalk er geweldig uit te laten zien eindeloos.
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+- Ga opnieuw naar het ` styles.css ` bestand - de plaats waar de coole dingen gebeuren!
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
+- Zoek je ` nav ul ` selector en voeg meer regels toe zodat het er zo uitziet:
 
 ```css
   nav ul {
@@ -16,11 +16,11 @@ With CSS, the possibilities for making your menu bar look great are endless.
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
+De `padding ` eigenschap voegt ruimte toe. Kun jij uitvinden wat elk van de andere eigenschappen doet? Experimenteer met verschillende kleuren en aantal pixels.
 
 ![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
 
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
+- Als je de onderstrepingen van de links wilt verwijderen, voeg je op een nieuwe regel na de sluit accolade `} `maar voor de ` nav ul li ` regels de volgende code toe. Je zou het na elke `} ` kunnen plaatsen, maar het is een goed idee om gerelateerde code bij elkaar te houden, zodat het gemakkelijker te vinden is!
 
 ```css
   nav ul li a {
