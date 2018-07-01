@@ -32,13 +32,13 @@ De accolades `{ }` en de code ertussen is een set van ** CSS-regels ** . Het woo
 
 Elke regel binnen de accolades bestaat uit:
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- Een **property **(eigenschap) aan de linkerkant, gevolgd door een dubbele punt `: `
+- A ** waarde ** voor de eigenschap na de dubbele punt
+- Een puntkomma `; ` aan het einde
 
 \--- /collapse \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+- Laat we regels toevoegen om de weergave van de tekst te veranderen. Voeg binnen de accolades twee nieuwe lijnen toe:
 
 ```css
   body {
@@ -48,11 +48,11 @@ Elke regel binnen de accolades bestaat uit:
   }
 ```
 
-Look at how this has changed the webpage.
+Kijk hoe dit de webpagina heeft veranderd.
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+De ` color` (kleur) eigenschap is altijd voor tekst. Hier stel je de kleur van alle tekst in de ` body ` van je webpagina in.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- Je kunt ook afzonderlijke regels schrijven voor de headings (koppen) en alinea's. Voor `<h1>` headings van gebruik je de ` h1 ` selector. Na de sluit accolade die de CSS-regel voor de body bevat, voeg je de volgende code toe.
 
 ```css
   h1 {
@@ -61,11 +61,11 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+Je koptekst moet nu oranje zijn, met de alinea in het paars als voorheen.
 
 ![Result of new CSS code](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+Merk ook op hoe de letters er anders uitzien en ook een andere kleur hebben? Dit komt omdat je de **font family** (lettertype) hebt gewijzigd. Je kunt [hier](http://dojo.soy/web-font-families) meer lettertypes vinden.
 
 - Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
