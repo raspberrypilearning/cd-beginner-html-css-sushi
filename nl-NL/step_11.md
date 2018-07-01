@@ -1,6 +1,6 @@
-## Navigating your website
+## Navigeren door je website
 
-Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
+Veel websites hebben een ** navigatie ** menu om bezoekers tussen pagina's te laten navigeren. Nu je meerdere pagina's, een startpagina en koppelingen naar elke pagina hebt, kunt je de lijst met koppelingen verplaatsen naar een navigatie gedeelte boven aan elke pagina.
 
 ![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
