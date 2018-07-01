@@ -26,27 +26,27 @@ Je vraagt je misschien af ​​waarom je de naam van de ` index.html` niet kunt
 
 - Herhaal de bovenstaande stappen voor elke nieuwe pagina die je wilt toevoegen.
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+Als er te veel tabbladen zijn die de Trinket in één keer kan weergegeven, kunt je de ** < ** en ** > ** pictogrammen in de linkerbovenhoek van de tabbladen gebruiken om tussen de verschillende pagina's te bladeren.
 
 ![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+Nu moet je koppelingen maken, zodat kunt je naar elke nieuwe pagina kunt gaan! Laten we alle links in een lijst plaatsen.
 
-- In the `index.html` file, add the following code to the body of your webpage:
+- In het ` index.html ` bestand, voeg je aan de body van je webpagina de volgende code toe:
 
 ```html
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
-    </ul>
+        <li><a href="attractions.html">Plaatsen om te bezoeken</a></li>
+        <li><a href="music.html">Muziek</a></li>
+        <li><a href="food.html">Dingen om te eten</a></li>
+</ul>
 ```
 
-- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
+- Wijzig de waarde van het ` href ` attribuut voor elke koppeling (denk eraan, dat is de tekst binnen de aanhalingstekens) zodat deze exact overeenkomt met de naam van elk HTML-bestand dat je hebt gemaakt.
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+- Wijzig de tekst tussen de `<a> </a>` tags naar geschikte beschrijvingen voor je pagina's.
 
-Now you can navigate to your new pages!
+Nu kun je naar je nieuwe pagina's navigeren!
 
 ![Example list of links on a web page](images/egListOfPageLinks.png)
