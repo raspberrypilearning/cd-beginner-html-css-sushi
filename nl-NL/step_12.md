@@ -1,10 +1,10 @@
-## Making a menu bar
+## Een menubalk maken
 
-On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
+Op deze kaart ziet je hoe je jouw navigatiemenu kunt transformeren in een cool uitziende menubalk, gewoon door meer CSS-regels toe te voegen aan de stylesheet.
 
 ![Example of a menu bar](images/egCoolMenuBar.png)
 
-- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
+- Ga naar het stijlblad in de ` styles.css ` tab. Klik **onder ** een sluit accolade `} ` en druk op ** Enter ** om een ​​nieuwe lege regel te maken. Voeg de volgende CSS code in:
 
 ```css
     nav ul {
@@ -12,7 +12,7 @@ On this card you will see how you can transform your navigation menu into a cool
     }
 ```
 
-Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de ` ul ` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
 ![List with red background](images/egMenuBarFirstStyle.png)
 
