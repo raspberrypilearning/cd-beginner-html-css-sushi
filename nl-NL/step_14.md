@@ -1,18 +1,18 @@
-## Adding a table
+## Een tabel toevoegen
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+Soms kan het nuttig zijn om informatie in een tabel weer te geven. Je wilt bijvoorbeeld voor een plaatselijke sportclub of school de ledeninformatie op een website vermelden, of informatie over je top tien favoriete nummers plaatsen.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+Een tabel is een raster bestaande uit ** rows ** (rijen) en ** colums ** (kolommen). De meeste tabellen bevatten ook titels bovenaan elke kolom, de **header** (kop). Hier is een voorbeeld:
 
 ![Example of information in a table](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- Ga naar het bestand ` page_with_table.html `. Daar zie je een aantal codes tussen `<table> </table>` tags.
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- Selecteer alle code vanaf het begin van de tag `<table>` tot aan het einde van de sluit ` </table>` tag en kopieer het. Ga dan naar een van je bestanden waar je een tabel zou willen plaatsen en plak de code er in.
 
-At the moment your table is empty.
+Op dit moment is je tabel leeg.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- Probeer je tabel te vullen met van alles wat je maar wilt! Simpel gezegd plaats tekst tussen de `<td></td>` tags en tussen de `<th></th>` tags. You can add more tags if you need them.
 
 ## \--- collapse \---
 
