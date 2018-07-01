@@ -1,4 +1,4 @@
-## Adding a map or video
+## Een kaart of video toevoegen
 
 YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
 
