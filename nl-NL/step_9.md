@@ -1,4 +1,4 @@
-## Creating links
+## Links maken
 
 On this card you'll learn how to make a link that takes you to another page when it's clicked.
 
