@@ -18,19 +18,19 @@ De code die beschrijft hoe een website eruit ziet, wordt ** CSS** genoemd.
 
 ## titel: Hoe werkt het?
 
-If you look at the top of the `index.html` file, you will see the following line:
+Als je naar de bovenkant van het `index.html` bestand kijkt, zie je de volgende regel:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+De bovenstaande regel vertelt de browser om te zoeken naar een speciaal bestand met de naam ` styles.css `. Dit speciale bestand wordt een ** stylesheet ** genoemd. Je kunt een style sheet (opmaakbestand) herkennen door de `.css` in de naam.
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+Een style sheet bevat ** -regels ** voor hoe elk element op je webpagina eruit zou moeten zien.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+De accolades `{ }` en de code ertussen is een set van ** CSS-regels ** . Het woord ` body` betekent dat de regels voor alle `< body>` elementen op je website gelden. We noemen het woord voor de accolades een **selector **. Dus in dit geval is het de selector voor de body elementen.
 
-Each rule inside the curly braces is made up of:
+Elke regel binnen de accolades bestaat uit:
 
 - A **property** on the left, followed by a colon symbol `:`
 - A **value** for the property on the right-hand side after the colon
