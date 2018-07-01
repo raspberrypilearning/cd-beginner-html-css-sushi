@@ -1,12 +1,12 @@
 ## Een kaart of video toevoegen
 
-YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
+YouTube biedt een eenvoudige manier om video's aan je website toe te voegen. Het toevoegen van elementen uit andere online bronnen aan je website wordt ook wel **embedding** (insluiten) genoemd.
 
-- Find a video on YouTube that you want to show on your website.
+- Zoek een video op YouTube die je op je website wilt laten zien.
 
-- Click on the **Share** button below the video. Select the option **Embed**.
+- Klik op de ** Delen ** knop onder de video. Klik op **KOPIËREN **.
 
-You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
+Je ziet een tekstvak met: Link gekopieerd naar klembord. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
 
 ![YouTube's embed option with code selected](images/EmbedYouTube.png)
 
