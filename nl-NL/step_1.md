@@ -16,4 +16,4 @@ Bouw een website over je eigen land, zoals die in de onderstaande trinket.
 - Een HTML-website bouwen met koppen, alinea's, lijsten en afbeeldingen
 - CSS-code gebruiken om het uiterlijk van je website te bepalen, inclusief het ontwerpen van een eenvoudige menubalk en het wijzigen van kleuren, achtergronden en randen
 - Pagina's aan elkaar koppelen en links naar andere websites
-- Creating a table that includes headings and multiple rows
+- Een tabel maken die koppen en meerdere rijen bevat
