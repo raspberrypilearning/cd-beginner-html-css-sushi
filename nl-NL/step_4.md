@@ -32,26 +32,24 @@ Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 
 \--- /collapse \---
 
-- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te laten zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Remember to change both the opening and closing tag so that they match.
+- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te laten zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Vergeet niet om zowel de openings tag als de afsluit tag te wijzigen, zodat ze overeenkomen.
 
-- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
+- Zoek de code voor de alinea met de tekst `My website is about Ireland` en verander het zodat het er zo uitziet:
 
 ```html
-  <p>
-    <em>My website</em> is about <strong>Ireland</strong>. 
-    It is going to have the following pages: Attractions, Music, Food
-  </p>
+  <p> <em> Mijn website </em> gaat over <strong>Nederland </strong>. 
+    Het gaat de pagina's: Attracties, Muziek, Eten bevatten</p>
 ```
 
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
 
 ![Example of HTML tags](images/egFirstTags.png)
 
 \--- challenge \---
 
-## Challenge: add some more text of your own
+## Uitdaging: voeg nog wat meer eigen tekst toe
 
-- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
+- Probeer een nieuwe alinea of ​​kop aan je pagina toe te voegen met behulp van enkele van de tags die je hebt geleerd.
 
 \--- hints \---
 
