@@ -32,7 +32,7 @@ Je hebt zojuist je eerste link gemaakt! Klik erop om te zien of het nu werkt.
 
 ## \--- collapse \---
 
-## titel: links naar andere websites
+## title: links naar andere websites
 
 Trinket heeft met sommige webadressen problemen. Je kunt desgewenst URL's van andere websites dan Wikipedia proberen, maar deze werken mogelijk niet in jouw trinket. Als je echter je project zou downloaden en de bestanden in een webbrowser zou zien, zouden de koppelingen moeten werken.
 
@@ -48,18 +48,17 @@ Trinket heeft met sommige webadressen problemen. Je kunt desgewenst URL's van an
 
 - Klik op de afbeelding. Zie je dat het een link is geworden?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+Je kunt ook een link naar andere elementen van je webpagina plaatsen, zoals naar een alinea of ​​zelfs naar een lijst. Hier is een voorbeeld van een zin met een link erin:
 
 ```html
-  <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
-  </p>
+  <p> <a href="https://nl. wikipedia. org/wiki/Nederland"> Klik hier </a> om de Wikipedia-pagina te lezen!
+  &lt;/p&gt;
 ```
 
 \--- challenge \---
 
-## Challenge: put a link into a list
+## Uitdaging: zet een link in een lijst
 
-- See if you can make a list that contains a link inside one of the list items.
+- Kijk of je een lijst kunt maken met een link in een van de cellen van de lijst.
 
 \--- /challenge \---
