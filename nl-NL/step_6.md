@@ -12,23 +12,23 @@ Hier is hoe het resultaat eruit zou moeten zien:
 
 ![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Merk op dat deze tag extra stukjes informatie bevat. They are called **attributes**.
+Merk op dat deze tag extra stukjes informatie bevat. Ze worden ** attributes ** (attributen) genoemd.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
+- Zoek het stukje code met ` width = "100px" ` en probeer te experimenteren met verschillende nummers om te zien of je kunt achterhalen wat dit attribute doet. Verwijder niet de letters `px`!
 
 \--- collapse \---
 
 * * *
 
-## title: How the `<img>` tag works
+## title: Hoe het `<img>` tag (label) werkt
 
-Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+Merk op dat de `<img>` tag verschilt van de andere tags die je tot dusver hebt gebruikt, — er is geen sluit `</img>` tag. In plaats daarvan is deze tag ** zelfsluitend **: het heeft ` />` aan het einde. Dit komt omdat er geen 'begin' en 'einde' aan een afbeeldingselement zit zoals er wel voor tekst op de pagina is.
 
-The tag contains **attributes** with extra information:
+De tag bevat ** attributes ** met extra informatie:
 
-- The `src` attribute tells the browser what file to use for the picture. 
-- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
-- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- Het ` src ` attribuut vertelt de browser welk bestand moet worden gebruikt voor de afbeelding. 
+- Het ` alt ` attribute is een korte beschrijving die de browser zal weergeven als het de afbeelding niet kan weergeven. 'alt' is een afkorting voor 'alternatief'. Deze tekst helpt ook mensen die een schermlezer gebruiken om te weten wat de afbeelding weergeeft.
+- Het ` with ` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
 \--- /collapse \---
 
