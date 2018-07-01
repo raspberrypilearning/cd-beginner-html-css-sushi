@@ -1,6 +1,6 @@
-## Your first webpage!
+## Je eerste webpagina!
 
-- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
+- In het linker deelvenster het **codepaneel**, klik op het tabblad met `index.html`.
 
 - Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
 
