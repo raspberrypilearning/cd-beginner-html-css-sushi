@@ -20,33 +20,33 @@ Dat komt omdat het ` href ` attribuut momenteel leeg is. Het moet de ** URL ** (
     
     ![URL in address bar](images/AddressBarURL.png)
 
-- Klik in je trinket tussen de aanhalingstekens na ` href = ` en druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- Klik in je trinket tussen de aanhalingstekens na ` href = ` en druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>V</kdb> toetsen om de URL die je zojuist gekopieerd hebt te plakken. Je code zou er ongeveer als volgt uit moeten zien:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+  <a href="https://nl. wikipedia. org/wiki/Nederland"> Klik hier </a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+Je hebt zojuist je eerste link gemaakt! Klik erop om te zien of het nu werkt.
 
 ![Link tag](images/egLinkTagWithURL.png)
 
 ## \--- collapse \---
 
-## title: Links to other websites
+## titel: links naar andere websites
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Trinket heeft met sommige webadressen problemen. Je kunt desgewenst URL's van andere websites dan Wikipedia proberen, maar deze werken mogelijk niet in jouw trinket. Als je echter je project zou downloaden en de bestanden in een webbrowser zou zien, zouden de koppelingen moeten werken.
 
 \--- /collapse \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- Probeer in plaats van de woorden ` Klik hier `, een foto tussen de `<a> </a>` tags te plaatsen, zoals hier:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">
-      <img src="tito.png" alt="Tito the dog" width="100px" />
+  <a href="https://nl. wikipedia. org/wiki/Nederland">
+      <img src="tito. png" alt="Tito the dog" width="100px" />
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- Klik op de afbeelding. Zie je dat het een link is geworden?
 
 You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
 
