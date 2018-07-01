@@ -4,17 +4,17 @@ Veel websites hebben een ** navigatie ** menu om bezoekers tussen pagina's te la
 
 ![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-- Find the code for your list of links that you created in the previous step.
+- Zoek de code voor je lijst met links die je in de vorige stap hebt gemaakt.
 
-- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+- Druk vlak voor de opening `<ul>` -tag op ** Enter ** om een ​​nieuwe lege regel te maken, typ dan op de nieuwe regel de volgende tag: `<nav>`. Trinket voegt de sluit tag automatisch direct hierna toe, maar je kunt die verwijderen - hij staat niet op de juiste plaats.
 
-- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+- Druk vlak **na** de sluit `</ul>` -tag op ** Enter ** om een ​​nieuwe lege regel te maken, typ dan op de nieuwe regel de volgende tag: `</nav>`.
 
-- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+- Selecteer nu je gehele `<nav>` gedeelte en lijst door net vóór de `<nav>` -tag te klikken en de muis helemaal naar beneden te slepen tot net na de ` </nav>` tag, zodat alle tekst inclusief de open en sluit tags worden gemarkeerd. Zorg ervoor dat alle ** punthaken ** `<` en `>` aan het begin en einde ook zijn gemarkeerd!
 
 ![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
-- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+- Je gaat deze keer ** knippen ** in plaats van kopiëren. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
 
 - At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
 
