@@ -4,7 +4,7 @@
 
 - Zoek de regel met `Welcome to Ireland!` en verander het in je eigen bericht - wees voorzichtig dat je **niet** de tags `<p>` aan het begin van de regel en `</p>` aan het einde van de regel wist. Je zou de update van je webpagina in het rechter paneel moeten zien.
 
-![HTML paragraph example](images/egFirstHtmlCode.png)
+![HTML paragraaf voorbeeld](images/egFirstHtmlCode.png)
 
 - Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Zie je de verandering aan de rechterkant?
 
@@ -43,7 +43,7 @@ Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 
 Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
 
-![Example of HTML tags](images/egFirstTags.png)
+![Voorbeeld van HTML-tags](images/egFirstTags.png)
 
 \--- challenge \---
 
@@ -53,33 +53,31 @@ Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
 
 \--- hints \---
 
-\--- hint \--- When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+\--- hint \--- Als je tekst op een pagina wilt plaatsen, moet je deze tussen twee tags plaatsen die je browser vertellen hoe jouw tekst moet worden weergegeven. Bijvoorbeeld de `<p> </p>` tags vertellen de browser dat alles wat er tussenin zit een nieuwe alinea is en de `<h1> </h1>` tags vertellen dat de tekst ertussen een heading (kop) is.
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for paragraphs looks like this:
+De code voor alinea's (paragraphs) ziet er als volgt uit:
 
 ```html
-  <p>This is one paragraph of text.</p>
-
-  <p>This is another paragraph.
-  Everything in between one set of p tags is 
-  displayed together in one long line on the webpage.</p>
+  <p> Dit is een alinea tekst. </p> 
+<p> Dit is een andere alinea.
+  Alles tussen de twee p-tags wordt samen weergegeven in één lange regel op de webpagina. </p>
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for headings looks like this:
+De code voor kopteksten (headings) ziet er als volgt uit:
 
 ```html
-  <h1>This is a heading.</h1>
+  <h1> Dit is een kop. </h1>
 ```
 
-Headings will normally be displayed bigger or bolder than the paragraphs.
+Koppen worden normaal gesproken groter of dikker weergegeven dan de alinea's.
 
 \--- /hint \---
 
@@ -87,4 +85,4 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /challenge \---
 
-Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
+Gefeliciteerd, je hebt je eerste webpagina gebouwd! Op de volgende kaart kom je erachter hoe je kunt bepalen hoe alles eruit ziet.
