@@ -1,12 +1,12 @@
-## Getting set up
+## Opstarten
 
-- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- Ga naar [the starter trinket](http://dojo.soy/html-b-start). Je ziet een een project met een voorbeeld van een website. Aan de rechterkant de website en aan de linkerkant staat de code die de website maakt. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
-## title: I have a Trinket account
+## titel: ik heb een Trinket-account
 
-- Click the **Remix** button at the top right of the project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
+- Klik op de **remix** knop in de rechterbovenhoek van het project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
 
 ![Remix button](images/tktRemixButtonArrow.png)
 
