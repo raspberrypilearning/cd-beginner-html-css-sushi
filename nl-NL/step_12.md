@@ -36,7 +36,7 @@ Laten we nu de lijst in plaats van verticaal (naar beneden) horizontaal (over de
 
 ![](images/egMenuBarInline.png)
 
-- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+- De menu-items zijn nu allemaal samen geplet, dus laten we ook de eigenschappen `margin-right` (ruimte rechts) en `margin-left ` (ruimte links) toevoegen om ze een beetje te spreiden. Het blok CSS-code zou er nu als volgt uit moeten zien:
 
 ```css
     nav ul li {
@@ -47,11 +47,11 @@ Laten we nu de lijst in plaats van verticaal (naar beneden) horizontaal (over de
     }
 ```
 
-Remember: `10px` means ten pixels.
+Onthoud: ` 10px ` betekent tien pixels.
 
-How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+Hoe zou het zijn om het menu te veranderen zodat het vertelt op welke pagina je je bevindt? Dit onderdeel staat niet in de stylesheet.
 
-- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- Begin met de startpagina. Ga naar de ` index.html `. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
 
 - Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
 
