@@ -72,4 +72,4 @@ Hoe zou het zijn om het menu te veranderen zodat het vertelt op welke pagina je 
 
 ![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
-On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
+Op de volgende kaart leer je nog meer CSS-trucs om de menubalk er nog beter uit te laten zien.
