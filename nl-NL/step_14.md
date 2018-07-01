@@ -64,13 +64,13 @@ Laten we al die tags eens bekijken. Het lijkt een beetje op de code voor een lij
 
 Elk paar `<tr> </tr>` tags is een rij, dus alles daartussen zal op één regel worden weergegeven.
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+De eerste rij bevat `<th> </th>` tags. Deze worden gebruikt voor de headers (koppen), dus de kolomtitels gaan daar tussen in. Er is één paar voor elke kolom die je in je tabel hebt.
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+De `<td> </td>` tags definiëren wat tabelgegevens worden genoemd en dat geldt ook voor alle andere rijen. Deze zijn vergelijkbaar met de tags van het lijstitem `<li> </li>`: alles daartussenin is één item in je tabel rij.
 
 \--- /collapse \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- Als je naar het einde van het ` styles.css ` bestand kijkt, zie je de CSS-code die beschrijft hoe de tabel eruit zou moeten zien. Je hoeft het niet allemaal te begrijpen! Maar e kunt experimenteren met het wijzigen van de tekst-, rand- en achtergrondkleuren om uw eigen stijl te ontwerpen.
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ The `<td> </td>` tags define what's called table data, and that's what goes in a
   }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+Merk op dat sommige selectors komma's gebruiken, bijvoorbeeld ` table, th, td `? Dat is een ** lijst met selectors **: dit betekent dat het van toepassing is op alle `<th>` elementen en alle `<td>` elementen. Het bespaart het typen van dezelfde regels voor elke selector!
