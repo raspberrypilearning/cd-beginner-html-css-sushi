@@ -10,11 +10,11 @@ Op deze kaart leer je hoe je een link kunt maken die, wanneer er op wordt geklik
 
 De `<a> </a>` tags veranderen alles wat er tussenin zit in een link.
 
-- Klik op uw link om te zien wat er gebeurt. Het doet niets, toch?
+- Klik op je link om te zien wat er gebeurt. Het doet niets, toch?
 
 Dat komt omdat het ` href ` attribuut momenteel leeg is. Het moet de ** URL ** (webadres) bevatten van de pagina waarnaar je een koppeling wilt maken.
 
-- Ga naar Wikipedia en vind een pagina over iets op jouw website. Ik ga de pagina over Nederland gebruiken.
+- Ga naar Wikipedia en vind een pagina over iets op jouw website. Ik ga de pagina over Ierland gebruiken.
 
 - Klik in de adresbalk en selecteer alle tekst in adresbalk. Dat is de volledige URL van de pagina waarop je je bevindt. Druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>C</kdb> toetsen om het te kopiëren.
     
