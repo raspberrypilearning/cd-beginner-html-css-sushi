@@ -19,7 +19,7 @@ Het resultaat zou een mooie lijst als deze moeten zijn:
 
 Merk steeds een aparte paar `<li></li>` tags rond elk item in de lijst op.
 
-Dit is een lijst van enkele dieren je in Nederland kunt zien. Je kunt de items in de lijst wijzigen in dingen die logisch zijn voor jouw website, en een alinea boven de lijst toevoegen om te beschrijven wat de lijst bevat, als je dat wilt!
+Dit is een lijst van enkele dieren je in Ierland kunt zien. Je kunt de items in de lijst wijzigen in dingen die logisch zijn voor jouw website, en een alinea boven de lijst toevoegen om te beschrijven wat de lijst bevat, als je dat wilt!
 
 Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar in plaats van `<ul>` gebruikt je `<ol>`. Een genummerde lijst wordt ook wel een ** ordered ** (gerangschikte) lijst genoemd.
 
@@ -27,7 +27,7 @@ Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar i
 
 ```html
     <p>
-        Mijn favoriete drank en eten in Nederland is:
+        Mijn favoriete drank en eten in Ierland is:
     </p>
     <ol>
         <li>Thee</li>
