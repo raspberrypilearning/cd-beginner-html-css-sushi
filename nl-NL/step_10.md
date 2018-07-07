@@ -36,10 +36,10 @@ Nu moet je koppelingen maken, zodat kunt je naar elke nieuwe pagina kunt gaan! L
 
 ```html
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Plaatsen om te bezoeken</a></li>
-        <li><a href="music.html">Muziek</a></li>
-        <li><a href="food.html">Dingen om te eten</a></li>
+        <li><a href="index. html">Home</a></li>
+        <li><a href="attracties. html">Plaatsen om te bezoeken</a></li>
+        <li><a href="muziek. html">Muziek</a></li>
+        <li><a href="eten. html">Dingen om te eten</a></li>
 </ul>
 ```
 
