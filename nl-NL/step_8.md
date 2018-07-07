@@ -32,7 +32,7 @@ Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar i
     <ol>
         <li>Thee</li>
         <li>Knapperige broodjes</li>
-        <li>Knakworsten</li>
+        <li>worsten</li>
     </ol>
 ```
 
