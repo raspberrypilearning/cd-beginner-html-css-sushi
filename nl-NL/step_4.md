@@ -2,14 +2,14 @@
 
 - In het linker deelvenster het **codepaneel**, klik op het tabblad met `index.html`.
 
-- Zoek de regel met `Welcome to Ireland!` en verander het in je eigen bericht - wees voorzichtig dat je **niet** de tags `<p>` aan het begin van de regel en `</p>` aan het einde van de regel wist. Je zou de update van je webpagina in het rechter paneel moeten zien.
+- Zoek de regel met `Welkom in!` en verander het in je eigen bericht - wees voorzichtig dat je **niet** de tags `<p>` aan het begin van de regel en `</p>` aan het einde van de regel wist. Je zou de update van je webpagina in het rechter paneel moeten zien.
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
 - Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Zie je de verandering aan de rechterkant?
 
 ```html
-  <h1> Welkom in Nederland! </h1>
+  <h1> Welkom in Ierland! </h1>
 ```
 
 ## \--- collapse \---
@@ -32,12 +32,12 @@ Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 
 \--- /collapse \---
 
-- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te laten zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Vergeet niet om zowel de openings tag als de afsluit tag te wijzigen, zodat ze overeenkomen.
+- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te laten zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Vergeet niet om zowel de open tag als de sluit tag te wijzigen, zodat ze overeenkomen.
 
-- Zoek de code voor de alinea met de tekst `My website is about Ireland` en verander het zodat het er zo uitziet:
+- Zoek de code voor de alinea met de tekst `Mijn website gaat over Ierland` en verander het zodat het er zo uitziet:
 
 ```html
-  <p> <em> Mijn website </em> gaat over <strong>Nederland </strong>. 
+  <p> <em> Mijn website </em> gaat over <strong>Ierland </strong>. 
     Het gaat de pagina's: Attracties, Muziek, Eten bevatten</p>
 ```
 
