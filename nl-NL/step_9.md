@@ -23,7 +23,7 @@ Dat komt omdat het ` href ` attribuut momenteel leeg is. Het moet de ** URL ** (
 - Klik in je trinket tussen de aanhalingstekens na ` href = ` en druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>V</kdb> toetsen om de URL die je zojuist gekopieerd hebt te plakken. Je code zou er ongeveer als volgt uit moeten zien:
 
 ```html
-  <a href="https://nl. wikipedia. org/wiki/Nederland"> Klik hier </a>
+  <a href="https://en.wikipedia.org/wiki/Ireland">Klik hier</a>
 ```
 
 Je hebt zojuist je eerste link gemaakt! Klik erop om te zien of het nu werkt.
@@ -41,8 +41,8 @@ Trinket heeft met sommige webadressen problemen. Je kunt desgewenst URL's van an
 - Probeer in plaats van de woorden ` Klik hier `, een foto tussen de `<a> </a>` tags te plaatsen, zoals hier:
 
 ```html
-  <a href="https://nl. wikipedia. org/wiki/Nederland">
-      <img src="tito. png" alt="Tito the dog" width="100px" />
+  <a href="https://en. wikipedia. org/wiki/Ireland">
+      <img src="tito. png" alt="Tito de hond" width="100px" />
   </a>
 ```
 
@@ -51,8 +51,8 @@ Trinket heeft met sommige webadressen problemen. Je kunt desgewenst URL's van an
 Je kunt ook een link naar andere elementen van je webpagina plaatsen, zoals naar een alinea of ​​zelfs naar een lijst. Hier is een voorbeeld van een zin met een link erin:
 
 ```html
-  <p> <a href="https://nl. wikipedia. org/wiki/Nederland"> Klik hier </a> om de Wikipedia-pagina te lezen!
-  &lt;/p&gt;
+  <p> <a href="https://en.wikipedia.org/wiki/Ireland"> Klik hier </a> om de Wikipedia-pagina te lezen!
+  </p>
 ```
 
 \--- challenge \---
