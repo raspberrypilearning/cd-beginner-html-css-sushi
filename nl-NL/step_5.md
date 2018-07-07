@@ -24,7 +24,7 @@ Als je naar de bovenkant van het `index.html` bestand kijkt, zie je de volgende 
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-De bovenstaande regel vertelt de browser om te zoeken naar een speciaal bestand met de naam ` styles.css `. Dit speciale bestand wordt een ** stylesheet ** genoemd. Je kunt een style sheet (opmaakbestand) herkennen door de `.css` in de naam.
+De bovenstaande regel vertelt de browser om te zoeken naar een speciaal bestand met de naam ` styles.css `. Dit speciale bestand wordt een ** style sheet ** genoemd. Je kunt een style sheet (opmaakbestand) herkennen door de `.css` in de naam.
 
 Een style sheet bevat ** -regels ** voor hoe elk element op je webpagina eruit zou moeten zien.
 
