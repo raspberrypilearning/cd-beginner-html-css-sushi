@@ -33,7 +33,7 @@ De accolades `{ }` en de code ertussen is een set van ** CSS-regels ** . Het woo
 Elke regel binnen de accolades bestaat uit:
 
 - Een **property **(eigenschap) aan de linkerkant, gevolgd door een dubbele punt `: `
-- A ** waarde ** voor de eigenschap na de dubbele punt
+- Een ** waarde ** voor de eigenschap na de dubbele punt
 - Een puntkomma `; ` aan het einde
 
 \--- /collapse \---
