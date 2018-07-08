@@ -18,13 +18,13 @@
 
 **HTML** is de code die een webpagina maakt.
 
-De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar ** -tags ** zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
+De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar ** tags ** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
 
 HTML-tags zoals `<p>` en ` </p>` definieert verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden alle **elements ** (elementen) genoemd. Zie ze als bouwstenen.
 
 ### Waarom heb ik twee tags nodig?
 
-Je hebt een **open** en een **closing ** (sluit) tag nodig om de browser te vertellen waar de elementen **starten** en **eindigen**. Dus voor een alinea, de opening label `<p>` zegt "Hier komt wat tekst die ik wil weergeven als een alinea." De afsluitende `</p>` label vertelt de browser waar de alinea eindigt.
+Je hebt een **open** en een **closing ** (sluit) tag nodig om de browser te vertellen waar de elementen **starten** en **eindigen**. Dus voor een alinea, de opening tag `<p>` zegt "Hier komt wat tekst die ik wil weergeven als een alinea." De afsluitende tag `</p>` vertelt de browser waar de alinea eindigt.
 
 Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 
@@ -37,8 +37,9 @@ Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 - Zoek de code voor de alinea met de tekst `Mijn website gaat over Ierland` en verander het zodat het er zo uitziet:
 
 ```html
-  <p> <em> Mijn website </em> gaat over <strong>Ierland </strong>. 
-    Het gaat de pagina's: Attracties, Muziek, Eten bevatten</p>
+  <p> <em>Mijn website</em> gaat over <strong>Ierland</strong>. 
+    Het gaat de pagina's: Attracties, Muziek en Eten bevatten
+  </p>
 ```
 
 Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
@@ -62,8 +63,9 @@ Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
 De code voor alinea's (paragraphs) ziet er als volgt uit:
 
 ```html
-  <p> Dit is een alinea tekst. </p> 
-<p> Dit is een andere alinea.
+  <p>Dit is een alinea tekst.</p> 
+
+   <p>Dit is een andere alinea.
   Alles tussen de twee p-tags wordt samen weergegeven in één lange regel op de webpagina. </p>
 ```
 
@@ -74,7 +76,7 @@ De code voor alinea's (paragraphs) ziet er als volgt uit:
 De code voor kopteksten (headings) ziet er als volgt uit:
 
 ```html
-  <h1> Dit is een kop. </h1>
+  <h1>Dit is een kop.</h1>
 ```
 
 Koppen worden normaal gesproken groter of dikker weergegeven dan de alinea's.
