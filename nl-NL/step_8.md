@@ -23,7 +23,7 @@ Dit is een lijst van enkele dieren je in Ierland kunt zien. Je kunt de items in 
 
 Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar in plaats van `<ul>`gebruikt je`<ol>`. Een genummerde lijst wordt ook wel een **ordered** (gerangschikte) lijst genoemd.
 
-- Voeg onder de code die je zojuist geschreven hebt, de onderstaande code toe - zorg ervoor dat deze ** onder** het `</ul>` label staat!
+- Voeg onder de code die je zojuist geschreven hebt, de onderstaande code toe - zorg ervoor dat deze **onder** het `</ul>` label staat!
 
 ```html
     <p>
@@ -44,6 +44,6 @@ Zo zou het er nu uit zou moeten zien:
 
 ## Uitdaging: voeg stijl toe aan je lijsten
 
-- Kijk of je ** CSS-regels** aan je stylesheet kunt toevoegen om je lijsten er anders uit te laten zien.
+- Kijk of je **CSS-regels** aan je stylesheet kunt toevoegen om je lijsten er anders uit te laten zien.
 
 \--- /challenge \---
