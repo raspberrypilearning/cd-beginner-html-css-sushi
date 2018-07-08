@@ -2,7 +2,7 @@
 
 Laten we een afbeelding toevoegen!
 
-- Ga naar het tabblad met de naam ` index.html `. Vind het `</main>` label en typ het volgende **daarboven**: 
+- Ga naar het tabblad met de naam `index.html`. Vind de `</main>` tag en typ het volgende **daarboven**: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
@@ -12,23 +12,23 @@ Hier is hoe het resultaat eruit zou moeten zien:
 
 ![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Merk op dat deze tag extra stukjes informatie bevat. Ze worden ** attributes ** (attributen) genoemd.
+Merk op dat deze tag extra stukjes informatie bevat. Ze worden **attributes** (attributen) genoemd.
 
-- Zoek het stukje code met ` width = "100px" ` en probeer te experimenteren met verschillende nummers om te zien of je kunt achterhalen wat dit attribute doet. Verwijder niet de letters `px`!
+- Zoek het stukje code met `width = "100px"` en probeer te experimenteren met verschillende nummers om te zien of je kunt achterhalen wat dit attribute doet. Verwijder niet de letters `px`!
 
 \--- collapse \---
 
 * * *
 
-## title: Hoe het `<img>` tag (label) werkt
+## title: Hoe de `<img>` tag werkt
 
-Merk op dat de `<img>` tag verschilt van de andere tags die je tot dusver hebt gebruikt, — er is geen sluit `</img>` tag. In plaats daarvan is deze tag ** zelfsluitend **: het heeft ` />` aan het einde. Dit komt omdat er geen 'begin' en 'einde' aan een afbeeldingselement zit zoals er wel voor tekst op de pagina is.
+Merk op dat de `<img>` tag verschilt van de andere tags die je tot dusver hebt gebruikt, — er is geen sluit `</img>` tag. In plaats daarvan is deze tag **zelfsluitend**: het heeft `/>` aan het einde. Dit komt omdat er geen 'begin' en 'einde' aan een afbeeldingselement zit zoals er wel voor tekst op de pagina is.
 
-De tag bevat ** attributes ** met extra informatie:
+De tag bevat **attributes** met extra informatie:
 
-- Het ` src ` attribuut vertelt de browser welk bestand moet worden gebruikt voor de afbeelding. 
-- Het ` alt ` attribute is een korte beschrijving die de browser zal weergeven als het de afbeelding niet kan weergeven. 'alt' is een afkorting voor 'alternatief'. Deze tekst helpt ook mensen die een schermlezer gebruiken om te weten wat de afbeelding weergeeft.
-- Het ` with ` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. ` 100px ` betekent honderd ** pixels **, dat zijn de kleine puntjes die beplalen wat je op je scherm ziet. Als je dit kenmerk niet opneemt, wordt de afbeelding in de oorspronkelijke grootte weergegeven.
+- Het `src` attribuut vertelt de browser welk bestand moet worden gebruikt voor de afbeelding. 
+- Het `alt` attribute is een korte beschrijving die de browser zal weergeven als het de afbeelding niet kan weergeven. 'alt' is een afkorting voor 'alternatief'. Deze tekst helpt ook mensen die een schermlezer gebruiken om te weten wat de afbeelding weergeeft.
+- Het `with` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. `100px` betekent honderd **pixels**, dat zijn de kleine puntjes die bepalen wat je op je scherm ziet. Als je dit kenmerk niet opneemt, wordt de afbeelding in de oorspronkelijke grootte weergegeven.
 
 \--- /collapse \---
 
@@ -38,19 +38,19 @@ Nu je de code kent om een ​​afbeelding op je website te plaatsen, wil je waa
 
 [[[generic-get-picture-from-web]]]
 
-** Opmerking: ** niet alle afbeeldingen die je op internet vindt, zijn voor iedereen gratis te gebruiken. Als je een afbeelding downloadt, moet je ervoor zorgen dat dit er een is die je mag gebruiken. Lees hier meer over:
+**Opmerking:** niet alle afbeeldingen die je op internet vindt, zijn voor iedereen gratis te gebruiken. Als je een afbeelding downloadt, moet je ervoor zorgen dat dit er een is die je mag gebruiken. Lees hier meer over:
 
 [[[images-permissions-to-use]]]
 
-Zodra je een afbeelding of foto hebt, kun je het bestand ** uploaden ** naar Trinket:
+Zodra je een afbeelding of foto hebt, kun je het bestand **uploaden** naar Trinket:
 
-- Klik in je trinket op het **image** pictogram naast het ** + ** teken. 
+- Klik in je trinket op het **image** pictogram naast het **+** teken. 
 
 ![The image icon](images/tktImageIconArrow.png)
 
 Dit is waar je de foto's kunt zien, die je kunt gebruiken op jouw website. Je zou de afbeelding van Tito, de CoderDojo-hond, moeten zien.
 
-- Klik op de knop ** Add Image ** en klik vervolgens op ** Upload **.
+- Klik op de knop **Add Image** en klik vervolgens op **Upload**.
 
 - Klik op de knop **Click To Select Files**. Zoek en dubbelklik in het venster dat wordt geopend op je afbeelding.
 
