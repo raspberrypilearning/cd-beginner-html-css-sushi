@@ -6,9 +6,9 @@ Een tabel is een raster bestaande uit **rows** (rijen) en **colums** (kolommen).
 
 ![Example of information in a table](images/egTableResult.png)
 
-- Ga naar het bestand ` page_with_table.html `. Daar zie je een aantal codes tussen `<table> </table>` tags.
+- Ga naar het bestand `page_with_table.html`. Daar zie je een aantal codes tussen `<table></table>` tags.
 
-- Selecteer alle code vanaf het begin van de tag `<table>` tot aan het einde van de sluit ` </table>` tag en kopieer het. Ga dan naar een van je bestanden waar je een tabel zou willen plaatsen en plak de code er in.
+- Selecteer alle code vanaf het begin van de tag `<table>`tot aan het einde van de sluit`</table>` tag en kopieer het. Ga dan naar een van je bestanden waar je een tabel zou willen plaatsen en plak de code er in.
 
 Op dit moment is je tabel leeg.
 
@@ -52,9 +52,9 @@ De HTML-code voor de bovenstaande tabel ziet er als volgt uit:
 
 \--- /collapse \---
 
-Om nog een ** rij ** toe te voegen, voeg je nog een set `<tr> </tr>` -tags toe. Daartussen plaatst je hetzelfde aantal ** gegevens ** met `<td> </td>` tags zoals in de andere rijen.
+Om nog een **rij** toe te voegen, voeg je nog een set `<tr> </tr>` -tags toe. Daartussen plaatst je hetzelfde aantal **gegevens** met `<td> </td>` tags zoals in de andere rijen.
 
-Om nog een **kolom ** toe te voegen, voeg je aan ** elke ** rij extra ** gegevens ** met een set van `<td> </td>` tags toe. Voeg ook een extra ** header ** met `<th> </th>` tags aan de eerste rij toe.
+Om nog een **kolom** toe te voegen, voeg je aan **elke** rij extra **gegevens** met een set van `<td> </td>` tags toe. Voeg ook een extra ** header ** met `<th> </th>` tags aan de eerste rij toe.
 
 ## \--- collapse \---
 
@@ -70,7 +70,7 @@ De `<td> </td>` tags definiëren wat tabelgegevens worden genoemd en dat geldt o
 
 \--- /collapse \---
 
-- Als je naar het einde van het ` styles.css ` bestand kijkt, zie je de CSS-code die beschrijft hoe de tabel eruit zou moeten zien. Je hoeft het niet allemaal te begrijpen! Maar e kunt experimenteren met het wijzigen van de tekst-, rand- en achtergrondkleuren om uw eigen stijl te ontwerpen.
+- Als je naar het einde van het ` styles.css ` bestand kijkt, zie je de CSS-code die beschrijft hoe de tabel eruit zou moeten zien. Je hoeft het niet allemaal te begrijpen! Maar je kunt experimenteren met het wijzigen van de tekst-, rand- en achtergrondkleuren om je eigen stijl te ontwerpen.
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ De `<td> </td>` tags definiëren wat tabelgegevens worden genoemd en dat geldt o
   }
 ```
 
-Merk op dat sommige selectors komma's gebruiken, bijvoorbeeld ` table, th, td `? Dat is een ** lijst met selectors **: dit betekent dat het van toepassing is op alle `<th>` elementen en alle `<td>` elementen. Het bespaart het typen van dezelfde regels voor elke selector!
+Merk op dat sommige selectors komma's gebruiken, bijvoorbeeld `table, th, td`? Dat is een **lijst met selectors**: dit betekent dat het van toepassing is op alle `<th>` elementen en alle `<td>` elementen. Het bespaart het typen van dezelfde regels voor elke selector!
