@@ -67,6 +67,6 @@ Je koptekst moet nu oranje zijn, met de alinea in het paars als voorheen.
 
 Merk ook op hoe de letters er anders uitzien en ook een andere kleur hebben? Dit komt omdat je de **font family** (lettertype) hebt gewijzigd. Je kunt [hier](http://dojo.soy/web-font-families) meer lettertypes vinden.
 
-- Probeer met behulp van de `h2` selector een set regels voor de `<h2>` headings toe te voegen.
+- Probeer een set regels voor de `<h2>` headings toe te voegen met behulp van de `h2` selector.
 
 - Waarom niet experimenteren met verschillende kleurencombinaties voor de tekst en achtergrond? Er zijn veel kleuren beschikbaar om te gebruiken. Vind [hier](http://dojo.soy/web-color-names) een volledige lijst.
