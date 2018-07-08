@@ -4,7 +4,7 @@ Op deze kaart ziet je hoe je jouw navigatiemenu kunt transformeren in een cool u
 
 ![Example of a menu bar](images/egCoolMenuBar.png)
 
-- Ga naar het stijlblad in de ` styles.css ` tab. Klik **onder ** een sluit accolade `} ` en druk op ** Enter ** om een ​​nieuwe lege regel te maken. Voeg de volgende CSS code in:
+- Ga naar het stijlblad in de `styles.css` tab. Klik **onder** een sluit accolade `}` en druk op **Enter** om een ​​nieuwe lege regel te maken. Voeg de volgende CSS code in:
 
 ```css
     nav ul {
@@ -12,7 +12,7 @@ Op deze kaart ziet je hoe je jouw navigatiemenu kunt transformeren in een cool u
     }
 ```
 
-Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de ` ul ` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Het toeveogen van de `nav ` selector maakt het alleen van toepassing op lijsten die tussen ` nav` tags staan.
+Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de `ul` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Het toeveogen van de `nav` selector maakt het alleen van toepassing op lijsten die tussen `nav` tags staan.
 
 ![List with red background](images/egMenuBarFirstStyle.png)
 
