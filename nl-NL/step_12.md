@@ -18,7 +18,7 @@ Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de `u
 
 Laten we de opsommingstekens verwijderen. Dat zijn de stippen voor elk lijst item.
 
-- Voeg de volgende code toe aan het `style.css` bestand. Typ na een `} ` opnieuw een nieuwe regel zodat het niet in een ander regelsysteem zit.
+- Voeg de volgende code toe aan het `style.css` bestand. Typ na een `}` opnieuw een nieuwe regel zodat het niet in een ander regelsysteem zit.
 
 ```css
     nav ul li {
@@ -26,7 +26,7 @@ Laten we de opsommingstekens verwijderen. Dat zijn de stippen voor elk lijst ite
     }
 ```
 
-Merk op dat deze set regels drie selectors heeft: het selecteert alle ` li ` elementen die zich in een ` ul ` lijst bevinden, die zich binnen een ` nav ` sectie bevinden. Oef!
+Merk op dat deze set regels drie selectors heeft: het selecteert alle `li` elementen die zich in een `ul` lijst bevinden, die zich binnen een `nav` sectie bevinden. Oef!
 
 ![List with bullet points removed](images/egMenuBarNoBullets.png)
 
@@ -36,7 +36,7 @@ Laten we nu de lijst in plaats van verticaal (naar beneden) horizontaal (over de
 
 ![](images/egMenuBarInline.png)
 
-- De menu-items zijn nu allemaal samen geplet, dus laten we ook de eigenschappen `margin-right` (ruimte rechts) en `margin-left ` (ruimte links) toevoegen om ze een beetje te spreiden. Het blok CSS-code zou er nu als volgt uit moeten zien:
+- De menu-items zijn nu allemaal samen geplet, dus laten we ook de eigenschappen `margin-right` (ruimte rechts) en `margin-left` (ruimte links) toevoegen om ze een beetje te spreiden. Het blok CSS-code zou er nu als volgt uit moeten zien:
 
 ```css
     nav ul li {
@@ -47,22 +47,22 @@ Laten we nu de lijst in plaats van verticaal (naar beneden) horizontaal (over de
     }
 ```
 
-Onthoud: ` 10px ` betekent tien pixels.
+Onthoud: `10px` betekent tien pixels.
 
 Hoe zou het zijn om het menu te veranderen zodat het vertelt op welke pagina je je bevindt? Dit onderdeel staat niet in de stylesheet.
 
-- Begin met de startpagina. Ga naar de ` index.html `. Verwijder in de lijst met menu links de link-tags voor en na het woord ` Home`, zodat het lijstitem voor de startpagina alleen tekst tussen `<li> </li>` tags is, zoals deze: `<li> Home </li>`.
+- Begin met de startpagina. Ga naar de `index.html`. Verwijder in de lijst met menu links de link-tags voor en na het woord `Home`, zodat het lijstitem voor de startpagina alleen tekst tussen `<li></li>` tags is, zoals deze: `<li>Home</li>`.
 
-- Ga nu naar elk van je andere bestanden en doe hetzelfde, verwijder telkens de koppeling tags voor de pagina die je aan het bewerken bent. Dus bijvoorbeeld in het ` muziek.html ` bestand, heb ik de koppeling tags verwijderd in de ` muziek ` lijst item:
+- Ga nu naar elk van je andere bestanden en doe hetzelfde, verwijder telkens de koppeling tags voor de pagina die je aan het bewerken bent. Dus bijvoorbeeld in het `music.html ` bestand, heb ik de koppeling tags verwijderd in de `muziek` lijst item:
 
 ```html
     <header>
         <nav>
             <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Plaatsen</a></li>
+            <li><a href="attractions.html">Attracties</a></li>
             <li>Muziek</li>
-            <li><a href="food.html">Dingen om te eten</a></li>
+            <li><a href="food.html">Eten</a></li>
             </ul>
         </nav>
     </header>
