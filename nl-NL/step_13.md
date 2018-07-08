@@ -20,7 +20,7 @@ De `padding` eigenschap voegt ruimte toe. Kun jij uitvinden wat elk van de ander
 
 ![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
 
-- Als je de onderstrepingen van de links wilt verwijderen, voeg je op een nieuwe regel na de sluit accolade `}`maar voor de `nav ul li` regels de volgende code toe. Je zou het na elke `}` kunnen plaatsen, maar het is een goed idee om gerelateerde code bij elkaar te houden, zodat het gemakkelijker te vinden is!
+- Als je de onderstrepingen van de links wilt verwijderen, voeg je op een nieuwe regel na de sluit accolade `}` maar voor de `nav ul li` regels de volgende code toe. Je zou het na elke `}` kunnen plaatsen, maar het is een goed idee om gerelateerde code bij elkaar te houden, zodat het gemakkelijker te vinden is!
 
 ```css
   nav ul li a {
@@ -28,7 +28,7 @@ De `padding` eigenschap voegt ruimte toe. Kun jij uitvinden wat elk van de ander
   }
 ```
 
-De bovenstaande regel is van toepassing op de `<a>`koppelingen in lijst `<li>` items in een ongeordende lijst `<ul>` in een navigatiegedeelte`<nav>`. Wauw, dat zijn vier selectors!
+De bovenstaande regel is van toepassing op de `<a>`koppelingen in lijst `<li>` items in een ongeordende lijst `<ul>` in een navigatiegedeelte `<nav>`. Wauw, dat zijn vier selectors!
 
 ![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
 
