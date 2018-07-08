@@ -60,7 +60,7 @@ Dit is waar je de foto's kunt zien, die je kunt gebruiken op jouw website. Je zo
 
 Je foto wordt geüpload en moet klaar zijn voor gebruik.
 
-- Ga naar het bestand `index.html` en zoek de `<img>` tag. Wijzig de tekst `tito.png` zodat het precies overeenkomt met de naam van de afbeelding die je hebt gekozen. Merk op dat de naam eindigt op `.jpg ` in plaats van `.png `!
+- Ga naar het bestand `index.html` en zoek de `<img>` tag. Wijzig de tekst `tito.png` zodat het precies overeenkomt met de naam van de afbeelding die je hebt gekozen. Merk op dat de naam eindigt op `.jpg` in plaats van `.png`!
 
 De tekst die je zojuist hebt gewijzigd is het attribute met de naam `src`, die de browser vertelt welk bestand moet worden weergegeven.
 
@@ -70,6 +70,6 @@ De tekst die je zojuist hebt gewijzigd is het attribute met de naam `src`, die d
 
 ## Uitdaging: verander de alt-tekst van de afbeelding
 
-- Zoek het ` alt ` attribuut van je afbeelding en verander de tekst daarvan in een korte beschrijving van je afbeelding. 
+- Zoek het `alt` attribuut van je afbeelding en verander de tekst daarvan in een korte beschrijving van je afbeelding. 
 
 \--- /challenge \---
