@@ -2,7 +2,7 @@
 
 Soms kan het nuttig zijn om informatie in een tabel weer te geven. Je wilt bijvoorbeeld voor een plaatselijke sportclub of school de ledeninformatie op een website vermelden, of informatie over je top tien favoriete nummers plaatsen.
 
-Een tabel is een raster bestaande uit ** rows ** (rijen) en ** colums ** (kolommen). De meeste tabellen bevatten ook titels bovenaan elke kolom, de **header** (kop). Hier is een voorbeeld:
+Een tabel is een raster bestaande uit **rows** (rijen) en **colums** (kolommen). De meeste tabellen bevatten ook titels bovenaan elke kolom, de **header** (kop). Hier is een voorbeeld:
 
 ![Example of information in a table](images/egTableResult.png)
 
