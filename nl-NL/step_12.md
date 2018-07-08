@@ -51,7 +51,7 @@ Onthoud: `10px` betekent tien pixels.
 
 Hoe zou het zijn om het menu te veranderen zodat het vertelt op welke pagina je je bevindt? Dit onderdeel staat niet in de stylesheet.
 
-- Begin met de startpagina. Ga naar de `index.html`. Verwijder in de lijst met menu links de link-tags voor en na het woord `Home`, zodat het lijstitem voor de startpagina alleen tekst tussen `<li></li>` tags is, zoals deze: `<li>Home</li>`.
+- Begin met de startpagina. Ga naar de `index.html`. Verwijder in de lijst met menu links de link-tags voor en na het woord `Home`, zodat het lijstitem voor de startpagina alleen tekst tussen `<li> </li>` tags is, zoals deze: `<li>Home</li>`.
 
 - Ga nu naar elk van je andere bestanden en doe hetzelfde, verwijder telkens de koppeling tags voor de pagina die je aan het bewerken bent. Dus bijvoorbeeld in het `music.html ` bestand, heb ik de koppeling tags verwijderd in de `muziek` lijst item:
 
