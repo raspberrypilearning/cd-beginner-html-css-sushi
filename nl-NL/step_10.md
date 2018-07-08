@@ -36,14 +36,14 @@ Nu moet je koppelingen maken, zodat kunt je naar elke nieuwe pagina kunt gaan! L
 
 ```html
     <ul>
-        <li><a href="index. html">Home</a></li>
-        <li><a href="attracties. html">Plaatsen om te bezoeken</a></li>
-        <li><a href="muziek. html">Muziek</a></li>
-        <li><a href="eten. html">Dingen om te eten</a></li>
-</ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Attracties</a></li>
+        <li><a href="music.html">Muziek</a></li>
+        <li><a href="food.html">Eten</a></li>
+    </ul>
 ```
 
-- Wijzig de waarde van het ` href ` attribuut voor elke koppeling (denk eraan, dat is de tekst binnen de aanhalingstekens) zodat deze exact overeenkomt met de naam van elk HTML-bestand dat je hebt gemaakt.
+- Wijzig de waarde van het `href` attribuut voor elke koppeling (denk eraan, dat is de tekst binnen de aanhalingstekens) zodat deze exact overeenkomt met de naam van elk HTML-bestand dat je hebt gemaakt.
 
 - Wijzig de tekst tussen de `<a> </a>` tags naar geschikte beschrijvingen voor je pagina's.
 
