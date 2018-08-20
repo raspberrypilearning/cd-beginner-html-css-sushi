@@ -1,59 +1,98 @@
-## Styling the menu bar
+## Adding a table
 
-With CSS, the possibilities for making your menu bar look great are endless. 
+Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
+![Example of information in a table](images/egTableResult.png)
+
+- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags. 
+
+- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+
+At the moment your table is empty. 
+
+- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+
+--- collapse ---
+---
+title: Example code
+---
+
+The HTML code for the table shown above looks like this:
+
+```html
+  <table>
+    <tr>
+      <th>Name of pet</th>
+      <th>Animal</th>
+      <th>Colour</th>
+    </tr>
+    <tr>
+      <td>Mia</td>
+      <td>Cat</td>
+      <td>Black and fluffy</td>
+    </tr>
+    <tr>
+      <td>Tito</td>
+      <td>Dog</td>
+      <td>Black with brown patches</td>
+    </tr>
+    <tr>
+      <td>Honeycomb</td>
+      <td>Guinea Pig</td>
+      <td>White with orange patches</td>
+    </tr>
+    <tr>
+      <td>Alfie</td>
+      <td>Budgie</td>
+      <td>Green and yellow</td>
+    </tr>
+  </table>
+```
+
+--- /collapse ---
+
+To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+
+To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+
+--- collapse ---
+---
+title: How does it work?
+---
+
+Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+
+Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+
+The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+
+The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+
+--- /collapse ---
+
+- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
 
 ```css
-  nav ul {
-    background-color: tomato;
-    border-style: solid;
-    border-color: MediumVioletRed;
-    border-width: 2px;
-    padding: 10px;
+  table, th, td {
+    border: 1px solid HoneyDew;
+    border-collapse: collapse;
+  }
+  tr {
+    background-color: PaleTurquoise;
+  }
+  th, td {
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+  }
+  th {
+    color: purple;
+  }
+  td {
+    color: purple;
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.  
-
-![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
-
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
-
-```css
-  nav ul li a {
-      text-decoration: none;
-  }
-```
-   
-The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors! 
-
-![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
-
-Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links! 
-
-- Find your `nav ul li` selector, and **inside** the curly braces add the line:
-
-```css
-  color: PapayaWhip;
-```
-
-You can choose any colour you like! 
-  
-You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
-
-- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
-  
-The `border-radius` property is a really easy way to make anything look cooler! 
-
-![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
-
---- challenge ---
-
-## Challenge: make your pictures have rounded corners
-
-- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
-
---- /challenge ---
+Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
