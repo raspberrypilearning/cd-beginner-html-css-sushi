@@ -14,7 +14,7 @@ Hier is hoe het resultaat eruit zou moeten zien:
 
 Merk op dat deze tag extra stukjes informatie bevat. Ze worden **attributes** (attributen) genoemd.
 
-- Zoek het stukje code met `width = "100px"` en probeer te experimenteren met verschillende nummers om te zien of je kunt achterhalen wat dit attribute doet. Verwijder niet de letters `px`!
+- Zoek het stukje code met `width = "100px"` en probeer te experimenteren met verschillende getallen om te zien of je kunt achterhalen wat dit attribute doet. Verwijder niet de letters `px`!
 
 \--- collapse \---
 
@@ -28,7 +28,7 @@ De tag bevat **attributes** met extra informatie:
 
 - Het `src` attribuut vertelt de browser welk bestand moet worden gebruikt voor de afbeelding. 
 - Het `alt` attribute is een korte beschrijving die de browser zal weergeven als het de afbeelding niet kan weergeven. 'alt' is een afkorting voor 'alternatief'. Deze tekst helpt ook mensen die een schermlezer gebruiken om te weten wat de afbeelding weergeeft.
-- Het `with` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. `100px` betekent honderd **pixels**, dat zijn de kleine puntjes die bepalen wat je op je scherm ziet. Als je dit kenmerk niet opneemt, wordt de afbeelding in de oorspronkelijke grootte weergegeven.
+- Het `width` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. `100px` betekent honderd **pixels**, dat zijn de kleine puntjes die bepalen wat je op je scherm ziet. Als je dit kenmerk niet opneemt, wordt de afbeelding in de oorspronkelijke grootte weergegeven.
 
 \--- /collapse \---
 
@@ -52,7 +52,7 @@ Dit is waar je de foto's kunt zien, die je kunt gebruiken op jouw website. Je zo
 
 - Klik op de knop **Add Image** en klik vervolgens op **Upload**.
 
-- Klik op de knop **Click To Select Files**. Zoek en dubbelklik in het venster dat wordt geopend op je afbeelding.
+- Klik op de knop **Click To Select Files**. Zoek en dubbelklik op je afbeelding in het venster dat wordt geopend.
 
 - Klik op **Done**.
 
