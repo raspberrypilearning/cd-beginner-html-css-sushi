@@ -6,9 +6,9 @@ Veel websites hebben een **navigatie** menu om bezoekers tussen pagina's te late
 
 - Zoek de code voor je lijst met links die je in de vorige stap hebt gemaakt.
 
-- Druk vlak voor de opening `<ul>` tag op **Enter** om een ​​nieuwe lege regel te maken, typ dan op de nieuwe regel de volgende tag: `<nav>`. Trinket voegt de sluit tag automatisch direct hierna toe, maar je kunt die verwijderen - hij staat niet op de juiste plaats.
+- Druk vlak voor de opening `<ul>` tag op **Enter** om een ​​nieuwe lege regel te maken, typ dan op de nieuwe regel de volgende tag: `<nav>`. Trinket voegt de sluit tag automatisch toe, maar deze kun je verwijderen - hij staat niet op de juiste plaats.
 
-- Druk vlak **na** de sluit `</ul>` -tag op **Enter** om een ​​nieuwe lege regel te maken, typ dan op de nieuwe regel de volgende tag: `</nav>`.
+- Druk vlak **na** de sluittag `</ul>` op **Enter** om een ​​nieuwe lege regel te maken, typ dan op de nieuwe regel de volgende tag: `</nav>`.
 
 - Selecteer nu je gehele `<nav>` gedeelte en lijst door net vóór de `<nav>` tag te klikken en de muis helemaal naar beneden te slepen tot net na de `</nav>` tag, zodat alle tekst inclusief de open en sluit tags worden gemarkeerd. Zorg ervoor dat alle **punthaken** `<` en `>` aan het begin en einde ook zijn gemarkeerd!
 
@@ -33,9 +33,9 @@ Veel websites hebben een **navigatie** menu om bezoekers tussen pagina's te late
 
 ## \--- collapse \---
 
-## title: ongedaan maken!
+## title: Ongedaan maken!
 
-Als je een fout maakt, kun je het **ongedaan maken** door samen op <kbd>Ctr </kbd> (of <kbd>cmd</kbd>) en <kbd>Z</kbd> te drukken. Je kunt deze toetscombinatie meestal meerdere keren indrukken om de laatste paar wijzigingen ongedaan te maken. Dit is een handige sneltoets die je in veel programma's kunt gebruiken!
+Als je een fout maakt, kun je het **ongedaan maken** door tegelijkertijd op <kbd>Ctr </kbd> (of <kbd>cmd</kbd>) en <kbd>Z</kbd> te drukken. Je kunt deze toetscombinatie meestal meerdere keren indrukken om de laatste paar wijzigingen ongedaan te maken. Dit is een handige sneltoets die je in veel programma's kunt gebruiken!
 
 \--- /collapse \---
 
@@ -45,7 +45,7 @@ Als je een fout maakt, kun je het **ongedaan maken** door samen op <kbd>Ctr </kb
 
 ## Uitdaging: navigatiemenu's voor alle pagina's
 
-- Plaats deze code in het kop gedeelte van elk HTML-bestand dat je hebt gemaakt. Hierdoor zal het navigatie-menu aan de bovenkant van elke pagina op je website verschijnen.
+- Plaats deze code in het kop gedeelte van elk HTML-bestand dat je hebt gemaakt. Hierdoor zal het navigatiemenu aan de bovenkant van elke pagina op je website verschijnen.
     
     \--- hints \---
     
