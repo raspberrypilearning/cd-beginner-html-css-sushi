@@ -27,7 +27,7 @@ Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar i
 
 ```html
     <p>
-        Mijn favoriete drank en eten in Ierland is:
+        Mijn favoriete drank en eten in Ierland zijn:
     </p>
     <ol>
         <li>Thee</li>
