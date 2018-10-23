@@ -1,6 +1,6 @@
 ## Een menubalk maken
 
-Op deze kaart ziet je hoe je jouw navigatiemenu kunt transformeren in een cool uitziende menubalk, gewoon door meer CSS-regels toe te voegen aan de stylesheet.
+Op deze kaart ziet je hoe je jouw navigatiemenu kunt veranderen in een cool uitziende menubalk, gewoon door meer CSS-regels toe te voegen aan de stylesheet.
 
 ![Example of a menu bar](images/egCoolMenuBar.png)
 
@@ -12,13 +12,13 @@ Op deze kaart ziet je hoe je jouw navigatiemenu kunt transformeren in een cool u
     }
 ```
 
-Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de `ul` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Het toeveogen van de `nav` selector maakt het alleen van toepassing op lijsten die tussen `nav` tags staan.
+Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de `ul` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Het toevoegen van de `nav` selector maakt het alleen van toepassing op lijsten die tussen `nav` tags staan.
 
 ![List with red background](images/egMenuBarFirstStyle.png)
 
 Laten we de opsommingstekens verwijderen. Dat zijn de stippen voor elk lijst item.
 
-- Voeg de volgende code toe aan het `style.css` bestand. Typ na een `}` opnieuw een nieuwe regel zodat het niet in een ander regelsysteem zit.
+- Voeg de volgende code toe aan het `style.css` bestand. Typ na een `}` opnieuw een nieuwe regel zodat het niet in een ander set regels zit.
 
 ```css
     nav ul li {
