@@ -1,6 +1,6 @@
 ## Fare una lista
 
-Ora imparerai come trasformare una lista di elementi, come "unicorni, robot, gatti", in una lista dall'aspetto più gradevole che potrai fare cose interessanti con più tardi.
+Ora imparerai come trasformare una lista di elementi, come "unicorni, robot, gatti", in una lista dall'aspetto più gradevole con cui potrai fare cose interessanti più tardi.
 
 - Nel file `index.html` , aggiungi il seguente codice appena sopra la riga con `</main>` su di esso:
 
@@ -17,9 +17,9 @@ Il risultato dovrebbe essere una bella lista come questa:
 
 ![Lista non ordinata](images/egUnorderedList.png)
 
-Si noti che esiste una coppia separata di tag `<li> </li>` attorno a ciascun elemento nell'elenco.
+Si noti c'è una coppia separata di tag `<li> </li>` attorno a ciascun elemento nell'elenco.
 
-Questa è una lista di alcuni animali che potresti vedere in Irlanda. Puoi modificare gli elementi nell'elenco per le cose che hanno senso per il tuo sito web e aggiungere un paragrafo sopra l'elenco per descrivere di cosa si tratta, se ti piace!
+Questa è una lista di alcuni animali che potresti vedere in Irlanda. Puoi modificare gli elementi nell'elenco con ciò cheha senso per il tuo sito web e aggiungere un paragrafo sopra l'elenco per descrivere di cosa si tratta, se ti piace!
 
 Che ne dici se volessi una lista numerata? È quasi la stessa cosa, ma invece di `<ul>`, usi `<ol>`. Un elenco numerato è anche chiamato elenco **ordinato**.
 
@@ -27,7 +27,7 @@ Che ne dici se volessi una lista numerata? È quasi la stessa cosa, ma invece di
 
 ```html
     <p>
-        mie cose preferite da mangiare e bere in Irlanda sono:
+        Il cibo e le bevande dell'Irlanda che preferisco sono:
     </p>
     <ol>
         <li>Tè</li>
@@ -40,10 +40,10 @@ Ecco come dovrebbe apparire ora:
 
 ![Lista ordinata](images/egOrderedList.png)
 
-\--- sfida \---
+\--- challenge \---
 
 ## Sfida: aggiungi stile ai tuoi elenchi
 
 - Verifica se puoi aggiungere **regole CSS** al tuo foglio di stile per modificare l'aspetto dei tuoi elenchi.
 
-\--- / challenge \---
+\--- /challenge \---
