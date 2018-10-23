@@ -6,4 +6,4 @@
 
 ### Software
 
-Questo progetto può essere completato in un browser Web utilizzando [trinket.io](https://trinket.io){: target = "_ blank"}.
+Questo progetto può essere completato utilizzando un browser Web [trinket.io](https://trinket.io){:target="_blank"}.
