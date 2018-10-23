@@ -44,7 +44,7 @@ Je kunt elke gewenste kleur kiezen!
 
 Je kunt een `color` (kleur) eigenschap voor de `nav ul li a` regel toevoegen als je wilt dat de menu links een andere kleur hebben dan de overige links op je website.
 
-- Wat dacht je van een aantal afgeronde hoeken voor je menu? Probeer de volgende code toe te voegen aan de `nav ul` regel om te zien wat er gebeurt: `border-radius: 10px;`.
+- Wat dacht je van afgeronde hoeken voor je menu? Probeer de volgende code toe te voegen aan de `nav ul` regel om te zien wat er gebeurt: `border-radius: 10px;`.
 
 De eigenschap `border-radius` is echt een eenvoudige manier om iets cooler te laten lijken!
 
