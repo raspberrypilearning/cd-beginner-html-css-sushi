@@ -20,7 +20,7 @@ Je zou de video op je webpagina moeten zien verschijnen.
 
 Dezelfde techniek werkt ook voor Google-kaarten. Probeer het eens!
 
-- Ga [hier](http://dojo.soy/google-maps) naartoe en zoek naar een plaats die je op je website wilt laten zien. **Opmerking:** **niet doen** deel geen persoonlijke informatie zoals je huisadres op een website!
+- Ga [hier](http://dojo.soy/google-maps) naartoe en zoek naar een plaats die je op je website wilt laten zien. **Opmerking:** deel **geen** persoonlijke informatie zoals je huisadres op een website!
 
 - Klik op het menu en klik vervolgens op **kaart delen of insluiten**, vervolgens op het tabblad <0>Een kaart insluiten</0> en dan op <0>HTML KOPIËREN</0> om de code te kopiëren en voeg deze zoals hierboven toe aan je website. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
 
