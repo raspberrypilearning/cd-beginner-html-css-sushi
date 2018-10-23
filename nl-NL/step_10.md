@@ -26,7 +26,7 @@ Je vraagt je misschien af ​​waarom je de naam van de `index.html` niet kunt 
 
 - Herhaal de bovenstaande stappen voor elke nieuwe pagina die je wilt toevoegen.
 
-Als er te veel tabbladen zijn die de Trinket in één keer kan weergegeven, kunt je de **<** en ** >** pictogrammen in de linkerbovenhoek van de tabbladen gebruiken om tussen de verschillende pagina's te bladeren.
+Als er te veel tabbladen zijn die Trinket in één keer kan weergegeven, kunt je de **<** en ** >** pictogrammen in de linkerbovenhoek van de tabbladen gebruiken om tussen de verschillende pagina's te bladeren.
 
 ![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
@@ -45,7 +45,7 @@ Nu moet je koppelingen maken, zodat kunt je naar elke nieuwe pagina kunt gaan! L
 
 - Wijzig de waarde van het `href` attribuut voor elke koppeling (denk eraan, dat is de tekst binnen de aanhalingstekens) zodat deze exact overeenkomt met de naam van elk HTML-bestand dat je hebt gemaakt.
 
-- Wijzig de tekst tussen de `<a> </a>` tags naar geschikte beschrijvingen voor je pagina's.
+- Wijzig de tekst tussen de `<a> </a>` tags in geschikte beschrijvingen voor je pagina's.
 
 Nu kun je naar je nieuwe pagina's navigeren!
 
