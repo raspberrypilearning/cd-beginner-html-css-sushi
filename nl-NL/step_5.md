@@ -38,7 +38,7 @@ Elke regel binnen de accolades bestaat uit:
 
 \--- /collapse \---
 
-- Laat we regels toevoegen om de weergave van de tekst te veranderen. Voeg binnen de accolades twee nieuwe lijnen toe:
+- Laat we regels toevoegen om de weergave van de tekst te veranderen. Voeg binnen de accolades twee nieuwe regels toe:
 
 ```css
   body {
