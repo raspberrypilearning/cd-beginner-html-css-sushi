@@ -6,7 +6,7 @@
 
 ## titlu: Am un cont Trinket
 
-- Faceți clic pe **Remix** butonul din dreapta sus al proiectului. Dacă nu sunteți conectat (ă), vi se va cere să faceți acest lucru. După ce v - ați conectat, va trebui să faceți clic pe **Remix** din nou. Dacă faceți clic pe acest buton, creați o copie a proiectului pentru care să lucrați. 
+- Faceți clic pe butonul **Remix** din dreapta sus al proiectului. Dacă nu sunteți conectat (ă), vi se va cere să faceți acest lucru. După ce v - ați conectat, va trebui să faceți clic pe **Remix** din nou. Dacă faceți clic pe acest buton, creați o copie a proiectului cu care o să lucrați. 
 
 ![Butonul Remix](images/tktRemixButtonArrow.png)
 
@@ -20,16 +20,16 @@ Ar trebui să spui că **remixat** după ce dai clic pe el:
 
 ## titlu: Nu am un cont Trinket
 
-Puteți salva munca utilizând una din opțiunile din meniul **Share**. Veți obține un link pe care îl puteți salva undeva, de exemplu într-un document, sau puteți trimite pe cineva prin e-mail. **Nota:** de fiecare dată când efectuați o schimbare, vei primi un nou link.
+Puteți salva munca utilizând una din opțiunile din meniul **Share**. Veți obține un link pe care îl puteți salva undeva, de exemplu într-un document, sau puteți trimite către cineva prin e-mail. **Notă:** de fiecare dată când efectuați o schimbare, vei primi un nou link.
 
-Dacă doriți să creați un cont pe Trinket, urmați pașii de mai jos. Acest lucru va permite să accesați munca cu ușurință de la orice calculator, și la **remix -** proiecte altcineva a permis accesul. Remisiunea înseamnă că veți salva o copie a unui proiect pentru a vă putea aduce modificările proprii.
+Dacă doriți să creați un cont pe Trinket, urmați pașii de mai jos. Acest lucru vă permite să accesați munca cu ușurință de la orice calculator, și la **modifici -** proiectele pe care altcineva le-a distribuit cu tine. Remixarea înseamnă că veți salva o copie a unui proiect pentru a vă putea aduce modificările proprii.
 
 - Mergeți la [site-ul Trinket](http://dojo.soy/trinket) și faceți clic pe **Înregistrați-vă pentru contul dvs. gratuit**. Veți avea nevoie de o adresă de e-mail pentru a vă înscrie.
 
-- Introduceți adresa dvs. de e-mail și alegeți o parolă sau cereți-i pe cineva să facă acest lucru pentru dvs.
+- Introduceți adresa dvs. de e-mail și alegeți o parolă sau cereți altcuiva să facă acest lucru pentru dvs.
 
 - Acum puteți accesa toate proiectele salvate sau remixate făcând clic pe numele dvs. de utilizator și mergând la **Trinkets My**. !["Elementul de meniu Trinkets"](images/MyTrinketsMenuWide.png)
 
 \--- / colaps \---
 
-Să începem să codificăm!
+Să începem să codăm!
