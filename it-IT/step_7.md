@@ -1,10 +1,10 @@
 ## Aggiungere una mappa o un video
 
-YouTube offre un modo semplice per aggiungere i suoi video al tuo sito web. L'aggiunta di elementi da altre fonti online al tuo sito web viene anche chiamata **incorporamento**.
+YouTube offre un modo semplice per aggiungere i suoi video al tuo sito web. L'aggiunta di elementi da altre fonti online al tuo sito web viene anche chiamata **incorporamento o embedding**.
 
 - Trova un video su YouTube che desideri mostrare sul tuo sito web.
 
-- Fai clic sul pulsante **Condividi** sotto il video. Seleziona l'opzione **Incorpora**.
+- Fai clic sul pulsante **Condividi** sotto il video. Seleziona l'opzione **incorpora o embed**.
 
 Vedrai una casella di testo con tutto il testo selezionato. Se per errore si deseleziona il testo, è possibile selezionarlo nuovamente facendo clic su di esso e premendo i tasti <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> su un Mac) e <kbd>A</kbd> contemporaneamente.
 
@@ -20,10 +20,10 @@ Dovresti vedere il video apparire sulla tua pagina web.
 
 La stessa tecnica funziona anche per le mappe di Google. Provaci!
 
-- Vai [qui](http://dojo.soy/google-maps) e cerca un luogo che vuoi mostrare sul tuo sito web. **Nota:** do **not** condividi informazioni personali come il tuo indirizzo di casa su un sito web!
+- Vai [qui](http://dojo.soy/google-maps) e cerca un luogo che vuoi mostrare sul tuo sito web. **Nota:** **non** condividere informazioni personali come il tuo indirizzo di casa su un sito web!
 
-- Fare clic sul risultato, quindi fare clic sul pulsante **Condividi** e copiare il codice e aggiungerlo al sito Web come sopra. ![Opzione incorporata selezionata in Google Maps](images/EmbedGoogleMap.png)
+- Clicca sul risultato, quindi clicca sul pulsante **Condividi** e copia il codice per aggiungerlo al sito web come sopra. ![Opzione incorpora o embedded selezionata in Google Maps](images/EmbedGoogleMap.png)
 
-- Se osservi attentamente, dovresti trovare `larghezza` e `altezza` **attributi** nel codice incollato. Puoi cambiare i loro valori per far apparire la mappa più grande o più piccola.
+- Se osservi attentamente, dovresti trovare **gli attributi** `larghezza` e `altezza` nel codice incollato. Puoi cambiare i loro valori per far apparire la mappa più grande o più piccola.
 
 ![Esempio di Google Map incorporata con attributi di larghezza e altezza selezionati](images/EmbeddedGoogleMapCode.png)
