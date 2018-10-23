@@ -12,7 +12,7 @@ Een tabel is een raster bestaande uit **rows** (rijen) en **colums** (kolommen).
 
 Op dit moment is je tabel leeg.
 
-- Probeer je tabel te vullen met van alles wat je maar wilt! Simpel gezegd plaats tekst tussen de `<td></td>` tags en tussen de `<th></th>` tags. Als je ze nodig hebt Je kunt meer tags toevoegen.
+- Probeer je tabel te vullen met van alles wat je maar wilt! Plaats gewoon tekst tussen de `<td></td>` tags en tussen de `<th></th>` tags. Als je ze nodig hebt Je kunt meer tags toevoegen.
 
 ## \--- collapse \---
 
@@ -52,7 +52,7 @@ De HTML-code voor de bovenstaande tabel ziet er als volgt uit:
 
 \--- /collapse \---
 
-Om nog een **rij** toe te voegen, voeg je nog een set `<tr> </tr>` -tags toe. Daartussen plaatst je hetzelfde aantal **gegevens** met `<td> </td>` tags zoals in de andere rijen.
+Om nog een **rij** toe te voegen, voeg je nog een set `<tr> </tr>` tags toe. Daartussen plaatst je hetzelfde aantal **gegevens** met `<td> </td>` tags zoals in de andere rijen.
 
 Om nog een **kolom** toe te voegen, voeg je aan **elke** rij extra **gegevens** met een set van `<td> </td>` tags toe. Voeg ook een extra ** header ** met `<th> </th>` tags aan de eerste rij toe.
 
@@ -64,7 +64,7 @@ Laten we al die tags eens bekijken. Het lijkt een beetje op de code voor een lij
 
 Elk paar `<tr> </tr>` tags is een rij, dus alles daartussen zal op één regel worden weergegeven.
 
-De eerste rij bevat `<th> </th>` tags. Deze worden gebruikt voor de headers (koppen), dus de kolomtitels gaan daar tussen in. Er is één paar voor elke kolom die je in je tabel hebt.
+De eerste rij bevat `<th> </th>` tags. Deze worden gebruikt voor de headers (koppen), dus de kolomtitels komen daar tussen in. Er is één paar voor elke kolom die je in je tabel hebt.
 
 De `<td> </td>` tags definiëren wat tabelgegevens worden genoemd en dat geldt ook voor alle andere rijen. Deze zijn vergelijkbaar met de tags van het lijstitem `<li> </li>`: alles daartussenin is één item in je tabel rij.
 
