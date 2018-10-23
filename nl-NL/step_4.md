@@ -1,6 +1,6 @@
 ## Je eerste webpagina!
 
-- In het linker deelvenster het **codepaneel**, klik op het tabblad met `index.html`.
+- Klik in het linker deelvenster (**het codepaneel**), op het tabblad `index.html`.
 
 - Zoek de regel met `Welkom in Ierland!` en verander het in je eigen bericht - wees voorzichtig dat je **niet** de tags `<p>` aan het begin van de regel en `</p>` aan het einde van de regel wist. Je zou de update van je webpagina in het rechter paneel moeten zien.
 
@@ -20,7 +20,7 @@
 
 De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar ** tags ** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
 
-HTML-tags zoals `<p>` en ` </p>` definieert verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden alle **elements ** (elementen) genoemd. Zie ze als bouwstenen.
+HTML-tags zoals `<p>` en ` </p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements ** (elementen) genoemd. Zie ze als bouwstenen.
 
 ### Waarom heb ik twee tags nodig?
 
@@ -32,7 +32,7 @@ Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 
 \--- /collapse \---
 
-- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te laten zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Vergeet niet om zowel de open tag als de sluit tag te wijzigen, zodat ze overeenkomen.
+- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Vergeet niet om zowel de open tag als de sluit tag te wijzigen, zodat ze overeenkomen.
 
 - Zoek de code voor de alinea met de tekst `Mijn website gaat over Ierland` en verander het zodat het er zo uitziet:
 
