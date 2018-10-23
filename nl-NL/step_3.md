@@ -1,6 +1,6 @@
 ## Opstarten
 
-- Ga naar [the starter trinket](http://dojo.soy/html-b-start). Je ziet een een project met een voorbeeld van een website. Aan de rechterkant de website en aan de linkerkant staat de code die de website maakt. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- Ga naar [the starter trinket](http://dojo.soy/html-b-start). Je ziet een project met een voorbeeld van een website. Aan de rechterkant de website en aan de linkerkant staat de code die de website maakt. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
