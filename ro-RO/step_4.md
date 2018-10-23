@@ -1,8 +1,8 @@
-## Prima pagină Web!
+## Prima ta pagină Web!
 
-- În panoul din stânga-parte, **panoul de cod**, faceți clic pe tab - ul care spune `index.html`.
+- În panoul din partea stângă, **panoul de cod**, faceți clic pe tab - ul care spune `index.html`.
 
-- Găsiți linia care spune `Bine ați venit în Irlanda!` și schimbați-l la mesajul dvs. - aveți grijă **nu** pentru a șterge etichetele`<p>` la începutul liniei și `</p>` la sfârșitul liniei. Ar trebui să vedeți actualizarea paginii dvs. web în panoul din partea dreaptă.
+- Găsiți linia care spune `Bine ați venit în Irlanda!` și schimbați-l la mesajul dvs. - aveți grijă să **nu** ștergeți etichetele`<p>` de la începutul liniei și `</p>` de la sfârșitul liniei. Ar trebui să vedeți actualizarea paginii dvs. web în panoul din partea dreaptă.
 
 ![Exemplul paragrafului HTML](images/egFirstHtmlCode.png)
 
