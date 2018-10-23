@@ -2,7 +2,7 @@
 
 Op deze kaart leer je hoe je een link kunt maken die, wanneer er op wordt geklikt, je naar een andere pagina brengt.
 
-- Voeg de volgende code toe aan de hoofdgedeelte van `index.html`:
+- Voeg de volgende code toe aan het hoofdgedeelte van `index.html`:
 
 ```html
   <a href="">Klik hier</a>
