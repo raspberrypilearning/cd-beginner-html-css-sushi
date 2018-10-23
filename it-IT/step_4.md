@@ -1,8 +1,8 @@
 ## La tua prima pagina web!
 
-- Nel riquadro di sinistra, il pannello di codice ****, fai clic sulla scheda che dice `index.html`.
+- Nel riquadro di sinistra, il **pannello del codice**, fai clic sulla scheda che dice `index.html`.
 
-- Trova la riga che dice `Benvenuto in Irlanda!` e modificalo sul tuo messaggio - fai attenzione **non** per eliminare i tag`<p>` all'inizio della riga e `</p>` alla fine della riga. Dovresti vedere l'aggiornamento della tua pagina web nel pannello di destra.
+- Trova la riga che dice `Benvenuto in Irlanda!` e modificalo sul tuo messaggio - fai attenzione **a non** eliminare i tag`<p>`all'inizio della riga e`</p>` alla fine della riga. Dovresti vedere l'aggiornamento della tua pagina web nel pannello di destra.
 
 ![Esempio di paragrafo HTML](images/egFirstHtmlCode.png)
 
@@ -12,13 +12,13 @@
   <h1>Benvenuto in Irlanda!</h1>
 ```
 
-## \--- chiudi \---
+## \--- collapse \---
 
-## titolo: HTML e tag spiegati
+## title: HTML e tag spiegati
 
 **HTML** è il codice che crea una pagina web.
 
-Lo `.html` nel nome del file indica al browser che il file è una pagina Web, quindi il browser sa di cercare **tag** dicendogli cosa visualizzare. (Un browser è il programma che si usa per guardare i siti Web, ad esempio Chrome o Firefox.)
+Lo `.html` nel nome del file indica al browser che il file è una pagina Web, quindi il browser sa di cercare **tag** dicendogli cosa visualizzarlo. (Un browser è il programma che si usa per guardare i siti web, ad esempio Chrome o Firefox.)
 
 Tag HTML come `<p>` e `</p>` definiscono pezzi diversi di una pagina, ad esempio paragrafi, intestazioni o il corpo. I pezzi sono tutti chiamati **elementi**. Pensa a loro come elementi costitutivi.
 
@@ -30,15 +30,15 @@ Tutto tra i tag `<body>` e `</body>` è la tua pagina web.
 
 - Si noti come il tag di chiusura **sempre** ha una barra `/`.
 
-\--- / chiudi \---
+\--- /collapse \---
 
 - Prova a cambiare i numeri nei tuoi tag **intestazione** per vedere le diverse dimensioni che ti danno. Possono andare da `<h1>` fino a `<h6>`. Ricorda di modificare sia il tag di apertura che quello di chiusura in modo che corrispondano.
 
-- Trova il codice per il paragrafo che dice `mio sito web riguarda Irlanda.` e cambialo in modo che assomigli a questo:
+- Trova il codice per il paragrafo che dice `Il mio sito web sull'Irlanda.` e cambialo in modo che assomigli a questo:
 
 ```html
   <p>
-    <em>mio sito web</em> è di circa <strong>Irlanda</strong>. 
+    <em>Il mio sito web</em> riguarda <strong>l'Irlanda</strong>. 
     Avrà le seguenti pagine: Attrazioni, Musica, Cibo
   </p>
 ```
@@ -47,19 +47,19 @@ Riesci a capire cosa fanno i tag `<em> </em>` e `<strong> </strong>`?
 
 ![Esempio di tag HTML](images/egFirstTags.png)
 
-\--- sfida \---
+\--- challenge \---
 
 ## Sfida: aggiungi un altro testo personale
 
 - Prova ad aggiungere un nuovo paragrafo o un titolo alla tua pagina utilizzando alcuni dei tag che hai imparato.
 
-\--- suggerimenti \---
+\--- hint \---
 
 \--- suggerimento \--- Quando vuoi inserire del testo in una pagina, devi metterlo tra due tag che indicano al tuo browser come visualizzare il tuo testo. Ad esempio, i tag `<p> </p>` dicono al browser che qualunque cosa vi sia tra loro è un nuovo paragrafo di testo, e i tag `<h1> </h1>` dicono che il testo in mezzo è un'intestazione.
 
-\--- / suggerimento \---
+\--- /hint \---
 
-\--- suggerimento \---
+\--- hint \---
 
 Il codice per i paragrafi è simile al seguente:
 
@@ -70,22 +70,22 @@ Il codice per i paragrafi è simile al seguente:
   Tutto ciò che si trova tra una serie di tag p viene visualizzato insieme in un'unica riga sulla pagina web.</p>
 ```
 
-\--- / suggerimento \---
+\--- /hint \---
 
-\--- suggerimento \---
+\--- hint \---
 
 Il codice per le intestazioni è simile al seguente:
 
 ```html
-  <h1>Questa è una voce.</h1>
+  <h1>Questa è una intestazione.</h1>
 ```
 
-I titoli saranno normalmente visualizzati più grandi o più audaci dei paragrafi.
+I titoli saranno normalmente visualizzati più grandi o più visibili dei paragrafi.
 
-\--- / suggerimento \---
+\--- /hint \---
 
-\--- / suggerimenti \---
+\--- /hint \---
 
-\--- / challenge \---
+\--- /challenge \---
 
-Congratulazioni, hai creato la tua prima pagina web! Sulla prossima carta, scoprirai come controllare come appare.
+Congratulazioni, hai creato la tua prima pagina web! Sulla prossima carta, scoprirai la tecnica per controllare come appare.
