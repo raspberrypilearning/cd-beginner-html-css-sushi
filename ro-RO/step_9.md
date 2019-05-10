@@ -1,65 +1,52 @@
-## Crearea de linkuri
+## Adding more pages
 
-Pe acest card veți afla cum să creați o legătură care să vă ducă la o altă pagină când este făcută clic pe ea.
+This card will show you how to add more pages to your website.
 
-- Adăugați următorul cod la secțiunea de corp `index.html`:
+- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
 
-```html
-  <a href="">Faceți clic aici</a>
-```
+![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
-Tag-urile `<a> </a>` transformă ceea ce se află între ele într-o legătură.
+## \--- collapse \---
 
-- Încercați să faceți clic pe linkul dvs. pentru a vedea ce se întâmplă. Nu face nimic, nu?
+## title: Renaming or deleting a file
 
-Aceasta deoarece atributul `href` este gol în acest moment. Aceasta trebuie să conțină **URL -** (adresa de web) a paginii pe care doriți să creați un link.
+If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
 
-- Accesați Wikipedia și găsiți o pagină despre ceva pe site-ul dvs. web. Voi folosi pagina despre Irlanda.
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
-- Faceți clic pe bara de adrese și selectați tot textul din i5. Aceasta este adresa URL completă a paginii pe care vă aflați. apasă pe <kdb>Ctrl</kdb> (sau <kdb>cmd</kdb>) și <kdb>C</kdb> simultan pentru copiere.
-    
-    ![Adresa URL în bara de adrese](images/AddressBarURL.png)
+\--- /collapse \---
 
-- În trinket, faceți clic între ghilimele după `href =` și apăsați pe <kdb>Ctrl</kdb> (sau <kdb>cmd</kdb>) și <kdb>V</kdb> chei în același timp pentru a lipi în URL-ul pe care tocmai l-ați copiat. Codul dvs. ar trebui să pară așa:
+- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
 
-```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Faceți clic aici</a>
-```
+- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
 
-Tocmai ai creat primul tău link! Faceți clic pe acesta pentru a vedea dacă funcționează acum.
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
-![Link tag](images/egLinkTagWithURL.png)
+- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
 
-## \--- colaps \---
+- Repeat the steps above for each new page that you want to add.
 
-## titlu: Legături către alte site-uri web
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
-Trinket are probleme cu unele adrese web. Puteți încerca să utilizați URL-uri de alte site-uri decât Wikipedia dacă doriți, dar este posibil ca acestea să nu funcționeze în trinket. Cu toate acestea, dacă ați descărcat proiectul și ați vizualizat fișierele într-un browser web, ați vedea că link-urile funcționează.
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-\--- / colaps \---
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
-- Încercați să puneți o imagine între etichetele `<a> </a>` în loc de cuvintele `Faceți clic aici`, după cum urmează:
+- In the `index.html` file, add the following code to the body of your webpage:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">
-      <img src="tito.png" alt="Tito the dog" width="100px" />
-  </a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Places to visit</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="food.html">Things to eat</a></li>
+    </ul>
 ```
 
-- Faceți clic pe imaginea dvs. Vezi că a fost transformată într-o legătură?
+- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
 
-Puteți pune și un link în alte elemente ale paginii dvs. web, cum ar fi într-un paragraf sau chiar într-o listă. Iată un exemplu de propoziție cu o legătură în ea:
+- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
 
-```html
-  <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Faceți clic aici</a> pentru a citi pagina Wikipedia!
-  </p>
-```
+Now you can navigate to your new pages!
 
-\--- provocare \---
-
-## Provocare: puneți o legătură într-o listă
-
-- Vedeți dacă puteți crea o listă care conține o legătură într-unul din elementele listate.
-
-\--- /provocare \---
+![Example list of links on a web page](images/egListOfPageLinks.png)
