@@ -1,6 +1,6 @@
 ---
-title: Principiante HTML / CSS Sushi Cards
-hero_image: images / banner.png
+title: Tarjetas de sushi HTML/CSS para principiantes
+hero_image: images/banner.png
 description: Aprende a hacer un sitio web
 theme: rojo
 duration: 3
@@ -19,28 +19,28 @@ steps:
   - 
     title: Introducción
   - 
-    title: Que necesitarás
+    title: Getting set up
   - 
-    title: Preparándose
+    title: Your first webpage!
   - 
-    title: Tu primera página web!
+    title: Controlling how it looks
   - 
-    title: Controlando cómo se ve
+    title: Adding pictures
   - 
-    title: Agregar imágenes
+    title: Adding a map or video
   - 
-    title: Agregar un mapa o video
+    title: Making a list
   - 
-    title: Haciendo una lista
+    title: Creating links
   - 
-    title: Creando enlaces
+    title: Adding more pages
   - 
-    title: Agregar más páginas
+    title: Navigating your website
   - 
-    title: Navegando por su sitio web
+    title: Making a menu bar
   - 
-    title: Hacer una barra de menú
+    title: Styling the menu bar
   - 
-    title: Diseñando la barra de menú
+    title: Adding a table
   - 
-    title: Agregar una tabla
+    title: What next?
