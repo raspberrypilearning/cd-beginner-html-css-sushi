@@ -1,60 +1,75 @@
-## Naviguer sur votre site
+## Making a menu bar
 
-De nombreux sites ont une **navigation** menu pour aider les visiteurs à se déplacer entre les pages. Maintenant que vous avez un tas de pages, une page d'accueil et des liens vers chaque page, déplaçons la liste des liens vers une section de navigation en haut de chaque page.
+On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
 
-![Exemple de page Web avec des liens de navigation en haut](images/egNavLinksAtTop.png)
+![Example of a menu bar](images/egCoolMenuBar.png)
 
-- Recherchez le code de votre liste de liens que vous avez créée à l'étape précédente.
+- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
 
-- Juste avant l'ouverture de l'étiquette `<ul>` , appuyez sur **Entrez** pour créer une nouvelle ligne vide, puis sur la nouvelle ligne, tapez l'étiquette suivante: `<nav>`. Le bijou ajoute automatiquement la balise de fermeture juste après, mais vous pouvez la supprimer - elle n'est pas au bon endroit.
+```css
+    nav ul {
+        background-color: tomato;
+    }
+```
 
-- Juste **après** l'étiquette de fermeture `</ul>` , appuyez sur **Entrez** pour créer une nouvelle ligne vide, et tapez l'étiquette de fermeture `</nav>` là.
+Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
-- Maintenant sélectionnez toute votre section `<nav>` et listez-la en cliquant juste avant l'ouverture `<nav>` et en faisant glisser la souris tout le long de la balise de fermeture `</nav>` , de sorte que tout le texte incluant les balises d'ouverture et de fermeture devient en surbrillance. Assurez-vous que toutes les **équerres** `<` et `>` au début et à la fin sont également mises en surbrillance!
+![List with red background](images/egMenuBarFirstStyle.png)
 
-![Le texte à gauche n'est pas entièrement sélectionné tandis que le texte à droite est](images/egSelectedYayWoops.png)
+Let's get rid of the bullet points. Those are the dots in front of each list item.
 
-- Vous allez **coupe** cette fois -ci au lieu de copier. Maintenez la touche <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) enfoncée et, tout en la maintenant enfoncée, appuyez sur la touche <kbd>X</kbd>. Le code en surbrillance disparaîtra, mais ne paniquez pas!
+- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
 
-- En haut du fichier, cliquez dans l'espace entre les balises `<header> </header>`. Assurez-vous que le curseur clignote à cet endroit. Maintenant, collez le code en appuyant sur <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>V</kbd> comme d'habitude. Le code devrait ressembler à ceci:
+```css
+    nav ul li {
+        list-style-type: none;
+    }
+```
+
+Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+
+![List with bullet points removed](images/egMenuBarNoBullets.png)
+
+Now let's make the list horizontal (across) instead of vertical (down).
+
+- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+
+![](images/egMenuBarInline.png)
+
+- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+
+```css
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+```
+
+Remember: `10px` means ten pixels.
+
+How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+
+- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+
+- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="attractions.html">Endroits à visiter</a></li>
-            <li><a href="music.html">Musique</a></li>
-            <li><a href="food.html">Choses à manger</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li>Music</li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-## \--- effondrer \---
+- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
 
-## titre: Annuler!
+![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
-Si vous faites une erreur, vous pouvez **annuler** en appuyant sur <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>Z</kbd> ensemble. Vous pouvez généralement appuyer sur cette combinaison de touches plusieurs fois pour annuler les dernières modifications. C'est un autre raccourci clavier pratique que vous pouvez utiliser dans de nombreux programmes!
-
-\--- /effondrer \---
-
-- Essayez vos liens pour vous assurer qu'ils fonctionnent toujours.
-
-\--- défi \---
-
-## Challenge: menus de navigation pour toutes les pages
-
-- Placez cette section de code dans la section d'en-tête de chaque fichier HTML que vous avez créé. Cela fera apparaître le menu de navigation en haut de chaque page de votre site Web.
-    
-    \--- astuces \---
-    
-    \--- indice \--- Sélectionnez toute la section `<nav>` comme auparavant, et appuyez sur les touches <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>C</kbd> pour les copier.
-
-Ensuite, dans chacun de vos fichiers `.html` , cliquez à l'intérieur de la section `<header> </header>` et collez le code exactement comme vous l'avez fait précédemment. \--- / indice \---
-
-\--- /astuces \---
-
-Maintenant, vous serez en mesure de cliquer sur les liens, peu importe quelle page vous êtes.
-
-\--- /défi \---
+On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
