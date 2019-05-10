@@ -1,6 +1,6 @@
 ---
 title: Cartes de sushi HTML / CSS pour débutant
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Apprendre à faire un site web
 theme: rouge
 duration: 3
@@ -14,33 +14,33 @@ site_areas: coderdojo, projets
 hardware: ''
 software: html-css-javascript
 version: 3
-last_tested: 2017-01-01
+last_tested: 01/01/2017
 steps:
   - 
-    title: introduction
+    title: Introduction
   - 
-    title: Ce dont tu auras besoin
+    title: Getting set up
   - 
-    title: Se mettre en place
+    title: Your first webpage!
   - 
-    title: Votre première page Web!
+    title: Controlling how it looks
   - 
-    title: Contrôler son apparence
+    title: Adding pictures
   - 
-    title: Ajouter des images
+    title: Adding a map or video
   - 
-    title: Ajouter une carte ou une vidéo
+    title: Making a list
   - 
-    title: Faire une liste
+    title: Creating links
   - 
-    title: Créer des liens
+    title: Adding more pages
   - 
-    title: Ajouter plus de pages
+    title: Navigating your website
   - 
-    title: Naviguer sur votre site
+    title: Making a menu bar
   - 
-    title: Faire une barre de menu
+    title: Styling the menu bar
   - 
-    title: Styliser la barre de menu
+    title: Adding a table
   - 
-    title: Ajouter une table
+    title: What next?
