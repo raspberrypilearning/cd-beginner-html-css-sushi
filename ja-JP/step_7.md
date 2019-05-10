@@ -1,29 +1,49 @@
-## Adding a map or video
+## Making a list
 
-YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
+Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
 
-- Find a video on YouTube that you want to show on your website.
+- In the `index.html` file, add the following code just above the line with `</main>` on it:
 
-- Click on the **Share** button below the video. Select the option **Embed**.
+```html
+    <ul>
+        <li>Cows</li>
+        <li>Sheep</li>
+        <li>Foxes</li>
+        <li>Bats</li>
+    </ul>
+```
 
-You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
+The result should be a nice list like this:
 
-![YouTube's embed option with code selected](images/EmbedYouTube.png)
+![Unordered list](images/egUnorderedList.png)
 
-- Press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>C</kbd> keys together to copy the text.
+Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
 
-- Then go back to your website's HTML code, and click in the place where you want to put the video, for example below a heading or paragraph. **Paste** the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>V</kbd> on your keyboard at the same time. Don't worry about understanding all the code you just pasted!
+This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
 
-![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
+How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
 
-You should see the video appear on your webpage.
+- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
 
-The same technique works for Google maps as well. Give it a go!
+```html
+    <p>
+        My favourite things to eat and drink in Ireland are:
+    </p>
+    <ol>
+        <li>Tea</li>
+        <li>Crisp sandwiches</li>
+        <li>Sausages</li>
+    </ol>
+```
 
-- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
+Here's what it should look like now:
 
-- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+![Ordered list](images/egOrderedList.png)
 
-- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
+\--- challenge \---
 
-![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
+## Challenge: add style to your lists
+
+- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+
+\--- /challenge \---
