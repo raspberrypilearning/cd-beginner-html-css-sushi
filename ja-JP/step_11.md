@@ -1,22 +1,59 @@
-## Navigating your website
+## Making a menu bar
 
-Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
+On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
 
-![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
+![Example of a menu bar](images/egCoolMenuBar.png)
 
-- Find the code for your list of links that you created in the previous step.
+- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
 
-- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+```css
+    nav ul {
+        background-color: tomato;
+    }
+```
 
-- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
-- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+![List with red background](images/egMenuBarFirstStyle.png)
 
-![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+Let's get rid of the bullet points. Those are the dots in front of each list item.
 
-- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
 
-- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+```css
+    nav ul li {
+        list-style-type: none;
+    }
+```
+
+Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+
+![List with bullet points removed](images/egMenuBarNoBullets.png)
+
+Now let's make the list horizontal (across) instead of vertical (down).
+
+- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+
+![](images/egMenuBarInline.png)
+
+- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+
+```css
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+```
+
+Remember: `10px` means ten pixels.
+
+How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+
+- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+
+- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
 
 ```html
     <header>
@@ -24,37 +61,15 @@ Many websites have a **navigation** menu to help visitors move between pages. No
             <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="attractions.html">Places to visit</a></li>
-            <li><a href="music.html">Music</a></li>
+            <li>Music</li>
             <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-## \--- collapse \---
+- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
 
-## title: Undo!
+![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
-If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
-
-\--- /collapse \---
-
-- Try out your links to make sure they are still working.
-
-\--- challenge \---
-
-## Challenge: navigation menus for all pages
-
-- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
-    
-    \--- hints \---
-    
-    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
-
-Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
-
-\--- /hints \---
-
-Now you will be able to click the links no matter which page you are on.
-
-\--- /challenge \---
+On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
