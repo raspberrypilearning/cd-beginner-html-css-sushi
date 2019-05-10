@@ -1,92 +1,72 @@
-## Your first webpage!
+## Controlling how it looks
 
-- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
+The code that describes what a website looks like is called **CSS**.
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
-![HTML paragraph example](images/egFirstHtmlCode.png)
-
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
-
-```html
-  <h1>Welcome to Ireland!</h1>
+```css
+  body {
+      background-color: white;
+  }
 ```
+
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+
+![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: HTML and tags explained
+## title: How does it work?
 
-**HTML** is the code that makes a webpage.
+If you look at the top of the `index.html` file, you will see the following line:
 
-The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
+```html
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
+```
 
-HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-### Why do I need two tags?
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-Everything in between the `<body>` and `</body>` tags is your webpage.
+Each rule inside the curly braces is made up of:
 
-- Notice how the closing tag **always** has a forward slash `/`.
+- A **property** on the left, followed by a colon symbol `:`
+- A **value** for the property on the right-hand side after the colon
+- A semi-colon symbol `;` at the end
 
 \--- /collapse \---
 
-- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
 
-- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
-
-```html
-  <p>
-    <em>My website</em> is about <strong>Ireland</strong>. 
-    It is going to have the following pages: Attractions, Music, Food
-  </p>
+```css
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
 ```
 
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+Look at how this has changed the webpage.
 
-![Example of HTML tags](images/egFirstTags.png)
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-\--- challenge \---
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
 
-## Challenge: add some more text of your own
-
-- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
-
-\--- hints \---
-
-\--- hint \--- When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
-
-\--- /hint \---
-
-\--- hint \---
-
-The code for paragraphs looks like this:
-
-```html
-  <p>This is one paragraph of text.</p>
-
-  <p>This is another paragraph.
-  Everything in between one set of p tags is 
-  displayed together in one long line on the webpage.</p>
+```css
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
 ```
 
-\--- /hint \---
+Your heading text should be orange now, with the paragraph in purple as before.
 
-\--- hint \---
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-The code for headings looks like this:
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
-```html
-  <h1>This is a heading.</h1>
-```
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
-Headings will normally be displayed bigger or bolder than the paragraphs.
-
-\--- /hint \---
-
-\--- /hints \---
-
-\--- /challenge \---
-
-Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
