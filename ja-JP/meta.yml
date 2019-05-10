@@ -17,9 +17,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
-  - 
-    title: What you will need
+    title: 前書き
   - 
     title: Getting set up
   - 
@@ -44,3 +42,5 @@ steps:
     title: Styling the menu bar
   - 
     title: Adding a table
+  - 
+    title: What next?
