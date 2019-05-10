@@ -1,49 +1,65 @@
-## Efectuarea unei liste
+## Creating links
 
-Acum veți învăța cum să transformați o listă de articole, cum ar fi "unicorns, roboți, pisici", într-o listă cu aspect frumos, pe care o puteți face mai târziu.
+On this card you'll learn how to make a link that takes you to another page when it's clicked.
 
-- În `index.html` fișier, adăugați următorul cod chiar deasupra liniei cu `</main>` pe ea:
-
-```html
-    <ul>
-        <li>Vaci</li>
-        <li>Oi</li>
-        <li>Lupi</li>
-        <li>Lilieci</li>
-    </ul>
-```
-
-Rezultatul ar trebui să fie o listă plăcută:
-
-![Lista neordonata](images/egUnorderedList.png)
-
-Observați că există o pereche separată de taguri `<li> </li>` jurul fiecărui element din listă.
-
-Aceasta este o listă a unor animale pe care le-ați putea vedea în Irlanda. Puteți modifica elementele din listă la lucruri care au sens pentru site-ul dvs. Web și puteți adăuga un paragraf deasupra listei pentru a descrie ce este o listă cu, dacă vă place!
-
-Ce zici dacă vrei o listă numerotată? Este aproape la fel, dar în loc de `<ul>`, folosiți `<ol>`. O listă numerotată este , de asemenea , numit un **comandat** listă.
-
-- Adăugați următorul cod sub codul pe care tocmai l-ați scris - asigurați-vă că este sub **sub** eticheta `</ul>`!
+- Add the following code to the body section of `index.html`:
 
 ```html
-    <p>
-        Produsele mele preferate de a mânca și bea în Irlanda sunt:
-    </p>
-    <ol>
-        <li>Ceai</li>
-        <li>Sandviciuri crud</li>
-        <li>Cârnați</li>
-    </ol>
+  <a href="">Click here</a>
 ```
 
-Iată cum ar trebui să arate acum:
+The `<a> </a>` tags turn whatever is in between them into a link.
 
-![Lista ordonata](images/egOrderedList.png)
+- Try clicking your link to see what happens. It does nothing, right?
 
-\--- provocare \---
+That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
 
-## Provocare: adăugați stil la listele tale
+- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
 
-- Vedeți dacă puteți adăuga **reguli CSS** în foaia de stil pentru a modifica modul în care arată listele dvs.
+- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+    
+    ![URL in address bar](images/AddressBarURL.png)
 
-\--- /provocare \---
+- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+```
+
+You just created your first link! Click on it to see if it works now.
+
+![Link tag](images/egLinkTagWithURL.png)
+
+## \--- collapse \---
+
+## title: Links to other websites
+
+Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+
+\--- /collapse \---
+
+- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">
+      <img src="tito.png" alt="Tito the dog" width="100px" />
+  </a>
+```
+
+- Click on your picture. Do you see that it was turned into a link?
+
+You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+
+```html
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+  </p>
+```
+
+\--- challenge \---
+
+## Challenge: put a link into a list
+
+- See if you can make a list that contains a link inside one of the list items.
+
+\--- /challenge \---
