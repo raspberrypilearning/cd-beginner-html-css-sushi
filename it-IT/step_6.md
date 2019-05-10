@@ -1,75 +1,29 @@
-## Aggiungere foto
+## Adding a map or video
 
-Aggiungiamo una foto!
+YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
 
-- Vai alla scheda denominata `index.html`. Trova il tag `</main>` e digita il seguente **sopra**: 
+- Find a video on YouTube that you want to show on your website.
 
-```html
-    <img src="tito.png" alt="Tito the dog" width="100px" />
-```
+- Click on the **Share** button below the video. Select the option **Embed**.
 
-Ecco come dovrebbe apparire il risultato:
+You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
 
-![Codice dell'immagine e della foto di Tito](images/egImgCodeTito.png)
+![YouTube's embed option with code selected](images/EmbedYouTube.png)
 
-Si noti che questo tag contiene alcune informazioni extra al suo interno. Sono chiamati **attributi**.
+- Press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>C</kbd> keys together to copy the text.
 
-- Trova la parte di codice che dice `width = "100px"` e prova a sperimentare con numeri diversi per vedere se riesci a capire cosa fa questo attributo. Non cancellare le lettere `px`!
+- Then go back to your website's HTML code, and click in the place where you want to put the video, for example below a heading or paragraph. **Paste** the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>V</kbd> on your keyboard at the same time. Don't worry about understanding all the code you just pasted!
 
-\--- collapse \---
+![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
 
-* * *
+You should see the video appear on your webpage.
 
-## title: come funziona il tag `<img>`
+The same technique works for Google maps as well. Give it a go!
 
-Nota che il tag `<img>` è diverso dagli altri tag che hai utilizzato fino ad ora - non esiste un tag `</img>` chiusura. Invece, questo tag è **a chiusura automatica**: ha `/>` alla fine. Questo perché non c'è nessun 'inizio' e 'fine' per un elemento dell'immagine come per il testo sulla pagina.
+- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
 
-Il tag contiene **attributi** con informazioni aggiuntive:
+- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
 
-- L'attributo `src` indica al browser quale file utilizzare per l'immagine. 
-- L'attributo `alt` è una breve descrizione che il browser mostrerà se non può visualizzare l'immagine. 'alt' è l'abbreviazione di 'alternativa'. Questo testo aiuta anche le persone che utilizzano uno screen reader per sapere quale sia l'immagine.
-- L'attributo `width` indica al browser l'ampiezza con cui far apparire l'immagine. `100px` significa cento **pixel**, che sono i piccoli punti che compongono l'immagine che vedi sullo schermo. Se si esclude questo attributo, l'immagine verrà visualizzata nella sua dimensione originale.
+- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
 
-\--- /collapse \---
-
-Ora che conosci il codice per inserire un'immagine sul tuo sito web, probabilmente vorrai cambiare la foto, giusto?
-
-- La prima cosa di cui avrai bisogno è, ovviamente, una foto! Puoi utilizzarne uno che hai già sul tuo computer, come una fotografia che hai scattato, o puoi prenderne uno da Internet.
-
-[[[generic-get-picture-from-web]]]
-
-**Nota:** non tutte le immagini che troverai su Internet sono liberamente utilizzabili da chiunque. Se si scarica un'immagine, è necessario assicurarsi che sia quella che si è autorizzati a utilizzare. Scopri di più su questo qui:
-
-[[[images-permissions-to-use]]]
-
-Una volta che hai una foto, puoi **caricare** il file su Trinket:
-
-- Nel tuo trinket, fai clic sull'icona **immagine** accanto al segno **+**. 
-
-![L'icona dell'immagine](images/tktImageIconArrow.png)
-
-Qui è dove puoi vedere le immagini che puoi impiegare nel tuo sito web. Dovresti vedere l'immagine di Tito, il cane di CoderDojo.
-
-- Fare clic sul pulsante **Aggiungi immagine** e quindi fare clic su **Carica**.
-
-- Fare clic sul pulsante **Fare clic per selezionare i file**. Trova e fai doppio clic sul file dell'immagine nella finestra apparirà.
-
-- Fare clic su **Fatto**.
-
-![Area di caricamento dell'immagine](images/tktUploadImages.png)
-
-La tua foto verrà caricata e sarà pronta per l'uso.
-
-- Vai al file `index.html` e trova il tag `<img>`. Cambia il testo `tito.png` in modo che corrisponda esattamente al nome del file immagine che hai scelto. Nota che il suo nome potrebbe finire in `.jpg` invece di `.png`!
-
-Il testo appena modificato è l'attributo chiamato `src`, che indica al browser quale file visualizzare.
-
-**Nota:** il valore che scrivi per un attributo deve avere le virgolette `""` attorno ad esso!
-
-\--- challenge \---
-
-## Sfida: cambia il testo alternativo dell'immagine
-
-- Trova l'attributo `alt` del tuo elemento immagine e modifica il testo in esso contenuto in una breve descrizione della tua immagine. 
-
-\--- /challenge \---
+![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
