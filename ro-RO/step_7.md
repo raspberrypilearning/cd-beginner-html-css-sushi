@@ -1,29 +1,49 @@
-## Adăugarea unei hărți sau a unui videoclip
+## Making a list
 
-YouTube oferă o modalitate ușoară de a adăuga videoclipurile pe site-ul dvs. web. Adăugarea de elemente din alte surse online pe site-ul dvs. Web se numește și **încorporare**.
+Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
 
-- Găsiți un videoclip pe YouTube pe care doriți să îl afișați pe site-ul dvs. web.
+- In the `index.html` file, add the following code just above the line with `</main>` on it:
 
-- Faceți clic pe butonul **Trimiteți** sub videoclip. Selectați opțiunea **Embed**.
+```html
+    <ul>
+        <li>Cows</li>
+        <li>Sheep</li>
+        <li>Foxes</li>
+        <li>Bats</li>
+    </ul>
+```
 
-Veți vedea o casetă text cu tot textul selectat. Dacă ștergeți din greșeală textul, puteți să-l selectați din nou făcând clic pe el și apăsând simultan tastele <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd> pe Mac) și <kbd>A</kbd>.
+The result should be a nice list like this:
 
-![Opțiunea de încorporare YouTube cu codul selectat](images/EmbedYouTube.png)
+![Unordered list](images/egUnorderedList.png)
 
-- Apăsați pe tastele <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd> pe Mac) și <kbd>C</kbd> împreună pentru a copia textul.
+Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
 
-- Apoi, reveniți la codul HTML al site-ului dvs. web și dați clic în locul în care doriți să plasați videoclipul, de exemplu sub un titlu sau un paragraf. **Lipiți** codul apăsând <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd> pe un Mac) și <kbd>V</kbd> pe tastatură în același timp. Nu vă faceți griji cu privire la înțelegerea codului pe care tocmai l-ați lipit!
+This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
 
-![Exemplu de cod de încorporare inserat într-o pagină HTML](images/EmbedYouTube2.png)
+How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
 
-Ar trebui să vedeți că videoclipul apare pe pagina dvs. web.
+- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
 
-Aceeași tehnică funcționează și pentru hărțile Google. Încearcă!
+```html
+    <p>
+        My favourite things to eat and drink in Ireland are:
+    </p>
+    <ol>
+        <li>Tea</li>
+        <li>Crisp sandwiches</li>
+        <li>Sausages</li>
+    </ol>
+```
 
-- Du-te [aici](http://dojo.soy/google-maps) și căutați un loc pe care doriți să-l afișați pe site-ul dvs. **Notă:** **nu** împărtășesc informații personale cum ar fi adresa dvs. de domiciliu pe un site web!
+Here's what it should look like now:
 
-- Dați clic pe rezultatul, apoi dați clic pe butonul **Trimiteți** și copiați codul și adăugați-l pe site-ul dvs. web, așa cum este prezentat mai sus. ![Opțiunea de încorporare selectată în Hărți Google](images/EmbedGoogleMap.png)
+![Ordered list](images/egOrderedList.png)
 
-- Dacă te uiți cu atenție, ar trebui să găsești `latime` și `înălțime` **atribute** în codul lipit. Puteți schimba valorile acestora pentru a face harta să fie mai mare sau mai mică.
+\--- challenge \---
 
-![Exemplu de hartă Google încorporată cu atribute de lățime și înălțime selectate](images/EmbeddedGoogleMapCode.png)
+## Challenge: add style to your lists
+
+- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+
+\--- /challenge \---
