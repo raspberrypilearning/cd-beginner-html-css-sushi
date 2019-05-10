@@ -1,65 +1,52 @@
-## Créer des liens
+## Adding more pages
 
-Sur cette carte, vous apprendrez à créer un lien qui vous mènera à une autre page lorsque vous aurez cliqué dessus.
+This card will show you how to add more pages to your website.
 
-- Ajoutez le code suivant à la section body de `index.html`:
+- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
 
-```html
-  <a href="">Cliquez ici</a>
-```
+![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
-Les balises `<a> </a>` transforment tout ce qui se trouve entre eux en un lien.
+## \--- collapse \---
 
-- Essayez de cliquer sur votre lien pour voir ce qui se passe. Ça ne fait rien, n'est-ce pas?
+## title: Renaming or deleting a file
 
-C'est parce que l'attribut `href` est vide pour le moment. Il doit contenir le **URL** (adresse Web) de la page que vous souhaitez lier.
+If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
 
-- Aller à Wikipedia et trouver une page sur quelque chose sur votre site Web. Je vais utiliser la page sur l'Irlande.
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
-- Cliquez dans la barre d'adresse et sélectionnez tout le texte dans i5. C'est l'URL complète de la page sur laquelle vous êtes. appuie sur le <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>C</kdb> touches en même temps pour le copier.
-    
-    ![URL dans la barre d'adresse](images/AddressBarURL.png)
+\--- /collapse \---
 
-- Dans votre bijou, cliquez entre les guillemets après `href =` et appuyez sur <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>V</kdb> touches en même temps pour coller dans l'URL que vous venez de copier. Votre code devrait ressembler à ceci:
+- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
 
-```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Cliquez ici</a>
-```
+- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
 
-Vous venez de créer votre premier lien! Cliquez dessus pour voir si cela fonctionne maintenant.
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
-![Tag de lien](images/egLinkTagWithURL.png)
+- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
 
-## \--- effondrer \---
+- Repeat the steps above for each new page that you want to add.
 
-## title: Liens vers d'autres sites
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
-Le bijou a des problèmes avec certaines adresses Web. Vous pouvez essayer des URL de sites Web autres que Wikipédia si vous le souhaitez, mais ils peuvent ne pas fonctionner dans votre bijou. Toutefois, si vous deviez télécharger votre projet et afficher les fichiers dans un navigateur Web, vous verriez les liens fonctionner.
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-\--- /effondrer \---
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
-- Essayez de mettre une image entre les balises `<a> </a>` au lieu des mots `Cliquez ici`, comme ceci:
+- In the `index.html` file, add the following code to the body of your webpage:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">
-      <img src="tito.png" alt="Tito the dog" width="100px" />
-  </a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Places to visit</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="food.html">Things to eat</a></li>
+    </ul>
 ```
 
-- Cliquez sur votre photo Voyez-vous qu'il a été transformé en un lien?
+- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
 
-Vous pouvez également insérer un lien dans d'autres éléments de votre page Web, par exemple dans un paragraphe ou même dans une liste. Voici un exemple de phrase avec un lien:
+- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
 
-```html
-  <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Cliquez ici</a> pour lire la page Wikipedia!
-  </p>
-```
+Now you can navigate to your new pages!
 
-\--- défi \---
-
-## Défi: mettre un lien dans une liste
-
-- Voyez si vous pouvez faire une liste qui contient un lien dans l'un des éléments de la liste.
-
-\--- /défi \---
+![Example list of links on a web page](images/egListOfPageLinks.png)
