@@ -1,91 +1,72 @@
-## Prima ta pagină Web!
+## Controlling how it looks
 
-- În panoul din partea stângă, **panoul de cod**, faceți clic pe tab - ul care spune `index.html`.
+The code that describes what a website looks like is called **CSS**.
 
-- Găsiți linia care spune `Bine ați venit în Irlanda!` și schimbați-l la mesajul dvs. - aveți grijă să **nu** ștergeți etichetele`<p>` de la începutul liniei și `</p>` de la sfârșitul liniei. Ar trebui să vedeți actualizarea paginii dvs. web în panoul din partea dreaptă.
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
-![Exemplul paragrafului HTML](images/egFirstHtmlCode.png)
-
-- Acum, pe aceeași linie, schimbați `<p>` și `</p>` la `<h1>` și `</h1>`. Observi vreo schimbare a rezultatului în dreapta?
-
-```html
-  <h1>Bine ați venit în Irlanda!</h1>
+```css
+  body {
+      background-color: white;
+  }
 ```
+
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+
+![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- colaps \---
 
-## titlu: HTML și etichetele au fost explicate
+## title: How does it work?
 
-**HTML** este codul care face o pagină web.
-
-`.html` în numele fișierului spune browser - ului că fișierul este o pagină Web, astfel încât browser - ul stie sa caute **tag - uri** spunandu - i ce să se afișeze. (Un browser este programul pe care îl utilizați pentru a căuta site-uri web, de exemplu Chrome sau Firefox.)
-
-Elementele HTML, cum ar fi `<p>` și `</p>` definesc diferite piese dintr-o pagină, de exemplu, paragrafe, titluri sau corpuri. Piesele sunt numite **elemente**. Gândiți-vă la ele ca blocuri de construcție.
-
-### De ce am nevoie de două etichete?
-
-Aveți nevoie de o etichetă **deschidere** și **închidere** pentru a spune browser-ului unde elementele **încep** și **termină**. Deci, pentru un paragraf, eticheta de deschidere `<p>` spune: "Aici vine un text pe care vreau să îl afișați ca paragraf". Eticheta de închidere `</p>` indică browserului unde se termină paragraful.
-
-Totul între etichetele `<body>` și `</body>` este pagina dvs. Web.
-
-- Observați modul în care eticheta de închidere **întotdeauna** are o bară oblică cu `/ cu`.
-
-\--- / colaps \---
-
-- Încercați să schimbați numerele din contul dvs. **la rubrica** tag - uri pentru a vedea diferitele dimensiuni care le va da. Aceștia pot merge de la `<h1>` până la `<h6>`. Nu uitați să modificați atât eticheta de deschidere,
-
-- Găsiți codul pentru paragraful care spune `Site-ul meu este despre Irlanda.` și schimbați-l astfel încât să pară următoarele:
+If you look at the top of the `index.html` file, you will see the following line:
 
 ```html
-  <p>
-    <em>Site-ul meu</em> este de aproximativ <strong>Irlanda</strong>. 
-    Va avea următoarele pagini: Atracții, Muzică, Alimentație
-  </p>
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-Puteți să aflați ce fac etichetele `<em> </em>` și `<strong> </strong>`?
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-![Exemplu de etichete HTML](images/egFirstTags.png)
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-\--- provocare \---
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-## Provocare: adăugați mai mult text propriu
+Each rule inside the curly braces is made up of:
 
-- Încercați să adăugați un nou paragraf sau o rubrică în pagina utilizând câteva dintre etichetele pe care le-ați învățat.
+- A **property** on the left, followed by a colon symbol `:`
+- A **value** for the property on the right-hand side after the colon
+- A semi-colon symbol `;` at the end
 
-\--- sugestii \---
+\--- /collapse \---
 
-\--- sugestie \--- Când doriți să puneți text pe o pagină, trebuie să o puneți între două etichete care îi spun browserului cum să vă afișeze textul. De exemplu, etichetele `<p> </p>` informează browserul că orice este între ele este un nou paragraf de text, iar etichetele `<h1> </h1>` spun că textul între ele este o rubrică.
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
 
-\--- / indiciu \---
-
-\--- hint \---
-
-Codul pentru paragrafe arată astfel:
-
-```html
-  <p>Acesta este un paragraf din text.</p>
-
-  <p>Acesta este un alt paragraf.
-  Totul între un set de etichete p este afișat împreună într-o singură linie lungă de pe pagina web.</p>
+```css
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
 ```
 
-\--- / indiciu \---
+Look at how this has changed the webpage.
 
-\--- hint \---
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-Codul titlurilor arată astfel:
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
 
-```html
-  <h1>Aceasta este o rubrică.</h1>
+```css
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
 ```
 
-În mod normal, rubricile vor fi afișate mai mari sau mai îndrăznețe decât paragrafele.
+Your heading text should be orange now, with the paragraph in purple as before.
 
-\--- / indiciu \---
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-\--- / sugestii \---
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
-\--- /provocare \---
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
-Felicitări, ați construit prima pagină web! Pe următoarea carte, veți afla cum să controlați cum arată.
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
