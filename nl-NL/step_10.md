@@ -1,52 +1,60 @@
-## Meer pagina's toevoegen
+## Navigating your website
 
-Deze kaart laat zien hoe je meer pagina's aan je website kunt toevoegen.
+Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
 
-- Klik bovenaan het codepaneel op het **+** symbool naast de tabbladen en typ een naam voor je nieuwe bestand. Het moet eindigen op `.html` (inclusief de punt!) zodat de browser weet dat het een webpagina is.
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+- Find the code for your list of links that you created in the previous step.
+
+- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+
+- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+
+- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+
+- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+
+```html
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
+            </ul>
+        </nav>
+    </header>
+```
 
 ## \--- collapse \---
 
-## title: een bestand hernoemen of verwijderen
+## title: Undo!
 
-Als je de naam van een bestand wilt wijzigen, klik je op het **tandwiel** pictogram rechts van de bestandsnaam en klik vervolgens op het **potlood** icoon. Typ de nieuwe naam in en druk op **Enter**. Je kunt een bestand ook verwijderen door in plaats van op het **potlood** pictogram, op het **vuilnisbak** pictogram te klikken. ![](images/EditFilename.png)
-
-Je vraagt je misschien af ​​waarom je de naam van de `index.html` niet kunt wijzigen. `index.html` is een speciale naam die wordt gebruikt voor de **startpagina** van een website. Dat is de eerste pagina waarop je terechtkomt wanneer je een website bezoekt. Wanneer je naar de startpagina van een website gaat, zoekt de browser naar het bestand met de naam `index.html` en geeft het op je scherm weer.
+If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
 \--- /collapse \---
 
-- Zoek het bestand `blank_page.html` en kopieer en plak alle code ervan in je nieuwe bestand. Omdat je alles wilt kopiëren, kunt je overal op de code klikken en de sneltoets <kbd>Ctrl</kbd> (of <kbd>cmd</kbd>) en <kbd>A</kbd> gebruiken om alles in één keer te selecteren.
+- Try out your links to make sure they are still working.
 
-- Wijzig de tekst tussen de `<title> </title>` tags zodat je nieuwe pagina een geschikte titel heeft. Trinket geeft de titel niet weer, maar je kunt dit bovenaan in je browservenster zien als je jouw project downloadt.
+\--- challenge \---
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+## Challenge: navigation menus for all pages
 
-- Gebruik tussen de `<main> </main>` tags (in het nieuwe bestand) de tags waarvan je weet dat ze dingen toevoegen aan de pagina, zoals alinea's, koppen, afbeeldingen en lijsten!
+- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+    
+    \--- hints \---
+    
+    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
 
-- Herhaal de bovenstaande stappen voor elke nieuwe pagina die je wilt toevoegen.
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
 
-Als er te veel tabbladen zijn die Trinket in één keer kan weergegeven, kunt je de **<** en ** >** pictogrammen in de linkerbovenhoek van de tabbladen gebruiken om tussen de verschillende pagina's te bladeren.
+\--- /hints \---
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+Now you will be able to click the links no matter which page you are on.
 
-Nu moet je koppelingen maken, zodat kunt je naar elke nieuwe pagina kunt gaan! Laten we alle links in een lijst plaatsen.
-
-- In het `index.html` bestand, voeg je aan de body van je webpagina de volgende code toe:
-
-```html
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Attracties</a></li>
-        <li><a href="music.html">Muziek</a></li>
-        <li><a href="food.html">Eten</a></li>
-    </ul>
-```
-
-- Wijzig de waarde van het `href` attribuut voor elke koppeling (denk eraan, dat is de tekst binnen de aanhalingstekens) zodat deze exact overeenkomt met de naam van elk HTML-bestand dat je hebt gemaakt.
-
-- Wijzig de tekst tussen de `<a> </a>` tags in geschikte beschrijvingen voor je pagina's.
-
-Nu kun je naar je nieuwe pagina's navigeren!
-
-![Example list of links on a web page](images/egListOfPageLinks.png)
+\--- /challenge \---
