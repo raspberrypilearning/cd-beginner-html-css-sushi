@@ -1,60 +1,75 @@
-## Navigarea pe site-ul dvs. web
+## Making a menu bar
 
-Multe site - uri au un **de navigare** meniu pentru a ajuta vizitatorii deplasa între pagini. Acum, că aveți o mulțime de pagini, o pagină de pornire și linkuri către fiecare pagină, hai să mutăm lista de linkuri către o secțiune de navigare din partea de sus a fiecărei pagini.
+On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
 
-![Exemplu de pagină web cu legături de navigare în partea de sus](images/egNavLinksAtTop.png)
+![Example of a menu bar](images/egCoolMenuBar.png)
 
-- Găsiți codul pentru lista dvs. de linkuri pe care le-ați creat în etapa anterioară.
+- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
 
-- Chiar înainte de eticheta de deschidere `<ul>` , apăsați **Enter** pentru a crea o linie nouă, apoi pe noua linie introduceți următoarea etichetă: `<nav>`. Trinket adaugă automat eticheta de închidere imediat după, dar o puteți șterge - nu este în locul potrivit.
+```css
+    nav ul {
+        background-color: tomato;
+    }
+```
 
-- Doar **după** eticheta de închidere `</ul>` , apăsați **Introduceți** pentru a crea o linie nouă și introduceți eticheta de închidere `</nav>` acolo.
+Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
-- Acum, selectați întreaga secțiune și listă `<nav>` făcând clic înainte de eticheta de deschidere `<nav>` și trăgând mouse-ul până la sfârșitul etichetei `</nav>` , astfel încât tot textul, inclusiv etichetele de deschidere și de închidere devine evidențiat. Asigurați - vă că toate **corniere** `<` și `>` la începutul și sfârșitul sunt evidențiate, de asemenea!
+![List with red background](images/egMenuBarFirstStyle.png)
 
-![Textul din stânga nu este complet selectat în timp ce textul din dreapta este](images/egSelectedYayWoops.png)
+Let's get rid of the bullet points. Those are the dots in front of each list item.
 
-- Urmezi **tăiat** data asta în loc de copiere. Țineți apăsată tasta <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>), iar în timp ce țineți apăsată tasta <kbd>X</kbd>. Codul evidențiat va dispărea, dar nu va intra în panică!
+- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
 
-- În partea de sus a fișierului, faceți clic în spațiul dintre etichetele `<header> </header>`. Asigurați-vă că vedeți cursorul care clipește acolo. Acum lipiți codul apăsând <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>) și <kbd>V</kbd> ca de obicei. Codul ar trebui să arate astfel:
+```css
+    nav ul li {
+        list-style-type: none;
+    }
+```
+
+Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+
+![List with bullet points removed](images/egMenuBarNoBullets.png)
+
+Now let's make the list horizontal (across) instead of vertical (down).
+
+- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+
+![](images/egMenuBarInline.png)
+
+- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+
+```css
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+```
+
+Remember: `10px` means ten pixels.
+
+How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+
+- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+
+- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Acasă</a></li>
-            <li><a href="attractions.html">Locuri de vizitat</a></li>
-            <li><a href="music.html">Muzică</a></li>
-            <li><a href="food.html">Lucruri de mâncare</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li>Music</li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-## \--- colaps \---
+- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
 
-## titlu: Anulează!
+![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
-Dacă faceți o greșeală, puteți **anula** prin apăsarea <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>) și <kbd>Z</kbd> împreună. De obicei, puteți apăsa de câteva ori această combinație de taste pentru a anula ultimele modificări. Aceasta este o altă comandă rapidă pe care o puteți utiliza în multe programe!
-
-\--- / colaps \---
-
-- Încercați legăturile dvs. pentru a vă asigura că încă mai funcționează.
-
-\--- provocare \---
-
-## Provocare: meniuri de navigare pentru toate paginile
-
-- Puneți această secțiune de cod în secțiunea antet a fiecărui fișier HTML pe care l-ați creat. Acest lucru va face ca meniul de navigare să apară în partea de sus a fiecărei pagini de pe site-ul dvs. Web.
-    
-    \--- sugestii \---
-    
-    \--- Sugestie \--- Selectați întreaga secțiune `<nav>` cum ați făcut înainte și apăsați pe tastele <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>) și <kbd>C</kbd> împreună pentru ao copia.
-
-Apoi, în fiecare din fișierele dvs. `.html` , faceți clic pe secțiunea `<header> </header>` și lipiți codul exact așa cum ați făcut mai devreme. \--- / indiciu \---
-
-\--- / sugestii \---
-
-Acum veți putea să faceți clic pe linkuri indiferent de pagina pe care vă aflați.
-
-\--- /provocare \---
+On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
