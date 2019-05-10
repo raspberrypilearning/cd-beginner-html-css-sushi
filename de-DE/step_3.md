@@ -1,35 +1,92 @@
-## Einrichten eingerichtet
+## Your first webpage!
 
-- Gehe zu [der Starter Schmuck](http://dojo.soy/html-b-start). Sie sehen eine Box, die ein Beispiel für ein Website-Projekt enthält. Auf der rechten Seite befindet sich die Website und auf der linken Seite der Code, der die Website erstellt. ![Webseite und Code in Schmuckstück](images/tktHTMLStartingPoint.png)
+- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
 
-## \--- Einsturz \---
+- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
 
-## Titel: Ich habe einen Trinket-Account
+![HTML paragraph example](images/egFirstHtmlCode.png)
 
-- Klicken Sie oben rechts im Projekt auf die Schaltfläche **Remix**. Wenn Sie nicht angemeldet sind, werden Sie dazu aufgefordert. Sobald Sie angemeldet sind, müssen Sie erneut auf **Remix** klicken. Wenn Sie auf diese Schaltfläche klicken, wird eine Kopie des Projekts erstellt, mit der Sie arbeiten können. 
+- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
 
-![Remix-Taste](images/tktRemixButtonArrow.png)
+```html
+  <h1>Welcome to Ireland!</h1>
+```
 
-Es sollte **remixed** sagen, nachdem Sie darauf klicken:
+## \--- collapse \---
 
-![Button sagt jetzt "remixed"](images/tktRemixedSmall.png)
+## title: HTML and tags explained
 
-\--- / einklappen \---
+**HTML** is the code that makes a webpage.
 
-## \--- Einsturz \---
+The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
 
-## Titel: Ich habe kein Trinket-Konto
+HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
 
-Sie können Ihre Arbeit speichern, indem Sie eine der Optionen im Menü **Teilen**. Sie erhalten einen Link, den Sie entweder irgendwo speichern können, zum Beispiel in einem Dokument, oder per E-Mail an jemanden senden. **Hinweis:** Jedes Mal, wenn Sie eine Änderung vornehmen, erhalten Sie einen neuen Link.
+### Why do I need two tags?
 
-Wenn Sie ein Konto bei Trinket erstellen möchten, führen Sie die folgenden Schritte aus. Dies ermöglicht es Ihnen , Ihre Arbeit zu leicht Zugang von jedem Computer aus , und auf **remix** Projekte jemand anders mit Ihnen hat geteilt. Remixing bedeutet, dass Sie eine Kopie eines Projekts speichern, damit Sie selbst Änderungen daran vornehmen können.
+You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
 
-- Gehe zu [die Trinket-Website](http://dojo.soy/trinket) und klicke auf **Für dein kostenloses Konto anmelden**. Sie benötigen eine E-Mail-Adresse, um sich anzumelden.
+Everything in between the `<body>` and `</body>` tags is your webpage.
 
-- Geben Sie Ihre E-Mail-Adresse ein und wählen Sie ein Passwort oder bitten Sie jemanden, dies für Sie zu tun.
+- Notice how the closing tag **always** has a forward slash `/`.
 
-- Du kannst nun auf alle deine gespeicherten oder remixten Projekte zugreifen, indem du auf deinen Benutzernamen klickst und zu **Mein Schmuckstück**gehst. !["Mein Schmuckstück" Menüeintrag](images/MyTrinketsMenuWide.png)
+\--- /collapse\---
 
-\--- / einklappen \---
+- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
 
-Lass uns anfangen zu programmieren!
+- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
+
+```html
+  <p>
+    <em>My website</em> is about <strong>Ireland</strong>. 
+    It is going to have the following pages: Attractions, Music, Food
+  </p>
+```
+
+Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+
+![Example of HTML tags](images/egFirstTags.png)
+
+\--- challenge \---
+
+## Challenge: add some more text of your own
+
+- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
+
+\--- hints \---
+
+\--- hint \--- When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+
+\--- /hint \---
+
+\--- hint \---
+
+The code for paragraphs looks like this:
+
+```html
+  <p>This is one paragraph of text.</p>
+
+  <p>This is another paragraph.
+  Everything in between one set of p tags is 
+  displayed together in one long line on the webpage.</p>
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+The code for headings looks like this:
+
+```html
+  <h1>This is a heading.</h1>
+```
+
+Headings will normally be displayed bigger or bolder than the paragraphs.
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /challenge \---
+
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
