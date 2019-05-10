@@ -1,91 +1,72 @@
-## Deine erste Webseite!
+## Controlling how it looks
 
-- Klicken Sie auf der linken Seite des **Code-Bedienfelds**auf die Registerkarte mit der Bezeichnung `index.html`.
+The code that describes what a website looks like is called **CSS**.
 
-- Finden Sie die Zeile, die `Willkommen in Irland sagt!` und ändern Sie es in Ihre eigene Nachricht - seien Sie vorsichtig **nicht** , um die Tags`<p>` am Anfang der Zeile und `</p>` am Ende der Zeile zu löschen. Sie sollten Ihr Webseiten-Update im rechten Fenster sehen.
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
-![HTML-Beispiel](images/egFirstHtmlCode.png)
-
-- Ändern Sie nun in derselben Zeile die Werte `<p>` und `</p>` in `<h1>` und `</h1>`. Bemerken Sie eine Veränderung im Ergebnis auf der rechten Seite?
-
-```html
-  <h1>Willkommen in Irland!</h1>
+```css
+  body {
+      background-color: white;
+  }
 ```
 
-## \--- Einsturz \---
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
 
-## Titel: HTML und Tags erklärt
+![Example with blue background](images/egFirstCSSbluebg.png)
 
-**HTML** ist der Code, der eine Webseite erstellt.
+## \--- collapse \---
 
-Die `.html` im Dateinamen teilt dem Browser mit, dass die Datei eine Webseite ist, so dass der Browser weiß suchen **- Tags** erzählen sie , was angezeigt werden soll . (Ein Browser ist das Programm, mit dem Sie Websites betrachten, zum Beispiel Chrome oder Firefox.)
+## title: How does it work?
 
-HTML-Tags wie `<p>` und `</p>` definieren verschiedene Teile einer Seite, zum Beispiel Absätze, Überschriften oder den Körper. Die Teile werden alle **Elemente**. Betrachten Sie sie als Bausteine.
-
-### Warum brauche ich zwei Tags?
-
-Sie benötigen eine **öffnende** und eine **schließende** Markierung, um dem Browser mitzuteilen, wo die Elemente **** und **und**. Also für einen Absatz, die Öffnung `<p>` Etikett sagt "Hier kommt ein Text, den ich möchte, dass Sie als Absatz angezeigt werden." Das schließende `</p>` -Tag teilt dem Browser mit, wo der Absatz endet.
-
-Alles zwischen den Tags `<body>` und `</body>` ist Ihre Webseite.
-
-- Beachten Sie, wie der End - Tag **immer** hat einen Schrägstrich `/`.
-
-\--- / einklappen \---
-
-- Versuchen Sie, die Zahlen in Ihren **Überschrift** Tags zu ändern, um die verschiedenen Größen zu sehen, die sie Ihnen geben. Sie können von `<h1>` bis `<h6>`. Denken Sie daran, sowohl das öffnende als auch das schließende Tag zu ändern, damit sie übereinstimmen.
-
-- Finden Sie den Code für den Absatz, der `sagt Meine Website ist über Irland.` und ändere es so, dass es so aussieht:
+If you look at the top of the `index.html` file, you will see the following line:
 
 ```html
-  <p>
-    <em>Meine Website</em> ist ungefähr <strong>Irland</strong>. 
-    Es wird folgende Seiten haben: Attraktionen, Musik, Essen
-  </p>
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-Können Sie herausfinden, was die Tags `<em> </em>` und `<strong> </strong>` tun?
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-![Beispiel für HTML-Tags](images/egFirstTags.png)
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-\--- Herausforderung \---
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-## Herausforderung: Fügen Sie noch mehr eigenen Text hinzu
+Each rule inside the curly braces is made up of:
 
-- Fügen Sie Ihrer Seite einen neuen Absatz oder eine neue Überschrift hinzu, indem Sie einige der Tags verwenden, die Sie kennengelernt haben.
+- A **property** on the left, followed by a colon symbol `:`
+- A **value** for the property on the right-hand side after the colon
+- A semi-colon symbol `;` at the end
 
-\--- Hinweise \---
+\--- /collapse \---
 
-\--- Hinweis \--- Wenn Sie Text auf einer Seite platzieren möchten, müssen Sie ihn zwischen zwei Tags setzen, die Ihrem Browser mitteilen, wie er Ihren Text anzeigen soll. Zum Beispiel sagen die `<p> </p>` -Tags dem Browser, dass das, was dazwischen ist, ein neuer Absatz des Textes ist, und die `<h1> </h1>` -Tags sagen ihm, dass der Text dazwischen eine Überschrift ist.
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
 
-\--- /Hinweis \---
-
-\--- Hinweis \---
-
-Der Code für Absätze sieht folgendermaßen aus:
-
-```html
-  <p>Dies ist ein Absatz des Textes.</p>
-
-  <p>Dies ist ein weiterer Absatz.
-  Alles zwischen einem Satz von p Tags wird zusammen in einer langen Zeile auf der Webseite angezeigt.</p>
+```css
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
 ```
 
-\--- /Hinweis \---
+Look at how this has changed the webpage.
 
-\--- Hinweis \---
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-Der Code für Überschriften sieht folgendermaßen aus:
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
 
-```html
-  <h1>Dies ist eine Überschrift.</h1>
+```css
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
 ```
 
-Überschriften werden normalerweise größer oder dicker als die Absätze angezeigt.
+Your heading text should be orange now, with the paragraph in purple as before.
 
-\--- /Hinweis \---
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-\--- / Hinweise \---
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
-\--- /Herausforderung \---
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
-Herzlichen Glückwunsch, Sie haben Ihre erste Webseite erstellt! Auf der nächsten Karte erfahren Sie, wie Sie steuern können, wie es aussieht.
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
