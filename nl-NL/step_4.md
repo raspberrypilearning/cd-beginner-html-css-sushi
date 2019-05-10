@@ -1,90 +1,72 @@
-## Je eerste webpagina!
+## Controlling how it looks
 
-- Klik in het linker deelvenster (**het codepaneel**), op het tabblad `index.html`.
+The code that describes what a website looks like is called **CSS**.
 
-- Zoek de regel met `Welkom in Ierland!` en verander het in je eigen bericht - wees voorzichtig dat je **niet** de tags `<p>` aan het begin van de regel en `</p>` aan het einde van de regel wist. Je zou de update van je webpagina in het rechter paneel moeten zien.
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
-![HTML paragraph example](images/egFirstHtmlCode.png)
-
-- Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Zie je de verandering aan de rechterkant?
-
-```html
-  <h1> Welkom in Ierland! </h1>
+```css
+  body {
+      background-color: white;
+  }
 ```
+
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+
+![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: HTML en tags uitgelegd
+## title: How does it work?
 
-**HTML** is de code die een webpagina maakt.
+If you look at the top of the `index.html` file, you will see the following line:
 
-De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar ** tags ** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
+```html
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
+```
 
-HTML-tags zoals `<p>` en ` </p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements ** (elementen) genoemd. Zie ze als bouwstenen.
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-### Waarom heb ik twee tags nodig?
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-Je hebt een **open** en een **closing ** (sluit) tag nodig om de browser te vertellen waar de elementen **starten** en **eindigen**. Dus voor een alinea, de opening tag `<p>` zegt "Hier komt wat tekst die ik wil weergeven als een alinea." De afsluitende tag `</p>` vertelt de browser waar de alinea eindigt.
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-Alles tussen de `<body>` en ` </body>` tags is je webpagina.
+Each rule inside the curly braces is made up of:
 
-- Let er op dat de afsluitende tag **altijd** een schuine streep ` / ` naar voren heeft.
+- A **property** on the left, followed by a colon symbol `:`
+- A **value** for the property on the right-hand side after the colon
+- A semi-colon symbol `;` at the end
 
 \--- /collapse \---
 
-- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Vergeet niet om zowel de open tag als de sluit tag te wijzigen, zodat ze overeenkomen.
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
 
-- Zoek de code voor de alinea met de tekst `Mijn website gaat over Ierland` en verander het zodat het er zo uitziet:
-
-```html
-  <p> <em>Mijn website</em> gaat over <strong>Ierland</strong>. 
-    Het gaat de pagina's: Attracties, Muziek en Eten bevatten
-  </p>
+```css
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
 ```
 
-Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
+Look at how this has changed the webpage.
 
-![Example of HTML tags](images/egFirstTags.png)
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-\--- challenge \---
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
 
-## Uitdaging: voeg nog wat meer eigen tekst toe
-
-- Probeer een nieuwe alinea of ​​kop aan je pagina toe te voegen met behulp van enkele van de tags die je hebt geleerd.
-
-\--- hints \---
-
-\--- hint \--- Als je tekst op een pagina wilt plaatsen, moet je deze tussen twee tags plaatsen die je browser vertellen hoe jouw tekst moet worden weergegeven. Bijvoorbeeld de `<p> </p>` tags vertellen de browser dat alles wat er tussenin zit een nieuwe alinea is en de `<h1> </h1>` tags vertellen dat de tekst ertussen een heading (kop) is.
-
-\--- /hint \---
-
-\--- hint \---
-
-De code voor alinea's (paragraphs) ziet er als volgt uit:
-
-```html
-  <p>Dit is een alinea tekst.</p> 
-
-   <p>Dit is een andere alinea.
-  Alles tussen de twee p-tags wordt samen weergegeven in één lange regel op de webpagina. </p>
+```css
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
 ```
 
-\--- /hint \---
+Your heading text should be orange now, with the paragraph in purple as before.
 
-\--- hint \---
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-De code voor kopteksten (headings) ziet er als volgt uit:
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
-```html
-  <h1>Dit is een kop.</h1>
-```
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
-Koppen worden normaal gesproken groter of dikker weergegeven dan de alinea's.
-
-\--- /hint \---
-
-\--- /hints \---
-
-\--- /challenge \---
-
-Gefeliciteerd, je hebt je eerste webpagina gebouwd! Op de volgende kaart kom je erachter hoe je kunt bepalen hoe alles eruit ziet.
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
