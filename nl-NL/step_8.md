@@ -1,49 +1,65 @@
-## Een lijst maken
+## Creating links
 
-Nu leer je hoe je een lijst met items, zoals "eenhoorns, robots, katten", in een mooier uitziende lijst kunt veranderen zodat je er later heel leuke dingen mee kan doen.
+On this card you'll learn how to make a link that takes you to another page when it's clicked.
 
-- Voeg in het `index.html` bestand, net boven de regel met `</main>` de volgende code toe:
-
-```html
-    <ul>
-        <li>Koeien</li>
-        <li>Schapen</li>
-        <li>Vossen</li>
-        <li>Vleermuizen</li>
-</ul>
-```
-
-Het resultaat zou een mooie lijst als deze moeten zijn:
-
-![Unordered list](images/egUnorderedList.png)
-
-Merk steeds een aparte paar `<li></li>` tags rond elk item in de lijst op.
-
-Dit is een lijst van enkele dieren je in Ierland kunt zien. Je kunt de items in de lijst wijzigen in dingen die logisch zijn voor jouw website, en een alinea boven de lijst toevoegen om te beschrijven wat de lijst bevat, als je dat wilt!
-
-Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar in plaats van `<ul>`gebruikt je`<ol>`. Een genummerde lijst wordt ook wel een **ordered** (gerangschikte) lijst genoemd.
-
-- Voeg onder de code die je zojuist geschreven hebt, de onderstaande code toe - zorg ervoor dat deze **onder** het `</ul>` label staat!
+- Add the following code to the body section of `index.html`:
 
 ```html
-    <p>
-        Mijn favoriete drank en eten in Ierland zijn:
-    </p>
-    <ol>
-        <li>Thee</li>
-        <li>Knapperige broodjes</li>
-        <li>worsten</li>
-    </ol>
+  <a href="">Click here</a>
 ```
 
-Zo zou het er nu uit zou moeten zien:
+The `<a> </a>` tags turn whatever is in between them into a link.
 
-![Ordered list](images/egOrderedList.png)
+- Try clicking your link to see what happens. It does nothing, right?
+
+That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+
+- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+
+- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+    
+    ![URL in address bar](images/AddressBarURL.png)
+
+- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+```
+
+You just created your first link! Click on it to see if it works now.
+
+![Link tag](images/egLinkTagWithURL.png)
+
+## \--- collapse \---
+
+## title: Links to other websites
+
+Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+
+\--- /collapse \---
+
+- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">
+      <img src="tito.png" alt="Tito the dog" width="100px" />
+  </a>
+```
+
+- Click on your picture. Do you see that it was turned into a link?
+
+You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+
+```html
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+  </p>
+```
 
 \--- challenge \---
 
-## Uitdaging: voeg stijl toe aan je lijsten
+## Challenge: put a link into a list
 
-- Kijk of je **CSS-regels** aan je stylesheet kunt toevoegen om je lijsten er anders uit te laten zien.
+- See if you can make a list that contains a link inside one of the list items.
 
 \--- /challenge \---
