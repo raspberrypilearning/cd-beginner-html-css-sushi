@@ -1,52 +1,60 @@
-## Hinzufügen weiterer Seiten
+## Navigating your website
 
-Diese Karte zeigt Ihnen, wie Sie weitere Seiten zu Ihrer Website hinzufügen können.
+Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
 
-- Klicken Sie oben im Codebereich auf das **+** Symbol neben den Registerkarten und geben Sie einen Namen für Ihre neue Datei ein. Es muss in `.html` (einschließlich des Punktes!) Enden, damit der Browser weiß, dass es sich um eine Webseite handelt.
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-![Hinzufügen einer neuen Datei in Trinket](images/tktNewFileArrows.png)
+- Find the code for your list of links that you created in the previous step.
 
-## \--- Einsturz \---
+- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
 
-## title: Umbenennen oder Löschen einer Datei
+- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
 
-Wenn Sie den Namen einer Datei ändern möchten, klicken Sie auf das Symbol **cog** rechts neben dem Dateinamen und anschließend auf das Symbol **pencil**. Geben Sie den neuen Namen ein und drücken Sie **Geben Sie**. Sie können eine Datei auch löschen, indem Sie auf das Symbol **bin** anstelle des Symbols **pencil** klicken. ![](images/EditFilename.png)
+- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
 
-Sie fragen sich vielleicht, warum Sie den Namen der Datei `index.html` nicht ändern können. `index.html` ist ein spezieller Name, der für die **Homepage** einer Website verwendet wird. Das ist die erste Seite, auf der Sie landen, wenn Sie eine Website besuchen. Wenn Sie auf die Startseite einer Website gehen, sucht der Browser nach der Datei mit dem Namen `index.html` und zeigt sie auf Ihrem Bildschirm an.
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
-\--- / einklappen \---
+- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
 
-- Suchen Sie die Datei `blank_page.html` und kopieren und fügen Sie den gesamten Code daraus in Ihre neue Datei ein. Da Sie das Ganze kopieren möchten, können Sie irgendwo auf den Code klicken und die Tastenkombination <kbd>Ctrl</kbd> (oder <kbd>cmd</kbd>) und <kbd>A</kbd> , um alles gleichzeitig auszuwählen.
-
-- Ändern Sie den Text zwischen den `<title> </title>` -Tags, damit Ihre neue Seite einen passenden Titel hat. Trinket zeigt den Titel nicht an, aber Sie können ihn oben im Browserfenster sehen, wenn Sie Ihr Projekt herunterladen.
-
-![Der Seitentitel wird auf der Registerkarte Browser angezeigt](images/egLocalFileWindowTitle.png)
-
-- Zwischen den `<main> </main>` -Tags in der neuen Datei verwenden Sie die Tags, die Sie gelernt haben, um Dinge wie Seiten, Überschriften, Bilder und Listen zur Seite hinzuzufügen!
-
-- Wiederholen Sie die obigen Schritte für jede neue Seite, die Sie hinzufügen möchten.
-
-Wenn zu viele Registerkarten für Trinket auf einmal angezeigt werden, können Sie die Symbole **<** und **>** in der oberen linken Ecke der Registerkarten verwenden, um zwischen ihnen zu wechseln.
-
-![Die Schaltflächen zum Scrollen der Registerkarten](images/tktScrollTabIcons.png)
-
-Jetzt müssen Sie Links erstellen, damit Sie zu jeder Ihrer neuen Seiten gelangen können! Lassen Sie uns alle Links in eine Liste einfügen.
-
-- Fügen Sie in der Datei `index.html` dem Textkörper Ihrer Webseite den folgenden Code hinzu:
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
 
 ```html
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Orte zu besuchen</a></li>
-        <li><a href="music.html">Musik</a></li>
-        <li><a href="food.html">Dinge zu essen</a></li>
-    </ul>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
+            </ul>
+        </nav>
+    </header>
 ```
 
-- Ändern Sie den Wert des Attributs `href` für jeden Link (denken Sie daran, das ist der Text in den Anführungszeichen), damit er genau mit dem Namen der einzelnen HTML-Dateien übereinstimmt, die Sie erstellt haben.
+## \--- collapse \---
 
-- Ändern Sie den Text zwischen den `<a> </a>` -Tags in passende Beschreibungen Ihrer Seiten.
+## title: Undo!
 
-Jetzt können Sie zu Ihren neuen Seiten navigieren!
+If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
-![Beispielliste von Links auf einer Webseite](images/egListOfPageLinks.png)
+\--- /collapse \---
+
+- Try out your links to make sure they are still working.
+
+\--- challenge \---
+
+## Challenge: navigation menus for all pages
+
+- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+    
+    \--- hints \---
+    
+    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
+
+\--- /hints \---
+
+Now you will be able to click the links no matter which page you are on.
+
+\--- /challenge \---
