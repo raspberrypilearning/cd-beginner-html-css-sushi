@@ -1,60 +1,75 @@
-## Navigare nel tuo sito web
+## Making a menu bar
 
-Molti siti web hanno un **menu di navigazione** per aiutare i visitatori a spostarsi tra le pagine. Ora che hai un sacco di pagine, una home page e link a ciascuna pagina, spostiamo l'elenco dei link in una sezione di navigazione nella parte superiore di ogni pagina.
+On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
 
-![Esempio di una pagina Web con collegamenti di navigazione in alto](images/egNavLinksAtTop.png)
+![Example of a menu bar](images/egCoolMenuBar.png)
 
-- Trova il codice per il tuo elenco di link che hai creato nel passaggio precedente.
+- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
 
-- Poco prima del tag di apertura `<ul>`, premi **Enter** per creare una nuova riga vuota, quindi sulla nuova riga digita il seguente tag: `<nav>`. Trinket aggiunge automaticamente il tag di chiusura subito dopo, ma puoi eliminarlo: non è nel posto giusto.
+```css
+    nav ul {
+        background-color: tomato;
+    }
+```
 
-- Solo **dopo** il tag di chiusura `</ul>` , premi **Inserisci** per creare una nuova riga vuota e digita il tag di chiusura `</nav>` lì.
+Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
-- Ora seleziona l'intera sezione `<nav>` ed elencala facendo clic prima del tag di apertura `<nav>` e trascinando il mouse fino a dopo il tag di chiusura `</nav>`, in modo che tutto il testo includa i tag di apertura e di chiusura diventa evidenziato. Assicurati che anche tutte le **parentesi angolari** `<` e `>` all'inizio e alla fine siano evidenziate!
+![List with red background](images/egMenuBarFirstStyle.png)
 
-![Il testo a sinistra non è completamente selezionato mentre il testo a destra lo è](images/egSelectedYayWoops.png)
+Let's get rid of the bullet points. Those are the dots in front of each list item.
 
-- Questa volta stai per **tagliare** il testo anzichè copiarlo. Tieni premuto il tasto <kbd>Ctrl</kbd> (o <kbd>cmd</kbd>) e contemporaneamente il tasto <kbd>X</kbd>. Il codice evidenziato scompare, ma non fatevi prendere dal panico!
+- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
 
-- Nella parte superiore del file, fai clic nello spazio tra i tag `<header> </header>`. Assicurati di vedere il cursore lampeggiare lì. Ora incolla il codice premendo <kbd>Ctrl</kbd> (o <kbd>cmd</kbd>) e <kbd>V</kbd> come al solito. Il codice dovrebbe apparire in questo modo:
+```css
+    nav ul li {
+        list-style-type: none;
+    }
+```
+
+Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+
+![List with bullet points removed](images/egMenuBarNoBullets.png)
+
+Now let's make the list horizontal (across) instead of vertical (down).
+
+- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+
+![](images/egMenuBarInline.png)
+
+- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+
+```css
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+```
+
+Remember: `10px` means ten pixels.
+
+How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+
+- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+
+- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
 
 ```html
     <header>
         <nav>
             <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Luoghi da visitare</a></li>
-            <li><a href="music.html">Musica</a></li>
-            <li><a href="food.html">Cose da mangiare</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li>Music</li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-## \--- collapse \---
+- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
 
-## title: Annulla!
+![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
-Se commetti un errore, è possibile **annullarlo** premendo <kbd>Ctrl</kbd> (o <kbd>cmd</kbd>) e <kbd>Z</kbd> insieme. Di solito è possibile premere questa combinazione di tasti più volte per annullare le ultime modifiche eseguite. Questa è un'altra pratica scorciatoia da tastiera che puoi usare in molti programmi!
-
-\--- /collapse \---
-
-- Prova i tuoi link per assicurarti che funzionino ancora.
-
-\--- challenge \---
-
-## Sfida: menu di navigazione per tutte le pagine
-
-- Metti questa sezione di codice nella sezione di intestazione di ogni file HTML che hai creato. Questo farà apparire il menu di navigazione nella parte superiore di ogni pagina del tuo sito web.
-    
-    \--- hints \---
-    
-    \--- hint \--- Seleziona l'intera sezione `<nav>` come hai fatto prima e premi i tasti <kbd>Ctrl</kbd> (o <kbd>cmd</kbd>) e <kbd>C</kbd> insieme per copiarla.
-
-Quindi, in ognuno dei file `.html`, fai clic all'interno della sezione `<header> </header>` e incolla il codice esattamente come fatto in precedenza. \--- /hint \---
-
-\--- /hints \---
-
-Ora sarai in grado di fare clic sui collegamenti indipendentemente dalla pagina in cui ti trovi.
-
-\--- /challenge \---
+On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
