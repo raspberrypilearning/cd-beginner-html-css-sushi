@@ -1,91 +1,72 @@
-## Votre première page Web!
+## Controlling how it looks
 
-- Dans le panneau de gauche, le **panneau de code**, cliquez sur l'onglet qui dit `index.html`.
+The code that describes what a website looks like is called **CSS**.
 
-- Trouvez la ligne qui dit `Bienvenue en Irlande!` et changez-le en votre propre message - faites attention **pas** pour supprimer les étiquettes`<p>` au début de la ligne et `</p>` à la fin de la ligne. Vous devriez voir la mise à jour de votre page Web dans le panneau de droite.
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
-![Exemple de paragraphe HTML](images/egFirstHtmlCode.png)
-
-- Maintenant, sur la même ligne, changez le `<p>` et `</p>` en `<h1>` et `</h1>`. Avez-vous remarqué un changement dans le résultat sur la droite?
-
-```html
-  <h1>Bienvenue en Irlande!</h1>
+```css
+  body {
+      background-color: white;
+  }
 ```
 
-## \--- effondrer \---
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
 
-## title: HTML et tags expliqués
+![Example with blue background](images/egFirstCSSbluebg.png)
 
-**HTML** est le code qui crée une page Web.
+## \--- collapse \---
 
-Le `.html` dans le nom de fichier indique au navigateur que le fichier est une page Web, de sorte que le navigateur sait rechercher **étiquettes** lui indiquant ce qu'il doit afficher. (Un navigateur est le programme que vous utilisez pour consulter des sites Web, par exemple Chrome ou Firefox.)
+## title: How does it work?
 
-Les balises HTML telles que `<p>` et `</p>` définissent différentes parties d'une page, par exemple des paragraphes, des en-têtes ou le corps. Les pièces sont toutes appelées **éléments**. Pensez-y comme des blocs de construction.
-
-### Pourquoi ai-je besoin de deux tags?
-
-Vous avez besoin d'une balise **ouverture** et **fermeture** pour indiquer au navigateur où les éléments **commencent** et **fin**. Donc, pour un paragraphe, l'étiquette `<p>` ouverture dit "Voici un texte que je veux que vous affichiez en tant que paragraphe." La balise de fermeture `</p>` indique au navigateur où se termine le paragraphe.
-
-Tout ce qui se trouve entre les balises `<body>` et `</body>` est votre page Web.
-
-- Remarquez comment la balise de fermeture **toujours** a une barre oblique `/`.
-
-\--- /effondrer \---
-
-- Essayez de changer les numéros dans vos balises **rubrique** pour voir les différentes tailles qu'ils vous donnent. Ils peuvent aller de `<h1>` jusqu'à `<h6>`. N'oubliez pas de changer les balises d'ouverture et de fermeture afin qu'elles correspondent.
-
-- Trouvez le code pour le paragraphe qui dit `Mon site Web est sur l'Irlande.` et changez-le pour qu'il ressemble à ceci:
+If you look at the top of the `index.html` file, you will see the following line:
 
 ```html
-  <p>
-    <em>Mon site Web</em> est au sujet de <strong>Irlande</strong>. 
-    Il va avoir les pages suivantes: Attractions, Musique, Nourriture
-  </p>
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-Pouvez-vous déterminer ce que font les étiquettes `<em> </em>` et `<strong> </strong>`?
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-![Exemple de balises HTML](images/egFirstTags.png)
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-\--- défi \---
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-## Défi: ajouter un peu plus de texte de votre choix
+Each rule inside the curly braces is made up of:
 
-- Essayez d'ajouter un nouveau paragraphe ou un nouveau titre à votre page en utilisant certains des tags que vous avez appris.
+- A **property** on the left, followed by a colon symbol `:`
+- A **value** for the property on the right-hand side after the colon
+- A semi-colon symbol `;` at the end
 
-\--- astuces \---
+\--- /collapse \---
 
-\--- Astuce \--- Lorsque vous voulez mettre du texte sur une page, vous devez le mettre entre deux balises qui indiquent à votre navigateur comment afficher votre texte. Par exemple, les balises `<p> </p>` indiquent au navigateur que tout ce qui se trouve entre eux est un nouveau paragraphe de texte, et les balises `<h1> </h1>` indiquent que le texte entre les deux est un en-tête.
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
 
-\--- / indice \---
-
-\--- indice \---
-
-Le code pour les paragraphes ressemble à ceci:
-
-```html
-  <p>Ceci est un paragraphe de texte.</p>
-
-  <p>Ceci est un autre paragraphe.
-  Tout ce qui se trouve entre un ensemble de points p est affiché ensemble dans une longue ligne sur la page Web.</p>
+```css
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
 ```
 
-\--- / indice \---
+Look at how this has changed the webpage.
 
-\--- indice \---
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-Le code des en-têtes ressemble à ceci:
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
 
-```html
-  <h1>Ceci est un en-tête.</h1>
+```css
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
 ```
 
-Les titres seront normalement affichés plus grands ou plus audacieux que les paragraphes.
+Your heading text should be orange now, with the paragraph in purple as before.
 
-\--- / indice \---
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-\--- /astuces \---
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
-\--- /défi \---
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
-Félicitations, vous avez construit votre première page Web! Sur la prochaine carte, vous découvrirez comment contrôler son apparence.
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
