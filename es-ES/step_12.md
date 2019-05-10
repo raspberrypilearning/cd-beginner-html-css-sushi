@@ -1,66 +1,59 @@
-## Hacer una barra de menú
+## Styling the menu bar
 
-En esta tarjeta verá cómo puede transformar su menú de navegación en una barra de menú de aspecto atractivo, simplemente agregando más reglas de CSS en la hoja de estilos.
+With CSS, the possibilities for making your menu bar look great are endless.
 
-![Ejemplo de una barra de menú](images/egCoolMenuBar.png)
+- Move to the `styles.css` file again — the place where the cool stuff happens!
 
-- Vaya al archivo de la hoja de estilos en la pestaña `styles.css`. Haga clic en **debajo de** una llave de cierre `}`, y presione **Ingrese** para crear una nueva línea en blanco. Agregue la siguiente regla de CSS:
-
-```css
-    nav ul {background-color: tomato; }
-```
-
-¿Te das cuenta de cómo usaste dos selectores en lugar de uno? Si usó el selector `ul` por sí mismo, la regla afectaría todas las listas desordenadas en su sitio web. Agregar el selector `nav` también hace que solo se aplique a las listas que están entre `etiquetas nav`.
-
-![Lista con fondo rojo](images/egMenuBarFirstStyle.png)
-
-Deshagámonos de las viñetas. Esos son los puntos delante de cada elemento de la lista.
-
-- Agregue lo siguiente al archivo `styles.css`. Nuevamente, escríbalo en una nueva línea después de `}` para que no esté dentro de ningún otro bloque de reglas.
+- Find your `nav ul` selector, and add more rules so that it looks like this:
 
 ```css
-    nav ul li {list-style-type: none; }
+  nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: MediumVioletRed;
+    border-width: 2px;
+    padding: 10px;
+  }
 ```
 
-Observe que este conjunto de reglas tiene tres selectores: selecciona todos los elementos `li` que están en una lista `ul` que está dentro de una sección `nav`. ¡Uf!
+The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
 
-![Lista con puntos de viñeta eliminados](images/egMenuBarNoBullets.png)
+![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
 
-Ahora hagamos la lista horizontal (a través) en lugar de vertical (abajo).
-
-- Dentro de la nueva regla de CSS que acaba de crear, agregue la siguiente línea: `pantalla: en línea;`.
-
-![](images/egMenuBarInline.png)
-
-- Los elementos del menú ahora están todos aplastados, así que también agreguemos las propiedades `margen-derecha` y `margen-izquierda` para espaciarlos un poco. El bloque de código CSS debería verse así ahora:
+- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
 
 ```css
-    nav ul li {list-style-type: none; pantalla: en línea; margen-derecha: 10px; margin-left: 10px; }
+  nav ul li a {
+      text-decoration: none;
+  }
 ```
 
-Recuerde: `10px` significa diez píxeles.
+The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
 
-¿Qué le parece hacer que el menú cambie para decirle en qué página se encuentra? Esta parte no estará en la hoja de estilos.
+![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
 
-- Comience con la página de inicio. Vaya al archivo `index.html`. En la lista de enlaces de menú, elimine las etiquetas de enlace antes y después de la palabra `Inicio`, de modo que el elemento de la lista para la página de inicio sea solo texto entre `<li> </li>` etiquetas, como esta: `<li>Inicio</li>`.
+Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
 
-- Ahora vaya a cada uno de sus otros archivos, y haga lo mismo, cada vez que quite las etiquetas de enlace para la página que está editando. Entonces, por ejemplo, en el archivo `music.html` , eliminé las etiquetas de enlace en el elemento de la lista `Music`:
+- Find your `nav ul li` selector, and **inside** the curly braces add the line:
 
-```html
-    <header>
-        <nav>
-            <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="attractions.html">Lugares para visitar</a></li>
-            <li>Música</li>
-            <li><a href="food.html">Cosas para comer</a></li>
-            </ul>
-        </nav>
-    </header>
+```css
+  color: PapayaWhip;
 ```
 
-- Explore sus páginas haciendo clic en los enlaces. Vea cómo la barra de menús muestra la página en la que se encuentra como texto sin formato en lugar de un enlace. 
+You can choose any colour you like!
 
-![Ejemplo de barra de menús que resalta la página actual](images/egMenuBarOnPage.png)
+You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
 
-En la próxima tarjeta aprenderá aún más trucos CSS para que la barra de menú se vea increíble.
+- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
+
+The `border-radius` property is a really easy way to make anything look cooler!
+
+![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+
+\--- challenge \---
+
+## Challenge: make your pictures have rounded corners
+
+- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+
+\--- /challenge \---
