@@ -1,60 +1,75 @@
-## Navigieren auf Ihrer Website
+## Making a menu bar
 
-Viele Websites verfügen über ein Menü **Navigation** , um Besuchern den Wechsel zwischen den Seiten zu erleichtern. Nun, da Sie eine Reihe von Seiten, eine Startseite und Links zu jeder Seite haben, verschieben Sie die Liste der Links zu einem Navigationsbereich oben auf jeder Seite.
+On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
 
-![Beispiel für eine Webseite mit Navigationslinks oben](images/egNavLinksAtTop.png)
+![Example of a menu bar](images/egCoolMenuBar.png)
 
-- Suchen Sie den Code für Ihre Liste der Links, die Sie im vorherigen Schritt erstellt haben.
+- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
 
-- Kurz vor dem öffnenden Tag `<ul>` drücken Sie **Geben Sie** , um eine neue leere Zeile zu erstellen, und geben Sie in der neuen Zeile das folgende Tag ein: `<nav>`. Trinket fügt automatisch das schließende Tag direkt danach hinzu, aber Sie können das löschen - es ist nicht an der richtigen Stelle.
+```css
+    nav ul {
+        background-color: tomato;
+    }
+```
 
-- Nur **nach** der schließenden `</ul>` Tag, drücken Sie **Geben Sie** , um eine neue leere Zeile zu erstellen, und geben Sie dort das schließende Tag `</nav>` ein.
+Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
-- Wählen Sie nun Ihren gesamten `<nav>` Abschnitt und die Liste aus, indem Sie kurz vor dem öffnenden `<nav>` -Tag klicken und die Maus ganz nach unten bis kurz nach dem schließenden `</nav>` -Tag ziehen, so dass der gesamte Text einschließlich der öffnenden und schließenden Tags angezeigt wird wird hervorgehoben. Stellen Sie sicher, dass alle **Winkel** `<` und `>` am Anfang und Ende markiert sind!
+![List with red background](images/egMenuBarFirstStyle.png)
 
-![Der Text auf der linken Seite ist nicht vollständig ausgewählt, während der Text auf der rechten Seite ist](images/egSelectedYayWoops.png)
+Let's get rid of the bullet points. Those are the dots in front of each list item.
 
-- Sie werden auf **Schnitt** diesmal anstelle des Kopierens. Halten Sie die Taste <kbd>Ctrl</kbd> (oder <kbd>cmd</kbd>) gedrückt, und halten Sie sie gedrückt, und drücken Sie die Taste <kbd>X</kbd>. Der hervorgehobene Code wird verschwinden, aber keine Panik!
+- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
 
-- Klicken Sie oben in der Datei in den Bereich zwischen den `<header> </header>` -Tags. Stellen Sie sicher, dass der Cursor dort blinkt. Fügen Sie nun den Code ein, indem Sie wie üblich <kbd>Ctrl</kbd> (oder <kbd>cmd</kbd>) und <kbd>V</kbd> drücken. Der Code sollte etwa so aussehen:
+```css
+    nav ul li {
+        list-style-type: none;
+    }
+```
+
+Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+
+![List with bullet points removed](images/egMenuBarNoBullets.png)
+
+Now let's make the list horizontal (across) instead of vertical (down).
+
+- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+
+![](images/egMenuBarInline.png)
+
+- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+
+```css
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+```
+
+Remember: `10px` means ten pixels.
+
+How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+
+- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+
+- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
 
 ```html
     <header>
         <nav>
             <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Orte zu besuchen</a></li>
-            <li><a href="music.html">Musik</a></li>
-            <li><a href="food.html">Dinge zu essen</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li>Music</li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-## \--- Einsturz \---
+- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
 
-## Titel: Rückgängig machen!
+![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
-Wenn Sie einen Fehler machen, können Sie **zurücksetzen** durch Drücken <kbd>Ctrl</kbd> (oder <kbd>cmd</kbd>) und <kbd>Z</kbd> zusammen. Sie können diese Tastenkombination normalerweise einige Male drücken, um die letzten Änderungen rückgängig zu machen. Dies ist eine weitere praktische Tastenkombination, die Sie in vielen Programmen verwenden können!
-
-\--- / einklappen \---
-
-- Probieren Sie Ihre Links aus, um sicherzustellen, dass sie noch funktionieren.
-
-\--- Herausforderung \---
-
-## Herausforderung: Navigationsmenüs für alle Seiten
-
-- Fügen Sie diesen Codeabschnitt in den Headerabschnitt jeder HTML-Datei ein, die Sie erstellt haben. Dadurch wird das Navigationsmenü oben auf jeder Seite Ihrer Website angezeigt.
-    
-    \--- Hinweise \---
-    
-    \--- Hinweis \--- Wählen Sie den gesamten Abschnitt `<nav>` wie zuvor und drücken Sie die Tasten <kbd>Ctrl</kbd> (oder <kbd>cmd</kbd>) und <kbd>C</kbd> , um sie zu kopieren.
-
-Klicken Sie dann in jeder Ihrer `.html` Dateien in den Abschnitt `<header> </header>` und fügen Sie den Code genau wie zuvor ein. \--- /Hinweis \---
-
-\--- / Hinweise \---
-
-Jetzt können Sie auf die Links klicken, egal auf welcher Seite Sie sich gerade befinden.
-
-\--- /Herausforderung \---
+On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
