@@ -1,72 +1,75 @@
-## Controlling how it looks
+## Adding pictures
 
-The code that describes what a website looks like is called **CSS**.
+Let's add a picture!
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
-
-```css
-  body {
-      background-color: white;
-  }
-```
-
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
-
-![Example with blue background](images/egFirstCSSbluebg.png)
-
-## \--- collapse \---
-
-## title: How does it work?
-
-If you look at the top of the `index.html` file, you will see the following line:
+- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
 
 ```html
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
+    <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+Here's what the result should look like:
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+![Image code and picture of Tito](images/egImgCodeTito.png)
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
-Each rule inside the curly braces is made up of:
+- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+\--- collapse \---
+
+* * *
+
+## title: How the `<img>` tag works
+
+Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+
+The tag contains **attributes** with extra information:
+
+- The `src` attribute tells the browser what file to use for the picture. 
+- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
+- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
 \--- /collapse \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
-```css
-  body {
-    background-color: LightSkyBlue;
-    font-family: "Helvetica", sans-serif;
-    color: purple;
-  }
-```
+- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
 
-Look at how this has changed the webpage.
+[[[generic-get-picture-from-web]]]
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+[[[images-permissions-to-use]]]
 
-```css
-  h1 {
-    color: orange;
-    font-family: "Times New Roman", serif;
-  }
-```
+Once you have a picture, you can **upload** the file to Trinket:
 
-Your heading text should be orange now, with the paragraph in purple as before.
+- In your trinket, click on the **image** icon next to the **+** sign. 
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![The image icon](images/tktImageIconArrow.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+- Click the button **Add Image** and then click **Upload**.
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+
+- Click **Done**.
+
+![Image upload area](images/tktUploadImages.png)
+
+Your picture will be uploaded and should be ready to use.
+
+- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+
+The text you just changed is the attribute called `src`, which tells the browser which file to display.
+
+**Note:** the value you type for an attribute must have quotation marks `""` around it!
+
+\--- challenge \---
+
+## Challenge: change the alt text of the picture
+
+- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+
+\--- /challenge \---
