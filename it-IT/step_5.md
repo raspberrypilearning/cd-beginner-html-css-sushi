@@ -1,72 +1,75 @@
-## Controllare come appare
+## Adding pictures
 
-Il codice che descrive l'aspetto di un sito web si chiama **CSS**.
+Let's add a picture!
 
-- Guarda le schede nella parte superiore del pannello del codice e vai al file `styles.css` facendo clic sulla scheda con quel nome. Il file contiene il seguente testo:
-
-```css
-  body {
-      background-color: white;
-  }
-```
-
-- Modificare il `bianco` colore per `Lightskyblue` e guarda cosa succede. Il tuo sito web dovrebbe ora avere uno sfondo blu! 
-
-![Esempio con sfondo blu](images/egFirstCSSbluebg.png)
-
-## \--- collapse \---
-
-## title: Come funziona?
-
-Se guardi in cima al file `index.html` , vedrai la seguente riga:
+- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
 
 ```html
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
+    <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-La riga precedente indica al browser di cercare un file speciale denominato `styles.css`. Questo file speciale è chiamato **foglio di stile**. È possibile riconoscere un file di fogli di stile dal `.css` nel suo nome.
+Here's what the result should look like:
 
-Un foglio di stile contiene **regole** sul modo in cui deve apparire ogni elemento della pagina web.
+![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Le parentesi graffe `{ }` e il codice tra loro sono un insieme di **regole CSS**. La parola `corpo` indica che le regole sono per tutti gli elementi `<body>` sul tuo sito web. Chiamiamo il bit davanti alle parentesi graffe un selettore ****. Quindi, in questo caso, è il selettore per gli elementi del corpo.
+Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
-Ogni regola all'interno delle parentesi graffe è composta da:
+- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
-- A **proprietà** a sinistra, seguita da un simbolo due punti `:`
-- Un valore **** per la proprietà sul lato destro dopo i due punti
-- Un simbolo di punto e virgola `;` alla fine
+\--- collapse \---
+
+* * *
+
+## title: How the `<img>` tag works
+
+Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+
+The tag contains **attributes** with extra information:
+
+- The `src` attribute tells the browser what file to use for the picture. 
+- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
+- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
 \--- /collapse \---
 
-- Consente di aggiungere regole per modificare l'aspetto del testo. Aggiungi due nuove linee all'interno delle parentesi graffe:
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
-```css
-  body {
-    background-color: LightSkyBlue;
-    font-family: "Helvetica", sans-serif;
-    color: purple;
-  }
-```
+- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
 
-Guarda come questo ha cambiato la pagina web.
+[[[generic-get-picture-from-web]]]
 
-La proprietà `color` è sempre per il testo. Qui, si sta impostando il colore di tutto il testo nel `corpo` della pagina web.
+**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
 
-- Puoi anche scrivere regole separate per le intestazioni e i paragrafi. Per `<h1>` le intestazioni, si utilizza il selettore `h1`. Sotto la parentesi graffa di chiusura contenente la regola CSS per il corpo, aggiungi il seguente codice.
+[[[images-permissions-to-use]]]
 
-```css
-  h1 {
-    color: orange;
-    font-family: "Times New Roman", serif;
-  }
-```
+Once you have a picture, you can **upload** the file to Trinket:
 
-Ora il testo della tua intestazione dovrebbe essere arancione, con il paragrafo viola come prima.
+- In your trinket, click on the **image** icon next to the **+** sign. 
 
-![Risultato del nuovo codice CSS](images/egCssColorsFonts.png)
+![The image icon](images/tktImageIconArrow.png)
 
-Notate come le lettere hanno anche un aspetto diverso oltre ad essere di un colore diverso? Questo perché hai cambiato la loro famiglia di font ****. Puoi trovare altri font [qui](http://dojo.soy/web-font-families).
+This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
 
-- Prova ad aggiungere una serie di regole per i titoli `<h2>` , usando il selettore `h2`.
+- Click the button **Add Image** and then click **Upload**.
 
-- Perché non sperimentare combinazioni di colori diverse per il testo e lo sfondo? Ci sono molti colori disponibili da usare. Trovi un elenco completo di loro [qui](http://dojo.soy/web-color-names).
+- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+
+- Click **Done**.
+
+![Image upload area](images/tktUploadImages.png)
+
+Your picture will be uploaded and should be ready to use.
+
+- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+
+The text you just changed is the attribute called `src`, which tells the browser which file to display.
+
+**Note:** the value you type for an attribute must have quotation marks `""` around it!
+
+\--- challenge \---
+
+## Challenge: change the alt text of the picture
+
+- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+
+\--- /challenge \---
