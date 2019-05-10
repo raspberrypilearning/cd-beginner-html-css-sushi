@@ -1,51 +1,96 @@
-## Styling der Menüleiste
+## Adding a table
 
-Mit CSS sind die Möglichkeiten, Ihre Menüleiste großartig zu gestalten, endlos.
+Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
 
-- Gehe wieder zur `styles.css` Datei - der Ort, an dem die coolen Sachen passieren!
+A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
 
-- Suchen Sie Ihren `nav ul` Selektor und fügen Sie weitere Regeln hinzu, damit er so aussieht:
+![Example of information in a table](images/egTableResult.png)
 
-```css
-  nav ul {Hintergrundfarbe: Tomate; Rand-Stil: fest; Randfarbe: MediumVioletRed; Rahmenbreite: 2px; Auffüllen: 10px; }
+- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+
+- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+
+At the moment your table is empty.
+
+- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+
+## \--- collapse \---
+
+## title: Example code
+
+The HTML code for the table shown above looks like this:
+
+```html
+  <table>
+    <tr>
+      <th>Name of pet</th>
+      <th>Animal</th>
+      <th>Colour</th>
+    </tr>
+    <tr>
+      <td>Mia</td>
+      <td>Cat</td>
+      <td>Black and fluffy</td>
+    </tr>
+    <tr>
+      <td>Tito</td>
+      <td>Dog</td>
+      <td>Black with brown patches</td>
+    </tr>
+    <tr>
+      <td>Honeycomb</td>
+      <td>Guinea Pig</td>
+      <td>White with orange patches</td>
+    </tr>
+    <tr>
+      <td>Alfie</td>
+      <td>Budgie</td>
+      <td>Green and yellow</td>
+    </tr>
+  </table>
 ```
 
-Die Eigenschaft `padding` fügt Speicherplatz hinzu. Können Sie herausfinden, was jede andere Eigenschaft tut? Experimentieren Sie mit verschiedenen Farben und Pixelzahlen.
+\--- /collapse \---
 
-![Menüleiste mit Rahmen und Füllung hinzugefügt](images/egMenuBarMoreStyle.png)
+To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
 
-- Um die Unterstreichung der Links zu entfernen, fügen Sie den folgenden Code in einer neuen Zeile nach der schließenden geschweiften Klammer `}` für die `nav ul li` -Regeln hinzu. Du könntest es nach jeder `}`, aber es ist eine gute Idee, verwandte Sachen zusammen zu halten, damit es leichter zu finden ist!
+To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+
+## \--- collapse \---
+
+## title: How does it work?
+
+Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+
+Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+
+The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+
+The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+
+\--- /collapse \---
+
+- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
 
 ```css
-  nav ul li a {Textdekoration: keine; }
+  table, th, td {
+    border: 1px solid HoneyDew;
+    border-collapse: collapse;
+  }
+  tr {
+    background-color: PaleTurquoise;
+  }
+  th, td {
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+  }
+  th {
+    color: purple;
+  }
+  td {
+    color: purple;
+  }
 ```
 
-Die obige Regel gilt für Links `<a>` innerhalb von Listenelementen `<li>` in einer ungeordneten Liste `<ul>` innerhalb eines Navigationsabschnitts `<nav>`. Wow, das sind vier Selektoren!
-
-![Menüleiste mit unterstrichener Verknüpfung entfernt](images/egMenuBarNoUnderline.png)
-
-Denken Sie daran, wie Sie die Link-Tags aus einigen Listenelementen in der `<nav>` damit Sie leicht sehen können, auf welcher Seite Sie sich gerade befinden. Warum ändern Sie nicht auch die Textfarbe der Navigationslistenelemente, die keine Links sind!
-
-- Suchen Sie Ihren `nav ul li` Selektor und **innerhalb von** fügen Sie die geschweiften Klammern die Zeile hinzu:
-
-```css
-  Farbe: PapayaWhip;
-```
-
-Sie können jede mögliche Farbe wählen, die Sie mögen!
-
-Sie können der Eigenschaft `nav ul li a` Eigenschaft `color` hinzufügen, wenn die Menüverknüpfungen eine andere Farbe haben sollen als die anderen Links auf Ihrer Website.
-
-- Wie wäre es mit einigen abgerundeten Ecken für Ihr Menü? Versuchen Sie, der Regel `nav ul` den folgenden Code hinzuzufügen, um zu sehen, was passiert: `border-radius: 10px;`.
-
-Die Eigenschaft `border-radius` ist eine wirklich einfache Möglichkeit, alles cooler aussehen zu lassen!
-
-![Webseite mit abgerundeten Ecken in der Menüleiste und auf einem Bild](images/egMenuBarFullStyles_result.png)
-
-\--- Herausforderung \---
-
-## Herausforderung: Machen Sie aus Ihren Bildern abgerundete Ecken
-
-- Erstellen Sie in Ihrem Stylesheet mit dem Selektor `img` einen neuen Regelsatz für Bilder, und fügen Sie dort eine Regel `border-radius`.
-
-\--- /Herausforderung \---
+Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
