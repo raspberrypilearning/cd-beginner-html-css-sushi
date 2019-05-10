@@ -1,52 +1,60 @@
-## Aggiungere più pagine
+## Navigating your website
 
-Questa scheda ti mostrerà come aggiungere più pagine al tuo sito web.
+Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
 
-- Nella parte superiore del pannello del codice, fai clic sul simbolo **+** accanto alle schede e digita un nome per il tuo nuovo file. Deve terminare in `.html` (incluso il punto!) in modo che il browser sappia che si tratta di una pagina web.
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-![Aggiungere un nuovo file in Trinket](images/tktNewFileArrows.png)
+- Find the code for your list of links that you created in the previous step.
+
+- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+
+- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+
+- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+
+- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+
+```html
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
+            </ul>
+        </nav>
+    </header>
+```
 
 ## \--- collapse \---
 
-## title: Ridenominare ed eliminare un file
+## title: Undo!
 
-Se si desidera modificare il nome di un file, fai clic sull'icona **cog** a destra del nome del file, quindi fare clic sull'icona **matita**. Digitare il nuovo nome e premi **Enter**. Puoi anche eliminare un file facendo clic sull'icona **cestino** invece che sull'icona **matita**. ![](images/EditFilename.png)
-
-Ci si potrebbe chiedere perché non è possibile modificare il nome del file `index.html`. `index.html` è un nome speciale utilizzato per la **homepage** di un sito Web. Questa è la prima pagina sulla quale ti trovi quando visiti un sito web. Ogni volta che si accede alla home page di un sito web, il browser cerca il file denominato `index.html` e lo visualizza sullo schermo.
+If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
 \--- /collapse \---
 
-- Trova il file `blank_page.html` e copia e incolla tutto il codice contenuto in esso nel nuovo file. Volendo copiare tutto, puoi fare clic in qualsiasi punto del codice e utilizzare la scorciatoia da tastiera <kbd>Ctrl</kbd> (o <kbd>cmd</kbd>) e <kbd>A</kbd> per selezionarla in una volta sola.
+- Try out your links to make sure they are still working.
 
-- Cambia il testo tra i tag `<title> </title>` in modo che la tua nuova pagina abbia un titolo migliore. Trinket non visualizzerà il titolo, ma puoi vederlo nella parte superiore della finestra del browser se scarichi il tuo progetto.
+\--- challenge \---
 
-![Il titolo della pagina visualizzato nella scheda del browser](images/egLocalFileWindowTitle.png)
+## Challenge: navigation menus for all pages
 
-- All'interno dei tag `<main> </main>` del nuovo file, usa i tag che hai imparato per aggiungere elementi alla pagina, come paragrafi, intestazioni, immagini ed elenchi!
+- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+    
+    \--- hints \---
+    
+    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
 
-- Ripeti i passaggi precedenti per ogni nuova pagina che vuoi aggiungere.
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
 
-Quando ci sono troppe schede da visualizzare in Trinket, puoi usare le icone **<** e **>** nell'angolo in alto a sinistra delle schede per scorrere tra di esse.
+\--- /hints \---
 
-![I pulsanti per scorrere le schede](images/tktScrollTabIcons.png)
+Now you will be able to click the links no matter which page you are on.
 
-Ora devi creare collegamenti in modo da poter accedere a ciascuna delle tue nuove pagine! Mettiamo tutti i link in una lista.
-
-- Nel file `index.html` , aggiungi il seguente codice al corpo della tua pagina web:
-
-```html
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Luoghi da visitare</a></li>
-        <li><a href="music.html">Musica</a></li>
-        <li><a href="food.html">Cose da mangiare</a></li>
-    </ul>
-```
-
-- Cambia il valore dell'attributo `href` per ogni link (ricorda, questo è il testo tra virgolette) in modo che corrisponda esattamente al nome di ogni file HTML che hai creato.
-
-- Cambia il testo tra i tag `<a> </a>` e le descrizioni appropriate delle tue pagine.
-
-Ora puoi navigare verso le tue nuove pagine!
-
-![Esempio di lista di collegamenti su una pagina web](images/egListOfPageLinks.png)
+\--- /challenge \---
