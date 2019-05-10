@@ -1,29 +1,49 @@
-## Aggiungere una mappa o un video
+## Making a list
 
-YouTube offre un modo semplice per aggiungere i suoi video al tuo sito web. L'aggiunta di elementi da altre fonti online al tuo sito web viene anche chiamata **incorporamento o embedding**.
+Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
 
-- Trova un video su YouTube che desideri mostrare sul tuo sito web.
+- In the `index.html` file, add the following code just above the line with `</main>` on it:
 
-- Fai clic sul pulsante **Condividi** sotto il video. Seleziona l'opzione **incorpora o embed**.
+```html
+    <ul>
+        <li>Cows</li>
+        <li>Sheep</li>
+        <li>Foxes</li>
+        <li>Bats</li>
+    </ul>
+```
 
-Vedrai una casella di testo con tutto il testo selezionato. Se per errore si deseleziona il testo, è possibile selezionarlo nuovamente facendo clic su di esso e premendo i tasti <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> su un Mac) e <kbd>A</kbd> contemporaneamente.
+The result should be a nice list like this:
 
-![Opzione di incorporamento di YouTube con codice selezionato](images/EmbedYouTube.png)
+![Unordered list](images/egUnorderedList.png)
 
-- Premere i tasti <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> su un Mac) e <kbd>C</kbd> insieme per copiare il testo.
+Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
 
-- Quindi torna al codice HTML del tuo sito Web e fai clic nel punto in cui desideri inserire il video, ad esempio sotto un'intestazione o un paragrafo. **Incolla** il codice premendo <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> su un Mac) e <kbd>V</kbd> sulla tastiera allo stesso tempo. Non preoccuparti di capire tutto il codice che hai appena incollato!
+This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
 
-![Esempio del codice di incorporamento incollato in una pagina HTML](images/EmbedYouTube2.png)
+How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
 
-Dovresti vedere il video apparire sulla tua pagina web.
+- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
 
-La stessa tecnica funziona anche per le mappe di Google. Provaci!
+```html
+    <p>
+        My favourite things to eat and drink in Ireland are:
+    </p>
+    <ol>
+        <li>Tea</li>
+        <li>Crisp sandwiches</li>
+        <li>Sausages</li>
+    </ol>
+```
 
-- Vai [qui](http://dojo.soy/google-maps) e cerca un luogo che vuoi mostrare sul tuo sito web. **Nota:** **non** condividere informazioni personali come il tuo indirizzo di casa su un sito web!
+Here's what it should look like now:
 
-- Clicca sul risultato, quindi clicca sul pulsante **Condividi** e copia il codice per aggiungerlo al sito web come sopra. ![Opzione incorpora o embedded selezionata in Google Maps](images/EmbedGoogleMap.png)
+![Ordered list](images/egOrderedList.png)
 
-- Se osservi attentamente, dovresti trovare **gli attributi** `larghezza` e `altezza` nel codice incollato. Puoi cambiare i loro valori per far apparire la mappa più grande o più piccola.
+\--- challenge \---
 
-![Esempio di Google Map incorporata con attributi di larghezza e altezza selezionati](images/EmbeddedGoogleMapCode.png)
+## Challenge: add style to your lists
+
+- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+
+\--- /challenge \---
