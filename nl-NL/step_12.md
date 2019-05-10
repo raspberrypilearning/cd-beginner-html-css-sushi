@@ -1,75 +1,59 @@
-## Een menubalk maken
+## Styling the menu bar
 
-Op deze kaart ziet je hoe je jouw navigatiemenu kunt veranderen in een cool uitziende menubalk, gewoon door meer CSS-regels toe te voegen aan de stylesheet.
+With CSS, the possibilities for making your menu bar look great are endless.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+- Move to the `styles.css` file again — the place where the cool stuff happens!
 
-- Ga naar het stijlblad in de `styles.css` tab. Klik **onder** een sluit accolade `}` en druk op **Enter** om een ​​nieuwe lege regel te maken. Voeg de volgende CSS code in:
-
-```css
-    nav ul {
-        background-color: tomato;
-    }
-```
-
-Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de `ul` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Het toevoegen van de `nav` selector maakt het alleen van toepassing op lijsten die tussen `nav` tags staan.
-
-![List with red background](images/egMenuBarFirstStyle.png)
-
-Laten we de opsommingstekens verwijderen. Dat zijn de stippen voor elk lijst item.
-
-- Voeg de volgende code toe aan het `style.css` bestand. Typ na een `}` opnieuw een nieuwe regel zodat het niet in een ander set regels zit.
+- Find your `nav ul` selector, and add more rules so that it looks like this:
 
 ```css
-    nav ul li {
-        list-style-type: none;
-    }
+  nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: MediumVioletRed;
+    border-width: 2px;
+    padding: 10px;
+  }
 ```
 
-Merk op dat deze set regels drie selectors heeft: het selecteert alle `li` elementen die zich in een `ul` lijst bevinden, die zich binnen een `nav` sectie bevinden. Oef!
+The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
 
-Laten we nu de lijst in plaats van verticaal (naar beneden) horizontaal (over de breedte) maken.
-
-- Binnen de nieuwe CSS-regel die je zojuist hebt gemaakt, voeg je de volgende regel toe: `display: inline;`.
-
-![](images/egMenuBarInline.png)
-
-- De menu-items zijn nu allemaal samen geplet, dus laten we ook de eigenschappen `margin-right` (ruimte rechts) en `margin-left` (ruimte links) toevoegen om ze een beetje te spreiden. Het blok CSS-code zou er nu als volgt uit moeten zien:
+- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
 
 ```css
-    nav ul li {
-        list-style-type: none;
-        display: inline;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
+  nav ul li a {
+      text-decoration: none;
+  }
 ```
 
-Onthoud: `10px` betekent tien pixels.
+The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
 
-Hoe zou het zijn om het menu te veranderen zodat het vertelt op welke pagina je je bevindt? Dit onderdeel staat niet in de stylesheet.
+![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
 
-- Begin met de startpagina. Ga naar de `index.html`. Verwijder in de lijst met menu links de link-tags voor en na het woord `Home`, zodat het lijstitem voor de startpagina alleen tekst tussen `<li> </li>` tags is, zoals deze: `<li>Home</li>`.
+Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
 
-- Ga nu naar elk van je andere bestanden en doe hetzelfde, verwijder telkens de koppeling tags voor de pagina die je aan het bewerken bent. Dus bijvoorbeeld in het `music.html ` bestand, heb ik de koppeling tags verwijderd in de `muziek` lijst item:
+- Find your `nav ul li` selector, and **inside** the curly braces add the line:
 
-```html
-    <header>
-        <nav>
-            <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attracties</a></li>
-            <li>Muziek</li>
-            <li><a href="food.html">Eten</a></li>
-            </ul>
-        </nav>
-    </header>
+```css
+  color: PapayaWhip;
 ```
 
-- Verken je pagina's door op de links te klikken. Zie je hoe de menubalk de pagina die je gebruikt als platte tekst weergeeft in plaats van een link? 
+You can choose any colour you like!
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
 
-Op de volgende kaart leer je nog meer CSS-trucs om de menubalk er nog beter uit te laten zien.
+- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
+
+The `border-radius` property is a really easy way to make anything look cooler!
+
+![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+
+\--- challenge \---
+
+## Challenge: make your pictures have rounded corners
+
+- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+
+\--- /challenge \---
