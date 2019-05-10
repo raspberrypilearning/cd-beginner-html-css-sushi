@@ -1,29 +1,49 @@
-## Agregar un mapa o video
+## Making a list
 
-YouTube proporciona una manera fácil de agregar sus videos a su sitio web. Agregar elementos de otras fuentes en línea a su sitio web también se llama **incrustación**.
+Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
 
-- Busque un video en YouTube que quiera mostrar en su sitio web.
+- In the `index.html` file, add the following code just above the line with `</main>` on it:
 
-- Haga clic en el botón **Compartir** debajo del video. Seleccione la opción **Incrustar**.
+```html
+    <ul>
+        <li>Cows</li>
+        <li>Sheep</li>
+        <li>Foxes</li>
+        <li>Bats</li>
+    </ul>
+```
 
-Verá un cuadro de texto con todo el texto seleccionado. Si desactiva accidentalmente el texto, puede volver a seleccionarlo haciendo clic en él y presionando <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en Mac) y <kbd>teclas A</kbd> al mismo tiempo.
+The result should be a nice list like this:
 
-![Opción de inserción de YouTube con código seleccionado](images/EmbedYouTube.png)
+![Unordered list](images/egUnorderedList.png)
 
-- Presione las teclas <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en Mac) y <kbd>C</kbd> juntas para copiar el texto.
+Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
 
-- A continuación, vuelva al código HTML de su sitio web y haga clic en el lugar donde desea colocar el video, por ejemplo debajo de un encabezado o párrafo. **Pegue** el código presionando <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en una Mac) y <kbd>V</kbd> en su teclado al mismo tiempo. ¡No se preocupe por comprender todo el código que acaba de pegar!
+This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
 
-![Ejemplo del código de incrustación pegado en una página HTML](images/EmbedYouTube2.png)
+How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
 
-Deberías ver el video aparecer en tu página web.
+- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
 
-La misma técnica también funciona para los mapas de Google. ¡Darle una oportunidad!
+```html
+    <p>
+        My favourite things to eat and drink in Ireland are:
+    </p>
+    <ol>
+        <li>Tea</li>
+        <li>Crisp sandwiches</li>
+        <li>Sausages</li>
+    </ol>
+```
 
-- Vaya [aquí](http://dojo.soy/google-maps) y busque un lugar que quiera mostrar en su sitio web. **Nota:** do **not** comparte información personal, como la dirección de su casa en un sitio web.
+Here's what it should look like now:
 
-- Haga clic en el resultado, luego haga clic en el botón **Compartir** , y copie el código y agréguelo a su sitio web como se indica arriba. ![Incrustar la opción seleccionada en Google Maps](images/EmbedGoogleMap.png)
+![Ordered list](images/egOrderedList.png)
 
-- Si observa detenidamente, encontrará `ancho` y `alto` **atributos** en el código pegado. Puede cambiar sus valores para hacer que el mapa parezca más grande o más pequeño.
+\--- challenge \---
 
-![Ejemplo de Google Map incrustado con atributos de ancho y alto seleccionados](images/EmbeddedGoogleMapCode.png)
+## Challenge: add style to your lists
+
+- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+
+\--- /challenge \---
