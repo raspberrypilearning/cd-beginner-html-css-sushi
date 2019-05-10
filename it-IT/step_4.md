@@ -1,91 +1,72 @@
-## La tua prima pagina web!
+## Controlling how it looks
 
-- Nel riquadro di sinistra, il **pannello del codice**, fai clic sulla scheda che dice `index.html`.
+The code that describes what a website looks like is called **CSS**.
 
-- Trova la riga che dice `Benvenuto in Irlanda!` e modificalo sul tuo messaggio - fai attenzione **a non** eliminare i tag`<p>`all'inizio della riga e`</p>` alla fine della riga. Dovresti vedere l'aggiornamento della tua pagina web nel pannello di destra.
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
-![Esempio di paragrafo HTML](images/egFirstHtmlCode.png)
-
-- Ora sulla stessa linea, cambia lo `<p>` e il `</p>` a `<h1>` e `</h1>`. Noti qualche cambiamento nel risultato a destra?
-
-```html
-  <h1>Benvenuto in Irlanda!</h1>
+```css
+  body {
+      background-color: white;
+  }
 ```
+
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+
+![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: HTML e tag spiegati
+## title: How does it work?
 
-**HTML** è il codice che crea una pagina web.
+If you look at the top of the `index.html` file, you will see the following line:
 
-Lo `.html` nel nome del file indica al browser che il file è una pagina Web, quindi il browser sa di cercare **tag** dicendogli cosa visualizzarlo. (Un browser è il programma che si usa per guardare i siti web, ad esempio Chrome o Firefox.)
+```html
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
+```
 
-Tag HTML come `<p>` e `</p>` definiscono pezzi diversi di una pagina, ad esempio paragrafi, intestazioni o il corpo. I pezzi sono tutti chiamati **elementi**. Pensa a loro come elementi costitutivi.
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-### Perché ho bisogno di due tag?
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-È necessario un tag **apertura** e **chiusura** per indicare al browser dove gli elementi **iniziano** e **terminano**. Quindi per un paragrafo, il tag di apertura `<p>` dice "Arriva un testo che voglio che tu mostri come un paragrafo". Il tag di chiusura `</p>` indica al browser dove finisce il paragrafo.
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-Tutto tra i tag `<body>` e `</body>` è la tua pagina web.
+Each rule inside the curly braces is made up of:
 
-- Si noti come il tag di chiusura **sempre** ha una barra `/`.
+- A **property** on the left, followed by a colon symbol `:`
+- A **value** for the property on the right-hand side after the colon
+- A semi-colon symbol `;` at the end
 
 \--- /collapse \---
 
-- Prova a cambiare i numeri nei tuoi tag **intestazione** per vedere le diverse dimensioni che ti danno. Possono andare da `<h1>` fino a `<h6>`. Ricorda di modificare sia il tag di apertura che quello di chiusura in modo che corrispondano.
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
 
-- Trova il codice per il paragrafo che dice `Il mio sito web sull'Irlanda.` e cambialo in modo che assomigli a questo:
-
-```html
-  <p>
-    <em>Il mio sito web</em> riguarda <strong>l'Irlanda</strong>. 
-    Avrà le seguenti pagine: Attrazioni, Musica, Cibo
-  </p>
+```css
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
 ```
 
-Riesci a capire cosa fanno i tag `<em> </em>` e `<strong> </strong>`?
+Look at how this has changed the webpage.
 
-![Esempio di tag HTML](images/egFirstTags.png)
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-\--- challenge \---
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
 
-## Sfida: aggiungi un altro testo personale
-
-- Prova ad aggiungere un nuovo paragrafo o un titolo alla tua pagina utilizzando alcuni dei tag che hai imparato.
-
-\--- hint \---
-
-\--- suggerimento \--- Quando vuoi inserire del testo in una pagina, devi metterlo tra due tag che indicano al tuo browser come visualizzare il tuo testo. Ad esempio, i tag `<p> </p>` dicono al browser che qualunque cosa vi sia tra loro è un nuovo paragrafo di testo, e i tag `<h1> </h1>` dicono che il testo in mezzo è un'intestazione.
-
-\--- /hint \---
-
-\--- hint \---
-
-Il codice per i paragrafi è simile al seguente:
-
-```html
-  <p>Questo è un paragrafo di testo.</p>
-
-  <p>Questo è un altro paragrafo.
-  Tutto ciò che si trova tra una serie di tag p viene visualizzato insieme in un'unica riga sulla pagina web.</p>
+```css
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
 ```
 
-\--- /hint \---
+Your heading text should be orange now, with the paragraph in purple as before.
 
-\--- hint \---
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-Il codice per le intestazioni è simile al seguente:
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
-```html
-  <h1>Questa è una intestazione.</h1>
-```
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
-I titoli saranno normalmente visualizzati più grandi o più visibili dei paragrafi.
-
-\--- /hint \---
-
-\--- /hint \---
-
-\--- /challenge \---
-
-Congratulazioni, hai creato la tua prima pagina web! Sulla prossima carta, scoprirai la tecnica per controllare come appare.
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
