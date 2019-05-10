@@ -1,91 +1,72 @@
-## Tu primera página web!
+## Controlling how it looks
 
-- En el panel de la izquierda, el panel de códigos ****, haga clic en la pestaña que dice `index.html`.
+The code that describes what a website looks like is called **CSS**.
 
-- Encuentra la línea que dice `Bienvenido a Irlanda!` y cámbielo a su propio mensaje: tenga cuidado **no** para eliminar las etiquetas`<p>` al comienzo de la línea y `</p>` al final de la línea. Debería ver la actualización de su página web en el panel de la derecha.
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
-![Ejemplo de párrafo HTML](images/egFirstHtmlCode.png)
-
-- Ahora en la misma línea, cambie `<p>` y `</p>` a `<h1>` y `</h1>`. ¿Notan algún cambio en el resultado a la derecha?
-
-```html
-  <h1>Bienvenido a Irlanda!</h1>
+```css
+  body {
+      background-color: white;
+  }
 ```
 
-## \--- colapso \---
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
 
-## título: HTML y etiquetas explicadas
+![Example with blue background](images/egFirstCSSbluebg.png)
 
-**HTML** es el código que crea una página web.
+## \--- contraer \---
 
-El `.html` en el nombre del archivo le dice al navegador que el archivo es una página web, por lo que el navegador sabe buscar **etiquetas** y le dice qué mostrar. (Un navegador es el programa que usa para mirar sitios web, por ejemplo, Chrome o Firefox).
+## title: How does it work?
 
-Las etiquetas HTML como `<p>` y `</p>` definen diferentes partes de una página, por ejemplo, párrafos, encabezados o el cuerpo. Las piezas se llaman **elementos**. Piense en ellos como bloques de construcción.
-
-### ¿Por qué necesito dos etiquetas?
-
-Es necesario un **abertura** y **de cierre** etiqueta para indicar al navegador donde los elementos **comienzan** y **finales**. Entonces, para un párrafo, la etiqueta de apertura `<p>` dice "Aquí viene un texto que quiero que se muestre como un párrafo". La etiqueta de cierre `</p>` le dice al navegador dónde termina el párrafo.
-
-Todo entre las etiquetas `<body>` y `</body>` es su página web.
-
-- Observe cómo la etiqueta de cierre **siempre** tiene una barra inclinada `/`.
-
-\--- /colapso \---
-
-- Intente cambiar los números en sus etiquetas de **encabezado** para ver los diferentes tamaños que le dan. Pueden ir desde `<h1>` hasta `<h6>`. Recuerde cambiar las etiquetas de apertura y cierre para que coincidan.
-
-- Busque el código del párrafo que dice `Mi sitio web trata de Irlanda.` y cámbialo para que se vea así:
+If you look at the top of the `index.html` file, you will see the following line:
 
 ```html
-  <p>
-    <em>Mi sitio web</em> es aproximadamente <strong>Irlanda</strong>. 
-    Tendrá las siguientes páginas: Atracciones, Música, Comida
-  </p>
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-¿Puedes averiguar qué hacen las etiquetas `<em> </em>` y `<strong> </strong>`?
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-![Ejemplo de etiquetas HTML](images/egFirstTags.png)
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-\--- desafío \---
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-## Desafío: agregue un poco más de texto propio
+Each rule inside the curly braces is made up of:
 
-- Intente agregar un nuevo párrafo o encabezado a su página usando algunas de las etiquetas que ha aprendido.
+- A **property** on the left, followed by a colon symbol `:`
+- A **value** for the property on the right-hand side after the colon
+- A semi-colon symbol `;` at the end
 
-\--- consejos \---
+\--- /collapse \---
 
-\--- sugerencia \--- Cuando quiere poner texto en una página, debe colocarlo entre dos etiquetas que le dicen a su navegador cómo mostrar su texto. Por ejemplo, las etiquetas `<p> </p>` dicen al navegador que lo que está entre ellas es un nuevo párrafo de texto, y las etiquetas `<h1> </h1>` indican que el texto entre ellas es un encabezado.
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
 
-\--- /insinuación \---
-
-\--- insinuación \---
-
-El código para los párrafos se ve así:
-
-```html
-  <p>Este es un párrafo de texto.</p>
-
-  <p>Este es otro párrafo.
-  Todo lo que se encuentra entre un conjunto de etiquetas p se muestra en una línea larga en la página web.</p>
+```css
+  body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+  }
 ```
 
-\--- /insinuación \---
+Look at how this has changed the webpage.
 
-\--- insinuación \---
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-El código para los encabezados se ve así:
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
 
-```html
-  <h1>Este es un encabezado.</h1>
+```css
+  h1 {
+    color: orange;
+    font-family: "Times New Roman", serif;
+  }
 ```
 
-Los títulos normalmente se mostrarán más grandes o más audaces que los párrafos.
+Your heading text should be orange now, with the paragraph in purple as before.
 
-\--- /insinuación \---
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-\--- / consejos \---
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
-\--- / desafío \---
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
-¡Felicitaciones, construiste tu primera página web! En la siguiente tarjeta, descubrirá cómo controlar cómo se ve.
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
