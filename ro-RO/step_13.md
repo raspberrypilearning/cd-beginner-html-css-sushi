@@ -1,51 +1,96 @@
-## Modelarea barei de meniu
+## Adding a table
 
-Cu CSS, posibilitățile de a face bara de meniu să arate bine sunt nesfârșite.
+Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
 
-- Deplasați-vă din nou la fișierul `stiles.css` - locul unde se întâmplă lucrurile interesante!
+A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
 
-- Găsiți selectorul `nav ul` și adăugați mai multe reguli astfel încât să pară următoarele:
+![Example of information in a table](images/egTableResult.png)
 
-```css
-  nav ul {culoare-fundal: tomate; stilul frontal: solid; culoarea frontală: MediumVioletRed; lățimea frontală: 2px; padding: 10px; }
+- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+
+- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+
+At the moment your table is empty.
+
+- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+
+## \--- collapse \---
+
+## title: Example code
+
+The HTML code for the table shown above looks like this:
+
+```html
+  <table>
+    <tr>
+      <th>Name of pet</th>
+      <th>Animal</th>
+      <th>Colour</th>
+    </tr>
+    <tr>
+      <td>Mia</td>
+      <td>Cat</td>
+      <td>Black and fluffy</td>
+    </tr>
+    <tr>
+      <td>Tito</td>
+      <td>Dog</td>
+      <td>Black with brown patches</td>
+    </tr>
+    <tr>
+      <td>Honeycomb</td>
+      <td>Guinea Pig</td>
+      <td>White with orange patches</td>
+    </tr>
+    <tr>
+      <td>Alfie</td>
+      <td>Budgie</td>
+      <td>Green and yellow</td>
+    </tr>
+  </table>
 ```
 
-Proprietatea `padding` adaugă spațiu. Puteți afla ce face fiecare dintre celelalte proprietăți? Încercați să experimentați diferite culori și numere de pixeli.
+\--- /collapse \---
 
-![Bara de meniu cu margini și inserție adăugată](images/egMenuBarMoreStyle.png)
+To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
 
-- Pentru a scapa de sublinierea link-urilor, adăugați următorul cod pe o linie nouă după încheierea cursei `}` pentru cele `reguli nav nav`. Ai putea pune - l după orice `}`, dar este o idee bună de a păstra lucrurile legate împreună , astfel că este mai ușor de găsit!
+To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+
+## \--- collapse \---
+
+## title: How does it work?
+
+Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+
+Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+
+The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+
+The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+
+\--- /collapse \---
+
+- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
 
 ```css
-  nav ul li a {text-decorare: nimic; }
+  table, th, td {
+    border: 1px solid HoneyDew;
+    border-collapse: collapse;
+  }
+  tr {
+    background-color: PaleTurquoise;
+  }
+  th, td {
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+  }
+  th {
+    color: purple;
+  }
+  td {
+    color: purple;
+  }
 ```
 
-Regula de mai sus se aplică legăturilor `<a>` elementele de listă `<li>` într-o listă neordonată `<ul>` în interiorul unei secțiuni de navigare `<nav>`. Wow, sunt patru selectori!
-
-![Bara de meniu cu sublinierea liniei a fost eliminată](images/egMenuBarNoUnderline.png)
-
-Amintiți-vă cum ați eliminat etichetele de legătură de la unele elemente din listă din secțiunea `<nav>` astfel încât să puteți vedea cu ușurință ce pagină sunteți pe această pagină. De ce nu schimbați și culoarea textului acelor elemente din lista de navigare care nu sunt link-uri!
-
-- Găsiți selectorul dvs. `ul li` și **în interior** coarde curl adăugați linia:
-
-```css
-  culoare: PapayaWhip;
-```
-
-Puteți alege orice culoare doriți!
-
-Puteți adăuga proprietatea `color` la regula `nav ul li a` , dacă doriți ca legăturile de meniu să aibă o culoare diferită de celelalte linkuri de pe site-ul dvs. Web.
-
-- Ce zici de câteva colțuri rotunjite pentru meniul tău? Încercați să adăugați următorul cod în regula `nav ul` pentru a vedea ce se întâmplă: `raza de graniță: 10 pixeli;`.
-
-Proprietatea `de la raza de graniță` este o modalitate foarte ușoară de a face ceva să arate mai rece!
-
-![Pagină web cu colțuri rotunjite în bara de meniu și pe o imagine](images/egMenuBarFullStyles_result.png)
-
-\--- provocare \---
-
-## Provocare: face ca imaginile să aibă colțuri rotunjite
-
-- În foaia dvs. de stil, creați un set nou de reguli pentru imagini utilizând selectorul `img` și adăugați o regulă `de rază` limitei.
-
-\--- /provocare \---
+Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
