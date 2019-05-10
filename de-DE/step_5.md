@@ -1,63 +1,75 @@
-## Steuern, wie es aussieht
+## Adding pictures
 
-Der Code, der beschreibt, wie eine Website aussieht, heißt **CSS**.
+Let's add a picture!
 
-- Sehen Sie sich die Registerkarten oben im Codebereich an und gehen Sie zur Datei `styles.css` indem Sie auf den Tab mit diesem Namen klicken. Die Datei enthält den folgenden Text:
-
-```css
-  Körper {Hintergrundfarbe: weiß; }
-```
-
-- Ändere die `weiße` Farbe zu `LightSkyBlue` und schau was passiert. Ihre Website sollte jetzt einen blauen Hintergrund haben! 
-
-![Beispiel mit blauem Hintergrund](images/egFirstCSSbluebg.png)
-
-## \--- Einsturz \---
-
-## Titel: Wie funktioniert es?
-
-Wenn Sie sich den Anfang der Datei `index.html` ansehen, sehen Sie die folgende Zeile:
+- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
 
 ```html
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
+    <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Die obige Zeile weist den Browser an, nach einer speziellen Datei namens `styles.css`zu suchen. Diese spezielle Datei wird **Stylesheet**. Sie können eine Stylesheet-Datei an der `.css` in ihrem Namen erkennen.
+Here's what the result should look like:
 
-Ein Stylesheet enthält **Regeln** für das Aussehen jedes Elements auf Ihrer Webseite.
+![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Die geschweiften Klammern `{ }` und der Code dazwischen sind eine Menge von **CSS-Regeln**. Das Wort `Körper` bedeutet, dass die Regeln für alle `<body>` Elemente auf Ihrer Website gelten. Wir nennen das Bit vor den geschweiften Klammern eine **Auswahl**. In diesem Fall ist es der Selektor für die Körperelemente.
+Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
-Jede Regel in den geschweiften Klammern besteht aus:
+- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
-- A **Eigenschaft** auf der linken Seite, gefolgt von einem Doppelpunktsymbol `:`
-- A **Wert** für die Eigenschaft auf der rechten Seite nach dem Doppelpunkt
-- Ein Semikolon-Symbol `;` am Ende
+\--- collapse \---
 
-\--- / einklappen \---
+* * *
 
-- Fügen Sie Regeln hinzu, um zu ändern, wie der Text aussieht. Fügen Sie zwei neue Zeilen in die geschweiften Klammern ein:
+## title: How the `<img>` tag works
 
-```css
-  Körper {Hintergrundfarbe: LightSkyBlue; Schriftfamilie: "Helvetica", serifenlos; Farbe lila; }
-```
+Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
 
-Schau dir an, wie das die Webseite verändert hat.
+The tag contains **attributes** with extra information:
 
-Die Eigenschaft `Farbe` ist immer für Text. Hier legen Sie die Farbe für den gesamten Text in `Körper` Ihrer Webseite fest.
+- The `src` attribute tells the browser what file to use for the picture. 
+- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
+- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
-- Sie können auch separate Regeln für die Überschriften und Absätze definieren. Für `<h1>` Überschriften verwenden Sie den `h1` Selektor. Fügen Sie unter der schließenden geschweiften Klammer, die die CSS-Regel für den Textkörper enthält, den folgenden Code hinzu.
+\--- /collapse \---
 
-```css
-  h1 {Farbe: orange; Schriftfamilie: "Times New Roman", Serif; }
-```
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
-Ihr Überschriftentext sollte jetzt orange sein, mit dem Absatz in lila wie zuvor.
+- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
 
-![Ergebnis des neuen CSS-Codes](images/egCssColorsFonts.png)
+[[[generic-get-picture-from-web]]]
 
-Beachten Sie, dass die Buchstaben auch anders aussehen und eine andere Farbe haben? Dies liegt daran, dass Sie die **Schriftfamilie**geändert haben. Hier finden Sie weitere Schriftarten [](http://dojo.soy/web-font-families).
+**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
 
-- Versuchen Sie, einen Satz Regeln für die `<h2>` Überschriften hinzuzufügen, indem Sie den `h2` Selektor verwenden.
+[[[images-permissions-to-use]]]
 
-- Warum nicht mit verschiedenen Farbkombinationen für Text und Hintergrund experimentieren? Es gibt viele Farben zur Verfügung. Finden Sie eine vollständige Liste von ihnen [hier](http://dojo.soy/web-color-names).
+Once you have a picture, you can **upload** the file to Trinket:
+
+- In your trinket, click on the **image** icon next to the **+** sign. 
+
+![The image icon](images/tktImageIconArrow.png)
+
+This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+
+- Click the button **Add Image** and then click **Upload**.
+
+- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+
+- Click **Done**.
+
+![Image upload area](images/tktUploadImages.png)
+
+Your picture will be uploaded and should be ready to use.
+
+- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+
+The text you just changed is the attribute called `src`, which tells the browser which file to display.
+
+**Note:** the value you type for an attribute must have quotation marks `""` around it!
+
+\--- challenge \---
+
+## Challenge: change the alt text of the picture
+
+- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+
+\--- /challenge \---
