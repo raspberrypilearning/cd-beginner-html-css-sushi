@@ -1,49 +1,65 @@
-## Faire une liste
+## Creating links
 
-Maintenant, vous apprendrez comment transformer une liste d'éléments, tels que "licornes, robots, chats", en une liste plus belle que vous pouvez faire des choses cool avec plus tard.
+On this card you'll learn how to make a link that takes you to another page when it's clicked.
 
-- Dans le fichier `index.html` , ajoutez le code suivant juste au-dessus de la ligne avec `</main>` dessus:
-
-```html
-    <ul>
-        <li>Vaches</li>
-        <li>Moutons</li>
-        <li>Renards</li>
-        <li>Chauves-souris</li>
-    </ul>
-```
-
-Le résultat devrait être une belle liste comme ceci:
-
-![Liste non ordonnée](images/egUnorderedList.png)
-
-Notez qu'il existe une paire distincte de balises `<li> </li>` autour de chaque élément de la liste.
-
-Ceci est une liste de quelques animaux que vous pourriez voir en Irlande. Vous pouvez modifier les éléments de la liste en fonction de ce qui est logique pour votre site Web et ajouter un paragraphe au-dessus de la liste pour décrire la liste de ceux-ci, si vous le souhaitez!
-
-Et si vous vouliez une liste numérotée? C'est presque pareil, mais au lieu de `<ul>`, vous utilisez `<ol>`. Une liste numérotée est également appelée une liste **ordonnée**.
-
-- Ajoutez le code suivant ci-dessous le code que vous venez d'écrire - assurez-vous qu'il est **ci-dessous** le tag `</ul>`!
+- Add the following code to the body section of `index.html`:
 
 ```html
-    <p>
-        Mes choses préférées à manger et à boire en Irlande sont:
-    </p>
-    <ol>
-        <li>Thé</li>
-        <li>Sandwichs croquants</li>
-        <li>Saucisses</li>
-    </ol>
+  <a href="">Click here</a>
 ```
 
-Voici à quoi cela devrait ressembler maintenant:
+The `<a> </a>` tags turn whatever is in between them into a link.
 
-![Liste commandée](images/egOrderedList.png)
+- Try clicking your link to see what happens. It does nothing, right?
 
-\--- défi \---
+That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
 
-## Défi: ajouter du style à vos listes
+- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
 
-- Voyez si vous pouvez ajouter **règles CSS** à votre feuille de style pour modifier l'aspect de vos listes.
+- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+    
+    ![URL in address bar](images/AddressBarURL.png)
 
-\--- /défi \---
+- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+```
+
+You just created your first link! Click on it to see if it works now.
+
+![Link tag](images/egLinkTagWithURL.png)
+
+## \--- collapse \---
+
+## title: Links to other websites
+
+Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+
+\--- /collapse \---
+
+- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">
+      <img src="tito.png" alt="Tito the dog" width="100px" />
+  </a>
+```
+
+- Click on your picture. Do you see that it was turned into a link?
+
+You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+
+```html
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+  </p>
+```
+
+\--- challange \---
+
+## Challenge: put a link into a list
+
+- See if you can make a list that contains a link inside one of the list items.
+
+\--- /challenge \---
