@@ -1,52 +1,60 @@
-## Ajouter plus de pages
+## Navigating your website
 
-Cette carte vous montrera comment ajouter plus de pages à votre site Web.
+Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
 
-- En haut du panneau de code, cliquez sur le symbole **+** côté des onglets et tapez un nom pour votre nouveau fichier. Il doit se terminer par `.html` (y compris le point!) Afin que le navigateur sache qu'il s'agit d'une page Web.
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-![Ajout d'un nouveau fichier dans Trinket](images/tktNewFileArrows.png)
+- Find the code for your list of links that you created in the previous step.
 
-## \--- effondrer \---
+- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
 
-## title: Renommer ou supprimer un fichier
+- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
 
-Si vous voulez changer le nom d'un fichier, cliquez sur l'icône **cog** à droite du nom du fichier, puis sur l'icône **crayon**. Tapez le nouveau nom et appuyez sur **Entrez**. Vous pouvez également supprimer un fichier en cliquant sur l'icône **bin** au lieu de l'icône **crayon**. ![](images/EditFilename.png)
+- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
 
-Vous pourriez vous demander pourquoi vous ne pouvez pas changer le nom du fichier `index.html`. `index.html` est un nom spécial utilisé pour la **page d' accueil** d'un site Web. C'est la première page sur laquelle vous arrivez lorsque vous visitez un site Web. Chaque fois que vous allez à la page d'accueil d'un site Web, le navigateur recherche le fichier appelé `index.html` et l'affiche sur votre écran.
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
-\--- /effondrer \---
+- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
 
-- Trouvez le fichier `blank_page.html` et copiez et collez tout le code de celui-ci dans votre nouveau fichier. Puisque vous voulez copier le tout, vous pouvez cliquer n'importe où sur le code et utiliser le raccourci clavier <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>A</kbd> pour tout sélectionner à la fois.
-
-- Changez le texte entre les balises `<title> </title>` afin que votre nouvelle page ait un titre approprié. Le bijou n'affichera pas le titre, mais vous pouvez le voir en haut de la fenêtre de votre navigateur si vous téléchargez votre projet.
-
-![Le titre de la page affiché dans l'onglet du navigateur](images/egLocalFileWindowTitle.png)
-
-- Entre les balises `<main> </main>` du nouveau fichier, utilisez les balises que vous avez apprises pour ajouter des éléments à la page, tels que des paragraphes, des en-têtes, des images et des listes!
-
-- Répétez les étapes ci-dessus pour chaque nouvelle page que vous souhaitez ajouter.
-
-Quand il y a trop d'onglets pour que Trinket apparaisse en même temps, vous pouvez utiliser les icônes **<** et **>** dans le coin supérieur gauche des onglets pour les faire défiler.
-
-![Les boutons pour faire défiler les onglets](images/tktScrollTabIcons.png)
-
-Maintenant, vous devez faire des liens pour que vous puissiez accéder à chacune de vos nouvelles pages! Mettons tous les liens dans une liste.
-
-- Dans le fichier `index.html` , ajoutez le code suivant au corps de votre page Web:
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
 
 ```html
-    <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="attractions.html">Endroits à visiter</a></li>
-        <li><a href="music.html">Musique</a></li>
-        <li><a href="food.html">Choses à manger</a></li>
-    </ul>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
+            </ul>
+        </nav>
+    </header>
 ```
 
-- Changez la valeur de l'attribut `href` pour chaque lien (souvenez-vous, c'est le texte à l'intérieur des guillemets) afin qu'il corresponde exactement au nom de chaque fichier HTML que vous avez créé.
+## \--- collapse \---
 
-- Changez le texte entre les balises `<a> </a>` en descriptions appropriées de vos pages.
+## title: Undo!
 
-Vous pouvez maintenant naviguer vers vos nouvelles pages!
+If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
-![Exemple de liste de liens sur une page Web](images/egListOfPageLinks.png)
+\--- /collapse \---
+
+- Try out your links to make sure they are still working.
+
+\--- challenge \---
+
+## Challenge: navigation menus for all pages
+
+- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+    
+    \--- hints \---
+    
+    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
+
+\--- /hints \---
+
+Now you will be able to click the links no matter which page you are on.
+
+\--- /challenge \---
