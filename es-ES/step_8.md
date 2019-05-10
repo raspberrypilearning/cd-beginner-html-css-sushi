@@ -1,49 +1,65 @@
-## Haciendo una lista
+## Creating links
 
-Ahora aprenderá a convertir una lista de elementos, como "unicornios, robots, gatos", en una lista de aspecto más agradable con la que puede hacer cosas interesantes más adelante.
+On this card you'll learn how to make a link that takes you to another page when it's clicked.
 
-- En el archivo `index.html` , agregue el siguiente código justo encima de la línea con `</main>` en él:
-
-```html
-    <ul>
-        <li>Vacas</li>
-        <li>Ovejas</li>
-        <li>Zorros</li>
-        <li>Murciélagos</li>
-    </ul>
-```
-
-El resultado debería ser una buena lista como esta:
-
-![Lista desordenada](images/egUnorderedList.png)
-
-Observe que hay un par separado de `<li> </li>` etiquetas alrededor de cada elemento de la lista.
-
-Esta es una lista de algunos animales que puedes ver en Irlanda. Puede cambiar los elementos de la lista por cosas que tengan sentido para su sitio web y agregar un párrafo encima de la lista para describir de qué se trata, si lo desea.
-
-¿Qué tal si quisieras una lista numerada? Es casi lo mismo, pero en lugar de `<ul>`, usa `<ol>`. Una lista numerada también se llama lista **ordenada**.
-
-- Agregue el siguiente código debajo del código que acaba de escribir: ¡asegúrese de que esté **debajo de** la etiqueta `</ul>`!
+- Add the following code to the body section of `index.html`:
 
 ```html
-    <p>
-        Mis cosas favoritas para comer y beber en Irlanda son:
-    </p>
-    <ol>
-        <li>Té</li>
-        <li>Sándwiches crujientes</li>
-        <li>Salchichas</li>
-    </ol>
+  <a href="">Click here</a>
 ```
 
-Esto es lo que debería ser ahora:
+The `<a> </a>` tags turn whatever is in between them into a link.
 
-![Lista ordenada](images/egOrderedList.png)
+- Try clicking your link to see what happens. It does nothing, right?
+
+That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+
+- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+
+- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+    
+    ![URL in address bar](images/AddressBarURL.png)
+
+- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+```
+
+You just created your first link! Click on it to see if it works now.
+
+![Link tag](images/egLinkTagWithURL.png)
+
+## \--- collapse \---
+
+## title: Links to other websites
+
+Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+
+\--- /collapse \---
+
+- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">
+      <img src="tito.png" alt="Tito the dog" width="100px" />
+  </a>
+```
+
+- Click on your picture. Do you see that it was turned into a link?
+
+You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+
+```html
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+  </p>
+```
 
 \--- desafío \---
 
-## Desafío: agrega estilo a tus listas
+## Challenge: put a link into a list
 
-- Vea si puede agregar **reglas de CSS** a su hoja de estilo para cambiar el aspecto de sus listas.
+- See if you can make a list that contains a link inside one of the list items.
 
-\--- / desafío \---
+\--- /challenge \---
