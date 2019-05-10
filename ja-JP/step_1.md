@@ -1,19 +1,37 @@
-## Introduction
+## はじめに
 
-Learn how to code your first website!
+はじめてのWebサイトのコーディングを学びましょう！
 
-### What you will make
+### 作るもの
 
-Build a website about your home country, like the one in the trinket below.
+下にあるような、あなたが生まれた国についてのWebサイトを作りましょう。
 
 <div class="scratch-preview">
   <iframe src="https://trinket.io/embed/html/8d5e6e8aad" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-### What you will learn
+## \--- collapse \---
 
-- Using an online editor to create a website made up of HTML files and a CSS file
-- Building a HTML website that has headings, paragraph text, lists, and images
-- Using CSS code to control the look of your website, including designing a simple menu bar and changing colours, backgrounds, and borders
-- Linking pages to each other, and linking to other websites
-- Creating a table that includes headings and multiple rows
+## title: What you will learn
+
++ オンラインエディタを使って、HTMLファイルとCSSファイルでWebサイトを作る方法。
++ 見出し、段落、リスト、画像がある、HTMLで書かれたWebサイトの作り方。
++ CSSコードを使って、シンプルなメニューバーのデザインや、色、背景、枠線を変えてWebサイトの見た目を決める方法。
++ ページ同士をリンクで繋いだり、他のWebサイトへのリンクを貼る方法。
++ 見出しといくつかの行があるテーブルの作り方。
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: What you need
+
+### Hardware
+
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
+
+### Software
+
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+
+\--- /collapse \---
