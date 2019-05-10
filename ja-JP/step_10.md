@@ -1,52 +1,60 @@
-## Adding more pages
+## Navigating your website
 
-This card will show you how to add more pages to your website.
+Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+- Find the code for your list of links that you created in the previous step.
+
+- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+
+- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+
+- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+
+- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+
+```html
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
+            </ul>
+        </nav>
+    </header>
+```
 
 ## \--- collapse \---
 
-## title: Renaming or deleting a file
+## title: Undo!
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
-
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
 \--- /collapse \---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- Try out your links to make sure they are still working.
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
+\--- challenge \---
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+## Challenge: navigation menus for all pages
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
+- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+    
+    \--- hints \---
+    
+    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
 
-- Repeat the steps above for each new page that you want to add.
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+\--- /hints \---
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+Now you will be able to click the links no matter which page you are on.
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
-
-- In the `index.html` file, add the following code to the body of your webpage:
-
-```html
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
-    </ul>
-```
-
-- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
-
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
-
-Now you can navigate to your new pages!
-
-![Example list of links on a web page](images/egListOfPageLinks.png)
+\--- /challenge \---
