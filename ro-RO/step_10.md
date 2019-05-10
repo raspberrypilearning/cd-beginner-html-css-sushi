@@ -1,52 +1,60 @@
-## Adăugarea mai multor pagini
+## Navigating your website
 
-Acest card vă va arăta cum să adăugați mai multe pagini pe site-ul dvs. Web.
+Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
 
-- În partea de sus a panoului de coduri, faceți clic pe simbolul **+** lângă file și introduceți un nume pentru noul fișier. Trebuie să se termine în `.html` (inclusiv punctul!), Astfel încât browserul să știe că este o pagină web.
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-![Adăugarea unui nou fișier în Trinket](images/tktNewFileArrows.png)
+- Find the code for your list of links that you created in the previous step.
+
+- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+
+- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+
+- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+
+- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+
+```html
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
+            </ul>
+        </nav>
+    </header>
+```
 
 ## \--- colaps \---
 
-## title: Redenumirea sau ștergerea unui fișier
+## title: Undo!
 
-Dacă doriți să modificați numele unui fișier, faceți clic pe pictograma **cog** în partea dreaptă a numelui fișierului, apoi faceți clic pe pictograma **creion**. Introduceți noul nume și apăsați pe **Introduceți**. De asemenea, puteți șterge un fișier făcând clic pe pictograma **bin** în locul pictogramei cu **creion**. ![](images/EditFilename.png)
-
-S-ar putea să vă întrebați de ce nu se poate schimba numele de `index.html` fișier. `index.html` este un nume special folosit pentru **pagina** a unui site web. Aceasta este prima pagină pe care vă aterizați atunci când vizitați un site Web. Ori de câte ori te duci la pagina de pornire a unui site web, browser - ul caută fișierul numit `index.html` și afișează pe ecran.
+If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
 \--- / colaps \---
 
-- Găsiți fișierul `blank_page.html` și copiați și inserați tot codul din acesta în noul fișier. Deoarece doriți să copiați totul, puteți să faceți clic oriunde pe cod și să utilizați comanda rapidă de la tastatură <kbd>Ctrl</kbd> (sau <kbd>cmd</kbd>) și <kbd>A</kbd> pentru a selecta totul simultan.
+- Try out your links to make sure they are still working.
 
-- Modificați textul între etichetele `<title> </title>` astfel încât noua dvs. pagină să aibă un titlu adecvat. Trinket nu va afișa titlul, dar îl puteți vedea în partea de sus a ferestrei browserului dacă descărcați proiectul.
+\--- challenge \---
 
-![Titlul paginii care apare în fila browser](images/egLocalFileWindowTitle.png)
+## Challenge: navigation menus for all pages
 
-- Între etichetele `<main> </main>` din noul fișier, utilizați etichetele pe care le-ați învățat despre a adăuga materiale la pagină, cum ar fi paragrafe, titluri, imagini și liste!
+- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+    
+    \--- hints \---
+    
+    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
 
-- Repetați pașii de mai sus pentru fiecare pagină nouă pe care doriți să o adăugați.
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
 
-Când există prea multe file pentru ca Trinket să se poată afișa simultan, puteți utiliza pictogramele **<** și **>** din colțul din stânga sus al filelor pentru a derula între ele.
+\--- /hints \---
 
-![Butoanele pentru derularea filelor](images/tktScrollTabIcons.png)
+Now you will be able to click the links no matter which page you are on.
 
-Acum trebuie să creați linkuri pentru a putea ajunge la fiecare dintre paginile dvs. noi! Să punem toate legăturile într-o listă.
-
-- În `index.html` fișier, adăugați următorul cod la corpul paginii dvs. Web:
-
-```html
-    <ul>
-        <li><a href="index.html">Acasă</a></li>
-        <li><a href="attractions.html">Locuri de vizitat</a></li>
-        <li><a href="music.html">Muzică</a></li>
-        <li><a href="food.html">Lucruri de mâncare</a></li>
-    </ul>
-```
-
-- Modificați valoarea atributului `href` pentru fiecare legătură (amintiți-vă, acesta este textul din ghilimele) astfel încât acesta să se potrivească exact cu numele fiecărui fișier HTML pe care l-ați creat.
-
-- Modificați textul între etichetele `<a> </a>` la descrieri adecvate ale paginilor dvs.
-
-Acum puteți naviga la noile dvs. pagini!
-
-![Listă de exemple de linkuri de pe o pagină Web](images/egListOfPageLinks.png)
+\--- /challenge \---
