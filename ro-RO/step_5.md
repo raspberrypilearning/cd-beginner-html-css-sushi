@@ -1,63 +1,75 @@
-## Controlul cum arată
+## Adding pictures
 
-Codul care descrie cum arată un site Web se numește **CSS**.
+Let's add a picture!
 
-- Uită-te la filele din partea de sus a panoului de cod și du-te la fișierul `styles.css` făcând clic pe fila cu acel nume. Fișierul conține următorul text:
-
-```css
-  corp {fundal-culoare: alb; }
-```
-
-- Schimbați culoarea `alb` la `LightSkyBlue` și vedeți ce se întâmplă. Site-ul dvs. web ar trebui să aibă acum un fundal albastru! 
-
-![Exemplu cu fundal albastru](images/egFirstCSSbluebg.png)
-
-## \--- colaps \---
-
-## titlu: Cum funcționează?
-
-Dacă te uiți la partea de sus a `index.html` fișier, veți vedea următoarea linie:
+- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
 
 ```html
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
+    <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Linia de mai sus îi spune browserului să caute un fișier special numit `styles.css`. Acest fișier special se numește **foaie de stil**. Puteți recunoaște un fișier de foi de stil cu ajutorul câmpului `.css` în numele acestuia.
+Here's what the result should look like:
 
-O foaie de stil conține **reguli** pentru ceea ce ar trebui să arate fiecare element din pagina dvs. web.
+![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Asamblările curl `{ }` și codul între ele sunt un set de **reguli CSS**. Cuvântul `corp` înseamnă că regulile sunt pentru toate cele `<body>` elemente de pe site-ul dvs. web. Se numeste bitul in fata bretelelor curl a **selector**. Deci, în acest caz, este selectorul pentru elementele corpului.
+Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
-Fiecare regulă din interiorul bretelelor este formată din:
+- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
-- A **proprietate** în stânga, urmată de un simbol de colon `:`
-- O **valoare** pentru proprietate de pe partea dreaptă , după colon
-- Un simbol semi-colon `;` la sfârșit
+\--- collapse \---
+
+* * *
+
+## title: How the `<img>` tag works
+
+Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+
+The tag contains **attributes** with extra information:
+
+- The `src` attribute tells the browser what file to use for the picture. 
+- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
+- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
 \--- / colaps \---
 
-- Permite adăugarea de reguli pentru a schimba modul în care arată textul. Adăugați două linii noi în interiorul coastelor curbate:
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
-```css
-  corp {fundal-culoare: LightSkyBlue; font-family: "Helvetica", sans-serif; culoare: violet; }
-```
+- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
 
-Uitați-vă la modul în care a schimbat pagina web.
+[[[generic-get-picture-from-web]]]
 
-Proprietatea `color` este întotdeauna pentru text. Aici, setați culoarea întregului text din `corpul` al paginii web.
+**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
 
-- De asemenea, puteți scrie reguli separate pentru titluri și paragrafe. Pentru `<h1>` titluri, utilizați selectorul `h1`. Sub breasla de închidere curbată care conține regula CSS pentru corp, adăugați următorul cod.
+[[[images-permissions-to-use]]]
 
-```css
-  h1 {culoare: portocaliu; font-family: "Times New Roman", serif; }
-```
+Once you have a picture, you can **upload** the file to Trinket:
 
-Textul dvs. din titlu trebuie să fie acum portocaliu, cu paragraful purpuriu ca înainte.
+- In your trinket, click on the **image** icon next to the **+** sign. 
 
-![Rezultatul noului cod CSS](images/egCssColorsFonts.png)
+![The image icon](images/tktImageIconArrow.png)
 
-Observați că literele arată, de asemenea, diferite, precum și culoarea diferită? Acest lucru se datorează faptului că ați schimbat familia de fonturi ****. Puteți găsi mai multe fonturi [aici](http://dojo.soy/web-font-families).
+This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
 
-- Încercați să adăugați un set de reguli pentru pozițiile `<h2>` , utilizând selectorul `h2`.
+- Click the button **Add Image** and then click **Upload**.
 
-- De ce nu experimentați diferite combinații de culori pentru text și fundal? Există multe culori disponibile pentru utilizare. Găsiți o listă completă a acestora [aici](http://dojo.soy/web-color-names).
+- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+
+- Click **Done**.
+
+![Image upload area](images/tktUploadImages.png)
+
+Your picture will be uploaded and should be ready to use.
+
+- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+
+The text you just changed is the attribute called `src`, which tells the browser which file to display.
+
+**Note:** the value you type for an attribute must have quotation marks `""` around it!
+
+\--- challenge \---
+
+## Challenge: change the alt text of the picture
+
+- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+
+\--- /challenge \---
