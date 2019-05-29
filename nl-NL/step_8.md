@@ -1,44 +1,44 @@
-## Creating links
+## Links maken
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+Op deze kaart leer je hoe je een link kunt maken die, wanneer er op wordt geklikt, je naar een andere pagina brengt.
 
-- Add the following code to the body section of `index.html`:
+- Voeg de volgende code toe aan het hoofdgedeelte van `index.html`:
 
 ```html
-  <a href="">Click here</a>
+  <a href="">Klik hier</a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+De `<a> </a>` tags veranderen alles wat er tussenin zit in een link.
 
-- Try clicking your link to see what happens. It does nothing, right?
+- Klik op je link om te zien wat er gebeurt. Het doet niets, toch?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+Dat komt omdat het `href` attribuut momenteel leeg is. Het moet de **URL** (webadres) bevatten van de pagina waarnaar je een koppeling wilt maken.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- Ga naar Wikipedia en vind een pagina over iets op jouw website. Ik ga de pagina over Ierland gebruiken.
 
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- Klik in de adresbalk en selecteer alle tekst in adresbalk. Dat is de volledige URL van de pagina waarop je je bevindt. Druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>C</kdb> toetsen om het te kopiëren.
     
     ![URL in address bar](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- Klik in je trinket tussen de aanhalingstekens na `href =` en druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>V</kdb> toetsen om de URL die je zojuist gekopieerd hebt te plakken. Je code zou er ongeveer als volgt uit moeten zien:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+  <a href="https://en.wikipedia.org/wiki/Ireland">Klik hier</a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+Je hebt zojuist je eerste link gemaakt! Klik erop om te zien of het nu werkt.
 
 ![Link tag](images/egLinkTagWithURL.png)
 
 ## \--- collapse \---
 
-## title: Links to other websites
+## title: links naar andere websites
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Trinket heeft met sommige webadressen problemen. Je kunt desgewenst URL's van andere websites dan Wikipedia proberen, maar deze werken mogelijk niet in jouw trinket. Als je echter je project zou downloaden en de bestanden in een webbrowser zou zien, zouden de koppelingen moeten werken.
 
 \--- /collapse \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- Probeer in plaats van de woorden `Klik hier`, een foto tussen de `<a> </a>` tags te plaatsen, zoals hier:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,20 +46,20 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- Klik op de afbeelding. Zie je dat het een link is geworden?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+Je kunt ook een link naar andere elementen van je webpagina plaatsen, zoals naar een alinea of ​​zelfs naar een lijst. Hier is een voorbeeld van een zin met een link erin:
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+    <a href="https://en.wikipedia.org/wiki/Ireland">Klik hier</a> om de Wikipedia-pagina te lezen!
   </p>
 ```
 
 \--- challenge \---
 
-## Challenge: put a link into a list
+## Uitdaging: zet een link in een lijst
 
-- See if you can make a list that contains a link inside one of the list items.
+- Kijk of je een lijst kunt maken met een link in een van de cellen van de lijst.
 
 \--- /challenge \---
