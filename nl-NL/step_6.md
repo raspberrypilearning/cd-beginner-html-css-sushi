@@ -1,29 +1,29 @@
-## Adding a map or video
+## Een kaart of video toevoegen
 
-YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
+YouTube biedt een eenvoudige manier om video's aan je website toe te voegen. Het toevoegen van elementen uit andere online bronnen aan je website wordt ook wel **embedding** (insluiten) genoemd.
 
-- Find a video on YouTube that you want to show on your website.
+- Zoek een video op YouTube die je op je website wilt laten zien.
 
-- Click on the **Share** button below the video. Select the option **Embed**.
+- Klik op de **Delen** knop onder de video. Klik op **KOPIËREN **.
 
-You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
+Je ziet een tekstvak met: Link gekopieerd naar klembord. Als je per ongeluk de selectie van de tekst ongedaan maakt, kun je alles opnieuw selecteren door op de <kbd>Ctrl</kbd> toets (of <kbd>cmd</kbd> toets op een Mac) en de <kbd>A</kbd> toets tegelijkertijd in te drukken.
 
 ![YouTube's embed option with code selected](images/EmbedYouTube.png)
 
-- Press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>C</kbd> keys together to copy the text.
+- Klik op de KOPIËREN knop om de tekst te kopiëren.
 
-- Then go back to your website's HTML code, and click in the place where you want to put the video, for example below a heading or paragraph. **Paste** the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>V</kbd> on your keyboard at the same time. Don't worry about understanding all the code you just pasted!
+- Ga vervolgens terug naar de HTML-code van je website en klik op de plaats waar je de video wilt plaatsen, bijvoorbeeld onder een kop of alinea. **Plak** de code door tegelijkertijd op <kbd>Ctrl</kbd> (of <kbd>cmd</kbd> op een Mac) en <kbd>V</kbd> toets te drukken. Maak je geen zorgen als je de code die je zojuist hebt geplakt niet begrijpt!
 
 ![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
 
-You should see the video appear on your webpage.
+Je zou de video op je webpagina moeten zien verschijnen.
 
-The same technique works for Google maps as well. Give it a go!
+Dezelfde techniek werkt ook voor Google-kaarten. Probeer het eens!
 
-- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
+- Ga [hier](http://dojo.soy/google-maps) naartoe en zoek naar een plaats die je op je website wilt laten zien. **Opmerking:** deel **geen** persoonlijke informatie zoals je huisadres op een website!
 
-- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+- Klik op het menu en klik vervolgens op **kaart delen of insluiten**, vervolgens op het tabblad <0>Een kaart insluiten</0> en dan op <0>HTML KOPIËREN</0> om de code te kopiëren en voeg deze zoals hierboven toe aan je website. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
 
-- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
+- Als je goed kijkt, vindt je `width` en `height` **attributen** in de geplakte code. Je kunt hun waarden wijzigen om de kaart groter of kleiner te maken.
 
 ![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
