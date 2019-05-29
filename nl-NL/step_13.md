@@ -1,76 +1,76 @@
-## Adding a table
+## Een tabel toevoegen
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+Soms kan het nuttig zijn om informatie in een tabel weer te geven. Je wilt bijvoorbeeld voor een plaatselijke sportclub of school de ledeninformatie op een website vermelden, of informatie over je top tien favoriete nummers plaatsen.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+Een tabel is een raster bestaande uit **rows** (rijen) en **colums** (kolommen). De meeste tabellen bevatten ook titels bovenaan elke kolom, de **header** (kop). Hier is een voorbeeld:
 
 ![Example of information in a table](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- Ga naar het bestand `page_with_table.html`. Daar zie je een aantal codes tussen `<table></table>` tags.
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- Selecteer alle code vanaf het begin van de tag `<table>`tot aan het einde van de sluit`</table>` tag en kopieer het. Ga dan naar een van je bestanden waar je een tabel zou willen plaatsen en plak de code er in.
 
-At the moment your table is empty.
+Op dit moment is je tabel leeg.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- Probeer je tabel te vullen met van alles wat je maar wilt! Plaats gewoon tekst tussen de `<td></td>` tags en tussen de `<th></th>` tags. Als je ze nodig hebt Je kunt meer tags toevoegen.
 
 ## \--- collapse \---
 
-## title: Example code
+## title: Voorbeeldcode
 
-The HTML code for the table shown above looks like this:
+De HTML-code voor de bovenstaande tabel ziet er als volgt uit:
 
 ```html
   <table>
     <tr>
-      <th>Name of pet</th>
-      <th>Animal</th>
-      <th>Colour</th>
+      <th>Naam dier</th>
+      <th>Dier</th>
+      <th>Kleur</th>
     </tr>
     <tr>
       <td>Mia</td>
-      <td>Cat</td>
-      <td>Black and fluffy</td>
+      <td>Kat</td>
+      <td>Zwart</td>
     </tr>
     <tr>
       <td>Tito</td>
-      <td>Dog</td>
-      <td>Black with brown patches</td>
+      <td>Hond</td>
+      <td>Zwart met bruin</td>
     </tr>
     <tr>
       <td>Honeycomb</td>
-      <td>Guinea Pig</td>
-      <td>White with orange patches</td>
+      <td>Cavia</td>
+      <td>Wit met oranje</td>
     </tr>
     <tr>
       <td>Alfie</td>
-      <td>Budgie</td>
-      <td>Green and yellow</td>
+      <td>grasparkiet</td>
+      <td>Groen met geel</td>
     </tr>
   </table>
 ```
 
 \--- /collapse \---
 
-To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+Om nog een **rij** toe te voegen, voeg je nog een set `<tr> </tr>` tags toe. Daartussen plaatst je hetzelfde aantal **gegevens** met `<td> </td>` tags zoals in de andere rijen.
 
-To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+Om nog een **kolom** toe te voegen, voeg je aan **elke** rij extra **gegevens** met een set van `<td> </td>` tags toe. Voeg ook een extra ** header ** met `<th> </th>` tags aan de eerste rij toe.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Hoe werkt het?
 
-Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+Laten we al die tags eens bekijken. Het lijkt een beetje op de code voor een lijst (onthoud `<ul>` en `<ol>`) maar met meer niveaus.
 
-Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+Elk paar `<tr> </tr>` tags is een rij, dus alles daartussen zal op één regel worden weergegeven.
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+De eerste rij bevat `<th> </th>` tags. Deze worden gebruikt voor de headers (koppen), dus de kolomtitels komen daar tussen in. Er is één paar voor elke kolom die je in je tabel hebt.
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+De `<td> </td>` tags definiëren wat tabelgegevens worden genoemd en dat geldt ook voor alle andere rijen. Deze zijn vergelijkbaar met de tags van het lijstitem `<li> </li>`: alles daartussenin is één item in je tabel rij.
 
 \--- /collapse \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- Als je naar het einde van het ` styles.css ` bestand kijkt, zie je de CSS-code die beschrijft hoe de tabel eruit zou moeten zien. Je hoeft het niet allemaal te begrijpen! Maar je kunt experimenteren met het wijzigen van de tekst-, rand- en achtergrondkleuren om je eigen stijl te ontwerpen.
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ The `<td> </td>` tags define what's called table data, and that's what goes in a
   }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+Merk op dat sommige selectors komma's gebruiken, bijvoorbeeld `table, th, td`? Dat is een **lijst met selectors**: dit betekent dat het van toepassing is op alle `<th>` elementen en alle `<td>` elementen. Het bespaart het typen van dezelfde regels voor elke selector!
