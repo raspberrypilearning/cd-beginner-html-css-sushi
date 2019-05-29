@@ -1,49 +1,49 @@
-## Making a list
+## Een lijst maken
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+Nu leer je hoe je een lijst met items, zoals "eenhoorns, robots, katten", in een mooier uitziende lijst kunt veranderen zodat je er later heel leuke dingen mee kan doen.
 
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- Voeg in het `index.html` bestand, net boven de regel met `</main>` de volgende code toe:
 
 ```html
     <ul>
-        <li>Cows</li>
-        <li>Sheep</li>
-        <li>Foxes</li>
-        <li>Bats</li>
-    </ul>
+        <li>Koeien</li>
+        <li>Schapen</li>
+        <li>Vossen</li>
+        <li>Vleermuizen</li>
+</ul>
 ```
 
-The result should be a nice list like this:
+Het resultaat zou een mooie lijst als deze moeten zijn:
 
 ![Unordered list](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
+Merk steeds een aparte paar `<li></li>` tags rond elk item in de lijst op.
 
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+Dit is een lijst van enkele dieren je in Ierland kunt zien. Je kunt de items in de lijst wijzigen in dingen die logisch zijn voor jouw website, en een alinea boven de lijst toevoegen om te beschrijven wat de lijst bevat, als je dat wilt!
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
+Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar in plaats van `<ul>`gebruikt je`<ol>`. Een genummerde lijst wordt ook wel een **ordered** (gerangschikte) lijst genoemd.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- Voeg onder de code die je zojuist geschreven hebt, de onderstaande code toe - zorg ervoor dat deze **onder** het `</ul>` label staat!
 
 ```html
     <p>
-        My favourite things to eat and drink in Ireland are:
+        Mijn favoriete drank en eten in Ierland zijn:
     </p>
     <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
+        <li>Thee</li>
+        <li>Knapperige broodjes</li>
+        <li>worsten</li>
     </ol>
 ```
 
-Here's what it should look like now:
+Zo zou het er nu uit zou moeten zien:
 
 ![Ordered list](images/egOrderedList.png)
 
 \--- challenge \---
 
-## Challenge: add style to your lists
+## Uitdaging: voeg stijl toe aan je lijsten
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- Kijk of je **CSS-regels** aan je stylesheet kunt toevoegen om je lijsten er anders uit te laten zien.
 
 \--- /challenge \---
