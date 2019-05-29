@@ -1,8 +1,8 @@
-## Controlling how it looks
+## Bepalen hoe het eruit ziet
 
-The code that describes what a website looks like is called **CSS**.
+De code die beschrijft hoe een website eruit ziet, wordt **CSS** genoemd.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- Kijk naar de tabbladen bovenaan het codepaneel en ga naar het bestand `styles.css` door op het tabblad met die naam te klikken. Het bestand bevat de volgende tekst:
 
 ```css
   body {
@@ -10,35 +10,35 @@ The code that describes what a website looks like is called **CSS**.
   }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- Verander de kleur `white` (wit) naar `LightSkyBlue` (lichtblauw) en kijk wat er gebeurt. Je website zou nu een blauwe achtergrond moeten hebben! 
 
 ![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Hoe werkt het?
 
-If you look at the top of the `index.html` file, you will see the following line:
+Als je naar de bovenkant van het `index.html` bestand kijkt, zie je de volgende regel:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+De bovenstaande regel vertelt de browser om te zoeken naar een speciaal bestand met de naam `styles.css`. Dit speciale bestand wordt een **style sheet** genoemd. Je kunt een style sheet (opmaakbestand) herkennen door de `.css` in de naam.
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+Een style sheet bevat **regels** voor hoe elk element op je webpagina eruit zou moeten zien.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+De accolades `{ }` en de code ertussen is een set van **CSS-regels** . Het woord `body` betekent dat de regels voor alle `<body>` elementen op je website gelden. We noemen het woord voor de accolades een **selector**. Dus in dit geval is het de selector voor de body elementen.
 
-Each rule inside the curly braces is made up of:
+Elke regel binnen de accolades bestaat uit:
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- Een **property** (eigenschap) aan de linkerkant, gevolgd door een dubbele punt `:`
+- Een **waarde** voor de eigenschap na de dubbele punt
+- Een puntkomma `;` aan het einde
 
 \--- /collapse \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+- Laat we regels toevoegen om de weergave van de tekst te veranderen. Voeg binnen de accolades twee nieuwe regels toe:
 
 ```css
   body {
@@ -48,11 +48,11 @@ Each rule inside the curly braces is made up of:
   }
 ```
 
-Look at how this has changed the webpage.
+Kijk hoe dit de webpagina heeft veranderd.
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+De `color` (kleur) eigenschap is altijd voor tekst. Hier stel je de kleur van alle tekst in de `body` van je webpagina in.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- Je kunt ook afzonderlijke regels schrijven voor de headings (koppen) en alinea's. Voor `<h1>`headings van gebruik je de`h1` selector. Na de sluit accolade die de CSS-regel voor de body bevat, voeg je de volgende code toe.
 
 ```css
   h1 {
@@ -61,12 +61,12 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+Je koptekst moet nu oranje zijn, met de alinea in het paars als voorheen.
 
 ![Result of new CSS code](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+Merk ook op hoe de letters er anders uitzien en ook een andere kleur hebben? Dit komt omdat je de **font family** (lettertype) hebt gewijzigd. Je kunt [hier](http://dojo.soy/web-font-families) meer lettertypes vinden.
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+- Probeer een set regels voor de `<h2>` headings toe te voegen met behulp van de `h2` selector.
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- Waarom niet experimenteren met verschillende kleurencombinaties voor de tekst en achtergrond? Er zijn veel kleuren beschikbaar om te gebruiken. Vind [hier](http://dojo.soy/web-color-names) een volledige lijst.
