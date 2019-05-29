@@ -12,7 +12,7 @@ Bouw een website over je eigen land, zoals die in de onderstaande trinket.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Wat ga je leren
 
 + Een online editor gebruiken om een ​​website te maken die bestaat uit HTML-bestanden en een CSS-bestand
 + Een HTML-website bouwen met koppen, alinea's, lijsten en afbeeldingen
@@ -28,10 +28,10 @@ Bouw een website over je eigen land, zoals die in de onderstaande trinket.
 
 ### Hardware
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Een computer die toegang heeft tot de [ trinket.io ](https://trinket.io) {: target = "_ blank"} website
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Dit project kan in een webbrowser worden voltooid met behulp van [ trinket.io ](https://trinket.io) {: target = "_ blank"}.
 
 \--- /collapse \---
