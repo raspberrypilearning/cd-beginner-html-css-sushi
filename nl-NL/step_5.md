@@ -1,75 +1,75 @@
-## Adding pictures
+## Afbeeldingen toevoegen
 
-Let's add a picture!
+Laten we een afbeelding toevoegen!
 
-- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
+- Ga naar het tabblad met de naam `index.html`. Vind de `</main>` tag en typ het volgende **daarboven**: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Here's what the result should look like:
+Hier is hoe het resultaat eruit zou moeten zien:
 
 ![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Notice that this tag has extra bits of information inside it. They are called **attributes**.
+Merk op dat deze tag extra stukjes informatie bevat. Ze worden **attributes** (attributen) genoemd.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
+- Zoek het stukje code met `width = "100px"` en probeer te experimenteren met verschillende getallen om te zien of je kunt achterhalen wat dit attribute doet. Verwijder niet de letters `px`!
 
 \--- collapse \---
 
 * * *
 
-## title: How the `<img>` tag works
+## title: Hoe de `<img>` tag werkt
 
-Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+Merk op dat de `<img>` tag verschilt van de andere tags die je tot dusver hebt gebruikt, — er is geen sluit `</img>` tag. In plaats daarvan is deze tag **zelfsluitend**: het heeft `/>` aan het einde. Dit komt omdat er geen 'begin' en 'einde' aan een afbeeldingselement zit zoals er wel voor tekst op de pagina is.
 
-The tag contains **attributes** with extra information:
+De tag bevat **attributes** met extra informatie:
 
-- The `src` attribute tells the browser what file to use for the picture. 
-- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
-- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- Het `src` attribuut vertelt de browser welk bestand moet worden gebruikt voor de afbeelding. 
+- Het `alt` attribute is een korte beschrijving die de browser zal weergeven als het de afbeelding niet kan weergeven. 'alt' is een afkorting voor 'alternatief'. Deze tekst helpt ook mensen die een schermlezer gebruiken om te weten wat de afbeelding weergeeft.
+- Het `width` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. `100px` betekent honderd **pixels**, dat zijn de kleine puntjes die bepalen wat je op je scherm ziet. Als je dit kenmerk niet opneemt, wordt de afbeelding in de oorspronkelijke grootte weergegeven.
 
 \--- /collapse \---
 
-Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+Nu je de code kent om een ​​afbeelding op je website te plaatsen, wil je waarschijnlijk de afbeelding veranderen, toch?
 
-- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+- Het eerste dat je nodig hebt is natuurlijk een afbeelding of foto! Je kunt er een gebruiken die je al op je computer hebt staan, zoals een foto die je hebt gemaakt, of je kunt er een downloaden van internet.
 
 [[[generic-get-picture-from-web]]]
 
-**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
+**Opmerking:** niet alle afbeeldingen die je op internet vindt, zijn voor iedereen gratis te gebruiken. Als je een afbeelding downloadt, moet je ervoor zorgen dat dit er een is die je mag gebruiken. Lees hier meer over:
 
 [[[images-permissions-to-use]]]
 
-Once you have a picture, you can **upload** the file to Trinket:
+Zodra je een afbeelding of foto hebt, kun je het bestand **uploaden** naar Trinket:
 
-- In your trinket, click on the **image** icon next to the **+** sign. 
+- Klik in je trinket op het **image** pictogram naast het **+** teken. 
 
 ![The image icon](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+Dit is waar je de foto's kunt zien, die je kunt gebruiken op jouw website. Je zou de afbeelding van Tito, de CoderDojo-hond, moeten zien.
 
-- Click the button **Add Image** and then click **Upload**.
+- Klik op de knop **Add Image** en klik vervolgens op **Upload**.
 
-- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+- Klik op de knop **Click To Select Files**. Zoek en dubbelklik op je afbeelding in het venster dat wordt geopend.
 
-- Click **Done**.
+- Klik op **Done**.
 
 ![Image upload area](images/tktUploadImages.png)
 
-Your picture will be uploaded and should be ready to use.
+Je foto wordt geüpload en moet klaar zijn voor gebruik.
 
-- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+- Ga naar het bestand `index.html` en zoek de `<img>` tag. Wijzig de tekst `tito.png` zodat het precies overeenkomt met de naam van de afbeelding die je hebt gekozen. Merk op dat de naam eindigt op `.jpg` in plaats van `.png`!
 
-The text you just changed is the attribute called `src`, which tells the browser which file to display.
+De tekst die je zojuist hebt gewijzigd is het attribute met de naam `src`, die de browser vertelt welk bestand moet worden weergegeven.
 
-**Note:** the value you type for an attribute must have quotation marks `""` around it!
+**Opmerking:** de waarde die je typt voor een attribute moet tussen aanhalingstekens `""`staan!
 
 \--- challenge \---
 
-## Challenge: change the alt text of the picture
+## Uitdaging: verander de alt-tekst van de afbeelding
 
-- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+- Zoek het `alt` attribuut van je afbeelding en verander de tekst daarvan in een korte beschrijving van je afbeelding. 
 
 \--- /challenge \---
