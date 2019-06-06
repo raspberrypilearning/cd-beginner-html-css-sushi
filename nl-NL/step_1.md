@@ -24,7 +24,7 @@ Bouw een website over je eigen land, zoals die in de onderstaande trinket.
 
 ## \--- collapse \---
 
-## title: What you need
+## title: Wat heb je nodig
 
 ### Hardware
 
