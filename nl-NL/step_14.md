@@ -1,3 +1,3 @@
 ## Wat nu?
 
-Now that you've built your first website, why not take a look at the [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project? There you can build upon your existing HTML/CSS skills, add to your website and gain more control over how it looks.
+Nu je je eerste website hebt gebouwd, kun je doorgaan met het [Ervaren HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project. Bouw voort op je bestaande HTML/CSS-vaardigheden om een ​​website te maken en meer controle te krijgen over hoe deze eruit ziet.
