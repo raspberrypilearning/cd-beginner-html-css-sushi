@@ -1,75 +1,59 @@
-## Een menubalk maken
+## De menubalk opmaken
 
-Op deze kaart ziet je hoe je jouw navigatiemenu kunt veranderen in een cool uitziende menubalk, gewoon door meer CSS-regels toe te voegen aan de stylesheet.
+Met CSS zijn de mogelijkheden om jouw menubalk er geweldig uit te laten zien eindeloos.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+- Ga opnieuw naar het `styles.css` bestand - de plaats waar de coole dingen gebeuren!
 
-- Ga naar het stijlblad in de `styles.css` tab. Klik **onder** een sluit accolade `}` en druk op **Enter** om een ​​nieuwe lege regel te maken. Voeg de volgende CSS code in:
-
-```css
-    nav ul {
-        background-color: tomato;
-    }
-```
-
-Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de `ul` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Het toevoegen van de `nav` selector maakt het alleen van toepassing op lijsten die tussen `nav` tags staan.
-
-![List with red background](images/egMenuBarFirstStyle.png)
-
-Laten we de opsommingstekens verwijderen. Dat zijn de stippen voor elk lijst item.
-
-- Voeg de volgende code toe aan het `style.css` bestand. Typ na een `}` opnieuw een nieuwe regel zodat het niet in een ander set regels zit.
+- Zoek je `nav ul` selector en voeg meer regels toe zodat het er zo uitziet:
 
 ```css
-    nav ul li {
-        list-style-type: none;
-    }
+  nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: MediumVioletRed;
+    border-width: 2px;
+    padding: 10px;
+  }
 ```
 
-Merk op dat deze set regels drie selectors heeft: het selecteert alle `li` elementen die zich in een `ul` lijst bevinden, die zich binnen een `nav` sectie bevinden. Oef!
+De `padding` eigenschap voegt ruimte toe. Kun jij uitvinden wat elk van de andere eigenschappen doet? Experimenteer met verschillende kleuren en aantal pixels.
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
 
-Laten we nu de lijst in plaats van verticaal (naar beneden) horizontaal (over de breedte) maken.
-
-- Binnen de nieuwe CSS-regel die je zojuist hebt gemaakt, voeg je de volgende regel toe: `display: inline;`.
-
-![](images/egMenuBarInline.png)
-
-- De menu-items zijn nu allemaal samen geplet, dus laten we ook de eigenschappen `margin-right` (ruimte rechts) en `margin-left` (ruimte links) toevoegen om ze een beetje te spreiden. Het blok CSS-code zou er nu als volgt uit moeten zien:
+- Als je de onderstrepingen van de links wilt verwijderen, voeg je op een nieuwe regel na de sluit accolade `}` maar voor de `nav ul li` regels de volgende code toe. Je zou het na elke `}` kunnen plaatsen, maar het is een goed idee om gerelateerde code bij elkaar te houden, zodat het gemakkelijker te vinden is!
 
 ```css
-    nav ul li {
-        list-style-type: none;
-        display: inline;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
+  nav ul li a {
+      text-decoration: none;
+  }
 ```
 
-Onthoud: `10px` betekent tien pixels.
+De bovenstaande regel is van toepassing op de `<a>` koppelingen in lijst `<li>` items in een ongeordende lijst `<ul>` in een navigatiegedeelte `<nav>`. Wauw, dat zijn vier selectors!
 
-Hoe zou het zijn om het menu te veranderen zodat het vertelt op welke pagina je je bevindt? Dit onderdeel staat niet in de stylesheet.
+![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
 
-- Begin met de startpagina. Ga naar de `index.html`. Verwijder in de lijst met menu links de link-tags voor en na het woord `Home`, zodat het lijstitem voor de startpagina alleen tekst tussen `<li> </li>` tags is, zoals deze: `<li>Home</li>`.
+Weet je nog hoe je de link tags uit sommige lijstitems in `<nav>` hebt verwijderd, zodat je gemakkelijk kunt zien op welke pagina je bent? Waarom niet ook de tekstkleur van die navigatielijst items die geen koppelingen zijn veranderen!
 
-- Ga nu naar elk van je andere bestanden en doe hetzelfde, verwijder telkens de koppeling tags voor de pagina die je aan het bewerken bent. Dus bijvoorbeeld in het `music.html` bestand, heb ik de koppeling tags verwijderd in de `muziek` lijst item:
+- Zoek je `nav ul li` selector en voeg **binnen** de accolades de volgende regel toe:
 
-```html
-    <header>
-        <nav>
-            <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attracties</a></li>
-            <li>Muziek</li>
-            <li><a href="food.html">Eten</a></li>
-            </ul>
-        </nav>
-    </header>
+```css
+  color: PapayaWhip;
 ```
 
-- Verken je pagina's door op de links te klikken. Zie je hoe de menubalk de pagina die je gebruikt als platte tekst weergeeft in plaats van een link? 
+Je kunt elke gewenste kleur kiezen!
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+Je kunt een `color` (kleur) eigenschap voor de `nav ul li a` regel toevoegen als je wilt dat de menu links een andere kleur hebben dan de overige links op je website.
 
-Op de volgende kaart leer je nog meer CSS-trucs om de menubalk er nog beter uit te laten zien.
+- Wat dacht je van afgeronde hoeken voor je menu? Probeer de volgende code toe te voegen aan de `nav ul` regel om te zien wat er gebeurt: `border-radius: 10px;`.
+
+De eigenschap `border-radius` is echt een eenvoudige manier om iets cooler te laten lijken!
+
+![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+
+--- challenge ---
+
+## Uitdaging: geef je foto's afgeronde hoeken
+
+- Maak in je stylesheet een nieuwe set regels voor afbeeldingen met de `img` selector en voeg een `border-radius` regel toe.
+
+--- /challenge ---

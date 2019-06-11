@@ -1,73 +1,29 @@
-## Afbeeldingen toevoegen
+## Een kaart of video toevoegen
 
-Laten we een afbeelding toevoegen!
+YouTube biedt een eenvoudige manier om video's aan je website toe te voegen. Het toevoegen van elementen uit andere online bronnen aan je website wordt ook wel **embedding** (insluiten) genoemd.
 
-- Ga naar het tabblad met de naam `index.html`. Vind de `</main>` tag en typ het volgende **daarboven**: 
+- Zoek een video op YouTube die je op je website wilt laten zien.
 
-```html
-    <img src="tito.png" alt="Tito the dog" width="100px" />
-```
+- Klik op de **Delen** knop onder de video. Klik op **KOPIËREN**.
 
-Hier is hoe het resultaat eruit zou moeten zien:
+Je ziet een tekstvak met: Link gekopieerd naar klembord. Als je per ongeluk de selectie van de tekst ongedaan maakt, kun je alles opnieuw selecteren door op de <kbd>Ctrl</kbd> toets (of <kbd>cmd</kbd> toets op een Mac) en de <kbd>A</kbd> toets tegelijkertijd in te drukken.
 
-![Image code and picture of Tito](images/egImgCodeTito.png)
+![YouTube's embed option with code selected](images/EmbedYouTube.png)
 
-Merk op dat deze tag extra stukjes informatie bevat. Ze worden **attributes** (attributen) genoemd.
+- Klik op de KOPIËREN knop om de tekst te kopiëren.
 
-- Zoek het stukje code met `width = "100px"` en probeer te experimenteren met verschillende getallen om te zien of je kunt achterhalen wat dit attribute doet. Verwijder niet de letters `px`!
+- Ga vervolgens terug naar de HTML-code van je website en klik op de plaats waar je de video wilt plaatsen, bijvoorbeeld onder een kop of alinea. **Plak** de code door tegelijkertijd op <kbd>Ctrl</kbd> (of <kbd>cmd</kbd> op een Mac) en <kbd>V</kbd> toets te drukken. Maak je geen zorgen als je de code die je zojuist hebt geplakt niet begrijpt!
 
---- collapse ---
----
-title: Hoe de `<img>` tag werkt
----
-Merk op dat de `<img>` tag verschilt van de andere tags die je tot dusver hebt gebruikt, — er is geen sluit `</img>` tag. In plaats daarvan is deze tag **zelfsluitend**: het heeft `/>` aan het einde. Dit komt omdat er geen 'begin' en 'einde' aan een afbeeldingselement zit zoals er wel voor tekst op de pagina is.
+![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
 
-De tag bevat **attributes** met extra informatie:
+Je zou de video op je webpagina moeten zien verschijnen.
 
-- Het `src` attribuut vertelt de browser welk bestand moet worden gebruikt voor de afbeelding. 
-- Het `alt` attribute is een korte beschrijving die de browser zal weergeven als het de afbeelding niet kan weergeven. 'alt' is een afkorting voor 'alternatief'. Deze tekst helpt ook mensen die een schermlezer gebruiken om te weten wat de afbeelding weergeeft.
-- Het `width` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. `100px` betekent honderd **pixels**, dat zijn de kleine puntjes die bepalen wat je op je scherm ziet. Als je dit kenmerk niet opneemt, wordt de afbeelding in de oorspronkelijke grootte weergegeven.
+Dezelfde techniek werkt ook voor Google-kaarten. Probeer het eens!
 
---- /collapse ---
+- Ga [hier](http://dojo.soy/google-maps) naartoe en zoek naar een plaats die je op je website wilt laten zien. **Opmerking:** deel **geen** persoonlijke informatie zoals je huisadres op een website!
 
-Nu je de code kent om een ​​afbeelding op je website te plaatsen, wil je waarschijnlijk de afbeelding veranderen, toch?
+- Klik op het menu en klik vervolgens op **kaart delen of insluiten**, vervolgens op het tabblad <0>Een kaart insluiten</0> en dan op <0>HTML KOPIËREN</0> om de code te kopiëren en voeg deze zoals hierboven toe aan je website. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
 
-- Het eerste dat je nodig hebt is natuurlijk een afbeelding of foto! Je kunt er een gebruiken die je al op je computer hebt staan, zoals een foto die je hebt gemaakt, of je kunt er een downloaden van internet.
+- Als je goed kijkt, vindt je `width` en `height` **attributen** in de geplakte code. Je kunt hun waarden wijzigen om de kaart groter of kleiner te maken.
 
-[[[generic-get-picture-from-web]]]
-
-**Opmerking:** niet alle afbeeldingen die je op internet vindt, zijn voor iedereen gratis te gebruiken. Als je een afbeelding downloadt, moet je ervoor zorgen dat dit er een is die je mag gebruiken. Lees hier meer over:
-
-[[[images-permissions-to-use]]]
-
-Zodra je een afbeelding of foto hebt, kun je het bestand **uploaden** naar Trinket:
-
-- Klik in je trinket op het **image** pictogram naast het **+** teken. 
-
-![The image icon](images/tktImageIconArrow.png)
-
-Dit is waar je de foto's kunt zien, die je kunt gebruiken op jouw website. Je zou de afbeelding van Tito, de CoderDojo-hond, moeten zien.
-
-- Klik op de knop **Add Image** en klik vervolgens op **Upload**.
-
-- Klik op de knop **Click To Select Files**. Zoek en dubbelklik op je afbeelding in het venster dat wordt geopend.
-
-- Klik op **Done**.
-
-![Image upload area](images/tktUploadImages.png)
-
-Je foto wordt geüpload en moet klaar zijn voor gebruik.
-
-- Ga naar het bestand `index.html` en zoek de `<img>` tag. Wijzig de tekst `tito.png` zodat het precies overeenkomt met de naam van de afbeelding die je hebt gekozen. Merk op dat de naam eindigt op `.jpg` in plaats van `.png`!
-
-De tekst die je zojuist hebt gewijzigd is het attribute met de naam `src`, die de browser vertelt welk bestand moet worden weergegeven.
-
-**Opmerking:** de waarde die je typt voor een attribute moet tussen aanhalingstekens `""`staan!
-
---- challenge ---
-
-## Uitdaging: verander de alt-tekst van de afbeelding
-
-- Zoek het `alt` attribuut van je afbeelding en verander de tekst daarvan in een korte beschrijving van je afbeelding. 
-
---- /challenge ---
+![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)

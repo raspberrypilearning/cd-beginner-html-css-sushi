@@ -1,35 +1,92 @@
-## Opstarten
+## Je eerste webpagina!
 
-- Ga naar [the starter trinket](https://trinket.io/html/b9319738be). Je ziet een project met een voorbeeld van een website. Aan de rechterkant de website en aan de linkerkant staat de code die de website maakt. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- Klik in het linker deelvenster (**het codepaneel**), op het tabblad `index.html`.
 
---- collapse ---
----
-title: ik heb een Trinket-account
----
-- Klik op de **remix** knop in de rechterbovenhoek van het project. Als je niet bent aangemeld, wordt gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** te klikken. Als je op deze knop klikt, wordt een kopie van het project gemaakt waarmee je aan het werk kan. 
+- Zoek de regel met `Welkom in Ierland!` en verander het in je eigen bericht - wees voorzichtig dat je **niet** de tags `<p>` aan het begin van de regel en `</p>` aan het einde van de regel wist. Je zou de update van je webpagina in het rechter paneel moeten zien.
 
-![Remix button](images/tktRemixButtonArrow.png)
+![HTML paragraph example](images/egFirstHtmlCode.png)
 
-Het zou nadat je erop hebt geklikt **remixed** moeten zeggen:
+- Verander nu op dezelfde regel de `<p>` en `</p>` door `<h1>` en `</h1>`. Zie je de verandering aan de rechterkant?
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
-
---- /collapse ---
+```html
+  <h1> Welkom in Ierland! </h1>
+```
 
 --- collapse ---
 ---
-title: ik heb geen Trinket-account
+title: HTML en tags uitgelegd
 ---
-Je kunt je werk opslaan met behulp van een van de opties in het menu **Share**. Je krijgt een link die je ergens kunt opslaan, bijvoorbeeld in een document, of via e-mail kunt versturen. **Opmerking:** elke keer dat je een wijziging aanbrengt, krijg je een nieuwe link.
 
-Als je een account op Trinket wilt maken, volg je de onderstaande stappen. Hierdoor kun je eenvoudig vanaf elke computer toegang krijgen tot je werk en projecten die iemand anders met jou heeft gedeeld **remixen**. Remixen betekent dat je een kopie van een project opslaat zodat je je eigen wijzigingen kunt aanbrengen.
+**HTML** is de code die een webpagina maakt.
 
-- Ga naar [de Trinket-website](http://dojo.soy/trinket) en klik op **Sign Up For Your Free Account**. Je hebt een e-mailadres nodig om je aan te melden.
+De `.html` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar **tags** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
 
-- Geef je e-mailadres in en kies een wachtwoord, of vraag iemand om dit voor je te doen.
+HTML-tags zoals `<p>` en ` </p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements** (elementen) genoemd. Zie ze als bouwstenen.
 
-- Je hebt nu toegang tot al je opgeslagen of geremixte projecten door op je gebruikersnaam te klikken en naar **My Trinkets** te gaan. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+### Waarom heb ik twee tags nodig?
+
+Je hebt een **open** en een **closing** (sluit) tag nodig om de browser te vertellen waar de elementen **starten** en **eindigen**. Dus voor een alinea, de opening tag `<p>` zegt "Hier komt wat tekst die ik wil weergeven als een alinea." De afsluitende tag `</p>` vertelt de browser waar de alinea eindigt.
+
+Alles tussen de `<body>` en `</body>` tags is je webpagina.
+
+- Let er op dat de afsluitende tag **altijd** een schuine streep `/` naar voren heeft.
 
 --- /collapse ---
 
-Laten we beginnen met coderen!
+- Probeer de cijfers in je **heading** tags te wijzigen om de verschillende mogelijkheden te zien. Ze kunnen gaan van `<h1>` helemaal tot aan de `<h6>`. Vergeet niet om zowel de open tag als de sluit tag te wijzigen, zodat ze overeenkomen.
+
+- Zoek de code voor de alinea met de tekst `Mijn website gaat over Ierland` en verander het zodat het er zo uitziet:
+
+```html
+  <p> <em>Mijn website</em> gaat over <strong>Ierland</strong>. 
+    Het gaat de pagina's: Attracties, Muziek en Eten bevatten
+  </p>
+```
+
+Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
+
+![Example of HTML tags](images/egFirstTags.png)
+
+--- challenge ---
+
+## Uitdaging: voeg nog wat meer eigen tekst toe
+
+- Probeer een nieuwe alinea of ​​kop aan je pagina toe te voegen met behulp van enkele van de tags die je hebt geleerd.
+
+--- hints ---
+
+
+--- hint --- Als je tekst op een pagina wilt plaatsen, moet je deze tussen twee tags plaatsen die je browser vertellen hoe jouw tekst moet worden weergegeven. Bijvoorbeeld de `<p> </p>` tags vertellen de browser dat alles wat er tussenin zit een nieuwe alinea is en de `<h1> </h1>` tags vertellen dat de tekst ertussen een heading (kop) is.
+
+--- /hint ---
+
+--- hint ---
+
+De code voor alinea's (paragraphs) ziet er als volgt uit:
+
+```html
+  <p>Dit is een alinea tekst.</p> 
+
+   <p>Dit is een andere alinea.
+  Alles tussen de twee p-tags wordt samen weergegeven in één lange regel op de webpagina. </p>
+```
+
+--- /hint ---
+
+--- hint ---
+
+De code voor kopteksten (headings) ziet er als volgt uit:
+
+```html
+  <h1>Dit is een kop.</h1>
+```
+
+Koppen worden normaal gesproken groter of dikker weergegeven dan de alinea's.
+
+--- /hint ---
+
+--- /hints ---
+
+--- /challenge ---
+
+Gefeliciteerd, je hebt je eerste webpagina gebouwd! Op de volgende kaart kom je erachter hoe je kunt bepalen hoe alles eruit ziet.

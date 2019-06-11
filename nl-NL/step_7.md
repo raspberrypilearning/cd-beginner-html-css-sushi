@@ -1,29 +1,49 @@
-## Een kaart of video toevoegen
+## Een lijst maken
 
-YouTube biedt een eenvoudige manier om video's aan je website toe te voegen. Het toevoegen van elementen uit andere online bronnen aan je website wordt ook wel **embedding** (insluiten) genoemd.
+Nu leer je hoe je een lijst met items, zoals "eenhoorns, robots, katten", in een mooier uitziende lijst kunt veranderen zodat je er later heel leuke dingen mee kan doen.
 
-- Zoek een video op YouTube die je op je website wilt laten zien.
+- Voeg in het `index.html` bestand, net boven de regel met `</main>` de volgende code toe:
 
-- Klik op de **Delen** knop onder de video. Klik op **KOPIËREN**.
+```html
+    <ul>
+        <li>Koeien</li>
+        <li>Schapen</li>
+        <li>Vossen</li>
+        <li>Vleermuizen</li>
+</ul>
+```
 
-Je ziet een tekstvak met: Link gekopieerd naar klembord. Als je per ongeluk de selectie van de tekst ongedaan maakt, kun je alles opnieuw selecteren door op de <kbd>Ctrl</kbd> toets (of <kbd>cmd</kbd> toets op een Mac) en de <kbd>A</kbd> toets tegelijkertijd in te drukken.
+Het resultaat zou een mooie lijst als deze moeten zijn:
 
-![YouTube's embed option with code selected](images/EmbedYouTube.png)
+![Unordered list](images/egUnorderedList.png)
 
-- Klik op de KOPIËREN knop om de tekst te kopiëren.
+Merk steeds een aparte paar `<li></li>` tags rond elk item in de lijst op.
 
-- Ga vervolgens terug naar de HTML-code van je website en klik op de plaats waar je de video wilt plaatsen, bijvoorbeeld onder een kop of alinea. **Plak** de code door tegelijkertijd op <kbd>Ctrl</kbd> (of <kbd>cmd</kbd> op een Mac) en <kbd>V</kbd> toets te drukken. Maak je geen zorgen als je de code die je zojuist hebt geplakt niet begrijpt!
+Dit is een lijst van enkele dieren je in Ierland kunt zien. Je kunt de items in de lijst wijzigen in dingen die logisch zijn voor jouw website, en een alinea boven de lijst toevoegen om te beschrijven wat de lijst bevat, als je dat wilt!
 
-![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
+Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar in plaats van `<ul>`gebruikt je`<ol>`. Een genummerde lijst wordt ook wel een **ordered** (gerangschikte) lijst genoemd.
 
-Je zou de video op je webpagina moeten zien verschijnen.
+- Voeg onder de code die je zojuist geschreven hebt, de onderstaande code toe - zorg ervoor dat deze **onder** het `</ul>` label staat!
 
-Dezelfde techniek werkt ook voor Google-kaarten. Probeer het eens!
+```html
+    <p>
+        Mijn favoriete drank en eten in Ierland zijn:
+    </p>
+    <ol>
+        <li>Thee</li>
+        <li>Knapperige broodjes</li>
+        <li>worsten</li>
+    </ol>
+```
 
-- Ga [hier](http://dojo.soy/google-maps) naartoe en zoek naar een plaats die je op je website wilt laten zien. **Opmerking:** deel **geen** persoonlijke informatie zoals je huisadres op een website!
+Zo zou het er nu uit zou moeten zien:
 
-- Klik op het menu en klik vervolgens op **kaart delen of insluiten**, vervolgens op het tabblad **Een kaart insluiten** en dan op **HTML KOPIËREN** om de code te kopiëren en voeg deze zoals hierboven toe aan je website. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+![Ordered list](images/egOrderedList.png)
 
-- Als je goed kijkt, vindt je `width` en `height` **attributen** in de geplakte code. Je kunt hun waarden wijzigen om de kaart groter of kleiner te maken.
+--- challenge ---
 
-![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
+## Uitdaging: voeg stijl toe aan je lijsten
+
+- Kijk of je **CSS-regels** aan je stylesheet kunt toevoegen om je lijsten er anders uit te laten zien.
+
+--- /challenge ---

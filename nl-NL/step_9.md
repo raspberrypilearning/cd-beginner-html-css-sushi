@@ -1,65 +1,53 @@
-## Links maken
+## Meer pagina's toevoegen
 
-Op deze kaart leer je hoe je een link kunt maken die, wanneer er op wordt geklikt, je naar een andere pagina brengt.
+Deze kaart laat zien hoe je meer pagina's aan je website kunt toevoegen.
 
-- Voeg de volgende code toe aan het hoofdgedeelte van `index.html`:
+- Klik bovenaan het codepaneel op het **+** symbool naast de tabbladen en typ een naam voor je nieuwe bestand. Het moet eindigen op `.html` (inclusief de punt!) zodat de browser weet dat het een webpagina is.
 
-```html
-  <a href="">Klik hier</a>
-```
-
-De `<a> </a>` tags veranderen alles wat er tussenin zit in een link.
-
-- Klik op je link om te zien wat er gebeurt. Het doet niets, toch?
-
-Dat komt omdat het `href` attribuut momenteel leeg is. Het moet de **URL** (webadres) bevatten van de pagina waarnaar je een koppeling wilt maken.
-
-- Ga naar Wikipedia en vind een pagina over iets op jouw website. Ik ga de pagina over Ierland gebruiken.
-
-- Klik in de adresbalk en selecteer alle tekst in adresbalk. Dat is de volledige URL van de pagina waarop je je bevindt. Druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>C</kdb> toetsen om het te kopiëren.
-    
-    ![URL in address bar](images/AddressBarURL.png)
-
-- Klik in je trinket tussen de aanhalingstekens na `href =` en druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>V</kdb> toetsen om de URL die je zojuist gekopieerd hebt te plakken. Je code zou er ongeveer als volgt uit moeten zien:
-
-```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Klik hier</a>
-```
-
-Je hebt zojuist je eerste link gemaakt! Klik erop om te zien of het nu werkt.
-
-![Link tag](images/egLinkTagWithURL.png)
+![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
 --- collapse ---
 ---
-title: links naar andere websites
+title: een bestand hernoemen of verwijderen
 ---
-Trinket heeft met sommige webadressen problemen. Je kunt desgewenst URL's van andere websites dan Wikipedia proberen, maar deze werken mogelijk niet in jouw trinket. Als je echter je project zou downloaden en de bestanden in een webbrowser zou zien, zouden de koppelingen moeten werken.
+
+Als je de naam van een bestand wilt wijzigen, klik je op het **tandwiel** pictogram rechts van de bestandsnaam en klik vervolgens op het **potlood** icoon. Typ de nieuwe naam in en druk op **Enter**. Je kunt een bestand ook verwijderen door in plaats van op het **potlood** pictogram, op het **vuilnisbak** pictogram te klikken. ![](images/EditFilename.png)
+
+Je vraagt je misschien af ​​waarom je de naam van de `index.html` niet kunt wijzigen. `index.html` is een speciale naam die wordt gebruikt voor de **startpagina** van een website. Dat is de eerste pagina waarop je terechtkomt wanneer je een website bezoekt. Wanneer je naar de startpagina van een website gaat, zoekt de browser naar het bestand met de naam `index.html` en geeft het op je scherm weer.
 
 --- /collapse ---
 
-- Probeer in plaats van de woorden `Klik hier`, een foto tussen de `<a> </a>` tags te plaatsen, zoals hier:
+- Zoek het bestand `blank_page.html` en kopieer en plak alle code ervan in je nieuwe bestand. Omdat je alles wilt kopiëren, kunt je overal op de code klikken en de sneltoets <kbd>Ctrl</kbd> (of <kbd>cmd</kbd>) en <kbd>A</kbd> gebruiken om alles in één keer te selecteren.
+
+- Wijzig de tekst tussen de `<title> </title>` tags zodat je nieuwe pagina een geschikte titel heeft. Trinket geeft de titel niet weer, maar je kunt dit bovenaan in je browservenster zien als je jouw project downloadt.
+
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+
+- Gebruik tussen de `<main> </main>` tags (in het nieuwe bestand) de tags waarvan je weet dat ze dingen toevoegen aan de pagina, zoals alinea's, koppen, afbeeldingen en lijsten!
+
+- Herhaal de bovenstaande stappen voor elke nieuwe pagina die je wilt toevoegen.
+
+Als er te veel tabbladen zijn die Trinket in één keer kan weergegeven, kunt je de **<** en **>** pictogrammen in de linkerbovenhoek van de tabbladen gebruiken om tussen de verschillende pagina's te bladeren.
+
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+
+Nu moet je koppelingen maken, zodat kunt je naar elke nieuwe pagina kunt gaan! Laten we alle links in een lijst plaatsen.
+
+- In het `index.html` bestand, voeg je aan de body van je webpagina de volgende code toe:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">
-      <img src="tito.png" alt="Tito the dog" width="100px" />
-  </a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Attracties</a></li>
+        <li><a href="music.html">Muziek</a></li>
+        <li><a href="food.html">Eten</a></li>
+    </ul>
 ```
 
-- Klik op de afbeelding. Zie je dat het een link is geworden?
+- Wijzig de waarde van het `href` attribuut voor elke koppeling (denk eraan, dat is de tekst binnen de aanhalingstekens) zodat deze exact overeenkomt met de naam van elk HTML-bestand dat je hebt gemaakt.
 
-Je kunt ook een link naar andere elementen van je webpagina plaatsen, zoals naar een alinea of ​​zelfs naar een lijst. Hier is een voorbeeld van een zin met een link erin:
+- Wijzig de tekst tussen de `<a> </a>` tags in geschikte beschrijvingen voor je pagina's.
 
-```html
-  <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Klik hier</a> om de Wikipedia-pagina te lezen!
-  </p>
-```
+Nu kun je naar je nieuwe pagina's navigeren!
 
---- challenge ---
-
-## Uitdaging: zet een link in een lijst
-
-- Kijk of je een lijst kunt maken met een link in een van de cellen van de lijst.
-
---- /challenge ---
+![Example list of links on a web page](images/egListOfPageLinks.png)

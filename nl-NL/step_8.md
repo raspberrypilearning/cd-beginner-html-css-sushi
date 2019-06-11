@@ -1,49 +1,66 @@
-## Een lijst maken
+## Links maken
 
-Nu leer je hoe je een lijst met items, zoals "eenhoorns, robots, katten", in een mooier uitziende lijst kunt veranderen zodat je er later heel leuke dingen mee kan doen.
+Op deze kaart leer je hoe je een link kunt maken die, wanneer er op wordt geklikt, je naar een andere pagina brengt.
 
-- Voeg in het `index.html` bestand, net boven de regel met `</main>` de volgende code toe:
-
-```html
-    <ul>
-        <li>Koeien</li>
-        <li>Schapen</li>
-        <li>Vossen</li>
-        <li>Vleermuizen</li>
-</ul>
-```
-
-Het resultaat zou een mooie lijst als deze moeten zijn:
-
-![Unordered list](images/egUnorderedList.png)
-
-Merk steeds een aparte paar `<li></li>` tags rond elk item in de lijst op.
-
-Dit is een lijst van enkele dieren je in Ierland kunt zien. Je kunt de items in de lijst wijzigen in dingen die logisch zijn voor jouw website, en een alinea boven de lijst toevoegen om te beschrijven wat de lijst bevat, als je dat wilt!
-
-Wat dacht je ervan een genummerde lijst te maken? Het is bijna hetzelfde, maar in plaats van `<ul>`gebruikt je `<ol>`. Een genummerde lijst wordt ook wel een **ordered** (gerangschikte) lijst genoemd.
-
-- Voeg onder de code die je zojuist geschreven hebt, de onderstaande code toe - zorg ervoor dat deze **onder** het `</ul>` label staat!
+- Voeg de volgende code toe aan het hoofdgedeelte van `index.html`:
 
 ```html
-    <p>
-        Mijn favoriete drank en eten in Ierland zijn:
-    </p>
-    <ol>
-        <li>Thee</li>
-        <li>Knapperige broodjes</li>
-        <li>worsten</li>
-    </ol>
+  <a href="">Klik hier</a>
 ```
 
-Zo zou het er nu uit zou moeten zien:
+De `<a> </a>` tags veranderen alles wat er tussenin zit in een link.
 
-![Ordered list](images/egOrderedList.png)
+- Klik op je link om te zien wat er gebeurt. Het doet niets, toch?
+
+Dat komt omdat het `href` attribuut momenteel leeg is. Het moet de **URL** (webadres) bevatten van de pagina waarnaar je een koppeling wilt maken.
+
+- Ga naar Wikipedia en vind een pagina over iets op jouw website. Ik ga de pagina over Ierland gebruiken.
+
+- Klik in de adresbalk en selecteer alle tekst in adresbalk. Dat is de volledige URL van de pagina waarop je je bevindt. Druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>C</kdb> toetsen om het te kopiëren.
+    
+    ![URL in address bar](images/AddressBarURL.png)
+
+- Klik in je trinket tussen de aanhalingstekens na `href =` en druk tegelijkertijd op de <kdb>Ctrl</kdb> (of <kdb>cmd</kdb>) en <kdb>V</kdb> toetsen om de URL die je zojuist gekopieerd hebt te plakken. Je code zou er ongeveer als volgt uit moeten zien:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">Klik hier</a>
+```
+
+Je hebt zojuist je eerste link gemaakt! Klik erop om te zien of het nu werkt.
+
+![Link tag](images/egLinkTagWithURL.png)
+
+--- collapse ---
+---
+title: links naar andere websites
+---
+
+Trinket heeft met sommige webadressen problemen. Je kunt desgewenst URL's van andere websites dan Wikipedia proberen, maar deze werken mogelijk niet in jouw trinket. Als je echter je project zou downloaden en de bestanden in een webbrowser zou zien, zouden de koppelingen moeten werken.
+
+--- /collapse ---
+
+- Probeer in plaats van de woorden `Klik hier`, een foto tussen de `<a> </a>` tags te plaatsen, zoals hier:
+
+```html
+  <a href="https://en.wikipedia.org/wiki/Ireland">
+      <img src="tito.png" alt="Tito the dog" width="100px" />
+  </a>
+```
+
+- Klik op de afbeelding. Zie je dat het een link is geworden?
+
+Je kunt ook een link naar andere elementen van je webpagina plaatsen, zoals naar een alinea of ​​zelfs naar een lijst. Hier is een voorbeeld van een zin met een link erin:
+
+```html
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Ireland">Klik hier</a> om de Wikipedia-pagina te lezen!
+  </p>
+```
 
 --- challenge ---
 
-## Uitdaging: voeg stijl toe aan je lijsten
+## Uitdaging: zet een link in een lijst
 
-- Kijk of je **CSS-regels** aan je stylesheet kunt toevoegen om je lijsten er anders uit te laten zien.
+- Kijk of je een lijst kunt maken met een link in een van de cellen van de lijst.
 
 --- /challenge ---

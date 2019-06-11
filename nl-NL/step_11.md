@@ -1,60 +1,75 @@
-## Navigeren door je website
+## Een menubalk maken
 
-Veel websites hebben een **navigatie** menu om bezoekers tussen pagina's te laten navigeren. Nu je meerdere pagina's, een startpagina en koppelingen naar elke pagina hebt, kunt je de lijst met koppelingen verplaatsen naar een navigatie gedeelte boven aan elke pagina.
+Op deze kaart ziet je hoe je jouw navigatiemenu kunt veranderen in een cool uitziende menubalk, gewoon door meer CSS-regels toe te voegen aan de stylesheet.
 
-![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
+![Example of a menu bar](images/egCoolMenuBar.png)
 
-- Zoek de code voor je lijst met links die je in de vorige stap hebt gemaakt.
+- Ga naar het stijlblad in de `styles.css` tab. Klik **onder** een sluit accolade `}` en druk op **Enter** om een ​​nieuwe lege regel te maken. Voeg de volgende CSS code in:
 
-- Druk vlak voor de opening `<ul>` tag op **Enter** om een ​​nieuwe lege regel te maken, typ dan op de nieuwe regel de volgende tag: `<nav>`. Trinket voegt de sluit tag automatisch toe, maar deze kun je verwijderen - hij staat niet op de juiste plaats.
+```css
+    nav ul {
+        background-color: tomato;
+    }
+```
 
-- Druk vlak **na** de sluittag `</ul>` op **Enter** om een ​​nieuwe lege regel te maken, typ dan op de nieuwe regel de volgende tag: `</nav>`.
+Merk op hoe je twee selectors gebruikte in plaats van één? Als je alleen de `ul` selector zou hebben gebruikt, zou de regel van invloed zijn op alle ongeordende lijsten op je website. Het toevoegen van de `nav` selector maakt het alleen van toepassing op lijsten die tussen `nav` tags staan.
 
-- Selecteer nu je gehele `<nav>` gedeelte en lijst door net vóór de `<nav>` tag te klikken en de muis helemaal naar beneden te slepen tot net na de `</nav>` tag, zodat alle tekst inclusief de open en sluit tags worden gemarkeerd. Zorg ervoor dat alle **punthaken** `<` en `>` aan het begin en einde ook zijn gemarkeerd!
+![List with red background](images/egMenuBarFirstStyle.png)
 
-![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+Laten we de opsommingstekens verwijderen. Dat zijn de stippen voor elk lijst item.
 
-- Je gaat deze keer **knippen** in plaats van kopiëren. Houd de <kbd>Ctrl</kbd> (of <kbd>cmd</kbd>) toets ingedrukt terwijl je op de toets <kbd>X</kbd> drukt. De gemarkeerde code verdwijnt, maar raak niet in paniek!
+- Voeg de volgende code toe aan het `style.css` bestand. Typ na een `}` opnieuw een nieuwe regel zodat het niet in een ander set regels zit.
 
-- Klik boven in het bestand in de spatie tussen `<header> </header>` tags. Zorg ervoor dat de cursor daar knippert. Plak nu de code door zoals gewoonlijk op <kbd>Ctrl</kbd> (of <kbd>cmd</kbd>) en <kbd>V</kbd> te drukken. Je code zou er als volgt uit moeten zien:
+```css
+    nav ul li {
+        list-style-type: none;
+    }
+```
+
+Merk op dat deze set regels drie selectors heeft: het selecteert alle `li` elementen die zich in een `ul` lijst bevinden, die zich binnen een `nav` sectie bevinden. Oef!
+
+![List with bullet points removed](images/egMenuBarNoBullets.png)
+
+Laten we nu de lijst in plaats van verticaal (naar beneden) horizontaal (over de breedte) maken.
+
+- Binnen de nieuwe CSS-regel die je zojuist hebt gemaakt, voeg je de volgende regel toe: `display: inline;`.
+
+![](images/egMenuBarInline.png)
+
+- De menu-items zijn nu allemaal samen geplet, dus laten we ook de eigenschappen `margin-right` (ruimte rechts) en `margin-left` (ruimte links) toevoegen om ze een beetje te spreiden. Het blok CSS-code zou er nu als volgt uit moeten zien:
+
+```css
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+```
+
+Onthoud: `10px` betekent tien pixels.
+
+Hoe zou het zijn om het menu te veranderen zodat het vertelt op welke pagina je je bevindt? Dit onderdeel staat niet in de stylesheet.
+
+- Begin met de startpagina. Ga naar de `index.html`. Verwijder in de lijst met menu links de link-tags voor en na het woord `Home`, zodat het lijstitem voor de startpagina alleen tekst tussen `<li> </li>` tags is, zoals deze: `<li>Home</li>`.
+
+- Ga nu naar elk van je andere bestanden en doe hetzelfde, verwijder telkens de koppeling tags voor de pagina die je aan het bewerken bent. Dus bijvoorbeeld in het `music.html ` bestand, heb ik de koppeling tags verwijderd in de `muziek` lijst item:
 
 ```html
     <header>
         <nav>
             <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attracries</a></li>
-            <li><a href="music.html">Muziek</a></li>
+            <li><a href="attractions.html">Attracties</a></li>
+            <li>Muziek</li>
             <li><a href="food.html">Eten</a></li>
             </ul>
         </nav>
     </header>
 ```
 
---- collapse ---
----
-title: Ongedaan maken!
----
-Als je een fout maakt, kun je het **ongedaan maken** door tegelijkertijd op <kbd>Ctrl</kbd> (of <kbd>cmd</kbd>) en <kbd>Z</kbd> te drukken. Je kunt deze toetscombinatie meestal meerdere keren indrukken om de laatste paar wijzigingen ongedaan te maken. Dit is een handige sneltoets die je in veel programma's kunt gebruiken!
+- Verken je pagina's door op de links te klikken. Zie je hoe de menubalk de pagina die je gebruikt als platte tekst weergeeft in plaats van een link? 
 
---- /collapse ---
+![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
-- Probeer je links om er zeker van te zijn dat ze nog steeds werken.
-
---- challenge ---
-
-## Uitdaging: navigatiemenu's voor alle pagina's
-
-- Plaats deze code in het kop gedeelte van elk HTML-bestand dat je hebt gemaakt. Hierdoor zal het navigatiemenu aan de bovenkant van elke pagina op je website verschijnen.
-    
-    --- hints ---
-    
-    --- hint --- Selecteer de hele `<nav>` sectie zoals je eerder deed, en druk tegelijkertijd op de <kbd>Ctrl</kbd> (of <kbd>cmd</kbd>) en <kbd>C</kbd> toets om het te kopiëren.
-
-Klik vervolgens in elk van je `.html` bestanden in de `<header></header>` sectie en plak de code precies zoals je al eerder deed. --- /hint ---
-
---- /hints ---
-
-Nu kun je op de links klikken, ongeacht op welke pagina je je bevindt.
-
---- /challenge ---
+Op de volgende kaart leer je nog meer CSS-trucs om de menubalk er nog beter uit te laten zien.

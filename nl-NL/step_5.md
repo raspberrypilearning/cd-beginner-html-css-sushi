@@ -1,72 +1,74 @@
-## Bepalen hoe het eruit ziet
+## Afbeeldingen toevoegen
 
-De code die beschrijft hoe een website eruit ziet, wordt **CSS** genoemd.
+Laten we een afbeelding toevoegen!
 
-- Kijk naar de tabbladen bovenaan het codepaneel en ga naar het bestand `styles.css` door op het tabblad met die naam te klikken. Het bestand bevat de volgende tekst:
+- Ga naar het tabblad met de naam `index.html`. Vind de `</main>` tag en typ het volgende **daarboven**: 
 
-```css
-  body {
-      background-color: white;
-  }
+```html
+    <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-- Verander de kleur `white` (wit) naar `LightSkyBlue` (lichtblauw) en kijk wat er gebeurt. Je website zou nu een blauwe achtergrond moeten hebben! 
+Hier is hoe het resultaat eruit zou moeten zien:
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![Image code and picture of Tito](images/egImgCodeTito.png)
+
+Merk op dat deze tag extra stukjes informatie bevat. Ze worden **attributes** (attributen) genoemd.
+
+- Zoek het stukje code met `width = "100px"` en probeer te experimenteren met verschillende getallen om te zien of je kunt achterhalen wat dit attribute doet. Verwijder niet de letters `px`!
 
 --- collapse ---
 ---
-title: Hoe werkt het?
+title: Hoe de `<img>` tag werkt
 ---
-Als je naar de bovenkant van het `index.html` bestand kijkt, zie je de volgende regel:
 
-```html
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
-```
+Merk op dat de `<img>` tag verschilt van de andere tags die je tot dusver hebt gebruikt, — er is geen sluit `</img>` tag. In plaats daarvan is deze tag **zelfsluitend**: het heeft `/>` aan het einde. Dit komt omdat er geen 'begin' en 'einde' aan een afbeeldingselement zit zoals er wel voor tekst op de pagina is.
 
-De bovenstaande regel vertelt de browser om te zoeken naar een speciaal bestand met de naam `styles.css`. Dit speciale bestand wordt een **style sheet** genoemd. Je kunt een style sheet (opmaakbestand) herkennen door de `.css` in de naam.
+De tag bevat **attributes** met extra informatie:
 
-Een style sheet bevat **regels** voor hoe elk element op je webpagina eruit zou moeten zien.
-
-De accolades `{ }` en de code ertussen is een set van **CSS-regels**. Het woord `body` betekent dat de regels voor alle `<body>` elementen op je website gelden. We noemen het woord voor de accolades een **selector**. Dus in dit geval is het de selector voor de body elementen.
-
-Elke regel binnen de accolades bestaat uit:
-
-- Een **property** (eigenschap) aan de linkerkant, gevolgd door een dubbele punt `:`
-- Een **waarde** voor de eigenschap na de dubbele punt
-- Een puntkomma `;` aan het einde
+- Het `src` attribuut vertelt de browser welk bestand moet worden gebruikt voor de afbeelding. 
+- Het `alt` attribute is een korte beschrijving die de browser zal weergeven als het de afbeelding niet kan weergeven. 'alt' is een afkorting voor 'alternatief'. Deze tekst helpt ook mensen die een schermlezer gebruiken om te weten wat de afbeelding weergeeft.
+- Het `width` attribuut vertelt de browser hoe breed het de afbeelding moet weergeven. `100px` betekent honderd **pixels**, dat zijn de kleine puntjes die bepalen wat je op je scherm ziet. Als je dit kenmerk niet opneemt, wordt de afbeelding in de oorspronkelijke grootte weergegeven.
 
 --- /collapse ---
 
-- Laat we regels toevoegen om de weergave van de tekst te veranderen. Voeg binnen de accolades twee nieuwe regels toe:
+Nu je de code kent om een ​​afbeelding op je website te plaatsen, wil je waarschijnlijk de afbeelding veranderen, toch?
 
-```css
-  body {
-    background-color: LightSkyBlue;
-    font-family: "Helvetica", sans-serif;
-    color: purple;
-  }
-```
+- Het eerste dat je nodig hebt is natuurlijk een afbeelding of foto! Je kunt er een gebruiken die je al op je computer hebt staan, zoals een foto die je hebt gemaakt, of je kunt er een downloaden van internet.
 
-Kijk hoe dit de webpagina heeft veranderd.
+[[[generic-get-picture-from-web]]]
 
-De `color` (kleur) eigenschap is altijd voor tekst. Hier stel je de kleur van alle tekst in de `body` van je webpagina in.
+**Opmerking:** niet alle afbeeldingen die je op internet vindt, zijn voor iedereen gratis te gebruiken. Als je een afbeelding downloadt, moet je ervoor zorgen dat dit er een is die je mag gebruiken. Lees hier meer over:
 
-- Je kunt ook afzonderlijke regels schrijven voor de headings (koppen) en alinea's. Voor `<h1>`headings van gebruik je de`h1` selector. Na de sluit accolade die de CSS-regel voor de body bevat, voeg je de volgende code toe.
+[[[images-permissions-to-use]]]
 
-```css
-  h1 {
-    color: orange;
-    font-family: "Times New Roman", serif;
-  }
-```
+Zodra je een afbeelding of foto hebt, kun je het bestand **uploaden** naar Trinket:
 
-Je koptekst moet nu oranje zijn, met de alinea in het paars als voorheen.
+- Klik in je trinket op het **image** pictogram naast het **+** teken. 
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![The image icon](images/tktImageIconArrow.png)
 
-Merk ook op hoe de letters er anders uitzien en ook een andere kleur hebben? Dit komt omdat je de **font family** (lettertype) hebt gewijzigd. Je kunt [hier](http://dojo.soy/web-font-families) meer lettertypes vinden.
+Dit is waar je de foto's kunt zien, die je kunt gebruiken op jouw website. Je zou de afbeelding van Tito, de CoderDojo-hond, moeten zien.
 
-- Probeer een set regels voor de `<h2>` headings toe te voegen met behulp van de `h2` selector.
+- Klik op de knop **Add Image** en klik vervolgens op **Upload**.
 
-- Waarom niet experimenteren met verschillende kleurencombinaties voor de tekst en achtergrond? Er zijn veel kleuren beschikbaar om te gebruiken. Vind [hier](http://dojo.soy/web-color-names) een volledige lijst.
+- Klik op de knop **Click To Select Files**. Zoek en dubbelklik op je afbeelding in het venster dat wordt geopend.
+
+- Klik op **Done**.
+
+![Image upload area](images/tktUploadImages.png)
+
+Je foto wordt geüpload en moet klaar zijn voor gebruik.
+
+- Ga naar het bestand `index.html` en zoek de `<img>` tag. Wijzig de tekst `tito.png` zodat het precies overeenkomt met de naam van de afbeelding die je hebt gekozen. Merk op dat de naam eindigt op `.jpg` in plaats van `.png`!
+
+De tekst die je zojuist hebt gewijzigd is het attribute met de naam `src`, die de browser vertelt welk bestand moet worden weergegeven.
+
+**Opmerking:** de waarde die je typt voor een attribute moet tussen aanhalingstekens `""`staan!
+
+--- challenge ---
+
+## Uitdaging: verander de alt-tekst van de afbeelding
+
+- Zoek het `alt` attribuut van je afbeelding en verander de tekst daarvan in een korte beschrijving van je afbeelding. 
+
+--- /challenge ---
