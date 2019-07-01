@@ -19,7 +19,7 @@ Notice that this tag has extra bits of information inside it. They are called **
 --- collapse ---
 
 ---
-title: How the `&lt;img>` tag works
+title: How the `img` tag works
 ---
 
 Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page. 
