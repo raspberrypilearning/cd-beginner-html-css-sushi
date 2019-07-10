@@ -6,7 +6,7 @@
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
-- Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Zie je de verandering aan de rechterkant?
+- Verander nu op dezelfde regel de `<p>` en `</p>` door `<h1>` en `</h1>`. Zie je de verandering aan de rechterkant?
 
 ```html
   <h1> Welkom in Ierland! </h1>
@@ -21,7 +21,7 @@ title: HTML en tags uitgelegd
 
 De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar **tags** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
 
-HTML-tags zoals `<p>` en ` </p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements** (elementen) genoemd. Zie ze als bouwstenen.
+HTML-tags zoals `<p>` en `</p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements** (elementen) genoemd. Zie ze als bouwstenen.
 
 ### Waarom heb ik twee tags nodig?
 
