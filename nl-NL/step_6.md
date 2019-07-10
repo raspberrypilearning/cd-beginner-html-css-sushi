@@ -4,7 +4,7 @@ YouTube biedt een eenvoudige manier om video's aan je website toe te voegen. Het
 
 - Zoek een video op YouTube die je op je website wilt laten zien.
 
-- Klik op de **Delen** knop onder de video. Klik op **KOPIËREN **.
+- Klik op de **Delen** knop onder de video. Klik op **KOPIËREN**.
 
 Je ziet een tekstvak met: Link gekopieerd naar klembord. Als je per ongeluk de selectie van de tekst ongedaan maakt, kun je alles opnieuw selecteren door op de <kbd>Ctrl</kbd> toets (of <kbd>cmd</kbd> toets op een Mac) en de <kbd>A</kbd> toets tegelijkertijd in te drukken.
 
@@ -22,7 +22,7 @@ Dezelfde techniek werkt ook voor Google-kaarten. Probeer het eens!
 
 - Ga [hier](http://dojo.soy/google-maps) naartoe en zoek naar een plaats die je op je website wilt laten zien. **Opmerking:** deel **geen** persoonlijke informatie zoals je huisadres op een website!
 
-- Klik op het menu en klik vervolgens op **kaart delen of insluiten**, vervolgens op het tabblad <0>Een kaart insluiten</0> en dan op <0>HTML KOPIËREN</0> om de code te kopiëren en voeg deze zoals hierboven toe aan je website. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+- Klik op het menu en klik vervolgens op **kaart delen of insluiten**, vervolgens op het tabblad **Een kaart insluiten** en dan op **HTML KOPIËREN** om de code te kopiëren en voeg deze zoals hierboven toe aan je website. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
 
 - Als je goed kijkt, vindt je `width` en `height` **attributen** in de geplakte code. Je kunt hun waarden wijzigen om de kaart groter of kleiner te maken.
 
