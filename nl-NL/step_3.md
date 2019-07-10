@@ -6,7 +6,7 @@
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
-- Verander nu op dezelfde regel de `<p>` en `</p>` door `<h1>` en `</h1>`. Zie je de verandering aan de rechterkant?
+- Verander nu op dezelfde regel de `<p>` en ` </p>` door `<h1>` en ` </h1>`. Zie je de verandering aan de rechterkant?
 
 ```html
   <h1> Welkom in Ierland! </h1>
@@ -19,15 +19,15 @@ title: HTML en tags uitgelegd
 
 **HTML** is de code die een webpagina maakt.
 
-De `.html` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar **tags** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
+De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar ** tags ** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
 
-HTML-tags zoals `<p>` en ` </p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements** (elementen) genoemd. Zie ze als bouwstenen.
+HTML-tags zoals `<p>` en ` </p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements ** (elementen) genoemd. Zie ze als bouwstenen.
 
 ### Waarom heb ik twee tags nodig?
 
 Je hebt een **open** en een **closing** (sluit) tag nodig om de browser te vertellen waar de elementen **starten** en **eindigen**. Dus voor een alinea, de opening tag `<p>` zegt "Hier komt wat tekst die ik wil weergeven als een alinea." De afsluitende tag `</p>` vertelt de browser waar de alinea eindigt.
 
-Alles tussen de `<body>` en `</body>` tags is je webpagina.
+Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 
 - Let er op dat de afsluitende tag **altijd** een schuine streep `/` naar voren heeft.
 

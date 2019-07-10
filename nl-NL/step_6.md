@@ -4,7 +4,7 @@ YouTube biedt een eenvoudige manier om video's aan je website toe te voegen. Het
 
 - Zoek een video op YouTube die je op je website wilt laten zien.
 
-- Klik op de **Delen** knop onder de video. Klik op **KOPIËREN**.
+- Klik op de **Delen** knop onder de video. Klik op **KOPIËREN **.
 
 Je ziet een tekstvak met: Link gekopieerd naar klembord. Als je per ongeluk de selectie van de tekst ongedaan maakt, kun je alles opnieuw selecteren door op de <kbd>Ctrl</kbd> toets (of <kbd>cmd</kbd> toets op een Mac) en de <kbd>A</kbd> toets tegelijkertijd in te drukken.
 

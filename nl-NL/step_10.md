@@ -36,7 +36,7 @@ Veel websites hebben een **navigatie** menu om bezoekers tussen pagina's te late
 title: Ongedaan maken!
 ---
 
-Als je een fout maakt, kun je het **ongedaan maken** door tegelijkertijd op <kbd>Ctr</kbd> (of <kbd>cmd</kbd>) en <kbd>Z</kbd> te drukken. Je kunt deze toetscombinatie meestal meerdere keren indrukken om de laatste paar wijzigingen ongedaan te maken. Dit is een handige sneltoets die je in veel programma's kunt gebruiken!
+Als je een fout maakt, kun je het **ongedaan maken** door tegelijkertijd op <kbd>Ctr </kbd> (of <kbd>cmd</kbd>) en <kbd>Z</kbd> te drukken. Je kunt deze toetscombinatie meestal meerdere keren indrukken om de laatste paar wijzigingen ongedaan te maken. Dit is een handige sneltoets die je in veel programma's kunt gebruiken!
 
 --- /collapse ---
 
@@ -48,7 +48,7 @@ Als je een fout maakt, kun je het **ongedaan maken** door tegelijkertijd op <kbd
 
 - Plaats deze code in het kop gedeelte van elk HTML-bestand dat je hebt gemaakt. Hierdoor zal het navigatiemenu aan de bovenkant van elke pagina op je website verschijnen.
     
---- hints ---
+--- hints --- 
 --- hint --- 
 
 Selecteer de hele `<nav>` sectie zoals je eerder deed, en druk tegelijkertijd op de <kbd>Ctrl</kbd> (of <kbd>cmd</kbd>) en <kbd>C</kbd> toets om het te kopiëren.

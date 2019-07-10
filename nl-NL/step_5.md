@@ -18,7 +18,7 @@ Merk op dat deze tag extra stukjes informatie bevat. Ze worden **attributes** (a
 
 --- collapse ---
 ---
-title: Hoe de `<img>` tag werkt
+## title: Hoe de `<img>` tag werkt
 ---
 
 Merk op dat de `<img>` tag verschilt van de andere tags die je tot dusver hebt gebruikt, — er is geen sluit `</img>` tag. In plaats daarvan is deze tag **zelfsluitend**: het heeft `/>` aan het einde. Dit komt omdat er geen 'begin' en 'einde' aan een afbeeldingselement zit zoals er wel voor tekst op de pagina is.

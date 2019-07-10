@@ -1,6 +1,6 @@
 ## Opstarten
 
-- Ga naar [the starter trinket](https://trinket.io/html/423503b5d6). Je ziet een project met een voorbeeld van een website. Aan de rechterkant de website en aan de linkerkant staat de code die de website maakt. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- Ga naar [the starter trinket](https://trinket.io/html/ec7aa857b0). Je ziet een project met een voorbeeld van een website. Aan de rechterkant de website en aan de linkerkant staat de code die de website maakt. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
 --- collapse ---
 ---
