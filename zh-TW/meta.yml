@@ -1,0 +1,46 @@
+---
+title: Guide to my country 1.0
+hero_image: images/banner.png
+description: Learn to make a website
+theme: red
+duration: 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 介紹
+  - 
+    title: Getting set up
+  - 
+    title: Your first webpage!
+  - 
+    title: Controlling how it looks
+  - 
+    title: Adding pictures
+  - 
+    title: Adding a map or video
+  - 
+    title: Making a list
+  - 
+    title: Creating links
+  - 
+    title: Adding more pages
+  - 
+    title: Navigating your website
+  - 
+    title: Making a menu bar
+  - 
+    title: Styling the menu bar
+  - 
+    title: Adding a table
+  - 
+    title: What next?
