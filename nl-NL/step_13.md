@@ -55,7 +55,7 @@ De HTML-code voor de bovenstaande tabel ziet er als volgt uit:
 
 Om nog een **rij** toe te voegen, voeg je nog een set `<tr> </tr>` tags toe. Daartussen plaatst je hetzelfde aantal **gegevens** met `<td> </td>` tags zoals in de andere rijen.
 
-Om nog een **kolom** toe te voegen, voeg je aan **elke** rij extra **gegevens** met een set van `<td> </td>` tags toe. Voeg ook een extra ** header ** met `<th> </th>` tags aan de eerste rij toe.
+Om nog een **kolom** toe te voegen, voeg je aan **elke** rij extra **gegevens** met een set van `<td> </td>` tags toe. Voeg ook een extra **header** met `<th> </th>` tags aan de eerste rij toe.
 
 --- collapse ---
 ---
