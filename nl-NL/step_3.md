@@ -19,15 +19,15 @@ title: HTML en tags uitgelegd
 
 **HTML** is de code die een webpagina maakt.
 
-De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar ** tags ** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
+De `.html ` in de bestandsnaam vertelt de browser dat het bestand een webpagina is, waarna de browser naar **tags** (label) zoekt welke hem vertellen wat hij moet weergeven. (Een browser is het programma dat je gebruikt om naar websites te kijken, bijvoorbeeld Chrome of Firefox.)
 
-HTML-tags zoals `<p>` en ` </p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements ** (elementen) genoemd. Zie ze als bouwstenen.
+HTML-tags zoals `<p>` en ` </p>` definiëren verschillende delen van een pagina, bijvoorbeeld alinea's, koppen of de inhoud. Deze delen worden **elements** (elementen) genoemd. Zie ze als bouwstenen.
 
 ### Waarom heb ik twee tags nodig?
 
 Je hebt een **open** en een **closing** (sluit) tag nodig om de browser te vertellen waar de elementen **starten** en **eindigen**. Dus voor een alinea, de opening tag `<p>` zegt "Hier komt wat tekst die ik wil weergeven als een alinea." De afsluitende tag `</p>` vertelt de browser waar de alinea eindigt.
 
-Alles tussen de `<body>` en ` </body>` tags is je webpagina.
+Alles tussen de `<body>` en `</body>` tags is je webpagina.
 
 - Let er op dat de afsluitende tag **altijd** een schuine streep `/` naar voren heeft.
 
@@ -38,7 +38,8 @@ Alles tussen de `<body>` en ` </body>` tags is je webpagina.
 - Zoek de code voor de alinea met de tekst `Mijn website gaat over Ierland` en verander het zodat het er zo uitziet:
 
 ```html
-  <p> <em>Mijn website</em> gaat over <strong>Ierland</strong>. 
+  <p> 
+    <em>Mijn website</em> gaat over <strong>Ierland</strong>. 
     Het gaat de pagina's: Attracties, Muziek en Eten bevatten
   </p>
 ```
@@ -54,9 +55,9 @@ Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
 - Probeer een nieuwe alinea of ​​kop aan je pagina toe te voegen met behulp van enkele van de tags die je hebt geleerd.
 
 --- hints ---
+--- hint --- 
 
-
---- hint --- Als je tekst op een pagina wilt plaatsen, moet je deze tussen twee tags plaatsen die je browser vertellen hoe jouw tekst moet worden weergegeven. Bijvoorbeeld de `<p> </p>` tags vertellen de browser dat alles wat er tussenin zit een nieuwe alinea is en de `<h1> </h1>` tags vertellen dat de tekst ertussen een heading (kop) is.
+Als je tekst op een pagina wilt plaatsen, moet je deze tussen twee tags plaatsen die je browser vertellen hoe jouw tekst moet worden weergegeven. Bijvoorbeeld de `<p> </p>` tags vertellen de browser dat alles wat er tussenin zit een nieuwe alinea is en de `<h1> </h1>` tags vertellen dat de tekst ertussen een heading (kop) is.
 
 --- /hint ---
 
