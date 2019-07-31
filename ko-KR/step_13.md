@@ -1,76 +1,76 @@
-## Adding a table
+## 테이블 추가
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+때로는 테이블에 정보를 표시하는 것이 유용 할 수 있습니다. 예를 들어, 지역 스포츠 클럽이나 학교의 웹 사이트에 회원 정보를 나열하거나 좋아하는 10 가지 곡에 대한 정보를 나열 할 수 있습니다.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+표는 **행**과 **열**로 구성됩니다. 대부분의 테이블에는 **헤더**라는 각 열의 맨 위에 제목이 있습니다. 아래 예제를 참고하세요:
 
-![Example of information in a table](images/egTableResult.png)
+![표의 정보 예](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- ` page_with_table.html ` 파일로 이동하십시오. 그 안에는 다양한 `<table> </table>` 태그가 존재합니다.
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- `<table>` 부터 `</table>` 태그를 선택하여 복사하세요. 그런 다음 표를 넣을 파일 중 하나를 찾아 코드에 붙여 넣으십시오.
 
-At the moment your table is empty.
+귀하의 테이블은 현재 비어 있습니다.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- 당신이 좋아하는 무엇이든 테이블에 채워 보세요! `<td> </td>` 태그 사이와, `<th> </th>` 태그에 텍스트를 추가하세요. 필요한 경우 더 많은 태그를 추가할 수도 있습니다.
 
 ## \--- collapse \---
 
-## title: Example code
+## title: 예제 코드
 
-The HTML code for the table shown above looks like this:
+위에 표시된 테이블의 HTML 코드는 다음과 같습니다.
 
 ```html
   <table>
     <tr>
-      <th>Name of pet</th>
-      <th>Animal</th>
-      <th>Colour</th>
+      <th>이름</th>
+      <th>동물</th>
+      <th>색상</th>
     </tr>
     <tr>
-      <td>Mia</td>
-      <td>Cat</td>
-      <td>Black and fluffy</td>
+      <td>미야</td>
+      <td>고양이</td>
+      <td>검은색</td>
     </tr>
     <tr>
-      <td>Tito</td>
-      <td>Dog</td>
-      <td>Black with brown patches</td>
+      <td>티토</td>
+      <td>개</td>
+      <td>검정색, 갈색</td>
     </tr>
     <tr>
-      <td>Honeycomb</td>
-      <td>Guinea Pig</td>
-      <td>White with orange patches</td>
+      <td>허니콤</td>
+      <td>기니아 돼지</td>
+      <td>하얀색, 주황색</td>
     </tr>
     <tr>
-      <td>Alfie</td>
-      <td>Budgie</td>
-      <td>Green and yellow</td>
+      <td>알피</td>
+      <td>새</td>
+      <td>초록색, 노란색</td>
     </tr>
   </table>
 ```
 
 \--- /collapse \---
 
-To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+다른 **행** 을 추가하려면, `<tr> </tr>` 세트를 추가하세요. 그 사이에 동일한 수의 **데이터**를 넣어 `<td> </td>` 태그를 다른 행에 있는 것처럼 사용하세요.
 
-To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+다른 **열** 을 추가하려면 ** 더 많은 데이터를 추가하여** 모든 `<td> </td>` 태그를 만들고 추가하세요. 물론 **header**에 `<th> </th>` 을 사용하여 속성을 추가해야 합니다.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: 어떻게 동작하나요?
 
-Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+태그를 모두 살펴 보겠습니다. 이 코드는 리스트와 비슷하면서도 (`<ul>` 과 `<ol>` 을 기억하세요) 더 수준 높은 코드입니다.
 
-Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+각 쌍의 `<tr> </tr>` 은 행이고, 두 태그 사이의 모든 내용이 한 행에 표시됩니다.
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+첫 번째 항에는 `<th> </th>` 태그가 포함됩니다. 이는 주로 헤더로 사용되고, 열 제목이 이 사이에 들어갑니다. 테이블에 있는 각 열에 대해 하나의 쌍이 있습니다.
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+`<td> </td>` 태그는 테이블 데이터라는 것을 정의하며, 이는 다른 모든 행에 포함됩니다. 이것들은 목록 항목 태그 `<li> </li>`와 비슷합니다: 그 둘 사이에있는 모든 텍스트가 테이블 행에 있는 하나의 항목입니다.
 
 \--- /collapse \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- `styles.css` 파일의 끝 부분을 보면, 테이블을 나타내는 CSS 코드를 볼 수 있습니다. 당신은 그것 모두를 이해할 필요가 없습니다! 그러나 텍스트, 테두리 및 배경색을 변경하여 자신만의 스타일을 디자인 해 볼 수 있습니다.
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ The `<td> </td>` tags define what's called table data, and that's what goes in a
   }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+일부 선택자가 쉼표를 사용하는데 이것은 무엇일까요? (예 : ` table, th, td`) 이는 **셀렉터 목록**을 뜻합니다: 이는 모든 `<th>` 요소와 `<td>` 요소에 적용됨을 의미합니다. 각 태그에 대해 동일한 규칙을 입력할 필요가 없습니다!
