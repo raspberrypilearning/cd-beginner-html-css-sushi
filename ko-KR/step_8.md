@@ -1,44 +1,44 @@
-## Creating links
+## 링크 만들기
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+이 장에서는 특정 링크를 클릭하면 다른 페이지로 연결되는 링크를 만드는 방법을 배우게 됩니다.
 
-- Add the following code to the body section of `index.html`:
+- ` index.html ` 의 body 섹션에 다음 코드를 추가합니다:
 
 ```html
-  <a href="">Click here</a>
+  <a href="">여기를 클릭하세요.</a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+`<a> </a>` 태그는 둘 사이에 있는 모든 객체를 링크로 바꾸는 역할을 합니다.
 
-- Try clicking your link to see what happens. It does nothing, right?
+- 링크를 클릭하면 어떻게되는지 확인해 보세요. 아무것도 안 바뀌죠?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+왜냐하면 `href` 속성은 현재 비어 있기 때문입니다. **URL** 을 href 속성에 기재해 주어야 하는데, 연결하고자 하는 웹 주소를 입력하세요.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- Wikipedia로 이동하여 귀하의 웹 사이트에 연결할 만한 페이지를 선택하세요. 저는 아일랜드에 관한 페이지를 사용하겠습니다.
 
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- 주소창에 있는 모든 텍스트를 복사합니다. 현재 실행한 페이지의 전체 URL입니다. Ctrl <kdb>키</kdb> (Mac에서는 <kdb>cmd</kdb>) <kdb>와 C 키를</kdb> 동시에 눌러 복사하세요.
     
-    ![URL in address bar](images/AddressBarURL.png)
+    ![주소표시줄 URL](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- Trinket에서는, `href=` 다음에 있는 따옴표 사이를 클릭해 <kdb>Ctrl 키</kdb> (Mac에서는 <kdb>cmd</kdb>) <kdb>와 V</kdb> 키를 동시에 눌러 방금 복사한 URL을 붙여 넣습니다. 아래와 같이 결과가 도출될 것입니다.
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+  <a href="https://en.wikipedia.org/wiki/Ireland">여기를 클릭하세요.</a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+처음으로 링크를 만들었습니다! 어떻게 동작하는지 확인해 봅시다.
 
-![Link tag](images/egLinkTagWithURL.png)
+![링크 태그](images/egLinkTagWithURL.png)
 
 ## \--- collapse \---
 
-## title: Links to other websites
+## title: 다른 웹사이트에 링크 걸기
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Trinket은 일부 웹 주소에 들어가는 것에 일부 문제가 있습니다. 원하는 경우 Wikipedia 이외의 웹 사이트 URL을 사용해 볼 수도 있지만 Trinket에서는 작동하지 않을 수 있습니다. 그러나 프로젝트를 다운로드하고 웹 브라우저에서 파일을 볼 경우 링크가 작동하는 것을 볼 수 있습니다.
 
 \--- /collapse \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- `<a> </a>` 태그 사이에 `여기를 클릭하세요.` 등의 텍스트가 아닌 사진 소스코드를 넣으세요:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,20 +46,20 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- 사진을 클릭해서 링크로 바뀌었는지 확인하세요.
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+문장이나 리스트과 같이 웹 페이지의 다른 요소에도 링크를 넣을 수 있습니다. 다음은 링크가 있는 문장의 예입니다.
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+    <a href="https://en.wikipedia.org/wiki/Ireland"> 여기를 클릭하십시오. </a> Wikipedia 페이지를 읽으세요!
   </p>
 ```
 
-\--- 도전 \---
+\--- challenge \---
 
-## Challenge: put a link into a list
+## 과제: 리스트에 링크 넣기
 
-- See if you can make a list that contains a link inside one of the list items.
+- 리스트 항목 중 하나에 링크가 포함 된 리스트를 제작해 보세요.
 
 \--- /challenge \---
