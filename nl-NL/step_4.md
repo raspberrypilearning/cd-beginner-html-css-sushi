@@ -53,7 +53,7 @@ Kijk hoe dit de webpagina heeft veranderd.
 
 De `color` (kleur) eigenschap is altijd voor tekst. Hier stel je de kleur van alle tekst in de `body` van je webpagina in.
 
-- Je kunt ook afzonderlijke regels schrijven voor de headings (koppen) en alinea's. Voor `<h1>`headings van gebruik je de`h1` selector. Na de sluit accolade die de CSS-regel voor de body bevat, voeg je de volgende code toe.
+- Je kunt ook afzonderlijke regels schrijven voor de headings (koppen) en alinea's. Voor `<h1>` headings van gebruik je de `h1` selector. Na de sluit accolade die de CSS-regel voor de body bevat, voeg je de volgende code toe.
 
 ```css
   h1 {
