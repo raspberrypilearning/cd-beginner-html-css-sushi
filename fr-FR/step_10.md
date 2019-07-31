@@ -1,31 +1,31 @@
-## Navigating your website
+## Navigation de ton site web
 
-Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
+De nombreux sites web ont un menu **navigation** pour aider les visiteurs à se déplacer entre les pages. Maintenant que tu as un tas de pages, une page d'accueil et des liens vers chaque page, déplaçons la liste des liens vers une section de navigation en haut de chaque page.
 
-![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
+![Exemple d'une page web avec des liens de navigation en haut](images/egNavLinksAtTop.png)
 
-- Find the code for your list of links that you created in the previous step.
+- Trouve le code de tae liste de liens que tu as créés dans l'étape précédente.
 
-- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+- Juste avant la balise d'ouverture `<ul>`, appuie sur **Entrer** pour créer une nouvelle ligne vierge, puis sur le nouveau type de ligne de la balise suivante: `<nav>`. Trinket ajoute automatiquement la balise de fermeture juste après, mais tu peux la supprimer — ce n'est pas au bon endroit.
 
-- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+- Juste **après** la balise de fermeture `</ul>`, appuye sur **Entrer** pour créer une nouvelle ligne vierge, et tape dans la balise de fermeture `</nav>` juste à cet endroit là.
 
-- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+- Maintenant, sélectionne la section entière `<nav>` et la liste en cliquant juste avant l'ouverture de la balise `<nav>` et en faisant glisser la souris jusqu'à la fin de la balise `</nav>` pour que tout le texte, y compris les balises d'ouverture et de fermeture, soit mis en évidence. Assures-toi que tout les **crochets** `<` et `>` au début et à la fin soient également surlignés!
 
-![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+![Le texte à gauche n'est pas entièrement sélectionné lorsque le texte à droite l'est](images/egSelectedYayWoops.png)
 
-- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+- Tu vas **couper** cette fois au lieu de copier. Maintiens la touche <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et tout en le maintenant, appuye sur la touche <kbd>X</kbd>. Le code en surbrillance disparaîtra, mais ne panique pas!
 
-- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+- En haut du fichier, clique dans l'espace entre les balises `<header> </header>` . Assures-toi de voir le curseur clignoter à cet endroit. Colle maintenant le code en appuyant <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>V</kbd> comme d'habitude. Le code devrait ressembler à ceci :
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="attractions.html">Lieux à visiter</a></li>
+            <li><a href="music.html">Musique</a></li>
+            <li><a href="food.html">Choses à manger</a></li>
             </ul>
         </nav>
     </header>
@@ -33,28 +33,28 @@ Many websites have a **navigation** menu to help visitors move between pages. No
 
 ## \--- collapse \---
 
-## title: Undo!
+## title: Annuler !
 
-If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
+Si tu commets une erreur, tu peux **annuler** en appuyant sur <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>Z</kbd> ensemble. Tu peux généralement appuyer sur cette combinaison de touches à plusieurs reprises pour annuler les dernières modifications. Il s'agit d'un autre raccourci clavier pratique que tu peux utiliser dans de nombreux programmes!
 
 \--- /collapse \---
 
-- Try out your links to make sure they are still working.
+- Essaie tes liens pour s'assurer qu'ils fonctionnent toujours.
 
 \--- challenge \---
 
-## Challenge: navigation menus for all pages
+## Défi : menus de navigation pour toutes les pages
 
-- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+- Met cette section de code dans la section en-tête de chaque fichier HTML que tu as créé. Cela fera apparaître le menu de navigation en haut de chaque page de ton site web.
     
     \--- hints \---
     
-    \--- hint \--- Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+    \--- hint \--- Sélectionne la section entière `<nav>` comme tu l'as fait auparavant, et appuye sur les touches <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>C</kbd> ensemble pour la copier.
 
-Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier. \--- /hint \---
+Ensuite, dans chacun de tes fichiers `.html` , clique dans la section `<header> </header>` et colle le code exactement comme tu l'as fait précédemment. \--- /hint \---
 
 \--- /hints \---
 
-Now you will be able to click the links no matter which page you are on.
+Tu peux maintenant cliquer sur les liens, peu importe la page sur laquelle tu te trouves.
 
 \--- /challenge \---
