@@ -1,5 +1,5 @@
 ---
-title: Guide to my country 1.0
+title: Guide de mon pays 1.0
 hero_image: images/banner.png
 description: Apprendre à faire un site web
 theme: rouge
@@ -19,28 +19,28 @@ steps:
   - 
     title: Introduction
   - 
-    title: Getting set up
+    title: Mise en place
   - 
-    title: Your first webpage!
+    title: Votre première page web !
   - 
-    title: Controlling how it looks
+    title: Contrôle de l'apparence
   - 
-    title: Adding pictures
+    title: Ajouter des images
   - 
-    title: Adding a map or video
+    title: Ajout d'une carte ou d'une vidéo
   - 
-    title: Making a list
+    title: Créer une liste
   - 
-    title: Creating links
+    title: Création de liens
   - 
-    title: Adding more pages
+    title: Ajout de pages supplémentaires
   - 
-    title: Navigating your website
+    title: Navigation de votre site web
   - 
-    title: Making a menu bar
+    title: Créer une barre de menu
   - 
-    title: Styling the menu bar
+    title: Styliser la barre de menu
   - 
-    title: Adding a table
+    title: Ajout d'un tableau
   - 
-    title: What next?
+    title: Et ensuite?
