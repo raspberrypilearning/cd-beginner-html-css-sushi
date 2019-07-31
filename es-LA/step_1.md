@@ -2,7 +2,7 @@
 
 ¡Aprende a programar tu primer sitio web!
 
-### Lo que hará
+### Lo que harás
 
 Crear un sitio web sobre tu país de origen, como el que se muestra en el trinket de abajo.
 
@@ -10,9 +10,9 @@ Crear un sitio web sobre tu país de origen, como el que se muestra en el trinke
   <iframe src="https://trinket.io/embed/html/8d5e6e8aad" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-## \--- collapse \---
+## \--- colapso \---
 
-## title: What you will learn
+## Título: Lo que aprenderás
 
 + Usar un editor en línea para crear un sitio web hecho con archivos HTML y un archivo CSS
 + Crear un sitio web HTML que tenga encabezados, párrafos de texto, listas e imágenes
@@ -20,18 +20,18 @@ Crear un sitio web sobre tu país de origen, como el que se muestra en el trinke
 + Enlazar páginas entre sí y enlazar a otros sitios web
 + Crear una tabla que incluya encabezados y varias filas
 
-\--- /collapse \---
+\--- /colapso \---
 
-## \--- collapse \---
+## \--- colapso \---
 
-## title: What you need
+## título: Lo que necesitarás
 
 ### Hardware
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Un ordenador capaz de acceder a [trinket.io](https://trinket.io){:target="_blank"}
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Este proyecto se puede completar en un navegador web usando [trinket.io](https://trinket.io){:target="_blank"}.
 
-\--- /collapse \---
+\--- /colapso \---
