@@ -1,10 +1,10 @@
-## Making a menu bar
+## Créer une barre de menu
 
-On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
+Sur cette carte, tu verras comment tu peux transformer ton menu de navigation en une barre de menu à l'apparence cool, juste en ajoutant plus de règles CSS dans la feuille de style.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+![Exemple de barre de menu](images/egCoolMenuBar.png)
 
-- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
+- Vas dans le fichier de feuille de style dans l'onglet `styles.css`. Clique **en dessous** une accolade de fermeture `}`, et appuye sur **Entrer** pour créer une nouvelle ligne vide. Ajoute la règle CSS suivante :
 
 ```css
     nav ul {
@@ -12,13 +12,13 @@ On this card you will see how you can transform your navigation menu into a cool
     }
 ```
 
-Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+Remarque comment tu as utilisé deux sélecteurs au lieu d'un ? Si tu as utilisé le sélecteur `ul` tout seul, la règle affecterait toutes les listes non ordonnées sur ton site web. En ajoutant le sélecteur `nav` le fait uniquement s'appliquer aux listes qui sont entre les balises `nav` .
 
-![List with red background](images/egMenuBarFirstStyle.png)
+![Liste avec fond rouge](images/egMenuBarFirstStyle.png)
 
-Let's get rid of the bullet points. Those are the dots in front of each list item.
+Nous allons nous débarrasser des points du paragraphe. Ce sont les points devant chaque élément de la liste.
 
-- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- Ajoute ce qui suit au fichier ` styles.css `. De nouveau, tape-le sur une nouvelle ligne après `}` comme çà il ne fait donc pas partie d'un autre bloc de règles.
 
 ```css
     nav ul li {
@@ -26,17 +26,17 @@ Let's get rid of the bullet points. Those are the dots in front of each list ite
     }
 ```
 
-Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+Remarque cet ensemble de règles a trois sélecteurs : il sélectionne tous les éléments `li` qui sont dans une liste `ul` qui se trouve dans une section `nav` . Ouf!
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![Liste avec les points du paragraphe supprimés](images/egMenuBarNoBullets.png)
 
-Now let's make the list horizontal (across) instead of vertical (down).
+Maintenant, faisons la liste horizontale (qui traverse) au lieu de la verticale (en bas).
 
-- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+- Dans la nouvelle règle CSS que tu viens de créer, ajoute la ligne suivante : `display: inline;`.
 
 ![](images/egMenuBarInline.png)
 
-- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+- Les éléments de menu sont maintenant tous regroupés, ajoutons donc aussi les propriétés `margin-right` et `margin-left` pour les espacer un peu. Le bloc de code CSS devrait maintenant ressembler à ceci:
 
 ```css
     nav ul li {
@@ -47,29 +47,29 @@ Now let's make the list horizontal (across) instead of vertical (down).
     }
 ```
 
-Remember: `10px` means ten pixels.
+Rappels-toi: `10px` signifie dix pixels.
 
-How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+Et pourquoi ne pas modifier le menu pour tu indiques la page sur laquelle tu te trouves ? Cette partie ne sera pas dans la feuille de style.
 
-- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- Commence par la page d'accueil. Vas dans le fichier `index.html` . Dans la liste des liens du menu, supprime les balises de lien avant et après le mot `Accueil`, de sorte que l'élément de liste de la page d'accueil est juste du texte entre les balises `<li></li>`, comme ceci `<li>Accueil</li>`.
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
+- Maintenant, vas dans chacun de tes autres fichiers et faites la même chose, en enlevant à chaque fois les balises de lien de la page que tu modifies. Donc, par exemple, sur le fichier `music.html` j'ai supprimé les balises de lien dans la liste `Musique`:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li>Music</li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="attractions.html">Lieux à visiter</a></li>
+            <li>Musique</li>
+            <li><a href="food.html">Choses à manger</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- Explore tes pages en cliquant sur les liens. Vois comment la barre de menu affiche la page sur laquelle tu es en texte brut au lieu d'un lien ? 
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+![Exemple de barre de menu de la page actuelle en surbrillance](images/egMenuBarOnPage.png)
 
-On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
+Sur la carte suivante, tu apprendras encore plus d'astuces CSS pour rendre la barre de menu géniale.
