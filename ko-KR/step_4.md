@@ -1,8 +1,8 @@
-## Controlling how it looks
+## 레이아웃 컨트롤
 
-The code that describes what a website looks like is called **CSS**.
+웹 사이트의 모양을 나타내는 코드를 ** CSS ** 라고합니다.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- 코드 패널의 상단에있는 탭을보고 ` styles.css ` 파일로 이동하세요. 해당 이름의 탭을 클릭하십시오. 아래와 같은 텍스트가 보일 것입니다.
 
 ```css
   body {
@@ -10,35 +10,35 @@ The code that describes what a website looks like is called **CSS**.
   }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- `white` 색상을 `LightSkyBlue` 로 바꾸고 어떤 일이 일어나는지 보세요. 당신의 웹 사이트는 이제 파란색 배경을 가지게 됩니다! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![파란색 배경의 예](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: 어떻게 동작하나요?
 
-If you look at the top of the `index.html` file, you will see the following line:
+` index.html` 의 맨 위를 보면 파일을 열면 다음 코드가 표시됩니다.
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+위의 코드는 브라우저에 ` styles.css `라는 특수 파일을 찾도록 지시합니다. 이 특수 파일을 ** 스타일 시트 ** 라고 부릅니다. ` .css ` 라는 이름으로 스타일 시트 파일임을 알 수 있습니다.
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+스타일 시트는 ** 규칙이 포함되어 있어, ** 웹 페이지에 있는 각 요소들이 어떻게 보여야 하는지에 대해 지정할 수 있습니다.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+중괄호 `{ }` 사이에 있는 코드는 **CSS 규칙** 집합입니다. `body` 는 모든 `<body>` 요소를 지정하겠다는 명령어입니다. 이렇게 중괄호 앞에 있는 비트를 **선택자(selector)**라고 부릅니다. 그럼 이 경우에는, body 요소의 선택자가 됩니다.
 
-Each rule inside the curly braces is made up of:
+중괄호 안의 각 규칙은 다음으로 구성됩니다.
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- **속성**: 콜론 기호(`:`) 왼쪽에 나타냄
+- **값**: 콜론 기호(:) 뒤에 나타냄.
+- 세미콜론을 맨 끝에 붙임 (`;`)
 
 \--- /collapse \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+- 규칙을 추가하여 텍스트 모양을 변경할 수 있습니다. 중괄호 안에 두 개의 새로운 행을 추가하세요.
 
 ```css
   body {
@@ -48,11 +48,11 @@ Each rule inside the curly braces is made up of:
   }
 ```
 
-Look at how this has changed the webpage.
+이제 웹 페이지가 어떻게 바뀌었는지 보세요.
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+`color` 속성은 항상 텍스트를 위한 것입니다. 이 코드는 `body` 안에 있는 모든 텍스트에 대해 색깔을 설정합니다.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- 헤딩와 단락에 대해 별도의 규칙을 작성할 수도 있습니다. `<h1>` 헤딩에 경우에는 `h1` 선택자를 사용할 수 있습니다. 아래와 같은 코드를 추가해 보세요.
 
 ```css
   h1 {
@@ -61,12 +61,12 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+이전과 마찬가지로 단락이 보라색으로, 제목 텍스트가 주황색이어야 합니다.
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![새 CSS 코드 결과](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+글자가 어떻게 달라지는지 눈치채셨습니까? **폰트 그룹을 변경하여 색상이 다르게 표시됩니다**. 좀 더 많은 글꼴을 [여기서](http://dojo.soy/web-font-families) 찾아 보세요.
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+- `<h2>` 헤딩의 경우에는 `h2` 선택자를 사용할 수 있습니다.
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- 텍스트와 배경에 다른 색상 조합을 넣어 보는 것은 어떻습니까? 사용할 수있는 많은 색상이 있습니다. 좀 더 많은 색상을 [여기서](http://dojo.soy/web-color-names) 찾아 보세요.
