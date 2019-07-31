@@ -20,7 +20,7 @@ Note que cette balise contient des informations supplémentaires. Ils sont appel
 
 * * *
 
-## title: How the `img` tag works
+## title: Comment la balise `img` fonctionne
 
 Note que la balise `<img>` est différente des autres comparés à ceux que avez utilisées jusqu'à présent — il n'y a pas de balise de fermeture `</img>`. Au lieu de cela, cette balise est ** à fermeture automatique ** : il a ` />` à la fin. En effet, il n'y a pas de "début" ni de "fin" dans un élément d'image, comme pour le texte sur la page.
 
