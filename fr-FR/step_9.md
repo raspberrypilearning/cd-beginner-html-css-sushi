@@ -1,52 +1,52 @@
-## Adding more pages
+## Ajout de pages supplémentaires
 
-This card will show you how to add more pages to your website.
+Cette carte te montreras comment ajouter plus de pages à ton site web.
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+- En haut du panneau de code, clique sur le symbole **+** à côté des onglets, et tape un nom pour ton nouveau fichier. Il doit se terminer par `.html` (y compris le point!) afin que le navigateur sache qu'il s'agit d'une page web.
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+![Ajout d'un nouveau fichier dans Trinket](images/tktNewFileArrows.png)
 
 ## \--- collapse \---
 
-## title: Renaming or deleting a file
+## title: Renommer ou supprimer un fichier
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
+Si tu veux changer le nom d'un fichier, clique sur l'icône **rouage** à droite du nom du fichier, puis clique sur l'icône **crayon** . Tape le nouveau nom et appuye sur **Entrer**. Tu peux également supprimer un fichier en cliquant sur l'icône **poubelle** au lieu de l'icône **crayon** . ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+Tu te demandes peut-être pourquoi tu ne peux pas changer le nom du fichier `index.html`. `index.html` est un nom spécial utilisé pour la **page d'accueil** d'un site web. C'est la première page sur laquelle tu te trouves lorsque tu visites un site Web. Chaque fois que tu vas sur la page d'accueil d'un site web, le navigateur recherche le fichier `index.html` et l'affiche sur ton écran.
 
 \--- /collapse \---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- Trouve le fichier `blank_page.html` et copie et colle tout le code de celui-ci dans tone nouveau fichier. Comme tu veux copier tout le contenu, tu peux cliquer n'importe où sur le code et utiliser le raccourci clavier <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>A</kbd> pour sélectionner tout en une fois.
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
+- Change le texte entre les balises `<title> </title>` pour que ta nouvelle page ait un titre approprié. Trinket n'affichera pas le titre, mais tu peux le voir en haut de votre fenêtre de navigateur si tu télécharges ton projet.
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+![Le titre de la page affiché dans l'onglet navigateur](images/egLocalFileWindowTitle.png)
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
+- Entre les balises `<main> </main>` dans le nouveau fichier, utilise les balises que tu as appris à ajouter aux pages, tels que les paragraphes, les en-têtes, les images et les listes!
 
-- Repeat the steps above for each new page that you want to add.
+- Répéte les étapes ci-dessus pour chaque nouvelle page que tu souhaites ajouter.
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+Quand il y a trop d'onglets à afficher simultanément pour Trinket, tu peux utiliser les icônes ** < ** et <0 >> </strong> dans le coin supérieur gauche des onglets pour les faire défiler.
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+![Les boutons pour défiler les onglets](images/tktScrollTabIcons.png)
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+Tu dois maintenant créer des liens pour accéder à chacune de tes nouvelles pages! Mettons tous les liens dans une liste.
 
-- In the `index.html` file, add the following code to the body of your webpage:
+- Dans le fichier `index.html` ajoute le code suivant au corps de ta page web :
 
 ```html
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="attractions.html">Lieux à visiter</a></li>
+        <li><a href="music.html">Musique</a></li>
+        <li><a href="food.html">Choses à manger</a></li>
     </ul>
 ```
 
-- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
+- Change la valeur de l'attribut `href` pour chaque lien (rappelez-vous, c'est le texte dans les guillemets) afin qu'il corresponde exactement au nom de chaque fichier HTML que tu as créé.
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+- Change le texte entre les balises `<a> </a>` pour les descriptions appropriées de vos pages.
 
-Now you can navigate to your new pages!
+Maintenant, tu peux naviguer vers tes nouvelles pages!
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+![Liste des liens sur une page web](images/egListOfPageLinks.png)
