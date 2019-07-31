@@ -1,10 +1,10 @@
-## Styling the menu bar
+## Styliser la barre de menu
 
-With CSS, the possibilities for making your menu bar look great are endless.
+Avec CSS, les possibilités de rendre ta barre de menu belle sont infinies.
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+- Déplaces-toi de nouveau vers le fichier `styles.css` - là où c'est vraiment intéressant!
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
+- Trouve ton sélecteur `nav ul`, et ajoute plus de règles pour qu'il ressemble à ceci :
 
 ```css
   nav ul {
@@ -16,11 +16,11 @@ With CSS, the possibilities for making your menu bar look great are endless.
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
+La propriété `padding` ajoute de l'espace. Peux-tu déterminer ce que font chacune des autres propriétés? Essaye d'expérimenter avec différentes couleurs et nombre de pixels.
 
-![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
+![Barre de menu avec bordures et padding ajoutés](images/egMenuBarMoreStyle.png)
 
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
+- Pour se débarrasser du soulignement des liens, ajoute le code suivant sur une nouvelle ligne après l'accolade de fermeture `}` pour les règles `nav ul li` . Tu peux le mettre après `}`, mais c'est une bonne idée de garder des choses liées ensemble, ainsi c'est plus facile de trouver!
 
 ```css
   nav ul li a {
@@ -28,32 +28,32 @@ The `padding` property adds space. Can you work out what each of the other prope
   }
 ```
 
-The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
+La règle ci-dessus s'applique aux liens `<a>` à l'intérieur des éléments de liste `<li>` dans une liste non ordonnée `<ul>` dans une section de navigation `<nav>`. Wow, c'est quatre sélecteurs !
 
-![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
+![Barre de menu avec le surlignage de lien supprimé](images/egMenuBarNoUnderline.png)
 
-Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
+Rappels-toi comment tu as supprimé les balises de lien de certains éléments de la liste dans le `<nav>` afin que tu puisses facilement voir sur quelle page tu te trouves? Pourquoi ne pas aussi modifier la couleur du texte des éléments de la liste de navigation qui ne sont pas des liens!
 
-- Find your `nav ul li` selector, and **inside** the curly braces add the line:
+- Trouve ton sélecteur `nav ul li`, et **à l'intérieur** des accolades ajoute la ligne :
 
 ```css
   color: PapayaWhip;
 ```
 
-You can choose any colour you like!
+Tu peux choisir une couleur que tu aimes!
 
-You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
+Tu peux ajouter la propriété `couleur` à la règle `navul li a` si tu veux que les liens du menu aient une couleur différente des autres liens de ton site.
 
-- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
+- Que dirais-tu de coins arrondis pour ton menu? Essaye d'ajouter le code suivant à la règle `nav ul` pour voir ce qui se passe : `border-radius: 10px;`.
 
-The `border-radius` property is a really easy way to make anything look cooler!
+La propriété `border-radius` est un moyen très facile de rendre n'importe quoi plus cool!
 
-![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+![Page web avec coins arrondis sur la barre de menu et sur une image](images/egMenuBarFullStyles_result.png)
 
 \--- challenge \---
 
-## Challenge: make your pictures have rounded corners
+## Défi: faire que tes photos aient des coins arrondis
 
-- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+- Dans ta feuille de style, crée un nouveau jeu de règles pour les images en utilisant le sélecteur `img` et ajoute dans une règle `border-radius` à cet endroit là.
 
 \--- /challenge \---
