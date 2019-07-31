@@ -1,10 +1,10 @@
-## Styling the menu bar
+## 메뉴바 스타일링
 
-With CSS, the possibilities for making your menu bar look great are endless.
+CSS를 사용하면 메뉴 막대를 멋지게 만들 수있는 가능성은 무한합니다.
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+- 재미있는 마법이 일어나는 공간인 `styles.css`로 이동하세요.
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
+- `nav ul` 로 이동하여, 새로운 규칙을 아래와 같이 추가합니다:
 
 ```css
   nav ul {
@@ -16,11 +16,11 @@ With CSS, the possibilities for making your menu bar look great are endless.
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
+`padding` 속성은 테두리와 컨텐츠 사이에 여백을 추가합니다. 각각의 속성이 하는 역할을 알아낼 수 있나요? 다른 색깔과 픽셀로 실험을 해 보세요.
 
-![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
+![테두리 및 패딩이 추가 된 메뉴 모음](images/egMenuBarMoreStyle.png)
 
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
+- 각 메뉴에 대한 밑줄을 제거하려면 아래와 같은 코드를 닫는 중괄호 뒤에서 Enter를 누르고, 새 행에 추가하세요. 어떤 `}` 뒤에서 시작해도 괜찮으나, 관련된 속성을 모아서 찾기 쉽도록 하는 게 좋을 것입니다!
 
 ```css
   nav ul li a {
@@ -28,32 +28,32 @@ The `padding` property adds space. Can you work out what each of the other prope
   }
 ```
 
-The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
+이 링크는 `<nav>` 안의 `<ul>` 안의 `<li>` 안의 `<a>` 링크 속성에 적용됩니다. 4개의 태그를 지정했습니다!
 
-![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
+![링크 밑줄이있는 메뉴 막대가 제거](images/egMenuBarNoUnderline.png)
 
-Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
+`<nav>`의 일부 리스트 항목에서 링크 태그를 제거한 방법을 떠올려 보면 어떤 페이지에 있는지 쉽게 볼 수 있습니다. 링크가 아닌 탐색 리스트 항목의 텍스트 색상은 변경하지 않는 것이 좋습니다!
 
-- Find your `nav ul li` selector, and **inside** the curly braces add the line:
+- `nav ul li` 태그를 선택하고, 그리고 중괄호 **안에** 다음과 같은 행을 추가합니다:
 
 ```css
   color: PapayaWhip;
 ```
 
-You can choose any colour you like!
+원하는 색상을 선택할 수 있습니다!
 
-You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
+`nav ul li a` 안에 `color` 규칙을 설정하여 메뉴 링크에 다른 색을 칠할 수 있습니다.
 
-- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
+- 메뉴에 모서리가 있는 것을 볼 수 있습니다. `nav ul` 안에 다음 코드를 추가하면 어떤 일이 일어나는지 보세요:` border-radius : 10px; `
 
-The `border-radius` property is a really easy way to make anything look cooler!
+`border-radius` 속성은 조금 더 멋있게 보이게 하는 정말 쉬운 방법입니다!
 
-![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+![메뉴 막대와 그림에 둥근 모서리가 있는 웹 페이지](images/egMenuBarFullStyles_result.png)
 
 \--- challenge \---
 
-## Challenge: make your pictures have rounded corners
+## 과제: 사진에 둥근 모서리가 생기게 하기
 
-- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+- 스타일 시트에서 `img` 선택자를 사용하여 `border-radius` 규칙을 추가합니다.
 
 \--- /challenge \---
