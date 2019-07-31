@@ -17,30 +17,30 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Robot parlanchín
+    title: Introducción
   - 
-    title: Getting set up
+    title: Preparativos
   - 
-    title: Your first webpage!
+    title: '¡Tu primera página web!'
   - 
-    title: Controlling how it looks
+    title: Controlando como se lucirá
   - 
-    title: Adding pictures
+    title: Agregando imagenes
   - 
-    title: Adding a map or video
+    title: Agregando un mapa o un video
   - 
-    title: Making a list
+    title: Haciendo una lista
   - 
-    title: Creating links
+    title: Creando links
   - 
-    title: Adding more pages
+    title: Agregando más páginas
   - 
-    title: Navigating your website
+    title: Navengando tu sitio web
   - 
-    title: Making a menu bar
+    title: Haciendo un menú de barra
   - 
-    title: Styling the menu bar
+    title: Definiendo el estilo del menú de barra
   - 
-    title: Adding a table
+    title: Agregando una tabla
   - 
-    title: What next?
+    title: '¿Qué sigue?'
