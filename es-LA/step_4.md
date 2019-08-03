@@ -1,8 +1,8 @@
-## Controlling how it looks
+## Controlando cómo se ve
 
-The code that describes what a website looks like is called **CSS**.
+El código que describe como un sitio web se llama **CSS**.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- Mira las pestañas en la parte superior del panel de código, y ve al archivo `styles.css` haciendo clic en la pestaña con ese nombre. El archivo contiene el siguiente texto:
 
 ```css
   body {
@@ -10,13 +10,13 @@ The code that describes what a website looks like is called **CSS**.
   }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- Cambiar el ` blanco ` color a ` LightSkyBlue ` y mira lo que pasa. ¡Tu sitio web debe tener un fondo azul! 
 
 ![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ¿Cómo funciona?
 
 If you look at the top of the `index.html` file, you will see the following line:
 
