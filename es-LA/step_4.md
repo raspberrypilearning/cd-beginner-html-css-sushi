@@ -33,12 +33,12 @@ Las llaves `{ }` y el código entre ellas son un conjunto de ** reglas de CSS **
 Cada regla dentro de las llaves se compone de:
 
 - Una **propiedad ** a la izquierda, seguido de un símbolo de dos puntos `: `
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- Un **valor** para la propiedad en el lado derecho después de los dos puntos
+- Un símbolo de punto y coma `;` al final
 
 \--- /collapse \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+- Agreguemos reglas para cambiar la apariencia del texto. Agregue dos nuevas líneas dentro de las llaves:
 
 ```css
   body {
@@ -48,11 +48,11 @@ Cada regla dentro de las llaves se compone de:
   }
 ```
 
-Look at how this has changed the webpage.
+Mira cómo esto ha cambiado la página web.
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+La propiedad `color` siempre es para texto. Aquí, estás configurando el color de todo el texto en el `body` (cuerpo) de tu página web.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- También puede escribir reglas separadas para los encabezados y los párrafos. Para encabezados `<h1>`, utiliza el selector` h1`. Debajo de la llave de cierre que contiene la regla CSS para el cuerpo, agregue el siguiente código.
 
 ```css
   h1 {
