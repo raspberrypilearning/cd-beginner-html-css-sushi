@@ -10,7 +10,7 @@
 
 Así es como debería verse el resultado:
 
-![Image code and picture of Tito](images/egImgCodeTito.png)
+![Código de imagen e imagen de Tito](images/egImgCodeTito.png)
 
 Ten en cuenta que esta etiqueta tiene información adicional en su interior. Se llaman **atributos**.
 
@@ -46,30 +46,30 @@ Una vez que tengas una imagen, puedes ** subir ** el archivo a Trinket:
 
 - En tu Trinket, haz clic en el icono de **image** junto al signo **+**. 
 
-![The image icon](images/tktImageIconArrow.png)
+![El icono de la imagen](images/tktImageIconArrow.png)
 
 Aquí es donde puedes ver las fotos que puedes usar en tu sitio web. Deberías ver la foto de Tito, el perro CoderDojo.
 
 - Haga clic en el botón ** Agregar imagen ** y luego haga clic en ** Subir **.
 
-- Haga clic en el botón **Clic para seleccionar archivos**. Find and double-click your image file in the window that opens.
+- Haga clic en el botón **Clic para seleccionar archivos**. Encuentra y haz doble clic en el archivo de imagen en la ventana que se abre.
 
-- Click **Done**.
+- Haga clic en ** Listo **.
 
-![Image upload area](images/tktUploadImages.png)
+![Área de carga de imágenes](images/tktUploadImages.png)
 
-Your picture will be uploaded and should be ready to use.
+Tu foto se cargará y estará lista para usar.
 
-- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+- Ve al archivo `index.html` y encuentra la etiqueta `<img>`. Cambia el texto `tito.png` para que coincida exactamente con el nombre del archivo de imagen que has elegido. Tenga en cuenta que el nombre puede terminar en `.jpg ` en lugar de `.png `!
 
-The text you just changed is the attribute called `src`, which tells the browser which file to display.
+El texto que acabas de cambiar es el atributo llamado `src`, que dice al navegador qué archivo mostrar.
 
-**Note:** the value you type for an attribute must have quotation marks `""` around it!
+** Nota: ** el valor que escribas para un atributo debe estar ¡entre comillas! ` "" `.
 
 \--- challenge \---
 
-## Challenge: change the alt text of the picture
+## Desafío: cambiar el texto alternativo de la imagen
 
-- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+- Encuentra el atributo `alt` de tu elemento de imagen y cambia el texto a una breve descripción de tu imagen. 
 
 \--- /challenge \---
