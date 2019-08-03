@@ -1,26 +1,26 @@
-## Adding pictures
+## Agregando imágenes
 
-Let's add a picture!
+¡Agreguemos una foto!
 
-- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
+- Vaya a la pestaña llamada ` index.html ` . Encuentra la etiqueta ` </main>` y escriba lo siguiente ** arriba**: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Here's what the result should look like:
+Así es como debería verse el resultado:
 
 ![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Notice that this tag has extra bits of information inside it. They are called **attributes**.
+Ten en cuenta que esta etiqueta tiene información adicional en su interior. Se llaman **atributos**.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
+- Encuentra el bit de código que dice `width="100px"` e intenta experimentar con diferentes números para ver si puedes averiguar lo que hace este atributo. ¡No borres las letras `px`!
 
 \--- collapse \---
 
 * * *
 
-## title: How the `img` tag works
+## título: Cómo funciona la etiqueta `img`
 
 Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
 
