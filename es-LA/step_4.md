@@ -26,9 +26,9 @@ Si observas la parte superior del archivo `index.html` verás la siguiente líne
 
 La línea anterior indica al navegador que busca un archivo especial llamado `styles.css`. Este archivo especial se llama** hojas de estilo**. Puedes reconocer un archivo de hoja de estilo por el `.css` en su nombre.
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+Una hoja de estilo contiene **reglas** para el cómo debería lucir cada elemento en tu página web.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+Las llaves `{ }` y el código entre ellas son un conjunto de ** reglas de CSS ** . La palabra `body (cuerpo)` significa que las reglas son para todos los elementos de `< body>` en tu sitio web. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
 Each rule inside the curly braces is made up of:
 
