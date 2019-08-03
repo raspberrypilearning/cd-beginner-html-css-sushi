@@ -69,4 +69,4 @@ El texto del encabezado debe ser anaranjado ahora, con el párrafo en morado com
 
 - Intenta agregar un conjunto de reglas para los encabezados `<h2>`, utilizando el selector` h2 `.
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- ¿Por qué no experimentar con diferentes combinaciones de colores para el texto y el fondo? Hay muchos colores disponibles para usar. Encuentre una lista completa de ellos [ aquí ](http://dojo.soy/web-color-names).
