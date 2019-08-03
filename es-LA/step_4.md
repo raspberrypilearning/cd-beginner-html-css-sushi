@@ -18,13 +18,13 @@ El código que describe como un sitio web se llama **CSS**.
 
 ## title: ¿Cómo funciona?
 
-If you look at the top of the `index.html` file, you will see the following line:
+Si observas la parte superior del archivo `index.html` verás la siguiente línea:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+La línea anterior indica al navegador que busca un archivo especial llamado `styles.css`. Este archivo especial se llama** hojas de estilo**. Puedes reconocer un archivo de hoja de estilo por el `.css` en su nombre.
 
 A style sheet contains **rules** for what each element on your webpage should look like.
 
