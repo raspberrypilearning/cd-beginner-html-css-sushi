@@ -32,7 +32,7 @@ Las llaves `{ }` y el código entre ellas son un conjunto de ** reglas de CSS **
 
 Cada regla dentro de las llaves se compone de:
 
-- A **property** on the left, followed by a colon symbol `:`
+- Una **propiedad ** a la izquierda, seguido de un símbolo de dos puntos `: `
 - A **value** for the property on the right-hand side after the colon
 - A semi-colon symbol `;` at the end
 
