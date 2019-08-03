@@ -28,9 +28,9 @@ La línea anterior indica al navegador que busca un archivo especial llamado `st
 
 Una hoja de estilo contiene **reglas** para el cómo debería lucir cada elemento en tu página web.
 
-Las llaves `{ }` y el código entre ellas son un conjunto de ** reglas de CSS ** . La palabra `body (cuerpo)` significa que las reglas son para todos los elementos de `< body>` en tu sitio web. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+Las llaves `{ }` y el código entre ellas son un conjunto de ** reglas de CSS ** . La palabra `body (cuerpo)` significa que las reglas son para todos los elementos de `< body>` en tu sitio web. Llamamos al pedacito delante de las llaves como **selector**. Entonces, en este caso, es el selector para los elementos del cuerpo.
 
-Each rule inside the curly braces is made up of:
+Cada regla dentro de las llaves se compone de:
 
 - A **property** on the left, followed by a colon symbol `:`
 - A **value** for the property on the right-hand side after the colon
