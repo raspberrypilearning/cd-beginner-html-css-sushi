@@ -61,12 +61,12 @@ La propiedad `color` siempre es para texto. Aquí, estás configurando el color 
   }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+El texto del encabezado debe ser anaranjado ahora, con el párrafo en morado como antes.
 
 ![Result of new CSS code](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+¿Te das cuenta de que las letras también se ven diferentes además de tener un color diferente? Esto se debe a que cambiaste su **font family** (familia tipográfica). Puedes encontrar algunas fuentes más [ aquí ](http://dojo.soy/web-font-families) .
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+- Intenta agregar un conjunto de reglas para los encabezados `<h2>`, utilizando el selector` h2 `.
 
 - Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
