@@ -12,7 +12,7 @@ El código que describe como un sitio web se llama **CSS**.
 
 - Cambiar el ` blanco ` color a ` LightSkyBlue ` y mira lo que pasa. ¡Tu sitio web debe tener un fondo azul! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![Ejemplo con fondo azul](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
@@ -63,7 +63,7 @@ La propiedad `color` siempre es para texto. Aquí, estás configurando el color 
 
 El texto del encabezado debe ser anaranjado ahora, con el párrafo en morado como antes.
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![Resultado del nuevo código CSS](images/egCssColorsFonts.png)
 
 ¿Te das cuenta de que las letras también se ven diferentes además de tener un color diferente? Esto se debe a que cambiaste su **font family** (familia tipográfica). Puedes encontrar algunas fuentes más [ aquí ](http://dojo.soy/web-font-families) .
 
