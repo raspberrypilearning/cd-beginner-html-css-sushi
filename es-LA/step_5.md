@@ -22,37 +22,37 @@ Ten en cuenta que esta etiqueta tiene información adicional en su interior. Se 
 
 ## título: Cómo funciona la etiqueta `img`
 
-Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+Observa que la etiqueta `<img>`es diferente de las otras etiquetas que has utilizado hasta ahora, no hay etiqueta de cierre `</img>`. En cambio, esta etiqueta es **de cierre automático**: cuenta con un `/>` al final. Esto se debe a que no hay un "inicio" y un "final" para un elemento de imagen como lo hay para el texto en la página.
 
-The tag contains **attributes** with extra information:
+La etiqueta contiene **atributos** con información adicional:
 
-- The `src` attribute tells the browser what file to use for the picture. 
-- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
-- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- El atributo `src` le dice al navegador qué archivo usar para la imagen. 
+- El atributo `alt` es una descripción corta que el navegador mostrará si no puede mostrar la imagen. 'alt' es la abreviación de 'alternativo'. Este texto también ayuda a las personas que usan un lector de pantalla para saber qué es la imagen.
+- El atributo `width` le dice al navegador qué tan ancha hacer la imagen. `100px` significa cien **pixels**, que son los puntos diminutos que conforman lo que estás viendo en tu pantalla. Si no incluyes este atributo, la imagen se mostrará en su tamaño original.
 
 \--- /collapse \---
 
-Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+Ahora que conoces el código para colocar una imagen en tu sitio web, probablemente desees cambiar la imagen, ¿cierto?
 
-- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+- Lo primero que necesitarás es, por supuesto, ¡una foto! Puedes usar una que ya tengas en tu computadora, como una fotografía que hayas tomado, o puedes obtener una de Internet.
 
-[[[generic-get-picture-from-web]]]
+[generic-get-picture-from-web]
 
-**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
+** Nota: ** No todas las imágenes que encontrarás en Internet son gratuitas para que cualquiera las use. Si descargas una imagen, debes asegurarte de que sea una que puedas usar. Descubre más sobre esto aquí:
 
-[[[images-permissions-to-use]]]
+[images-permissions-to-use]
 
-Once you have a picture, you can **upload** the file to Trinket:
+Una vez que tengas una imagen, puedes ** subir ** el archivo a Trinket:
 
-- In your trinket, click on the **image** icon next to the **+** sign. 
+- En tu Trinket, haz clic en el icono de **image** junto al signo **+**. 
 
 ![The image icon](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+Aquí es donde puedes ver las fotos que puedes usar en tu sitio web. Deberías ver la foto de Tito, el perro CoderDojo.
 
-- Click the button **Add Image** and then click **Upload**.
+- Haga clic en el botón ** Agregar imagen ** y luego haga clic en ** Subir **.
 
-- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+- Haga clic en el botón **Clic para seleccionar archivos**. Find and double-click your image file in the window that opens.
 
 - Click **Done**.
 
