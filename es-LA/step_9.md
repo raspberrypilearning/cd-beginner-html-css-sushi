@@ -1,18 +1,18 @@
-## Adding more pages
+## Agregando más paginas
 
-This card will show you how to add more pages to your website.
+Esta tarjeta te mostrará como agregar mas páginas a tu sitio web.
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+- En parte de arriba del Panel de Código, haz click en el símbolo **+** a un lado de las pestañas, y escribe un nombre para tu nuevo archivo. Debe de terminar con `.html` (incluyendo el punto!) para que el navegador reconozca que es una página web.
 
 ![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
 ## \--- collapse \---
 
-## title: Renaming or deleting a file
+## title: Renombrando o borrando un archivo
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
+Si tu quieres cambiar el nombre de un archivo, da clik en el ícono **cog** a la derecha del nombre del archivo, y luego da click en ícono de **pencil**. Escribe el nuevo nombre y presiona **Enter**. Tu tambien puedes borrar un archivo solamente dando click en el ícono **bin** en lugar del ícono del **pencil**. ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+Tu te podrias estar preguntando porque no puedes cambiar el nombre de archivo `index.html`. `index.html` es un nombre especial usado para la **homepage** del sitio web. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
 \--- /collapse \---
 
