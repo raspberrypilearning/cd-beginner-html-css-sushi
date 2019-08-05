@@ -32,13 +32,13 @@ Es porque el atributo `href` esta vacío por el momento. Debe contener el **URL*
 
 ## \--- collapse \---
 
-## title: Links to other websites
+## title: Enlaces a otros sitios web.
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Trinket tiene problemas con algunas direcciones web. Si lo deseas, puedes probar direcciones URL de sitios web distintos a Wikipedia, pero es posible que no funcionen en tu trinket. Sin embargo, si descargaras tu proyecto y vieras los archivos en un navegador web, verías los enlaces funcionando.
 
 \--- /collapse \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- Intenta colocar una imagen entre las etiquetas `<a> </a>` en lugar de las palabras ` Haga clic aquí ` , como esto:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,20 +46,20 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- Haz clic en tu imagen. ¿Ves que se convirtió en un enlace?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+También puedes poner un enlace en otros elementos de tu página web, como en un párrafo o incluso en una lista. Aquí hay un ejemplo de una oración con un enlace en ella:
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+    <a href="https://en.wikipedia.org/wiki/Ireland"> Haga clic aquí </a> ¡Para leer la página de Wikipedia!
   </p>
 ```
 
 \--- challenge \---
 
-## Challenge: put a link into a list
+## Desafío: poner un enlace en una lista
 
-- See if you can make a list that contains a link inside one of the list items.
+- Ve si puedes hacer una lista que contenga un enlace dentro de uno de los elementos de la lista.
 
 \--- /challenge \---
