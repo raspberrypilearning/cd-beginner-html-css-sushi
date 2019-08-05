@@ -1,5 +1,5 @@
 ---
-title: Guide to my country 1.0
+title: Leitfaden für mein Land 1.0
 hero_image: images/banner.png
 description: Lerne, wie du eine Website erstellst
 theme: red
@@ -19,13 +19,13 @@ steps:
   - 
     title: Einleitung
   - 
-    title: Getting set up
+    title: Erste Schritte
   - 
-    title: Your first webpage!
+    title: Deine erste Webseite!
   - 
-    title: Controlling how it looks
+    title: Passe deine Seite an
   - 
-    title: Adding pictures
+    title: Bilder hinzufügen
   - 
     title: Adding a map or video
   - 
