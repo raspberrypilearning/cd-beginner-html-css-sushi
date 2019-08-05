@@ -1,6 +1,6 @@
-## Navigating your website
+## Auf deiner Website navigieren
 
-Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
+Viele Websiten verfügen über ein **Navigations**menü, damit Besucher zwischen den Seiten wechseln können. Nachdem du nun einige Seiten hast, eine Homepage und auch Links zu jeder Seite, lass uns die Liste der Links in einen Navigationsbereich oben auf jede Seite verschieben.
 
 ![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
