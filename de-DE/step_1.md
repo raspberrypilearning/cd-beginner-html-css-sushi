@@ -12,7 +12,7 @@ Erstelle eine Website über dein Heimatland, wie du sie im Bild unten siehst.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Was du lernen wirst
 
 + Verwenden eines Online-Editors zum Erstellen einer Webseite, die aus HTML-Dateien und einer CSS-Datei besteht
 + Erstellen einer HTML-Webseite mit Überschriften, Absatztext, Listen und Bildern
@@ -24,14 +24,14 @@ Erstelle eine Website über dein Heimatland, wie du sie im Bild unten siehst.
 
 ## \--- collapse \---
 
-## title: What you need
+## title: Was du benötigst
 
 ### Hardware
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Einen Computer, der auf [trinket.io](https://trinket.io){:target="_blank"} zugreifen kann
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Dieses Projekt kann in einem Webbrowser mit [ trinket.io ](https://trinket.io) {:target="_blank"} bearbeitet werden.
 
 \--- /collapse \---
