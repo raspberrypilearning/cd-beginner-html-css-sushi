@@ -1,4 +1,4 @@
-## Creando links
+## Creando enlaces
 
 En esta tarjeta, aprenderá cómo hacer un enlace que lo lleve a otra página al dar clic.
 
@@ -20,13 +20,13 @@ Es porque el atributo `href` esta vacío por el momento. Debe contener el **URL*
     
     ![URL in address bar](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- En tu trinket, haz clic entre las comillas después de ` href = ` y presiona las teclas <kdb>Ctrl</kdb> (o <kdb>cmd</kdb>) y <kdb>V</kdb> al mismo tiempo para pegar el URL que acabas de copiar. Tu código debería verse algo así:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
+  <a href="https://en.wikipedia.org/wiki/Ireland"> Haga clic aquí </a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+¡Acabas de crear tu primer enlace! Haz clic en él para ver si funciona.
 
 ![Link tag](images/egLinkTagWithURL.png)
 
