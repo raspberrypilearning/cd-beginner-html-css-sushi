@@ -18,7 +18,7 @@ Es porque el atributo `href` esta vacío por el momento. Debe contener el **URL*
 
 - Haz clic en la barra de direcciones y selecciona todo el texto en i5. Ese es el URL completo de la página en la que te encuentras. Presiona las teclas <kdb>Ctrl</kdb> ( o <kdb>cmd</kdb>) y <kdb>C</kdb> al mismo tiempo para copiarlo.
     
-    ![URL in address bar](images/AddressBarURL.png)
+    ![URL en la barra de direcciones](images/AddressBarURL.png)
 
 - En tu trinket, haz clic entre las comillas después de ` href = ` y presiona las teclas <kdb>Ctrl</kdb> (o <kdb>cmd</kdb>) y <kdb>V</kdb> al mismo tiempo para pegar el URL que acabas de copiar. Tu código debería verse algo así:
 
@@ -28,7 +28,7 @@ Es porque el atributo `href` esta vacío por el momento. Debe contener el **URL*
 
 ¡Acabas de crear tu primer enlace! Haz clic en él para ver si funciona.
 
-![Link tag](images/egLinkTagWithURL.png)
+![Etiqueta de enlace](images/egLinkTagWithURL.png)
 
 ## \--- collapse \---
 
