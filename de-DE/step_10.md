@@ -2,9 +2,9 @@
 
 Viele Websiten verfügen über ein **Navigations**menü, damit Besucher zwischen den Seiten wechseln können. Nachdem du nun einige Seiten hast, eine Homepage und auch Links zu jeder Seite, lass uns die Liste der Links in einen Navigationsbereich oben auf jede Seite verschieben.
 
-![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
+![Beispiel einer Website mit Navigationslinks am oberen Rand](images/egNavLinksAtTop.png)
 
-- Find the code for your list of links that you created in the previous step.
+- Suche den Code für deine Linkliste, die du im vorigen Schritt erstellt hast.
 
 - Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
 
