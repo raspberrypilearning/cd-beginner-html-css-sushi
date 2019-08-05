@@ -1,22 +1,22 @@
-## Creating links
+## Creando links
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+En esta tarjeta, aprenderá cómo hacer un enlace que lo lleve a otra página al dar clic.
 
-- Add the following code to the body section of `index.html`:
+- Agregue el siguiente código a la sección del cuerpo de `index.html`:
 
 ```html
-  <a href="">Click here</a>
+  <a href=""> Haga clic aquí </a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+Las etiquetas `<a> </a>` convierten en un enlace lo que está entre ellos.
 
-- Try clicking your link to see what happens. It does nothing, right?
+- Intenta hacer clic en el enlace para ver qué sucede. No hace nada, ¿verdad?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+Es porque el atributo `href` esta vacío por el momento. Debe contener el **URL** (dirección web) de la página a la que quiere vincularse.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- Ve a Wikipedia y busca una página sobre algo en tu sitio web. Voy a usar la página sobre Irlanda.
 
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- Haz clic en la barra de direcciones y selecciona todo el texto en i5. Ese es el URL completo de la página en la que te encuentras. Presiona las teclas <kdb>Ctrl</kdb> ( o <kdb>cmd</kdb>) y <kdb>C</kdb> al mismo tiempo para copiarlo.
     
     ![URL in address bar](images/AddressBarURL.png)
 
