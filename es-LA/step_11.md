@@ -4,7 +4,7 @@ En esta tarjeta podrás ver cómo puedes transformar tu menú de navegación en 
 
 ![Ejemplo de una barra de menú](images/egCoolMenuBar.png)
 
-- Ve al archivo de hojas de estilo en la pestaña `styles.css`. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
+- Ve al archivo de hojas de estilo en la pestaña `styles.css`. Haga clic en ** debajo ** de una llave de cierre `} ` y presione ** Enter ** para crear una nueva línea en blanco. Agregue el siguiente código de CSS:
 
 ```css
     nav ul {
@@ -12,7 +12,7 @@ En esta tarjeta podrás ver cómo puedes transformar tu menú de navegación en 
     }
 ```
 
-Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+¿Te das cuenta de cómo usaste dos selectores en lugar de uno? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
 ![Lista con fondo rojo](images/egMenuBarFirstStyle.png)
 
