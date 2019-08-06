@@ -18,7 +18,7 @@ En esta tarjeta podrás ver cómo puedes transformar tu menú de navegación en 
 
 Vamos a deshacernos de los puntos de bala. Esos son los puntos delante de cada elemento de la lista.
 
-- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- Añade el siguiente código CSS al archivo `styles.css`. Again, type it on a new line after a `}` so it's not inside any other block of rules.
 
 ```css
     nav ul li {
