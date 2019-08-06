@@ -14,7 +14,7 @@
 
 ## \--- collapse \---
 
-## título: explicación de HTML y etiquetas
+## title: explicación de HTML y etiquetas
 
 **HTML** es el código que hace una página web.
 
@@ -53,13 +53,13 @@ Todo lo que se encuentra entre las etiquetas `<body>` y `</body>` es tu página 
 
 - Intenta agregar un nuevo párrafo o encabezado a tu página usando algunas de las etiquetas que has aprendido.
 
-\--- consejos \---
+\--- hints \---
 
-\--- Sugerencia \--- Cuando quieras poner texto en una página, necesitas ponerlo entre dos etiquetas que le digan a tu navegador cómo mostrar tu texto. Por ejemplo, las eqtiquetas `<p> </p>` le diran al navegador que todo lo que se encuentre entre ellas es un nuevo párrafo de texto, y las etiquetas `<h1> </h1>` indican que el texto dentro de ellas es un encabezado.
+\--- hint \--- Cuando quieras colocar texto en una página, debes colocarlo entre dos etiquetas que le digan a tu navegador cómo mostrar su texto. Por ejemplo, las eqtiquetas `<p> </p>` le diran al navegador que todo lo que se encuentre entre ellas es un nuevo párrafo de texto, y las etiquetas `<h1> </h1>` indican que el texto dentro de ellas es un encabezado.
 
-\--- /consejo \---
+\--- /hint \---
 
-\--- consejo \---
+\--- hint \---
 
 El código para los párrafos se ve así:
 
@@ -71,9 +71,9 @@ El código para los párrafos se ve así:
   en una larga línea en la página web.</p>
 ```
 
-\--- /consejo \---
+\--- /hint \---
 
-\--- consejo \---
+\--- hint \---
 
 El código para los encabezados se ve así:
 
@@ -83,10 +83,10 @@ El código para los encabezados se ve así:
 
 Los encabezados normalmente se mostrarán más grandes o en negritas a comparación de los párrafos.
 
-\--- /consejo \---
+\--- /hint \---
 
-\--- / consejos \---
+\--- /hints \---
 
-\--- /desafío \---
+\--- /challenge \---
 
 ¡Felicidades, has construido tu primera página web! En la siguiente tarjeta, descubrirás cómo controlar el aspecto.
