@@ -20,7 +20,7 @@ Ten en cuenta que esta etiqueta tiene información adicional en su interior. Se 
 
 * * *
 
-## título: Cómo funciona la etiqueta `img`
+## title: Cómo funciona la etiqueta `img`
 
 Observa que la etiqueta `<img>`es diferente de las otras etiquetas que has utilizado hasta ahora, no hay etiqueta de cierre `</img>`. En cambio, esta etiqueta es **de cierre automático**: cuenta con un `/>` al final. Esto se debe a que no hay un "inicio" y un "final" para un elemento de imagen como lo hay para el texto en la página.
 
