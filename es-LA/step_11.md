@@ -12,11 +12,11 @@ En esta tarjeta podrás ver cómo puedes transformar tu menú de navegación en 
     }
 ```
 
-¿Te das cuenta de cómo usaste dos selectores en lugar de uno? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+¿Te das cuenta de cómo usaste dos selectores en lugar de uno? Si usaste el selector ` ul ` por sí solo, la regla afectaría todas las listas desordenadas en su sitio web. Agregar el selector ` nav ` también hace que solo se aplique a listas que se encuentren entre las etiquetas ` nav `.
 
 ![Lista con fondo rojo](images/egMenuBarFirstStyle.png)
 
-Let's get rid of the bullet points. Those are the dots in front of each list item.
+Vamos a deshacernos de los puntos de bala. Esos son los puntos delante de cada elemento de la lista.
 
 - Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
 
