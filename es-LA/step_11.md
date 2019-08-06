@@ -32,11 +32,11 @@ Observe que este conjunto de reglas tiene tres selectores: selecciona todos los 
 
 Ahora vamos a hacer la lista horizontal (a través) en lugar de vertical (hacia abajo).
 
-- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+- Dentro de la nueva regla CSS que acabas de crear, agregue la siguiente línea: ` display: inline; ` .
 
 ![](images/egMenuBarInline.png)
 
-- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+- Los elementos del menú ahora están todos juntos, así que vamos a agregar las propiedades ` margin-right ` y ` margen-left ` para espaciarlos un poco. El bloque de código CSS debería verse así ahora:
 
 ```css
     nav ul li {
