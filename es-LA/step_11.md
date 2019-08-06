@@ -2,7 +2,7 @@
 
 En esta tarjeta podrás ver cómo puedes transformar tu menú de navegación en una barra de menú de aspecto fresco, simplemente añadiendo más reglas CSS en la hoja de estilo.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+![Ejemplo de una barra de menú](images/egCoolMenuBar.png)
 
 - Ir al archivo de hojas de estilo en la pestaña `styles.css`. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
 
@@ -14,7 +14,7 @@ En esta tarjeta podrás ver cómo puedes transformar tu menú de navegación en 
 
 Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
-![List with red background](images/egMenuBarFirstStyle.png)
+![Lista con fondo rojo](images/egMenuBarFirstStyle.png)
 
 Let's get rid of the bullet points. Those are the dots in front of each list item.
 
@@ -28,7 +28,7 @@ Let's get rid of the bullet points. Those are the dots in front of each list ite
 
 Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![Lista con puntos de bala eliminados](images/egMenuBarNoBullets.png)
 
 Now let's make the list horizontal (across) instead of vertical (down).
 
@@ -53,7 +53,7 @@ Recuerde: `10px` significa diez píxeles.
 
 - Comience con la página de inicio. Ve al archivo `index.html`. En la lista de enlaces del menú, elimine las etiquetas de enlace antes y después de la palabra ` Inicio`, de modo que el elemento de la lista para la página de inicio sea solo texto entre `<li> </li>` etiquetas, como esta: `<li> Inicio </li>` .
 
-- Ahora vaya a cada uno de tus otros archivos y haga lo mismo, eliminando las etiquetas de enlace en la página que estás editando. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
+- Ahora vaya a cada uno de tus otros archivos y haga lo mismo, eliminando las etiquetas de enlace en la página que estás editando. Así que, por ejemplo, en el archivo `music.html` he eliminado las etiquetas de enlace en el elemento de la lista `Música`
 
 ```html
     <header>
@@ -68,8 +68,8 @@ Recuerde: `10px` significa diez píxeles.
     </header>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- Explore sus páginas haciendo clic en los enlaces. ¿Ver cómo la barra de menú muestra la página en la que estás como texto plano en lugar de un enlace? 
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+![Ejemplo de barra de menú que resalta la página actual](images/egMenuBarOnPage.png)
 
-On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
+En la siguiente tarjeta, aprenderá aún más trucos de CSS para que la barra de menú se vea increíble.
