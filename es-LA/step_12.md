@@ -1,8 +1,8 @@
-## Styling the menu bar
+## Definiendo el estilo del menú de barra
 
-With CSS, the possibilities for making your menu bar look great are endless.
+Con CSS, las posibilidades de hacer que tu barra de menú parezca genial son infinitas.
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+- Vuelve al archivo `styles.css` —el lugar donde suceden las cosas interesantes!
 
 - Find your `nav ul` selector, and add more rules so that it looks like this:
 
