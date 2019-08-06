@@ -4,7 +4,7 @@ En esta tarjeta podrás ver cómo puedes transformar tu menú de navegación en 
 
 ![Ejemplo de una barra de menú](images/egCoolMenuBar.png)
 
-- Ir al archivo de hojas de estilo en la pestaña `styles.css`. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
+- Ve al archivo de hojas de estilo en la pestaña `styles.css`. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
 
 ```css
     nav ul {
