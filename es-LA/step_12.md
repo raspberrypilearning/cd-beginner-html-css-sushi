@@ -4,7 +4,7 @@ Con CSS, las posibilidades de hacer que tu barra de menú parezca genial son inf
 
 - Vuelve al archivo `styles.css` —el lugar donde suceden las cosas interesantes!
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
+- Encuentra tu selector `nav ul` y añade más reglas para se vea así:
 
 ```css
   nav ul {
@@ -16,11 +16,11 @@ Con CSS, las posibilidades de hacer que tu barra de menú parezca genial son inf
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
+La propiedad `padding` añade espacio. ¿Puede averiguar qué hacen cada una de las otras propiedades? Prueba experimentando con diferentes colores y números de píxeles.
 
 ![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
 
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
+- Para deshacerse del subrayado de los enlaces, agregue el siguiente código en una nueva línea después de la llave de cierre `} ` para la regla ` nav ul li `. Puedes ponerlo después de cualquier `}`, ¡pero es una buena idea mantener juntos los temas relacionados para que sea más fácil de encontrar!
 
 ```css
   nav ul li a {
@@ -28,9 +28,9 @@ The `padding` property adds space. Can you work out what each of the other prope
   }
 ```
 
-The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
+La regla anterior se aplica a los enlaces `<a>` dentro de los elementos de la lista `<li>` en una lista no ordenada `<ul>` dentro de una sección de navegación `<nav>`. ¡Wow, esos son cuatro selectores!
 
-![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
+![Barra de menú con el subrayado de enlace eliminado](images/egMenuBarNoUnderline.png)
 
 Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
 
@@ -40,7 +40,7 @@ Remember how you removed the link tags from some list items in the `<nav>` so yo
   color: PapayaWhip;
 ```
 
-You can choose any colour you like!
+¡Puedes elegir cualquier color que quieras!
 
 You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
 
@@ -52,7 +52,7 @@ The `border-radius` property is a really easy way to make anything look cooler!
 
 \--- challenge \---
 
-## Challenge: make your pictures have rounded corners
+## Desafío: haz que tus fotos tengan esquinas redondeadas
 
 - In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
 
