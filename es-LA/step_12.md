@@ -32,7 +32,7 @@ La regla anterior se aplica a los enlaces `<a>` dentro de los elementos de la li
 
 ![Barra de menú con el subrayado de enlace eliminado](images/egMenuBarNoUnderline.png)
 
-Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
+¿Recuerdas cómo eliminaste las etiquetas de enlace de algunos elementos de la lista en `<nav>` para poder ver fácilmente en qué página te encuentras? Why not also change the text colour of those navigation list items which are not links!
 
 - Find your `nav ul li` selector, and **inside** the curly braces add the line:
 
