@@ -18,7 +18,7 @@ En esta tarjeta podrás ver cómo puedes transformar tu menú de navegación en 
 
 Vamos a deshacernos de los puntos de bala. Esos son los puntos delante de cada elemento de la lista.
 
-- Añade el siguiente código CSS al archivo `styles.css`. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- Añade el siguiente código CSS al archivo `styles.css`. Otra vez, escribe una nueva linea después del `}` así no estará dentro de ningún otro bloque de reglas.
 
 ```css
     nav ul li {
@@ -26,11 +26,11 @@ Vamos a deshacernos de los puntos de bala. Esos son los puntos delante de cada e
     }
 ```
 
-Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+Observe que este conjunto de reglas tiene tres selectores: selecciona todos los elementos ` li ` que están en una lista ` ul ` que está dentro de una sección ` nav `. ¡Uf!
 
 ![Lista con puntos de bala eliminados](images/egMenuBarNoBullets.png)
 
-Now let's make the list horizontal (across) instead of vertical (down).
+Ahora vamos a hacer la lista horizontal (a través) en lugar de vertical (hacia abajo).
 
 - Inside the new CSS rule you just created, add the following line: `display: inline;`.
 
