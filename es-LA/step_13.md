@@ -1,12 +1,12 @@
-## Añadiendo una tabla
+## Agregando una tabla
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+A veces puede ser útil mostrar información en una tabla. Por ejemplo, es posible que desees incluir información sobre los miembros en un sitio web de un club deportivo local o escuela, o información sobre tus diez canciones favoritas.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+Una tabla es una cuadrícula compuesta de ** filas ** y ** columnas **. Most tables also include titles at the top of each column, called the **header**. Aquí está un ejemplo:
 
 ![Ejemplo de información en una tabla.](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- Ve al archivo ` page_with_table.html `. Allí verá un montón de código entre etiquetas `<table> </table>`.
 
 - Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
 
@@ -23,29 +23,29 @@ El código HTML para la tabla que se muestra arriba se ve así:
 ```html
   <table>
     <tr>
-      <th>Name of pet</th>
+      <th>Nombre de la mascota</th>
       <th>Animal</th>
-      <th>Colour</th>
+      <th>Color</th>
     </tr>
     <tr>
       <td>Mia</td>
-      <td>Cat</td>
-      <td>Black and fluffy</td>
+      <td>Gato</td>
+      <td>Negro y esponjoso</td>
     </tr>
     <tr>
       <td>Tito</td>
-      <td>Dog</td>
-      <td>Black with brown patches</td>
+      <td>Perro</td>
+      <td>Negro con manchas marrones</td>
     </tr>
     <tr>
-      <td>Honeycomb</td>
-      <td>Guinea Pig</td>
-      <td>White with orange patches</td>
+      <td>Hamtaro</td>
+      <td>Cuy</td>
+      <td>Blanco con manchas anaranjadas</td>
     </tr>
     <tr>
       <td>Alfie</td>
-      <td>Budgie</td>
-      <td>Green and yellow</td>
+      <td>Periquito</td>
+      <td>Verde y amarillo</td>
     </tr>
   </table>
 ```
