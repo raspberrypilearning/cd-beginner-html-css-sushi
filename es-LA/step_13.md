@@ -2,13 +2,13 @@
 
 A veces puede ser útil mostrar información en una tabla. Por ejemplo, es posible que desees incluir información sobre los miembros en un sitio web de un club deportivo local o escuela, o información sobre tus diez canciones favoritas.
 
-Una tabla es una cuadrícula compuesta de ** filas ** y ** columnas **. Most tables also include titles at the top of each column, called the **header**. Aquí está un ejemplo:
+Una tabla es una cuadrícula compuesta de ** filas ** y ** columnas **. La mayoría de las tablas también incluyen títulos en la parte superior de cada columna, llamados **encabezado**. Aquí está un ejemplo:
 
 ![Ejemplo de información en una tabla.](images/egTableResult.png)
 
 - Ve al archivo ` page_with_table.html `. Allí verá un montón de código entre etiquetas `<table> </table>`.
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- Seleccione todo el código desde el comienzo de la etiqueta `<table>` hasta el final de la etiqueta de cierre ` </table>` y copialo. Luego ve a uno de tus archivos donde te gustaría poner una tabla y peguelo en el código.
 
 En este momento su tabla está vacía.
 
