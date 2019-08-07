@@ -1,10 +1,10 @@
-## Adding a table
+## Añadiendo una tabla
 
 Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
 
 A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
 
-![Example of information in a table](images/egTableResult.png)
+![Ejemplo de información en una tabla.](images/egTableResult.png)
 
 - Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
 
@@ -16,9 +16,9 @@ At the moment your table is empty.
 
 ## \--- collapse \---
 
-## title: Example code
+## title: código de ejemplo
 
-The HTML code for the table shown above looks like this:
+El código HTML para la tabla que se muestra arriba se ve así:
 
 ```html
   <table>
@@ -58,7 +58,7 @@ To add another **column**, add an extra **data** item with a set of `<td> </td>`
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ¿Cómo funciona?
 
 Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
 
