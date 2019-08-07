@@ -54,17 +54,17 @@ El código HTML para la tabla que se muestra arriba se ve así:
 
 Para agregar otra **fila**, añade otro conjunto de etiquetas `<tr> </tr>`. Entre ellos, pon el mismo número de elementos ** datos ** con etiquetas `<td> </td>` como las que tienes en las otras filas.
 
-To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+Para agregar otra **columna **, agregue **datos ** adicionales y elementos con un conjunto de etiquetas `<td> </td>` a ** cada ** fila. Agregue también un ** encabezado** adicional a la primera fila, usando etiquetas `<th> </th>`.
 
 ## \--- collapse \---
 
 ## title: ¿Cómo funciona?
 
-Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+Echemos un vistazo a todas esas etiquetas. Es un poco como el código de una lista (recuerde `<ul>` y `<ol>`) pero con más niveles.
 
-Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+Cada par de etiquetas `<tr> </tr>` son una fila, por lo que todo lo que se encuentre entre ellas se mostrará en una línea.
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+La primera fila contiene etiquetas `<th> </th>`. Estos se utilizan para los encabezados, por lo que los títulos de las columnas van entre ellos. Hay un par para cada columna que tienes en tu tabla.
 
 The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
 
