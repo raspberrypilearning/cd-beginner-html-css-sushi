@@ -12,7 +12,7 @@ A table is a grid made up of **rows** and **columns**. Most tables also include 
 
 En este momento su tabla está vacía.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- ¡Intenta llenar tu tabla con lo que quieras! Simplemente ponga texto entre `<td> </td>` etiquetas y entre las etiquetas `<th> </th>`. Puedes añadir más etiquetas si las necesitas.
 
 ## \--- collapse \---
 
