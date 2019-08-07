@@ -52,7 +52,7 @@ El código HTML para la tabla que se muestra arriba se ve así:
 
 \--- /collapse \---
 
-To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+Para agregar otra **fila**, añade otro conjunto de etiquetas `<tr> </tr>`. Entre ellos, pon el mismo número de elementos ** datos ** con etiquetas `<td> </td>` como las que tienes en las otras filas.
 
 To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
 
