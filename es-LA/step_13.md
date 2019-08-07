@@ -10,7 +10,7 @@ A table is a grid made up of **rows** and **columns**. Most tables also include 
 
 - Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
 
-At the moment your table is empty.
+En este momento su tabla está vacía.
 
 - Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
 
