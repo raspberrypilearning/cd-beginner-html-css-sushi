@@ -66,11 +66,11 @@ Cada par de etiquetas `<tr> </tr>` son una fila, por lo que todo lo que se encue
 
 La primera fila contiene etiquetas `<th> </th>`. Estos se utilizan para los encabezados, por lo que los títulos de las columnas van entre ellos. Hay un par para cada columna que tienes en tu tabla.
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+Las etiquetas `<td> </td>` definen como serán llamados los datos de la tabla y lo que ocurrirá en todas las otras filas. Son similares a las etiquetas de elementos de la lista `<li> </li>`: todo lo que hay entre ellos es un elemento en la fila de la tabla.
 
 \--- /collapse \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- Si observas el final del archivo `styles.css` verás el código CSS que describe cómo lucirá la tabla. ¡No tienes que entender todo! Pero puede experimentar cambiando el texto, el borde y los colores de fondo para diseñar su propio estilo.
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ The `<td> </td>` tags define what's called table data, and that's what goes in a
   }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+Observas cómo algunos de los selectores usan comas, por ejemplo ` table, th, td `? Esa es una **lista de selectores**: significa que se aplica a todos los elementos `<th>` y todos los elementos `<td>`. ¡Guarda el mismo conjunto de reglas para cada selector!
