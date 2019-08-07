@@ -59,10 +59,10 @@ Recuerde: `10px` significa diez píxeles.
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li>Music</li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="attractions.html">Lugares que visitar</a></li>
+            <li>Música</li>
+            <li><a href="food.html">Comida</a></li>
             </ul>
         </nav>
     </header>
