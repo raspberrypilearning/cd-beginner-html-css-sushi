@@ -6,21 +6,21 @@ YouTube offre un moyen simple d'ajouter ses vidéos à ton site Web. L’ajout d
 
 - Clique sur le bouton **Partager** en dessous de la vidéo. Sélectionne l'option **Intégrer** .
 
-Tu verras une boîte de texte avec tout le texte sélectionné. Si tu désélectionne accidentellement le texte, tu peux le sélectionner à nouveau en cliquant dessus et en appuyant sur les touches <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd> sur un Mac) et <kbd>A</kbd> en même temps.
+Tu verras une boîte de texte avec tout le texte sélectionné. Si tu désélectionnes accidentellement le texte, tu peux le sélectionner à nouveau en cliquant dessus et en appuyant sur les touches <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd> sur un Mac) et <kbd>A</kbd> en même temps.
 
 ![L'option d'intégration de YouTube avec le code sélectionné](images/EmbedYouTube.png)
 
 - Appuie sur les touches <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd> sur un Mac) et <kbd>C</kbd> ensemble pour copier le texte.
 
-- Ensuite, retournez au code HTML de ton site Web, et clique sur l'endroit où tu veux mettre la vidéo, par exemple en dessous d'un titre ou d'un paragraphe. **Colle** le code en appuyant sur <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd> sur un Mac) et <kbd>V</kbd> sur ton clavier en même temps. Ne t’inquiètes pas de comprendre tout le code que tu viens de coller !
+- Ensuite, retourne au code HTML de ton site Web, et clique sur l'endroit où tu veux mettre la vidéo, par exemple en dessous d'un titre ou d'un paragraphe. **Colle** le code en appuyant sur <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd> sur un Mac) et <kbd>V</kbd> sur ton clavier en même temps. Ne t’inquiète pas de comprendre tout le code que tu viens de coller !
 
 ![Exemple de code d'intégration collé dans une page HTML](images/EmbedYouTube2.png)
 
 Tu devrais voir la vidéo apparaître sur ta page Web.
 
-La même technique fonctionne aussi pour les cartes Google. Fait un essai !
+La même technique fonctionne aussi pour les cartes Google. Fais un essai !
 
-- Vas [ici](http://dojo.soy/google-maps) et recherche un endroit que tu veux afficher sur ton site. **Note:** ne partage pas **pas** des informations personnelles telles que ton adresse de domicile sur un site web !
+- Va [ici](http://dojo.soy/google-maps) et recherche un endroit que tu veux afficher sur ton site. **Note:** ne partage pas **pas** des informations personnelles telles que ton adresse de domicile sur un site web !
 
 - Clique sur le résultat, puis clique sur le bouton **Partager** et copie le code et ajoute-le à ton site Web comme ci-dessus. ![Option d'intégration sélectionnée dans Google Maps](images/EmbedGoogleMap.png)
 
