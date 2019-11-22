@@ -1,8 +1,8 @@
-## Controlling how it looks
+## Steuern wie es aussieht
 
-The code that describes what a website looks like is called **CSS**.
+Der Code, der beschreibt, wie eine Website aussieht, heißt **CSS**.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- Sehe Dir die Tabs oben im Codebereich an und öffne die Datei `styles.css`, indem du auf den Reiter mit diesem Namen klickst. Die Datei enthält den folgenden Text:
 
 ```css
   body {
@@ -10,35 +10,35 @@ The code that describes what a website looks like is called **CSS**.
   }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- Ändere die Farbe `white` ("weiß") zu `LightSkyBlue`("helles Himmelblau") und schau was passiert. Deine Website sollte jetzt einen blauen Hintergrund haben! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![Beispiel mit blauem Hintergrund](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Wie funktioniert es?
 
-If you look at the top of the `index.html` file, you will see the following line:
+Wenn du den Anfang der Datei `index.html` ansiehst, findest du folgende Zeile:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+Die obige Zeile weist den Browser an, nach einer speziellen Datei namens `styles.css` zu suchen. Diese spezielle Datei wird ein **Stylesheet** genannt. Du erkennst eine Stylesheet-Datei an der `.css` Endung im Namen.
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+Ein Stylesheet enthält **Regeln** für das Aussehen jedes Elements auf deiner Webseite.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+Die geschweiften Klammern `{ }` und der Code dazwischen sind ein Satz **CSS-Regeln**. Das Wort `body` bedeutet, dass die Regeln für alle `<body>` (also "Hauptteil-") Elemente auf deiner Website gelten. Wir nennen das Teil vor den geschweiften Klammern einen **Selector**. In diesem Fall ist es der Selektor für die body-Elemente.
 
-Each rule inside the curly braces is made up of:
+Jede Regel in den geschweiften Klammern besteht aus:
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- Einer **Eigenschaft** auf der linken Seite, gefolgt von einem Doppelpunkt-symbol `:`
+- Einen **Wert** für die Eigenschaft auf der rechten Seite nach dem Doppelpunkt
+- Ein Semikolon-Symbol `; ` am Ende
 
 \--- /collapse \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+- Lass uns jetzt Regeln hinzufügen, um das Aussehen des Textes anzupassen. Füge zwei neue Zeilen zwischen die geschweiften Klammern ein:
 
 ```css
   body {
@@ -48,11 +48,11 @@ Each rule inside the curly braces is made up of:
   }
 ```
 
-Look at how this has changed the webpage.
+Schau, wie das die Website verändert hat.
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+Die Eigenschaft `color` ist immer für Text. Hier legst du die Farbe für den gesamten Text im `body` von deiner Webseite fest.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- Du kannst auch separate Regeln für die Überschriften und Absätze definieren. Für `<h1>` Überschriften verwendest du den `h1` Selektor. Füge folgenden Code unter der schließenden geschweiften Klammer der body-Regel hinzu.
 
 ```css
   h1 {
@@ -61,12 +61,12 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+Der Überschriften-Text sollte jetzt orange sein und der Absatz noch lila.
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![Ergebnis des neuen CSS-Codes](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+Hast du bemerkt, wie die Buchstaben auch anders aussehen und eine andere Farbe haben? Dies liegt daran, dass du ihre **font family** (d.h. Schriftart) geändert hast. [Hier](http://dojo.soy/web-font-families) findest du weitere Schriftarten.
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+- Versuche einen Satz Regeln für die `<h2>` Überschriften hinzuzufügen, indem du den `h2` Selektor verwendest.
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- Du könntest verschiedene Farbkombinationen für Text und Hintergrund ausprobieren. Viele Farben stehen zur Verfügung. Du findest eine vollständige Liste von ihnen [hier](http://dojo.soy/web-color-names).
