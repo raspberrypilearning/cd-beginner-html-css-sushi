@@ -2,7 +2,7 @@
 title: Guide de mon pays 1.0
 hero_image: images/banner.png
 description: Apprendre à faire un site web
-theme: rouge
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
 ingredient: false
@@ -14,7 +14,7 @@ site_areas: coderdojo, projets
 hardware: ''
 software: html-css-javascript
 version: 3
-last_tested: 01/01/2017
+last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
