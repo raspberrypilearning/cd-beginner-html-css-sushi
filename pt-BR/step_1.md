@@ -1,6 +1,6 @@
 ## Introdução
 
-Learn how to code your first website!
+Aprenda a programar seu primeiro site!
 
 ### O que você vai fazer
 
