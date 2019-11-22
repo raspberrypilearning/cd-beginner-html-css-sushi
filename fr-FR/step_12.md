@@ -2,7 +2,7 @@
 
 Avec CSS, les possibilités de rendre ta barre de menu belle sont infinies.
 
-- Déplaces-toi de nouveau vers le fichier `styles.css` - là où c'est vraiment intéressant!
+- Déplace-toi de nouveau vers le fichier `styles.css` - là où c'est vraiment intéressant!
 
 - Trouve ton sélecteur `nav ul`, et ajoute plus de règles pour qu'il ressemble à ceci :
 
@@ -32,7 +32,7 @@ La règle ci-dessus s'applique aux liens `<a>` à l'intérieur des éléments de
 
 ![Barre de menu avec le surlignage de lien supprimé](images/egMenuBarNoUnderline.png)
 
-Rappels-toi comment tu as supprimé les balises de lien de certains éléments de la liste dans le `<nav>` afin que tu puisses facilement voir sur quelle page tu te trouves? Pourquoi ne pas aussi modifier la couleur du texte des éléments de la liste de navigation qui ne sont pas des liens!
+Rappelle-toi comment tu as supprimé les balises de lien de certains éléments de la liste dans le `<nav>` afin que tu puisses facilement voir sur quelle page tu te trouves? Pourquoi ne pas aussi modifier la couleur du texte des éléments de la liste de navigation qui ne sont pas des liens!
 
 - Trouve ton sélecteur `nav ul li`, et **à l'intérieur** des accolades ajoute la ligne :
 
