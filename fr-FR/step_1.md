@@ -1,6 +1,6 @@
 ## Introduction
 
-Apprend à coder ton premier site Web!
+Apprends à coder ton premier site Web!
 
 ### Ce que tu feras
 
@@ -16,7 +16,7 @@ Construire un site Web à propos de ton pays d'origine, comme celui dans le trin
 
 + Utiliser un éditeur en ligne pour créer un site web constitué de fichiers HTML et d'un fichier CSS
 + Construction d'un site Web HTML comportant des en-têtes, du texte de paragraphe, des listes et des images
-+ Utilisation du code CSS pour contrôler l'aspect de votre site Web, y compris la conception d'une barre de menu simple et le changement des couleurs, des arrière-plans et des bordures
++ Utilisation du code CSS pour contrôler l'aspect de ton site Web, y compris la conception d'une barre de menu simple et le changement des couleurs, des arrière-plans et des bordures
 + Lier des pages les unes aux autres et créer des liens vers d'autres sites Web
 + Création d'un tableau comprenant des en-têtes et plusieurs lignes
 
