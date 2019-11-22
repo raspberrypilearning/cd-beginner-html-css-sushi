@@ -1,10 +1,10 @@
-## Making a menu bar
+## Eine Menüleiste erstellen
 
-On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
+Auf dieser Karte wirst du sehen, wie du dein Navigationsmenü in eine coole Menüleiste verwandeln kannst, indem du dem Stylesheet mehr CSS-Regeln hinzufügst.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+![Beispiel einer Menüleiste](images/egCoolMenuBar.png)
 
-- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
+- Wechsle zum Stylesheet im Reiter `styles.css`. Klicke **unter** eine schließende geschweifte Klammer `}` und drücke die **Eingabetaste**, um eine neue Leerzeile zu erstellen. Füge die folgende CSS Regel hinzu:
 
 ```css
     nav ul {
@@ -12,13 +12,13 @@ On this card you will see how you can transform your navigation menu into a cool
     }
 ```
 
-Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+Hast du bemerkt, dass du statt einem Selektor zwei verwendest? Wenn du nur den `ul` Selektor benutzt hättest, würde die Regel alle ungeordneten Listen auf deiner Website betreffen. Der zusätzliche `nav` Selektor führt dazu, dass die Regel nur die Listen betrifft, die zwischen `nav` Tags stehen.
 
-![List with red background](images/egMenuBarFirstStyle.png)
+![Liste mit rotem Hintergrund](images/egMenuBarFirstStyle.png)
 
-Let's get rid of the bullet points. Those are the dots in front of each list item.
+Lass uns die Aufzählungspunkte loswerden. Das sind die Punkte vor jedem Listenelement.
 
-- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- Füge den folgenden Code der `styles.css` Datei hinzu. Wie vorher, füge eine neue Zeile nach einer `}` ein, damit der Code nicht innerhalb eines anderen Regelblock steht.
 
 ```css
     nav ul li {
@@ -26,17 +26,17 @@ Let's get rid of the bullet points. Those are the dots in front of each list ite
     }
 ```
 
-Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+Beachte, dass diese Regel drei Selektoren verwendet: Es wählt alle `li` Elemente, die in einer `ul` Liste stehen, die sich wiederum in einem `nav` Tag befindet. Puh!
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![Liste ohne Aufzählungszeichen](images/egMenuBarNoBullets.png)
 
-Now let's make the list horizontal (across) instead of vertical (down).
+Lass uns jetzt die Liste waagrecht (d.h. quer) statt senkrecht (d.h. von oben nach unten) machen.
 
-- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+- Füge der neu erstellten CSS Regel folgende Zeile hinzu: `display: inline;`.
 
 ![](images/egMenuBarInline.png)
 
-- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+- Die Menüelemente sind jetzt alle zusammengequetsch, also füge die Eigenschaften `margin-right` (Abstand rechts) und `margin-left` (Abstand links) hinzu, um sie ein wenig zu verteilen. Der CSS-Code sollte jetzt so aussehen:
 
 ```css
     nav ul li {
@@ -47,29 +47,29 @@ Now let's make the list horizontal (across) instead of vertical (down).
     }
 ```
 
-Remember: `10px` means ten pixels.
+Denke daran: `10px` bedeutet zehn Pixel.
 
-How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+Wie wäre es, wenn du das Menü so änderst, dass es dir sagt, auf welcher Seite du dich befindest? Dieser Teil wird nicht im Stylesheet sein.
 
-- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- Beginne mit der Homepage. Gehe zurück zu deiner `index.html` Datei. Entferne die Link-Tags vor und nach dem Wort `Start` in der Liste der Menülinks, damit das Listenelement für die Homepage nur als Text zwischen `<li></li>` Tags steht, so wie hier: `<li>Start</li>`.
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
+- Gehe durch alle anderen Dateien und mache die gleiche Änderung - aber ändere jedesmal die Link-Tags der jeweiligen Seite. Zum Beispiel, in der Datei `music.html` habe ich die Link-Tags vom `Musik` Listenelement entfernt:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li>Music</li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="attractions.html">Attraktionen</a></li>
+            <li>Musik</li>
+            <li><a href="food.html">Essen</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- Klicke auf die Links und schaue die verschiedenen Seiten an. Siehst du wie der Name der jeweils aktiven Seite als einfacher Text dargestellt wird statt als Link? 
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+![Beispiel einer Menüleiste, die die aktuelle Seite hervorhebt](images/egMenuBarOnPage.png)
 
-On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
+Auf der nächsten Karte lernst du noch mehr CSS-Tricks, um die Menüleiste total cool aussehen zu lassen.
