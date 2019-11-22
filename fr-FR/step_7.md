@@ -21,9 +21,9 @@ Note qu'il y a une paire de balises `<li> </li>` séparées autour de chaque él
 
 Il s'agit d'une liste de certains animaux que tu pourrais voir en Irlande. Tu peux modifier les éléments de la liste en éléments utiles pour ton site Web et ajoute un paragraphe au-dessus de la liste pour décrire la liste, si tu le souhaites!
 
-Comment savoir si tu voulais une liste numérotée? C'est presque le même, mais au lieu de `<ul>`, tu utilises `<ol>`. Une liste numérotée est également appelée une liste **ordonnée**.
+Et si tu voulais une liste numérotée? C'est presque pareil, mais au lieu de `<ul>`, tu utilises `<ol>`. Une liste numérotée est également appelée une liste **ordonnée**.
 
-- Ajoute le code suivant sous le code que tu viens d'écrire — assures-toi qu'il est **en dessous** de la balise `</ul>` !
+- Ajoute le code suivant sous le code que tu viens d'écrire — assure-toi qu'il est **en dessous** de la balise `</ul>` !
 
 ```html
     <p>
@@ -42,7 +42,7 @@ Voici à quoi cela devrait ressembler maintenant:
 
 \--- challenge \---
 
-## Défi : ajouter du style à vos listes
+## Défi : ajouter du style à tes listes
 
 - Vois si tu peux ajouter les ** règles CSS ** dans ta feuille de style pour changer l’apparence de tes listes.
 
