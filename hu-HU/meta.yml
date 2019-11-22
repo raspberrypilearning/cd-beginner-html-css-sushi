@@ -2,7 +2,7 @@
 title: Guide to my country 1.0
 hero_image: images / banner.png
 description: Learn to make a website
-theme: red
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
 ingredient: false
