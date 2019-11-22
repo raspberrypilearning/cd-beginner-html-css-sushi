@@ -1,8 +1,8 @@
 ---
-title: Leitfaden für mein Land 1.0
+title: Mein Länderführer 1.0
 hero_image: images/banner.png
 description: Lerne, wie du eine Website erstellst
-theme: red
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
 ingredient: false
@@ -10,7 +10,7 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: Coderdojo, Projekte
+site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 3
@@ -21,26 +21,26 @@ steps:
   - 
     title: Erste Schritte
   - 
-    title: Deine erste Webseite!
+    title: Deine erste Website!
   - 
     title: Passe deine Seite an
   - 
     title: Bilder hinzufügen
   - 
-    title: Hinzufügen einer Karte oder eines Videos
+    title: Karte oder Video hinzufügen
   - 
-    title: Anlegen einer Liste
+    title: Eine Liste erstellen
   - 
-    title: Erstellen von Links
+    title: Links erstellen
   - 
-    title: Hinzufügen weiterer Seiten
+    title: Weitere Seiten hinzufügen
   - 
     title: Auf deiner Website navigieren
   - 
     title: Eine Menüleiste erstellen
   - 
-    title: Gestalten der Menüleiste
+    title: Die Menüleiste gestalten
   - 
-    title: Hinzufügen einer Tabelle
+    title: Eine Tabelle hinzufügen
   - 
-    title: Und noch mehr?
+    title: Wie geht es weiter?
