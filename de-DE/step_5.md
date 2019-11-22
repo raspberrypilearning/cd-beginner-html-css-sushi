@@ -1,75 +1,75 @@
-## Adding pictures
+## Bilder hinzufügen
 
-Let's add a picture!
+Fügen wir ein Bild hinzu!
 
-- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
+- Klicke auf den Reiter `index.html`. Suche nach dem `</main>` -Tag und gib folgendes **in der Zeile darüber** ein: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Here's what the result should look like:
+So sollte das Ergebnis aussehen:
 
-![Image code and picture of Tito](images/egImgCodeTito.png)
+![Bildcode und Bild von Tito](images/egImgCodeTito.png)
 
-Notice that this tag has extra bits of information inside it. They are called **attributes**.
+Beachte jedoch, dass dieses Tag zusätzliche Informationen enthält. Diese werden **Attribute** genannt.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
+- Finde das Codestück `width="100px"` und probiere verschiedene Zahlen aus, um herauszufinden, was dieses Attribut tut. Lösche dabei die Buchstaben `px` nicht!
 
 \--- collapse \---
 
 * * *
 
-## title: How the `img` tag works
+## title: Wie das `img` Tag funktioniert
 
-Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+Beachte, dass das `<img>` Tag anders ist, wie die anderen Tags, die du bisher verwendet hast — es hat kein schließendes `</img>` Tag. Stattdessen ist dieses Tag **selbstschließend**: Es hat `/>` am Ende. Das liegt daran, dass es kein 'Start' und 'Ende' für ein Bildelement gibt, wie es für Text gibt.
 
-The tag contains **attributes** with extra information:
+Das Tag enthält **Attribute** mit zusätzlichen Informationen:
 
-- The `src` attribute tells the browser what file to use for the picture. 
-- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
-- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- Das `src`-Attribut teilt dem Browser mit, welche Datei er für das Bild verwenden soll. 
+- Das `alt`-Attribut ist eine kurze Beschreibung, die der Browser anzeigt, wenn das Bild nicht angezeigt werden kann. 'alt' ist kurz für 'Alternative'. Dieser Text wird auch von einem Bildschirmleser verwendet, damit Sehbehinderte wissen, was das Bild darstellt.
+- Das `width` Attribut teilt dem Browser mit, wie breit das Bild sein soll. `100px` bedeutet einhundert **Pixel**, das sind die winzigen Punkte, die das Bild auf deinem Bildschirm formen. Wenn du dieses Attribut nicht angibst, wird das Bild in seiner Originalgröße angezeigt.
 
 \--- /collapse \---
 
-Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+Da du den Code jetzt kennst, um ein Bild auf deine Website zu platzieren, möchtest du das Bild sicherlich ändern, oder?
 
-- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+- Das erste, was du brauchst, ist natürlich ein Bild! Du kannst entweder ein Bild verwenden, das bereits auf deinem Computer ist, wie z.B. ein von dir erstelltes Foto. Du kannst aber auch einfach eines aus dem Internet einfügen.
 
 [[[generic-get-picture-from-web]]]
 
-**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
+**Achtung:** Nicht alle Bilder, die du im Internet findest, sind frei nutzbar. Wenn du ein Bild herunterlädst, solltest du sicherstellen, dass es ein Bild ist, das du verwenden darfst. Erfahre mehr dazu hier:
 
 [[[images-permissions-to-use]]]
 
-Once you have a picture, you can **upload** the file to Trinket:
+Sobald du ein Bild hast, kannst du es zu Trinket **hochladen**:
 
-- In your trinket, click on the **image** icon next to the **+** sign. 
+- Klicke in Trinket auf das **Bild**-Symbol neben dem **+** Zeichen. 
 
-![The image icon](images/tktImageIconArrow.png)
+![Das image Symbol](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+Hier kannst du die Bilder sehen, die du auf deiner Website verwenden kannst. Du solltest das Bild von Tito, dem CoderDojo Hund, sehen.
 
-- Click the button **Add Image** and then click **Upload**.
+- Klicke die **Add image** Schaltfläche und dann klicke **Upload**.
 
-- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+- Klicke auf die Schaltfläche **Click to select files** (Dateien auswählen). Finde und doppel-klicke auf deine Bilddatei in dem Fenster, das sich öffnet.
 
-- Click **Done**.
+- Klicke **Done** (fertig).
 
-![Image upload area](images/tktUploadImages.png)
+![Bild-Upload-Bereich](images/tktUploadImages.png)
 
-Your picture will be uploaded and should be ready to use.
+Dein Bild wird hochgeladen und sollte einsatzbereit sein.
 
-- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+- Gehe zur Datei `index.html` und finde den `<img>` Tag. Ändere den Text `tito.png` so, dass er exakt mit dem Namen der von dir ausgewählten Bilddatei übereinstimmt. Beachte, dass der Name möglicherweise auf `.jpg` anstelle von `.png` endet!
 
-The text you just changed is the attribute called `src`, which tells the browser which file to display.
+Du hast gerade das Attribut `src` geändert, das dem Browser mitteilt, welche Datei angezeigt werden soll.
 
-**Note:** the value you type for an attribute must have quotation marks `""` around it!
+**Achtung:** Der Wert, den du für ein Attribut eingibst, muss in Anführungszeichen `""` stehen!
 
 \--- challenge \---
 
-## Challenge: change the alt text of the picture
+## Herausforderung: Ändere den alt-Text des Bildes
 
-- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+- Suche das Attribut `alt` deines Bildelements und ändere den darin enthaltenen Text zu einer kurzen Beschreibung deines Bildes. 
 
 \--- /challenge \---
