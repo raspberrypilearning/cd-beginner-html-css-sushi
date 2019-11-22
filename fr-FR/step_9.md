@@ -10,21 +10,21 @@ Cette carte te montreras comment ajouter plus de pages à ton site web.
 
 ## title: Renommer ou supprimer un fichier
 
-Si tu veux changer le nom d'un fichier, clique sur l'icône **rouage** à droite du nom du fichier, puis clique sur l'icône **crayon** . Tape le nouveau nom et appuye sur **Entrer**. Tu peux également supprimer un fichier en cliquant sur l'icône **poubelle** au lieu de l'icône **crayon** . ![](images/EditFilename.png)
+Si tu veux changer le nom d'un fichier, clique sur l'icône **rouage** à droite du nom du fichier, puis clique sur l'icône **crayon** . Tape le nouveau nom et appuie sur **Entrer**. Tu peux également supprimer un fichier en cliquant sur l'icône **poubelle** au lieu de l'icône **crayon** . ![](images/EditFilename.png)
 
 Tu te demandes peut-être pourquoi tu ne peux pas changer le nom du fichier `index.html`. `index.html` est un nom spécial utilisé pour la **page d'accueil** d'un site web. C'est la première page sur laquelle tu te trouves lorsque tu visites un site Web. Chaque fois que tu vas sur la page d'accueil d'un site web, le navigateur recherche le fichier `index.html` et l'affiche sur ton écran.
 
 \--- /collapse \---
 
-- Trouve le fichier `blank_page.html` et copie et colle tout le code de celui-ci dans tone nouveau fichier. Comme tu veux copier tout le contenu, tu peux cliquer n'importe où sur le code et utiliser le raccourci clavier <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>A</kbd> pour sélectionner tout en une fois.
+- Trouve le fichier `blank_page.html` et copie et colle tout le code de celui-ci dans ton nouveau fichier. Comme tu veux copier tout le contenu, tu peux cliquer n'importe où sur le code et utiliser le raccourci clavier <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>A</kbd> pour sélectionner tout en une fois.
 
-- Change le texte entre les balises `<title> </title>` pour que ta nouvelle page ait un titre approprié. Trinket n'affichera pas le titre, mais tu peux le voir en haut de votre fenêtre de navigateur si tu télécharges ton projet.
+- Change le texte entre les balises `<title> </title>` pour que ta nouvelle page ait un titre approprié. Trinket n'affichera pas le titre, mais tu peux le voir en haut de ta fenêtre de navigateur si tu télécharges ton projet.
 
 ![Le titre de la page affiché dans l'onglet navigateur](images/egLocalFileWindowTitle.png)
 
-- Entre les balises `<main> </main>` dans le nouveau fichier, utilise les balises que tu as appris à ajouter aux pages, tels que les paragraphes, les en-têtes, les images et les listes!
+- Entre les balises `<main> </main>` dans le nouveau fichier, utilise les balises que tu as apprises à ajouter aux pages, tels que les paragraphes, les en-têtes, les images et les listes!
 
-- Répéte les étapes ci-dessus pour chaque nouvelle page que tu souhaites ajouter.
+- Répète les étapes ci-dessus pour chaque nouvelle page que tu souhaites ajouter.
 
 Quand il y a trop d'onglets à afficher simultanément pour Trinket, tu peux utiliser les icônes ** < ** et <0 >> </strong> dans le coin supérieur gauche des onglets pour les faire défiler.
 
@@ -43,7 +43,7 @@ Tu dois maintenant créer des liens pour accéder à chacune de tes nouvelles pa
     </ul>
 ```
 
-- Change la valeur de l'attribut `href` pour chaque lien (rappelez-vous, c'est le texte dans les guillemets) afin qu'il corresponde exactement au nom de chaque fichier HTML que tu as créé.
+- Change la valeur de l'attribut `href` pour chaque lien (rappelle-toi, c'est le texte dans les guillemets) afin qu'il corresponde exactement au nom de chaque fichier HTML que tu as créé.
 
 - Change le texte entre les balises `<a> </a>` pour les descriptions appropriées de vos pages.
 
