@@ -14,19 +14,19 @@ Les balises `<a> </a>` transforment tout ce qui est entre elles en un lien.
 
 C'est parce que l'attribut `href` est vide pour le moment. Il doit contenir l' **URL** (adresse web) de la page à laquelle tu souhaites lier.
 
-- Vas sur Wikipedia et trouve une page sur quelque chose sur ton site. Je vais utiliser la page sur l'Irlande.
+- Va sur Wikipedia et trouve une page sur quelque chose sur ton site. Je vais utiliser la page sur l'Irlande.
 
 - Clique dans la barre d'adresse et sélectionne tout le texte dans i5. C'est l'URL complète de la page sur laquelle tu te trouves. Appuie sur les touches <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>C</kdb> en même temps pour le copier.
     
     ![URL dans la barre d'adresse](images/AddressBarURL.png)
 
-- Dans ton trinket, clique entre les guillemets après `href=` et appuye sur les touches <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>V</kdb> en même temps pour coller dans l'URL ce que tu viens de copier. Ton code devrait ressembler à ceci maintenant :
+- Dans ton trinket, clique entre les guillemets après `href=` et appuie sur les touches <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>V</kdb> en même temps pour coller dans l'URL ce que tu viens de copier. Ton code devrait ressembler à ceci maintenant :
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">Clique ici</a>
 ```
 
-T viens de créer ton premier lien ! Clique dessus pour voir si cela fonctionne maintenant.
+Tu viens de créer ton premier lien ! Clique dessus pour voir si cela fonctionne maintenant.
 
 ![Balise de lien](images/egLinkTagWithURL.png)
 
