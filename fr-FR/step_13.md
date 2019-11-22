@@ -12,7 +12,7 @@ Un tableau est une grille composée de **lignes** et **colonnes**. La plupart de
 
 Pour le moment, ton tableau est vide.
 
-- Fait un tour pour remplir ton tableau avec tout ce que tu aimes! Il suffit de mettre du texte entre les balises `<td> </td>` et entre les balises `<th> </th>` . Tu peux ajouter plus de tags si tu en as besoin.
+- Fais un tour pour remplir ton tableau avec tout ce que tu aimes! Il suffit de mettre du texte entre les balises `<td> </td>` et entre les balises `<th> </th>` . Tu peux ajouter plus de tags si tu en as besoin.
 
 ## \--- collapse \---
 
@@ -58,19 +58,19 @@ Pour ajouter une autre **colonne**, ajoute un élément **donnée** supplémenta
 
 ## \--- collapse \---
 
-## title: Comment çà marche?
+## title: Comment ça marche?
 
 Regardons toutes ces balises. C'est un peu comme le code pour une liste (souvenez-vous `<ul>` et `<ol>`) mais avec plus de niveaux.
 
 Chaque paire de balises `<tr> </tr>` est une ligne, donc tout entre elles sera affiché sur une ligne.
 
-La première ligne contient des balises `<th> </th>` . Ces titres sont utilisés pour les en-têtes, donc les titres de colonne vont entre eux. Il y a une paire pour chaque colonne que vous avez dans votre table.
+La première ligne contient des balises `<th> </th>` . Ces titres sont utilisés pour les en-têtes, donc les titres de colonne vont entre eux. Il y a une paire pour chaque colonne que tu as dans ta table.
 
-Les balises `<td> </td>` définissent ce que l'on appelle les données de tableau, et c'est ce qui va dans toutes les autres lignes. Ces éléments sont similaires aux tags `<li> </li>`: tout ce qui est entre eux est un élément dans votre ligne de tableau.
+Les balises `<td> </td>` définissent ce que l'on appelle les données de tableau, et c'est ce qui va dans toutes les autres lignes. Ces éléments sont similaires aux tags `<li> </li>`: tout ce qui est entre eux est un élément dans ta ligne de tableau.
 
 \--- /collapse \---
 
-- Si tu regardes la fin du fichier `styles.css` tus verras le code CSS qui décrit comment le tableau devrait ressembler. Tu n'es pas obligé de tout comprendre! Mais tu peux essayer de changer les couleurs du texte, la bordure et l'arrière-plan pour créer ton propre style.
+- Si tu regardes la fin du fichier `styles.css` tu verras le code CSS qui décrit à quoi le tableau devrait ressembler. Tu n'es pas obligé de tout comprendre! Mais tu peux essayer de changer les couleurs du texte, la bordure et l'arrière-plan pour créer ton propre style.
 
 ```css
   table, th, td {
