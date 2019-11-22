@@ -1,76 +1,76 @@
-## Adding a table
+## Eine Tabelle hinzufügen
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+Manchmal kann es praktisch sein, Informationen in einer Tabelle darzustellen. Zum Beispiel auf einer Website von einem Sportverein oder einer Schule könntest Du Mitgliederinformationen auflisten, oder auf Informationen zu deinen zehn Lieblingssongs.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+Eine Tabelle ist ein Raster aus **Zeilen** und **Spalten**. Außerdem haben die meisten Tabellen oben eine **Kopfzeile**, in der der Titel von jeder Spalte steht. Hier ist ein Beispiel:
 
-![Example of information in a table](images/egTableResult.png)
+![Beispiel von Informationen in einer Tabelle](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- Wechsle zur Datei `page_with_table.html`. Dort siehst du einen Batzen Code zwischen `<table> </table>` Tags.
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- Markiere den gesamten Code vom Anfang des `<table>`-Tags bis zum Ende des schließenden ` </table>`-Tags und kopiere ihn. Wechsle dann zu einer deiner Dateien, in die du eine Tabelle einfügen möchtest und füge den Code ein.
 
-At the moment your table is empty.
+Momentan ist die Tabelle leer.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- Versuche mal, die Tabelle mit irgendwas zu füllen! Trage einfach einen Text zwischen die `<td> </td>` Tags (td = table data = Tabellendaten) und zwischen die `<th> </th>` Tags (th = table header = Tabellenkopf) ein. Bei Bedarf kannst Du weitere Tags hinzufügen.
 
 ## \--- collapse \---
 
-## title: Example code
+## title: Beispielcode
 
-The HTML code for the table shown above looks like this:
+Der HTML-Code von der obigen Tabelle sieht so aus:
 
 ```html
   <table>
     <tr>
-      <th>Name of pet</th>
-      <th>Animal</th>
-      <th>Colour</th>
+      <th>Name des Haustiers</th>
+      <th>Tier</th>
+      <th>Farbe</th>
     </tr>
     <tr>
       <td>Mia</td>
-      <td>Cat</td>
-      <td>Black and fluffy</td>
+      <td>Katze</td>
+      <td>Schwarz und flauschig</td>
     </tr>
     <tr>
       <td>Tito</td>
-      <td>Dog</td>
-      <td>Black with brown patches</td>
+      <td>Hund</td>
+      <td>Schwarz mit braunen Flecken</td>
     </tr>
     <tr>
       <td>Honeycomb</td>
-      <td>Guinea Pig</td>
-      <td>White with orange patches</td>
+      <td>Meerschweinchen</td>
+      <td>Weiß mit orangenen Flecken</td>
     </tr>
     <tr>
       <td>Alfie</td>
-      <td>Budgie</td>
-      <td>Green and yellow</td>
+      <td>Wellensittich</td>
+      <td>Grün und gelb</td>
     </tr>
   </table>
 ```
 
 \--- /collapse \---
 
-To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+Um noch eine **Zeile** hinzuzufügen, füge ein weiteres Paar `<tr> </tr>` Tags hinzu. Dazwischen platzierst Du **Daten** Elemente mit `<td> </td>` Tags. Die Anzahl muss die Gleiche sein, wie in den anderen Zeilen.
 
-To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+Um eine weitere **Spalte** hinzuzufügen, füge **jeder** Zeile ein zusätzliches **Daten** Element mit einem Satz `<td> </td>` Tags hinzu. Füge der ersten Zeile auch einen zusätzlichen **Tabellenkopf** mit `<th> </th>` Tags hinzu.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Wie funktioniert es?
 
-Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+Schauen wir uns all diese Tags an. Es ist ein bisschen wie der Code von einer Liste (d.h. `<ul>` und `<ol>`) aber mit mehr Ebenen.
 
-Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+Jedes Paar `<tr></tr>`Tags ergibt eine Zeile (engl: row, daher tr) und daher wird alles zwischen den Tags auf einer Höhe dargestellt.
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+Die erste Zeile enthält `<th> </th>` Tags. Diese werden für die Überschriften (engl: Headings) verwendet und so stehen die Spaltentitel dazwischen. Es gibt ein Paar für jede Spalte in deiner Tabelle.
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+Die `<td></td>`Tags definieren die sogenannten Tabellen-Daten und die stehen in allen anderen Zeilen. Diese ähneln den Listenelement-Tags `<li> </li>`: Alles dazwischen ist ein Element in einer Tabellenzeile.
 
 \--- /collapse \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- Am Ende der `styles.css` Datei siehst du den CSS Code, der das Aussehen der Tabelle bestimmt. Du musst nicht alles verstehen! Du kannst aber ein bisschen herumexperimentieren, indem du die Text-, Rahmen- und Hintergrundfarben änderst und deinen eigenen Stil entwickelst.
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ The `<td> </td>` tags define what's called table data, and that's what goes in a
   }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+Hast du bemerkt, wie einige Selektoren Kommas verwenden, z.B. `table, th, td`? Das ist eine **Liste von Selektoren**: das bedeutet, dass es auf alle `<th>` Elemente und alle `<td>` Elemente angewendet wird. Es erspart dir, die gleichen Regeln für jeden Selektor zu tippen!
