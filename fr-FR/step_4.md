@@ -2,7 +2,7 @@
 
 Le code qui décrit à quoi ressemble un site Web s'appelle **CSS** .
 
-- Regarde aux onglets en haut du panneau de code, et vas au fichier `styles.css` en cliquant sur l'onglet portant ce nom. Le fichier contient le texte suivant :
+- Regarde les onglets en haut du panneau de code, et va au fichier `styles.css` en cliquant sur l'onglet portant ce nom. Le fichier contient le texte suivant :
 
 ```css
   body {
@@ -26,9 +26,9 @@ Si tu regardes le haut du fichier `index.html` tu verras la ligne suivante :
 
 La ligne ci-dessus indique au navigateur de rechercher un fichier spécial nommé `styles.css`. Ce fichier spécial est appelé une **feuille de style**. Tu peux reconnaître un fichier de feuille de style par `.css` dans son nom.
 
-Une feuille de style contient des **règles** pour ce que chaque élément de ta page web devrait ressembler.
+Une feuille de style contient des **règles** pour ce à quoi chaque élément de ta page web devrait ressembler.
 
-Les accolades `{ }` et le code entre eux est un ensemble de ** règles CSS ** . Le mot `body` signifie que les règles sont valables pour tous les `<body>` éléments sur votre site web. Nous appelons la partie devant les crochets un **sélecteur**. Dans ce cas, c'est donc le sélecteur pour les éléments body.
+Les accolades `{ }` et le code entre eux est un ensemble de ** règles CSS ** . Le mot `body` signifie que les règles sont valables pour tous les éléments `<body>` sur votre site web. Nous appelons la partie devant les crochets un **sélecteur**. Dans ce cas, c'est donc le sélecteur pour les éléments body.
 
 Chaque règle à l'intérieur des crochets est constituée de :
 
