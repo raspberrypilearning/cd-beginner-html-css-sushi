@@ -1,75 +1,75 @@
-## Adding pictures
+## إضافة صور
 
-Let's add a picture!
+دعنا نضيف صورة!
 
-- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
+- انتقل إلى علامة التبويب التي تحمل اسم ` index.html `. ابحث عن وسم `</main>` واكتب ما يلي ** أعلاه ** ما يلي: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Here's what the result should look like:
+إليك الشكل الذي يجب أن تبدو عليه النتيجة:
 
-![Image code and picture of Tito](images/egImgCodeTito.png)
+![برمجة الصورة وصورة Tito](images/egImgCodeTito.png)
 
-Notice that this tag has extra bits of information inside it. They are called **attributes**.
+لاحظ أن هذا الوسم يحتوي على معلومات إضافية بداخله. يطلق عليهم اسم **سمات**.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
+- ابحث عن الجزء الذي يقول ` width = "100px" ` وحاول تجربة أرقام مختلفة لمعرفة ما إذا كان يمكنك معرفة ما تقوم به هذه السمة. لا تمسح الحروف `px`!
 
 \--- collapse \---
 
 * * *
 
-## title: How the `img` tag works
+## title: كيف يعمل وسم `img`
 
-Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+لاحظ أن العلامة `<img>` مختلفة عن العلامات الأخرى التي استخدمتها حتى الآن - لا يوجد وسم إغلاق `</img>`. بدلاً من ذلك، هذا الوسم **ذا إغلاق ذاتي**: يحتوي على `/>` في نهايته. هذا بسبب عدم وجود "بداية" و "نهاية" لعنصر الصورة كما في النص.
 
-The tag contains **attributes** with extra information:
+تحتوي العلامة على **سمات** مع معلومات إضافية:
 
-- The `src` attribute tells the browser what file to use for the picture. 
-- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
-- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- سمة `src` تخبر المتصفح اي ملف يستخدم كصورة. 
+- سمة `alt` تحمل شرح مختصر ليستخدمها المتصفح اذا لم يستطيع إظهار الصورة. 'alt' اختصار ل'alternative' والتي تعني بديل. يساعد هذا النص أيضًا الأشخاص الذين يستخدمون قارئ الشاشة للتعرف على الصورة.
+- سمة `width` تخبر المتصفح بعرض الصورة. ` 100px ` تعني مائة **بكسل**، وهي النقاط الصغيرة التي تشكل ما تراه على شاشتك. إذا لم تقم بتضمين هذه السمة ، فسيتم عرض الصورة بحجمها الأصلي.
 
 \--- /collapse \---
 
-Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+الآن بعد أن عرفت الكود لوضع صورة على موقع الويب الخاص بك، ربما تريد تغيير الصورة، أليس كذلك؟
 
-- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+- أول ما ستحتاج إليه هو ، بالطبع ، صورة! يمكنك إما استخدام صورة لديك على جهاز الكمبيوتر الخاص بك، مثل صورة التقطتها، أو يمكنك الحصول عليها من الإنترنت.
 
 [[[generic-get-picture-from-web]]]
 
-**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
+**ملاحظة:** ليست كل الصور التي ستجدها على الإنترنت مجانية ليستخدمها أي شخص. إذا قمت بتنزيل صورة ، يجب أن تتأكد من أنها صورة مسموح لك باستخدامها. اكتشف المزيد عن هذا هنا:
 
 [[[images-permissions-to-use]]]
 
-Once you have a picture, you can **upload** the file to Trinket:
+بمجرد حصولك على صورة، يمكنك **تحميل** الملف إلى Trinket:
 
-- In your trinket, click on the **image** icon next to the **+** sign. 
+- في trinket، اضغط على أيقونة **الصورة** بجانب علامة **+**. 
 
-![The image icon](images/tktImageIconArrow.png)
+![أيقونة الصورة](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+هذا هو المكان الذي يمكنك من خلاله رؤية الصور التي يمكنك استخدامها في موقعك الخاص. يجب أن تشاهد صورة Tito، كلب CoderDojo.
 
-- Click the button **Add Image** and then click **Upload**.
+- اضغط زر **Add Image** ثم اضغط **Upload**.
 
-- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+- اضغط زر **Click To Select Files**. ابحث عن ملف صورتك واضغط مرتين عليها في النافذة التي فتحت.
 
-- Click **Done**.
+- اضغط على **موافق**.
 
-![Image upload area](images/tktUploadImages.png)
+![مساحة تحميل الصورة](images/tktUploadImages.png)
 
-Your picture will be uploaded and should be ready to use.
+سيتم تحميل صورتك ويجب أن تكون جاهزة للاستخدام.
 
-- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+- انتقل إلى ملف `index.html` وابحث عن وسم `<img>`. غير النص`tito.png` بحيث يطابق اسم ملف الصورة التي اخترتها تماماً. لاحظ أن اسمه قد ينتهي بـ`.jpg` بدلاً من `.png`!
 
-The text you just changed is the attribute called `src`, which tells the browser which file to display.
+النص الذي غيرته للتو هو السمة التي تسمى ` src `، والتي تخبر المتصفح اي ملف يعرض.
 
-**Note:** the value you type for an attribute must have quotation marks `""` around it!
+** ملاحظة:** يجب أن تحتوي القيمة التي تكتبها للسمة على علامات اقتباس `""` حولها!
 
 \--- challenge \---
 
-## Challenge: change the alt text of the picture
+## تحدي: تغيير النص البديل للصورة
 
-- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+- أبحث عن سمة `alt` لعنصر الصورة التي إخترتها وغير النص لشرح مختصر عن الصورة. 
 
 \--- /challenge \---
