@@ -1,52 +1,52 @@
-## Adding more pages
+## إضافة المزيد من الصفحات
 
-This card will show you how to add more pages to your website.
+ستوضح لك هذه البطاقة كيفية إضافة المزيد من الصفحات إلى موقعك على الويب.
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+- في الجزء العلوي من لوحة البرمجة ، انقر على رمز **+** بجانب علامات التبويب ، واكتب اسمًا للملف الجديد. يجب أن ينتهي بـ `.html ` (بما في ذلك النقطة!) بحيث يعرف المتصفح أنها صفحة ويب.
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+![إضافة ملف جديد في Trinket](images/tktNewFileArrows.png)
 
 ## \--- collapse \---
 
-## title: Renaming or deleting a file
+## title: إعادة تسمية او حذف الملف
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
+إذا كنت ترغب في تغيير اسم الملف ، فانقر على أيقونة **الترس** على يمين اسم الملف ، ثم انقر فوق أيقونة **قلم الرصاص**. اكتب الاسم الجديد واضغط على زر** Enter **. يمكنك أيضًا حذف ملف عن طريق النقر فوق أيقونة **الحاوية ** بدلاً من أيقونة **قلم الرصاص**. ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+قد تتساءل لماذا لا يمكنك تغيير اسم ملف`index.html`. `index.html` هو اسم خاص يستخدم **للصفحة الرئيسية** من الموقع. هذه هي الصفحة الأولى التي تكون فيها عند زيارة الموقع الإلكتروني. كلما انتقلت إلى الصفحة الرئيسية لموقع ويب ، يبحث المستعرض عن الملف المسمى ` index.html ` ويعرضه على الشاشة.
 
 \--- /collapse \---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- ابحث عن الملف ` blank_page.html ` وانسخ كل البرمجة التي فيه والصقها في الملف الجديد. نظرًا لأنك ترغب في نسخ كل شيء ، يمكنك النقر في أي مكان على الكود واستخدام اختصار لوحة المفاتيح <kbd> Ctrl </kbd> (أو <kbd> cmd </kbd>) و <kbd>A</kbd> لتحديد الكل في نفس الوقت.
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
+- غير النص بين الرمزين `<title> </title>` ليكون لصفحتك الجديدة عنوان مناسب. لن يعرض Trinket العنوان ، ولكن يمكنك رؤيته في الجزء العلوي من نافذة المتصفح إذا قمت بتنزيل مشروعك.
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+![عنوان الصفحة يظهر في علامة تبويب المتصفح](images/egLocalFileWindowTitle.png)
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
+- بين رمزين `<main> </main>` في الملف الجديد ، استخدم العلامات التي تعلمتها حول إضافة أشياء إلى الصفحة ، مثل الفقرات والعناوين والصور والقوائم!
 
-- Repeat the steps above for each new page that you want to add.
+- كرر الخطوات المذكورة أعلاه لكل صفحة جديدة تريد إضافتها.
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+عندما يكون هناك العديد من علامات التبويب في Trinket لعرضها في وقت واحد ، يمكنك استخدام أيقونات ** < ** و **> ** في الزاوية العلوية اليمنى من علامات التبويب للتنقل بينها.
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+![الأزرار لتصفح علامات التبويب](images/tktScrollTabIcons.png)
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+الآن أنت بحاجة إلى إنشاء روابط حتى تتمكن من الوصول إلى كل صفحة من صفحاتك الجديدة! دعنا نضع كل الروابط في القائمة.
 
-- In the `index.html` file, add the following code to the body of your webpage:
+- في ملف ` index.html `، أضف الكود التالي إلى محتوى صفحة الويب الخاصة بك:
 
 ```html
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
+       <li><a href="index.html">الرئيسية</a></li>
+       <li><a href="attractions.html">أماكن للزيارة</a></li>
+       <li><a href="music.html">موسيقى</a></li>
+       <li><a href="food.html">مأكولات</a></li>
     </ul>
 ```
 
-- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
+- غيّر قيمة سمة `href` لكل رابط (تذكر ، هذا هو النص الموجود داخل علامات الاقتباس) بحيث يطابق تمامًا اسم كل ملف HTML قمت بإنشائه.
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+- غير النص بين رموز `<a> و</a>` إلى وصف مناسبة لصفحاتك.
 
-Now you can navigate to your new pages!
+يمكنك الآن الانتقال إلى صفحاتك الجديدة!
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+![مثال على قائمة الروابط على صفحة الويب](images/egListOfPageLinks.png)
