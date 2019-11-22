@@ -18,9 +18,9 @@
 
 **HTML** est le code qui fait une page web.
 
-Le `.html` dans le nom du fichier indique au navigateur que le fichier est une page web, donc le navigateur sait chercher les **balises** lui disant ce qu'il faut afficher. (Un navigateur est le programme que vous utilisez pour regarder des sites Web, par exemple Chrome ou Firefox.)
+Le `.html` dans le nom du fichier indique au navigateur que le fichier est une page web, donc le navigateur sait chercher les **balises** lui disant ce qu'il faut afficher. (Un navigateur est le programme que tu utilises pour regarder des sites Web, par exemple Chrome ou Firefox.)
 
-Les balises HTML tel que `<p>` et `</p>` définissent des morceaux différents d'une page, par exemple des paragraphes, des rubriques ou du corps. Les morceaux sont toutes appelées **éléments**. Pense-les comme des blocs de construction.
+Les balises HTML tel que `<p>` et `</p>` définissent des morceaux différents d'une page, par exemple des paragraphes, des rubriques ou du corps. Les morceaux sont tous appelés **éléments**. Pense-les comme des blocs de construction.
 
 ### Pourquoi ai-je besoin de deux balises ?
 
@@ -32,14 +32,14 @@ Tout ce qui se trouve entre les balises `<body>` et ` </body>` compose ta page w
 
 \--- /collapse \---
 
-- Essaye de changer les numéros dans tes balises **en-tête** pour voir les différentes tailles qu'ils te donnent. Ils peuvent aller de `<h1>` jusqu'à `<h6>`. N'oublie pas de changer la balise d'ouverture et de fermeture pour qu'ils correspondent.
+- Essaye de changer les numéros dans tes balises **en-tête** pour voir les différentes tailles qu'ils te donnent. Ils peuvent aller de `<h1>` jusqu'à `<h6>`. N'oublie pas de changer la balise d'ouverture et de fermeture pour qu'elles correspondent.
 
 - Trouve le code pour le paragraphe qui dit `Mon site web parle de l'Irlande.` et change-le pour qu'il ressemble à ceci :
 
 ```html
   <p>
     <em>Mon site</em> parle de l'<strong>Irlande</strong>. 
-    Il va avoir les pages suivantes : Attractions, Musique, Nourriture
+    Il y aura les pages suivantes : Attractions, Musique, Nourriture
   </p>
 ```
 
@@ -49,13 +49,13 @@ Peux-tu expliquer ce que font les balises `<em> </em>` et `<strong> </strong>`?
 
 \--- challenge \---
 
-## Défi: ajoutez plus de texte de ton choix
+## Défi: ajoute plus de texte de ton choix
 
-- Essaye d'ajouter un nouveau paragraphe ou d'en-tête à votre page en utilisant certaines des balises dont tu as appris.
+- Essaye d'ajouter un nouveau paragraphe ou d'en-tête à ta page en utilisant certaines des balises que tu as apprises.
 
 \--- hints \---
 
-\--- hint \--- Lorsque tu veux mettre du texte sur une page, tu dois le mettre entre deux balises qui disent à ton navigateur comment afficher votre texte. Par exemple, les balises `<p> </p>` disent au navigateur que ce qui est entre eux est un nouveau paragraphe de texte, et les balises `<h1> </h1>` lui disent que le texte entre est un titre.
+\--- hint \--- Lorsque tu veux mettre du texte sur une page, tu dois le mettre entre deux balises qui disent à ton navigateur comment afficher ton texte. Par exemple, les balises `<p> </p>` disent au navigateur que ce qui est entre elles est un nouveau paragraphe de texte, et les balises `<h1> </h1>` lui disent que le texte entre est un titre.
 
 \--- /hint \---
 
