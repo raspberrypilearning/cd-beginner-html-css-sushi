@@ -1,52 +1,52 @@
-## Adding more pages
+## Weitere Seiten hinzufügen
 
-This card will show you how to add more pages to your website.
+Diese Karte zeigt dir, wie du weitere Seiten zu deiner Website hinzufügen kannst.
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+- Klicke oben im Codebereich auf das **+** Symbol neben den Tabs und gib einen Namen für deine neue Datei ein. Er muss mit `.html` enden (einschließlich des Punkts!), damit der Browser weiß, dass es sich um eine Webseite handelt.
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+![Hinzufügen einer neuen Datei in Trinket](images/tktNewFileArrows.png)
 
 ## \--- collapse \---
 
-## title: Renaming or deleting a file
+## title: Eine Datei umbenennen oder löschen
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon. ![](images/EditFilename.png)
+Wenn du den Namen einer Datei ändern möchtest, klicke auf das Symbol **Zahnrad**-Symbol rechts neben dem Dateinamen und anschließend auf das **Bleistift**-Symbol. Gib den neuen Namen ein und drücke **Enter**. Du kannst eine Datei auch löschen, indem du auf das**Papierkorb** Symbol anstelle des **Bleistift** Symbols klickst. ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+Du fragst dich vielleicht, warum du den Namen der Datei `index.html` nicht ändern kannst. `index.html` ist ein besonderer Name für die **Homepage** einer Website. Das ist die erste Seite, auf der du landest, wenn du eine Website besuchst. Wenn du auf die Startseite einer Website gehst, sucht der Browser nach der Datei mit dem Namen `index.html` und zeigt sie auf deinem Bildschirm an.
 
 \--- /collapse \---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- Finde die Datei `blank_page.html`, kopiere den gesamten Code darin und füge ihn in deine neue Datei ein. Da Du das Ganze kopieren möchtest, kannst Du irgendwo auf den Code klicken und die Tastenkombination <kbd>Strg</kbd> (oder <kbd>cmd</kbd>) und <kbd>A</kbd> drücken, um alles gleichzeitig auszuwählen.
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
+- Ändere den Text zwischen den `<title> </title>` -Tags, damit Deine neue Seite einen passenden Titel hat. Trinket zeigt den Titel nicht an, aber Du kannst ihn oben im Browserfenster sehen, wenn Du Dein Projekt herunterlädst.
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+![Der Seitentitel, der auf den Tabs im Browser angezeigt wird](images/egLocalFileWindowTitle.png)
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
+- Zwischen den `<main> </main>` -Tags in der neuen Datei verwende die Tags, die Du gelernt hast, um Dinge wie Seiten, Überschriften, Bilder und Listen zur Seite hinzuzufügen!
 
-- Repeat the steps above for each new page that you want to add.
+- Wiederhole die obigen Schritte für jede neue Seite, die Du hinzufügen möchtest.
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+Wenn zu viele Registerkarten für Trinket auf einmal angezeigt werden, kannst Du die Symbole **<** und **>** in der oberen linken Ecke der Registerkarten verwenden, um zwischen ihnen zu wechseln.
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+![Die Schaltflächen zum Scrollen der Tabs](images/tktScrollTabIcons.png)
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+Jetzt musst Du Links erstellen, damit Du zu jeder Deiner neuen Seiten gelangen kannst! Lasse uns alle Links in eine Liste einfügen.
 
-- In the `index.html` file, add the following code to the body of your webpage:
+- Füge in der Datei `index.html` dem Textkörper (body) Deiner Webseite den folgenden Code hinzu:
 
 ```html
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
-    </ul>
+   <li><a href="index.html">Start</a></li>
+   <li><a href="attractions.html">Attraktionen</a></li>
+   <li><a href="music.html">Musik</a></li>
+   <li><a href="food.html">Essen</a></li>
+ </ul>
 ```
 
-- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
+- Ändere den Wert des Attributs `href` für jeden Link (denke daran, das ist der Text in den Anführungszeichen), damit er genau mit dem Namen der einzelnen HTML-Dateien übereinstimmt, die Du erstellt hast.
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+- Ändere den Text zwischen den `<a> </a>` -Tags in passende Beschreibungen Deiner Seiten.
 
-Now you can navigate to your new pages!
+Jetzt kannst Du zu Deinen neuen Seiten navigieren!
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+![Beispielliste von Links auf einer Webseite](images/egListOfPageLinks.png)
