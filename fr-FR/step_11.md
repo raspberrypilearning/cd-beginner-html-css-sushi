@@ -18,7 +18,7 @@ Remarque comment tu as utilisé deux sélecteurs au lieu d'un ? Si tu as utilis�
 
 Nous allons nous débarrasser des points du paragraphe. Ce sont les points devant chaque élément de la liste.
 
-- Ajoute ce qui suit au fichier ` styles.css `. De nouveau, tape-le sur une nouvelle ligne après `}` comme çà il ne fait donc pas partie d'un autre bloc de règles.
+- Ajoute ce qui suit au fichier ` styles.css `. De nouveau, tape-le sur une nouvelle ligne après `}` comme ça il ne fait donc pas partie d'un autre bloc de règles.
 
 ```css
     nav ul li {
@@ -47,13 +47,13 @@ Maintenant, faisons la liste horizontale (qui traverse) au lieu de la verticale 
     }
 ```
 
-Rappels-toi: `10px` signifie dix pixels.
+Rappelle-toi: `10px` signifie dix pixels.
 
 Et pourquoi ne pas modifier le menu pour tu indiques la page sur laquelle tu te trouves ? Cette partie ne sera pas dans la feuille de style.
 
 - Commence par la page d'accueil. Vas dans le fichier `index.html` . Dans la liste des liens du menu, supprime les balises de lien avant et après le mot `Accueil`, de sorte que l'élément de liste de la page d'accueil est juste du texte entre les balises `<li></li>`, comme ceci `<li>Accueil</li>`.
 
-- Maintenant, vas dans chacun de tes autres fichiers et faites la même chose, en enlevant à chaque fois les balises de lien de la page que tu modifies. Donc, par exemple, sur le fichier `music.html` j'ai supprimé les balises de lien dans la liste `Musique`:
+- Maintenant, vas dans chacun de tes autres fichiers et fais la même chose, en enlevant à chaque fois les balises de lien de la page que tu modifies. Donc, par exemple, sur le fichier `music.html` j'ai supprimé les balises de lien dans la liste `Musique`:
 
 ```html
     <header>
