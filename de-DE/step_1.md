@@ -1,6 +1,6 @@
 ## Einleitung
 
-Lerne wie du deine erste Webseite programmieren kannst!
+Lerne wie du deine erste Website programmieren kannst!
 
 ### Was du machen wirst
 
@@ -14,17 +14,17 @@ Erstelle eine Website über dein Heimatland, wie du sie im Bild unten siehst.
 
 ## title: Was du lernen wirst
 
-+ Verwenden eines Online-Editors zum Erstellen einer Webseite, die aus HTML-Dateien und einer CSS-Datei besteht
-+ Erstellen einer HTML-Webseite mit Überschriften, Absatztext, Listen und Bildern
-+ CSS-Code verwenden, um das Aussehen deiner Website anzupassen, eine einfache Menüleiste zu gestalten und Farben, Hintergründe und Rahmen zu ändern
-+ Seiten miteinander verknüpfen und auf andere Websites verlinken
-+ Erstellen einer Tabelle mit Überschriften und mehreren Zeilen
++ Mit einem Online-Editor eine Website erstellen, die aus HTML-Dateien und einer CSS-Datei besteht
++ Erstelle eine HTML-Website mit Überschriften, Absatztext, Listen und Bildern
++ Verwende CSS-Code, um das Aussehen deiner Website anzupassen, eine einfache Menüleiste zu gestalten und Farben, Hintergründe und Rahmen zu ändern
++ Verknüpfe Seiten miteinander und verlinke sie auf andere Websites
++ Erstelle eine Tabelle mit Überschriften und mehreren Zeilen
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Was du benötigst
+## title: Was du brauchst
 
 ### Hardware
 
