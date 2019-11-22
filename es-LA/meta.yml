@@ -2,7 +2,7 @@
 title: Guía a mi país 1.0
 hero_image: images/banner.png
 description: Aprende a hacer un sitio web
-theme: rojo
+theme: rojo #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
 ingredient: false
