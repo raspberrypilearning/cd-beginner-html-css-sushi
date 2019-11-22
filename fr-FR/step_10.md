@@ -4,19 +4,19 @@ De nombreux sites web ont un menu **navigation** pour aider les visiteurs à se 
 
 ![Exemple d'une page web avec des liens de navigation en haut](images/egNavLinksAtTop.png)
 
-- Trouve le code de tae liste de liens que tu as créés dans l'étape précédente.
+- Trouve le code de ta liste de liens que tu as créé dans l'étape précédente.
 
 - Juste avant la balise d'ouverture `<ul>`, appuie sur **Entrer** pour créer une nouvelle ligne vierge, puis sur le nouveau type de ligne de la balise suivante: `<nav>`. Trinket ajoute automatiquement la balise de fermeture juste après, mais tu peux la supprimer — ce n'est pas au bon endroit.
 
-- Juste **après** la balise de fermeture `</ul>`, appuye sur **Entrer** pour créer une nouvelle ligne vierge, et tape dans la balise de fermeture `</nav>` juste à cet endroit là.
+- Juste **après** la balise de fermeture `</ul>`, appuie sur **Entrer** pour créer une nouvelle ligne vierge, et tape dans la balise de fermeture `</nav>` juste à cet endroit là.
 
-- Maintenant, sélectionne la section entière `<nav>` et la liste en cliquant juste avant l'ouverture de la balise `<nav>` et en faisant glisser la souris jusqu'à la fin de la balise `</nav>` pour que tout le texte, y compris les balises d'ouverture et de fermeture, soit mis en évidence. Assures-toi que tout les **crochets** `<` et `>` au début et à la fin soient également surlignés!
+- Maintenant, sélectionne la section entière `<nav>` et la liste en cliquant juste avant l'ouverture de la balise `<nav>` et en faisant glisser la souris jusqu'à la fin de la balise `</nav>` pour que tout le texte, y compris les balises d'ouverture et de fermeture, soit mis en évidence. Assure-toi que tout les **crochets** `<` et `>` au début et à la fin soient également surlignés!
 
 ![Le texte à gauche n'est pas entièrement sélectionné lorsque le texte à droite l'est](images/egSelectedYayWoops.png)
 
-- Tu vas **couper** cette fois au lieu de copier. Maintiens la touche <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et tout en le maintenant, appuye sur la touche <kbd>X</kbd>. Le code en surbrillance disparaîtra, mais ne panique pas!
+- Tu vas **couper** cette fois au lieu de copier. Maintiens la touche <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et tout en la maintenant, appuie sur la touche <kbd>X</kbd>. Le code en surbrillance disparaîtra, mais ne panique pas!
 
-- En haut du fichier, clique dans l'espace entre les balises `<header> </header>` . Assures-toi de voir le curseur clignoter à cet endroit. Colle maintenant le code en appuyant <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>V</kbd> comme d'habitude. Le code devrait ressembler à ceci :
+- En haut du fichier, clique dans l'espace entre les balises `<header> </header>` . Assure-toi de voir le curseur clignoter à cet endroit. Colle maintenant le code en appuyant <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>V</kbd> comme d'habitude. Le code devrait ressembler à ceci :
 
 ```html
     <header>
@@ -45,11 +45,11 @@ Si tu commets une erreur, tu peux **annuler** en appuyant sur <kbd>Ctrl</kbd> (o
 
 ## Défi : menus de navigation pour toutes les pages
 
-- Met cette section de code dans la section en-tête de chaque fichier HTML que tu as créé. Cela fera apparaître le menu de navigation en haut de chaque page de ton site web.
+- Mets cette section de code dans la section en-tête de chaque fichier HTML que tu as créé. Cela fera apparaître le menu de navigation en haut de chaque page de ton site web.
     
     \--- hints \---
     
-    \--- hint \--- Sélectionne la section entière `<nav>` comme tu l'as fait auparavant, et appuye sur les touches <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>C</kbd> ensemble pour la copier.
+    \--- hint \--- Sélectionne la section entière `<nav>` comme tu l'as fait auparavant, et appuie sur les touches <kbd>Ctrl</kbd> (ou <kbd>cmd</kbd>) et <kbd>C</kbd> ensemble pour la copier.
 
 Ensuite, dans chacun de tes fichiers `.html` , clique dans la section `<header> </header>` et colle le code exactement comme tu l'as fait précédemment. \--- /hint \---
 
