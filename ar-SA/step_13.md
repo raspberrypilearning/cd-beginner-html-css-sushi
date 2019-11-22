@@ -1,76 +1,76 @@
-## Adding a table
+## إضافة جدول
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+في بعض الأحيان قد يكون من المفيد إظهار المعلومات في جدول. على سبيل المثال ، قد ترغب في إدراج معلومات الأعضاء على موقع ويب لنادي رياضي محلي أو مدرسة ، أو معلومات حول أفضل عشر أغاني لديك.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+الجدول عبارة عن شبكة مكونة من ** rows صفوف ** و ** columns أعمدة **. تشتمل معظم الجداول أيضًا على عناوين في أعلى كل عمود ، تسمى**header رأس**. إليك مثالاً:
 
-![Example of information in a table](images/egTableResult.png)
+![مثال لمعلومات في الجدول](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- انتقل إلى الملف `page_with_table.html`. هناك سترى مجموعة من التعليمات البرمجية بين رموز `<table> </table>`.
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- حدد كل الكود من رمز البداية `<table>` إلى نهاية رمز الإغلاق ` </table>` وإنسخها. ثم انتقل إلى أحد ملفاتك حيث تريد وضع جدول ، والصقه في الكود.
 
-At the moment your table is empty.
+في الوقت الحالي جدولك فارغ.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- املء الجدول الخاص بك مع أي شيء تريده! ما عليك سوى وضع النص بين رمز`<td> و</td>` وبين رمز `<th> و</th>`. يمكنك إضافة المزيد من الرموز إذا كنت في حاجة لذالك.
 
 ## \--- collapse \---
 
-## title: Example code
+## title: مثال للكود
 
-The HTML code for the table shown above looks like this:
+تبدو برمجة HTML للجدول الموضح أعلاه كما يلي:
 
 ```html
   <table>
     <tr>
-      <th>Name of pet</th>
-      <th>Animal</th>
-      <th>Colour</th>
+      <th>اسماء لحيوانات أليفة</th>
+      <th>الحيوان</th>
+      <th>اللون</th>
     </tr>
     <tr>
-      <td>Mia</td>
-      <td>Cat</td>
-      <td>Black and fluffy</td>
+      <td>ميا</td>
+      <td>قطة</td>
+      <td>اسود منفوش</td>
     </tr>
     <tr>
-      <td>Tito</td>
-      <td>Dog</td>
-      <td>Black with brown patches</td>
+      <td>تيتو</td>
+      <td>كلب</td>
+      <td>اسود مرقع بالبني</td>
     </tr>
     <tr>
-      <td>Honeycomb</td>
-      <td>Guinea Pig</td>
-      <td>White with orange patches</td>
+      <td>هونيكامب</td>
+      <td>فآر</td>
+      <td>أبيض مرقع بالبني</td>
     </tr>
     <tr>
-      <td>Alfie</td>
-      <td>Budgie</td>
-      <td>Green and yellow</td>
+      <td>الفي</td>
+      <td>طير</td>
+      <td>أخضر و أصفر</td>
     </tr>
   </table>
 ```
 
 \--- /collapse \---
 
-To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+لإضافة صف ** آخر ** ، أضف مجموعة أخرى من رموز `<tr> </tr>`. بينهما، يمكنك وضع نفس العدد من عناصر **البيانات** بأستخدام رموز `<td> و</td>` كما في الصفوف الأخرى.
 
-To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+لإضافة **عمود** آخر، أضف عنصر **بيانات** جديد بأستخدام رموز `<td> و</td>` **لكل** صف. أيضاً أضف عنصر **رأس** جديد في الصف الأول، بأستخدام رموز `<th> و</th>`.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: كيف يعمل؟
 
-Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+دعونا نلقي نظرة على كل هذه الرموز. يشبه إلى حد كبير رموز القائمة (تتذكر `<ul>` و `<ol>`) ولكن مع مستويات أكثر.
 
-Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+كل زوج من رموز `<tr> </tr>` عبارة عن صف ، لذلك سيتم عرض كل شيء بينها في سطر واحد.
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+يحتوي الصف الأول على رموز `<th> و</th>`. يتم استخدام هذه الرموز للرؤوس ، لذا فإن عناوين الأعمدة تكون بينهما. هناك زوج واحد لكل عمود لديك في الجدول.
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+ورموز `<td> </td>` تحدد ما يسمى بيانات الجدول ، وهذا ما بوجد في جميع الصفوف الأخرى. هذه تشبه رموز عنصر القائمة `<li> </li>`: كل شيء بينهما عبارة عن خانة واحدة في صف الجدول الخاص بك.
 
 \--- /collapse \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- إذا نظرت إلى نهاية ملف `styles.css`، سترى كود CSS الذي يصف كيف يجب أن يظهر الجدول. ليس مهماً أن تفهمه الأن! ولكن يمكنك تجربة تغيير ألوان النص والحدود والخلفية لتصميم النمط الخاص بك.
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ The `<td> </td>` tags define what's called table data, and that's what goes in a
   }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+لاحظ ان بعض المحددات تستخدم الفواصل، على سبيل المثال `table, th, td`؟ هذه **قائمة من المحددات**: هذا يعني انها تنطبق على كل عناصر`<th>` و كل عناصر`<td>`. هذا كي لا تعيد كتابة نفس القواعد لكل محدد!
