@@ -16,7 +16,7 @@ That's because the `href` attribute is empty at the moment. It needs to contain 
 
 - Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
 
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it. 
+- Click in the address bar and select all of the text in it. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it. 
 
   ![URL in address bar](images/AddressBarURL.png)
 
