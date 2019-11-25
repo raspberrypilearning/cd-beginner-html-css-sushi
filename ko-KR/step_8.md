@@ -16,7 +16,7 @@
 
 - Wikipedia로 이동하여 귀하의 웹 사이트에 연결할 만한 페이지를 선택하세요. 저는 아일랜드에 관한 페이지를 사용하겠습니다.
 
-- 주소창에 있는 모든 텍스트를 복사합니다. 현재 실행한 페이지의 전체 URL입니다. Ctrl <kdb>키</kdb> (Mac에서는 <kdb>cmd</kdb>) <kdb>와 C 키를</kdb> 동시에 눌러 복사하세요.
+- Click in the address bar and select all of the text in it. 현재 실행한 페이지의 전체 URL입니다. Ctrl <kdb>키</kdb> (Mac에서는 <kdb>cmd</kdb>) <kdb>와 C 키를</kdb> 동시에 눌러 복사하세요.
     
     ![주소표시줄 URL](images/AddressBarURL.png)
 
