@@ -16,7 +16,7 @@ Das liegt daran, dass das `href` Attribut noch leer ist. Es muss die **URL** (We
 
 - Gehe zu Wikipedia und finde eine Seite über etwas auf Deiner Webseite. Ich benutze die Seite über Irland.
 
-- Click in the address bar and select all of the text in it. Das ist die vollständige URL der Seite, auf der du dich befindest. Drücke die <kdb>Strg</kdb> (oder <kdb>cmd</kdb>) und <kdb>C</kdb> Tasten gleichzeitig, um es zu kopieren.
+- Klicke in die Adresszeile und wähle den gesamten Text darin aus. Das ist die vollständige URL der Seite, auf der du dich befindest. Drücke die <kdb>Strg</kdb> (oder <kdb>cmd</kdb>) und <kdb>C</kdb> Tasten gleichzeitig, um es zu kopieren.
     
     ![URL in der Adressleiste](images/AddressBarURL.png)
 
