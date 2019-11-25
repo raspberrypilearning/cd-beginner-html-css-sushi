@@ -6,13 +6,13 @@ Een tabel is een raster bestaande uit **rows** (rijen) en **colums** (kolommen).
 
 ![Example of information in a table](images/egTableResult.png)
 
-- Ga naar het bestand `page_with_table.html`. Daar zie je een aantal codes tussen `<table></table>` tags.
+- Ga naar het bestand `page_with_table.html`. Daar zie je een aantal codes tussen `<table> </table>` tags.
 
-- Selecteer alle code vanaf het begin van de tag `<table>`tot aan het einde van de sluit`</table>` tag en kopieer het. Ga dan naar een van je bestanden waar je een tabel zou willen plaatsen en plak de code er in.
+- Selecteer alle code vanaf het begin van de tag `<table>` tot aan het einde van de sluit `</table>` tag en kopieer het. Ga dan naar een van je bestanden waar je een tabel zou willen plaatsen en plak de code er in.
 
 Op dit moment is je tabel leeg.
 
-- Probeer je tabel te vullen met van alles wat je maar wilt! Plaats gewoon tekst tussen de `<td></td>` tags en tussen de `<th></th>` tags. Als je ze nodig hebt Je kunt meer tags toevoegen.
+- Probeer je tabel te vullen met van alles wat je maar wilt! Plaats gewoon tekst tussen de `<td> </td>` tags en tussen de `<th> </th>` tags. Als je ze nodig hebt Je kunt meer tags toevoegen.
 
 --- collapse ---
 ---
@@ -72,7 +72,7 @@ De `<td> </td>` tags definiëren wat tabelgegevens worden genoemd en dat geldt o
 
 --- /collapse ---
 
-- Als je naar het einde van het ` styles.css ` bestand kijkt, zie je de CSS-code die beschrijft hoe de tabel eruit zou moeten zien. Je hoeft het niet allemaal te begrijpen! Maar je kunt experimenteren met het wijzigen van de tekst-, rand- en achtergrondkleuren om je eigen stijl te ontwerpen.
+- Als je naar het einde van het `styles.css` bestand kijkt, zie je de CSS-code die beschrijft hoe de tabel eruit zou moeten zien. Je hoeft het niet allemaal te begrijpen! Maar je kunt experimenteren met het wijzigen van de tekst-, rand- en achtergrondkleuren om je eigen stijl te ontwerpen.
 
 ```css
   table, th, td {

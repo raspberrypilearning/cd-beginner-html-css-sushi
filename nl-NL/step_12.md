@@ -28,7 +28,7 @@ De `padding` eigenschap voegt ruimte toe. Kun jij uitvinden wat elk van de ander
   }
 ```
 
-De bovenstaande regel is van toepassing op de `<a>`koppelingen in lijst `<li>` items in een ongeordende lijst `<ul>` in een navigatiegedeelte `<nav>`. Wauw, dat zijn vier selectors!
+De bovenstaande regel is van toepassing op de `<a>` koppelingen in lijst `<li>` items in een ongeordende lijst `<ul>` in een navigatiegedeelte `<nav>`. Wauw, dat zijn vier selectors!
 
 ![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
 
