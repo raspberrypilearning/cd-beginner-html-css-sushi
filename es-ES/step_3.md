@@ -39,7 +39,7 @@ Todo lo que se encuentre entre las etiquetas `<body>` y ` </body>` es tu página
 ```html
   <p>
     <em>Mi sitio web</em> es sobre <strong>Irlanda</strong>. 
-    Tendrá las siguientes páginas: Atracciones, Música, Comida
+    Tendrá las siguientes páginas: Lugares para visitar, Música, Cosas para comer
   </p>
 ```
 
