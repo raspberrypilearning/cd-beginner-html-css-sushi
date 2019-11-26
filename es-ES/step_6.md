@@ -1,4 +1,4 @@
-## Añadiendo un mapa o video
+## Añadiendo un mapa o vídeo
 
 YouTube te proporciona una manera fácil de añadir sus vídeos a tu sitio web. Agregar elementos de otras fuentes en línea a tu sitio web también se denomina **incrustación**.(embedding).
 
@@ -12,11 +12,11 @@ Verás un cuadro de texto con todo el texto seleccionado. Si accidentalmente des
 
 - Presiona las teclas <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en una Mac) y <kbd>C</kbd> juntas para copiar el texto.
 
-- Luego regresa al código HTML de tu sitio web y haz clic en el lugar donde deseas colocar el vídeo, por ejemplo debajo de un encabezado o párrafo. **Pegua** el código presionando <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en una Mac) y <kbd>V</kbd> en tu teclado al mismo tiempo. ¡No te preocupes por entender todo el código que acabas de pegar!
+- Luego regresa al código HTML de tu sitio web y haz clic en el lugar donde deseas colocar el vídeo, por ejemplo debajo de un encabezado o párrafo. **Pega** el código presionando <kbd>Ctrl</kbd> (o <kbd>cmd</kbd> en una Mac) y <kbd>V</kbd> en tu teclado al mismo tiempo. ¡No te preocupes por entender todo el código que acabas de pegar!
 
 ![Ejemplo del código de incrustación pegado en una página HTML](images/EmbedYouTube2.png)
 
-Deberías ver el video en tu página web.
+Deberías ver el vídeo en tu página web.
 
 La misma técnica también funciona para los mapas de Google. ¡Dale una oportunidad!
 
