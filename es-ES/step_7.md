@@ -42,7 +42,7 @@ Esto es lo que debería verse ahora:
 
 \--- challenge \---
 
-## Desafío: agregue estilo a tus listas
+## Desafío: agrega estilo a tus listas
 
 - Mira si puede agregar **reglas CSS** a tu hoja de estilo para cambiar el aspecto de tus listas.
 
