@@ -1,4 +1,4 @@
-## Crear enlaces
+## Creando enlaces
 
 En esta tarjeta aprenderás cómo hacer un enlace que te lleve a otra página cuando se hace clic.
 
@@ -16,7 +16,7 @@ Esto se debe a que el atributo `href` está vacío en este momento. Debe contene
 
 - Ve a la Wikipedia y encuentra una página sobre algo de tu sitio web. Voy a usar la página sobre Irlanda.
 
-- Click in the address bar and select all of the text in it. Esa es la URL completa de la página en la que estás. Presiona las teclas <kdb>Ctrl</kdb> (o <kdb>cmd</kdb>) y <kdb>C</kdb> al mismo tiempo para copiarlo.
+- Haz clic en la barra de direcciones y selecciona todo el texto en ella. Esa es la URL completa de la página en la que estás. Presiona las teclas <kdb>Ctrl</kdb> (o <kdb>cmd</kdb>) y <kdb>C</kdb> al mismo tiempo para copiarlo.
     
     ![URL en la barra de direcciones](images/AddressBarURL.png)
 
