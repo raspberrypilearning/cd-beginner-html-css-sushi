@@ -44,11 +44,11 @@ img {
 
 
 
-/**********************************
-This section is for styling tables
+/ ***********************************
+Dieser Abschnitt dient zum Gestalten von Tabellen
 ***********************************/
-table, th, td {
-  border: 1px solid HoneyDew;
+tabelle, th, td {
+  border: 1px solide HoneyDew;
   border-collapse: collapse;
 }
 tr {
