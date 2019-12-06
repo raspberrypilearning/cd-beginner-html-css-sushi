@@ -17,11 +17,9 @@ Beachte jedoch, dass dieses Tag zusätzliche Informationen enthält. Diese werde
 - Finde das Codestück `width="100px"` und probiere verschiedene Zahlen aus, um herauszufinden, was dieses Attribut tut. Lösche dabei die Buchstaben `px` nicht!
 
 --- collapse ---
-
-* * *
-
-## title: Wie das `img` Tag funktioniert
-
+---
+title: Wie das `img` Tag funktioniert
+---
 Beachte, dass das `<img>` Tag anders ist, wie die anderen Tags, die du bisher verwendet hast — es hat kein schließendes `</img>` Tag. Stattdessen ist dieses Tag **selbstschließend**: Es hat `/>` am Ende. Das liegt daran, dass es kein 'Start' und 'Ende' für ein Bildelement gibt, wie es für Text gibt.
 
 Das Tag enthält **Attribute** mit zusätzlichen Informationen:
