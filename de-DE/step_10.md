@@ -47,14 +47,15 @@ Falls du einen Fehler machst, kannst du es **rückgängig machen** indem du <kbd
 ## Challenge: Navigationsmenü für alle Seiten
 
 - Packe diesen Code-Abschnitt in den Header Abschnitt jeder HTML Datei, die du erstellt hast. Das lässt das Navigationsmenü oben auf jeder Seite deiner Website erscheinen.
-    
-    --- hints ---
 
-    
-    --- hint --- Markiere den kompletten `<nav>` Abschnitt, wie vorher, und drücke die <kbd>Strg</kbd> (oder <kbd>cmd</kbd>) und <kbd>C</kbd> Tasten gleichzeitig, um ihn zu kopieren.
+--- hints ---
+--- hint ---
 
-Dann klicke in jeder deiner `.html` Dateien, in den `<header></header>` Abschnitt und füge den Code genau wie vorher ein. --- /hint ---
+Markiere den kompletten `<nav>` Abschnitt, wie vorher, und drücke die <kbd>Strg</kbd> (oder <kbd>cmd</kbd>) und <kbd>C</kbd> Tasten gleichzeitig, um ihn zu kopieren.
 
+Dann klicke in jeder deiner `.html` Dateien, in den `<header></header>` Abschnitt und füge den Code genau wie vorher ein. 
+
+--- /hint ---
 --- /hints ---
 
 Jetzt kannst du die Links anklicken, unabhängig auf welcher Seite du gerade bist.
