@@ -44,7 +44,7 @@ Falls du einen Fehler machst, kannst du es **rückgängig machen** indem du <kbd
 
 --- challenge ---
 
-## Challenge: Navigationsmenü für alle Seiten
+## Herausforderung: Navigationsmenü für alle Seiten
 
 - Packe diesen Code-Abschnitt in den Header Abschnitt jeder HTML Datei, die du erstellt hast. Das lässt das Navigationsmenü oben auf jeder Seite deiner Website erscheinen.
 
