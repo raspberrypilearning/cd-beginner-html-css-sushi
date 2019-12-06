@@ -42,7 +42,7 @@ Falls du einen Fehler machst, kannst du es **rückgängig machen** indem du <kbd
 
 - Teste deine Links, um sicherzustellen, dass sie noch funktionieren.
 
--- challenge ---
+--- challenge ---
 
 ## Challenge: Navigationsmenü für alle Seiten
 
@@ -53,10 +53,10 @@ Falls du einen Fehler machst, kannst du es **rückgängig machen** indem du <kbd
     
     --- hint --- Markiere den kompletten `<nav>` Abschnitt, wie vorher, und drücke die <kbd>Strg</kbd> (oder <kbd>cmd</kbd>) und <kbd>C</kbd> Tasten gleichzeitig, um ihn zu kopieren.
 
-Dann klicke in jeder deiner `.html` Dateien, in den `<header></header>` Abschnitt und füge den Code genau wie vorher ein. ---/hint---
+Dann klicke in jeder deiner `.html` Dateien, in den `<header></header>` Abschnitt und füge den Code genau wie vorher ein. --- /hint ---
 
----/hints ---
+--- /hints ---
 
 Jetzt kannst du die Links anklicken, unabhängig auf welcher Seite du gerade bist.
 
----/ challenge ---
+--- /challenge ---
