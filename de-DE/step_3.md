@@ -88,6 +88,6 @@ Der Code für Überschriften sieht so aus:
 
 ---/hints---
 
----/ challenge ---
+--- /challenge ---
 
 Herzlichen Glückwunsch, du hast deine erste Webseite erstellt! Auf der nächsten Karte lernst du, wie du das Aussehen kontrollieren kannst.
