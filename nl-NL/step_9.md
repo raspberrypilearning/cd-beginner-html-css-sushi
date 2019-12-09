@@ -30,7 +30,7 @@ Als er te veel tabbladen zijn die Trinket in één keer kan weergegeven, kunt je
 
 ![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-Nu moet je koppelingen maken, zodat kunt je naar elke nieuwe pagina kunt gaan! Laten we alle links in een lijst plaatsen.
+Nu moet je koppelingen maken, zodat je naar elke nieuwe pagina kunt gaan! Laten we alle links in een lijst plaatsen.
 
 - In het `index.html` bestand, voeg je aan de body van je webpagina de volgende code toe:
 
