@@ -12,7 +12,7 @@ Build a website about your home country, like the one in the trinket below.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 你會學到
 
 + Using an online editor to create a website made up of HTML files and a CSS file
 + Building a HTML website that has headings, paragraph text, lists, and images
@@ -26,12 +26,12 @@ Build a website about your home country, like the one in the trinket below.
 
 ## title: What you need
 
-### Hardware
+### 硬體
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ 一台能夠連到 [trinket.io](https://trinket.io){:target="_blank"} 網站的電腦
 
-### Software
+### 軟體
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+此專案可直接用瀏覽器在 [trinket.io](https://trinket.io){:target="_blank"} 裡完成。
 
 \--- /collapse \---
