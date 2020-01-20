@@ -55,13 +55,15 @@
 
 \--- hints \---
 
-\--- hint \--- 페이지에 텍스트를 넣기 위해서는 브라우저에 텍스트를 표시하는 방법을 알려주는 두 개의 태그 사이에 텍스트를 넣어야 합니다. 예를 들어 `<p> </p>` 태그는 브라우저에 그 사이에있는 것이 무엇이든간에 텍스트의 새로운 문장임을 알려주고, `<h1> </h1>` 태그는 중간에있는 텍스트가 제목임을 알려줍니다.
+\--- hint \---
+
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
 \--- /hint \---
 
 \--- hint \---
 
-단락의 코드는 다음과 같습니다.
+The code for paragraphs looks like this:
 
 ```html
   <p> 이것은 텍스트의 단락입니다. </p>
@@ -75,13 +77,13 @@
 
 \--- hint \---
 
-헤딩의 코드는 다음과 같습니다.
+The code for headings looks like this:
 
 ```html
   <h1>이것은 헤딩입니다.</h1>
 ```
 
-헤딩은 일반적으로 단락보다 크거나 굵게 표시됩니다.
+Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /hint \---
 
@@ -89,4 +91,4 @@
 
 \--- /challenge \---
 
-축하합니다. 첫 번째 웹 페이지를 만들었습니다! 다음 장에서 어떻게 웹페이지를 디자인하고 제어할지 방법을 알 수 있습니다.
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
