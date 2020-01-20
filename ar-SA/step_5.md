@@ -16,15 +16,13 @@
 
 - ابحث عن الجزء الذي يقول ` width = "100px" ` وحاول تجربة أرقام مختلفة لمعرفة ما إذا كان يمكنك معرفة ما تقوم به هذه السمة. لا تمسح الحروف `px`!
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: How the `img` tag works
 
-## title: كيف يعمل وسم `img`
+Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
 
-لاحظ أن العلامة `<img>` مختلفة عن العلامات الأخرى التي استخدمتها حتى الآن - لا يوجد وسم إغلاق `</img>`. بدلاً من ذلك، هذا الوسم **ذا إغلاق ذاتي**: يحتوي على `/>` في نهايته. هذا بسبب عدم وجود "بداية" و "نهاية" لعنصر الصورة كما في النص.
-
-تحتوي العلامة على **سمات** مع معلومات إضافية:
+The tag contains **attributes** with extra information:
 
 - سمة `src` تخبر المتصفح اي ملف يستخدم كصورة. 
 - سمة `alt` تحمل شرح مختصر ليستخدمها المتصفح اذا لم يستطيع إظهار الصورة. 'alt' اختصار ل'alternative' والتي تعني بديل. يساعد هذا النص أيضًا الأشخاص الذين يستخدمون قارئ الشاشة للتعرف على الصورة.
@@ -32,23 +30,23 @@
 
 \--- /collapse \---
 
-الآن بعد أن عرفت الكود لوضع صورة على موقع الويب الخاص بك، ربما تريد تغيير الصورة، أليس كذلك؟
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
 - أول ما ستحتاج إليه هو ، بالطبع ، صورة! يمكنك إما استخدام صورة لديك على جهاز الكمبيوتر الخاص بك، مثل صورة التقطتها، أو يمكنك الحصول عليها من الإنترنت.
 
 [[[generic-get-picture-from-web]]]
 
-**ملاحظة:** ليست كل الصور التي ستجدها على الإنترنت مجانية ليستخدمها أي شخص. إذا قمت بتنزيل صورة ، يجب أن تتأكد من أنها صورة مسموح لك باستخدامها. اكتشف المزيد عن هذا هنا:
+**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
 
 [[[images-permissions-to-use]]]
 
-بمجرد حصولك على صورة، يمكنك **تحميل** الملف إلى Trinket:
+Once you have a picture, you can **upload** the file to Trinket:
 
 - في trinket، اضغط على أيقونة **الصورة** بجانب علامة **+**. 
 
-![أيقونة الصورة](images/tktImageIconArrow.png)
+![The image icon](images/tktImageIconArrow.png)
 
-هذا هو المكان الذي يمكنك من خلاله رؤية الصور التي يمكنك استخدامها في موقعك الخاص. يجب أن تشاهد صورة Tito، كلب CoderDojo.
+This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
 
 - اضغط زر **Add Image** ثم اضغط **Upload**.
 
@@ -56,19 +54,19 @@
 
 - اضغط على **موافق**.
 
-![مساحة تحميل الصورة](images/tktUploadImages.png)
+![Image upload area](images/tktUploadImages.png)
 
-سيتم تحميل صورتك ويجب أن تكون جاهزة للاستخدام.
+Your picture will be uploaded and should be ready to use.
 
 - انتقل إلى ملف `index.html` وابحث عن وسم `<img>`. غير النص`tito.png` بحيث يطابق اسم ملف الصورة التي اخترتها تماماً. لاحظ أن اسمه قد ينتهي بـ`.jpg` بدلاً من `.png`!
 
-النص الذي غيرته للتو هو السمة التي تسمى ` src `، والتي تخبر المتصفح اي ملف يعرض.
+The text you just changed is the attribute called `src`, which tells the browser which file to display.
 
-** ملاحظة:** يجب أن تحتوي القيمة التي تكتبها للسمة على علامات اقتباس `""` حولها!
+**Note:** the value you type for an attribute must have quotation marks `""` around it!
 
 \--- challenge \---
 
-## تحدي: تغيير النص البديل للصورة
+## Challenge: change the alt text of the picture
 
 - أبحث عن سمة `alt` لعنصر الصورة التي إخترتها وغير النص لشرح مختصر عن الصورة. 
 
