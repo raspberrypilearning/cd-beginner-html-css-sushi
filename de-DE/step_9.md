@@ -10,9 +10,11 @@ Diese Karte zeigt dir, wie du weitere Seiten zu deiner Website hinzufügen kanns
 
 ## title: Eine Datei umbenennen oder löschen
 
-Wenn du den Namen einer Datei ändern möchtest, klicke auf das Symbol **Zahnrad**-Symbol rechts neben dem Dateinamen und anschließend auf das **Bleistift**-Symbol. Gib den neuen Namen ein und drücke **Enter**. Du kannst eine Datei auch löschen, indem du auf das**Papierkorb** Symbol anstelle des **Bleistift** Symbols klickst. ![](images/EditFilename.png)
+Wenn du den Namen einer Datei ändern möchtest, klicke auf das Symbol **Zahnrad**-Symbol rechts neben dem Dateinamen und anschließend auf das **Bleistift**-Symbol. Gib den neuen Namen ein und drücke **Enter**. Du kannst eine Datei auch löschen, indem du auf das**Papierkorb** Symbol anstelle des **Bleistift** Symbols klickst.
 
-Du fragst dich vielleicht, warum du den Namen der Datei `index.html` nicht ändern kannst. `index.html` ist ein besonderer Name für die **Homepage** einer Website. Das ist die erste Seite, auf der du landest, wenn du eine Website besuchst. Wenn du auf die Startseite einer Website gehst, sucht der Browser nach der Datei mit dem Namen `index.html` und zeigt sie auf deinem Bildschirm an.
+![](images/EditFilename.png)
+
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
 \--- /collapse \---
 
@@ -20,17 +22,17 @@ Du fragst dich vielleicht, warum du den Namen der Datei `index.html` nicht ände
 
 - Ändere den Text zwischen den `<title> </title>` -Tags, damit Deine neue Seite einen passenden Titel hat. Trinket zeigt den Titel nicht an, aber Du kannst ihn oben im Browserfenster sehen, wenn Du Dein Projekt herunterlädst.
 
-![Der Seitentitel, der auf den Tabs im Browser angezeigt wird](images/egLocalFileWindowTitle.png)
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
 - Zwischen den `<main> </main>` -Tags in der neuen Datei verwende die Tags, die Du gelernt hast, um Dinge wie Seiten, Überschriften, Bilder und Listen zur Seite hinzuzufügen!
 
 - Wiederhole die obigen Schritte für jede neue Seite, die Du hinzufügen möchtest.
 
-Wenn zu viele Registerkarten für Trinket auf einmal angezeigt werden, kannst Du die Symbole **<** und **>** in der oberen linken Ecke der Registerkarten verwenden, um zwischen ihnen zu wechseln.
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
-![Die Schaltflächen zum Scrollen der Tabs](images/tktScrollTabIcons.png)
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-Jetzt musst Du Links erstellen, damit Du zu jeder Deiner neuen Seiten gelangen kannst! Lasse uns alle Links in eine Liste einfügen.
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
 - Füge in der Datei `index.html` dem Textkörper (body) Deiner Webseite den folgenden Code hinzu:
 
@@ -47,6 +49,6 @@ Jetzt musst Du Links erstellen, damit Du zu jeder Deiner neuen Seiten gelangen k
 
 - Ändere den Text zwischen den `<a> </a>` -Tags in passende Beschreibungen Deiner Seiten.
 
-Jetzt kannst Du zu Deinen neuen Seiten navigieren!
+Now you can navigate to your new pages!
 
-![Beispielliste von Links auf einer Webseite](images/egListOfPageLinks.png)
+![Example list of links on a web page](images/egListOfPageLinks.png)
