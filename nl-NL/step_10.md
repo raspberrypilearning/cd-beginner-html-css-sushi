@@ -49,12 +49,16 @@ Als je een fout maakt, kun je het **ongedaan maken** door tegelijkertijd op <kbd
     
     \--- hints \---
     
-    \--- hint \--- Selecteer de hele `<nav>` sectie zoals je eerder deed, en druk tegelijkertijd op de <kbd>Ctrl</kbd> (of <kbd>cmd</kbd>) en <kbd>C</kbd> toets om het te kopiëren.
+    \--- hint \---
 
-Klik vervolgens in elk van je `.html` bestanden in de `<header></header>` sectie en plak de code precies zoals je al eerder deed. \--- /hint \---
+Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
+
+\--- /hint \---
 
 \--- /hints \---
 
-Nu kun je op de links klikken, ongeacht op welke pagina je je bevindt.
+Now you will be able to click the links no matter which page you are on.
 
 \--- /challenge \---
