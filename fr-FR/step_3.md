@@ -55,13 +55,15 @@ Peux-tu expliquer ce que font les balises `<em> </em>` et `<strong> </strong>`?
 
 \--- hints \---
 
-\--- hint \--- Lorsque tu veux mettre du texte sur une page, tu dois le mettre entre deux balises qui disent à ton navigateur comment afficher ton texte. Par exemple, les balises `<p> </p>` disent au navigateur que ce qui est entre elles est un nouveau paragraphe de texte, et les balises `<h1> </h1>` lui disent que le texte entre est un titre.
+\--- hint \---
+
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
 \--- /hint \---
 
 \--- hint \---
 
-Le code pour les paragraphes ressemble à ceci :
+The code for paragraphs looks like this:
 
 ```html
   <p>Il s'agit d'un paragraphe de texte.</p>
@@ -75,13 +77,13 @@ Le code pour les paragraphes ressemble à ceci :
 
 \--- hint \---
 
-Le code pour les titres ressemble à ceci :
+The code for headings looks like this:
 
 ```html
   <h1> Ceci est une en-tête. </h1>
 ```
 
-Les titres seront normalement affichés plus gros ou plus gras que les paragraphes.
+Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /hint \---
 
@@ -89,4 +91,4 @@ Les titres seront normalement affichés plus gros ou plus gras que les paragraph
 
 \--- /challenge \---
 
-Félicitations, tu as construit ta première page web ! Sur la prochaine carte, tu découvriras comment contrôler son apparence.
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
