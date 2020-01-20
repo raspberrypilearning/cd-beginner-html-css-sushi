@@ -49,12 +49,16 @@ Si cometes un error, puedes** deshacer ** presionando <kbd> Ctrl </kbd> (o <kbd>
     
     \--- hints \---
     
-    Selecciona la sección `<nav>` completa como lo hiciste antes, y presione las teclas <kbd> Ctrl </kbd> (o <kbd> cmd </kbd>) y <kbd> C </kbd> juntas para copiarla.
+    \--- hint \---
 
-Luego, en cada uno de tus `.html` archivos, haz clic dentro de `<header> </header>` secciona y pega el código exactamente como lo hiciste antes. \--- /consejo \---
+Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
+
+\--- /hint \---
 
 \--- /hints \---
 
-Ahora puedes hacer clic en los enlaces sin importar en qué página te encuentres.
+Now you will be able to click the links no matter which page you are on.
 
 \--- /challenge \---
