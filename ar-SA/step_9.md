@@ -10,27 +10,29 @@
 
 ## title: إعادة تسمية او حذف ملف
 
-إذا كنت ترغب في تغيير اسم ملف ، فانقر على أيقونة **الترس** على يمين اسم الملف ، ثم انقر فوق أيقونة **قلم الرصاص**. اكتب الاسم الجديد واضغط على زر** Enter **. يمكنك أيضًا حذف ملف عن طريق النقر على أيقونة **الحاوية ** بدلاً من أيقونة **pencil**. ![](images/EditFilename.png)
+إذا كنت ترغب في تغيير اسم ملف ، فانقر على أيقونة **الترس** على يمين اسم الملف ، ثم انقر فوق أيقونة **قلم الرصاص**. اكتب الاسم الجديد واضغط على زر** Enter **. يمكنك أيضًا حذف ملف عن طريق النقر على أيقونة **الحاوية ** بدلاً من أيقونة **pencil**.
 
-قد تتساءل لماذا لا يمكنك تغيير اسم ملف`index.html`. `index.html` هو اسم خاص يستخدم **للصفحة الرئيسية** من الموقع. هذه هي الصفحة الأولى التي تهبط فيها عند زيارة موقع إلكتروني. متى ما انتقلت إلى الصفحة الرئيسية لموقع ويب ، يبحث المستعرض عن الملف المسمى ` index.html ` ويعرضه على الشاشة.
+![](images/EditFilename.png)
 
---/انهيار--
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+
+\--- /collapse \---
 
 - اعثر على الملف ` blank_page.html ` وانسخ والصق كل البرمجة التي فيه في الملف الجديد. نظرًا لأنك ترغب في نسخ كل شيء ، يمكنك النقر في أي مكان على الكود واستخدام اختصار لوحة المفاتيح <kbd> Ctrl </kbd> (أو <kbd> cmd </kbd>) و <kbd>A</kbd> لتحديد الكل في نفس الوقت.
 
 - غير النص بين الرمزين `<title> </title>` ليكون لصفحتك الجديدة عنوان مناسب. لن يعرض Trinket العنوان ، ولكن يمكنك رؤيته في أعلى نافذة المتصفح إذا قمت بتنزيل مشروعك.
 
-![عنوان الصفحة يظهر في علامة تبويب المتصفح](images/egLocalFileWindowTitle.png)
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
 - بين الرمزين `<main> </main>` في الملف الجديد ، استخدم العلامات التي تعلمتها حول إضافة أشياء إلى الصفحة ، مثل الفقرات والعناوين والصور والقوائم!
 
 - كرر الخطوات المذكورة أعلاه لكل صفحة جديدة تريد إضافتها.
 
-عندما يكون هناك العديد من علامات التبويب في Trinket لعرضها في وقت واحد ، يمكنك استخدام أيقونات ** < ** و **> ** في الزاوية العلوية اليمنى من علامات التبويب للتنقل بينها.
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
-![الأزرار لتصفح علامات التبويب](images/tktScrollTabIcons.png)
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-الآن أنت بحاجة إلى إنشاء روابط حتى تتمكن من الوصول إلى كل صفحة من صفحاتك الجديدة! دعنا نضع كل الروابط في قائمة.
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
 - في ملف ` index.html `، أضف الكود التالي إلى محتوى صفحة الويب الخاصة بك:
 
@@ -47,6 +49,6 @@
 
 - غير النص بين رموز `<a> و</a>` إلى وصف مناسبة لصفحاتك.
 
-يمكنك الآن الانتقال إلى صفحاتك الجديدة!
+Now you can navigate to your new pages!
 
-![مثال على قائمة الروابط على صفحة الويب](images/egListOfPageLinks.png)
+![Example list of links on a web page](images/egListOfPageLinks.png)
