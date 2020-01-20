@@ -55,13 +55,15 @@ Findest du heraus, was die `<em></em>` und `<strong></strong>`Tags bewirken?
 
 \--- hints \---
 
-\--- hint \--- Wenn du einen Text auf einer Seite platzieren möchtest, musst du ihn zwischen zwei Tags setzen, die dem Browser mitteilen, wie er den Text anzeigen soll. Zum Beispiel teilen die `<p> </p>` Tags dem Browser mit, dass alles, was zwischen ihnen ist, ein neuer Absatz ist, und die `<h1> </h1>` Tags, dass der Text eine Überschrift ist.
+\--- hint \---
+
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
 \--- /hint \---
 
 \--- hint \---
 
-Der Code für Absätze sieht so aus:
+The code for paragraphs looks like this:
 
 ```html
   <p>Dies ist ein Absatz.</p>
@@ -74,18 +76,18 @@ Der Code für Absätze sieht so aus:
 
 \--- hint \---
 
-Der Code für Überschriften sieht so aus:
+The code for headings looks like this:
 
 ```html
   <h1>Dies ist eine Überschrift.</h1>
 ```
 
-Überschriften werden normalerweise größer oder fetter als Absätze angezeigt.
+Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /hint \---
 
-\---/hints\---
+\--- /hints \---
 
-\---/ challenge \---
+\--- /challenge \---
 
-Herzlichen Glückwunsch, du hast deine erste Webseite erstellt! Auf der nächsten Karte lernst du, wie du das Aussehen kontrollieren kannst.
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
