@@ -17,7 +17,6 @@ Notice that this tag has extra bits of information inside it. They are called **
 - Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
 --- collapse ---
-
 ---
 title: How the `img` tag works
 ---
