@@ -49,12 +49,16 @@
     
     \--- hints \---
     
-    \--- hint \--- 이전과 같이 전체 `<nav>` 섹션을 선택하여 <kbd>Ctrl</kbd>(Mac에서는 <kbd>cmd</kbd>)와 <kbd>C</kbd>를 눌러 복사를 합니다.
+    \--- hint \---
 
-그런 다음 각 `.html` 파일에서 `<header> </header>` 내부를 클릭하여, 코드를 붙여 넣으십시오. \--- /hint \---
+Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
+
+\--- /hint \---
 
 \--- /hints \---
 
-이제 어느 페이지에 있든 상관없이 링크를 클릭 할 수 있습니다.
+Now you will be able to click the links no matter which page you are on.
 
 \--- /challenge \---
