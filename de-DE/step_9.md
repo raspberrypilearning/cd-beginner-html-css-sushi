@@ -22,17 +22,17 @@ Vielleicht wunderst du dich, dass du die Datei `index.html` nicht umbenennen kan
 
 - Ändere den Text zwischen den `<title> </title>` -Tags, damit Deine neue Seite einen passenden Titel hat. Trinket zeigt den Titel nicht an, aber Du kannst ihn oben im Browserfenster sehen, wenn Du Dein Projekt herunterlädst.
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+![Der Titel der Seite wird im Browserfenster angezeigt](images/egLocalFileWindowTitle.png)
 
 - Zwischen den `<main> </main>` -Tags in der neuen Datei verwende die Tags, die Du gelernt hast, um Dinge wie Seiten, Überschriften, Bilder und Listen zur Seite hinzuzufügen!
 
 - Wiederhole die obigen Schritte für jede neue Seite, die Du hinzufügen möchtest.
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+Gibt es zu viele Seiten, die Trinket gleichzeitig anzeigen soll, dann kannst du die **<** und **>** Symbole in der Ecke der Seite oben links benutzen, um zwischen ihnen zu wechseln.
 
 ![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+Nun musst du noch Querverweise (Links) erstellen, so dass du zu jeder deiner neuen Seiten springen kannst! Erstelle eine Liste die alle Querverweise enthält.
 
 - Füge in der Datei `index.html` dem Textkörper (body) Deiner Webseite den folgenden Code hinzu:
 
@@ -49,6 +49,6 @@ Now you need to make links so that you can get to each of your new pages! Let's 
 
 - Ändere den Text zwischen den `<a> </a>` -Tags in passende Beschreibungen Deiner Seiten.
 
-Now you can navigate to your new pages!
+Nun kannst du direkt zu deiner neuen Seite springen!
 
 ![Example list of links on a web page](images/egListOfPageLinks.png)
