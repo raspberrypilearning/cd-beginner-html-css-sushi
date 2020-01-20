@@ -10,9 +10,11 @@ Deze kaart laat zien hoe je meer pagina's aan je website kunt toevoegen.
 
 ## title: een bestand hernoemen of verwijderen
 
-Als je de naam van een bestand wilt wijzigen, klik je op het **tandwiel** pictogram rechts van de bestandsnaam en klik vervolgens op het **potlood** icoon. Typ de nieuwe naam in en druk op **Enter**. Je kunt een bestand ook verwijderen door in plaats van op het **potlood** pictogram, op het **vuilnisbak** pictogram te klikken. ![](images/EditFilename.png)
+Als je de naam van een bestand wilt wijzigen, klik je op het **tandwiel** pictogram rechts van de bestandsnaam en klik vervolgens op het **potlood** icoon. Typ de nieuwe naam in en druk op **Enter**. Je kunt een bestand ook verwijderen door in plaats van op het **potlood** pictogram, op het **vuilnisbak** pictogram te klikken.
 
-Je vraagt je misschien af ​​waarom je de naam van de `index.html` niet kunt wijzigen. `index.html` is een speciale naam die wordt gebruikt voor de **startpagina** van een website. Dat is de eerste pagina waarop je terechtkomt wanneer je een website bezoekt. Wanneer je naar de startpagina van een website gaat, zoekt de browser naar het bestand met de naam `index.html` en geeft het op je scherm weer.
+![](images/EditFilename.png)
+
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
 \--- /collapse \---
 
@@ -26,11 +28,11 @@ Je vraagt je misschien af ​​waarom je de naam van de `index.html` niet kunt 
 
 - Herhaal de bovenstaande stappen voor elke nieuwe pagina die je wilt toevoegen.
 
-Als er te veel tabbladen zijn die Trinket in één keer kan weergegeven, kunt je de **<** en ** >** pictogrammen in de linkerbovenhoek van de tabbladen gebruiken om tussen de verschillende pagina's te bladeren.
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
 ![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-Nu moet je koppelingen maken, zodat je naar elke nieuwe pagina kunt gaan! Laten we alle links in een lijst plaatsen.
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
 - In het `index.html` bestand, voeg je aan de body van je webpagina de volgende code toe:
 
@@ -47,6 +49,6 @@ Nu moet je koppelingen maken, zodat je naar elke nieuwe pagina kunt gaan! Laten 
 
 - Wijzig de tekst tussen de `<a> </a>` tags in geschikte beschrijvingen voor je pagina's.
 
-Nu kun je naar je nieuwe pagina's navigeren!
+Now you can navigate to your new pages!
 
 ![Example list of links on a web page](images/egListOfPageLinks.png)
