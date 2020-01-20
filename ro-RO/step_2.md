@@ -1,6 +1,6 @@
 ## Pentru început
 
-- Mergi la [trinket-ul de început](http://dojo.soy/html-b-start). Vei vedea o casetă care conține un exemplu de proiect web. În partea dreaptă este website-ul, iar în partea stângă este codul care creează website-ul. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- Mergi la [trinket-ul de început](http://dojo.soy/html-b-start). Vei vedea o casetă care conține un exemplu de proiect web. În partea dreaptă este website-ul, iar în partea stângă este codul care creează website-ul. ![Pagină web și cod în Trinket](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
@@ -8,11 +8,11 @@
 
 - Dă click pe butonul **Remix** din partea dreapta sus al proiectului. Dacă nu ești conectat, ți se va cere să te conectezi. După ce te-ai conectat, va trebui să dai click pe **Remix** din nou. Dând click pe acest buton, se creează o copie a proiectului pentru ca tu poți să lucrezi cu ea. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Butonul Remix](images/tktRemixButtonArrow.png)
 
 Ar trebui să scrie **remixed** după ce dai click pe el:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![Buttonul "remixed"](images/tktRemixedSmall.png)
 
 \--- /collapse \---
 
@@ -28,7 +28,7 @@ Dacă vrei să îți creezi un cont pe Trinket, urmează pașii de mai jos. Aces
 
 - Introdu adresa ta de email și alege o parolă, sau cere-i altcuiva să facă acest lucru pentru tine.
 
-- Acum poți accesa toate proiectele tale salvate sau remixate dând click pe numele tău de utilizator, iar apoi pe **My Trinkets**. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+- Acum poți accesa toate proiectele tale salvate sau remixate dând click pe numele tău de utilizator, iar apoi pe **My Trinkets**. ![Elementul "My Trinkets" din meniu](images/MyTrinketsMenuWide.png)
 
 \--- /collapse \---
 
