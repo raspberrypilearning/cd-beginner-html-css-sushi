@@ -16,9 +16,7 @@ Notice that this tag has extra bits of information inside it. They are called **
 
 - Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: How the `img` tag works
 
@@ -30,7 +28,7 @@ The tag contains **attributes** with extra information:
 - The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
 - The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
-\--- / colaps \---
+\--- /collapse \---
 
 Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
