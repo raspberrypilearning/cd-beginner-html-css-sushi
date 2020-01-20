@@ -55,13 +55,15 @@ Poți să îți dai seama ce fac etichetele `<em> </em>` și `<strong> </strong>
 
 \--- hints \---
 
-\--- hint \--- Când vrei să pui text într-o pagină, trebuie să îl pui între două etichete care îi spune browser-ului cum să afișeze textul tău. De exemplu, etichetele `<p> </p>` îi spune browser-ului că orice este între ele reprezintă un nou paragraf de text, iar etichetele `<h1> </h1>` îi spune că textul dintre ele este un titlu.
+\--- hint \---
+
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
 \--- /hint \---
 
 \--- hint \---
 
-Codul pentru paragrafe arată astfel:
+The code for paragraphs looks like this:
 
 ```html
   <p>Acesta este un paragraf de text.</p>
@@ -75,13 +77,13 @@ Codul pentru paragrafe arată astfel:
 
 \--- hint \---
 
-Codul pentru titluri arată astfel:
+The code for headings looks like this:
 
 ```html
   <h1>Acesta este un titlu.</h1>
 ```
 
-În mod normal, titlurile vor fi afișate mai mari sau mai evidențiate decât paragrafele.
+Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /hint \---
 
@@ -89,4 +91,4 @@ Codul pentru titluri arată astfel:
 
 \--- /challenge \---
 
-Felicitări, ai construit prima ta pagină web! În următoarea secțiune, vei afla cum poți controla aspectul ei.
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
