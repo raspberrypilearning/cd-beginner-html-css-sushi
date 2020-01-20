@@ -55,13 +55,15 @@
 
 \--- hints \---
 
-\--- تلميح \--- عندما تريد وضع نص في صفحة ما ، فأنت بحاجة إلى وضعه بين رمزين لتخبر المتصفح بكيفية عرض النص. على سبيل المثال، الرموز `<p> </p>` تخبر المتصفح إن كل الموجود بداخلهم عبارة عن فقرة جديدة، والرموز `<h1> </h1>` تخبره ان الموجود عبارة عن عنوان.
+\--- hint \---
 
-\--- hint/ \---
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+
+\--- /hint \---
 
 \--- hint \---
 
-برمجة الفقرة تبدوا على الشكل التالي:
+The code for paragraphs looks like this:
 
 ```html
   <p> هذه فقرة واحدة من النص. </p>
@@ -70,22 +72,22 @@
   كل ما هو موجود بين كل زوج من رموز p يظهر في سطر واحد على صفحة الويب </p>
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
 \--- hint \---
 
-برمجة العنوان يبدوا على الشكل التالي:
+The code for headings looks like this:
 
 ```html
   <h1> هذا هو العنوان. </h1>
 ```
 
-عادة ما يتم عرض العناوين بخط أكبر حجماً أو أعرض من الفقرات.
+Headings will normally be displayed bigger or bolder than the paragraphs.
 
-\--- hint/ \---
+\--- /hint \---
 
-\--- hints/ \---
+\--- /hints \---
 
 \--- /challenge \---
 
-تهانينا ، لقد قمت بإنشاء صفحتك الأولى! في البطاقة التالية ، ستكتشف كيفية التحكم في شكلها.
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
