@@ -54,13 +54,15 @@ Weet jij wat de `<em> </em>` en `<strong> </strong>` tags doen?
 
 \--- hints \---
 
-\--- hint \--- Als je tekst op een pagina wilt plaatsen, moet je deze tussen twee tags plaatsen die je browser vertellen hoe jouw tekst moet worden weergegeven. Bijvoorbeeld de `<p> </p>` tags vertellen de browser dat alles wat er tussenin zit een nieuwe alinea is en de `<h1> </h1>` tags vertellen dat de tekst ertussen een heading (kop) is.
+\--- hint \---
+
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
 \--- /hint \---
 
 \--- hint \---
 
-De code voor alinea's (paragraphs) ziet er als volgt uit:
+The code for paragraphs looks like this:
 
 ```html
   <p>Dit is een alinea tekst.</p> 
@@ -73,13 +75,13 @@ De code voor alinea's (paragraphs) ziet er als volgt uit:
 
 \--- hint \---
 
-De code voor kopteksten (headings) ziet er als volgt uit:
+The code for headings looks like this:
 
 ```html
   <h1>Dit is een kop.</h1>
 ```
 
-Koppen worden normaal gesproken groter of dikker weergegeven dan de alinea's.
+Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /hint \---
 
@@ -87,4 +89,4 @@ Koppen worden normaal gesproken groter of dikker weergegeven dan de alinea's.
 
 \--- /challenge \---
 
-Gefeliciteerd, je hebt je eerste webpagina gebouwd! Op de volgende kaart kom je erachter hoe je kunt bepalen hoe alles eruit ziet.
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
