@@ -49,12 +49,16 @@ Falls du einen Fehler machst, kannst du es **rückgängig machen** indem du <kbd
     
     \--- hints \---
     
-    \--- hint \--- Markiere den kompletten `<nav>` Abschnitt, wie vorher, und drücke die <kbd>Strg</kbd> (oder <kbd>cmd</kbd>) und <kbd>C</kbd> Tasten gleichzeitig, um ihn zu kopieren.
+    \--- hint \---
 
-Dann klicke in jeder deiner `.html` Dateien, in den `<header></header>` Abschnitt und füge den Code genau wie vorher ein. \---/hint\---
+Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
 
-\---/hints \---
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
 
-Jetzt kannst du die Links anklicken, unabhängig auf welcher Seite du gerade bist.
+\--- /hint \---
 
-\---/ challenge \---
+\--- /hints \---
+
+Now you will be able to click the links no matter which page you are on.
+
+\--- /challenge \---
