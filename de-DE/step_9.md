@@ -14,7 +14,7 @@ Wenn du den Namen einer Datei ändern möchtest, klicke auf das Symbol **Zahnrad
 
 ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+Vielleicht wunderst du dich, dass du die Datei `index.html` nicht umbenennen kannst. `index.html` ist eine spezielle Bezeichnung, die für die **homepage** einer Webseite verwendet wird. Das ist die erste Seite, die sichtbar wird, wenn du eine Webseite besuchst. Immer wenn du eine Webseite öffnest sucht der Browser nach einer Datei mit dem Namen `index.html` und zeigt diese auf dem Bildschirm an.
 
 \--- /collapse \---
 
