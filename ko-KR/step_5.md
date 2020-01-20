@@ -16,15 +16,13 @@
 
 - `width="100px"`가 포함된 코드를 찾으세요. 이 속성이 어떤 역할을 하는지 파악할 수 있도록 하기 위해 다른 숫자로 실험해 보세요. 절대 `px` 문자를 지우지 마세요!
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: How the `img` tag works
 
-`<img>` 태그는 지금까지 사용해 왔던 다른 태그와 다릅니다 - 닫는 태그 `</img>` 가 없습니다. 대신에, 이 태그는 **자체 마감** 태그입니다: `/>` 가 없습니다. 텍스트에는 시작과 끝을 지정해 주어야 하지만 이미지 요소에서는 시작과 끝이 없기 때문입니다.
+Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
 
-이러한 태그는 추가 **속성**을 가지고 있습니다:
+The tag contains **attributes** with extra information:
 
 - `src`는 이미지의 경로를 나타냅니다. 
 - `alt` 는 이미지의 대안을 뜻하며, 그림을 표시할 수 없는 경우에 브라우저에 표시되는 간단한 설명입니다. 'alt' 는 'Alternate(대체하다)' 의 줄임말입니다. 이 텍스트는 시각장애인과 같은 사람들에게 스크린 리더를 활용하여 이미지의 속성을 알 수 있도록 합니다.
@@ -32,23 +30,23 @@
 
 \--- /collapse \---
 
-이제 웹 사이트에 그림을 올리는 방법을 알았으므로 그림을 변경하고 싶을 것입니다.
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
 - 물론 가장 먼저 필요한 것은 그림입니다! 찍은 사진과 같이 이미 컴퓨터에 있는 사진을 사용하거나 인터넷에서 사진을 가져올 수 있습니다.
 
 [[[generic-get-picture-from-web]]]
 
-** 참고: ** 인터넷에서 찾을 수있는 모든 이미지가 누구나 자유롭게 사용할 수있는 것은 아닙니다. 사진을 다운로드하는 경우 사진이 허용 된 사진인지 확인해야합니다. 이에 대한 자세한 내용은 다음을 참조하십시오:
+**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
 
 [[[images-permissions-to-use]]]
 
-사진이 있으면 Trinket에 파일을 **업로드** 할 수 있습니다:
+Once you have a picture, you can **upload** the file to Trinket:
 
 - Trinket에서는, **이미지 아이콘 옆의** **+** 을 클릭합니다. 
 
-![이미지 아이콘](images/tktImageIconArrow.png)
+![The image icon](images/tktImageIconArrow.png)
 
-여기에서 웹 사이트에서 사용할 수있는 사진을 볼 수 있습니다. CoderDojo 강아지인 Tito 의 그림을 볼 수 있습니다.
+This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
 
 - **Add Image**을 클릭하고 **Upload**을 클릭하십시오.
 
@@ -56,19 +54,19 @@
 
 - **Done**을 클릭하세요.
 
-![이미지 업로드](images/tktUploadImages.png)
+![Image upload area](images/tktUploadImages.png)
 
-사진이 업로드되어 사용할 준비가 될 것입니다.
+Your picture will be uploaded and should be ready to use.
 
 - ` index.html` 파일로 이동하여 `<img>` 태그를 찾습니다. 텍스트를 `tito.png`로 변경하면 당신이 선택한 이미지 파일의 이름과 정확히 일치합니다. 파일 확장자는 `.png` 가 아닌 `.jpg`로 끝나야 할 것입니다!
 
-방금 변경 한 텍스트는 `src`라는 속성으로, 어떤 파일을 표시할지 브라우저에 알립니다.
+The text you just changed is the attribute called `src`, which tells the browser which file to display.
 
-**참고:** 속성은 무조건 따옴표(`""`)로 둘러싸여 있어야 합니다!
+**Note:** the value you type for an attribute must have quotation marks `""` around it!
 
 \--- challenge \---
 
-## 과제: 그림의 alt 텍스트 변경
+## Challenge: change the alt text of the picture
 
 - `alt` 속성을 변경하여 그 안에있는 텍스트를 그림의 간단한 설명으로 변경하십시오. 
 
