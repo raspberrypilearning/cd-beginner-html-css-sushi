@@ -16,15 +16,13 @@ Note que cette balise contient des informations supplémentaires. Ils sont appel
 
 - Trouve le morceau de code qui dit `width="100px"` et essaie d'expérimenter avec des nombres différents pour voir si tu peux déterminer ce que fait cet attribut. Ne supprime pas les lettres `px`!
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: How the `img` tag works
 
-## title: Comment la balise `img` fonctionne
+Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
 
-Note que la balise `<img>` est différente des autres comparées à ceux que tu as utilisées jusqu'à présent — il n'y a pas de balise de fermeture `</img>`. Au lieu de cela, cette balise est ** à fermeture automatique ** : il y a ` />` à la fin. En effet, il n'y a pas de "début" ni de "fin" dans un élément d'image, comme pour le texte sur la page.
-
-La balise contient ** attributs ** avec des informations supplémentaires:
+The tag contains **attributes** with extra information:
 
 - L'attribut `src` indique au navigateur quel fichier utiliser pour l'image. 
 - L'attribut `alt` est une courte description que le navigateur montrera s'il ne peut afficher l'image. «alt» est l'abréviation de «alternative». Ce texte aide également les personnes utilisant un lecteur d'écran à savoir quelle est l'image.
@@ -32,23 +30,23 @@ La balise contient ** attributs ** avec des informations supplémentaires:
 
 \--- /collapse \---
 
-Maintenant que tu connais le code pour mettre une image sur ton site, tu veux probablement changer l'image, n'est-ce pas?
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
 - La première chose dont tu auras besoin est bien sûr d'une image! Tu peux soit utiliser une que tu as déjà sur ton ordinateur, comme une photo que tu as prise, soit tu peux en obtenir une sur Internet.
 
 [[[generic-get-picture-from-web]]]
 
-** Note: ** toutes les images que tu trouveras sur Internet ne sont pas gratuites d'utilisation pour quiconque. Si tu télécharges une image, tu devras t'assurer que tu en as le droit. En savoir plus ici :
+**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
 
 [[[images-permissions-to-use]]]
 
-Une fois que tu as une photo, tu peux **télécharger** le fichier vers Trinket :
+Once you have a picture, you can **upload** the file to Trinket:
 
 - Dans ton trinket, clique sur l'icône **image** à côté du signe **+** . 
 
-![L'icône de l'image](images/tktImageIconArrow.png)
+![The image icon](images/tktImageIconArrow.png)
 
-C'est là que tu peux voir les images que tu peux utiliser sur ton site Web. Tu devrais voir l'image de Tito, le chien CoderDojo.
+This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
 
 - Clique sur le bouton **Ajouter une image** puis clique **Télécharger**.
 
@@ -56,19 +54,19 @@ C'est là que tu peux voir les images que tu peux utiliser sur ton site Web. Tu 
 
 - Clique **Terminé**.
 
-![Zone de téléchargement de l''image](images/tktUploadImages.png)
+![Image upload area](images/tktUploadImages.png)
 
-Ton image sera téléchargée et devrait être prête à être utilisée.
+Your picture will be uploaded and should be ready to use.
 
 - Va dans le fichier `index.html` et trouve la balise `<img>`. Change le texte `tito.png` pour qu'il corresponde exactement au nom du fichier image que tu as choisi. Note que son nom peut se terminer par `.jpg` au lieu de `.png` !
 
-Le texte que tu viens de modifier est l'attribut appelé `src`, qui indique au navigateur quel fichier afficher.
+The text you just changed is the attribute called `src`, which tells the browser which file to display.
 
-**Remarque:** la valeur que tu tapes pour un attribut doit avoir des guillemets `""` autour d'elle !
+**Note:** the value you type for an attribute must have quotation marks `""` around it!
 
 \--- challenge \---
 
-## Défi : changer le texte alt de l'image
+## Challenge: change the alt text of the picture
 
 - Trouve l'attribut ` alt ` de ton élément d’image et change le texte en une brève description de ton image. 
 
