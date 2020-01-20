@@ -16,15 +16,13 @@ Ten en cuenta que esta etiqueta tiene elementos adicionales de información dent
 
 - Encuentra el elemento de código que dice `ancho = "100px"` e intenta experimentar con diferentes números para ver si puedes descubrir qué hace este atributo. ¡No borres las letras `px`!
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: How the `img` tag works
 
-## title: Cómo funciona la etiqueta `img`
+Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
 
-Date cuenta que la etiqueta `<img>` es diferente de las otras etiquetas que ha utilizado hasta ahora; no hay etiqueta de cierre `</img>`. En cambio, esta etiqueta **se cierra automáticamente **: tiene `/>` al final. Esto se debe a que no hay un "inicio" y un "final" para un elemento de imagen como el que hay para el texto en la página.
-
-La etiqueta contiene **atributos** con información adicional:
+The tag contains **attributes** with extra information:
 
 - El atributo `src` le dice al navegador qué archivo usar para la imagen. 
 - El atributo `alt` es una breve descripción que el navegador mostrará si no puede mostrar la imagen. 'alt' es la abreviatura de 'alternativa'. Este texto también ayuda a las personas que usan un lector de pantalla a saber cuál es la imagen.
@@ -32,23 +30,23 @@ La etiqueta contiene **atributos** con información adicional:
 
 \--- /collapse \---
 
-Ahora que conoces el código para poner una imagen en tu página web, probablemente desees cambiar la imagen, ¿verdad?
+Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
 - ¡Lo primero que necesitarás es, por supuesto, una imagen! Puedes usar una que ya tienes en tu ordenador, como una fotografía que tomaste, o puedes obtenerla a través de Internet.
 
 [[[generic-get-picture-from-web]]]
 
-**Nota:** no todas las imágenes que encontrarás en Internet son gratuitas para que cualquiera las use. Si descargas una imagen, debes asegurarte de que sea una que puedas usar. Obten más información sobre esto aquí:
+**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
 
 [[[images-permissions-to-use]]]
 
-Una vez que tengas una foto, puedes **subir** el archivo a Trinket:
+Once you have a picture, you can **upload** the file to Trinket:
 
 - En Trinket, haz clic en el icono **imagen** lado del signo **+**. 
 
-![El icono de la imagen](images/tktImageIconArrow.png)
+![The image icon](images/tktImageIconArrow.png)
 
-Aquí es donde puedes ver las fotos que puedes usar en tu sitio web. Deberías ver la foto de Tito, el perro CoderDojo.
+This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
 
 - Haga clic en el botón **Agregar imagen** y luego haga clic en **Cargar**.
 
@@ -56,19 +54,19 @@ Aquí es donde puedes ver las fotos que puedes usar en tu sitio web. Deberías v
 
 - Haz clic en **Listo**.
 
-![Area de carga de la imagen](images/tktUploadImages.png)
+![Image upload area](images/tktUploadImages.png)
 
-Tu imagen se cargará y debería estar lista para usar.
+Your picture will be uploaded and should be ready to use.
 
 - Ve al archivo `index.html` y encuentra la etiqueta `<img>`. Cambia el texto `tito.png` para que coincida exactamente con el nombre del archivo de imagen que hayas elegido. ¡Ten en cuenta que su nombre puede terminar en `.jpg` en lugar de `.png`!
 
-El texto que acabas de cambiar es el atributo llamado `src`, que le dice al navegador qué archivo debe mostrar.
+The text you just changed is the attribute called `src`, which tells the browser which file to display.
 
-**Nota:** ¡El valor que escribas para un atributo debe tener comillas `""` a su alrededor!
+**Note:** the value you type for an attribute must have quotation marks `""` around it!
 
 \--- challenge \---
 
-## Desafío: cambia el texto alternativo de la imagen
+## Challenge: change the alt text of the picture
 
 - Encuentra el atributo `alt` de tu elemento de imagen y cambia el texto por una breve descripción de tu fotografía. 
 
