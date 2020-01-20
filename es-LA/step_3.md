@@ -55,13 +55,15 @@ Todo lo que se encuentra entre las etiquetas `<body>` y `</body>` es tu página 
 
 \--- hints \---
 
-\--- hint \--- Cuando quieras colocar texto en una página, debes colocarlo entre dos etiquetas que le digan a tu navegador cómo mostrar su texto. Por ejemplo, las eqtiquetas `<p> </p>` le diran al navegador que todo lo que se encuentre entre ellas es un nuevo párrafo de texto, y las etiquetas `<h1> </h1>` indican que el texto dentro de ellas es un encabezado.
+\--- hint \---
+
+When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
 \--- /hint \---
 
 \--- hint \---
 
-El código para los párrafos se ve así:
+The code for paragraphs looks like this:
 
 ```html
   <p>Este es un párrafo de texto.</p>
@@ -75,13 +77,13 @@ El código para los párrafos se ve así:
 
 \--- hint \---
 
-El código para los encabezados se ve así:
+The code for headings looks like this:
 
 ```html
   <h1>Este es un encabezado.</h1>
 ```
 
-Los encabezados normalmente se mostrarán más grandes o en negritas a comparación de los párrafos.
+Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /hint \---
 
@@ -89,4 +91,4 @@ Los encabezados normalmente se mostrarán más grandes o en negritas a comparaci
 
 \--- /challenge \---
 
-¡Felicidades, has construido tu primera página web! En la siguiente tarjeta, descubrirás cómo controlar el aspecto.
+Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
