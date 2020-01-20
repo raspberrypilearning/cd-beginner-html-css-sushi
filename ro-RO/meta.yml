@@ -1,46 +1,46 @@
 ---
-title: Guide to my country 1.0
+title: Ghidul țării mele 1.0
 hero_image: images / banner.png
-description: Aflați cum să creați un site web
-theme: roșu #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: Află cum să creezi un website
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
 ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html-css-JavaScript
-site_areas: coderdojo, proiecte
+technologies: html-css-javascript
+site_areas: coderdojo, projects
 hardware: ''
-software: html-css-JavaScript
+software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
     title: Introducere
   - 
-    title: Getting set up
+    title: Pentru început
   - 
-    title: Your first webpage!
+    title: Prima ta pagină web!
   - 
-    title: Controlling how it looks
+    title: Controlul aspectului
   - 
-    title: Adding pictures
+    title: Adăugarea de imagini
   - 
-    title: Adding a map or video
+    title: Adăugarea unei hărți sau video
   - 
-    title: Making a list
+    title: Crearea unei liste
   - 
-    title: Creating links
+    title: Crearea de legături
   - 
-    title: Adding more pages
+    title: Adăugarea mai multor pagini
   - 
-    title: Navigating your website
+    title: Navigarea pe website-ul tău
   - 
-    title: Making a menu bar
+    title: Realizarea barei de meniu
   - 
-    title: Styling the menu bar
+    title: Stilizarea barei de meniu
   - 
-    title: Adding a table
+    title: Adăugarea unui tabel
   - 
-    title: What next?
+    title: Ce urmează?
