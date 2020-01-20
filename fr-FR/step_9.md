@@ -10,9 +10,11 @@ Cette carte te montreras comment ajouter plus de pages à ton site web.
 
 ## title: Renommer ou supprimer un fichier
 
-Si tu veux changer le nom d'un fichier, clique sur l'icône **rouage** à droite du nom du fichier, puis clique sur l'icône **crayon** . Tape le nouveau nom et appuie sur **Entrer**. Tu peux également supprimer un fichier en cliquant sur l'icône **poubelle** au lieu de l'icône **crayon** . ![](images/EditFilename.png)
+Si tu veux changer le nom d'un fichier, clique sur l'icône **rouage** à droite du nom du fichier, puis clique sur l'icône **crayon** . Tape le nouveau nom et appuie sur **Entrer**. Tu peux également supprimer un fichier en cliquant sur l'icône **poubelle** au lieu de l'icône **crayon** .
 
-Tu te demandes peut-être pourquoi tu ne peux pas changer le nom du fichier `index.html`. `index.html` est un nom spécial utilisé pour la **page d'accueil** d'un site web. C'est la première page sur laquelle tu te trouves lorsque tu visites un site Web. Chaque fois que tu vas sur la page d'accueil d'un site web, le navigateur recherche le fichier `index.html` et l'affiche sur ton écran.
+![](images/EditFilename.png)
+
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
 \--- /collapse \---
 
@@ -20,17 +22,17 @@ Tu te demandes peut-être pourquoi tu ne peux pas changer le nom du fichier `ind
 
 - Change le texte entre les balises `<title> </title>` pour que ta nouvelle page ait un titre approprié. Trinket n'affichera pas le titre, mais tu peux le voir en haut de ta fenêtre de navigateur si tu télécharges ton projet.
 
-![Le titre de la page affiché dans l'onglet navigateur](images/egLocalFileWindowTitle.png)
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
 - Entre les balises `<main> </main>` dans le nouveau fichier, utilise les balises que tu as apprises à ajouter aux pages, tels que les paragraphes, les en-têtes, les images et les listes!
 
 - Répète les étapes ci-dessus pour chaque nouvelle page que tu souhaites ajouter.
 
-Quand il y a trop d'onglets à afficher simultanément pour Trinket, tu peux utiliser les icônes ** < ** et <0 >> </strong> dans le coin supérieur gauche des onglets pour les faire défiler.
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
-![Les boutons pour défiler les onglets](images/tktScrollTabIcons.png)
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-Tu dois maintenant créer des liens pour accéder à chacune de tes nouvelles pages! Mettons tous les liens dans une liste.
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
 - Dans le fichier `index.html` ajoute le code suivant au corps de ta page web :
 
@@ -47,6 +49,6 @@ Tu dois maintenant créer des liens pour accéder à chacune de tes nouvelles pa
 
 - Change le texte entre les balises `<a> </a>` pour les descriptions appropriées de vos pages.
 
-Maintenant, tu peux naviguer vers tes nouvelles pages!
+Now you can navigate to your new pages!
 
-![Liste des liens sur une page web](images/egListOfPageLinks.png)
+![Example list of links on a web page](images/egListOfPageLinks.png)
