@@ -16,6 +16,7 @@
 ---
 title: HTML and tags explained
 ---
+
 **HTML** is the code that makes a webpage.
 
 The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
@@ -47,6 +48,7 @@ Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 ![Example of HTML tags](images/egFirstTags.png)
 
 --- challenge ---
+
 ## Challenge: add some more text of your own
 
 - Try adding a new paragraph or heading to your page using some of the tags you've learned about.
@@ -54,6 +56,7 @@ Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 --- hints ---
 
 --- hint ---
+
 When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
 
 --- /hint ---
@@ -72,7 +75,6 @@ The code for paragraphs looks like this:
 
 --- /hint ---
 
-
 --- hint ---
 
 The code for headings looks like this:
@@ -80,6 +82,7 @@ The code for headings looks like this:
 ```html
   <h1>This is a heading.</h1>
 ```
+
 Headings will normally be displayed bigger or bolder than the paragraphs.
 
 --- /hint ---
