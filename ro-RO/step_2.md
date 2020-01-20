@@ -1,12 +1,12 @@
-## Getting set up
+## Pentru început
 
-- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- Mergi la [trinket-ul de început](http://dojo.soy/html-b-start). Vei vedea o casetă care conține un exemplu de proiect web. În partea dreaptă este website-ul, iar în partea stângă este codul care creează website-ul. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
-## title: I have a Trinket account
+## title: Am un cont Trinket
 
-- Click the **Remix** button at the top right of the project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
+- Dă click pe butonul **Remix** din partea dreapta sus al proiectului. Dacă nu ești conectat, ți se va cere să te conectezi. După ce te-ai conectat, va trebui să dai click pe **Remix** din nou. Clicking this button creates a copy of the project for you to work with. 
 
 ![Remix button](images/tktRemixButtonArrow.png)
 
