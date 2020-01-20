@@ -10,9 +10,11 @@ Esta tarjeta te mostrará cómo agregar más páginas a tu sitio web.
 
 ## title: Cambiar el nombre o eliminar un archivo
 
-Si deseas cambiar el nombre de un archivo, haz clic en el icono del **engranaje** a la derecha del nombre del archivo y luego haga clic en el icono **lápiz**. Escribe el nuevo nombre y presiona **Enter**. También puedes eliminar un archivo haciendo clic en el icono de la **papelera** en lugar del icono del **lápiz**. ![](images/EditFilename.png)
+Si deseas cambiar el nombre de un archivo, haz clic en el icono del **engranaje** a la derecha del nombre del archivo y luego haga clic en el icono **lápiz**. Escribe el nuevo nombre y presiona **Enter**. También puedes eliminar un archivo haciendo clic en el icono de la **papelera** en lugar del icono del **lápiz**.
 
-Tal vez te preguntes por qué no puedes cambiar el nombre del archivo `index.html`. `index.html` es un nombre especial utilizado para la **página de inicio** de un sitio web. Esa es la primera página en la que aterrizas cuando visitas un página web. Cada vez que vas a la página de inicio de un sitio web, el navegador busca el archivo llamado `index.html` y lo muestra en tu pantalla.
+![](images/EditFilename.png)
+
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
 \--- /collapse \---
 
@@ -20,17 +22,17 @@ Tal vez te preguntes por qué no puedes cambiar el nombre del archivo `index.htm
 
 - Cambia el texto entre las etiquetas `<title> </title>` para que tu nueva página tenga un título adecuado. Trinket no mostrará el título, pero puedes verlo en la parte superior de la ventana de tu navegador si descargas tu proyecto.
 
-![El título de la página que se muestra en la pestaña del navegador](images/egLocalFileWindowTitle.png)
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
 - Entre las etiquetas `<main> </main>` en el nuevo archivo, usa las etiquetas que has aprendido para agregar cosas a la página, como ¡párrafos, encabezados, imágenes y listas!
 
 - Repite los pasos anteriores para cada nueva página que desees agregar.
 
-Cuando hay demasiadas pestañas para que Trinket las muestre a la vez, puedes usar los iconos **<** y **>** en la esquina superior izquierda de las pestañas para desplazarte entre ellas.
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
-![Los botones para desplazar las pestañas](images/tktScrollTabIcons.png)
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-¡Ahora necesitas crear enlaces para poder acceder a cada una de tus nuevas páginas! Pongamos todos los enlaces en una lista.
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
 - En el archivo `index.html`, agrega el siguiente código al cuerpo (body) de tu página web:
 
@@ -47,6 +49,6 @@ Cuando hay demasiadas pestañas para que Trinket las muestre a la vez, puedes us
 
 - Cambia el texto entre las etiquetas `<a> </a>` por descripciones adecuadas de tus páginas.
 
-¡Ahora puedes navegar por tus nuevas páginas!
+Now you can navigate to your new pages!
 
-![Ejemplo de lista de enlaces en una página web](images/egListOfPageLinks.png)
+![Example list of links on a web page](images/egListOfPageLinks.png)
