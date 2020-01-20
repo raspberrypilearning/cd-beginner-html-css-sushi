@@ -49,12 +49,16 @@
     
     \--- hints \---
     
-    \--- hint \--- حدد القسم `<nav>` بالكامل كما فعلت من قبل ، واضغط على مفاتيح <kbd> Ctrl </kbd> (أو <kbd> cmd</kbd>) و <kbd> C </kbd> معا لنسخه.
+    \--- hint \---
 
-ثم، في كل من ملفات `.html`، انقر بداخل جزء `<header> </header>` ولصق الكود تماماً كما فعلت في السابق. \--- hint/ \---
+Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
 
-\--- hints/ \---
+Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
 
-ستتمكن الآن من النقر على الروابط بغض النظر عن الصفحة التي أنت فيها.
+\--- /hint \---
+
+\--- /hints \---
+
+Now you will be able to click the links no matter which page you are on.
 
 \--- /challenge \---
