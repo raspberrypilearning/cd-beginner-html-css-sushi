@@ -57,13 +57,13 @@ Todo lo que se encuentre entre las etiquetas `<body>` y ` </body>` es tu página
 
 \--- hint \---
 
-When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+Hint \---Cuando desees colocar texto en una página, deberás colocarlo entre dos etiquetas que le indiquen a tu navegador cómo mostrar tu texto. Por ejemplo, las etiquetas `<p> </p>` indican al navegador que lo que está entre ellas es un nuevo párrafo de texto y las etiquetas `<h1> </h1>` indican que el texto intermedio es un encabezado.
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for paragraphs looks like this:
+El código de los párrafos se ve así:
 
 ```html
   <p> Este es un párrafo de texto. </p>
