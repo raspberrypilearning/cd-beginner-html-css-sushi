@@ -51,14 +51,14 @@ Si cometes un error, puedes **deshacerlo** presionando <kbd>Ctrl</kbd> (o <kbd>c
     
     \--- hint \---
 
-Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+Hint \---Selecciona toda la sección `<nav>` como hiciste antes, y presiona las teclas <kbd>Ctrl</kbd> (o <kbd>cmd</kbd>) y <kbd>C</kbd> a la vez para copiarla.
 
-Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
+Luego, en cada uno de tus archivos `.html`, haz clic dentro de la sección `<header> </header>` y pega el código exactamente como lo hiciste anteriormente.
 
 \--- /hint \---
 
 \--- /hints \---
 
-Now you will be able to click the links no matter which page you are on.
+Ahora podrás hacer clic en los enlaces sin importar en qué página te encuentres.
 
 \--- /challenge \---
