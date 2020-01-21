@@ -44,7 +44,7 @@ Une fois que tu as une photo, tu peux **télécharger** le fichier vers Trinket 
 
 - Dans ton trinket, clique sur l'icône **image** à côté du signe **+** . 
 
-![The image icon](images/tktImageIconArrow.png)
+![L'icône de l'image](images/tktImageIconArrow.png)
 
 C'est là que tu peux voir les images que tu peux utiliser sur ton site Web. Tu devrais voir l'image de Tito, le chien CoderDojo.
 
@@ -54,7 +54,7 @@ C'est là que tu peux voir les images que tu peux utiliser sur ton site Web. Tu 
 
 - Clique **Terminé**.
 
-![Image upload area](images/tktUploadImages.png)
+![Zone de téléchargement de l''image](images/tktUploadImages.png)
 
 Ton image sera téléchargée et devrait être prête à être utilisée.
 
