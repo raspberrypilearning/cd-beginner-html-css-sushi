@@ -77,13 +77,13 @@ El código de los párrafos se ve así:
 
 \--- hint \---
 
-The code for headings looks like this:
+El código para los encabezados se ve así:
 
 ```html
   <h1>Este es un encabezado.</h1>
 ```
 
-Headings will normally be displayed bigger or bolder than the paragraphs.
+Normalmente, los encabezados se mostrarán más grandes o más destacadas que los párrafos.
 
 \--- /hint \---
 
@@ -91,4 +91,4 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /challenge \---
 
-Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
+¡Enhorabuena, has creado tu primera página web! En la siguientes páginas, descubrirás cómo controlar cómo se ve.
