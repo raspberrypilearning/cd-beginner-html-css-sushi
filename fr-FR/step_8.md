@@ -16,7 +16,7 @@ C'est parce que l'attribut `href` est vide pour le moment. Il doit contenir l' *
 
 - Va sur Wikipedia et trouve une page sur quelque chose sur ton site. Je vais utiliser la page sur l'Irlande.
 
-- Click in the address bar and select all of the text in it. C'est l'URL complète de la page sur laquelle tu te trouves. Appuie sur les touches <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>C</kdb> en même temps pour le copier.
+- Clique dans la barre d'adresse et sélectionne tout le texte qu'elle contient. C'est l'URL complète de la page sur laquelle tu te trouves. Appuie sur les touches <kdb>Ctrl</kdb> (ou <kdb>cmd</kdb>) et <kdb>C</kdb> en même temps pour le copier.
     
     ![URL dans la barre d'adresse](images/AddressBarURL.png)
 
