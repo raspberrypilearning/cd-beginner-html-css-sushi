@@ -51,4 +51,4 @@ Cuando hay demasiadas pestañas para que Trinket las muestre a la vez, puedes us
 
 ¡Ahora puedes navegar por tus nuevas páginas!
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+![Ejemplo de lista de enlaces de una página web](images/egListOfPageLinks.png)
