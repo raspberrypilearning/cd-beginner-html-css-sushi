@@ -1,10 +1,10 @@
-## Introducción
+## Introduction
 
-¡Aprende a programar tu primer sitio web!
+Learn how to code your first website!
 
-### Lo que harás
+### What you will make
 
-Crear un sitio web sobre tu país de origen, como el que se muestra en el trinket de abajo.
+Build a website about your home country, like the one in the trinket below.
 
 <div class="scratch-preview">
   <iframe src="https://trinket.io/embed/html/8d5e6e8aad" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -12,26 +12,26 @@ Crear un sitio web sobre tu país de origen, como el que se muestra en el trinke
 
 ## \--- collapse \---
 
-## title: Lo que aprenderás
+## title: What you will learn
 
-+ Usar un editor en línea para crear un sitio web hecho con archivos HTML y un archivo CSS
-+ Crear un sitio web HTML que tenga encabezados, párrafos de texto, listas e imágenes
-+ Usar código CSS para controlar el aspecto de tu sitio web, incluyendo el diseño de una barra de menú simple y cambio de colores, fondos y bordes
-+ Enlazar páginas entre sí y enlazar a otros sitios web
-+ Crear una tabla que incluya encabezados y varias filas
++ Using an online editor to create a website made up of HTML files and a CSS file
++ Building a HTML website that has headings, paragraph text, lists, and images
++ Using CSS code to control the look of your website, including designing a simple menu bar and changing colours, backgrounds, and borders
++ Linking pages to each other, and linking to other websites
++ Creating a table that includes headings and multiple rows
 
 \--- /collapse \---
 
-## \--- colapso \---
+## \--- collapse \---
 
-## title: Lo que necesitarás
+## title: What you need
 
 ### Hardware
 
-+ Un ordenador capaz de acceder a [trinket.io](https://trinket.io){:target="_blank"}
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
 
 ### Software
 
-Este proyecto se puede completar en un navegador web usando [trinket.io](https://trinket.io){:target="_blank"}.
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---
