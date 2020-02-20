@@ -1,34 +1,34 @@
-## 見た目の制御
+## Controlling how it looks
 
-Webサイトの見た目を記述するコードは**CSS**と呼ばれています。
+The code that describes what a website looks like is called **CSS**.
 
-- コードパネルの上にあるタブを見て、`styles.css`というファイル名のタブをクリックして移動します。 ファイルには次のテキストが書かれています。
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
 ```css
-  body {   
-    background-color: white;
-   }
+  body {
+      background-color: white;
+  }
 ```
 
-- `white`の色を`LightSkyBlue`に変えて、何が起きるか見てください。 ウェブサイトが青い背景になっているはずです！ 
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
 
 ![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: どうなっているのでしょうか。
+## title: How does it work?
 
-上にある`index.html`ファイルを見ると、次の行があることが分かります。
+If you look at the top of the `index.html` file, you will see the following line:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-上の行は`styles.css`という特別なのファイルを探すようブラウザにに指示しています。 その特別なファイルは**スタイルシート**と呼ばれています。 スタイルシートはファイル名に`.css`があることから分かります。
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-スタイルシートにはWebページにある各要素の見た目の**ルール**が記述されています。
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-中かっこ`{ }`とその間にあるコードは**CSSルール**のセットです。 `body`はWebサイトのすべての`<body>`要素のルールであることを表しています。 中かっこの前に短く書かれているその箇所は**セレクタ**と呼ばれています。 今回の場合は、body要素のセレクタです。
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
 Each rule inside the curly braces is made up of:
 
