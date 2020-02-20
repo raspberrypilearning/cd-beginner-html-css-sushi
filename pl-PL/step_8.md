@@ -56,7 +56,7 @@ You can put a link into other elements of your webpage too, such as in a paragra
   </p>
 ```
 
-\--- wyzwanie \---
+\--- challenge \---
 
 ## Challenge: put a link into a list
 
