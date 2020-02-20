@@ -2,22 +2,22 @@
 title: Guide to my country 1.0
 hero_image: images/banner.png
 description: Learn to make a website
-theme: 红色 #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
 ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html/css
+technologies: html-css-javascript
 site_areas: coderdojo, projects
 hardware: ''
-software: html/css
+software: html-css-javascript
 version: 3
-last_tested: 2017年1月1日
+last_tested: 2017-01-01
 steps:
   - 
-    title: 介绍
+    title: Introduction
   - 
     title: Getting set up
   - 
