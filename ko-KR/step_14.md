@@ -1,3 +1,3 @@
-## 더 나아가기
+## What next?
 
-수고하셨습니다. 여러분은 첫 번째 웹사이트를 제작하셨습니다. 웹페이지를 만드는 방법에 대해 더 궁금한 학생은 [중급 HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) 프로젝트를 해 보세요! 더 많은 HTML/CSS 스킬을 배우고 모양을 제어하는 방법에 대해 배워 볼 것입니다.
+Now that you've built your first website, why not take a look at the [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project? There you can build upon your existing HTML/CSS skills, add to your website and gain more control over how it looks.
