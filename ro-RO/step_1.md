@@ -12,7 +12,7 @@ Creează un website despre țara ta, după modelul din trinket-ul de mai jos.
 
 ## \--- collapse \---
 
-## title: Ce vei învăța
+## title: What you will learn
 
 + Folosirea un editor online pentru a crea un website format din fișiere HTML și un fișier CSS
 + Construirea unui website cu ajutorul HTML care conține titluri, text paragraf, liste și imagini
@@ -24,14 +24,14 @@ Creează un website despre țara ta, după modelul din trinket-ul de mai jos.
 
 ## \--- collapse \---
 
-## title: De ce vei avea nevoie
+## title: What you need
 
 ### Hardware
 
-+ Un computer capabil să acceseze site-ul [trinket.io](https://trinket.io){:target="_blank"}
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
 
 ### Software
 
-Acest proiect poate fi completat într-un browser web folosind [trinket.io](https://trinket.io){:target="_blank"}.
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---
