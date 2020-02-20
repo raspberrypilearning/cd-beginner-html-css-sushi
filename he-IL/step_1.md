@@ -1,8 +1,8 @@
-## מבוא
+## Introduction
 
 Learn how to code your first website!
 
-### מה תעשה
+### What you will make
 
 Build a website about your home country, like the one in the trinket below.
 
