@@ -1,31 +1,31 @@
-## التنقل في موقعك الإلكتروني
+## Navigating your website
 
-تحتوي العديد من المواقع على قائمة **التنقل** لمساعدة الزوار على التنقل بين الصفحات. الآن وبعد أن حصلت على مجموعة من الصفحات وصفحة رئيسية وروابط لكل صفحة ، دعنا ننقل قائمة الروابط إلى قسم التنقل في أعلى كل صفحة.
+Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
 
-![مثال على صفحة ويب مع روابط التنقل في الأعلى](images/egNavLinksAtTop.png)
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-- ابحث عن الكود الخاص بقائمة الروابط التي قمت بإنشائها في الخطوة السابقة.
+- Find the code for your list of links that you created in the previous step.
 
-- مباشرة قبل رمز الفتح `<ul>`، اضغط زر **Enter** لإنشاء سطر فارغ جديد، ثم اكتب في السطر الجديد الرمز التالي: `<nav>`. سيقوم Trinket بإضافة رمز الإغلاق مباشرة بعده، ولكن يمكنك إزالته - هذا ليس مكانه المناسب.
+- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
 
-- مباشرة **بعد** رمز الإغلاق`</ul>`، اضغط زر **Enter** لإنشاء سطر فارغ جديد، ثم اكتب رمز الإغلاق `</nav>` هناك.
+- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
 
-- الأن حدد جزء `<nav>` والقائمة بالكامل بالنقر مباشرة قبل رمز الفتح `<nav>` وسحب فأرة التحكم (الماوس) وصولًا إلى ما بعد رمز الإغلاق `</nav>` مباشرة، بحيث يتم تحديد كل النص بما في ذالك رموز الفتح و الإغلاق. تأكد من ان كل **الأقواس التي على شكل زاوية** `<` و`>` في البداية والنهاية محدده كذالك!
+- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
 
-![لم يتم تحديد النص الموجود على اليسار بالكامل بينما تم تحديد النص الموجود على اليمين بالكامل](images/egSelectedYayWoops.png)
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
-- ستقوم **بقص** بدلًا من النسخ هذه المرة. اضغط زر <kbd>Ctrl</kbd> (أو <kbd>cmd</kbd>)، وأثناء الضغط عليه، اضغط زر<kbd>X</kbd>. ستختفي البرمجة المحددة، لكن لا داعي للخوف!
+- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
 
-- في أعلى الملف ، انقر فوق المسافة بين رمزين `<header> و</header>`. تأكد من رؤية المؤشر يومض هناك. الآن الصق الكود بالضغط على <kbd> Ctrl </kbd> (أو <kbd> cmd</kbd>) و <kbd> V </kbd> كل عادة. يجب أن يبدو الكود مشابه لهذا الشكل:
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">الرئيسية</a></li>
-            <li><a href="attractions.html">أماكن للزيارة</a></li>
-            <li><a href="music.html">موسيقى</a></li>
-            <li><a href="food.html">مأكولات</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
@@ -33,19 +33,19 @@
 
 ## \--- collapse \---
 
-## title: تراجع!
+## title: Undo!
 
-إذا قمت بخطأ ما ، فيمكنك ** التراجع ** عن ذلك عن طريق الضغط على أزرار<kbd> Ctrl </kbd> (أو <kbd> cmd </kbd>) و <kbd> Z </kbd>معاً. يمكنك عادةً ضغط مجموعة الأزرار هذه عدة مرات للتراجع عن التغييرات القليلة السابقة. هذا اختصار مفيد آخر يمكنك استخدامه في العديد من البرامج!
+If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
 \--- /collapse \---
 
-- جرب الروابط الخاصة بك للتأكد من أنها لا تزال تعمل.
+- Try out your links to make sure they are still working.
 
 \--- challenge \---
 
-## تحدي: قوائم التنقل لكل الصفحات
+## Challenge: navigation menus for all pages
 
-- ضع هذا الجزء من الكود في قسم الرأس لكل ملف HTML قمت بإنشائه. سيؤدي ذلك إلى ظهور قائمة التنقل في أعلى كل صفحة في موقع الويب الخاص بك.
+- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
     
     \--- hints \---
     
