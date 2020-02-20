@@ -1,8 +1,8 @@
-## Εισαγωγή
+## Introduction
 
 Learn how to code your first website!
 
-### Τι θα φτιάξεις
+### What you will make
 
 Build a website about your home country, like the one in the trinket below.
 
