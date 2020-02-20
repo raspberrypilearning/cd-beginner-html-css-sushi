@@ -6,7 +6,7 @@ This card will show you how to add more pages to your website.
 
 ![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: Renaming or deleting a file
 
