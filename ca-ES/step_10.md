@@ -37,7 +37,7 @@ Many websites have a **navigation** menu to help visitors move between pages. No
 
 If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
-\--- / collapse \---
+\--- /collapse \---
 
 - Try out your links to make sure they are still working.
 
