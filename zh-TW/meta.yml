@@ -17,7 +17,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 介紹
+    title: Introduction
   - 
     title: Getting set up
   - 
@@ -43,4 +43,4 @@ steps:
   - 
     title: Adding a table
   - 
-    title: 然後呢？
+    title: What next?
