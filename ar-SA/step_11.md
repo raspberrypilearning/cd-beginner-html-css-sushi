@@ -1,10 +1,10 @@
-## إنشاء شريط قوائم
+## Making a menu bar
 
-في هذه البطاقة سترى كيف يمكنك ان تحول قائمة التنقل الخاصة بك إلى قائمة تنقل رائعة المظهر من خلال إضافة المزيد من قواعد CSS في صفحة الأنماط.
+On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
 
-![مثال على شريط قوائم](images/egCoolMenuBar.png)
+![Example of a menu bar](images/egCoolMenuBar.png)
 
-- انتقل إلى ملف صفحة الأنماط في علامة التبويب ` styles.css `. انقر **أسفل** قوس الإغلاق النتعرج `} `، واضغط على ** Enter ** لإنشاء سطر فارغ جديد. أضف قاعدة CSS التالية:
+- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
 
 ```css
     nav ul {
@@ -12,13 +12,13 @@
     }
 ```
 
-لاحظ كيف أستخدمت اثنتين من المحددات بدلا من واحدة؟ إذا استخدمت محدد `ul` لوحده ، فإن القاعدة تؤثر على جميع القوائم غير المرتبة في موقع الويب الخاص بك. إضافة محدد `nav` يجعله ينطبق فقط على القوائم الموجودة بين رمز `nav`.
+Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
 
-![قائمة مع خلفية حمراء](images/egMenuBarFirstStyle.png)
+![List with red background](images/egMenuBarFirstStyle.png)
 
-دعونا نتخلص من النقاط. تلك هي النقاط الموجودة أمام كل عنصر في القائمة.
+Let's get rid of the bullet points. Those are the dots in front of each list item.
 
-- أضف النمط التالي إلى الملف `styles.css`. مرة أخرى، اكتبه في سطر جديد بعد `} ` لكي لا يكون داخل أي مجموعة أخرى من القواعد.
+- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
 
 ```css
     nav ul li {
@@ -26,17 +26,17 @@
     }
 ```
 
-لاحظ أن هذه المجموعة من القواعد بها ثلاثة محددات: وهي تحدد كل عناصر ` li ` الموجودة في قائمة ` ul ` التي هي بداخل رمز `nav`. Phew!
+Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
 
-![قائمة مع إزالة النقاط](images/egMenuBarNoBullets.png)
+![List with bullet points removed](images/egMenuBarNoBullets.png)
 
-الآن لنجعل القائمة أفقية (جنبًا لجنب) بدلًا من رأسية (من الأعلى إلى الأسفل).
+Now let's make the list horizontal (across) instead of vertical (down).
 
-- داخل قاعدة CSS الجديدة التي أنشأتها للتو ، أضف السطر التالي: `display: inline;`.
+- Inside the new CSS rule you just created, add the following line: `display: inline;`.
 
 ![](images/egMenuBarInline.png)
 
-- عناصر القائمة الآن جميعها ملتصقة ببعض، لذالك دعونا نضيف خصائص `margin-right` و`margin-left` لجعل مسافة بينهم. الآن يجب أن يبدو كود CSS كما يلي:
+- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
 
 ```css
     nav ul li {
@@ -47,29 +47,29 @@
     }
 ```
 
-تذكر: `10px` يعني عشرة بكسلات.
+Remember: `10px` means ten pixels.
 
-ماذا عن جعل القائمة تتغير لتخبرك بالصفحة التي أنت فيها؟ هذا الجزء لن يكون في صفحة النماط.
+How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
 
-- ابدأ بالصفحة الرئيسية. انتقل إلى ملف `index.html`. في قائمة الروابط، احذف رمز الرابط قبل وبعد كلمة `الرئيسية`، هكذا يكون عنصر القائمة عبارة عن مجرد نص ما بين رمزين `<li> و</li>`، هكذا: `<li>الرئيسية</li>`.
+- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
 
-- الآن انتقل إلى كل ملف من ملفاتك الأخرى ، وقم بالشيء نفسه ، في كل مرة قوم بإزالة رموز الروابط للصفحة التي تقوم بتعديلها. لكي يكون، على سبيل المثال، في ملف `music.html`، قد ازلت رموز الروابط من عنصر القائمة `موسيقى`:
+- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">الرئيسية</a></li>
-            <li><a href="attractions.html">أماكن للزيارة</a></li>
-            <li>موسيقى</li>
-            <li><a href="food.html">مأكولات</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li>Music</li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-- استكشف صفحاتك من خلال النقر على الروابط. هل ترى كيف يعرض شريط القائمة الصفحة التي أنت بها بشكل نص عادي وليس رابط؟ 
+- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
 
-![مثال على شريط القائمة بتحديد الصفحة الحالية](images/egMenuBarOnPage.png)
+![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
 
-في البطاقة التالية ، ستتعلم المزيد من حيل CSS لجعل شريط القائمة يبدو أروع.
+On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
