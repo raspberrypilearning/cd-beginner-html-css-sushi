@@ -1,8 +1,8 @@
-## تحكم في شكلها
+## Controlling how it looks
 
-لغة البرمجة التي تحدد شكل موقع الويب تسمى ** CSS **.
+The code that describes what a website looks like is called **CSS**.
 
-- انظر إلى علامات التبويب في الجزء العلوي من لوحة البرمجة، وانتقل إلى الملف ` styles.css ` بالضغط على علامة التبويب التي تحمل هذا الاسم. يحتوي الملف على النص التالي:
+- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
 
 ```css
   body {
@@ -10,35 +10,35 @@
   }
 ```
 
-- غير اللون من `white` إلى `LightSkyBlue` وانظر ماذا يحدث. يجب أن يكون لموقعك الآن خلفية زرقاء! 
+- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
 
-![مثال بخلفية زرقاء](images/egFirstCSSbluebg.png)
+![Example with blue background](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## كيف يعمل؟
+## title: How does it work?
 
-إذا نظرت في أعلى ملف `index.html`، سترى السطر التالي:
+If you look at the top of the `index.html` file, you will see the following line:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-السطر الذي في الأعلى يخبر المتصفح بالبحث عن ملف خاص يحمل اسم `styles.css`. هذا الملف الخاص يسمى **صفحة الأنماط**. يمكنك التعرف على ملف صفحة الأنماط من خلال `.css` في الأسم.
+The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
 
-تحتوي صفحة الأنماط على **قواعد** لكيفية ظهور كل عنصر من عناصر صفحة الويب.
+A style sheet contains **rules** for what each element on your webpage should look like.
 
-الأقواس المتعرجة `{ }` و البرمجة التي بداخلهم عبارة عن مجموعة من ** قواعد CSS **. الكلمة `body` تعني أن القواعد هي لكل عنصر `<body>` موجود في موقع الويب الخاص بك. نطلق أسم ** المنتقي ** على الجزء الموجود امام الأقواس المتعرجة. لذلك في هذه الحالة ، المنتقي لعناصر الbody.
+The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
 
-تتكون كل قاعدة داخل الأقواس المتعرجة من:
+Each rule inside the curly braces is made up of:
 
-- خاصية ** ** على اليسار ، متبوعًا برمز النقطتين `: `
-- قيمة ** ** للخاصية على اليمين بعد النقطتين
-- رمز الفاصلة المنقوطة `؛` في النهاية
+- A **property** on the left, followed by a colon symbol `:`
+- A **value** for the property on the right-hand side after the colon
+- A semi-colon symbol `;` at the end
 
 \--- /collapse \---
 
-- لنضيف بعض القواعد لتغيير شكل النص. أضف سطرين جديدين داخل الأقواس المتعرجة:
+- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
 
 ```css
   body {
@@ -48,11 +48,11 @@
   }
 ```
 
-انظر إلى التغيير على صفحة الويب.
+Look at how this has changed the webpage.
 
-خاصية `color` تخص النص المكتوب دائماً. هنا ، تقوم بتعيين لون النص بالكامل في `محتوى` صفحة الويب الخاصة بك.
+The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
 
-- يمكنك أيضًا كتابة قواعد منفصلة للعناوين والفقرات. بالنسبة لعناوين `<h1>` ، يمكنك استخدام منتقي` h1 `. بعد قوس الإغلاق المتعرج الذي يحتوي على قواعد CSS للمحتوى، أضف البرمجة التالي.
+- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
 
 ```css
   h1 {
@@ -61,12 +61,12 @@
   }
 ```
 
-يجب آن يكون نص العنوان باللون البرتقالي الآن، والفقزات باللون الأرجواني كما في السابق.
+Your heading text should be orange now, with the paragraph in purple as before.
 
-![نتيجة برمجة الCSS الجديد](images/egCssColorsFonts.png)
+![Result of new CSS code](images/egCssColorsFonts.png)
 
-لاحظ كيف تبدو الحروف مختلفة بالإضافة لتغير لون الخط؟ هذا لأنك غيرت **شكل الخط**. يمكنك العثور على المزيد من الخطوط [هنا](http://dojo.soy/web-font-families).
+Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
 
-- حاول إضافة مجموعة من القواعد لعناوين `<h2>` ، باستخدام منتقي `h2`.
+- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
 
-- لماذا لا تجرب ألوان مختلفة للنص والخلفية؟ هناك الكثير من الألوان المتاحة للاستخدام. ستجد قائمة كاملة [هنا](http://dojo.soy/web-color-names).
+- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
