@@ -1,16 +1,16 @@
-## Agregando más paginas
+## Adding more pages
 
-Esta tarjeta te mostrará como agregar mas páginas a tu sitio web.
+This card will show you how to add more pages to your website.
 
-- En parte de arriba del Panel de Código, haz click en el símbolo **+** a un lado de las pestañas, y escribe un nombre para tu nuevo archivo. Debe de terminar con `.html` (incluyendo el punto!) para que el navegador reconozca que es una página web.
+- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
 
-![Añadiendo un nuevo archivo en Trinket](images/tktNewFileArrows.png)
+![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
 ## \--- collapse \---
 
-## title: Renombrando o borrando un archivo
+## title: Renaming or deleting a file
 
-Si tu quieres cambiar el nombre de un archivo, da clik en el ícono **cog** a la derecha del nombre del archivo, y luego da click en ícono de **pencil**. Escribe el nuevo nombre y presiona **Enter**. Tu tambien puedes borrar un archivo solamente dando click en el ícono **bin** en lugar del ícono del **pencil**.
+If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon.
 
 ![](images/EditFilename.png)
 
@@ -18,15 +18,15 @@ You might be wondering why you can't change the name of the `index.html` file. `
 
 \--- /collapse \---
 
-- Encuentra el archivo `blank_page.html`, copia y pega todo el código en tu nuevo archivo. Ya que quieres copiar todo, tu puedes dar click en cualquier parte del código y usar el atajo del teclado <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) y<kbd>A</kbd> para seleccionar todo de una sola vez.
+- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
 
-- Cambia el texto entre `<title> </title>` tags para que tu nueva pagina web tenga el título adecuado. Trinket no mostrará el título, pero puedes verlo en la parte superior de la ventana de tu navegador si tu descargas el proyecto.
+- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
 
 ![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
-- Entre las `<main> </main>` etiquetas en el nuevo archivo, use las etiquetas que has aprendido para agregar elementos a la página, como párrafos, encabezados, imágenes y listas!
+- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
 
-- Repite los pasos anteriores para cada página nueva que desees agregar.
+- Repeat the steps above for each new page that you want to add.
 
 When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
@@ -34,20 +34,20 @@ When there are too many tabs for Trinket to show at once, you can use the **<** 
 
 Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
-- En el archivo `index.html`, agrega el siguiente código al cuerpo de su página web:
+- In the `index.html` file, add the following code to the body of your webpage:
 
 ```html
     <ul>
-        <li><a href="index.html">Principal</a></li>
-        <li><a href="attractions.html">Lugares que Visitar</a></li>
-        <li><a href="music.html">Música</a></li>
-        <li><a href="food.html">Comidas</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Places to visit</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="food.html">Things to eat</a></li>
     </ul>
 ```
 
-- Cambia el valor del atributo ` href ` para cada enlace (recuerda, ese es el texto entre comillas) para que coincida exactamente con el nombre de cada archivo HTML que hayas creado.
+- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
 
-- Cambia el texto entre las etiquetas `<a> </a>` por las descripciones adecuadas de tus páginas.
+- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
 
 Now you can navigate to your new pages!
 
