@@ -1,5 +1,5 @@
 ---
-title: Ghidul țării mele 1.0
+title: Guide to my country 1.0
 hero_image: images / banner.png
 description: Află cum să creezi un website
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
@@ -19,28 +19,28 @@ steps:
   - 
     title: Introducere
   - 
-    title: Pentru început
+    title: Getting set up
   - 
-    title: Prima ta pagină web!
+    title: Your first webpage!
   - 
-    title: Controlul aspectului
+    title: Controlling how it looks
   - 
-    title: Adăugarea de imagini
+    title: Adding pictures
   - 
-    title: Adăugarea unei hărți sau video
+    title: Adding a map or video
   - 
-    title: Crearea unei liste
+    title: Making a list
   - 
-    title: Crearea de legături
+    title: Creating links
   - 
-    title: Adăugarea mai multor pagini
+    title: Adding more pages
   - 
-    title: Navigarea pe website-ul tău
+    title: Navigating your website
   - 
-    title: Realizarea barei de meniu
+    title: Making a menu bar
   - 
-    title: Stilizarea barei de meniu
+    title: Styling the menu bar
   - 
-    title: Adăugarea unui tabel
+    title: Adding a table
   - 
-    title: Ce urmează?
+    title: What next?
