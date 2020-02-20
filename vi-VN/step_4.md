@@ -14,7 +14,7 @@ The code that describes what a website looks like is called **CSS**.
 
 ![Example with blue background](images/egFirstCSSbluebg.png)
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
 ## title: How does it work?
 
