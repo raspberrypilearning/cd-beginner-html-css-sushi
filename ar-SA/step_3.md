@@ -1,57 +1,57 @@
-## صفحتك الإلكترونية الأولى!
+## Your first webpage!
 
-- في اللوحة التي على جهة اليسار، **لوحة البرمجة**، أضغط على علامة التبويب التي تسمى ` index.html `.
+- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
 
-- ابحث عن السطر الذي يقول `مرحبًا بك في أيرلندا!` وقم بتغييره إلى رسالتك الخاصة - كن حذراً ** لا ** تحذف الرموز `<p>` في بداية السطر و `</p>` في نهاية السطر. يجب أن ترى تحديثاً في صفحة الويب الخاصة بك في اللوحة التي على جهة اليمين.
+- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
 
-![مثال على فقرة HTML](images/egFirstHtmlCode.png)
+![HTML paragraph example](images/egFirstHtmlCode.png)
 
-- الآن في نفس السطر، قم بتغيير `<p>` و ` </p>` إلى `<h1>` و ` </h1>`. هل تلاحظ أي تغيير في النتيجة على اليمين؟
+- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
 
 ```html
-  <h1> مرحبًا بكم في أيرلندا! </h1>
+  <h1>Welcome to Ireland!</h1>
 ```
 
 ## \--- collapse \---
 
-## title: شرح ال HTML و الترميز
+## title: HTML and tags explained
 
-** HTML ** هي اللغة التي تصنع صفحات الويب.
+**HTML** is the code that makes a webpage.
 
-ال`html.` الموجودة في اسم الملف توضح للمتصفح ان هذا الملف صفحة ويب لكي يستطيع المتصفح التعرف على **الرموز** ومعرفة ما يظهره على الشاشة. (المتصفح هو البرنامج الذي تستخدمه لمشاهدة مواقع الويب ، على سبيل المثال Chrome أو Firefox.)
+The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
 
-رموز الHTML مثل `<p>` و ` </p>` تحدد أجزاء مختلفة من الصفحة ، على سبيل المثال الفقرات أو العناوين أو المحتوى. وتسمى جميع الأجزاء **عناصر**. فكر فيها كقطع البناء.
+HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
 
-### لماذا أحتاج إلى رمزين أثنين؟
+### Why do I need two tags?
 
-تحتاج إلى **رمز فتح** و **رمز إغلاق** لتخبر المتصفح متى **يبدأ** ومتى **ينتهي** العنصر. لذلك بالنسبة للفقرة ، يقول رمز الفتح للمتصفح `<p>` "هنا يأتي بعض النص الذي أريدك أن تعرضه كفقرة." ورمز الإغلاق `</p>` يخبره متى تنتهي الفقزة.
+You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
 
-كل شيء بين رموز `<body>` و ` </body>` تمثل صفحة الويب الخاصة بك.
+Everything in between the `<body>` and `</body>` tags is your webpage.
 
-- لاحظ كيف يكون رمز الإغلاق **دائماً** يحتوي على شرطة مائلة للأمام `/`.
+- Notice how the closing tag **always** has a forward slash `/`.
 
 \--- /collapse \---
 
-- حاول تغيير الأرقام في رموز **العنوان** لرؤية الأحجام المختلفة التي تحصل عليها. يمكنك الانتقال من `<h1>` وصولاً إلى `<h6>`. تذكر أن تغير رموز الفتح والإغلاق حتى تتطابق.
+- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
 
-- ابحث عن رمز الفقرة التي توضح ` موقع الويب الخاص بي عن أيرلندا. ` وقم بتغييره بحيث يبدو كالتالي:
+- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
 
 ```html
   <p>
-    <em>موقع الويب الخاص بي</em> عن <strong>أيرلندا</strong>. 
-    سيكون لها الصفحات التالية: مناطق سياحية، الموسيقى، الأطعمة
+    <em>My website</em> is about <strong>Ireland</strong>. 
+    It is going to have the following pages: Attractions, Music, Food
   </p>
 ```
 
-هل يمكنك معرفة عمل الرموز `<em> </em>` و`<strong> </strong>` ؟
+Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 
-![مثال على رموز HTML](images/egFirstTags.png)
+![Example of HTML tags](images/egFirstTags.png)
 
 \--- challenge \---
 
-## تحدي: إضافة فقراتك الخاصة
+## Challenge: add some more text of your own
 
-- حاول إضافة فقرة أو عنوان جديد إلى صفحتك باستخدام بعض الرموز التي تعلمتها.
+- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
 
 \--- hints \---
 
@@ -66,10 +66,11 @@ When you want to put text on a page, you need to put it in between two tags that
 The code for paragraphs looks like this:
 
 ```html
-  <p> هذه فقرة واحدة من النص. </p>
+  <p>This is one paragraph of text.</p>
 
-  <p> هذه فقرة أخرى.
-  كل ما هو موجود بين كل زوج من رموز p يظهر في سطر واحد على صفحة الويب </p>
+  <p>This is another paragraph.
+  Everything in between one set of p tags is 
+  displayed together in one long line on the webpage.</p>
 ```
 
 \--- /hint \---
@@ -79,7 +80,7 @@ The code for paragraphs looks like this:
 The code for headings looks like this:
 
 ```html
-  <h1> هذا هو العنوان. </h1>
+  <h1>This is a heading.</h1>
 ```
 
 Headings will normally be displayed bigger or bolder than the paragraphs.
