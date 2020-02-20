@@ -17,7 +17,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: מבוא
+    title: Introduction
   - 
     title: Getting set up
   - 
