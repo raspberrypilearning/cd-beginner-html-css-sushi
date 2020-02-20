@@ -1,8 +1,8 @@
-## परिचय
+## Introduction
 
 Learn how to code your first website!
 
-### आप क्या बनाएँगे
+### What you will make
 
 Build a website about your home country, like the one in the trinket below.
 
