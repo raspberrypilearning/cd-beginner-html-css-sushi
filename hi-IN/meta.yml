@@ -9,15 +9,15 @@ ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html/css
+technologies: html-css-javascript
 site_areas: coderdojo, projects
 hardware: ''
-software: htmp-css-javascript
+software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
     title: Getting set up
   - 
