@@ -14,7 +14,7 @@ Si tu veux changer le nom d'un fichier, clique sur l'icône **rouage** à droite
 
 ![](images/EditFilename.png)
 
-Tu te demandes peut-être pourquoi tu ne peux pas changer le nom du fichier `index.html`. `index.html` est un nom spécial utilisé pour la **page d'accueil** d'un site web. C'est la première page sur laquelle tu te trouves lorsque tu visites un site Web. Chaque fois que tu vas sur la page d'accueil d'un site web, le navigateur recherche le fichier `index.html` et l'affiche sur ton écran.
+Tu te demandes peut-être pourquoi tu ne peux pas changer le nom du fichier `index.html`. `index.html` est un nom spécial utilisé pour la **page d'accueil** d'un site web. C'est la première page sur laquelle tu te trouves lorsque tu visites un site Web. Chaque fois que tu vas sur la page d'accueil d'un site Web, le navigateur recherche le fichier `index.html` et l'affiche sur ton écran.
 
 \--- /collapse \---
 
@@ -51,4 +51,4 @@ Tu dois maintenant créer des liens pour accéder à chacune de tes nouvelles pa
 
 Maintenant, tu peux naviguer vers tes nouvelles pages !
 
-![Liste des liens sur une page web](images/egListOfPageLinks.png)
+![Exemple de liste de liens sur une page Web](images/egListOfPageLinks.png)
