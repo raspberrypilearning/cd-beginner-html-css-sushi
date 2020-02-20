@@ -1,8 +1,8 @@
-## Introdução
+## Introduction
 
-Aprenda a programar seu primeiro site!
+Learn how to code your first website!
 
-### O que você vai fazer
+### What you will make
 
 Build a website about your home country, like the one in the trinket below.
 
