@@ -1,16 +1,16 @@
-## 설정하기
+## Getting set up
 
-- 이 [trinket](http://dojo.soy/html-b-start)을 열어 주십시오. 예제 웹사이트 프로젝트가 들어 있는 박스가 나타날 것입니다. 오른쪽에는 웹 사이트가 있고 왼쪽에는 웹 사이트의 소스 코드가 있습니다. ![Trinket의 웹 페이지 및 코드](images/tktHTMLStartingPoint.png)
+- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
-## title: Trinket 계정을 가지고 있는 경우
+## title: I have a Trinket account
 
-- 우측 상단의 **Remix** 버튼을 클릭하십시오. 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다. 로그인 한 다음 **Remix**를 다시 클릭합니다. 이 버튼을 클릭하면 자신의 계정에 프로젝트 복사본이 생성됩니다. 
+- Click the **Remix** button at the top right of the project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
 
-![리믹스 버튼](images/tktRemixButtonArrow.png)
+![Remix button](images/tktRemixButtonArrow.png)
 
-버튼을 클릭하면 **remixed** 가 아래와 같이 표시됩니다:
+It should say **remixed** after you click it:
 
 ![Button now says "remixed"](images/tktRemixedSmall.png)
 
@@ -18,18 +18,18 @@
 
 ## \--- collapse \---
 
-## title: Trinket 계정을 가지고 있지 않은 경우
+## title: I don't have a Trinket account
 
-** 공유 ** 메뉴의 옵션 중 하나를 사용하여 작업을 저장할 수 있습니다. 예를 들어 문서에 저장하거나 이메일을 통해 보낼 수있는 링크를 얻을 수 있습니다. **참고: ** 수정을 할 때마다 새로운 링크가 생깁니다.
+You can save your work by using one of the options in the **Share** menu. You will get a link that you can either save somewhere, for example in a document, or send to someone via email. **Note:** each time you make a change, you will get a new link.
 
-Trinket에 계정을 만들려면 다음 단계를 따르십시오. 이렇게 하면 다른 컴퓨터에서 **Remix**하여 다른 사람이 나와 공유 한 작업 및 프로젝트에 쉽게 액세스 할 수 있습니다. 리믹스는 프로젝트의 사본을 저장하여 사용자가 직접 변경할 수 있음을 의미합니다.
+If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
 
-- [Trinket 웹 사이트](http://dojo.soy/trinket) 로 이동하여 **Sign Up For Your Free Account**을 클릭 하십시오. 가입하려면 이메일 주소가 필요합니다.
+- Go to [the Trinket website](http://dojo.soy/trinket) and click **Sign Up For Your Free Account**. You will need an email address to sign up.
 
-- 전자 메일 주소를 입력하고 암호를 입력하세요. 혹은 다른 사람에게 요청하십시오.
+- Enter your email address and choose a password, or ask somebody to do this for you.
 
-- 이제 사용자 이름을 클릭하고 **My Trinkets** 로 가서 리믹스 된 모든 프로젝트에 액세스 할 수 있습니다. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
 
 \--- /collapse \---
 
-코딩을 시작합시다!
+Let's start coding!
