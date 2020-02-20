@@ -1,10 +1,10 @@
-## المقدمة
+## Introduction
 
-تعلم كيف تبرمج موقعك الإلكتروني الأول!
+Learn how to code your first website!
 
-### ما الذي ستصنعه
+### What you will make
 
-أنشئ موقعًا إلكترونيًا عن بلدك، مثل الموقع الموجود في trinket أدناه.
+Build a website about your home country, like the one in the trinket below.
 
 <div class="scratch-preview">
   <iframe src="https://trinket.io/embed/html/8d5e6e8aad" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -12,26 +12,26 @@
 
 ## \--- collapse \---
 
-## title: ما الذي ستتعلمه
+## title: What you will learn
 
-+ استخدام محرر عبر الإنترنت لإنشاء موقع ويب يتكون من ملفات HTML وملف CSS
-+ بناء موقع يحتوي على عناوين وفقرة نصية وقوائم وصور
-+ استخدام لغة الCSS للتحكم في مظهر موقع الويب الخاص بك، بما في ذلك تصميم شريط قوائم بسيط وتغيير الألوان والخلفيات والحدود
-+ ربط الصفحات ببعضها البعض ، وربطها بمواقع أخرى
-+ إنشاء جدول يتضمن العناوين وصفوف متعددة
++ Using an online editor to create a website made up of HTML files and a CSS file
++ Building a HTML website that has headings, paragraph text, lists, and images
++ Using CSS code to control the look of your website, including designing a simple menu bar and changing colours, backgrounds, and borders
++ Linking pages to each other, and linking to other websites
++ Creating a table that includes headings and multiple rows
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: ما ستحتاج إليه
+## title: What you need
 
-### الأجهزة
+### Hardware
 
-+ جهاز كمبيوتر يدعم الوصول إلى الموقع الإلكتروني [trinket.io](https://trinket.io){:target="_blank"}
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
 
-### البرمجيات
+### Software
 
-يُمكن إكمال هذا المشروع في متصفح ويب باستخدام تطبيق [trinket.io](https://trinket.io).<0>{:target="_blank"} عبر الإنترنت.
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---
