@@ -1,44 +1,44 @@
-## إنشاء روابط
+## Creating links
 
-في هذه البطاقة، ستتعرف على كيفية إنشاء رابط ينقلك إلى صفحة أخرى عند الضغط عليه.
+On this card you'll learn how to make a link that takes you to another page when it's clicked.
 
-- أضف الكود التالي إلى قسم النص في ملف ` index.html`:
+- Add the following code to the body section of `index.html`:
 
 ```html
-  <a href="">أضغط هنا</a>
+  <a href="">Click here</a>
 ```
 
-رمزان `<a> </a>` يحولان كل ما بينهما إلى رابط.
+The `<a> </a>` tags turn whatever is in between them into a link.
 
-- حاول النقر على الرابط الخاص بك لمعرفة ماذا سيحدث. لا يفعل شيئا ، أليس كذلك؟
+- Try clicking your link to see what happens. It does nothing, right?
 
-ذلك لأن سمة `href` فارغة في الوقت الحالي. يجب أن تحتوي على عنوان URL ** ** (عنوان الويب) للصفحة التي تريد الذهاب لها.
+That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
 
-- انتقل إلى Wikipedia وابحث عن صفحة حول شيء ما على موقع الويب الخاص بك. أنا سأستخدم الصفحة الخاصة بأيرلندا.
+- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
 
-- انقر في شريط العناوين وحدد كل النص. هذا هو عنوان URL الكامل للصفحة التي أنت فيها. اضغط على <kdb>Ctrl</kdb> (أو <kdb>cmd</kdb>) و <kdb>C</kdb> في لوحة المفاتيح في نفس الوقت.
+- Click in the address bar and select all of the text in it. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
     
-    ![عنوان URL في شريط العنوان](images/AddressBarURL.png)
+    ![URL in address bar](images/AddressBarURL.png)
 
-- في trinket، انقر بين علامات الاقتباس بعد ` href = ` واضغط على <kdb>Ctrl</kdb> (أو <kdb>cmd</kdb>) و <kdb>V</kdb> في لوحة المفاتيح في نفس الوقت للصق عنوان URL الذي قمت بنسخه للتو. يجب أن تبدو التعليماتك البرمجية بهذا الشكل:
+- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
 
 ```html
-  <a href="https://en.wikipedia.org/wiki/Ireland"> انقر هنا </a>
+  <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
 ```
 
-لقد أنشأت أول رابط خاص بك! انقر عليها لمعرفة ما إذا كان يعمل الآن.
+You just created your first link! Click on it to see if it works now.
 
-![رمز الرابط](images/egLinkTagWithURL.png)
+![Link tag](images/egLinkTagWithURL.png)
 
 ## \--- collapse \---
 
-## title: روابط إلى مواقع اخرى
+## title: Links to other websites
 
-Trinket لديه مشكلة مع بعض عناوين الويب. يمكنك تجربة عناوين URL لمواقع غير ويكيبيديا إذا أردت ، لكنها قد لا تعمل في trinket. ومع ذلك ، إذا كنت ستقوم بتنزيل مشروعك وعرض الملفات في مستعرض ويب ، فستشاهد الروابط تعمل.
+Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
 
 \--- /collapse \---
 
-- حاول وضع صورة بين `<a> </a>` العلامات بدلاً من الكلمات ` انقر هنا ` ، كالتالي:
+- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,20 +46,20 @@ Trinket لديه مشكلة مع بعض عناوين الويب. يمكنك تج
   </a>
 ```
 
-- انقر على الصورة. هل ترى أنها تحولت إلى رابط؟
+- Click on your picture. Do you see that it was turned into a link?
 
-يمكنك وضع رابط في عناصر أخرى من صفحة الويب أيضًا ، على سبيل المثال في فقرة أو حتى في قائمة. فيما يلي مثال على جملة بها رابط:
+You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland"> انقر هنا </a> لقراءة صفحة ويكيبيديا!
+    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
   </p>
 ```
 
 \--- challenge \---
 
-## تحدي: ضع رابط في قائمة
+## Challenge: put a link into a list
 
-- انظر إذا كان يمكنك إنشاء قائمة تحتوي على رابط داخل أحد عناصر القائمة.
+- See if you can make a list that contains a link inside one of the list items.
 
 \--- /challenge \---
