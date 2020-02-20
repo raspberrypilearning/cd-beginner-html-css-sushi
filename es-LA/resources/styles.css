@@ -23,9 +23,9 @@ body {
 
 
 
-/ **********************************
-Esta sección es para el estilo de las tablas
-*********************************** /
+/**********************************
+This section is for styling tables
+***********************************/
 table, th, td {
   border: 1px solid HoneyDew;
   border-collapse: collapse;
@@ -44,4 +44,4 @@ th {
 td {
   color: purple;
 }
-/ ******************************** /
+/********************************/
