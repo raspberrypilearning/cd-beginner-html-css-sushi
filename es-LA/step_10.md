@@ -1,31 +1,31 @@
-## Navegando por tu sitio web
+## Navigating your website
 
-Muchos sitios web tienen un menú de **navegación** para ayudar a los visitantes a moverse entre páginas. Ahora que tienes muchas páginas, una página de inicio y enlaces a cada una de ellas, movamos la lista de enlaces a la sección de navegación en la parte superior de cada una de las páginas.
+Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
 
-![Ejemplo de una página web con enlaces de navegación en la parte superior](images/egNavLinksAtTop.png)
+![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
 
-- Encuentra el codigo para tu lista de enlaces que creaste en el paso anterior.
+- Find the code for your list of links that you created in the previous step.
 
-- Justo antes de la etiqueta de apertura `<ul>`, presione ** Enter ** para crear una nueva línea en blanco, a continuación, en la nueva línea, escriba la siguiente etiqueta: `<nav>`. Trinket agrega automáticamente la etiqueta de cierre inmediatamente después, pero puedes eliminarla —no está en el lugar correcto.
+- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
 
-- Justo **después** de la etiqueta de apertura `</ul>`, presiona **Enter** para crear una nueva línea en blanco, y escribe la etiqueta de cierre`</nav>`.
+- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
 
-- Ahora selecciona toda la sección `<nav>` y la lista haciendo clic justo antes de la etiqueta de apertura `<nav>` y arrastrando el mouse hasta el final justo despues de la etiqueta de cierre `</nav>`, de modo que todo el texto, incluidas las etiquetas de apertura y cierre, se resalten. Asegúrate de que todos los **soportes de ángulo** `<` y `>` al inicio y al final se resalten también!
+- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
 
-![El texto de la izquierda no está completamente seleccionado, mientras que el texto de la derecha si lo está](images/egSelectedYayWoops.png)
+![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
 
-- Vas a **cortar** esta vez en lugar de copiar. Mantenga presionada la tecla <kbd> Ctrl </kbd> (o la tecla <kbd>cmd</kbd>), y mientras lo mantienes presionado, presiona la tecla <kbd>X</kbd>. El código resaltado desaparecerá, ¡pero no te asustes!
+- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
 
-- En la parte superior del archivo, haga clic en el espacio entre `<header> </header>` etiquetas. Asegúrate de ver el cursor parpadeando allí. Ahora pegua el código presionando <kbd> Ctrl </kbd> (o <kbd> cmd </kbd>) y <kbd> V </kbd> como siempre. Tu código debería verse algo así:
+- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Principal</a></li>
-            <li><a href="attractions.html">Lugares que visitar</a></li>
-            <li><a href="music.html">Música</a></li>
-            <li><a href="food.html">Comidas</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Places to visit</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Things to eat</a></li>
             </ul>
         </nav>
     </header>
@@ -33,19 +33,19 @@ Muchos sitios web tienen un menú de **navegación** para ayudar a los visitante
 
 ## \--- collapse \---
 
-## title: Deshacer!
+## title: Undo!
 
-Si cometes un error, puedes** deshacer ** presionando <kbd> Ctrl </kbd> (o <kbd> cmd </kbd>) y <kbd> Z </kbd> juntos. Por lo general, puedes presionar esta combinación de teclas varias veces para deshacer los últimos cambios. Este es otro atajo del teclado práctico que se puede usar en muchos programas!
+If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
 
 \--- /collapse \---
 
-- Prueba tus enlaces para asegurarte de que sigan funcionando.
+- Try out your links to make sure they are still working.
 
 \--- challenge \---
 
-## Desafío: menús de navegación para todas las páginas.
+## Challenge: navigation menus for all pages
 
-- Coloca esta sección de código en la sección de encabezado de cada archivo HTML que hayas creado. Esto hará que el menú de navegación aparezca en la parte superior de cada página de tu sitio web.
+- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
     
     \--- hints \---
     
