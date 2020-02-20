@@ -1,46 +1,46 @@
 ---
-title: Beginner HTML & CSS Sushi Cards
-hero_image: images/banner.svg
+title: Guide to my country 1.0
+hero_image: images/banner.png
 description: Learn to make a website
-theme: navy #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 1
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 3
 listed: true
 ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo
+site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 前書き
+    title: Introduction
   - 
-    title: はじめに
+    title: Getting set up
   - 
-    title: ウェブページをつくろう
+    title: Your first webpage!
   - 
-    title: CSS（スタイルシート）を設定しよう
+    title: Controlling how it looks
   - 
-    title: リストをつくってみよう
+    title: Adding pictures
   - 
-    title: 画像を追加する
+    title: Adding a map or video
   - 
-    title: さらにページをつくろう
+    title: Making a list
   - 
-    title: リンクをつくろう
+    title: Creating links
   - 
-    title: ウェブサイトをナビゲートしよう
+    title: Adding more pages
   - 
-    title: メニューバーのスタイリング
+    title: Navigating your website
   - 
-    title: マップとビデオの追加
+    title: Making a menu bar
   - 
-    title: テーブルの追加
+    title: Styling the menu bar
   - 
-    title: プロジェクトのダウンロード
+    title: Adding a table
   - 
     title: What next?
