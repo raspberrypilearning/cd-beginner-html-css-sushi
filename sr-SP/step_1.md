@@ -1,8 +1,8 @@
-## Увод
+## Introduction
 
 Learn how to code your first website!
 
-### Шта ћеш направити
+### What you will make
 
 Build a website about your home country, like the one in the trinket below.
 
