@@ -1,10 +1,10 @@
-## はじめに
+## Introduction
 
-はじめてのWebサイトのコーディングを学びましょう！
+Learn how to code your first website!
 
-### 作るもの
+### What you will make
 
-下にあるような、あなたが生まれた国についてのWebサイトを作りましょう。
+Build a website about your home country, like the one in the trinket below.
 
 <div class="scratch-preview">
   <iframe src="https://trinket.io/embed/html/8d5e6e8aad" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -14,11 +14,11 @@
 
 ## title: What you will learn
 
-+ オンラインエディタを使って、HTMLファイルとCSSファイルでWebサイトを作る方法。
-+ 見出し、段落、リスト、画像がある、HTMLで書かれたWebサイトの作り方。
-+ CSSコードを使って、シンプルなメニューバーのデザインや、色、背景、枠線を変えてWebサイトの見た目を決める方法。
-+ ページ同士をリンクで繋いだり、他のWebサイトへのリンクを貼る方法。
-+ 見出しといくつかの行があるテーブルの作り方。
++ Using an online editor to create a website made up of HTML files and a CSS file
++ Building a HTML website that has headings, paragraph text, lists, and images
++ Using CSS code to control the look of your website, including designing a simple menu bar and changing colours, backgrounds, and borders
++ Linking pages to each other, and linking to other websites
++ Creating a table that includes headings and multiple rows
 
 \--- /collapse \---
 
