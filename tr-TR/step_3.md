@@ -12,7 +12,7 @@
   <h1>Welcome to Ireland!</h1>
 ```
 
-## \--- küçült \---
+## \--- collapse \---
 
 ## title: HTML and tags explained
 
