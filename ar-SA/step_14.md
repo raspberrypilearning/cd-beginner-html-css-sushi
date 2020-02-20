@@ -1,3 +1,3 @@
-## ما التالي؟
+## What next?
 
-الآن بعد أن قمت بإنشاء أول موقع خاص بك، لماذا لا تلقي نظرة على مشاريع [ HTML/CSS المتقدمة](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) ؟ هناك يمكنك البناء على مهاراتك في HTML / CSS الحالية ، والإضافة إلى موقع الويب الخاص بك والحصول على مزيد من التحكم في شكله.
+Now that you've built your first website, why not take a look at the [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project? There you can build upon your existing HTML/CSS skills, add to your website and gain more control over how it looks.
