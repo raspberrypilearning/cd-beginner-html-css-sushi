@@ -1,8 +1,8 @@
 ---
-title: Guía a mi país 1.0
+title: Guide to my country 1.0
 hero_image: images/banner.png
-description: Aprende a hacer un sitio web
-theme: rojo #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: Learn to make a website
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
 ingredient: false
@@ -10,37 +10,37 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: proyectos de CoderDojo
+site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introducción
+    title: Introduction
   - 
-    title: Preparativos
+    title: Getting set up
   - 
-    title: '¡Tu primera página web!'
+    title: Your first webpage!
   - 
-    title: Controlando como se lucirá
+    title: Controlling how it looks
   - 
-    title: Agregando imagenes
+    title: Adding pictures
   - 
-    title: Agregando un mapa o un video
+    title: Adding a map or video
   - 
-    title: Haciendo una lista
+    title: Making a list
   - 
-    title: Creando links
+    title: Creating links
   - 
-    title: Agregando más páginas
+    title: Adding more pages
   - 
-    title: Navengando tu sitio web
+    title: Navigating your website
   - 
-    title: Haciendo un menú de barra
+    title: Making a menu bar
   - 
-    title: Definiendo el estilo del menú de barra
+    title: Styling the menu bar
   - 
-    title: Agregando una tabla
+    title: Adding a table
   - 
-    title: '¿Qué sigue?'
+    title: What next?
