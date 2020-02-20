@@ -1,35 +1,35 @@
-## Pentru început
+## Getting set up
 
-- Mergi la [trinket-ul de început](http://dojo.soy/html-b-start). Vei vedea o casetă care conține un exemplu de proiect web. În partea dreaptă este website-ul, iar în partea stângă este codul care creează website-ul. ![Pagină web și cod în Trinket](images/tktHTMLStartingPoint.png)
+- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
-## title: Am un cont Trinket
+## title: I have a Trinket account
 
-- Dă click pe butonul **Remix** din partea dreapta sus al proiectului. Dacă nu ești conectat, ți se va cere să te conectezi. După ce te-ai conectat, va trebui să dai click pe **Remix** din nou. Dând click pe acest buton, se creează o copie a proiectului pentru ca tu poți să lucrezi cu ea. 
+- Click the **Remix** button at the top right of the project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
 
-![Butonul Remix](images/tktRemixButtonArrow.png)
+![Remix button](images/tktRemixButtonArrow.png)
 
-Ar trebui să scrie **remixed** după ce dai click pe el:
+It should say **remixed** after you click it:
 
-![Buttonul "remixed"](images/tktRemixedSmall.png)
+![Button now says "remixed"](images/tktRemixedSmall.png)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Nu am un cont Trinket
+## title: I don't have a Trinket account
 
-Îți poți salva munca utilizând una dintre opțiunile din meniul **Share**. Vei primi un link pe care îl poți salva undeva, cum ar fi într-un document, sau îl poți trimite către cineva prin e-mail. **Notă:** de fiecare dată când faci o schimbare, vei primi un nou link.
+You can save your work by using one of the options in the **Share** menu. You will get a link that you can either save somewhere, for example in a document, or send to someone via email. **Note:** each time you make a change, you will get a new link.
 
-Dacă vrei să îți creezi un cont pe Trinket, urmează pașii de mai jos. Acest lucru îți va permite să îți accesezi munca cu ușurință de la orice calculator, dar și să **editezi** (remix) proiectele pe care altcineva le-a distribuit cu tine. Remixarea constă în salvarea unei copii a unui anumit proiect pentru ca tu să îi poți aduce modificări.
+If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
 
-- Mergi pe [website-ul Trinket](http://dojo.soy/trinket) și dă click pe **Sign Up For Your Free Account**. Vei avea nevoie de o adresă de email pentru a te înregistra.
+- Go to [the Trinket website](http://dojo.soy/trinket) and click **Sign Up For Your Free Account**. You will need an email address to sign up.
 
-- Introdu adresa ta de email și alege o parolă, sau cere-i altcuiva să facă acest lucru pentru tine.
+- Enter your email address and choose a password, or ask somebody to do this for you.
 
-- Acum poți accesa toate proiectele tale salvate sau remixate dând click pe numele tău de utilizator, iar apoi pe **My Trinkets**. ![Elementul "My Trinkets" din meniu](images/MyTrinketsMenuWide.png)
+- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
 
 \--- /collapse \---
 
-Să începem să scriem cod!
+Let's start coding!
