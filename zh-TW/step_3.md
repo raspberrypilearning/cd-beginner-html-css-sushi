@@ -12,7 +12,7 @@
   <h1>Welcome to Ireland!</h1>
 ```
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: HTML and tags explained
 
@@ -30,7 +30,7 @@ Everything in between the `<body>` and `</body>` tags is your webpage.
 
 - Notice how the closing tag **always** has a forward slash `/`.
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
 
 - Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
 
