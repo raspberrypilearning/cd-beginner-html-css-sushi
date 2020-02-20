@@ -1,20 +1,20 @@
-## Agregando imágenes
+## Adding pictures
 
-¡Agreguemos una foto!
+Let's add a picture!
 
-- Vaya a la pestaña llamada ` index.html ` . Encuentra la etiqueta ` </main>` y escriba lo siguiente ** arriba**: 
+- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Así es como debería verse el resultado:
+Here's what the result should look like:
 
-![Código de imagen e imagen de Tito](images/egImgCodeTito.png)
+![Image code and picture of Tito](images/egImgCodeTito.png)
 
-Ten en cuenta que esta etiqueta tiene información adicional en su interior. Se llaman **atributos**.
+Notice that this tag has extra bits of information inside it. They are called **attributes**.
 
-- Encuentra el bit de código que dice `width="100px"` e intenta experimentar con diferentes números para ver si puedes averiguar lo que hace este atributo. ¡No borres las letras `px`!
+- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
 
 ## \--- collapse \---
 
@@ -24,15 +24,15 @@ Notice that the `<img>` tag is different from the other tags you've used so far 
 
 The tag contains **attributes** with extra information:
 
-- El atributo `src` le dice al navegador qué archivo usar para la imagen. 
-- El atributo `alt` es una descripción corta que el navegador mostrará si no puede mostrar la imagen. 'alt' es la abreviación de 'alternativo'. Este texto también ayuda a las personas que usan un lector de pantalla para saber qué es la imagen.
-- El atributo `width` le dice al navegador qué tan ancha hacer la imagen. `100px` significa cien **pixels**, que son los puntos diminutos que conforman lo que estás viendo en tu pantalla. Si no incluyes este atributo, la imagen se mostrará en su tamaño original.
+- The `src` attribute tells the browser what file to use for the picture. 
+- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
+- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
 
 \--- /collapse \---
 
 Now that you know the code to put a picture on your website, you probably want to change the picture, right?
 
-- Lo primero que necesitarás es, por supuesto, ¡una foto! Puedes usar una que ya tengas en tu computadora, como una fotografía que hayas tomado, o puedes obtener una de Internet.
+- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
 
 [[[generic-get-picture-from-web]]]
 
@@ -42,23 +42,23 @@ Now that you know the code to put a picture on your website, you probably want t
 
 Once you have a picture, you can **upload** the file to Trinket:
 
-- En tu Trinket, haz clic en el icono de **image** junto al signo **+**. 
+- In your trinket, click on the **image** icon next to the **+** sign. 
 
 ![The image icon](images/tktImageIconArrow.png)
 
 This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
 
-- Haga clic en el botón ** Agregar imagen ** y luego haga clic en ** Subir **.
+- Click the button **Add Image** and then click **Upload**.
 
-- Haga clic en el botón **Clic para seleccionar archivos**. Encuentra y haz doble clic en el archivo de imagen en la ventana que se abre.
+- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
 
-- Haga clic en ** Listo **.
+- Click **Done**.
 
 ![Image upload area](images/tktUploadImages.png)
 
 Your picture will be uploaded and should be ready to use.
 
-- Ve al archivo `index.html` y encuentra la etiqueta `<img>`. Cambia el texto `tito.png` para que coincida exactamente con el nombre del archivo de imagen que has elegido. Tenga en cuenta que el nombre puede terminar en `.jpg ` en lugar de `.png `!
+- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
 
 The text you just changed is the attribute called `src`, which tells the browser which file to display.
 
@@ -68,6 +68,6 @@ The text you just changed is the attribute called `src`, which tells the browser
 
 ## Challenge: change the alt text of the picture
 
-- Encuentra el atributo `alt` de tu elemento de imagen y cambia el texto a una breve descripción de tu imagen. 
+- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
 
 \--- /challenge \---
