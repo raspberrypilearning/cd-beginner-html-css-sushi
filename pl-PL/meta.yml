@@ -1,7 +1,7 @@
 ---
-title: Przewodnik po moim kraju 1.0
+title: Guide to my country 1.0
 hero_image: images/banner.png
-description: Dowiedz się, jak stworzyć stronę internetową
+description: Learn to make a website
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
@@ -10,37 +10,37 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projekty, polish, polski
+site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Wprowadzenie
+    title: Introduction
   - 
-    title: Przygotowanie do pracy
+    title: Getting set up
   - 
-    title: Twoja pierwsza strona internetowa!
+    title: Your first webpage!
   - 
-    title: Kontrolowanie wyglądu
+    title: Controlling how it looks
   - 
-    title: Dodawanie zdjęć
+    title: Adding pictures
   - 
-    title: Dodawanie mapy lub wideo
+    title: Adding a map or video
   - 
-    title: Utwórz listę
+    title: Making a list
   - 
-    title: Tworzenie linków
+    title: Creating links
   - 
-    title: Dodawanie kolejnych stron
+    title: Adding more pages
   - 
-    title: Poruszanie się po twojej stronie internetowej
+    title: Navigating your website
   - 
-    title: Tworzenie paska menu
+    title: Making a menu bar
   - 
-    title: Stylizacja paska menu
+    title: Styling the menu bar
   - 
-    title: Dodawanie tabeli
+    title: Adding a table
   - 
-    title: Co dalej?
+    title: What next?
