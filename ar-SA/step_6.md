@@ -1,29 +1,29 @@
-## إضافة خارطة او فيديو
+## Adding a map or video
 
-يوفر YouTube طريقة سهلة لإضافة مقاطع الفيديو الخاصة به على موقعك الخاص. تسمى عملية إضافة عناصر من مصادر أخرى عبر الإنترنت إلى موقعك الخاص **تضمين**.
+YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
 
-- ابحث عن مقطع فيديو على YouTube تريد عرضه على موقع الويب الخاص بك.
+- Find a video on YouTube that you want to show on your website.
 
-- أضغط على زر**مشاركة** أدنى الفيديو. إختر الخيار **تضمين**.
+- Click on the **Share** button below the video. Select the option **Embed**.
 
-سترى مربع نص مع النص المحدد بالكامل. إذا قمت بإلغاء تحديد النص عن طريق الخطأ، فيمكنك تحديده مرةً أخرى من خلال الضغط عليه والضغط على زر<kbd> Ctrl </kbd> (أو <kbd> cmd </kbd> على الMac) و زر <kbd>A</kbd> في نفس الوقت.
+You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
 
-![خيار تضمين YouTube مع تحديد الكود](images/EmbedYouTube.png)
+![YouTube's embed option with code selected](images/EmbedYouTube.png)
 
-- اضغط على زر<kbd> Ctrl</kbd> (أو <kbd> cmd</kbd> على جهاز Mac) وزر <kbd> C</kbd> معا لنسخ النص.
+- Press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>C</kbd> keys together to copy the text.
 
-- ثم ارجع إلى كود ال HTML لموقع الويب الخاص بك، واضغط في المكان الذي تريد وضع الفيديو فيه، على سبيل المثال بعد احد العناوين او الفقرات. **الصق** الكود عن طريق الضغط على <kbd> Ctrl </kbd> (أو <kbd> cmd </kbd> على Mac) و <kbd> V </kbd> على لوحة المفاتيح في نفس الوقت. لا تقلق بشأن فهم كل الكود الذي قمت بلصقه للتو!
+- Then go back to your website's HTML code, and click in the place where you want to put the video, for example below a heading or paragraph. **Paste** the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>V</kbd> on your keyboard at the same time. Don't worry about understanding all the code you just pasted!
 
-![مثال على كود التضمين الذي تم لصقه في صفحة HTML](images/EmbedYouTube2.png)
+![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
 
-يجب أن يظهر الفيديو على صفحة الويب الخاصة بك.
+You should see the video appear on your webpage.
 
-نفس الطريقة تصلح لخرائط جوجل كذلك. جرِّبها!
+The same technique works for Google maps as well. Give it a go!
 
-- اذهب إلى [هنا](http://dojo.soy/google-maps) وابحث عن مكان تريد عرضه على موقع الويب الخاص بك. ** ملاحظة: ** ** لا ** تقم بمشاركة معلوماتك الشخصية مثل عنوان منزلك على موقع على شبكة الإنترنت!
+- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
 
-- اضغط على النتيجة ، ثم اضغط على زر **مشاركة**، وانسخ الرمز وقم بإضافته في موقع الويب الخاص بك على النحو الوارد أعلاه. ![إختيار خيار التضمين في خرائط Google](images/EmbedGoogleMap.png)
+- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
 
-- إذا نظرت بعناية ، يجب أن تجد ** سمات **`العرض` و`الارتفاع` في الكود الملصق. يمكنك تغيير قيمتهما لجعل الخريطة تظهر أكبر أو أصغر.
+- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
 
-![مثال على خريطة Google المضمنه مع تحديد سمات العرض والارتفاع](images/EmbeddedGoogleMapCode.png)
+![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
