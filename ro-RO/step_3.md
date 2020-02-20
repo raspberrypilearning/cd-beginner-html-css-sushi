@@ -1,57 +1,57 @@
-## Prima ta pagină web!
+## Your first webpage!
 
-- În partea stângă a panoului, **panoul pentru cod**, dă click pe tab-ul pe care scrie `index.html`.
+- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
 
-- Găsește linia care spune `Bun venit în Irlanda!` și schimb-o pentru a folosi propriul tău mesaj — ai grijă să **nu** șterge etichetele `<p>` de la începutul liniei și `</p>` de la sfârșitul liniei. Ar trebui să vezi cum pagina ta web se actualizează în partea dreaptă a panoului.
+- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
 
-![Exemplu de paragaf HTML](images/egFirstHtmlCode.png)
+![HTML paragraph example](images/egFirstHtmlCode.png)
 
-- Acum, pe acceași linie, schimbă `<p>` și `</p>` în `<h1>` și `</h1>`. Observi vreo schimbare a rezultatului în dreapta?
+- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
 
 ```html
-  <h1>Bun venit în Irlanda!</h1>
+  <h1>Welcome to Ireland!</h1>
 ```
 
 ## \--- collapse \---
 
-## title: Explicația etichetelor și a HTML
+## title: HTML and tags explained
 
-**HTML** este codul care creează o pagină web.
+**HTML** is the code that makes a webpage.
 
-Partea `.html` dintr-un nume de fișier îi spune browser-ului faptul că fișierul este o pagină web, astfel că browser-ul caută **etichete** pentru a decide ce să afișeze. (Un browser este programul pe care îl folosești pentru a naviga pe website-uri, de exemplu Chrome sau Firefox.)
+The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
 
-Etichetele HTML precum `<p>` și `</p>` definesc diferite porțiuni dintr-o pagină, cum ar fi paragrafele, titlurile sau conținutul. Porțiunile respective sunt numite **elemente**. Gândește-te la ele ca blocuri de construcții.
+HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
 
-### De ce am nevoie de două etichete?
+### Why do I need two tags?
 
-Aveți nevoie de o etichetă de **deschidere** și una de **închidere** pentru a spune browser-ului unde **încep** și unde se **termină** elementele. Deci, pentru un paragraf, eticheta de deschidere `<p>` spune: „Aici vine un text pe care vreau să îl afișezi ca paragraf”. Eticheta de închidere `</p>` indică browserului unde se termină paragraful.
+You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
 
-Totul între etichetele `<body>` și `</body>` constituie conținutul paginii tale web.
+Everything in between the `<body>` and `</body>` tags is your webpage.
 
-- Observă faptul că etichetele pentru închidere au **întotdeauna** un slash `/`.
+- Notice how the closing tag **always** has a forward slash `/`.
 
 \--- /collapse \---
 
-- Încearcă să schimbi numerele din etichetele pentru **titluri** pentru a vedea diferitele mărimi pe care acestea le oferă. Ele merg de la `<h1>` până la `<h6>`. Nu uitați să modifici atât eticheta de deschidere, cât și cea de închidere.
+- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
 
-- Găsește codul din paragraf care spune `Website-ul meu este despre Irlanda.` și schimbă-l pentru ca acesta să arate astfel:
+- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
 
 ```html
   <p>
-    <em>Website-ul meu</em> este despre <strong>Irlanda</strong>. 
-    Va avea următoarele pagini: atracții, muzică, mâncare
+    <em>My website</em> is about <strong>Ireland</strong>. 
+    It is going to have the following pages: Attractions, Music, Food
   </p>
 ```
 
-Poți să îți dai seama ce fac etichetele `<em> </em>` și `<strong> </strong>`?
+Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 
-![Exemplu de etichete HTML](images/egFirstTags.png)
+![Example of HTML tags](images/egFirstTags.png)
 
 \--- challenge \---
 
-## Provocare: adaugă mai mult text personalizat
+## Challenge: add some more text of your own
 
-- Încearcă să adaugi un nou paragraf sau titlu la pagina ta folosind câteva dintre etichetele despre care ai aflat.
+- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
 
 \--- hints \---
 
@@ -66,11 +66,11 @@ When you want to put text on a page, you need to put it in between two tags that
 The code for paragraphs looks like this:
 
 ```html
-  <p>Acesta este un paragraf de text.</p>
+  <p>This is one paragraph of text.</p>
 
-  <p>Acesta este un alt paragraf.
-  Conținutul dintre o pereche de etichete p este  
-  afișat împreună într-o linie lungă pe pagina web.</p>
+  <p>This is another paragraph.
+  Everything in between one set of p tags is 
+  displayed together in one long line on the webpage.</p>
 ```
 
 \--- /hint \---
@@ -80,7 +80,7 @@ The code for paragraphs looks like this:
 The code for headings looks like this:
 
 ```html
-  <h1>Acesta este un titlu.</h1>
+  <h1>This is a heading.</h1>
 ```
 
 Headings will normally be displayed bigger or bolder than the paragraphs.
