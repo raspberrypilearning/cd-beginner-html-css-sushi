@@ -2,15 +2,15 @@
 
 ستوضح لك هذه البطاقة كيفية إضافة المزيد من الصفحات إلى موقعك على الويب.
 
-- في الجزء العلوي من لوحة البرمجة ، انقر على رمز **+** بجانب علامات التبويب ، واكتب اسمًا لملفك الجديد. يجب أن ينتهي بـ `.html ` (بما في ذلك النقطة!) بحيث يعرف المتصفح أنها صفحة ويب.
+- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. يجب أن ينتهي بـ `.html ` (بما في ذلك النقطة!) بحيث يعرف المتصفح أنها صفحة ويب.
 
-![إضافة ملف جديد في Trinket]( )
+![إضافة ملف جديد في Trinket](images/tktNewFileArrows.png)
 
-## انهيار
+## \--- collapse \---
 
-## title: إعادة تسمية او حذف ملف
+## title: Renaming or deleting a file
 
-إذا كنت ترغب في تغيير اسم ملف ، فانقر على أيقونة **الترس** على يمين اسم الملف ، ثم انقر فوق أيقونة **قلم الرصاص**. اكتب الاسم الجديد واضغط على زر** Enter **. يمكنك أيضًا حذف ملف عن طريق النقر على أيقونة **الحاوية ** بدلاً من أيقونة **pencil**.
+If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. اكتب الاسم الجديد واضغط على زر** Enter **. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon.
 
 ![](images/EditFilename.png)
 
@@ -18,13 +18,13 @@ You might be wondering why you can't change the name of the `index.html` file. `
 
 \--- /collapse \---
 
-- اعثر على الملف ` blank_page.html ` وانسخ والصق كل البرمجة التي فيه في الملف الجديد. نظرًا لأنك ترغب في نسخ كل شيء ، يمكنك النقر في أي مكان على الكود واستخدام اختصار لوحة المفاتيح <kbd> Ctrl </kbd> (أو <kbd> cmd </kbd>) و <kbd>A</kbd> لتحديد الكل في نفس الوقت.
+- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. نظرًا لأنك ترغب في نسخ كل شيء ، يمكنك النقر في أي مكان على الكود واستخدام اختصار لوحة المفاتيح <kbd> Ctrl </kbd> (أو <kbd> cmd </kbd>) و <kbd>A</kbd> لتحديد الكل في نفس الوقت.
 
-- غير النص بين الرمزين `<title> </title>` ليكون لصفحتك الجديدة عنوان مناسب. لن يعرض Trinket العنوان ، ولكن يمكنك رؤيته في أعلى نافذة المتصفح إذا قمت بتنزيل مشروعك.
+- غير النص بين الرمزين `<title> </title>` ليكون لصفحتك الجديدة عنوان مناسب. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
 
 ![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
-- بين الرمزين `<main> </main>` في الملف الجديد ، استخدم العلامات التي تعلمتها حول إضافة أشياء إلى الصفحة ، مثل الفقرات والعناوين والصور والقوائم!
+- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
 
 - كرر الخطوات المذكورة أعلاه لكل صفحة جديدة تريد إضافتها.
 
