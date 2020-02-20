@@ -14,7 +14,7 @@ Wenn du den Namen einer Datei ändern möchtest, klicke auf das Symbol **Zahnrad
 
 ![](images/EditFilename.png)
 
-Vielleicht wunderst du dich, dass du die Datei `index.html` nicht umbenennen kannst. `index.html` ist eine spezielle Bezeichnung, die für die **homepage** einer Webseite verwendet wird. Das ist die erste Seite, die sichtbar wird, wenn du eine Webseite besuchst. Immer wenn du eine Webseite öffnest sucht der Browser nach einer Datei mit dem Namen `index.html` und zeigt diese auf dem Bildschirm an.
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
 \--- /collapse \---
 
@@ -22,17 +22,17 @@ Vielleicht wunderst du dich, dass du die Datei `index.html` nicht umbenennen kan
 
 - Ändere den Text zwischen den `<title> </title>` -Tags, damit Deine neue Seite einen passenden Titel hat. Trinket zeigt den Titel nicht an, aber Du kannst ihn oben im Browserfenster sehen, wenn Du Dein Projekt herunterlädst.
 
-![Der Titel der Seite wird im Browserfenster angezeigt](images/egLocalFileWindowTitle.png)
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
 - Zwischen den `<main> </main>` -Tags in der neuen Datei verwende die Tags, die Du gelernt hast, um Dinge wie Seiten, Überschriften, Bilder und Listen zur Seite hinzuzufügen!
 
 - Wiederhole die obigen Schritte für jede neue Seite, die Du hinzufügen möchtest.
 
-Gibt es zu viele Seiten, die Trinket gleichzeitig anzeigen soll, dann kannst du die **<** und **>** Symbole in der Ecke der Seite oben links benutzen, um zwischen ihnen zu wechseln.
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
 ![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-Nun musst du noch Querverweise (Links) erstellen, so dass du zu jeder deiner neuen Seiten springen kannst! Erstelle eine Liste die alle Querverweise enthält.
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
 - Füge in der Datei `index.html` dem Textkörper (body) Deiner Webseite den folgenden Code hinzu:
 
@@ -49,6 +49,6 @@ Nun musst du noch Querverweise (Links) erstellen, so dass du zu jeder deiner neu
 
 - Ändere den Text zwischen den `<a> </a>` -Tags in passende Beschreibungen Deiner Seiten.
 
-Nun kannst du direkt zu deiner neuen Seite springen!
+Now you can navigate to your new pages!
 
 ![Example list of links on a web page](images/egListOfPageLinks.png)
