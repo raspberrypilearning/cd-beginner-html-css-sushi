@@ -31,7 +31,7 @@ Many websites have a **navigation** menu to help visitors move between pages. No
     </header>
 ```
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
 ## title: Undo!
 
