@@ -2,7 +2,7 @@
 
 Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. 這裡有個例子：
+A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
 
 ![Example of information in a table](images/egTableResult.png)
 
