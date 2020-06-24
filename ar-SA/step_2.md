@@ -1,35 +1,35 @@
-## Getting set up
+## هيا بنا لنبدأ
 
-- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- أذهب إلى [ملف trinket هذا](http://dojo.soy/html-b-start). سترى مربعًا يحتوي على مثال لمشروع موقع الويب. في الجانب الأيمن يتواجد الموقع الإلكتروني، و في الجانب الأيسر تتواجد البرمجة التي تم صنع الموقع الإلكتروني منها. ![صفحة إلكترونية والأوامر البرمجية في Trinket](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
-## title: I have a Trinket account
+## title: يوجد لدي حساب في موقع Trinket
 
-- Click the **Remix** button at the top right of the project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
+- اضغط على زر **Remix** في اعلى اليمين من صفحة المشروع. إذا لم تقم بتسجيل الدخول ، فسيُطلب منك القيام بذلك. بمجرد تسجيل الدخول ، ستحتاج إلى الضغط على زر ** Remix ** مرة أخرى. يؤدي الضغط على هذا الزر إلى إنشاء نسخة من المشروع لتعمل عليها. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![زر Remix](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+يجب أن يقول الزر** remixed ** بعد الضغط عليه:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![الزر يقول الآن " remixed"](images/tktRemixedSmall.png)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: I don't have a Trinket account
+## title: يوجد لدي حساب في موقع Trinket
 
-You can save your work by using one of the options in the **Share** menu. You will get a link that you can either save somewhere, for example in a document, or send to someone via email. **Note:** each time you make a change, you will get a new link.
+يمكنك حفظ عملك باستخدام أحد الخيارات الموجودة في قائمة **مشاركة**. سوف تحصل على رابط يمكنك حفظه في مكان ما، على سبيل المثال في ملف، أو إرساله إلى شخص ما عبر البريد الإلكتروني. **ملاحظة:** في كل مرة تقوم فيها بإجراء تغيير ، ستحصل على رابط جديد.
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
+إذا كنت تريد إنشاء حساب على Trinket ، فاتبع الخطوات التالية. سيتيح لك ذلك الوصول إلى عملك بسهولة من أي جهاز كمبيوتر، وإلى **إعادة تعديل** مشاريع قام شخص آخر بمشاركتها معك. إعادة التعديل تعني أنك ستحفظ بنسخة من المشروع حتى تتمكن من إجراء التغييرات الخاصة بك عليها.
 
-- Go to [the Trinket website](http://dojo.soy/trinket) and click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- انتقل إلى [موقع Trinket ](http://dojo.soy/trinket) وانقر فوق **سجل للحصول على حسابك المجاني **. ستحتاج إلى عنوان بريد إلكتروني للتسجيل.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- أدخل عنوان بريدك الإلكتروني واختر كلمة مرور، أو اطلب من شخص ما القيام بذلك نيابة عنك.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+- يمكنك الآن الوصول إلى جميع مشاريعك المحفوظة أو التي تمت إعادة تعديلها من خلال الضغط على اسم المستخدم الخاص بك والانتقال إلى ** My Trinkets **. !["My Trinkets" عنصر القائمة](images/MyTrinketsMenuWide.png)
 
 \--- /collapse \---
 
-Let's start coding!
+لنبدأ البرمجة!
