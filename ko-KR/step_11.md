@@ -1,10 +1,10 @@
-## Making a menu bar
+## 메뉴바 만들기
 
-On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
+이 장에서는 스타일 시트에 CSS 규칙을 추가해서 멋진 메뉴바를 만드는 방법에 대해 알 수 있습니다.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+![메뉴 바 예시](images/egCoolMenuBar.png)
 
-- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
+- 스타일 시트 파일 `styles.css` 탭으로 이동하세요. 중괄호 `}`을 **클릭**하고, **Enter**를 눌러 새로운 빈 줄을 만드세요. 아래와 같은 CSS 규칙을 추가합니다.
 
 ```css
     nav ul {
@@ -12,13 +12,13 @@ On this card you will see how you can transform your navigation menu into a cool
     }
 ```
 
-Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+여러분은 지금 두 개의 태그를 선택했습니다. 만약 `ul`를 선택한 경우 이 규칙은 모든 웹페이지의 정렬되지 않은 리스트에 영향을 미칩니다. `nav` 셀렉터를 추가하여 `nav` 태그 안에 있는 리스트에만 적용되도록 두 개의 태그를 선택합니다.
 
-![List with red background](images/egMenuBarFirstStyle.png)
+![빨간색 배경 리스트](images/egMenuBarFirstStyle.png)
 
-Let's get rid of the bullet points. Those are the dots in front of each list item.
+이제 이 이상한 동그라미를 없애 봅시다. 이 동그라미는 각 리스트 항목 앞에 찍히도록 설계되어 있습니다.
 
-- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- 아래와 같은 코드를 `style.css` 에 추가합시다. 다시 `}` 을 클릭하여 Enter를 누른 후 새로운 빈 줄을 만들어 추가해야 합니다. 다른 규칙 안에 있으면 안 됩니다.
 
 ```css
     nav ul li {
@@ -26,17 +26,17 @@ Let's get rid of the bullet points. Those are the dots in front of each list ite
     }
 ```
 
-Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+이번에는 3개의 태그를 선택했습니다 : `nav` 섹션 안에 있는`ul`의 모든 `li` 요소를 선택하게 됩니다. 휴...
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![동그라미가 사라진 리스트](images/egMenuBarNoBullets.png)
 
-Now let's make the list horizontal (across) instead of vertical (down).
+이제 이 리스트를 수직(세로) 대신 수평(가로)으로 설계해 봅시다.
 
-- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+- 아까 만든 CSS 규칙에 `display: inline;` 을 추가하면 됩니다.
 
 ![](images/egMenuBarInline.png)
 
-- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+- 메뉴 항목들이 너무 뭉쳐 있습니다. `margin-right` 및 `margin-left` 속성을 조절하여 조금씩 간격을 줘 봅시다. CSS 코드 블록은 다음과 같아야 합니다:
 
 ```css
     nav ul li {
@@ -47,29 +47,29 @@ Now let's make the list horizontal (across) instead of vertical (down).
     }
 ```
 
-Remember: `10px` means ten pixels.
+기억하세요: `10px`는 10 픽셀을 의미합니다.
 
-How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+메뉴에 변화를 줘서 현재 어느 페이지에 있는지 알려주는 것은 어떨까요? 이 부분은 스타일 시트에서 설정할 수 없습니다.
 
-- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- 예를 들어 홈페이지에서 시작한다고 해봅시다. `index.html` 파일로 들어가보세요. 메뉴 리스트에서, `홈`이라는 글자의 앞뒤에 있는 링크 태그를 지워서 `<li> </li>` 태그 사이에 일반 텍스트만 있게 만들어줍니다. `<li>홈</li>`처럼 말이죠. 
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
+- 이제 다른 파일로 이동하여 해당 영역의 하이퍼링크를 모두 텍스트로 만드세요. 예를 들어 `music.html` 파일의 `음악` 텍스트는 아래와 같이 설정해 주면 됩니다.
 
 ```html
     <header>
         <nav>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Places to visit</a></li>
-            <li>Music</li>
-            <li><a href="food.html">Things to eat</a></li>
+            <li><a href="index.html">홈</a></li>
+            <li><a href="attractions.html">관광 명소</a></li>
+            <li>음악</li>
+            <li><a href="food.html">음식</a></li>
             </ul>
         </nav>
     </header>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- 링크를 클릭하여 페이지를 탐색해보세요. 메뉴 막대에서 해당 페이지가 링크 대신 일반 텍스트로 표시되는지 확인하세요. 
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+![현재 페이지를 강조 표시하는 메뉴 리스트 예시](images/egMenuBarOnPage.png)
 
-On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
+다음 장에서는 메뉴 바를 더 멋지게 만들기 위한 CSS 기술을 배워 보도록 하겠습니다.
