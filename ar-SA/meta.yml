@@ -1,8 +1,8 @@
 ---
-title: Guide to my country 1.0
+title: دليل لبلادي 1.0
 hero_image: images/banner.png
-description: Learn to make a website
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: تعلم كيفية إنشاء موقع على شبكة الإنترنت
+theme: أحمر #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
 ingredient: false
@@ -10,37 +10,37 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projects
+site_areas: coderdojo ، المشاريع
 hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Getting set up
+    title: هيا بنا لنبدأ
   - 
-    title: Your first webpage!
+    title: صفحتك الإلكترونية الأولى!
   - 
-    title: Controlling how it looks
+    title: تحكم في شكلها
   - 
-    title: Adding pictures
+    title: إضافة الصور
   - 
-    title: Adding a map or video
+    title: إضافة الخارطة والفيديو
   - 
-    title: Making a list
+    title: إنشاء قائمة
   - 
-    title: Creating links
+    title: إنشاء روابط
   - 
-    title: Adding more pages
+    title: إضافة المزيد من الصفحات
   - 
-    title: Navigating your website
+    title: التنقل في موقعك الإلكتروني
   - 
-    title: Making a menu bar
+    title: إنشاء شريط قوائم
   - 
-    title: Styling the menu bar
+    title: تصميم شكل شريط القوائم
   - 
-    title: Adding a table
+    title: إضافة جدول
   - 
-    title: What next?
+    title: ما هي الخطوة التالية؟
