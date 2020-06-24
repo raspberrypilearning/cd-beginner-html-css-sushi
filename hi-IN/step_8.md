@@ -1,44 +1,44 @@
-## Creating links
+## लिंक बनाना
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+इस कार्ड पर आप सीखेंगे कि एक लिंक कैसे बनाया जाता है जो क्लिक करने पर आपको दूसरे पृष्ठ पर ले जाये।
 
-- Add the following code to the body section of `index.html`:
+- निम्न कोड को ` index.html ` के मुख्य भाग में जोड़ें:
 
 ```html
-  <a href="">Click here</a>
+  <a href=""> यहां क्लिक करें </a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+`<a> </a>` टैग उनके बीच लिखे पाठ को लिंक में परिवर्तित कर देते हैं।
 
-- Try clicking your link to see what happens. It does nothing, right?
+- अपने लिंक पर क्लिक करके देखें की क्या होता है। यह कुछ भी नहीं, है ना?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+ऐसा इसलिए है क्योंकि ` href` एट्रिब्यूट फिलहाल खाली है। इसमें ** URL** (पृष्ठ का वेब पता) जिसे आप लिंक करना चाहते हैं होना आवश्यक है।
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- विकिपीडिया पर जाएँ और अपनी वेबसाइट पर किसी चीज़ के बारे में एक पृष्ठ खोजें। मैं आयरलैंड के बारे में पृष्ठ का उपयोग करने जा रहा हूं।
 
-- Click in the address bar and select all of the text in it. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- एड्रेस बार में क्लिक करें और उसमें सभी टेक्स्ट को चुनें। आप जिस पृष्ठ पर हैं, उसका यह पूरा URL है। दबाएं <kdb>Ctrl</kdb> (या <kdb>cmd</kdb>) तथा <kdb>C</kdb> एक साथ ताकि प्रतिलिपि बन जाये।
     
-    ![URL in address bar](images/AddressBarURL.png)
+    ![एड्रेस बार में URL](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- अपनी ट्रिंकेट में, ` href =` के बाद उद्धरण चिह्नों के बीच क्लिक करें और दबाएं <kdb>Ctrl</kdb> (या <kdb>cmd</kdb>) तथा <kdb>V</kdb> एक साथ ताकि आपके द्वारा कॉपी किए गए URL वहां पेस्ट हो जाये। आपका कोड कुछ इस तरह दिखना चाहिए:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+आपने अभी अपना पहला लिंक बनाया है! इस पर क्लिक करें देखें कि क्या यह अब काम करता है।
 
-![Link tag](images/egLinkTagWithURL.png)
+![लिंक टैग](images/egLinkTagWithURL.png)
 
 ## \--- collapse \---
 
-## title: Links to other websites
+## शीर्षक: अन्य वेबसाइटों के लिए लिंक
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+कुछ वेब पृष्ठ के साथ काम करने में ट्रिनेट को परेशानी होती है। आप चाहें तो विकिपीडिया के अलावा अन्य वेबसाइटों के URL आज़मा सकते हैं, लेकिन हो सकता है कि वे आपके ट्रिंकट में काम न करें। हालाँकि, यदि आप अपने प्रोजेक्ट को डाउनलोड करें और वेब ब्राउज़र में फ़ाइलों को देखें, तो आपको लिंक काम करते हुए दिखाई देंगे।
 
 \--- /collapse \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- `<a> </a>` टैग के बीच शब्दों के बजाय चित्र लगाने का प्रयास करें ` यहां क्लिक करें`, इस तरह:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,9 +46,9 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- अपने चित्र पर क्लिक करें। क्या यह एक लिंक में बदल गया है?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+आप अपने वेबपेज के अन्य तत्वों में भी लिंक डाल सकते हैं, जैसे कि एक अनुच्छेद में या एक सूची में भी। यहाँ एक वाक्य के साथ लिंक का उदाहरण दिया गया है:
 
 ```html
   <p>
@@ -58,8 +58,8 @@ You can put a link into other elements of your webpage too, such as in a paragra
 
 \--- challenge \---
 
-## Challenge: put a link into a list
+## चुनौती: एक सूची में एक लिंक डालिये
 
-- See if you can make a list that contains a link inside one of the list items.
+- क्या आप एक सूची बना सकते हैं जिसमें किसी एक सूची वस्तु के अंदर एक लिंक है।
 
 \--- /challenge \---
