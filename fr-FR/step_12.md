@@ -42,7 +42,7 @@ Rappelle-toi comment tu as supprimé les balises de lien de certains éléments 
 
 Tu peux choisir une couleur que tu aimes!
 
-Tu peux ajouter la propriété `couleur` à la règle `navul li a` si tu veux que les liens du menu aient une couleur différente des autres liens de ton site.
+Tu peux ajouter la propriété `color` à la règle `nav ul li a` si tu veux que les liens du menu aient une couleur différente des autres liens de ton site.
 
 - Que dirais-tu de coins arrondis pour ton menu? Essaye d'ajouter le code suivant à la règle `nav ul` pour voir ce qui se passe : `border-radius: 10px;`.
 
