@@ -1,49 +1,49 @@
-## Making a list
+## 리스트 만들기
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+이제 "유니콘, 로봇, 고양이"와 같은 항목의 목록을 좀 더 멋지게 표현된 리스트로 바꾸는 방법을 배워봅시다.
 
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- `index.html` 파일에서, `</main>` 위에 아래 내용을 추가하세요:
 
 ```html
     <ul>
-        <li>Cows</li>
-        <li>Sheep</li>
-        <li>Foxes</li>
-        <li>Bats</li>
-    </ul>
+        <li>소</li>
+        <li>양</li>
+        <li>여우</li>
+        <li>박쥐</li>
+</ul>
 ```
 
-The result should be a nice list like this:
+아래와 같이 결과가 도출될 것입니다.
 
-![Unordered list](images/egUnorderedList.png)
+![정렬되지 않은 목록](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
+각각의 `<li> </li>` 쌍은 각 항목마다 있어야 합니다.
 
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+이것은 아일랜드에서 볼 수있는 동물의 목록입니다. 리스트의 항목을 웹 사이트에 적합하게 변경하고, 리스트 위에 있는 단락을 추가하여 리스트를 설명할 수도 있습니다.
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
+번호가 매겨진 목록을 원한다면 어떨까요? 번호가 매겨진 리스트를 만들기 위해서는 `<ul>` 대신 `<ol>`을 사용합니다. 번호가 매겨진 리스트은 **순서가 있는** 리스트입니다.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- 방금 작성한 코드 아래에 다음 코드를 추가하십시오 - 추가한 코드가 `</ul>` 태그 **아래에** 있는지 잘 확인하세요!
 
 ```html
     <p>
-        My favourite things to eat and drink in Ireland are:
+        아일랜드에서 내가 가장 좋아하는 음식:
     </p>
     <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
+        <li>녹차</li>
+        <li>크리스피 샌드위치</li>
+        <li>소시지</li>
     </ol>
 ```
 
-Here's what it should look like now:
+다음과 같이 보일 것입니다:
 
-![Ordered list](images/egOrderedList.png)
+![정렬된 목록](images/egOrderedList.png)
 
 \--- challenge \---
 
-## Challenge: add style to your lists
+## 과제: 목록에 스타일 추가
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- **CSS 규칙**을 스타일 시트에 추가해 리스트 모양을 변경할 수 있나요?
 
 \--- /challenge \---
