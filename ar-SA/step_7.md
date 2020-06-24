@@ -1,49 +1,49 @@
-## Making a list
+## إنشاء قائمة
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+ستتعلم الآن كيفية تحويل قائمة العناصر ، مثل "وحيد القرن ، روبوتات ، قطط" ، إلى قائمة لطيفة المظهر يمكنك القيام بأشياء رائعة بها في وقت لاحق.
 
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- في ملف `index.html`، أضف الكود التالي فوق السطر الذي يحتوي `</main>`:
 
 ```html
     <ul>
-        <li>Cows</li>
-        <li>Sheep</li>
-        <li>Foxes</li>
-        <li>Bats</li>
+        <li>أبقار</li>
+        <li>خراف</li>
+        <li>ثعالب</li>
+        <li>خفافيش</li>
     </ul>
 ```
 
-The result should be a nice list like this:
+النتيجة يجب ان تكون قائمة لطيفة الشكل مثل هذه:
 
-![Unordered list](images/egUnorderedList.png)
+![قائمة غير مرتبة](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
+لاحظ أن هناك زوج منفصل من علامات `<li> و</li>` حول كل عنصر في القائمة.
 
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+هذه قائمة ببعض الحيوانات التي قد تراها في أيرلندا. يمكنك تغيير العناصر الموجودة في القائمة إلى أشياء معقولة لموقع الويب الخاص بك ، وإضافة فقرة أعلى القائمة لوصف القائمة ، إذا أردت!
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
+ماذا عن إذا كنت تريد قائمة مرقمة؟ نفس الشيء تقريباً، ولكن بدلا من `<ul>` ، يمكنك استخدام `<ol>`. تسمى القائمة المرقمة بـ قائمة ** مرتبة **.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- أضف الكود التالي أسفل الكود الذي كتبته للتو - تأكد من أنه **أسفل** رمز `</ul>`!
 
 ```html
     <p>
-        My favourite things to eat and drink in Ireland are:
+      أفضل المؤكولات والمشروبات لدي في أيرلندا:
     </p>
     <ol>
-        <li>Tea</li>
-        <li>Crisp sandwiches</li>
-        <li>Sausages</li>
+        <li>شاي</li>
+        <li>شطائر مقرمشة</li>
+        <li>نقانق</li>
     </ol>
 ```
 
-Here's what it should look like now:
+إليك ما يجب أن تبدو عليه الآن:
 
-![Ordered list](images/egOrderedList.png)
+![قائمة مرتبة](images/egOrderedList.png)
 
-\--- challenge \---
+\--- تحدي \---
 
-## Challenge: add style to your lists
+## التحدي: إضافة نمط إلى القوائم الخاصة بك
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- أنظر إذا كان يمكنك إضافة ** قواعد CSS ** إلى ورقة الأنماط الخاصة بك لتغيير شكل قوائمك.
 
-\--- /challenge \---
+\--- /تحدي \---
