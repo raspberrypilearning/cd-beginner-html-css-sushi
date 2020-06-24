@@ -1,24 +1,24 @@
-## Adding a table
+## एक तालिका जोड़ना
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+कभी-कभी तालिका में जानकारी दिखाना उपयोगी हो सकता है। उदाहरण के लिए, आप किसी स्थानीय स्पोर्ट्स क्लब या स्कूल के लिए वेबसाइट पर सदस्य जानकारी या अपने दस सबसे पसंदीदा गीतों के बारे में जानकारी सूचीबद्ध करना चाह सकते हैं।
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+एक तालिका एक ग्रिड है जो **पंक्तियों** और **स्तम्भों** से बना है। अधिकांश तालिकाओं में प्रत्येक स्तंभ के ऊपर शीर्षक भी शामिल होते हैं, जिन्हें **हैडर** (शीर्ष लेख) कहा जाता है। यहाँ एक उदाहरण है:
 
-![Example of information in a table](images/egTableResult.png)
+![तालिका में जानकारी का उदाहरण](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- `page_with_table.html` फाइल पर जाएं। वहां आपको `<table> </table>` टैग के बीच कोड का एक समूह दिखाई देगा।
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- शुरुआत के `<table>` टैग से अंत के ` </table>` टैग तक सभी कोड का चयन करें और इसकी प्रतिलिपि बना लें। फिर अपनी किसी एक फाइल पर जाएं जहां आप एक तालिका बनाना चाहते हैं, और कोड में पेस्ट करें।
 
-At the moment your table is empty.
+फिलहाल आपकी तालिका खाली है।
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- अपनी पसंद की किसी भी चीज़ के साथ अपनी तालिका को भरने की कोशिश करें! बस `<td> </td>` टैग और `<th> </th>` टैग के बीच पाठ डालें। जरूरत पड़ने पर आप और टैग जोड़ सकते हैं।
 
 ## \--- collapse \---
 
-## title: Example code
+## शीर्षक: उदाहरण कोड
 
-The HTML code for the table shown above looks like this:
+ऊपर दिखाई गई तालिका के लिए HTML कोड इस तरह दिखता है:
 
 ```html
   <table>
@@ -52,25 +52,25 @@ The HTML code for the table shown above looks like this:
 
 \--- /collapse \---
 
-To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+दूसरी **पंक्ति** जोड़ने के लिए, का एक और `<tr> </tr>` टैग जोड़ें । उनके बीच में, आप समान संख्या में ** डेटा ** `<td></td>` टैग के साथ डालते हैं जितने की आपके द्वारा अन्य पंक्तियों में दिए गए।
 
-To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+एक और **स्तम्भ** जोड़ने के लिए, एक अतिरिक्त `<td> </td>` टैग के साथ ** डेटा** के सेट **हर ** पंक्ति में जोड़ें। पहली पंक्ति में `<th></th>` टैग का उपयोग करते हुए अतिरिक्त **शीर्ष लेख** भी जोड़ें।
 
 ## \--- collapse \---
 
-## title: How does it work?
+## शीर्षक: यह कैसे काम करता है?
 
-Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+आइए उन सभी टैगों पर एक नजर डालते हैं। यह सूची के लिए कोड की तरह है (`<ul>` और `<ol>` याद रखें), लेकिन इसमें अधिक स्तर हैं।
 
-Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+प्रत्येक `<tr> </tr>` टैग की जोड़ी एक पंक्ति है, इसलिए उनके बीच की सभी चीजें एक पंक्ति में प्रदर्शित की जाएंगी।
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+पहली पंक्ति में `<th></th>` टैग शामिल हैं। ये हेडर के लिए उपयोग किए जाते हैं, इसलिए स्तंभ शीर्षक उनके बीच में जाते हैं। आपकी तालिका में प्रत्येक स्तंभ के लिए एक जोड़ी है।
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+`<td> </td>` टैग टेबल डेटा को परिभाषित करते हैं, और यही सब अन्य पंक्तियों में जाता है। ये सूची आइटम टैग `<li> </li>` के समान हैं: उनके बीच का सब कुछ आपके तालिका की पंक्ति में एक वास्तु है।
 
 \--- /collapse \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- यदि आप `style.css` फ़ाइल के अंत को देखते हैं, आपको CSS कोड दिखाई देगा जो तालिका कैसे दिखनी चाहिए यह बताता है। आपको यह सब समझने की जरूरत नहीं है! लेकिन आप अपनी खुद की शैली डिजाइन करने के लिए पाठ, सीमा और पृष्ठभूमि के रंगों को बदलने के साथ प्रयोग कर सकते हैं।
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ The `<td> </td>` tags define what's called table data, and that's what goes in a
   }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+क्या आपने ध्यान दिया कि कुछ चयनकर्ता अल्पविराम का उपयोग कैसे करते हैं, उदाहरण के लिए `table, th, td`? यह ** चयनकर्ताओं की सूची** है: इसका मतलब है कि यह सभी `<th>` तत्वों और सभी `<td>` तत्वों पर लागू होता है। यह प्रत्येक चयनकर्ता के लिए नियमों के समान सेट को टाइप करने से बचाता है!
