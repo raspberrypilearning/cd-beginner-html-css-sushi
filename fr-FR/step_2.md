@@ -20,11 +20,11 @@ Il devrait dire **remixé** après l'avoir cliqué :
 
 ## title: Je n'ai pas de compte Trinket
 
-Tu peux enregistrer ton travail en utilisant l'une des options dans le menu **Partager** . Tu obtiendras un lien que tu peux soit enregistrer quelque part, par exemple dans un document, soit envoyer à quelqu'un par courriel. **Remarque:** à chaque fois que tu faits un changement, tu obtiendras un nouveau lien.
+Tu peux enregistrer ton travail en utilisant l'une des options dans le menu **Partager** . Tu obtiendras un lien que tu peux soit enregistrer quelque part, par exemple dans un document, soit envoyer à quelqu'un par courriel. **Remarque:** à chaque fois que tu fais un changement, tu obtiendras un nouveau lien.
 
 Si tu souhaites créer un compte sur Trinket, suis les étapes ci-dessous. Cela te permettras d'accéder facilement à ton travail depuis n'importe quel ordinateur, et aux projets **remix** que quelqu'un d'autre a partagés avec toi. Le remixage signifie que tu enregistres une copie d'un projet afin que tu puisses y apporter tes propres modifications.
 
-- Va sur [le site Web Trinket](http://dojo.soy/trinket) et clique **Inscrivez-vous à votre compte gratuit**. Tu auras besoin d'une adresse e-mail pour t'inscrire.
+- Va sur [le site Web Trinket](http://dojo.soy/trinket) et clique sur **Inscrivez-vous à votre compte gratuit**. Tu auras besoin d'une adresse e-mail pour t'inscrire.
 
 - Entre ton adresse e-mail et choisis un mot de passe, ou demande à quelqu'un de le faire pour toi.
 
