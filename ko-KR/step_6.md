@@ -1,29 +1,29 @@
-## Adding a map or video
+## 지도 또는 비디오 추가하기
 
-YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
+YouTube는 동영상을 웹 사이트에 쉽게 추가 할 수 있는 방법을 제공합니다. 다른 온라인 소스의 요소를 웹 사이트에 추가하는 것을 **임베딩(embedding)**이라고 합니다.
 
-- Find a video on YouTube that you want to show on your website.
+- 웹 사이트에 표시할 YouTube 동영상을 찾습니다.
 
-- Click on the **Share** button below the video. Select the option **Embed**.
+- **공유** 버튼을 클릭하십시오. **퍼가기(Embed)** 옵션을 선택합니다.
 
-You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
+모든 텍스트가 선택된 텍스트 상자가 나타납니다. 실수로 텍스트의 선택을 취소한 경우, 텍스트를 다시 선택하고 <kbd>Ctrl </kbd> (Mac의 경우 <kbd>cmd</kbd>) 과 <kbd>A</kbd> 키를 동시에 누릅니다.
 
-![YouTube's embed option with code selected](images/EmbedYouTube.png)
+![코드가 선택된 YouTube 삽입 옵션](images/EmbedYouTube.png)
 
-- Press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>C</kbd> keys together to copy the text.
+- <kbd>Ctrl</kbd> 키 (Mac의 경우 <kbd> cmd </kbd>) 와 <kbd>C</kbd> 키를 함께 눌러서 텍스트를 복사하세요.
 
-- Then go back to your website's HTML code, and click in the place where you want to put the video, for example below a heading or paragraph. **Paste** the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>V</kbd> on your keyboard at the same time. Don't worry about understanding all the code you just pasted!
+- 그런 다음 웹 사이트의 HTML 코드로 돌아가서 동영상을 넣을 위치를 선택(예: 제목이나 단락 아래)하세요. 이후 텍스트를 **붙여넣으세요**. <kbd>Ctrl</kbd> (Mac의 경우 <kbd> cmd </kbd>) 와 <kbd>V</kbd> 키를 동시에 누르면 됩니다. 붙여 넣은 모든 코드를 이해해야 된다는 걱정은 하지 마세요!
 
-![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
+![HTML 페이지에 붙여 넣는 삽입 코드 예제](images/EmbedYouTube2.png)
 
-You should see the video appear on your webpage.
+비디오가 웹 페이지에 나타나는 것을 볼 수 있습니다.
 
-The same technique works for Google maps as well. Give it a go!
+동일한 기술이 Google 지도에도 적용됩니다. 한번 써보세요!
 
-- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
+- [여기로](http://dojo.soy/google-maps) 이동하여 웹 사이트에 표시할 장소를 검색하세요. **참고:** 절대로 집 주소와 같은 개인정보를 공유하지 **마세요!**
 
-- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+- 결과를 조회한 후 **공유**를 클릭하세요. 이후 코드를 복사하여 웹사이트에 붙여넣으세요. ![Google 지도 임베딩 옵션](images/EmbedGoogleMap.png)
 
-- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
+- 주의깊게 코드를 살펴보면 `width`와 `height` **속성**이 있는 것을 볼 수 있습니다. 이 값들을 변경하여 지도를 더 크게 또는 더 작게 표시할 수 있습니다.
 
-![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
+![너비와 높이 속성이 포함되어 임베딩된 Google 지도의 예](images/EmbeddedGoogleMapCode.png)
