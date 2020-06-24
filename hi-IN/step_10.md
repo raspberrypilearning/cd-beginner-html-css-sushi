@@ -1,22 +1,22 @@
-## Navigating your website
+## अपनी वेबसाइट को नेविगेट करना
 
-Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
+कई वेबसाइटों में आगंतुकों को पृष्ठों के बीच ले जाने में मदद करने के लिए **नेविगेशन** मेनू होता है। अब जब आपको पृष्ठों का एक समूह, एक मुखपृष्ठ और प्रत्येक पृष्ठ के लिंक मिल गए हैं, तो प्रत्येक पृष्ठ के शीर्ष पर एक नेविगेशन अनुभाग से लिंक की सूची को स्थानांतरित करें।
 
-![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
+![शीर्ष पर नेविगेशन लिंक के साथ एक वेब पेज का उदाहरण](images/egNavLinksAtTop.png)
 
-- Find the code for your list of links that you created in the previous step.
+- आपके द्वारा पिछले चरण में बनाई गई लिंक्स की सूची के कोड को खोजें।
 
-- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+- खुलने वाले`<ul>` टैग से ठीक पहले, **Enter** दबाकर एक नई रिक्त पंक्ति दर्ज करें, फिर नई पंक्ति पर निम्न टैग टाइप करें: `<nav>`। ट्रिंकेट स्वतः समापन टैग को इसके ठीक बाद जोड़ता है, लेकिन आप इसे हटा सकते हैं - यह सही जगह पर नहीं है।
 
-- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+- समापन वाले `</ul>` टैग के ठीक **बाद**, **enter** दबकर एक नई रिक्त पंक्ति दर्ज करें, और वहाँ समापन टैग `</nav>` टाइप करें।
 
-- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+- अब खुलने वाले `<nav>` से ठीक पहले क्लिक कर बंद होने वाले ` </nav>` टैग के ठीक बाद तक माउस को नीचे खींचकर करके अपने संपूर्ण `<nav>` अनुभाग और सूची का चयन करें, ताकि खुलने और बंद होने के टैग सहित सभी पाठ उभर जाएं। यह सुनिश्चित करें की सभी प्रारंभ और अंत वाले **कोण कोष्ठक** `<` और `>` भी उभरे हुए हैं!
 
-![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+![बाईं ओर पाठ पूरी तरह से चयनित नहीं है, जबकि दाईं ओर पाठ चयनित है](images/egSelectedYayWoops.png)
 
-- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+- आप इस बार प्रतिलिपि के बजाय **कट** करने जा रहे हैं। <kbd> Ctrl </kbd> (या <kbd>cmd</kbd>) कुंजी दबाए रखें, और इसे पकड़ते समय, <kbd>X</kbd> दबाएं। उभरा हुआ कोड गायब हो जाएगा, लेकिन घबराएं नहीं!
 
-- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+- फ़ाइल के शीर्ष पर, `<header> </header>` टैग के बीच क्लिक करें। सुनिश्चित करें कि आप वहां कर्सर झपकता हुआ देख पा रहे हैं। अब <kbd> Ctrl </kbd> (या <kbd> cmd</kbd>) और <kbd>V</kbd> दबाकर हमेशा की तरह कोड पेस्ट करें। आपका कोड कुछ इस तरह दिखना चाहिए:
 
 ```html
     <header>
@@ -33,32 +33,32 @@ Many websites have a **navigation** menu to help visitors move between pages. No
 
 ## \--- collapse \---
 
-## title: Undo!
+## शीर्षक: पूर्ववत करें!
 
-If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
+यदि आप कोई गलती करते हैं, तो आप ****<kbd>Ctrl</kbd> (या <kbd>cmd</kbd>) और <kbd>Z</kbd> साथ में दबाकर पूर्ववत कर सकते हैं। पिछले कुछ परिवर्तनों को पूर्ववत करने के लिए आप आमतौर पर इस कुंजी संयोजन को कुछ बार दबा सकते हैं। यह एक और उपयोगी कीबोर्ड शॉर्टकट है जिसे आप कई प्रोग्रामों में उपयोग कर सकते हैं!
 
 \--- /collapse \---
 
-- Try out your links to make sure they are still working.
+- यह सुनिश्चित करने के लिए आपके लिंक अभी भी काम कर रहे हैं, उन्हें आज़माएं |
 
 \--- challenge \---
 
-## Challenge: navigation menus for all pages
+## चुनौती: सभी पृष्ठों के लिए नेविगेशन मेनू
 
-- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+- इस कोड सेक्शन को आपके द्वारा बनाई गई प्रत्येक HTML फाइल के शीर्ष लेख में डालें। इससे नेविगेशन मेनू आपकी वेबसाइट पर हर पृष्ठ के शीर्ष पर दिखाई देगा।
     
     \--- hints \---
     
     \--- hint \---
 
-Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+पहले की तरह पूरे `<nav>` अनुभाग का चयन करें और इसकी प्रतिलिपि बनाने के लिए <kbd>Ctrl</kbd> (या <kbd>cmd</kbd>) और <kbd>C</kbd> एक साथ दबाएं।
 
-Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
+फिर,जैसा आपने पहले किया था ठीक उसी तरह, अपनी प्रत्येक `.html` फ़ाइल में, `<header> </header>` के अंदर क्लिक करें और कोड को पेस्ट करें।
 
 \--- /hint \---
 
 \--- /hints \---
 
-Now you will be able to click the links no matter which page you are on.
+अब आप चाहे आप जिस भी पृष्ठ पर हों, लिंक पर क्लिक कर पाएंगे ।
 
 \--- /challenge \---
