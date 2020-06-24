@@ -1,7 +1,7 @@
 ---
-title: Guide to my country 1.0
+title: मेरे देश के लिए गाइड 1.0
 hero_image: images/banner.png
-description: Learn to make a website
+description: वेबसाइट बनाना सीखें
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
@@ -9,38 +9,38 @@ ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html-css-javascript
+technologies: html/css
 site_areas: coderdojo, projects
 hardware: ''
-software: html-css-javascript
+software: htmp-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: भूमिका
   - 
-    title: Getting set up
+    title: शुरू करने के लिए
   - 
-    title: Your first webpage!
+    title: आपका पहला वेबपेज!
   - 
-    title: Controlling how it looks
+    title: वेबसाइट का रूप नियंत्रित करना
   - 
-    title: Adding pictures
+    title: चित्र जोड़ना
   - 
-    title: Adding a map or video
+    title: नक्शा या वीडियो जोड़ना
   - 
-    title: Making a list
+    title: सूची बनाना
   - 
-    title: Creating links
+    title: लिंक बनाना
   - 
-    title: Adding more pages
+    title: अन्य पृष्ठ जोड़ना
   - 
-    title: Navigating your website
+    title: अपनी वेबसाइट का संचालन करना
   - 
-    title: Making a menu bar
+    title: मेन्यू बार बनाना
   - 
-    title: Styling the menu bar
+    title: मेनू बार स्टाइल करना
   - 
-    title: Adding a table
+    title: एक तालिका जोड़ना
   - 
-    title: What next?
+    title: आगे क्या?
