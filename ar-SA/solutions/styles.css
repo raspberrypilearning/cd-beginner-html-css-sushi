@@ -1,42 +1,42 @@
-body {
-  background-color: DeepSkyBlue;
-  font-family: "Helvetica", sans-serif;
-  color: Purple;
+الجسم {
+  لون الخلفية: ازرق سمائي غامق ;
+  خط الأسرة: "Helvetica", sans-serif;
+  اللون البنفسجي;
 }
 h1 {
-  color: orange;
-  font-family: "Times New Roman", serif;
+  اللون برتقالي;
+  خط الأسرة: "Times New Roman", serif؛
 }
 h2 {
-  font-family: "Times New Roman", serif;
+  خط الأسرة: "Times New Roman", serif؛
 }
 h3 {
-  font-style: italic;
+  نمط الخط: مائل
 }
-a {
-  color: PaleTurquoise;
+محرر:
+  اللون: الفيروز الشاحب  ;
 }
-nav ul {
-  background-color: tomato;
-  border-style: solid;
-  border-color: MediumVioletRed;
-  border-width: 2px;
-  padding: 10px;
-  border-radius: 10px;
+التنقل ul {
+  لون الخلفية: الطماطم.
+  نمط الحدود: ثابت ;
+  لون الحدود: الأحمر المتوسط;
+  عرض الحدود: 2px;
+  الحشوة: 10px;
+  نصف قطر الحد: 10 بكسل ;
 }
 nav ul li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 10px;
-  margin-left: 10px;
-  color: PapayaWhip;
+  نوع نمط القائمة: لا شيء ;
+  العرض: داخل الإتصال؛
+  الهامش الأيمن: 10 بكسل ;
+  الهامش الأيسر: 10 بكسل ;
+  اللون: البابايا ;
 }
 nav ul li a {
-  text-decoration: none;
-  color: Brown;
+  زخرفة النص: لا شيء ;
+  اللون: بني ;
 }
 img {
-  border-radius: 30px;
+  نصف قطر الحد: 30 بكسل ;
 }
 
 
@@ -45,24 +45,24 @@ img {
 
 
 /**********************************
-This section is for styling tables
-***********************************/
-table, th, td {
-  border: 1px solid HoneyDew;
-  border-collapse: collapse;
+هذا القسم مخصص لتنسيق الجداول
+*********************************** /
+الجدول ، th ، td {
+  الحد: 1px المن الثابت ;
+  انهيار الحدود: الانهيار ؛
 }
 tr {
-  background-color: PaleTurquoise;
+  الخلفية-اللون:الفيروز الشاحب;
 }
-th, td {
-  vertical-align: top;
-  padding: 5px;
-  text-align: left;
+th ، td {
+  محاذاة عمودية: أعلى ؛
+  الحشو: 5 بكسل ؛
+  محاذاة النص: إلى اليسار ؛
 }
 th {
-  color: purple;
+  اللون البنفسجي;
 }
 td {
-  color: purple;
+  اللون البنفسجي;
 }
-/********************************/
+/ ******************************** /
