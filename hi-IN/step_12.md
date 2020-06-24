@@ -1,10 +1,10 @@
-## Styling the menu bar
+## मेनू बार स्टाइल करना
 
-With CSS, the possibilities for making your menu bar look great are endless.
+CSS के साथ, आपके मेनू बार को शानदार बनाने की संभावनाएं अनंत हैं।
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+- फिर से `styl.css` फाइल पर जाएं - वह स्थान जहाँ अद्भुत चीज़ें होती हैं!
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
+- अपने `nav ul` चयनकर्ता को खोजें, और अन्य नियम जोड़ें ताकि यह इस तरह दिखे:
 
 ```css
   nav ul {
@@ -16,11 +16,11 @@ With CSS, the possibilities for making your menu bar look great are endless.
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
+` padding` संपत्ति खाली जगह जोड़ता है। क्या आप अनुमान लगा सकते हैं की प्रत्येक अन्य गुण क्या करते हैं? विभिन्न रंगों और पिक्सेल की संख्या के साथ प्रयोग करने का प्रयास करें।
 
-![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
+![बॉर्डर और पैडिंग के साथ मेनू बार](images/egMenuBarMoreStyle.png)
 
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
+- लिंक के रेखांकन से छुटकारा पाने के लिए, `nav ul li` के समापन वाले घुंघराले ब्रेस `}` के बाद निम्न कोड जोड़ें। आप इसे किसी भी `}` के बाद रख सकते हैं, लेकिन यह संबंधित कोड को एक साथ रखना एक अच्छा विचार है ताकि बाद में इसे ढूंढना आसान हो!
 
 ```css
   nav ul li a {
@@ -28,32 +28,32 @@ The `padding` property adds space. Can you work out what each of the other prope
   }
 ```
 
-The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
+उपर्युक्त नियम उन लिंक्स `<a>` पर लागु होते हैं जो नेविगेशन अनुभाग के अंदर `<nav>` एक अनियंत्रित सूची`<ul>` के आइटम के अंदर `<li>` होते है। वाह, वह चार चयनकर्ता हैं!
 
-![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
+![रेखांकन के बिना मेनू बार के लिंक](images/egMenuBarNoUnderline.png)
 
-Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
+क्या आपको याद है की आपने `<nav>` में कुछ सूची आइटमों से लिंक टैग कैसे हटाए ताकि आप आसानी से देख सकें कि आप किस पृष्ठ पर हैं? क्यों न उन नेविगेशन सूची आइटमों के रंग को भी बदलें जो लिंक नहीं हैं!
 
-- Find your `nav ul li` selector, and **inside** the curly braces add the line:
+- अपने `nav ul li` चयनकर्ता को खोजें, और घुंघराले ब्रेसिज़ के **अंदर** लाइन जोडें:
 
 ```css
   color: PapayaWhip;
 ```
 
-You can choose any colour you like!
+आप अपनी पसंद का कोई भी रंग चुन सकते हैं!
 
-You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
+यदि आप चाहते हैं कि आपकी वेबसाइट के अन्य लिंक, मेनू लिंक से अलग रंग के हों तो आप `nav ul li` नियमों में `color` संपत्ति को भी जोड़ सकते हैं।
 
-- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
+- क्यों ना अपने मेनू के कोनों को थोड़ा घोल बनायें? निम्न कोड को `nav ul` नियम में जोड़ने का प्रयास करें और देखें क्या होता है: `border-radius: 10 px;`।
 
-The `border-radius` property is a really easy way to make anything look cooler!
+`border-radius` संपत्ति किसी भी चीज़ को आकर्षक बनाने का आसान तरीका है!
 
-![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+![मेनू बार और तस्वीर पर गोल कोनों के साथ वेबपेज](images/egMenuBarFullStyles_result.png)
 
 \--- challenge \---
 
-## Challenge: make your pictures have rounded corners
+## चुनौती: अपने चित्रों के कोनों को गोल करें
 
-- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+- अपनी शैली पत्रक में `img` चयनकर्ता का उपयोग करके चित्रों के लिए नियमों का एक नया सेट बनाएं, और वहां `border-radius` नियम जोड़ें।
 
 \--- /challenge \---
