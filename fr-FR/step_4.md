@@ -50,7 +50,7 @@ Chaque règle à l'intérieur des crochets est constituée de :
 
 Regarde comment cela a changé la page web.
 
-La propriété `couleur` est toujours pour le texte. Ici, tu définis la couleur de tous les textes dans le `corps` de ta page web.
+La propriété `color` est toujours pour le texte. Ici, tu définis la couleur de tous les textes dans le `corps` de ta page web.
 
 - Tu peux également écrire des règles distinctes pour les en-têtes et les paragraphes. Pour `<h1>` les en-têtes, tu utilises le sélecteur `h1` . Sous l'accolade fermante contenant la règle CSS pour le corps, ajoute le code suivant.
 
