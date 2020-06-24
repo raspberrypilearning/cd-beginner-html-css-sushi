@@ -1,35 +1,35 @@
-## Getting set up
+## शुरू करने के लिए
 
-- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- [ स्टार्टर ट्रिंकेट पर जाएं ](http://dojo.soy/html-b-start) । आपको एक बॉक्स दिखाई देगा जिसमें एक उदाहरण वेबसाइट परियोजना होगी। वहाँ दाईं ओर वेबसाइट है, और बाईं ओर वह कोड है जो वेबसाइट बनाता है। ![वेब पेज और ट्रिंकेट में कोड](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
-## title: I have a Trinket account
+## शीर्षक: मेरे पास ट्रिंकेट खाता है
 
-- Click the **Remix** button at the top right of the project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
+- परियोजना के शीर्ष पर दाईं ओर ** रीमिक्स बटन पर क्लिक करें **। यदि आपने साइन इन नहीं किया हुआ है, तो आपको ऐसा करने के लिए कहा जाएगा। साइन इन करने के बाद, आपको ** रीमिक्स बटन ** पर क्लिक करना होगा। इस बटन पर क्लिक करने से प्रोजेक्ट की एक कॉपी बन जाती है जिस पर आप काम कर सकते हैं। 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![रीमिक्स बटन](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+क्लिक करने के बाद परियोजना पर ** रीमिक्स ** लिखा होना चाहिए:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![बटन अब "रिमिक्स" कहता है](images/tktRemixedSmall.png)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: I don't have a Trinket account
+## शीर्षक: मेरे पास ट्रिंकेट खाता नहीं है
 
-You can save your work by using one of the options in the **Share** menu. You will get a link that you can either save somewhere, for example in a document, or send to someone via email. **Note:** each time you make a change, you will get a new link.
+आप ** शेयर मेन्यू ** में से किसी एक विकल्प का उपयोग करके अपना काम सहेज सकते हैं । आपको एक लिंक मिलेगा जिसे आप या तो कहीं भी सहेज सकते हैं, उदाहरण के लिए अपने कंप्यूटर पर किसी फ़ाइल में, या ईमेल के माध्यम से किसी को भेजसकते भी हैं। ** ध्यान दें: ** हर बार जब आप कोई बदलाव करते हैं, तो आपको एक नया लिंक मिलेगा।
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
+यदि आप ट्रिंकेट पर एक खाता बनाना चाहते हैं, तो नीचे दिए गए चरणों का पालन करें। यह आपको आसानी से किसी भी कंप्यूटर से अपने काम का उपयोग करने की अनुमति देगा तथा किसी और के द्वारा शेयर की गयी परियोजनाएं आप ** रीमिक्स ** भी कर पाएंगे। रीमिक्सिंग का मतलब है कि आप किसी प्रोजेक्ट की एक प्रतिलिपि सहेजेंगे ताकि आप उसमें खुद बदलाव कर सकें।
 
-- Go to [the Trinket website](http://dojo.soy/trinket) and click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- [ Trinket वेबसाइट पर जाएं ](http://dojo.soy/trinket) और ** अपने मुफ़्त खाते के लिए साइन अप पर क्लिक करें ** । साइन अप करने के लिए आपको एक ईमेल पते की आवश्यकता होगी।
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- अपना ईमेल दर्ज करें और एक पासवर्ड चुनें, या यह करने में किसी की सहायता ले।
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+- अब आप अपने उपयोगकर्ता नाम पर क्लिक करके अपनी सभी सहेजी गई या रीमिक्स की गई परियोजनाओं को** माय ट्रिंकेट्स ** पर जाकर देख सकते हैं। !["मेरी ट्रिंकेट"; मेनू आइटम](images/MyTrinketsMenuWide.png)
 
 \--- /collapse \---
 
-Let's start coding!
+चलो कोडिंग शुरू करते हैं!
