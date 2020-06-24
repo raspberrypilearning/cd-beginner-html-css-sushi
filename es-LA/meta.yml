@@ -1,7 +1,7 @@
 ---
-title: Guide to my country 1.0
+title: Guía a mi país 1.0
 hero_image: images/banner.png
-description: Learn to make a website
+description: Aprende a hacer un sitio web
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
@@ -17,30 +17,30 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introducción
   - 
-    title: Getting set up
+    title: Preparación
   - 
-    title: Your first webpage!
+    title: '¡Tu primera página web!'
   - 
-    title: Controlling how it looks
+    title: Controlando cómo lucirá
   - 
-    title: Adding pictures
+    title: Añadiendo imágenes
   - 
-    title: Adding a map or video
+    title: Añadiendo un mapa o vídeo
   - 
-    title: Making a list
+    title: Haciendo una lista
   - 
-    title: Creating links
+    title: Creando enlaces
   - 
-    title: Adding more pages
+    title: Añadiendo más páginas
   - 
-    title: Navigating your website
+    title: Navegando por tu página web
   - 
-    title: Making a menu bar
+    title: Haciendo un menú de barra
   - 
-    title: Styling the menu bar
+    title: Definiendo el estilo del menú de barra
   - 
-    title: Adding a table
+    title: Añadiendo una tabla
   - 
-    title: What next?
+    title: '¿Qué hacer a continuación?'
