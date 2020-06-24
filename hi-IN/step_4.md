@@ -1,8 +1,8 @@
-## Controlling how it looks
+## वेबसाइट का रूप नियंत्रित करना
 
-The code that describes what a website looks like is called **CSS**.
+वह कोड जो यह बताये कि वेबसाइट कैसा दिखता है, उसे **CSS** कहते हैं।
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- कोड पैनल के शीर्ष पर स्थित टैब को देखें, और `styl.css` नामक फ़ाइल पर क्लिक करे। फ़ाइल में निम्न पाठ है:
 
 ```css
   body {
@@ -10,35 +10,35 @@ The code that describes what a website looks like is called **CSS**.
   }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- ` सफेद रंग` को ` हल्के नीले रंग` में बदलो और देखो क्या होता है। आपकी वेबसाइट पर अब नीली पृष्ठभूमि होनी चाहिए! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![नीली पृष्ठभूमि वाला उदाहरण](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## शीर्षक: यह कैसे काम करता है?
 
-If you look at the top of the `index.html` file, you will see the following line:
+यदि आप शीर्ष पर ` index.html` फ़ाइल को देखते हैं, आपको निम्न पंक्ति दिखाई देगी:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+उपरोक्त पंक्ति ब्राउज़र को एक विशेष फ़ाइल की तलाश करने के लिए कहती है जिसका नाम `style.css` है। इस विशेष फ़ाइल को **स्टाइल शीट** कहा जाता है । आप स्टाइल शीट के नाम में `.css` द्वारा फ़ाइल पहचान सकते हैं।
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+स्टाइल शीट में **नियम** शामिल हैं जो बताते हैं आपके वेबसाइट के प्रत्येक तत्व को कैसा दिखना चाहिए।
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+घुंघराले ब्रेसिज़ `{ }` और उनके बीच का कोड ** CSS नियमों ** का एक समूह है । शब्द `body` का मतलब है की नियम आपकी वेबसाइट पर सभी `<body>` तत्व के लिए है। घुंघराले ब्रेसिज़ के सामने वालेभाग को ** सिलेक्टर** कहते हैं । तो इस मामले में, यह बॉडी के तत्वों के लिए सिलेक्टर (चयनकर्ता) है।
 
-Each rule inside the curly braces is made up of:
+घुंघराले ब्रेस के अंदर प्रत्येक नियम निम्न से बना है:
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- बाईं ओर ** प्रॉपर्टी**, इसके बाद एक बृहदान्त्र प्रतीक `:`
+- बृहदान्त्र के बाद दाईं ओर प्रॉपर्टी का **मान**
+- अतं में एक अर्ध-औपनिवेशिक प्रतीक `;`
 
 \--- /collapse \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+- चलो पाठ का रुप बदलने के लिए नियम जोड़ते हैं। घुंघराले ब्रेसिज़ के अंदर दो नई पंक्तियाँ जोड़ें:
 
 ```css
   body {
@@ -48,11 +48,11 @@ Each rule inside the curly braces is made up of:
   }
 ```
 
-Look at how this has changed the webpage.
+देखें कि इसने वेबसाइट को कैसे बदल दिया है।
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+` रंग` प्रॉपर्टी हमेशा पाठ के लिए होती है। यहां, आप अपने वेबपेज पर `बॉडी` पाठ का रंग सेट कर रहे हैं।
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- आप शीर्षकों और अनुच्छेदों के लिए अलग-अलग नियम भी लिख सकते हैं। `<h1>` शीर्षकों के लिए, आप ` h1` चयनकर्ता का उपयोग करते हैं । बॉडी के लिए CSS नियम वाले घुंघराले ब्रेसस के नीचे निम्न कोड जोड़ें।
 
 ```css
   h1 {
@@ -61,12 +61,12 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+आपका शीर्षक नारंगी रंग का होना चाहिए जबकि आपका अनुच्छेद पहले की तरह बैंगनी रंग होना चाहिए।
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![नए CSS कोड का परिणाम](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+ध्यान दें कि कैसे अक्षर भी एक अलग रंग होने के साथ-साथ अलग दिख भी रहे हैं? ऐसा इसलिए है क्योंकि आपने उनके **फ़ॉन्ट परिवार ** को बदल दिए हैं। आप [यहां](http://dojo.soy/web-font-families) कुछ और फ़ॉन्ट पा सकते हैं।
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+- ` h2` चयनकर्ता का उपयोग करके `<h2>` शीर्षकों के लिए नियमों का एक सेट जोड़ने का प्रयास करें।
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- पाठ और पृष्ठभूमि के लिए अलग-अलग रंग संयोजनों के साथ प्रयोग करने का प्रयास करें? उपयोग करने के लिए बहुत सारे रंग उपलब्ध हैं। उनकी पूरी सूची का पता [ यहाँ ](http://dojo.soy/web-color-names) लगाएं।
