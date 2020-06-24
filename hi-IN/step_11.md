@@ -1,10 +1,10 @@
-## Making a menu bar
+## मेन्यू बार बनाना
 
-On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
+इस कार्ड पर आप देखेंगे कि कैसे स्टाइल शीट में कुछ और CSS नियम जोड़कर आप अपने नेविगेशन मेनू को सुंदर मेनू बार में बदल सकते हैं।
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+![एक मेनू बार का उदाहरण](images/egCoolMenuBar.png)
 
-- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
+- `style.css` टैब में स्टाइल शीट फ़ाइल पर जाएँ। एक बंद घुंघराले ब्रेस `} ` के **नीचे** क्लिक करें, और **enter** दबाकर एक नई रिक्त पंक्ति दर्ज करें। निम्नलिखित CSS नियम जोड़ें:
 
 ```css
     nav ul {
@@ -12,13 +12,13 @@ On this card you will see how you can transform your navigation menu into a cool
     }
 ```
 
-Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+ध्यान दें कि कैसे आपने एक के बजाय दो चयनकर्ताओं का उपयोग किया? यदि आपने `ul` चयनकर्ता का उपयोग किया है, तो अपने आप ही नियम आपकी वेबसाइट पर सभी अनियंत्रित सूचियों को प्रभावित करेगा। `nav` चयनकर्ता को जोड़ने से यह केवल उन सूचियों के रूप पर लागू होता है जो `nav` टैग के बीच में हैं।
 
-![List with red background](images/egMenuBarFirstStyle.png)
+![लाल पृष्ठभूमि के साथ सूची](images/egMenuBarFirstStyle.png)
 
-Let's get rid of the bullet points. Those are the dots in front of each list item.
+चलो बुलेट बिंदु हटा देते हैं। वे प्रत्येक सूची वस्तु के सामने आने वाले बिन्दु हैं।
 
-- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- निम्नलिखित कोड को `style.css` फ़ाइल में जोड़ें। इसे भी `}` के बाद एक नई लाइन पर टाइप करें इसलिए यह नियमों के किसी अन्य ब्लॉक के अंदर नहीं है।
 
 ```css
     nav ul li {
@@ -26,17 +26,17 @@ Let's get rid of the bullet points. Those are the dots in front of each list ite
     }
 ```
 
-Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+ध्यान दें कि नियमों के इस सेट में तीन चयनकर्ता हैं: यह सभी `li` तत्व का चयन करता है जो `ul` सूची में हैं जो `nav` अनुभाग के अंदर है। उफ़!
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![हटाए गए बुलेट बिंदुओं के साथ सूची](images/egMenuBarNoBullets.png)
 
-Now let's make the list horizontal (across) instead of vertical (down).
+अब चलो ऊर्ध्वाधर (नीचे) के बजाय सूची को क्षैतिज (पार) बनाते हैं।
 
-- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+- आपके द्वारा अभी बनाए गए नए CSS नियम के अंदर, निम्न पंक्ति जोड़ें: ` display: inline;`।
 
 ![](images/egMenuBarInline.png)
 
-- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+- मेनू की वस्तुएं अब सभी एक साथ भीड़ में हैं, तो चलिए उन्हें थोड़ा बाहर निकालने के लिए गुणों को भी जोड़ते हैं `margin-right` और `margin-left`। CSS कोड का ब्लॉक अब इस तरह दिखना चाहिए:
 
 ```css
     nav ul li {
@@ -47,13 +47,13 @@ Now let's make the list horizontal (across) instead of vertical (down).
     }
 ```
 
-Remember: `10px` means ten pixels.
+याद रखें: `10px` का मतलब दस पिक्सेल है।
 
-How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+चलो ऐसा करें की मेनू बदले ताकि आपको यह पता चले की आप किस पृष्ठ पर हैं| यह भाग स्टाइल शीट में नहीं होगा।
 
-- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- मुखपृष्ठ से शुरू करें। `index.html` फ़ाइल पर जाएं। मेनू लिंक की सूची में, `Home` शब्द से पहले और बाद के लिंक टैग को हटा दें ताकि मुखपृष्ठ के लिए सूची वस्तु केवल `<li></li>` टैग के बीच का पाठ हो, इस तरह: `<li>Home</li>`।
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
+- अब अपनी प्रत्येक अन्य फ़ाइल पर जाएं, और वही काम करें जो आपने अभी किया- हर बार आपके द्वारा संपादित किए जा रहे पृष्ठ के लिंक टैग को हटा दें। तो, उदाहरण के लिए, ` music.html` फ़ाइल में, मैंने सूचीबद्ध में से `Music` लिंक टैग हटा दिए हैं:
 
 ```html
     <header>
@@ -68,8 +68,8 @@ How about making the menu change to tell you which page you are on? This part wo
     </header>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- लिंक पर क्लिक करके अपने पृष्ठों का अन्वेषण करें। देखें कि मेनू बार उस पृष्ठ को कैसे लिंक के बजाय सादे पाठ के रूप में दिखाता है जिस पर आप हैं? 
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+![वर्तमान पृष्ठ को उजागर करते मेनू बार का उदाहरण](images/egMenuBarOnPage.png)
 
-On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
+अगले कार्ड पर आप मेन्यू बार को और भी बढ़िया दिखाने के लिए CSS युक्तियाँ सीखेंगे।
