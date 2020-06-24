@@ -1,40 +1,40 @@
-## Adding more pages
+## और पृष्ठ जोड़ना
 
-This card will show you how to add more pages to your website.
+यह कार्ड आपको दिखाएगा कि आपकी वेबसाइट पर और पृष्ठ कैसे जोड़े जाएं।
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+- कोड पैनल के शीर्ष पर, टैब के आगे ** + ** चिन्ह पर क्लिक करें, और अपनी नई फ़ाइल के लिए एक नाम लिखें। इसे `.html` (डॉट सहित!) में समाप्त होना चाहिए ताकि ब्राउज़र को पता हो कि यह एक वेबपेज है।
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+![ट्रिंकेट में एक नई फ़ाइल जोड़ना](images/tktNewFileArrows.png)
 
 ## \--- collapse \---
 
-## title: Renaming or deleting a file
+## शीर्षक: फ़ाइल का नाम बदलना या हटाना
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon.
+यदि आप किसी फ़ाइल का नाम बदलना चाहते हैं, तो फ़ाइल नाम के दाईं ओर **cog** चिन्ह पर क्लिक करें, और फिर **पेंसिल** चिन्ह पर क्लिक करें । नए नाम में टाइप करें और **एंटर** दबाएं। आप **पेंसिल** चिन्ह के बजाय **बिन** चिन्ह पर क्लिक करके फ़ाइल हटा भी सकते हैं।
 
 ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+आप सोच रहे होंगे कि आप `index.html` फ़ाइल का नाम क्यों नहीं बदल सकते। ` index.html ` एक वेबसाइट की ** मुखपृष्ठ** के लिए प्रयुक्त एक विशेष नाम है | जब आप किसी वेबसाइट पर जाते हैं तो वह पहला पृष्ठ होता है। जब भी आप किसी वेबसाइट के मुखपृष्ठ पर जाते हैं, तो ब्राउज़र `index.html` नामक फ़ाइल की तलाश करता है और इसे आपकी स्क्रीन पर प्रदर्शित करता है।
 
 \--- /collapse \---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- `blank_page.html` फ़ाइल ढूंढें और सभी कोड अपनी नई फ़ाइल में कॉपी और पेस्ट करें। क्यूंकि आप पूरे कोड की प्रतिलिपि बनाना चाहते है, कोड को एक बार में चुनने के लिए कोड पर कहीं भी क्लिक कर सकते हैं और कीबोर्ड शॉर्टकट <kbd>Ctrl</kbd> (या <kbd>cmd</kbd>) और <kbd>A</kbd> का उपयोग कर सकते हैं ।
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
+- आपके नए पृष्ठ को उपयुक्त शीर्षक देने के लिए `<title></title>` टैग के बीच के पाठ बदलें। ट्रिंकेट शीर्षक प्रदर्शित नहीं करेगा, लेकिन यदि आप अपना प्रोजेक्ट डाउनलोड करते हैं तो आप इसे अपने ब्राउज़र विंडो के शीर्ष पर देख सकते हैं।
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+![ब्राउज़र टैब में पृष्ठ का शीर्षक दिखा रहा है](images/egLocalFileWindowTitle.png)
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
+- नई फ़ाइल में `<main></main>` टैग बीच में, उन टैग का उपयोग करें जिनके बारे में बारे में आपने सीखा है, जैसे अनुच्छेद, शीर्षक, छवि और सूची!
 
-- Repeat the steps above for each new page that you want to add.
+- प्रत्येक नए पृष्ठ के लिए ऊपर दिए गए चरणों को दोहराएँ।
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+जब ट्रिंकेट में एक साथ दिखाने के लिए बहुत सारे टैब हो जाते हैं, तो आप उनके बीच स्क्रॉल करने के लिए टैब के ऊपरी बाएं कोने में स्थित **<** और **>** चिन्हों का उपयोग कर सकते हैं।
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+![टैब स्क्रॉल करने के लिए बटन](images/tktScrollTabIcons.png)
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+अब आपको लिंक बनाने की आवश्यकता है ताकि आप अपने प्रत्येक नए पृष्ट तक पहुंच सकें! चलिए सभी लिंक एक सूची में डालते हैं।
 
-- In the `index.html` file, add the following code to the body of your webpage:
+- `index.html` फ़ाइल में, निम्नलिखित कोड अपने वेबपृष्ठ के मुख्य भाग में जोड़ें:
 
 ```html
     <ul>
@@ -45,10 +45,10 @@ Now you need to make links so that you can get to each of your new pages! Let's 
     </ul>
 ```
 
-- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
+- प्रत्येक लिंक के लिए `href` एट्रिब्यूट का मान बदलें (याद रखें, यह उद्धरण चिह्नों के अंदर का पाठ है) ताकि यह आपके द्वारा बनाई गई प्रत्येक HTML फ़ाइल के नाम से बिल्कुल मेल खाता हो।
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+- आपके पृष्ठों के उपयुक्त विवरण के लिए `<a> </a>` टैग के बीच के पाठ को बदलें।
 
-Now you can navigate to your new pages!
+अब आप अपने नए पृष्ठों पर जा सकते हैं!
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+![एक वेब पेज पर लिंक की उदाहरण सूची](images/egListOfPageLinks.png)
