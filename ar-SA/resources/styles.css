@@ -1,5 +1,5 @@
-body {
-  background-color: white;
+الجسم {
+  الخلفية-اللون: أبيض؛
 }
 
 
@@ -24,24 +24,24 @@ body {
 
 
 /**********************************
-This section is for styling tables
+هذا القسم مخصص لتنسيق الجداول
 ***********************************/
-table, th, td {
-  border: 1px solid HoneyDew;
-  border-collapse: collapse;
+الجدول ، th ، td {
+  الحدود: 1 بكسل المن الثابت;
+  انهيار الحدود: الانهيار;
 }
 tr {
-  background-color: PaleTurquoise;
+  الخلفية-اللون:الفيروز الشاحب;
 }
 th, td {
-  vertical-align: top;
-  padding: 5px;
-  text-align: left;
+  محاذاة عمودية: أعلى ;
+  الحشو: 5 بكسل ;
+  محاذاة النص: إلى اليسار ;
 }
 th {
-  color: purple;
+  اللون البنفسجي;
 }
-td {
-  color: purple;
+ت.د {
+  اللون البنفسجي;
 }
 /********************************/
