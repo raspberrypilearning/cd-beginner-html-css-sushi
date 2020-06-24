@@ -1,3 +1,3 @@
-## What next?
+## ¿Qué sigue?
 
-Now that you've built your first website, why not take a look at the [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project? There you can build upon your existing HTML/CSS skills, add to your website and gain more control over how it looks.
+Ahora que has creado tu primer sitio web, ¿por qué no echar un vistazo al proyecto [Intermedio HTML / CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/)? Allí puedes desarrollar tus habilidades HTML / CSS existentes, agregar a tu sitio web y obtener más control sobre cómo se ve.
