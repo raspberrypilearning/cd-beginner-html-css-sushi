@@ -34,7 +34,7 @@ Tu viens de créer ton premier lien ! Clique dessus pour voir si cela fonctionne
 
 ## title: Liens vers d'autres sites web
 
-Trinket a des problèmes avec certaines adresses web. Tu peux essayer des URL de sites web autres que Wikipédia si tu le souhaites, mais ils se peut qu'ils ne fonctionnent pas dans ton trinket. Toutefois, si tu dois télécharger ton projet et afficher les fichiers dans un navigateur Web, les liens fonctionneraient.
+Trinket a des problèmes avec certaines adresses web. Tu peux essayer des URL de sites web autres que Wikipédia si tu le souhaites, mais ils se peut qu'ils ne fonctionnent pas dans ton trinket. Toutefois, si tu télécharges ton projet et afficher les fichiers dans un navigateur Web, les liens fonctionneraient.
 
 \--- /collapse \---
 
