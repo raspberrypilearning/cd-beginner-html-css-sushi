@@ -1,0 +1,32 @@
+---
+title: 아일랜드 여행 가이드 1.0
+hero_image: images/banner.png
+description: 웹 사이트 제작 방법 배우기
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 소개
+  - title: 설정하기
+  - title: 첫 번째 웹 페이지!
+  - title: 레이아웃 조정하기
+  - title: 사진 추가하기
+  - title: 지도 또는 비디오 추가하기
+  - title: 리스트 만들기
+  - title: 링크 만들기
+  - title: 페이지 추가하기
+  - title: 웹 사이트 안내하기
+  - title: 메뉴바 만들기
+  - title: 메뉴바 꾸미기
+  - title: 테이블 추가하기
+  - title: 더 나아가기
