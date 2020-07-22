@@ -15,7 +15,8 @@
 ![مثال بخلفية زرقاء](images/egFirstCSSbluebg.png)
 
 --- collapse ---
-
+---
+title: 
 ## كيف يعمل؟
 
 إذا نظرت في أعلى ملف `index.html`، سترى السطر التالي:
