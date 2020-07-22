@@ -43,7 +43,7 @@ If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>
 
 \--- challenge \---
 
-## Challenge: navigation menus for all pages
+## Sfida: menu di navigazione per tutte le pagine
 
 - Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
     
