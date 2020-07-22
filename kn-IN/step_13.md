@@ -1,24 +1,24 @@
-## Adding a table
+## ಟೇಬಲ್ ಸೇರಿಸುವುದು
 
-Sometimes it can be useful to show information in a table. For example, you might want to list member information on a website for a local sports club or school, or information about your top ten favourite songs.
+ಕೆಲವೊಮ್ಮೆ ಕೋಷ್ಟಕದಲ್ಲಿ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಲು ಇದು ಉಪಯುಕ್ತವಾಗಿರುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, ಸ್ಥಳೀಯ ಕ್ರೀಡಾ ಕ್ಲಬ್ ಅಥವಾ ಶಾಲೆಗಾಗಿ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಸದಸ್ಯರ ಮಾಹಿತಿಯನ್ನು ಪಟ್ಟಿ ಮಾಡಲು ನೀವು ಬಯಸಬಹುದು, ಅಥವಾ ನಿಮ್ಮ ಹತ್ತು ಮೆಚ್ಚಿನ ಹಾಡುಗಳ ಬಗ್ಗೆ ಮಾಹಿತಿ.
 
-A table is a grid made up of **rows** and **columns**. Most tables also include titles at the top of each column, called the **header**. Here's an example:
+ಟೇಬಲ್ ಎನ್ನುವುದು **ಸಾಲುಗಳು** ಮತ್ತು **ಕಾಲಮ್‌ಗಳಿಂದ** ಮಾಡಲ್ಪಟ್ಟ ಗ್ರಿಡ್ ಆಗಿದೆ. ಹೆಚ್ಚಿನ ಕೋಷ್ಟಕಗಳು **header** ಎಂದು ಕರೆಯಲ್ಪಡುವ ಪ್ರತಿ ಕಾಲಮ್‌ನ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಶೀರ್ಷಿಕೆಗಳನ್ನು ಸಹ ಒಳಗೊಂಡಿರುತ್ತವೆ. ಒಂದು ಉದಾಹರಣೆ ಇಲ್ಲಿದೆ:
 
-![Example of information in a table](images/egTableResult.png)
+![ಕೋಷ್ಟಕದಲ್ಲಿನ ಮಾಹಿತಿಯ ಉದಾಹರಣೆ](images/egTableResult.png)
 
-- Go to the file `page_with_table.html`. There you will see a bunch of code in between `<table> </table>` tags.
+- `page_with_table.html` ಫೈಲ್‌ಗೆ ಹೋಗಿ. `<table> </table>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ನೀವು ಒಂದು ಗುಂಪಿನ ಕೋಡ್ ಅನ್ನು ನೋಡುತ್ತೀರಿ.
 
-- Select all of the code from the start of the `<table>` tag to the end of the closing `</table>` tag and copy it. Then go to one of your files where you would like to put a table, and paste in the code.
+- `<table>`ಟ್ಯಾಗ್‌ನ ಪ್ರಾರಂಭದಿಂದ ಮುಕ್ತಾಯದ `</table>` ಟ್ಯಾಗ್‌ನ ಕೊನೆಯವರೆಗಿನ ಎಲ್ಲಾ ಕೋಡ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಅದನ್ನು ನಕಲಿಸಿ. ನಂತರ ನೀವು ಟೇಬಲ್ ಹಾಕಲು ಬಯಸುವ ನಿಮ್ಮ ಫೈಲ್‌ಗಳಲ್ಲಿ ಒಂದಕ್ಕೆ ಹೋಗಿ ಮತ್ತು ಕೋಡ್‌ನಲ್ಲಿ ಅಂಟಿಸಿ.
 
-At the moment your table is empty.
+ಈ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಟೇಬಲ್ ಖಾಲಿಯಾಗಿದೆ.
 
-- Have a go at filling your table with anything you like! Simply put text in between the `<td> </td>` tags and in between the `<th> </th>` tags. You can add more tags if you need them.
+- ನೀವು ಇಷ್ಟಪಡುವ ಯಾವುದನ್ನಾದರೂ ನಿಮ್ಮ ಟೇಬಲ್ ತುಂಬಲು ಹೋಗಿ! `<td> </td>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಮತ್ತು `<th> </th>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಪಠ್ಯವನ್ನು ಇರಿಸಿ. ನಿಮಗೆ ಅಗತ್ಯವಿದ್ದರೆ ನೀವು ಹೆಚ್ಚಿನ ಟ್ಯಾಗ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು.
 
 ## \--- collapse \---
 
-## title: Example code
+## title: ಉದಾಹರಣೆ ಕೋಡ್
 
-The HTML code for the table shown above looks like this:
+ಮೇಲೆ ತೋರಿಸಿರುವ ಕೋಷ್ಟಕದ HTML ಕೋಡ್ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ:
 
 ```html
   <table>
@@ -52,25 +52,25 @@ The HTML code for the table shown above looks like this:
 
 \--- /collapse \---
 
-To add another **row**, add another set of `<tr> </tr>` tags. In between them, you put the same number of **data** items with `<td> </td>` tags as you have in the other rows.
+ಮತ್ತೊಂದು **ಸಾಲ**ನ್ನು ಸೇರಿಸಲು, `<tr> </tr>` ಟ್ಯಾಗ್‌ಗಳ ಮತ್ತೊಂದು ಗುಂಪನ್ನು ಸೇರಿಸಿ. ಅವುಗಳ ನಡುವೆ, ನೀವು ಇತರ ಸಾಲುಗಳಲ್ಲಿರುವಂತೆ ಅದೇ ಸಂಖ್ಯೆಯ **ಡೇಟಾ** ವಸ್ತುಗಳನ್ನು `<td> </td>` ಟ್ಯಾಗ್‌ಗಳೊಂದಿಗೆ ಇರಿಸಿ.
 
-To add another **column**, add an extra **data** item with a set of `<td> </td>` tags to **every** row. Also add an extra **header** item to the first row, using `<th> </th>` tags.
+ಮತ್ತೊಂದು **ಕಾಲಮ್** ಸೇರಿಸಲು, **ಪ್ರತಿ** ಸಾಲಿಗೆ `<td> </td>` ಟ್ಯಾಗ್‌ಗಳ ಗುಂಪಿನೊಂದಿಗೆ ಹೆಚ್ಚುವರಿ **ಡೇಟಾ** ಐಟಂ ಅನ್ನು ಸೇರಿಸಿ. `<th> </th>` ಟ್ಯಾಗ್‌ಗಳನ್ನು ಬಳಸಿಕೊಂಡು ಮೊದಲ ಸಾಲಿಗೆ ಹೆಚ್ಚುವರಿ **ಹೆಡರ್** ಐಟಂ ಅನ್ನು ಸೇರಿಸಿ.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-Let's have a look at all those tags. It's a bit like the code for a list (remember `<ul>` and `<ol>`) but with more levels.
+ಆ ಎಲ್ಲಾ ಟ್ಯಾಗ್‌ಗಳನ್ನು ನೋಡೋಣ. ಇದು ಪಟ್ಟಿಯ ಕೋಡ್‌ನಂತೆಯೇ (`<ul>` ಮತ್ತು `<ol>` ನೆನಪಿಡಿ) ಆದರೆ ಹೆಚ್ಚಿನ ಮಟ್ಟವನ್ನು ಹೊಂದಿದೆ.
 
-Each pair of `<tr> </tr>` tags is a row, so everything in between them will be displayed on one line.
+ಪ್ರತಿಯೊಂದು ಜೋಡಿ `<tr> </tr>` ಟ್ಯಾಗ್‌ಗಳು ಒಂದು ಸಾಲು, ಆದ್ದರಿಂದ ಅವುಗಳ ನಡುವೆ ಇರುವ ಎಲ್ಲವನ್ನೂ ಒಂದೇ ಸಾಲಿನಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.
 
-The first row contains `<th> </th>` tags. These are used for the headers, so the column titles go in between them. There is one pair for each column you have in your table.
+ಮೊದಲ ಸಾಲಿನಲ್ಲಿ `<th> </th>` ಟ್ಯಾಗ್‌ಗಳಿವೆ. ಇವುಗಳನ್ನು ಹೆಡರ್ಗಳಿಗಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ ಕಾಲಮ್ ಶೀರ್ಷಿಕೆಗಳು ಅವುಗಳ ನಡುವೆ ಹೋಗುತ್ತವೆ. ನಿಮ್ಮ ಕೋಷ್ಟಕದಲ್ಲಿ ನೀವು ಹೊಂದಿರುವ ಪ್ರತಿ ಕಾಲಮ್‌ಗೆ ಒಂದು ಜೋಡಿ ಇರುತ್ತದೆ.
 
-The `<td> </td>` tags define what's called table data, and that's what goes in all the other rows. These are similar to the list item tags `<li> </li>`: everything in between them is one item in your table row.
+`<td> </td>` ಟ್ಯಾಗ್‌ಗಳು ಟೇಬಲ್ ಡೇಟಾ ಎಂದು ಕರೆಯಲ್ಪಡುವದನ್ನು ವ್ಯಾಖ್ಯಾನಿಸುತ್ತವೆ, ಮತ್ತು ಅದು ಇತರ ಎಲ್ಲ ಸಾಲುಗಳಲ್ಲಿ ಹೋಗುತ್ತದೆ. ಇವುಗಳು ಪಟ್ಟಿ ಐಟಂ ಟ್ಯಾಗ್‌ಗಳಿಗೆ ಹೋಲುತ್ತವೆ `<li> </li>`: ಅವುಗಳ ನಡುವೆ ಇರುವ ಎಲ್ಲವೂ ನಿಮ್ಮ ಟೇಬಲ್ ಸಾಲಿನಲ್ಲಿರುವ ಒಂದು ಐಟಂ ಆಗಿದೆ.
 
 \--- /collapse \---
 
-- If you look at the end of the `styles.css` file, you will see the CSS code that describes how the table should look. You don't have to understand all of it! But you can experiment with changing the text, border, and background colours to design your own style.
+- `style.css` ಫೈಲ್‌ನ ಕೊನೆಯಲ್ಲಿ ನೀವು ನೋಡಿದರೆ, ಟೇಬಲ್ ಹೇಗೆ ಕಾಣಬೇಕು ಎಂಬುದನ್ನು ವಿವರಿಸುವ CSS ಕೋಡ್ ಅನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ. ನೀವು ಎಲ್ಲವನ್ನೂ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಬೇಕಾಗಿಲ್ಲ! ಆದರೆ ನಿಮ್ಮ ಸ್ವಂತ ಶೈಲಿಯನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲು ಪಠ್ಯ, ಗಡಿ ಮತ್ತು ಹಿನ್ನೆಲೆ ಬಣ್ಣಗಳನ್ನು ಬದಲಾಯಿಸುವ ಮೂಲಕ ನೀವು ಪ್ರಯೋಗಿಸಬಹುದು.
 
 ```css
   table, th, td {
@@ -93,4 +93,4 @@ The `<td> </td>` tags define what's called table data, and that's what goes in a
   }
 ```
 
-Notice how some of the selectors use commas, for example `table, th, td`? That's a **list of selectors**: it means it applies to all `<th>` elements and all `<td>` elements. It saves typing out the same set of rules for each selector!
+ಕೆಲವು ಆಯ್ಕೆದಾರರು ಅಲ್ಪವಿರಾಮಗಳನ್ನು ಹೇಗೆ ಬಳಸುತ್ತಾರೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ, ಉದಾಹರಣೆಗೆ `table, th, td`? ಅದು **ಆಯ್ಕೆಗಾರರ ​​ಪಟ್ಟಿ**: ಇದರರ್ಥ ಇದು ಎಲ್ಲಾ `<th>` ಅಂಶಗಳಿಗೆ ಮತ್ತು ಎಲ್ಲಾ `<td>` ಅಂಶಗಳಿಗೆ ಅನ್ವಯಿಸುತ್ತದೆ. ಇದು ಪ್ರತಿ ಸೆಲೆಕ್ಟರ್‌ಗೆ ಒಂದೇ ರೀತಿಯ ನಿಯಮಗಳನ್ನು ಟೈಪ್ ಮಾಡುವುದನ್ನು ಉಳಿಸುತ್ತದೆ!
