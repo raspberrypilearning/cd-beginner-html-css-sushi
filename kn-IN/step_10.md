@@ -1,22 +1,22 @@
-## Navigating your website
+## ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಸಂಚರಣಿಸುವುದು
 
-Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
+ಪುಟಗಳ ನಡುವೆ ಭೇಟಿ ನೀಡಲು ಸಂದರ್ಶಕರಿಗೆ ಸಹಾಯ ಮಾಡಲು ಅನೇಕ ವೆಬ್‌ಸೈಟ್‌ಗಳು **ನ್ಯಾವಿಗೇಷನ್** ಮೆನುವನ್ನು ಹೊಂದಿವೆ. ಈಗ ನೀವು ಪ್ರತಿ ಪುಟಕ್ಕೆ ಪುಟಗಳ ಗುಂಪೇ, ಮುಖಪುಟ ಮತ್ತು ಲಿಂಕ್‌ಗಳನ್ನು ಪಡೆದುಕೊಂಡಿದ್ದೀರಿ, ಪ್ರತಿ ಪುಟದ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಸಂಚರಣೆಯ ವಿಭಾಗಕ್ಕೆ ಲಿಂಕ್‌ಗಳ ಪಟ್ಟಿಯನ್ನು ಸರಿಸೋಣ.
 
-![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
+![ಮೇಲ್ಭಾಗದಲ್ಲಿ ಸಂಚರಣೆಯ ಲಿಂಕ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ವೆಬ್ ಪುಟದ ಉದಾಹರಣೆ](images/egNavLinksAtTop.png)
 
-- Find the code for your list of links that you created in the previous step.
+- ಹಿಂದಿನ ಹಂತದಲ್ಲಿ ನೀವು ರಚಿಸಿದ ಲಿಂಕ್‌ಗಳ ಪಟ್ಟಿಗಾಗಿ ಕೋಡ್ ಅನ್ನು ಹುಡುಕಿ.
 
-- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+- ಆರಂಭಿಕ `<ul>` ಟ್ಯಾಗ್‌ಗೆ ಸ್ವಲ್ಪ ಮೊದಲು, ಹೊಸ ಖಾಲಿ ರೇಖೆಯನ್ನು ರಚಿಸಲು **ಎಂಟರ್**ಅನ್ನು ಒತ್ತಿ, ನಂತರ ಹೊಸ ಸಾಲಿನಲ್ಲಿ ಈ ಮುಂದಿನ ಟ್ಯಾಗ್ ಅನ್ನು ಟೈಪ್ ಮಾಡಿ: `<nav>`. Trinket ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮುಕ್ತಾಯದ ಟ್ಯಾಗ್ ಅನ್ನು ಸೇರಿಸುತ್ತದೆ, ಆದರೆ ನೀವು ಅದನ್ನು ಅಳಿಸಬಹುದು - ಅದು ಸರಿಯಾದ ಸ್ಥಳದಲ್ಲಿಲ್ಲ.
 
-- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+- ಮುಚ್ಚುವ `</ul>` ಟ್ಯಾಗ್‌ನ **ನಂತರ**, ಹೊಸ ಖಾಲಿ ರೇಖೆಯನ್ನು ರಚಿಸಲು **ಎಂಟರ್**ಅನ್ನು ಒತ್ತಿ, ಮತ್ತು ಅಲ್ಲಿ ಮುಚ್ಚುವ ಟ್ಯಾಗ್ `</nav>` ಅನ್ನು ಟೈಪ್ ಮಾಡಿ.
 
-- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+- ಈಗ ಆರಂಭಿಕ `<nav>` ಟ್ಯಾಗ್‌ಗೆ ಸ್ವಲ್ಪ ಮೊದಲು ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಮತ್ತು ಮುಚ್ಚುವ `</nav>` ಟ್ಯಾಗ್‌ನ ನಂತರ ಮೌಸ್ ಅನ್ನು ಎಲ್ಲಾ ರೀತಿಯಲ್ಲಿ ಎಳೆಯುವ ಮೂಲಕ ನಿಮ್ಮ ಸಂಪೂರ್ಣ `<nav>` ವಿಭಾಗ ಮತ್ತು ಪಟ್ಟಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಇದರಿಂದಾಗಿ ಆರಂಭಿಕ ಮತ್ತು ಮುಚ್ಚುವ ಟ್ಯಾಗ್‌ಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲಾ ಪಠ್ಯಗಳು ಹೈಲೈಟ್ ಆಗುತ್ತವೆ. ಪ್ರಾರಂಭ ಮತ್ತು ಕೊನೆಯಲ್ಲಿ ಎಲ್ಲಾ **ಕೋನ ಆವರಣಗಳು** `<` ಮತ್ತು `>` ಅನ್ನು ಹೈಲೈಟ್ ಮಾಡಲಾಗಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ!
 
-![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+![ಬಲಭಾಗದಲ್ಲಿರುವ ಪಠ್ಯವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಆಯ್ಕೆಮಾಡಿದಾಗ ಎಡಭಾಗದಲ್ಲಿರುವ ಪಠ್ಯವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ](images/egSelectedYayWoops.png)
 
-- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+- ನೀವು ನಕಲಿಸುವ ಬದಲು ಈ ಬಾರಿ **ಕತ್ತರಿಸಲಿದ್ದೀರಿ**. <kbd>Ctrl</kbd> (ಅಥವಾ <kbd>cmd</kbd>) ಕೀಲಿಯನ್ನು ಒತ್ತಿಹಿಡಿಯಿರಿ ಮತ್ತು ಅದನ್ನು ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವಾಗ, <kbd>X</kbd> ಕೀಲಿಯನ್ನು ಒತ್ತಿ. ಹೈಲೈಟ್ ಮಾಡಿದ ಕೋಡ್ ಕಣ್ಮರೆಯಾಗುತ್ತದೆ, ಆದರೆ ಭಯಪಡಬೇಡಿ!
 
-- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+- ಫೈಲ್‌ನ ಮೇಲ್ಭಾಗದಲ್ಲಿ, `<header> </header>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವಿನ ಜಾಗದಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ. ಅಲ್ಲಿ ಕರ್ಸರ್ ಮಿನುಗುತ್ತಿರುವುದನ್ನು ನೀವು ನೋಡಿದ್ದೀರಾ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಈಗ ಎಂದಿನಂತೆ <kbd>Ctrl</kbd> (ಅಥವಾ <kbd>cmd</kbd>) ಮತ್ತು <kbd>V</kbd> ಅನ್ನು ಒತ್ತುವ ಮೂಲಕ ಕೋಡ್ ಅಂಟಿಸಿ. ಕೋಡ್ ಈ ರೀತಿ ಕಾಣಬೇಕು:
 
 ```html
     <header>
@@ -33,32 +33,32 @@ Many websites have a **navigation** menu to help visitors move between pages. No
 
 ## \--- collapse \---
 
-## title: Undo!
+## title: ರದ್ದುಗೊಳಿಸಿ!
 
-If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
+ನೀವು ತಪ್ಪು ಮಾಡಿದರೆ, <kbd>Ctrl</kbd> (ಅಥವಾ <kbd>cmd</kbd>) ಮತ್ತು <kbd>Z</kbd> ಅನ್ನು ಒಟ್ಟಿಗೆ ಒತ್ತುವ ಮೂಲಕ ನೀವು ಅದನ್ನು **ರದ್ದುಗೊಳಿಸಬಹುದು**. ಕೊನೆಯ ಕೆಲವು ಬದಲಾವಣೆಗಳನ್ನು ರದ್ದುಗೊಳಿಸಲು ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ಈ ಕೀ ಸಂಯೋಜನೆಯನ್ನು ಕೆಲವು ಬಾರಿ ಒತ್ತಿ. ನೀವು ಅನೇಕ ಪ್ರೋಗ್ರಾಮ್ಗಳಲ್ಲಿ ಬಳಸಬಹುದಾದ ಮತ್ತೊಂದು ಸೂಕ್ತ ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್ ಇದು!
 
 \--- /collapse \---
 
-- Try out your links to make sure they are still working.
+- ನಿಮ್ಮ ಲಿಂಕ್‌ಗಳು ಇನ್ನೂ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಪ್ರಯತ್ನಿಸಿ.
 
 \--- challenge \---
 
-## Challenge: navigation menus for all pages
+## ಸವಾಲು: ಎಲ್ಲಾ ಪುಟಗಳಿಗೆ ಸಂಚರಣೆ ಮೆನುಗಳು
 
-- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+- ಈ ಕೋಡ್ ವಿಭಾಗವನ್ನು ನೀವು ರಚಿಸಿದ ಪ್ರತಿ HTML ಫೈಲ್‌ನ ಹೆಡರ್ ವಿಭಾಗಕ್ಕೆ ಇರಿಸಿ. ಇದು ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿನ ಪ್ರತಿ ಪುಟದ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಸಂಚರಣೆ ಮೆನು ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ.
     
     \--- hints \---
     
     \--- hint \---
 
-Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+ನೀವು ಮೊದಲು ಮಾಡಿದಂತೆ ಸಂಪೂರ್ಣ `<nav>` ವಿಭಾಗವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು ಅದನ್ನು ನಕಲಿಸಲು <kbd>Ctrl</kbd> (ಅಥವಾ <kbd>cmd</kbd>) ಮತ್ತು <kbd>C</kbd> ಕೀಗಳನ್ನು ಒಟ್ಟಿಗೆ ಒತ್ತಿರಿ.
 
-Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
+ನಂತರ, ನಿಮ್ಮ ಪ್ರತಿಯೊಂದು `.html` ಫೈಲ್‌ಗಳಲ್ಲಿ, `<header> </header>` ವಿಭಾಗದ ಒಳಗೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನೀವು ಮೊದಲಿನಂತೆಯೇ ಕೋಡ್ ಅನ್ನು ಅಂಟಿಸಿ.
 
 \--- /hint \---
 
 \--- /hints \---
 
-Now you will be able to click the links no matter which page you are on.
+ಈಗ ನೀವು ಯಾವ ಪುಟದಲ್ಲಿದ್ದರೂ ಲಿಂಕ್‌ಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುತ್ತದೆ.
 
 \--- /challenge \---
