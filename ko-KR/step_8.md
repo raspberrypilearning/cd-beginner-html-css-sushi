@@ -43,7 +43,7 @@ Trinket은 일부 웹 주소에 들어가는 것에 일부 문제가 있습니�
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
-      <img src="tito.png" alt="Tito the dog" width="100px" />
+      <img src="tito.png" alt="강아지 티토" width="100px" />
   </a>
 ```
 

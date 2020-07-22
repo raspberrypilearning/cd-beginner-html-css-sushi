@@ -5,7 +5,7 @@
 - `index.html` 탭으로 이동하세요. `</main>` 태그를 찾아 아래 내용을 **그 위에** 입력하십시오: 
 
 ```html
-    <img src="tito.png" alt="Tito the dog" width="100px" />
+    <img src="tito.png" alt="강아지 티토" width="100px" />
 ```
 
 아래와 같이 보일 것입니다:
