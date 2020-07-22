@@ -1,10 +1,10 @@
-## Introduction
+## ಪರಿಚಯ
 
-Learn how to code your first website!
+ನಿಮ್ಮ ಮೊದಲ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಹೇಗೆ ಕೋಡ್ ಮಾಡುವುದು ಎಂದು ತಿಳಿಯಿರಿ!
 
-### What you will make
+### ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
 
-Build a website about your home country, like the one in the trinket below.
+ಕೆಳಗಿನ trinket ‌ನಲ್ಲಿರುವಂತೆ ನಿಮ್ಮ ತಾಯ್ನಾಡಿನ ಬಗ್ಗೆ ವೆಬ್‌ಸೈಟ್ ನಿರ್ಮಿಸಿ.
 
 <div class="scratch-preview">
   <iframe src="https://trinket.io/embed/html/8d5e6e8aad" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -12,26 +12,26 @@ Build a website about your home country, like the one in the trinket below.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ನೀವು ಏನು ಕಲಿಯುವಿರಿ
 
-+ Using an online editor to create a website made up of HTML files and a CSS file
-+ Building a HTML website that has headings, paragraph text, lists, and images
-+ Using CSS code to control the look of your website, including designing a simple menu bar and changing colours, backgrounds, and borders
-+ Linking pages to each other, and linking to other websites
-+ Creating a table that includes headings and multiple rows
++ HTML ಫೈಲ್‌ಗಳು ಮತ್ತು CSS ಫೈಲ್‌ನಿಂದ ಮಾಡಲ್ಪಟ್ಟ ವೆಬ್‌ಸೈಟ್ ರಚಿಸಲು ಆನ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಬಳಸುವುದು
++ ಶೀರ್ಷಿಕೆಗಳು, ವಾಕ್ಯವೃಂದ ಪಠ್ಯ, ಪಟ್ಟಿಗಳು ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ಹೊಂದಿರುವ HTML ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ನಿರ್ಮಿಸುವುದು
++ ಸರಳವಾದ ಮೆನು ಬಾರ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸುವುದು ಮತ್ತು ಬಣ್ಣಗಳನ್ನು, ಹಿನ್ನೆಲೆಗಳು ಮತ್ತು ಗಡಿಗಳು ಬದಲಾಯಿಸುವುದು ಸೇರಿದಂತೆ, ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನ ನೋಟವನ್ನು ನಿಯಂತ್ರಿಸಲು CSS ಕೋಡ್ಅನ್ನು ಬಳಸುವುದು
++ ಪುಟಗಳನ್ನು ಪರಸ್ಪರ ಲಿಂಕ್ ಮಾಡುವುದು ಮತ್ತು ಇತರ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗೆ ಲಿಂಕ್ ಮಾಡುವುದು
++ ಶೀರ್ಷಿಕೆಗಳು ಮತ್ತು ಬಹು ಸಾಲುಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಟೇಬಲ್ ಅನ್ನು ರಚಿಸುವುದು
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you need
+## title: ನಿಮಗೆ ಬೇಕಾದುದು
 
-### Hardware
+### ಹಾರ್ಡ್ವೇರ್
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ [trinket.io](https://trinket.io){:target="_blank"} ಪ್ರವೇಶಿಸಲು ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
 
-### Software
+### ಸಾಫ್ಟ್ವೇರ್
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+[ trinket.io](https://trinket.io){:target="_blank"} ನನ್ನು ಬಳಸಿ ವೆಬ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಈ ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಬಹುದು.
 
 \--- /collapse \---
