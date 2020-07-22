@@ -1,7 +1,7 @@
 ---
-title: Guide to my country 1.0
+title: ನನ್ನ ದೇಶಕ್ಕೆ ಮಾರ್ಗದರ್ಶನ 1.0
 hero_image: images/banner.png
-description: Learn to make a website
+description: ವೆಬ್‌ಸೈಟ್ ಮಾಡಲು ಕಲಿಯಿರಿ
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
@@ -17,30 +17,30 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Getting set up
+    title: ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
   - 
-    title: Your first webpage!
+    title: ನಿಮ್ಮ ಮೊದಲ ಅಂತರ್ಜಾಲ ಪುಟ!
   - 
-    title: Controlling how it looks
+    title: ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸುವುದು
   - 
-    title: Adding pictures
+    title: ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸುವುದು
   - 
-    title: Adding a map or video
+    title: ನಕ್ಷೆ ಅಥವಾ ದೃಶ್ಯವನ್ನು ಸೇರಿಸುವುದು
   - 
-    title: Making a list
+    title: ಪಟ್ಟಿಯನ್ನು ತಯಾರಿಸುವುದು
   - 
-    title: Creating links
+    title: ಲಿಂಕ್‌ಗಳನ್ನು ರಚಿಸುವುದು
   - 
-    title: Adding more pages
+    title: ಹೆಚ್ಚಿನ ಪುಟಗಳನ್ನು ಸೇರಿಸುವುದು
   - 
-    title: Navigating your website
+    title: ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಸಂಚರಣಿಸುವುದು
   - 
-    title: Making a menu bar
+    title: ಮೆನು ಬಾರ್ ಮಾಡುವುದು
   - 
-    title: Styling the menu bar
+    title: ಮೆನು ಬಾರ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸುವುದು
   - 
-    title: Adding a table
+    title: ಟೇಬಲ್ ಸೇರಿಸುವುದು
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
