@@ -1,3 +1,3 @@
-## What next?
+## ಮುಂದೆ ಏನು?
 
-Now that you've built your first website, why not take a look at the [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project? There you can build upon your existing HTML/CSS skills, add to your website and gain more control over how it looks.
+ಈಗ ನೀವು ನಿಮ್ಮ ಮೊದಲ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ನಿರ್ಮಿಸಿದ್ದೀರಿ, ಏಕೆ [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) ಯೋಜನೆಯನ್ನು ನೋಡಬಾರದು? ನಿಮ್ಮ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ HTML/CSS ಕೌಶಲ್ಯಗಳನ್ನು ನೀವು ಅಲ್ಲಿ ನಿರ್ಮಿಸಬಹುದು, ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಸೇರಿಸಿ ಮತ್ತು ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದರ ಕುರಿತು ಹೆಚ್ಚಿನ ನಿಯಂತ್ರಣವನ್ನು ಪಡೆಯಿರಿ.
