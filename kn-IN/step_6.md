@@ -1,29 +1,29 @@
-## Adding a map or video
+## ನಕ್ಷೆ ಅಥವಾ ದೃಶ್ಯವನ್ನು ಸೇರಿಸುವುದು
 
-YouTube provides an easy way to add its videos to your website. Adding elements from other online sources to your website is also called **embedding**.
+ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಅದರ ದೃಶ್ಯಗಳನ್ನು ಸೇರಿಸಲು YouTube ಸುಲಭವಾದ ಮಾರ್ಗವನ್ನು ಒದಗಿಸುತ್ತದೆ. ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಇತರ ಆನ್‌ಲೈನ್ ಮೂಲಗಳಿಂದ ಅಂಶಗಳನ್ನು ಸೇರಿಸುವುದನ್ನು **ಎಂಬೆಡಿಂಗ್** ಎಂದೂ ಕರೆಯಲಾಗುತ್ತದೆ.
 
-- Find a video on YouTube that you want to show on your website.
+- ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ನೀವು ತೋರಿಸಲು ಬಯಸುವ ದೃಶ್ಯವನ್ನು YouTube ‌ನಲ್ಲಿ ಹುಡುಕಿ.
 
-- Click on the **Share** button below the video. Select the option **Embed**.
+- ದೃಶ್ಯದ ಕೆಳಗಿನ **Share** ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ. **Embed** ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.
 
-You will see a text box with all the text selected. If you accidentally unselect the text, you can select it all again by clicking on it and pressing the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>A</kbd> keys at the same time.
+ಆಯ್ಕೆ ಮಾಡಿದ ಎಲ್ಲಾ ಪಠ್ಯದೊಂದಿಗೆ ನೀವು ಪಠ್ಯ ಪೆಟ್ಟಿಗೆಯನ್ನು ನೋಡುತ್ತೀರಿ. ನೀವು ಆಕಸ್ಮಿಕವಾಗಿ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡದಿದ್ದಲ್ಲಿ, ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು <kbd>Ctrl</kbd> (ಅಥವಾ Mac ‌ನಲ್ಲಿ <kbd>cmd</kbd>) ಮತ್ತು <kbd>A</kbd> ಕೀಗಳನ್ನು ಒಂದೇ ಸಮಯದಲ್ಲಿ ಒತ್ತುವ ಮೂಲಕ ನೀವು ಎಲ್ಲವನ್ನೂ ಮತ್ತೆ ಆಯ್ಕೆ ಮಾಡಬಹುದು.
 
-![YouTube's embed option with code selected](images/EmbedYouTube.png)
+![ಕೋಡ್‌ನೊಂದಿಗೆ YouTube ನ ಎಂಬೆಡ್ ಆಯ್ಕೆ](images/EmbedYouTube.png)
 
-- Press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>C</kbd> keys together to copy the text.
+- ಪಠ್ಯವನ್ನು ನಕಲಿಸಲು <kbd>Ctrl</kbd> (ಅಥವಾ Mac ನಲ್ಲಿ <kbd>cmd</kbd>) ಮತ್ತು <kbd>C</kbd> ಕೀಗಳನ್ನು ಒಟ್ಟಿಗೆ ಒತ್ತಿರಿ.
 
-- Then go back to your website's HTML code, and click in the place where you want to put the video, for example below a heading or paragraph. **Paste** the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd> on a Mac) and <kbd>V</kbd> on your keyboard at the same time. Don't worry about understanding all the code you just pasted!
+- ನಂತರ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನ HTML ಕೋಡ್‌ಗೆ ಹಿಂತಿರುಗಿ, ಮತ್ತು ನೀವು ದೃಶ್ಯವನ್ನು ಇರಿಸಲು ಬಯಸುವ ಸ್ಥಳದಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ, ಉದಾಹರಣೆಗೆ ಶೀರ್ಷಿಕೆ ಅಥವಾ ಪ್ಯಾರಾಗ್ರಾಫ್ ಕೆಳಗೆ. ಒಂದೇ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಕೀಬೋರ್ಡ್‌ನಲ್ಲಿ <kbd>Ctrl</kbd> (ಅಥವಾ Mac ನಲ್ಲಿ <kbd>cmd</kbd>) ಮತ್ತು <kbd>V</kbd> ಅನ್ನು ಒತ್ತುವ ಮೂಲಕ ಕೋಡ್ **ಅಂಟಿಸಿ**. ನೀವು ಅಂಟಿಸಿದ ಎಲ್ಲಾ ಕೋಡ್ ಅನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವ ಬಗ್ಗೆ ಚಿಂತಿಸಬೇಡಿ!
 
-![Example of the embedding code pasted into a HTML page](images/EmbedYouTube2.png)
+![HTML ಪುಟಕ್ಕೆ ಅಂಟಿಸಲಾದ ಎಂಬೆಡಿಂಗ್ ಕೋಡ್‌ನ ಉದಾಹರಣೆ](images/EmbedYouTube2.png)
 
-You should see the video appear on your webpage.
+ನಿಮ್ಮ ಅಂತರ್ಜಾಲ ಪುಟದಲ್ಲಿ ದೃಶ್ಯ ಕಾಣಿಸಿಕೊಳ್ಳುವುದನ್ನು ನೀವು ನೋಡಬೇಕು.
 
-The same technique works for Google maps as well. Give it a go!
+ಗೂಗಲ್ ನಕ್ಷೆಗಳಿಗೂ ಇದೇ ತಂತ್ರವು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಅದನ್ನೂ ಪ್ರಯತ್ನಿಸಿ!
 
-- Go [here](http://dojo.soy/google-maps) and search for a place you want to show on your website. **Note:** do **not** share personal information such as your home address on a website!
+- [ಇಲ್ಲಿಗೆ](http://dojo.soy/google-maps) ಹೋಗಿ ಮತ್ತು ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ನೀವು ತೋರಿಸಲು ಬಯಸುವ ಸ್ಥಳವನ್ನು ಹುಡುಕಿ. **ಗಮನಿಸಿ:** ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಮನೆಯ ವಿಳಾಸದಂತಹ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು **ಹಂಚಿಕೊಳ್ಳಬೇಡಿ**!
 
-- Click on the result, then click the **Share** button, and copy the code and add it to your website as above. ![Embed option selected in Google Maps](images/EmbedGoogleMap.png)
+- ಫಲಿತಾಂಶದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ನಂತರ **Share** ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ, ಮತ್ತು ಕೋಡ್ ಅನ್ನು ನಕಲಿಸಿ ಮತ್ತು ಮೇಲಿನಂತೆ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಸೇರಿಸಿ. ![ಗೂಗಲ್ ನಕ್ಷೆಗಳಲ್ಲಿ ಎಂಬೆಡ್ ಆಯ್ಕೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ](images/EmbedGoogleMap.png)
 
-- If you look carefully, you should find `width` and `height` **attributes** in the pasted code. You can change their values to make the map appear bigger or smaller.
+- ನೀವು ಎಚ್ಚರಿಕೆಯಿಂದ ನೋಡಿದರೆ, ಅಂಟಿಸಿದ ಕೋಡ್‌ನಲ್ಲಿ ನೀವು `width` ಮತ್ತು `height` **ಗುಣಲಕ್ಷಣಗಳನ್ನು** ಕಂಡುಹಿಡಿಯಬೇಕು. ನಕ್ಷೆಯು ದೊಡ್ಡದಾಗಿ ಅಥವಾ ಚಿಕ್ಕದಾಗಿ ಕಾಣುವಂತೆ ನೀವು ಅವರ ಮೌಲ್ಯಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು.
 
-![Example of embedded Google Map with width and height attributes selected](images/EmbeddedGoogleMapCode.png)
+![ಅಗಲ ಮತ್ತು ಎತ್ತರ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗೆ ಎಂಬೆಡೆಡ್ ಗೂಗಲ್ ನಕ್ಷೆಯ ಉದಾಹರಣೆ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ](images/EmbeddedGoogleMapCode.png)
