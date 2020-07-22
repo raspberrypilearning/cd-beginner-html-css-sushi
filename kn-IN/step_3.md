@@ -1,12 +1,12 @@
-## Your first webpage!
+## ನಿಮ್ಮ ಮೊದಲ ಅಂತರ್ಜಾಲ ಪುಟ!
 
-- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
+- ಎಡಗೈ ಫಲಕದಲ್ಲಿ, **ಕೋಡ್ ಪ್ಯಾನಲ್**, `index.html` ಎಂದು ಹೇಳುವ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
+- `Welcome to Ireland!` ಎಂದು ಹೇಳುವ ಸಾಲನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅದನ್ನು ನಿಮ್ಮ ಸ್ವಂತ ಸಂದೇಶಕ್ಕೆ ಬದಲಾಯಿಸಿ - ಸಾಲಿನ ಪ್ರಾರಂಭದಲ್ಲಿ `<p>` ಮತ್ತು ಸಾಲಿನ ಕೊನೆಯಲ್ಲಿ `</p>` ಟ್ಯಾಗ್‌ಗಳನ್ನು **ಅಳಿಸದಂತೆ** ಜಾಗರೂಕರಾಗಿರಿ. ನಿಮ್ಮ ವೆಬ್‌ಪುಟದ ನವೀಕರಣವನ್ನು ನೀವು ಬಲಗೈ ಫಲಕದಲ್ಲಿ ನೋಡಬೇಕು.
 
-![HTML paragraph example](images/egFirstHtmlCode.png)
+![HTML ಪ್ಯಾರಾಗ್ರಾಫ್ ಉದಾಹರಣೆ](images/egFirstHtmlCode.png)
 
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
+- ಈಗ ಅದೇ ಸಾಲಿನಲ್ಲಿ, `<p>` ಮತ್ತು ` </p> ` ಅನ್ನು `<h1>` ಮತ್ತು ` </h1> ` ಗೆ ಬದಲಾಯಿಸಿ. ಬಲಭಾಗದಲ್ಲಿರುವ ಫಲಿತಾಂಶದಲ್ಲಿ ಯಾವುದೇ ಬದಲಾವಣೆಯನ್ನು ನೀವು ಗಮನಿಸುತ್ತೀರಾ?
 
 ```html
   <h1>Welcome to Ireland!</h1>
@@ -14,27 +14,27 @@
 
 ## \--- collapse \---
 
-## title: HTML and tags explained
+## title: HTML ಮತ್ತು ಟ್ಯಾಗ್‌ಗಳನ್ನು ವಿವರಿಸಲಾಗಿದೆ
 
-**HTML** is the code that makes a webpage.
+**HTML** ಅಂತರ್ಜಾಲ ಪುಟವನ್ನು ಮಾಡುವ ಕೋಡ್ ಆಗಿದೆ.
 
-The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
+ಫೈಲ್ ಹೆಸರಿನಲ್ಲಿರುವ `.html` ಫೈಲ್ ಅಂತರ್ಜಾಲ ಪುಟ ಎಂದು ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುತ್ತದೆ, ಆದ್ದರಿಂದ ಏನು ಪ್ರದರ್ಶಿಸಬೇಕು ಎಂದು ಹೇಳುವ **ಟ್ಯಾಗ್**‌ಗಳನ್ನು ನೋಡಲು ಬ್ರೌಸರ್‌ಗೆ ತಿಳಿದಿದೆ. (ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ನೋಡಲು ನೀವು ಬಳಸುವ ಪ್ರೋಗ್ರಾಂ ಬ್ರೌಸರ್, ಉದಾಹರಣೆಗೆ ಕ್ರೋಮ್ ಅಥವಾ ಫೈರ್‌ಫಾಕ್ಸ್.)
 
-HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+`<p>` ಮತ್ತು `</p>` ನಂತಹ HTML ಟ್ಯಾಗ್‌ಗಳು ಪುಟದ ವಿಭಿನ್ನ ತುಣುಕುಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸುತ್ತವೆ, ಉದಾಹರಣೆಗೆ ಪ್ಯಾರಾಗಳು, ಶೀರ್ಷಿಕೆಗಳು ಅಥವಾ ದೇಹ. ತುಣುಕುಗಳನ್ನು ಎಲ್ಲಾ **ಅಂಶಗಳು** ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಅವುಗಳನ್ನು ಬಿಲ್ಡಿಂಗ್ ಬ್ಲಾಕ್ಸ್ ಎಂದು ಯೋಚಿಸಿ.
 
-### Why do I need two tags?
+### ನನಗೆ ಎರಡು ಟ್ಯಾಗ್‌ಗಳು ಏಕೆ ಬೇಕು?
 
-You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
+ಅಂಶಗಳು ಎಲ್ಲಿ **ಪ್ರಾರಂಭವಾಗುತ್ತವೆ** ಮತ್ತು **ಕೊನೆಗೊಳ್ಳುತ್ತವೆ** ಎಂಬುದನ್ನು ಬ್ರೌಸರ್‌ಗೆ ಹೇಳಲು ನಿಮಗೆ **ಆರಂಭಿಕ** ಮತ್ತು **ಮುಕ್ತಾಯದ** ಟ್ಯಾಗ್ ಅಗತ್ಯವಿದೆ. ಆದ್ದರಿಂದ ಪ್ಯಾರಾಗ್ರಾಫ್‌‌ಗೆ, ಆರಂಭಿಕ `<p>` ಟ್ಯಾಗ್ "ಇಲ್ಲಿ ನೀವು ಕೆಲವು ಪ್ಯಾರಾಗ್ರಾಫ್‌ನಂತೆ ಪ್ರದರ್ಶಿಸಲು ಬಯಸುವ ಕೆಲವು ಪಠ್ಯ ಬರುತ್ತದೆ" ಎಂದು ಹೇಳುತ್ತದೆ. ಪ್ಯಾರಾಗ್ರಾಫ್ ಎಲ್ಲಿ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ ಎಂದು ಮುಚ್ಚುವ `</p>` ಟ್ಯಾಗ್ ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುತ್ತದೆ.
 
-Everything in between the `<body>` and `</body>` tags is your webpage.
+`<body>` ಮತ್ತು `</body>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಇರುವ ಎಲ್ಲವೂ ನಿಮ್ಮ ಅಂತರ್ಜಾಲ ಪುಟ.
 
-- Notice how the closing tag **always** has a forward slash `/`.
+- ಮುಚ್ಚುವ ಟ್ಯಾಗ್ **ಯಾವಾಗಲೂ** ಫಾರ್ವರ್ಡ್ ಸ್ಲ್ಯಾಷ್ `/` ಅನ್ನು ಹೇಗೆ ಹೊಂದಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ.
 
 \--- /collapse \---
 
-- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
+- ಅವರು ನಿಮಗೆ ನೀಡುವ ವಿಭಿನ್ನ ಗಾತ್ರಗಳನ್ನು ನೋಡಲು ನಿಮ್ಮ **ಶೀರ್ಷಿಕೆ** ಟ್ಯಾಗ್‌ಗಳಲ್ಲಿನ ಸಂಖ್ಯೆಗಳನ್ನು ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಿ. ಅವರು `<h1>` ರಿಂದ `<h6>` ವರೆಗೆ ಹೋಗಬಹುದು. ಆರಂಭಿಕ ಮತ್ತು ಮುಚ್ಚುವ ಟ್ಯಾಗ್ ಎರಡನ್ನೂ ಬದಲಾಯಿಸಲು ಮರೆಯದಿರಿ ಇದರಿಂದ ಅವು ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ.
 
-- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
+- `My website is about Ireland.` ಎಂದು ಹೇಳುವ ಪ್ಯಾರಾಗ್ರಾಫ್‌ಗಾಗಿ ಕೋಡ್ ಅನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅದನ್ನು ಬದಲಾಯಿಸಿ ಇದರಿಂದ ಅದು ಈ ರೀತಿ ಕಾಣುತ್ತದೆ:
 
 ```html
   <p>
@@ -43,27 +43,27 @@ Everything in between the `<body>` and `</body>` tags is your webpage.
   </p>
 ```
 
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+`<em> </em>` ಮತ್ತು `<strong> </strong>` ಟ್ಯಾಗ್‌ಗಳು ಏನು ಮಾಡುತ್ತವೆ ಎಂಬುದನ್ನು ನೀವು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಬಹುದೇ?
 
-![Example of HTML tags](images/egFirstTags.png)
+![HTML ಟ್ಯಾಗ್‌ಗಳ ಉದಾಹರಣೆ](images/egFirstTags.png)
 
 \--- challenge \---
 
-## Challenge: add some more text of your own
+## ಸವಾಲು: ನಿಮ್ಮದೇ ಆದ ಇನ್ನೂ ಕೆಲವು ಪಠ್ಯವನ್ನು ಸೇರಿಸಿ
 
-- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
+- ನೀವು ಕಲಿತ ಕೆಲವು ಟ್ಯಾಗ್‌ಗಳನ್ನು ಬಳಸಿಕೊಂಡು ಹೊಸ ಪ್ಯಾರಾಗ್ರಾಫ್ ಸೇರಿಸಲು ಅಥವಾ ನಿಮ್ಮ ಪುಟಕ್ಕೆ ಹೋಗಲು ಪ್ರಯತ್ನಿಸಿ.
 
 \--- hints \---
 
 \--- hint \---
 
-When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+ನೀವು ಪುಟದಲ್ಲಿ ಪಠ್ಯವನ್ನು ಹಾಕಲು ಬಯಸಿದಾಗ, ನಿಮ್ಮ ಪಠ್ಯವನ್ನು ಹೇಗೆ ಪ್ರದರ್ಶಿಸಬೇಕು ಎಂದು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುವ ಎರಡು ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ನೀವು ಅದನ್ನು ಹಾಕಬೇಕಾಗುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, `<p> </p>` ಟ್ಯಾಗ್‌ಗಳು ಬ್ರೌಸರ್‌ಗೆ ಅವುಗಳ ನಡುವೆ ಇರುವುದು ಪಠ್ಯದ ಹೊಸ ಪ್ಯಾರಾಗ್ರಾಫ್ ಎಂದು ಹೇಳುತ್ತದೆ, ಮತ್ತು `<h1> </h1>` ಟ್ಯಾಗ್‌ಗಳು ಅದರ ನಡುವಿನ ಪಠ್ಯವು ಶೀರ್ಷಿಕೆಯಾಗಿದೆ ಎಂದು ಹೇಳುತ್ತದೆ.
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for paragraphs looks like this:
+ಪ್ಯಾರಾಗಳ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ:
 
 ```html
   <p>This is one paragraph of text.</p>
@@ -77,13 +77,13 @@ The code for paragraphs looks like this:
 
 \--- hint \---
 
-The code for headings looks like this:
+ಶೀರ್ಷಿಕೆಗಳ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ:
 
 ```html
   <h1>This is a heading.</h1>
 ```
 
-Headings will normally be displayed bigger or bolder than the paragraphs.
+ಶೀರ್ಷಿಕೆಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಪ್ಯಾರಾಗಳಿಗಿಂತ ದೊಡ್ಡದಾಗಿ ಅಥವಾ ದಪ್ಪವಾಗಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.
 
 \--- /hint \---
 
@@ -91,4 +91,4 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /challenge \---
 
-Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
+ಅಭಿನಂದನೆಗಳು, ನಿಮ್ಮ ಮೊದಲ ಅಂತರ್ಜಾಲ ಪುಟವನ್ನು ನೀವು ನಿರ್ಮಿಸಿದ್ದೀರಿ! ಮುಂದಿನ ಕಾರ್ಡ್‌ನಲ್ಲಿ, ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸುವುದು ಹೇಗೆ ಎಂದು ನೀವು ಕಂಡುಕೊಳ್ಳುತ್ತೀರಿ.
