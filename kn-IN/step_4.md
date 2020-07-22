@@ -1,8 +1,8 @@
-## Controlling how it looks
+## ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸುವುದು
 
-The code that describes what a website looks like is called **CSS**.
+ವೆಬ್‌ಸೈಟ್ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ವಿವರಿಸುವ ಕೋಡ್ ಅನ್ನು **CSS** ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.
 
-- Look at the tabs at the top of the code panel, and go to the file `styles.css` by clicking on the tab with that name. The file contains the following text:
+- ಕೋಡ್ ಪ್ಯಾನೆಲ್‌ನ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಟ್ಯಾಬ್‌ಗಳನ್ನು ನೋಡಿ, ಮತ್ತು `style.css` ಹೆಸರಿನೊಂದಿಗೆ ಟ್ಯಾಬ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವುದರ ಮೂಲಕ ಆ ಫೈಲ್‌ಗೆ ಹೋಗಿ. ಫೈಲ್ ಈ ಕೆಳಗಿನ ಪಠ್ಯವನ್ನು ಒಳಗೊಂಡಿದೆ:
 
 ```css
   body {
@@ -10,35 +10,35 @@ The code that describes what a website looks like is called **CSS**.
   }
 ```
 
-- Change the `white` colour to `LightSkyBlue` and see what happens. Your website should now have a blue background! 
+- `ಬಿಳಿ` ಬಣ್ಣವನ್ನು `ತಿಳಿ ಆಕಾಶ ನೀಲಿ` ಗೆ ಬದಲಾಯಿಸಿ ಮತ್ತು ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಿ. ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಈಗ ನೀಲಿ ಹಿನ್ನೆಲೆ ಹೊಂದಿರಬೇಕು! 
 
-![Example with blue background](images/egFirstCSSbluebg.png)
+![ನೀಲಿ ಹಿನ್ನೆಲೆಯೊಂದಿಗೆ ಉದಾಹರಣೆ](images/egFirstCSSbluebg.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-If you look at the top of the `index.html` file, you will see the following line:
+ನೀವು `index.html` ಫೈಲ್‌ನ ಮೇಲ್ಭಾಗವನ್ನು ನೋಡಿದರೆ, ನೀವು ಈ ಕೆಳಗಿನ ಸಾಲನ್ನು ನೋಡುತ್ತೀರಿ:
 
 ```html
   <link type="text/css" rel="stylesheet" href="styles.css"/>
 ```
 
-The above line tells the browser to look for a special file named `styles.css`. This special file is called a **style sheet**. You can recognise a style sheet file by the `.css` in its name.
+`style.css` ಹೆಸರಿನ ವಿಶೇಷ ಫೈಲ್ ಅನ್ನು ನೋಡಲು ಮೇಲಿನ ಸಾಲು ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುತ್ತದೆ. ಈ ವಿಶೇಷ ಫೈಲ್ ಅನ್ನು **ಸ್ಟೈಲ್ ಶೀಟ್(style sheet)** ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಸ್ಟೈಲ್ ಶೀಟ್ ಫೈಲ್ ಅನ್ನು ಅದರ ಹೆಸರಿನಲ್ಲಿ ಇರುವ`.css` ಮೂಲಕ ನೀವು ಗುರುತಿಸಬಹುದು.
 
-A style sheet contains **rules** for what each element on your webpage should look like.
+ನಿಮ್ಮ ಅಂತರ್ಜಾಲ ಪುಟದಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಅಂಶ ಹೇಗಿರಬೇಕು ಎಂಬುದಕ್ಕೆ ಸ್ಟೈಲ್ ಶೀಟ್‌ನಲ್ಲಿ **ನಿಯಮಗಳು** ಇರುತ್ತದೆ.
 
-The curly braces `{ }` and the code in between them are a set of **CSS rules**. The word `body` means that the rules are for all the `<body>` elements on your website. We call the bit in front of the curly braces a **selector**. So in this case, it is the selector for the body elements.
+ಸುರುಳಿಯಾಕಾರದ ಕಟ್ಟುಪಟ್ಟಿಗಳು `{ }` ಮತ್ತು ಅವುಗಳ ನಡುವಿನ ಕೋಡ್ **CSS ನಿಯಮಗಳ** ಒಂದು ಗುಂಪಾಗಿದೆ. `body` ಎಂಬ ಪದವು ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿನ ಎಲ್ಲಾ `<body>` ಅಂಶಗಳಿಗೆ ನಿಯಮಗಳು ಎಂದು ಅರ್ಥ. ಸುರುಳಿಯಾಕಾರದ ಕಟ್ಟುಪಟ್ಟಿಗಳ ಮುಂದೆ ನಾವು ಬಿಟ್ ಅನ್ನು **ಸೆಲೆಕ್ಟರ್** ಎಂದು ಕರೆಯುತ್ತೇವೆ. ಆದ್ದರಿಂದ ಈ ಸಂದರ್ಭದಲ್ಲಿ, ಇದು ದೇಹದ ಅಂಶಗಳಿಗೆ ಸೆಲೆಕ್ಟರ್ ಆಗಿದೆ.
 
-Each rule inside the curly braces is made up of:
+ಸುರುಳಿಯಾಕಾರದ ಕಟ್ಟುಪಟ್ಟಿಗಳೊಳಗಿನ ಪ್ರತಿಯೊಂದು ನಿಯಮವು ಇದರಿಂದ ಮಾಡಲಾಗಿದೆ:
 
-- A **property** on the left, followed by a colon symbol `:`
-- A **value** for the property on the right-hand side after the colon
-- A semi-colon symbol `;` at the end
+- ಎಡಭಾಗದಲ್ಲಿರುವ **ಗುಣಮಟ್ಟ**, ನಂತರ ಕೊಲೊನ್ ಚಿಹ್ನೆ `:`
+- ಕೊಲೊನ್ ನಂತರ ಬಲಗೈಯಲ್ಲಿರುವ ಗುಣಲಕ್ಷಣಗಳಿಗೆ **ಮೌಲ್ಯ**
+- ಕೊನೆಯಲ್ಲಿ ಅರ್ಧ ವಿರಾಮ ಚಿಹ್ನೆ `;`
 
 \--- /collapse \---
 
-- Lets add rules to change how the text looks. Add two new lines inside the curly braces:
+- ಪಠ್ಯವು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಬದಲಾಯಿಸಲು ನಿಯಮಗಳನ್ನು ಸೇರಿಸಲು ಅನುಮತಿಸುತ್ತದೆ. ಸುರುಳಿಯಾಕಾರದ ಕಟ್ಟುಪಟ್ಟಿಗಳ ಒಳಗೆ ಎರಡು ಹೊಸ ಸಾಲುಗಳನ್ನು ಸೇರಿಸಿ:
 
 ```css
   body {
@@ -48,11 +48,11 @@ Each rule inside the curly braces is made up of:
   }
 ```
 
-Look at how this has changed the webpage.
+ಇದು ಅಂತರ್ಜಾಲ ಪುಟವನ್ನು ಹೇಗೆ ಬದಲಾಯಿಸಿದೆ ಎಂಬುದನ್ನು ನೋಡಿ.
 
-The `color` property is always for text. Here, you are setting the colour of all text in the `body` of your webpage.
+`color` ಆಸ್ತಿ ಯಾವಾಗಲೂ ಪಠ್ಯಕ್ಕಾಗಿರುತ್ತದೆ. ಇಲ್ಲಿ, ನಿಮ್ಮ ಅಂತರ್ಜಾಲ ಪುಟದ `body` ನಲ್ಲಿನ ಎಲ್ಲಾ ಪಠ್ಯದ ಬಣ್ಣವನ್ನು ನೀವು ಹೊಂದಿಸುತ್ತಿದ್ದೀರಿ.
 
-- You can also write separate rules for the headings and the paragraphs. For `<h1>` headings, you use the `h1` selector. Below the closing curly brace containing the CSS rule for the body, add the following code.
+- ಶೀರ್ಷಿಕೆಗಳು ಮತ್ತು ಪ್ಯಾರಾಗಳಿಗಾಗಿ ನೀವು ಪ್ರತ್ಯೇಕ ನಿಯಮಗಳನ್ನು ಸಹ ಬರೆಯಬಹುದು. `<h1>` ಶೀರ್ಷಿಕೆಗಳಿಗಾಗಿ, ನೀವು `h1` ಸೆಲೆಕ್ಟರ್ ಅನ್ನು ಬಳಸುತ್ತೀರಿ. ದೇಹಕ್ಕಾಗಿ CSS ನಿಯಮವನ್ನು ಹೊಂದಿರುವ ಮುಚ್ಚುವ ಸುರುಳಿಯಾಕಾರದ ಕಟ್ಟುಪಟ್ಟಿಯ ಕೆಳಗೆ, ಈ ಕೆಳಗಿನ ಕೋಡ್ ಸೇರಿಸಿ.
 
 ```css
   h1 {
@@ -61,12 +61,12 @@ The `color` property is always for text. Here, you are setting the colour of all
   }
 ```
 
-Your heading text should be orange now, with the paragraph in purple as before.
+ನಿಮ್ಮ ಶೀರ್ಷಿಕೆ ಪಠ್ಯವು ಈಗ ಕಿತ್ತಳೆ ಬಣ್ಣದ್ದಾಗಿರಬೇಕು, ಪ್ಯಾರಾಗ್ರಾಫ್ ಮೊದಲಿನಂತೆ ನೇರಳೆ ಬಣ್ಣದಲ್ಲಿರಬೇಕು.
 
-![Result of new CSS code](images/egCssColorsFonts.png)
+![ಹೊಸ CSS ಕೋಡ್ ಫಲಿತಾಂಶ](images/egCssColorsFonts.png)
 
-Notice how the letters also look different as well as being a different colour? This is because you changed their **font family**. You can find some more fonts [here](http://dojo.soy/web-font-families).
+ಅಕ್ಷರಗಳು ಹೇಗೆ ವಿಭಿನ್ನವಾಗಿ ಕಾಣುತ್ತವೆ ಮತ್ತು ವಿಭಿನ್ನ ಬಣ್ಣವಾಗಿರುತ್ತವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ? ಏಕೆಂದರೆ ನೀವು ಅವರ **ಫಾಂಟ್ ಕುಟುಂಬ(font family)** ಅನ್ನು ಬದಲಾಯಿಸಿದ್ದೀರಿ. ನೀವು ಇನ್ನೂ ಕೆಲವು ಫಾಂಟ್‌ಗಳನ್ನು ಕಾಣಬಹುದು [ಇಲ್ಲಿ(here)](http://dojo.soy/web-font-families).
 
-- Try adding a set of rules for the `<h2>` headings, using the `h2` selector.
+- `h2` ಸೆಲೆಕ್ಟರ್ ಬಳಸಿ, `<h2>` ಶೀರ್ಷಿಕೆಗಳಿಗಾಗಿ ನಿಯಮಗಳ ಗುಂಪನ್ನು ಸೇರಿಸಲು ಪ್ರಯತ್ನಿಸಿ.
 
-- Why not experiment with different colour combinations for the text and background? There are lots of colours available to use. Find a full list of them [here](http://dojo.soy/web-color-names).
+- ಪಠ್ಯ ಮತ್ತು ಹಿನ್ನೆಲೆಗಾಗಿ ವಿಭಿನ್ನ ಬಣ್ಣ ಸಂಯೋಜನೆಗಳೊಂದಿಗೆ ಏಕೆ ಪ್ರಯೋಗ ಮಾಡಬಾರದು? ಬಳಸಲು ಸಾಕಷ್ಟು ಬಣ್ಣಗಳು ಲಭ್ಯವಿದೆ. ಅವುಗಳ ಪೂರ್ಣ ಪಟ್ಟಿಯನ್ನು ಹುಡುಕಿ [ಇಲ್ಲಿ](http://dojo.soy/web-color-names).
