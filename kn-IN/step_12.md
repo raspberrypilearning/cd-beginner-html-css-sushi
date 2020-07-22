@@ -1,10 +1,10 @@
-## Styling the menu bar
+## ಮೆನು ಬಾರ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸುವುದು
 
-With CSS, the possibilities for making your menu bar look great are endless.
+CSS ನೊಂದಿಗೆ, ನಿಮ್ಮ ಮೆನು ಬಾರ್ ಅನ್ನು ಉತ್ತಮವಾಗಿ ಕಾಣುವ ಸಾಧ್ಯತೆಗಳು ಅಂತ್ಯವಿಲ್ಲ.
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+- `style.css` ಫೈಲ್‌ಗೆ ಮತ್ತೆ ಸರಿಸಿ - ಅದ್ಭುತ ಸಂಗತಿಗಳು ನಡೆಯುವ ಸ್ಥಳ!
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
+- ನಿಮ್ಮ `nav ul` ಸೆಲೆಕ್ಟರ್ ಅನ್ನು ಹುಡುಕಿ, ಮತ್ತು ಹೆಚ್ಚಿನ ನಿಯಮಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ ಅದು ಈ ರೀತಿ ಕಾಣುತ್ತದೆ:
 
 ```css
   nav ul {
@@ -16,11 +16,11 @@ With CSS, the possibilities for making your menu bar look great are endless.
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
+`padding` ಆಸ್ತಿ ಜಾಗವನ್ನು ಸೇರಿಸುತ್ತದೆ. ಇತರ ಪ್ರತಿಯೊಂದು ಗುಣಲಕ್ಷಣಗಳು ಏನು ಮಾಡುತ್ತವೆ ಎಂಬುದನ್ನು ನೀವು ಕಂಡುಹಿಡಿಯಬಹುದೇ? ವಿಭಿನ್ನ ಬಣ್ಣಗಳು ಮತ್ತು ಪಿಕ್ಸೆಲ್‌ಗಳ(pixels) ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಪ್ರಯೋಗಿಸಲು ಪ್ರಯತ್ನಿಸಿ.
 
-![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
+![ಗಡಿಗಳು ಮತ್ತು ಪ್ಯಾಡಿಂಗ್ ಹೊಂದಿರುವ ಮೆನು ಬಾರ್ ಸೇರಿಸಲಾಗಿದೆ](images/egMenuBarMoreStyle.png)
 
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
+- ಲಿಂಕ್‌ಗಳ ಅಡಿಗೆರೆಯಕುವುದನ್ನು ತೊಡೆದುಹಾಕಲು, `nav ul li` ನಿಯಮಗಳಿಗಾಗಿ ಮುಚ್ಚುವ ಸುರುಳಿಯಾಕಾರದ `}` ಕಟ್ಟುಪಟ್ಟಿಯ ನಂತರ ಈ ಕೆಳಗಿನ ಕೋಡ್ ಅನ್ನು ಹೊಸ ಸಾಲಿನಲ್ಲಿ ಸೇರಿಸಿ. ಯಾವುದೇ `}` ನಂತರ ನೀವು ಅದನ್ನು ಹಾಕಬಹುದು, ಆದರೆ ಸಂಬಂಧಿತ ಸಂಗತಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಇಡುವುದು ಒಳ್ಳೆಯದು ಆದ್ದರಿಂದ ಅದನ್ನು ಕಂಡುಹಿಡಿಯುವುದು ಸುಲಭ!
 
 ```css
   nav ul li a {
@@ -28,32 +28,32 @@ The `padding` property adds space. Can you work out what each of the other prope
   }
 ```
 
-The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
+ಮೇಲಿನ ನಿಯಮವು ಸಂಚರಣೆ ವಿಭಾಗದೊಳಗೆ `<nav>` ಕ್ರಮವಿಲ್ಲದ ಪಟ್ಟಿಯಲ್ಲಿರುವ `<ul>` ಪಟ್ಟಿ ಐಟಂಗಳೊಳಗಿನ `<li>` ಲಿಂಕ್‌ಗಳಿಗೆ `<a>` ಅನ್ವಯಿಸುತ್ತದೆ. ವಾಹ್, ಅದು ನಾಲ್ಕು ಆಯ್ಕೆದಾರರು!
 
-![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
+![ತೆಗೆದುಹಾಕಲಾದ ಲಿಂಕ್ ಅಂಡರ್ಲೈನ್ ​​ಹೊಂದಿರುವ ಮೆನು ಬಾರ್](images/egMenuBarNoUnderline.png)
 
-Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
+`<nav>` ನಲ್ಲಿನ ಕೆಲವು ಪಟ್ಟಿ ಐಟಂಗಳಿಂದ ನೀವು ಲಿಂಕ್ ಟ್ಯಾಗ್‌ಗಳನ್ನು ಹೇಗೆ ತೆಗೆದುಹಾಕಿದ್ದೀರಿ ಎಂಬುದನ್ನು ನೆನಪಿಡಿ, ಆದ್ದರಿಂದ ನೀವು ಯಾವ ಪುಟದಲ್ಲಿದ್ದೀರಿ ಎಂಬುದನ್ನು ಸುಲಭವಾಗಿ ನೋಡಬಹುದು? ಲಿಂಕ್‌ಗಳಲ್ಲದ ಆ ಸಂಚರಣೆ ಪಟ್ಟಿ ಐಟಂಗಳ ಪಠ್ಯ ಬಣ್ಣವನ್ನು ಏಕೆ ಬದಲಾಯಿಸಬಾರದು!
 
-- Find your `nav ul li` selector, and **inside** the curly braces add the line:
+- ನಿಮ್ಮ `nav ul li` ಸೆಲೆಕ್ಟರ್ ಅನ್ನು ಹುಡುಕಿ, ಮತ್ತು ಸುರುಳಿಯಾಕಾರದ ಕಟ್ಟುಪಟ್ಟಿಗಳ **ಒಳಗೆ** ಈ ಸಾಲನ್ನು ಸೇರಿಸಿ:
 
 ```css
   color: PapayaWhip;
 ```
 
-You can choose any colour you like!
+ನೀವು ಇಷ್ಟಪಡುವ ಯಾವುದೇ ಬಣ್ಣವನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು!
 
-You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
+ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನ ಇತರ ಲಿಂಕ್‌ಗಳಿಂದ ಮೆನು ಲಿಂಕ್‌ಗಳು ವಿಭಿನ್ನ ಬಣ್ಣವಾಗಬೇಕೆಂದು ನೀವು ಬಯಸಿದರೆ ನೀವು `color` ಆಸ್ತಿಯನ್ನು `nav ul li a` ನಿಯಮಕ್ಕೆ ಸೇರಿಸಬಹುದು.
 
-- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
+- ನಿಮ್ಮ ಮೆನುಗಾಗಿ ಕೆಲವು ದುಂಡಾದ ಮೂಲೆಗಳ ಬಗ್ಗೆ ಹೇಗೆ? ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಲು ಈ ಕೆಳಗಿನ ಕೋಡ್ ಅನ್ನು `nav ul` ನಿಯಮಕ್ಕೆ ಸೇರಿಸಲು ಪ್ರಯತ್ನಿಸಿ: `border-radius: 10px;`.
 
-The `border-radius` property is a really easy way to make anything look cooler!
+`border-radius` ಆಸ್ತಿ ಯಾವುದನ್ನೂ ತಂಪಾಗಿ ಕಾಣುವಂತೆ ಮಾಡಲು ನಿಜವಾಗಿಯೂ ಸುಲಭವಾದ ಮಾರ್ಗವಾಗಿದೆ!
 
-![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+![ಮೆನು ಬಾರ್‌ನಲ್ಲಿ ಮತ್ತು ಚಿತ್ರದಲ್ಲಿ ದುಂಡಾದ ಮೂಲೆಗಳೊಂದಿಗೆ ಅಂತರ್ಜಾಲ ಪುಟ](images/egMenuBarFullStyles_result.png)
 
 \--- challenge \---
 
-## Challenge: make your pictures have rounded corners
+## ಸವಾಲು: ನಿಮ್ಮ ಚಿತ್ರಗಳನ್ನು ದುಂಡಾದ ಮೂಲೆಗಳಲ್ಲಿರುವಂತೆ ಮಾಡಿ
 
-- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+- ನಿಮ್ಮ ಸ್ಟೈಲ್ ಶೀಟ್‌ನಲ್ಲಿ, `img` ಸೆಲೆಕ್ಟರ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಚಿತ್ರಗಳಿಗಾಗಿ ಹೊಸ ನಿಯಮಗಳ ಗುಂಪನ್ನು ರಚಿಸಿ ಮತ್ತು ಅಲ್ಲಿ `border-radius` ನಿಯಮವನ್ನು ಸೇರಿಸಿ.
 
 \--- /challenge \---
