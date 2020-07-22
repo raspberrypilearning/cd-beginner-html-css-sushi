@@ -1,40 +1,40 @@
-## Adding more pages
+## ಹೆಚ್ಚಿನ ಪುಟಗಳನ್ನು ಸೇರಿಸುವುದು
 
-This card will show you how to add more pages to your website.
+ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಹೆಚ್ಚಿನ ಪುಟಗಳನ್ನು ಹೇಗೆ ಸೇರಿಸುವುದು ಎಂಬುದನ್ನು ಈ ಕಾರ್ಡ್ ನಿಮಗೆ ತೋರಿಸುತ್ತದೆ.
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+- ಕೋಡ್ ಫಲಕದ ಮೇಲ್ಭಾಗದಲ್ಲಿ, ಟ್ಯಾಬ್‌ಗಳ ಪಕ್ಕದಲ್ಲಿರುವ **+** ಚಿಹ್ನೆಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಹೊಸ ಫೈಲ್‌ಗಾಗಿ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡಿ. ಇದು `.html` (ಚುಕ್ಕೆ ಸೇರಿದಂತೆ!) ನಲ್ಲಿ ಕೊನೆಗೊಳ್ಳಬೇಕು ಇದರಿಂದ ಅದು ವೆಬ್‌ಪುಟ ಎಂದು ಬ್ರೌಸರ್‌ಗೆ ತಿಳಿಯುತ್ತದೆ.
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+![Trinket ನಲ್ಲಿ ಹೊಸ ಫೈಲ್ ಅನ್ನು ಸೇರಿಸುವುಧು](images/tktNewFileArrows.png)
 
 ## \--- collapse \---
 
-## title: Renaming or deleting a file
+## title: ಫೈಲ್ ಅನ್ನು ಮರುಹೆಸರಿಸುವುದು ಅಥವಾ ಅಳಿಸುವುದು
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon.
+ನೀವು ಫೈಲ್‌ನ ಹೆಸರನ್ನು ಬದಲಾಯಿಸಲು ಬಯಸಿದರೆ, ಫೈಲ್ ಹೆಸರಿನ ಬಲಭಾಗದಲ್ಲಿರುವ **ಕಾಗ್** ಐಕಾನ್ ಕ್ಲಿಕ್ ಮಾಡಿ, ತದನಂತರ **ಪೆನ್ಸಿಲ್** ಐಕಾನ್ ಕ್ಲಿಕ್ ಮಾಡಿ. ಹೊಸ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡಿ ಮತ್ತು **ಎಂಟರ್** ಒತ್ತಿರಿ. **ಪೆನ್ಸಿಲ್** ಐಕಾನ್ ಬದಲಿಗೆ **ಬಿನ್** ಐಕಾನ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಫೈಲ್ ಅನ್ನು ಅಳಿಸಬಹುದು.
 
 ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+`index.html` ಫೈಲ್‌ನ ಹೆಸರನ್ನು ಏಕೆ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಎಂದು ನೀವು ಆಶ್ಚರ್ಯ ಪಡಬಹುದು. `index.html` ಎನ್ನುವುದು ವೆಬ್‌ಸೈಟ್‌ನ **ಮುಖಪುಟ**ಕ್ಕೆ ಬಳಸುವ ವಿಶೇಷ ಹೆಸರು. ನೀವು ವೆಬ್‌ಸೈಟ್‌ಗೆ ಭೇಟಿ ನೀಡಿದಾಗ ನೀವು ಇಳಿಯುವ ಮೊದಲ ಪುಟ ಅದು. ನೀವು ವೆಬ್‌ಸೈಟ್‌ನ ಮುಖಪುಟಕ್ಕೆ ಹೋದಾಗಲೆಲ್ಲಾ, ಬ್ರೌಸರ್ `index.html` ಎಂಬ ಫೈಲ್‌ಗಾಗಿ ಹುಡುಕುತ್ತದೆ ಮತ್ತು ಅದನ್ನು ನಿಮ್ಮ ಪರದೆಯಲ್ಲಿ ಪ್ರದರ್ಶಿಸುತ್ತದೆ.
 
 \--- /collapse \---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- `blank_page.html` ಫೈಲ್ ಅನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅದರಿಂದ ಎಲ್ಲಾ ಕೋಡ್‌ಗಳನ್ನು ನಿಮ್ಮ ಹೊಸ ಫೈಲ್‌ಗೆ ನಕಲಿಸಿ ಮತ್ತು ಅಂಟಿಸಿ. ನೀವು ಇಡೀ ವಿಷಯವನ್ನು ನಕಲಿಸಲು ಬಯಸುವ ಕಾರಣ, ನೀವು ಕೋಡ್‌ನಲ್ಲಿ ಎಲ್ಲಿಯಾದರೂ ಕ್ಲಿಕ್ ಮಾಡಬಹುದು ಮತ್ತು ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್ <kbd>Ctrl</kbd> (ಅಥವಾ <kbd>cmd</kbd>) ಮತ್ತು <kbd>A</kbd> ಅನ್ನು ಬಳಸಿ ಎಲ್ಲವನ್ನೂ ಒಂದೇ ಬಾರಿಗೆ ಆಯ್ಕೆ ಮಾಡಬಹುದು.
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
+- `<title> </title>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಪಠ್ಯವನ್ನು ಬದಲಾಯಿಸಿ ಆದ್ದರಿಂದ ನಿಮ್ಮ ಹೊಸ ಪುಟವು ಸೂಕ್ತವಾದ ಶೀರ್ಷಿಕೆಯನ್ನು ಹೊಂದಿರುತ್ತದೆ. Trinket ಶೀರ್ಷಿಕೆಯನ್ನು ಪ್ರದರ್ಶಿಸುವುದಿಲ್ಲ, ಆದರೆ ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ನೀವು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದರೆ ಅದನ್ನು ನಿಮ್ಮ ಬ್ರೌಸರ್ ವಿಂಡೋದ ಮೇಲ್ಭಾಗದಲ್ಲಿ ನೋಡಬಹುದು.
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+![ಪುಟದ ಶೀರ್ಷಿಕೆ ಬ್ರೌಸರ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತಿದೆ](images/egLocalFileWindowTitle.png)
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
+- ಹೊಸ ಫೈಲ್‌ನಲ್ಲಿನ `<main> </main>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ, ಪ್ಯಾರಾಗ್ರಾಫ್‌ಗಳು, ಶೀರ್ಷಿಕೆಗಳು, ಚಿತ್ರಗಳು ಮತ್ತು ಪಟ್ಟಿಗಳಂತಹ ಪುಟಕ್ಕೆ ವಿಷಯವನ್ನು ಸೇರಿಸಲು ನೀವು ಕಲಿತ ಟ್ಯಾಗ್‌ಗಳನ್ನು ಬಳಸಿ!
 
-- Repeat the steps above for each new page that you want to add.
+- ನೀವು ಸೇರಿಸಲು ಬಯಸುವ ಪ್ರತಿ ಹೊಸ ಪುಟಕ್ಕಾಗಿ ಮೇಲಿನ ಹಂತಗಳನ್ನು ಪುನರಾವರ್ತಿಸಿ.
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+Trinket ‌ಗೆ ಏಕಕಾಲದಲ್ಲಿ ತೋರಿಸಲು ಹಲವಾರು ಟ್ಯಾಬ್‌ಗಳು ಇದ್ದಾಗ, ಅವುಗಳ ನಡುವೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಲು ನೀವು ಟ್ಯಾಬ್‌ಗಳ ಮೇಲಿನ ಎಡ ಮೂಲೆಯಲ್ಲಿರುವ **<** ಮತ್ತು **>** ಐಕಾನ್‌ಗಳನ್ನು ಬಳಸಬಹುದು.
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+![ಟ್ಯಾಬ್‌ಗಳನ್ನು ಸ್ಕ್ರೋಲ್ ಮಾಡುವ ಗುಂಡಿಗಳು](images/tktScrollTabIcons.png)
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+ಈಗ ನೀವು ಲಿಂಕ್‌ಗಳನ್ನು ಮಾಡಬೇಕಾಗಿರುವುದರಿಂದ ನಿಮ್ಮ ಪ್ರತಿಯೊಂದು ಹೊಸ ಪುಟಗಳನ್ನು ನೀವು ಪಡೆಯಬಹುದು! ಎಲ್ಲಾ ಲಿಂಕ್‌ಗಳನ್ನು ಪಟ್ಟಿಯಲ್ಲಿ ಇಡೋಣ.
 
-- In the `index.html` file, add the following code to the body of your webpage:
+- `index.html` ಫೈಲ್‌ನಲ್ಲಿ, ಈ ಕೆಳಗಿನ ಕೋಡ್ ಅನ್ನು ನಿಮ್ಮ ವೆಬ್‌ಪುಟದ ದೇಹಕ್ಕೆ ಸೇರಿಸಿ:
 
 ```html
     <ul>
@@ -45,10 +45,10 @@ Now you need to make links so that you can get to each of your new pages! Let's 
     </ul>
 ```
 
-- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
+- ಪ್ರತಿ ಲಿಂಕ್‌ಗೆ `href` ಗುಣಲಕ್ಷಣದ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಿ (ನೆನಪಿಡಿ, ಅದು ಉದ್ಧರಣ ಚಿಹ್ನೆಗಳೊಳಗಿನ ಪಠ್ಯ) ಇದರಿಂದ ನೀವು ರಚಿಸಿದ ಪ್ರತಿ HTML ಫೈಲ್‌ನ ಹೆಸರಿಗೆ ಅದು ನಿಖರವಾಗಿ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ.
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+- `<a> </a>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಪಠ್ಯವನ್ನು ನಿಮ್ಮ ಪುಟಗಳ ಸೂಕ್ತ ವಿವರಣೆಗಳಿಗೆ ಬದಲಾಯಿಸಿ.
 
-Now you can navigate to your new pages!
+ಈಗ ನೀವು ನಿಮ್ಮ ಹೊಸ ಪುಟಗಳಿಗೆ ಸಂಚಾರಣಿಸಬಹುದು!
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+![ಅಂತರ್ಜಾಲ ಪುಟದಲ್ಲಿನ ಲಿಂಕ್‌ಗಳ ಉದಾಹರಣೆ ಪಟ್ಟಿ](images/egListOfPageLinks.png)
