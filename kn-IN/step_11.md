@@ -1,10 +1,10 @@
-## Making a menu bar
+## ಮೆನು ಬಾರ್ ಮಾಡುವುದು
 
-On this card you will see how you can transform your navigation menu into a cool-looking menu bar, just by adding more CSS rules in the style sheet.
+ಸ್ಟೈಲ್ ಶೀಟ್‌ನಲ್ಲಿ ಹೆಚ್ಚಿನ CSS ನಿಯಮಗಳನ್ನು ಸೇರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಸಂಚರಣೆ ಮೆನುವನ್ನು ಅದ್ಭುತವಾಗಿ ಕಾಣುವ ಮೆನು ಬಾರ್ ಆಗಿ ಹೇಗೆ ಪರಿವರ್ತಿಸಬಹುದು ಎಂಬುದನ್ನು ಈ ಕಾರ್ಡ್‌ನಲ್ಲಿ ನೀವು ನೋಡುತ್ತೀರಿ.
 
-![Example of a menu bar](images/egCoolMenuBar.png)
+![ಮೆನು ಬಾರ್‌ನ ಉದಾಹರಣೆ](images/egCoolMenuBar.png)
 
-- Go to the style sheet file in the `styles.css` tab. Click **below** a closing curly brace `}`, and press **Enter** to create a new blank line. Add the following CSS rule:
+- `style.css` ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಸ್ಟೈಲ್ ಶೀಟ್ ಫೈಲ್‌ಗೆ ಹೋಗಿ. ಮುಚ್ಚುವ ಸುರುಳಿಯಾಕಾರದ ಕಟ್ಟುಪಟ್ಟಿಯ `}` **ಕೆಳಗೆ** ಕ್ಲಿಕ್ ಮಾಡಿ, ಮತ್ತು ಹೊಸ ಖಾಲಿ ರೇಖೆಯನ್ನು ರಚಿಸಲು **ಎಂಟರ್** ಒತ್ತಿರಿ. ಕೆಳಗಿನ CSS ನಿಯಮವನ್ನು ಸೇರಿಸಿ:
 
 ```css
     nav ul {
@@ -12,13 +12,13 @@ On this card you will see how you can transform your navigation menu into a cool
     }
 ```
 
-Notice how you used two selectors instead of one? If you used the `ul` selector on its own, the rule would affect all unordered lists on your website. Adding the `nav` selector as well makes it only apply to lists that are in between `nav` tags.
+ಒಂದರ ಬದಲು ನೀವು ಎರಡು ಸೆಲೆಕ್ಟರ್‌ಗಳನ್ನು ಹೇಗೆ ಬಳಸಿದ್ದೀರಿ ಎಂಬುದನ್ನು ಗಮನಿಸಿ? ನೀವು `ul` ಸೆಲೆಕ್ಟರ್ ಅನ್ನು ಸ್ವಂತವಾಗಿ ಬಳಸಿದರೆ, ನಿಯಮವು ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿನ ಎಲ್ಲಾ ಕ್ರಮವಿಲ್ಲದ ಪಟ್ಟಿಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ. `nav` ಸೆಲೆಕ್ಟರ್ ಅನ್ನು ಸೇರಿಸುವುದರಿಂದ ಇದು `nav` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಇರುವ ಪಟ್ಟಿಗಳಿಗೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ.
 
-![List with red background](images/egMenuBarFirstStyle.png)
+![ಕೆಂಪು ಹಿನ್ನೆಲೆಯೊಂದಿಗೆ ಪಟ್ಟಿ](images/egMenuBarFirstStyle.png)
 
-Let's get rid of the bullet points. Those are the dots in front of each list item.
+ಬುಲೆಟ್ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ತೊಡೆದುಹಾಕೋಣ. ಪ್ರತಿ ಪಟ್ಟಿ ಐಟಂನ ಮುಂದೆ ಇರುವ ಚುಕ್ಕೆಗಳು ಅವು.
 
-- Add the following to the `styles.css` file. Again, type it on a new line after a `}` so it's not inside any other block of rules.
+- `style.css` ಫೈಲ್‌ಗೆ ಈ ಕೆಳಗಿನವುಗಳನ್ನು ಸೇರಿಸಿ. ಮತ್ತೆ, ಒಂದು `}` ನಂತರ ಅದನ್ನು ಹೊಸ ಸಾಲಿನಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ ಆದ್ದರಿಂದ ಅದು ಬೇರೆ ಯಾವುದೇ ನಿಯಮಗಳ ಒಳಗೆ ಇಲ್ಲ.
 
 ```css
     nav ul li {
@@ -26,17 +26,17 @@ Let's get rid of the bullet points. Those are the dots in front of each list ite
     }
 ```
 
-Notice this set of rules has three selectors: it selects all `li` elements that are in a `ul` list which is inside a `nav` section. Phew!
+ಈ ನಿಯಮಗಳ ಗುಂಪಿನಲ್ಲಿ ಮೂರು ಸೆಲೆಕ್ಟರ್‌ಗಳಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ: ಇದು `ul` ಪಟ್ಟಿಯಲ್ಲಿರುವ ಎಲ್ಲಾ `li` ಅಂಶಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡುತ್ತದೆ, ಅದು `nav` ವಿಭಾಗದಲ್ಲಿದೆ. ಅಯ್ಯೋ!
 
-![List with bullet points removed](images/egMenuBarNoBullets.png)
+![ಬುಲೆಟ್ ಪಾಯಿಂಟ್‌ಗಳೊಂದಿಗೆ ಪಟ್ಟಿ ತೆಗೆದುಹಾಕಲಾಗಿದೆ](images/egMenuBarNoBullets.png)
 
-Now let's make the list horizontal (across) instead of vertical (down).
+ಈಗ ಪಟ್ಟಿಯನ್ನು ಲಂಬ (ಕೆಳಗೆ) ಬದಲಿಗೆ ಸಮತಲ (ಅಡ್ಡಲಾಗಿ) ಮಾಡೋಣ.
 
-- Inside the new CSS rule you just created, add the following line: `display: inline;`.
+- ನೀವು ಇದೀಗ ರಚಿಸಿದ ಹೊಸ CSS ನಿಯಮದ ಒಳಗೆ, ಈ ಕೆಳಗಿನ ಸಾಲನ್ನು ಸೇರಿಸಿ: `display: inline;`.
 
 ![](images/egMenuBarInline.png)
 
-- The menu items are now all squashed together, so let's also add the properties `margin-right` and `margin-left` to space them out a bit. The block of CSS code should look like this now:
+- ಮೆನು ಐಟಂಗಳನ್ನು ಈಗ ಒಟ್ಟಿಗೆ ಜೋಡಿಸಲಾಗಿದೆ, ಆದ್ದರಿಂದ ಅವುಗಳನ್ನು ಸ್ವಲ್ಪಮಟ್ಟಿಗೆ ಸ್ಥಳಾಂತರಿಸಲು `margin-right` ಮತ್ತು `margin-left` ಗುಣಲಕ್ಷಣಗಳನ್ನು ಕೂಡ ಸೇರಿಸೋಣ. CSS ಕೋಡ್ನ ಬ್ಲಾಕ್ ಈಗ ಈ ರೀತಿ ಇರಬೇಕು:
 
 ```css
     nav ul li {
@@ -47,13 +47,13 @@ Now let's make the list horizontal (across) instead of vertical (down).
     }
 ```
 
-Remember: `10px` means ten pixels.
+ನೆನಪಿಡಿ: `10px` ಎಂದರೆ ಹತ್ತು ಪಿಕ್ಸೆಲ್‌ಗಳು.
 
-How about making the menu change to tell you which page you are on? This part won't be in the style sheet.
+ನೀವು ಯಾವ ಪುಟದಲ್ಲಿದ್ದೀರಿ ಎಂದು ಹೇಳಲು ಮೆನು ಬದಲಾವಣೆಯನ್ನು ಮಾಡುವುದು ಹೇಗೆ? ಈ ಭಾಗವು ಸ್ಟೈಲ್ ಶೀಟ್‌ನಲ್ಲಿ ಇರುವುದಿಲ್ಲ.
 
-- Start with the homepage. Go to the `index.html` file. In the list of menu links, remove the link tags before and after the word `Home`, so that the list item for the homepage is just text in between `<li> </li>` tags, like this: `<li>Home</li>`.
+- ಮುಖಪುಟದಿಂದ ಪ್ರಾರಂಭಿಸಿ. `index.html` ಫೈಲ್‌ಗೆ ಹೋಗಿ. ಮೆನು ಲಿಂಕ್‌ಗಳ ಪಟ್ಟಿಯಲ್ಲಿ, `Home` ಪದದ ಮೊದಲು ಮತ್ತು ನಂತರ ಲಿಂಕ್ ಟ್ಯಾಗ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ, ಇದರಿಂದಾಗಿ ಮುಖಪುಟದ ಪಟ್ಟಿ ಐಟಂ `<li> </li>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಕೇವಲ ಪಠ್ಯವಾಗಿರುತ್ತದೆ, ಈ ರೀತಿಯಾಗಿ: `<li>Home</li>`.
 
-- Now go to each of your other files, and do the same thing, each time removing the link tags for the page you are editing. So, for example, on the `music.html` file, I've removed the link tags in the `Music` list item:
+- ಈಗ ನಿಮ್ಮ ಪ್ರತಿಯೊಂದು ಫೈಲ್‌ಗಳಿಗೆ ಹೋಗಿ, ಮತ್ತು ಅದೇ ಸಮಯದಲ್ಲಿ ಮಾಡಿ, ಪ್ರತಿ ಬಾರಿ ನೀವು ಸಂಪಾದಿಸುತ್ತಿರುವ ಪುಟಕ್ಕಾಗಿ ಲಿಂಕ್ ಟ್ಯಾಗ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಆದ್ದರಿಂದ, ಉದಾಹರಣೆಗೆ, `music.html` ಫೈಲ್‌ನಲ್ಲಿ, ನಾನು `Music` ಪಟ್ಟಿ ಐಟಂನಲ್ಲಿನ ಲಿಂಕ್ ಟ್ಯಾಗ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿದ್ದೇನೆ:
 
 ```html
     <header>
@@ -68,8 +68,8 @@ How about making the menu change to tell you which page you are on? This part wo
     </header>
 ```
 
-- Explore your pages by clicking the links. See how the menu bar shows the page you're on as plain text instead of a link? 
+- ಲಿಂಕ್‌ಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನಿಮ್ಮ ಪುಟಗಳನ್ನು ಅನ್ವೇಷಿಸಿ. ಲಿಂಕ್‌ನ ಬದಲು ನೀವು ಇರುವ ಪುಟವನ್ನು ಮೆನು ಬಾರ್ ಹೇಗೆ ತೋರಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಿ? 
 
-![Example of menu bar highlighting current page](images/egMenuBarOnPage.png)
+![ಪ್ರಸ್ತುತ ಪುಟವನ್ನು ಹೈಲೈಟ್ ಮಾಡುವ ಮೆನು ಬಾರ್‌ನ ಉದಾಹರಣೆ](images/egMenuBarOnPage.png)
 
-On the next card you'll learn even more CSS tricks to make the menu bar look awesome.
+ಮುಂದಿನ ಕಾರ್ಡ್‌ನಲ್ಲಿ ನೀವು ಮೆನು ಬಾರ್ ಅದ್ಭುತವಾಗಿ ಕಾಣುವಂತೆ ಇನ್ನಷ್ಟು ಸಿಎಸ್ಎಸ್ ತಂತ್ರಗಳನ್ನು ಕಲಿಯುವಿರಿ.
