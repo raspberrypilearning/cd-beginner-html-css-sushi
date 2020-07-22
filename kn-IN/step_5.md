@@ -1,73 +1,73 @@
-## Adding pictures
+## ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸುವುದು
 
-Let's add a picture!
+ಚಿತ್ರವನ್ನು ಸೇರಿಸೋಣ!
 
-- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
+- ` index.html` ಹೆಸರಿನ ಟ್ಯಾಬ್‌ಗೆ ಹೋಗಿ. `</main>` ಟ್ಯಾಗ್ ಅನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅದರ **ಮೇಲೆ** ಈ ಕೆಳಗಿನವುಗಳನ್ನು ಟೈಪ್ ಮಾಡಿ: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Here's what the result should look like:
+ಫಲಿತಾಂಶ ಹೇಗಿರಬೇಕು ಎಂಬುದು ಇಲ್ಲಿದೆ:
 
-![Image code and picture of Tito](images/egImgCodeTito.png)
+![ಚಿತ್ರಧ ಕೋಡ್ ಮತ್ತು ಟಿಟೊ ಚಿತ್ರ](images/egImgCodeTito.png)
 
-Notice that this tag has extra bits of information inside it. They are called **attributes**.
+ಈ ಟ್ಯಾಗ್ ಅದರೊಳಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಅವುಗಳನ್ನು **ಗುಣಲಕ್ಷಣಗಳು(attributes)** ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
+- `width="100px"` ಎಂದು ಹೇಳುವ ಬಿಟ್ ಕೋಡ್ ಅನ್ನು ಹುಡುಕಿ ಮತ್ತು ಈ ಗುಣಲಕ್ಷಣವು ಏನು ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ನೀವು ಕಂಡುಹಿಡಿಯಬಹುದೇ ಎಂದು ನೋಡಲು ವಿಭಿನ್ನ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ಪ್ರಯೋಗಿಸಲು ಪ್ರಯತ್ನಿಸಿ. `px` ಅಕ್ಷರಗಳನ್ನು ಅಳಿಸಬೇಡಿ!
 
 ## \--- collapse \---
 
-## title: How the `img` tag works
+## title: `img` ಟ್ಯಾಗ್ ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ
 
-Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+`<img>` ಟ್ಯಾಗ್ ನೀವು ಇಲ್ಲಿಯವರೆಗೆ ಬಳಸಿದ ಇತರ ಟ್ಯಾಗ್‌ಗಳಿಗಿಂತ ಭಿನ್ನವಾಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ - ಮುಕ್ತಾಯದ `</img>` ಟ್ಯಾಗ್ ಇಲ್ಲ. ಬದಲಾಗಿ, ಈ ಟ್ಯಾಗ್ **ಸ್ವಯಂ-ಮುಚ್ಚುವಿಕೆಯಾಗಿದೆ**: ಇದು ಕೊನೆಯಲ್ಲಿ `/>` ಹೊಂದಿದೆ. ಪುಟದ ಪಠ್ಯಕ್ಕಾಗಿ ಇರುವಂತೆ ಚಿತ್ರದ ಅಂಶಕ್ಕೆ 'ಪ್ರಾರಂಭ' ಮತ್ತು 'ಅಂತ್ಯ' ಇಲ್ಲದಿರುವುದು ಇದಕ್ಕೆ ಕಾರಣ.
 
-The tag contains **attributes** with extra information:
+ಟ್ಯಾಗ್ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯೊಂದಿಗೆ **ಗುಣಲಕ್ಷಣಗಳನ್ನು** ಒಳಗೊಂಡಿದೆ:
 
-- The `src` attribute tells the browser what file to use for the picture. 
-- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
-- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- ಚಿತ್ರಕ್ಕಾಗಿ ಯಾವ ಫೈಲ್ ಅನ್ನು ಬಳಸಬೇಕೆಂದು `src` ಗುಣಲಕ್ಷಣವು ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುತ್ತದೆ. 
+- `alt` ಗುಣಲಕ್ಷಣವು ಒಂದು ಸಣ್ಣ ವಿವರಣೆಯಾಗಿದ್ದು, ಚಿತ್ರವನ್ನು ಪ್ರದರ್ಶಿಸಲು ಸಾಧ್ಯವಾಗದಿದ್ದರೆ ಬ್ರೌಸರ್ ತೋರಿಸುತ್ತದೆ. 'ಆಲ್ಟ್' ಎನ್ನುವುದು 'ಪರ್ಯಾಯ'ದ ಕಿರು ರೂಪ. ಈ ಪಠ್ಯವು ಸ್ಕ್ರೀನ್ ರೀಡರ್ ಬಳಸುವ ಜನರಿಗೆ ಚಿತ್ರ ಯಾವುದು ಎಂದು ತಿಳಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
+- `width` ಗುಣಲಕ್ಷಣವು ಚಿತ್ರವನ್ನು ಎಷ್ಟು ಅಗಲವಾಗಿ ಮಾಡಬೇಕೆಂದು ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುತ್ತದೆ. `100px` ಎಂದರೆ ನೂರು **ಪಿಕ್ಸೆಲ್‌ಗಳು**, ಅಂದರೆ ನಿಮ್ಮ ಪರದೆಯಲ್ಲಿ ನೀವು ನೋಡುವುದನ್ನು ರೂಪಿಸುವ ಸಣ್ಣ ಚುಕ್ಕೆಗಳು. ನೀವು ಈ ಗುಣಲಕ್ಷಣವನ್ನು ಸೇರಿಸದಿದ್ದರೆ, ಚಿತ್ರವನ್ನು ಅದರ ಮೂಲ ಗಾತ್ರದಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.
 
 \--- /collapse \---
 
-Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಚಿತ್ರವನ್ನು ಹಾಕುವ ಕೋಡ್ ಈಗ ನಿಮಗೆ ತಿಳಿದಿದೆ, ನೀವು ಬಹುಶಃ ಚಿತ್ರವನ್ನು ಬದಲಾಯಿಸಲು ಬಯಸುತ್ತೀರಿ, ಸರಿ?
 
-- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+- ಸಹಜವಾಗಿ, ನಿಮಗೆ ಬೇಕಾಗಿರುವುದು ಮೊದಲನೆಯದು, ಒಂದು ಚಿತ್ರ! ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ ನೀವು ಈಗಾಗಲೇ ಪಡೆದಿರುವದನ್ನು ನೀವು ಬಳಸಬಹುದು, ಉದಾಹರಣೆಗೆ ನೀವು ತೆಗೆದ ಛಾಯಾಚಿತ್ರ, ಅಥವಾ ನೀವು ಇಂಟರ್ನೆಟ್‌ನಿಂದ ಒಂದನ್ನು ಪಡೆಯಬಹುದು.
 
 [[[generic-get-picture-from-web]]]
 
-**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
+**ಗಮನಿಸಿ:** ಅಂತರ್ಜಾಲದಲ್ಲಿ ನೀವು ಕಾಣುವ ಎಲ್ಲಾ ಚಿತ್ರಗಳು ಯಾರಿಗೂ ಬಳಸಲು ಉಚಿತವಲ್ಲ. ನೀವು ಚಿತ್ರವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದರೆ, ಅದು ನಿಮಗೆ ಬಳಸಲು ಅನುಮತಿಸಲಾಗಿದೆ ಎಂದು ನೀವು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಬೇಕು. ಇದರ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಿ:
 
 [[[images-permissions-to-use]]]
 
-Once you have a picture, you can **upload** the file to Trinket:
+ಒಮ್ಮೆ ನೀವು ಚಿತ್ರವನ್ನು ಹೊಂದಿದ್ದರೆ, ನೀವು ಫೈಲ್ ಅನ್ನು Trinket ‌ಗೆ **ಅಪ್‌ಲೋಡ್** ಮಾಡಬಹುದು:
 
-- In your trinket, click on the **image** icon next to the **+** sign. 
+- ನಿಮ್ಮ trinket ‌ನಲ್ಲಿ, **+** ಚಿಹ್ನೆಯ ಪಕ್ಕದಲ್ಲಿರುವ **ಚಿತ್ರ** ಐಕಾನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. 
 
-![The image icon](images/tktImageIconArrow.png)
+![ಚಿತ್ರಧ ಐಕಾನ್](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ನೀವು ಬಳಸಲು ಸಾಧ್ಯವಾಗುವ ಚಿತ್ರಗಳನ್ನು ನೀವು ಇಲ್ಲಿ ನೋಡಬಹುದು. CoderDojo ನಾಯಿ, ಟಿಟೊ ಚಿತ್ರವನ್ನು ನೀವು ನೋಡಬಹುದು.
 
-- Click the button **Add Image** and then click **Upload**.
+- **Add Image** ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಂತರ **Upload** ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+- **Click To Select Files** ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ. ತೆರೆಯುವ ವಿಂಡೋದಲ್ಲಿ ನಿಮ್ಮ ಚಿತ್ರದ ಫೈಲ್ ಅನ್ನು ಹುಡುಕಿ ಮತ್ತು ಡಬಲ್ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-- Click **Done**.
+- **Done** ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-![Image upload area](images/tktUploadImages.png)
+![ಚಿತ್ರ ಅಪ್‌ಲೋಡ್ ಮಾಡುವ ಪ್ರದೇಶ](images/tktUploadImages.png)
 
-Your picture will be uploaded and should be ready to use.
+ನಿಮ್ಮ ಚಿತ್ರವು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ ಮತ್ತು ಬಳಸಲು ಸಿದ್ಧರಾಗಿರಬೇಕು.
 
-- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+- `index.html` ಫೈಲ್‌ಗೆ ಹೋಗಿ ಮತ್ತು `<img>` ಟ್ಯಾಗ್ ಅನ್ನು ಹುಡುಕಿ. `tito.png` ಪಠ್ಯವನ್ನು ಬದಲಾಯಿಸಿ ಇದರಿಂದ ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಇಮೇಜ್ ಫೈಲ್‌ನ ಹೆಸರಿಗೆ ಅದು ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ. ಅದರ ಹೆಸರು `.png` ಬದಲಿಗೆ `.jpg` ನಲ್ಲಿ ಕೊನೆಗೊಳ್ಳಬಹುದು ಎಂಬುದನ್ನು ಗಮನಿಸಿ!
 
-The text you just changed is the attribute called `src`, which tells the browser which file to display.
+ನೀವು ಈಗ ಬದಲಾಯಿಸಿದ ಪಠ್ಯವು `src` ಎಂಬ ಗುಣಲಕ್ಷಣವಾಗಿದೆ, ಅದು ಯಾವ ಫೈಲ್ ಅನ್ನು ಪ್ರದರ್ಶಿಸಬೇಕೆಂದು ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುತ್ತದೆ.
 
-**Note:** the value you type for an attribute must have quotation marks `""` around it!
+**ಗಮನಿಸಿ:** ಗುಣಲಕ್ಷಣಕ್ಕಾಗಿ ನೀವು ಟೈಪ್ ಮಾಡಿದ ಮೌಲ್ಯವು ಅದರ ಸುತ್ತಲೂ ಉದ್ಧರಣ ಚಿಹ್ನೆಗಳನ್ನು `""` ಹೊಂದಿರಬೇಕು!
 
 \--- challenge \---
 
-## Challenge: change the alt text of the picture
+## ಸವಾಲು: ಚಿತ್ರದ ಆಲ್ಟ್ ಪಠ್ಯವನ್ನು ಬದಲಾಯಿಸಿ
 
-- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+- ನಿಮ್ಮ ಇಮೇಜ್ ಅಂಶದ `ಆಲ್ಟ್(alt)` ಗುಣಲಕ್ಷಣವನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅದರಲ್ಲಿರುವ ಪಠ್ಯವನ್ನು ನಿಮ್ಮ ಚಿತ್ರದ ಸಣ್ಣ ವಿವರಣೆಗೆ ಬದಲಾಯಿಸಿ. 
 
 \--- /challenge \---
