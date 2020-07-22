@@ -1,44 +1,44 @@
-## Creating links
+## ಲಿಂಕ್‌ಗಳನ್ನು ರಚಿಸುವುದು
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+ಈ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಲಿಂಕ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಅದನ್ನು ಇನ್ನೊಂದು ಪುಟಕ್ಕೆ ಕರೆದೊಯ್ಯುವುದು ಹೇಗೆ ಎಂದು ನೀವು ಕಲಿಯುವಿರಿ.
 
-- Add the following code to the body section of `index.html`:
+- `index.html` ನ ದೇಹದ ವಿಭಾಗಕ್ಕೆ ಈ ಕೆಳಗಿನ ಕೋಡ್ ಸೇರಿಸಿ:
 
 ```html
   <a href="">Click here</a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+`<a> </a>` ಟ್ಯಾಗ್‌ಗಳು ಅವುಗಳ ನಡುವೆ ಇರುವ ಯಾವುದನ್ನಾದರೂ ಲಿಂಕ್ ಆಗಿ ಪರಿವರ್ತಿಸುತ್ತವೆ.
 
-- Try clicking your link to see what happens. It does nothing, right?
+- ಏನಾಗುತ್ತದೆ ಎಂದು ನೋಡಲು ನಿಮ್ಮ ಲಿಂಕ್ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. ಅದು ಏನೂ ಮಾಡುವುದಿಲ್ಲ, ಸರಿನಾ?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+ಏಕೆಂದರೆ ಈ ಸಮಯದಲ್ಲಿ `href` ಗುಣಲಕ್ಷಣ ಖಾಲಿಯಾಗಿದೆ. ನೀವು ಲಿಂಕ್ ಮಾಡಲು ಬಯಸುವ ಪುಟದ **URL** (ಜಾಲತಾಣದ ವಿಳಾಸ) ಅನ್ನು ಇದು ಒಳಗೊಂಡಿರಬೇಕು.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- ವಿಕಿಪೀಡಿಯಾಕ್ಕೆ ಹೋಗಿ ಮತ್ತು ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಯಾವುದಾದರೂ ಒಂದು ಪುಟವನ್ನು ಹುಡುಕಿ. ನಾನು ಐರ್ಲೆಂಡ್ ಬಗ್ಗೆ ಪುಟವನ್ನು ಬಳಸಲಿದ್ದೇನೆ.
 
-- Click in the address bar and select all of the text in it. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- ವಿಳಾಸ ಪಟ್ಟಿಯಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಅದರಲ್ಲಿರುವ ಎಲ್ಲಾ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಅದು ನೀವು ಇರುವ ಪುಟದ ಸಂಪೂರ್ಣ URL ಆಗಿದೆ. ಅದನ್ನು ನಕಲಿಸಲು <kdb>ಒಂದೇ</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> ಕೀಗಳನ್ನು ನಕಲಿಸಲು ಅದೇ ಸಮಯದಲ್ಲಿ.
     
-    ![URL in address bar](images/AddressBarURL.png)
+    ![ವಿಳಾಸ ಪಟ್ಟಿಯಲ್ಲಿರುವ URL](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- ನಿಮ್ಮ ಟ್ರಿಂಕೆಟ್‌ನಲ್ಲಿ, `href=` ನಂತರ ಉದ್ಧರಣ ಚಿಹ್ನೆಗಳ ನಡುವೆ ಕ್ಲಿಕ್ ಮಾಡಿ <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> ನೀವು ಇದೀಗ ನಕಲಿಸಿದ URL ನಲ್ಲಿ ಅಂಟಿಸಲು ಕೀಲಿಗಳು. ನಿಮ್ಮ ಕೋಡ್ ಈಗ ಈ ರೀತಿ ಕಾಣಬೇಕು:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+ನಿಮ್ಮ ಮೊದಲ ಲಿಂಕ್ ಅನ್ನು ನೀವು ಇದೀಗ ರಚಿಸಿದ್ದೀರಿ! ಅದು ಈಗ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 ![Link tag](images/egLinkTagWithURL.png)
 
 ## \--- collapse \---
 
-## title: Links to other websites
+## title: ಇತರ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗೆ ಲಿಂಕ್‌ಗಳು
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Trinket ‌ಗೆ ಕೆಲವು ಜಾಲತಾಣದ ವಿಳಾಸಗಳೊಂದಿಗೆ ತೊಂದರೆ ಇದೆ. ನೀವು ಬಯಸಿದರೆ ವಿಕಿಪೀಡಿಯಾ ಹೊರತುಪಡಿಸಿ ಬೇರೆ ವೆಬ್‌ಸೈಟ್‌ಗಳ URL ಗಳನ್ನು ನೀವು ಪ್ರಯತ್ನಿಸಬಹುದು, ಆದರೆ ಅವು ನಿಮ್ಮ trinket ‌ನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸದೆ ಇರಬಹುದು. ಆದಾಗ್ಯೂ, ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು ನೀವು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಕೊಂಡು ಅಂತರ್ಜಾಲ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಫೈಲ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದರೆ, ಲಿಂಕ್‌ಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿರುವುದನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ.
 
 \--- /collapse \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- `Click here` ಪದಗಳ ಬದಲು `<a> </a>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಚಿತ್ರವನ್ನು ಇರಿಸಲು ಪ್ರಯತ್ನಿಸಿ, ಈ ರೀತಿಯಾಗಿ:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,9 +46,9 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- ನಿಮ್ಮ ಚಿತ್ರದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ. ಅದನ್ನು ಲಿಂಕ್ ಆಗಿ ಪರಿವರ್ತಿಸಲಾಗಿದೆ ಎಂದು ನೀವು ನೋಡುತ್ತೀರಾ?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+ಪ್ಯಾರಾಗ್ರಾಫ್‌ನಲ್ಲಿ ಅಥವಾ ಪಟ್ಟಿಯಂತಹ ನಿಮ್ಮ ಅಂತರ್ಜಾಲ ‌ಪುಟದ ಇತರ ಅಂಶಗಳಿಗೆ ನೀವು ಲಿಂಕ್ ಅನ್ನು ಹಾಕಬಹುದು. ಅದರಲ್ಲಿ ಲಿಂಕ್ ಹೊಂದಿರುವ ವಾಕ್ಯದ ಉದಾಹರಣೆ ಇಲ್ಲಿದೆ:
 
 ```html
   <p>
@@ -58,8 +58,8 @@ You can put a link into other elements of your webpage too, such as in a paragra
 
 \--- challenge \---
 
-## Challenge: put a link into a list
+## ಸವಾಲು: ಪಟ್ಟಿಯನ್ನು ಲಿಂಕ್ ಆಗಿ ಇರಿಸಿ
 
-- See if you can make a list that contains a link inside one of the list items.
+- ಪಟ್ಟಿ ಐಟಂಗಳೊಂದರಲ್ಲಿ ಲಿಂಕ್ ಹೊಂದಿರುವ ಪಟ್ಟಿಯನ್ನು ನೀವು ಮಾಡಬಹುದೇ ಎಂದು ನೋಡಿ.
 
 \--- /challenge \---
