@@ -1,8 +1,8 @@
-## Making a list
+## ಪಟ್ಟಿಯನ್ನು ತಯಾರಿಸುವುದು
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+"ಕುದುರೆಗಳು, ರೋಬೋಟ್‌ಗಳು, ಬೆಕ್ಕುಗಳು" ನಂತಹ ವಸ್ತುಗಳ ಪಟ್ಟಿಯನ್ನು ಉತ್ತಮವಾಗಿ ಕಾಣುವ ಪಟ್ಟಿಯನ್ನಾಗಿ ಮಾಡುವುದು ಹೇಗೆ ಎಂದು ಈಗ ನೀವು ಕಲಿಯುವಿರಿ, ನಂತರ ನೀವು ಅದ್ಭುತವಾದ ಕೆಲಸಗಳನ್ನು ಮಾಡಬಹುದು.
 
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- `index.html` ಫೈಲ್‌ನಲ್ಲಿ, ಈ ಕೆಳಗಿನ ಕೋಡ್ ಅನ್ನು ಸಾಲಿನ ಮೇಲಿರುವ `</main>` ನೊಂದಿಗೆ ಸೇರಿಸಿ:
 
 ```html
     <ul>
@@ -13,17 +13,17 @@ Now you will learn how to turn a list of items, such as "unicorns, robots, cats"
     </ul>
 ```
 
-The result should be a nice list like this:
+ಫಲಿತಾಂಶವು ಈ ರೀತಿಯ ಉತ್ತಮ ಪಟ್ಟಿಯಾಗಿರಬೇಕು:
 
-![Unordered list](images/egUnorderedList.png)
+![ಕ್ರಮವಿಲ್ಲದ ಪಟ್ಟಿ](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
+ಪಟ್ಟಿಯಲ್ಲಿ ಪ್ರತಿಯೊಂದು ವಸ್ತು ಸುತ್ತಲೂ ಪ್ರತ್ಯೇಕ ಜೋಡಿ `<li> </li>` ಟ್ಯಾಗ್‌ಗಳಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ.
 
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+ಐರ್ಲೆಂಡ್‌ನಲ್ಲಿ ನೀವು ನೋಡಬಹುದಾದ ಕೆಲವು ಪ್ರಾಣಿಗಳ ಪಟ್ಟಿ ಇದು. ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಅರ್ಥವಾಗುವಂತಹ ವಿಷಯಗಳಿಗೆ ನೀವು ಪಟ್ಟಿಯಲ್ಲಿರುವ ವಸ್ತುಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು ಮತ್ತು ನೀವು ಬಯಸಿದರೆ ಅದು ಯಾವ ಪಟ್ಟಿಯೆಂದು ವಿವರಿಸಲು ಪಟ್ಟಿಯ ಮೇಲೆ ಒಂದು ಪ್ಯಾರಾಗ್ರಾಫ್ ಅನ್ನು ಸೇರಿಸಿ!
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
+ನೀವು ಸಂಖ್ಯೆಯ ಪಟ್ಟಿಯನ್ನು ಬಯಸಿದರೆ ಹೇಗೆ? ಇದು ಬಹುತೇಕ ಒಂದೇ ಆಗಿರುತ್ತದೆ, ಆದರೆ `<ul>` ಬದಲಿಗೆ, ನೀವು `<ol>` ಅನ್ನು ಬಳಸುತ್ತೀರಿ. ಸಂಖ್ಯೆಯ ಪಟ್ಟಿಯನ್ನು **ಆದೇಶಿಸಿದ** ಪಟ್ಟಿ ಎಂದೂ ಕರೆಯಲಾಗುತ್ತದೆ.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- ನೀವು ಈಗ ಬರೆದ ಕೋಡ್‌ನ ಕೆಳಗೆ ಈ ಕೆಳಗಿನ ಕೋಡ್ ಸೇರಿಸಿ - ಅದು `</ul>` ಟ್ಯಾಗ್‌ಗಿಂತ **ಕೆಳಗಿದೆ** ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ!
 
 ```html
     <p>
@@ -36,14 +36,14 @@ How about if you wanted a numbered list? It's almost the same, but instead of `<
     </ol>
 ```
 
-Here's what it should look like now:
+ಈಗ ಅದು ಹೇಗಿರಬೇಕು ಎಂಬುದು ಇಲ್ಲಿದೆ:
 
-![Ordered list](images/egOrderedList.png)
+![ಆದೇಶ ಪಟ್ಟಿ](images/egOrderedList.png)
 
 \--- challenge \---
 
-## Challenge: add style to your lists
+## ಸವಾಲು: ನಿಮ್ಮ ಪಟ್ಟಿಗಳಿಗೆ ಶೈಲಿಯನ್ನು ಸೇರಿಸಿ
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- ನಿಮ್ಮ ಪಟ್ಟಿಗಳು ಹೇಗೆ ಕಾಣುತ್ತವೆ ಎಂಬುದನ್ನು ಬದಲಾಯಿಸಲು ನಿಮ್ಮ ಸ್ಟೈಲ್‌ಶೀಟ್‌ಗೆ **CSS ನಿಯಮಗಳನ್ನು** ಸೇರಿಸಬಹುದೇ ಎಂದು ನೋಡಿ.
 
 \--- /challenge \---
