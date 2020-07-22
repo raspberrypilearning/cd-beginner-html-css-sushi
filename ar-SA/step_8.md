@@ -43,7 +43,7 @@ Trinket لديه مشكلة مع بعض عناوين الويب. يمكنك تج
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
-      <img src="tito.png" alt="Tito the dog" width="100px" />
+      <img src="tito.png" alt="تيتو ال" width="100px" />
   </a>
 ```
 
