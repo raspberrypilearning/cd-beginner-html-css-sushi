@@ -29,3 +29,5 @@ steps:
 - title: Styling the menu bar
 - title: Adding a table
 - title: What next?
+- title: Evaluation
+  quiz: true
