@@ -1,4 +1,4 @@
-## Agregando imágenes
+## Añadiendo imágenes
 
 ¡Agreguemos una foto!
 
