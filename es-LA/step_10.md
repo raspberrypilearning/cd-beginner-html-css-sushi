@@ -48,10 +48,10 @@ Si cometes un error, puedes **deshacer** presionando <kbd>Ctrl</kbd> (o <kbd>cmd
 
 - Coloca esta sección de código en la sección de encabezado de cada archivo HTML que hayas creado. Esto hará que el menú de navegación aparezca en la parte superior de cada página de tu sitio web.
     
-    --- hints ---
+--- hints ---
 
     
-    --- hint ---
+--- hint ---
 
 Hint ---Selecciona toda la sección `<nav>` como hiciste antes, y presiona las teclas <kbd>Ctrl</kbd> (o <kbd>cmd</kbd>) y <kbd>C</kbd> a la vez para copiarla.
 
