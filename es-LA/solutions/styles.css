@@ -1,0 +1,68 @@
+body {
+  background-color: DeepSkyBlue;
+  font-family: "Helvetica", sans-serif;
+  color: Purple;
+}
+h1 {
+  color: orange;
+  font-family: "Times New Roman", serif;
+}
+h2 {
+  font-family: "Times New Roman", serif;
+}
+h3 {
+  font-style: italic;
+}
+a {
+  color: PaleTurquoise;
+}
+nav ul {
+  background-color: tomato;
+  border-style: solid;
+  border-color: MediumVioletRed;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: PapayaWhip;
+}
+nav ul li a {
+  text-decoration: none;
+  color: Brown;
+}
+img {
+  border-radius: 30px;
+}
+
+
+
+
+
+
+/**********************************
+Esta sección es para el estilo de las tablas
+***********************************/
+table, th, td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+}
+tr {
+  background-color: PaleTurquoise;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: purple;
+}
+td {
+  color: purple;
+}
+/********************************/

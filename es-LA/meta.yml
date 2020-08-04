@@ -1,0 +1,32 @@
+---
+title: Guía a mi país 1.0
+hero_image: images/banner.png
+description: Aprende a hacer un sitio web
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Introducción
+  - title: Preparación
+  - title: '¡Tu primera página web!'
+  - title: Controlando cómo lucirá
+  - title: Añadiendo imágenes
+  - title: Añadiendo un mapa o vídeo
+  - title: Haciendo una lista
+  - title: Creando enlaces
+  - title: Añadiendo más páginas
+  - title: Navegando por tu página web
+  - title: Haciendo un menú de barra
+  - title: Definiendo el estilo del menú de barra
+  - title: Añadiendo una tabla
+  - title: '¿Qué hacer a continuación?'
