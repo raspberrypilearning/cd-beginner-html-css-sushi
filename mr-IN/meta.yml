@@ -1,7 +1,7 @@
 ---
-title: Guide to my country 1.0
+title: माझ्या देशाचे मार्गदर्शन १.०
 hero_image: images/banner.png
-description: Learn to make a website
+description: वेब साईट बनवायला शिका
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 3
 listed: true
@@ -17,30 +17,30 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Getting set up
+    title: सुरुवात अशी करा
   - 
-    title: Your first webpage!
+    title: आपले पहिले webpage!
   - 
-    title: Controlling how it looks
+    title: ते कसे दिसेल हे नियंत्रित करण्याकरता
   - 
-    title: Adding pictures
+    title: छायाचित्र जोडणे
   - 
-    title: Adding a map or video
+    title: नकाशा किंव्हा व्हिडिओ जोडणे
   - 
-    title: Making a list
+    title: लीस्ट बनवणे
   - 
-    title: Creating links
+    title: लिंक तयार करणे
   - 
-    title: Adding more pages
+    title: आणखी पाने जोडणे
   - 
-    title: Navigating your website
+    title: आपल्या वेबसाईटवर नॅव्हिगेट करणे
   - 
-    title: Making a menu bar
+    title: Menu bar बनवणे
   - 
-    title: Styling the menu bar
+    title: Menu bar ची शैली (स्टाईल) ठरवणे
   - 
-    title: Adding a table
+    title: एक टेबल जोडणे
   - 
     title: What next?
