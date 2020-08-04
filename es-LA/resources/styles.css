@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************
+Esta sección es para el estilo de las tablas
+***********************************/
+table, th, td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+}
+tr {
+  background-color: PaleTurquoise;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: purple;
+}
+td {
+  color: purple;
+}
+/********************************/
