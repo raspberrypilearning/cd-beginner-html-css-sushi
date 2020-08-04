@@ -1,22 +1,22 @@
-## Navigating your website
+## आपल्या वेबसाइटवर मार्गनिर्देशन (नॅव्हिगेट) करणे
 
-Many websites have a **navigation** menu to help visitors move between pages. Now that you've got a bunch of pages, a homepage, and links to each page, let's move the list of links to a navigation section at the top of every page.
+बर्‍याच वेबसाइटमध्ये अभ्यागतांना पेजदरम्यान फिरण्यास मदत होण्यासाठी **मार्गनिर्देशन (नॅव्हिगेशन)** मेनू असतं. आता जेंव्हा आपल्याकडे पृष्ठांचा घड (बंच) आणि प्रत्येक पेजला लिंक आहेत, तेंव्हा प्रत्येक लिंकच्या शीर्षस्थानी (टॉप) मार्गनिर्देशन (नॅव्हिगेशन) विभागात लिंकची लिस्ट हलवूया.
 
-![Example of a web page with navigation links at the top](images/egNavLinksAtTop.png)
+![एका वेब पेजवर असणाऱ्या मार्गनिर्देशक (नॅव्हिगेशन) लिंक ह्याचं उदाहरण](images/egNavLinksAtTop.png)
 
-- Find the code for your list of links that you created in the previous step.
+- आपण मागच्या क्रमात (स्टेपमध्ये) जी लिंकची लिस्ट बनवली त्या लिंकची लिस्टसाठी code शोधा.
 
-- Just before the opening `<ul>` tag, press **Enter** to create a new blank line, then on the new line type the following tag: `<nav>`. Trinket automatically adds the closing tag right after, but you can delete that — it's not in the right place.
+- `<ul>` हा टॅग उघडण्याच्या अगदी आधी, **एंटर (Enter)** दाबून नवी रिकामी (ब्लँक) ओळ बनवा, मग नव्या ओळीवर `<nav>` हा टॅग टंकलेखित करा. Trinket स्वयंचलितपणे बंद होणारा टॅग नंतर जोडेल, परंतु आपण तो काढू शकता - तो योग्य जागेवर नाही आहे.
 
-- Just **after** the closing `</ul>` tag, press **Enter** to create a new blank line, and type in the closing tag `</nav>` there.
+- बंद होणाऱ्या `</ul>` ह्या टॅगच्या अगदी **नंतर**, **एंटर (Enter)** दाबून एक नवी blank line बनवा, आणि तेथे बंद होणारा `</nav>` हा टॅग टंकलेखित करा.
 
-- Now select your entire `<nav>` section and list by clicking just before the opening `<nav>` tag and dragging the mouse all the way down to just after the closing `</nav>` tag, so that all of the text including the opening and closing tags becomes highlighted. Make sure all of the **angle brackets** `<` and `>` at the start and end are highlighted as well!
+- आता संपूर्ण `<nav>` विभागाला (सेक्शन) आणि यादीला `<nav>` ह्या उघडणाऱ्या टॅगच्या अगदी आधी टिचकी मारून आणि माऊसला `</nav>` ह्या टॅगच्या अगदी नंतर पर्यंत ड्रॅग करून निवडा जेणेकरून उघडणाऱ्या आणि बंद होणाऱ्या टॅग्सला धरून सर्व मजकूर हायलाइट (लक्ष वेधले जाईल) होईल. सुरुवातीला आणि शेवटी असलेले सर्व **कोन कंस (अँगल ब्रॅकेट्स)** `<` आणि `>` सुद्धा हायलाइट आहेत कि नाही ह्याची खात्री करून घ्या!
 
-![Text on the left is not fully selected while the text on the right is](images/egSelectedYayWoops.png)
+![उजवीकडील टेक्स्ट पूर्णपणे निवडला आहे तर डावीकडील नाही](images/egSelectedYayWoops.png)
 
-- You are going to **cut** this time instead of copying. Hold down the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) key, and while holding it, press the <kbd>X</kbd> key. The highlighted code will disappear, but don't panic!
+- ह्यानी आपला कॉपी करण्याचा वेळ **कमी** होईल. <kbd>Ctrl</kbd> (किंव्हा <kbd>cmd</kbd>) कळ दाबून ठेवा आणि असं करतांना <kbd>X</kbd> कळ दाबा. हायलाइट असलेला code अदृश्य होईल, पण घाबरू नका!
 
-- At the top of the file, click in the space between the `<header> </header>` tags. Make sure you see the cursor flashing there. Now paste in the code by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>V</kbd> as usual. The code should look something like this:
+- fileच्या वरती, `<header></header>` ह्या टॅग्स मधल्या रिकाम्या जागेत क्लिक करा. आपला बाण (कर्सर) दिसतोय अदृश्य होतोय दिसतोय अदृश्य होतोय का नाही ह्याची खात्री करून घ्या. आता नेहमी प्रमाणे <kbd>Ctrl</kbd> (किंव्हा <kbd>cmd</kbd>) आणि <kbd>V</kbd> दाबून कोडला पेस्ट करा. कोड काही असा दिसला पाहिजे:
 
 ```html
     <header>
@@ -33,32 +33,32 @@ Many websites have a **navigation** menu to help visitors move between pages. No
 
 ## \--- collapse \---
 
-## title: Undo!
+## title: पूर्ववत करा!
 
-If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>Z</kbd> together. You can usually press this key combination a few times to undo the last few changes. This is another handy keyboard shortcut that you can use in many programs!
+आपण चुकल्यास, आपण <kbd>Ctrl</kbd> (किंव्हा <kbd>cmd</kbd>) आणि <kbd>Z</kbd> एकत्र दाबून **पूर्ववत** करू शकता. आपण मागील काही बदल पूर्ववत करण्यासाठी सामान्यत: हे की संयोजन काही वेळा दाबू शकता. हा आणखी एक सुलभ कीबोर्ड शॉर्टकट आहे जो आपण बर्‍याच प्रोग्राम्समध्ये वापरू शकता!
 
 \--- /collapse \---
 
-- Try out your links to make sure they are still working.
+- आपले लिंक अजूनही कार्यरत आहेत हे सुनिश्चित करण्यासाठी आपले लिंक उघडून पहा.
 
 \--- challenge \---
 
-## Challenge: navigation menus for all pages
+## Challenge: सर्व पेजसाठी मार्गनिर्देशक (नॅव्हिगेशन) मेनू
 
-- Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
+- आपण तयार केलेल्या प्रत्येक HTML फाईलच्या शीर्षलेख (हेडर) विभागात हा कोड विभाग टाका. ह्यानी आपल्या संकेतस्थळावरच्या प्रत्येक पृष्ठावर मार्गनिर्देशन (नॅव्हिगेशन) मेनू दिसेल.
     
     \--- hints \---
     
     \--- hint \---
 
-Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it.
+आपण आधी जसा संपूर्ण `<nav>` विभाग (सेक्शन) निवडला होता तसा आता निवडा आणि <kbd>Ctrl</kbd> (किंव्हा <kbd>cmd</kbd>) आणि <kbd>C</kbd> कळे एकत्र दाबून त्याला कॉपी करा.
 
-Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
+नंतर, आपल्या प्रत्येक `.html` fileमध्ये `<header></header>` ह्या विभागाच्या (सेक्शनच्या) आत क्लिक करून आपण आधी जसा code पेस्ट केला होता तसा पेस्ट करा.
 
 \--- /hint \---
 
 \--- /hints \---
 
-Now you will be able to click the links no matter which page you are on.
+आता आपण कुठल्याही पेजवर असल्यास लिंकवर क्लिक करू शकाल.
 
 \--- /challenge \---
