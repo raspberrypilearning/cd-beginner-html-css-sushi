@@ -1,12 +1,12 @@
-## Your first webpage!
+## आपले पहिले webpage!
 
-- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
+- डावीकडील पॅनेलमध्ये **code panel ** ` index.html म्हणणार्‍या टॅबवर क्लिक करा `.
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
+- ` Welcome to Ireland!` असे म्हणणारी ओळ शोधा आणि आपल्या स्वत: च्या संदेशामध्ये ते बदला - सावध रहा ओळीच्या सुरुवातीला असणाऱ्या `<p>` आणि ओळीच्या शेवटी असणाऱ्या `</p>` ह्या टॅग्सना काढून टाकू ** नका **. आपल्याला आपल्या webpage अद्यतन उजवीकडच्या पॅनल मध्ये दिसेल.
 
-![HTML paragraph example](images/egFirstHtmlCode.png)
+![HTML परिच्छेद उदाहरण](images/egFirstHtmlCode.png)
 
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
+- आता त्याच ओळीवर `<p>` आणि `</p>`ला `<h1>` आणि `</h1>` मध्ये बदला. आपल्याला उजवीकडच्या निकालामध्ये काही बदल दिसला का?
 
 ```html
   <h1>Welcome to Ireland!</h1>
@@ -14,76 +14,73 @@
 
 ## \--- collapse \---
 
-## title: HTML and tags explained
+## title: HTML आणि टॅग्स बद्दल विस्तृत
 
-**HTML** is the code that makes a webpage.
+** HTML** कोड हा एक webpage बनवितो.
 
-The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
+फाईलच्या नावामध्ये `html` असल्यास ते ब्राऊझरला ती फाईल एक webpage आहे असे सांगते, तर ब्राउझर नेहमी **tags**च्या शोधात असतं जे त्याला समोरच्याला काय दर्शवायला पाहिजे ते सांगते. (Browser हा एक प्रोग्राम आहे जो आपण वेबसाईट पाहण्यासाठी वापरता, उदाहरणार्थ क्रोम किंव्हा फायरफॉक्स.)
 
-HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+HTML टॅग्स जसे कि `<p>` आणि `</p>` हे एका पानावर कुठे काय असेल हे सांगतात, उदाहरणार्थ परिच्छेद (paragraphs), शीर्षके (headings), किंव्हा मुख्य भाग. वेबपृष्ठ ज्या ज्या वेगवेगळ्य्या तुकड्यांनी बनते, त्या तुकड्यांना **elements** असे म्हणतात. ह्यांना आपण विटा समझा.
 
-### Why do I need two tags?
+### मला दोन टॅग्सची गरज का आहे?
 
-You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
+आपल्याला एका **उघड्या** आणि एका **बंद** टॅगची गरज, ब्राउझरला elements कुठे **सुरु** होतात आणि कुठे **बंद** होतात हे सांगायला लागते. तर एखाद्या परिच्छेदासाठी (paragraph), उघडा `<p>` टॅग म्हणतो की "येथे एक मजकूर आहे जो मला आपल्याला एक परिच्छेद म्हणून दाखवायचा आहे." बंद टॅग `</p>` ब्राउझरला परिच्छेद कुठे समाप्त होईल हे सांगतो.
 
-Everything in between the `<body>` and `</body>` tags is your webpage.
+`<body>` आणि `</body>` टॅग्स मधील सर्वकाही आपले वेबपृष्ठ आहे.
 
-- Notice how the closing tag **always** has a forward slash `/`.
+- लक्षात घ्या कसं बंद होणाऱ्या टॅग मध्ये **नेहमी** एक फॉरवर्ड स्लॅश असतो``.
 
 \--- /collapse \---
 
-- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
+- आपल्या ** शीर्षकातले (heading)** क्रमांक बदलून ते आपल्याला कसे वेगवेगळे माप देतात हे पहा. आपण `<h1>` पासून ते `<h6>` पर्यंत माप ठेवू शकता. उघडणारा आणि बंद होणारा टॅग बदलायचा लक्षात ठेवा जेणेकरून ते जुळतील.
 
-- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
+- ` My website is about Ireland.` असे म्हणणार्‍या परिच्छेदासाठी (paragraph) code शोधा आणि तो बदला जेणेकरून ते यासारखे दिसेल:
 
 ```html
   <p>
-    <em>My website</em> is about <strong>Ireland</strong>. 
-    It is going to have the following pages: Attractions, Music, Food
-  </p>
+    <em>My website</em><strong>Ireland</strong> बद्दल आहे. 
+    त्यावर हे पाने असणार आहेत: Attractions, Music, Food </p>
 ```
 
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+आपण सांगू शकाल का कि `<em></em>` आणि `<strong></strong>` हे टॅग्स काय करतात?
 
-![Example of HTML tags](images/egFirstTags.png)
+![HTML टॅग्सचे उदाहरण](images/egFirstTags.png)
 
 \--- challenge \---
 
-## Challenge: add some more text of your own
+## Challenge: आपल्या स्वतःचा आणखी काही मजकूर जोडा
 
-- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
+- आपण जे काही टॅग्स शिकले आहात ते वापरून आपल्या पानावर एक नवीन परिच्छेद (paragraph) किंव्हा शीर्षक (heading) जोडून पहा.
 
 \--- hints \---
 
 \--- hint \---
 
-When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+जेव्हा आपल्याला एका पृष्ठामध्ये मजकूर टाकायचा असेल, तेव्हा आपल्याला तो दोन टॅग्समध्ये टाकावा लागेल जे आपल्या ब्राउझरला आपला मजकूर कसा प्रदर्शित करावा ते सांगतात. उदाहरणार्थ, `<p> </p>` टॅग्स ब्राउझरला सांगतात की त्यांच्यामध्ये जे काही आहे तो मजकूराचा नवीन परिच्छेद (paragraph) आहे, आणि `<h1> </h1>` टॅग्स त्याला हे सांगतात की त्यामधील मजकूर हे एक शीर्षक (heading) आहे.
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for paragraphs looks like this:
+परिच्छेदांसाठी कोड असे दिसते:
 
 ```html
   <p>This is one paragraph of text.</p>
-
-  <p>This is another paragraph.
-  Everything in between one set of p tags is 
-  displayed together in one long line on the webpage.</p>
+   <p>This is another paragraph.
+  p टॅग्सच्या एका संचामध्ये (set) सर्वकाही एका लांब ओळीत वेबपृष्ठावर एकत्र दर्शवली जाते.</p>
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for headings looks like this:
+हेडइंग्सचा code असे दिसतो:
 
 ```html
   <h1>This is a heading.</h1>
 ```
 
-Headings will normally be displayed bigger or bolder than the paragraphs.
+शीर्षके परिच्छेदांपेक्षा सामान्यतः मोठे किंव्हा ठळकपणे दर्शविले जाईल.
 
 \--- /hint \---
 
@@ -91,4 +88,4 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /challenge \---
 
-Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
+अभिनंदन, आपण आपले पहिले वेबपृष्ठ तयार केले आहे! पुढच्या कार्डवर, आपल्याला ते कसे दिसेल हे नियंत्रित करणे समझेल.
