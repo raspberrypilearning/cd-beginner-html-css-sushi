@@ -1,5 +1,5 @@
 ---
-title: Guide to my country 1.0
+title: Guida al mio paese 1.0
 hero_image: images / banner.png
 description: Impara a creare un sito web
 theme: rosso #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
@@ -19,28 +19,28 @@ steps:
   - 
     title: Introduzione
   - 
-    title: Getting set up
+    title: Prepararsi
   - 
-    title: Your first webpage!
+    title: La tua prima pagina web!
   - 
-    title: Controlling how it looks
+    title: Controllare come appare
   - 
-    title: Adding pictures
+    title: Aggiungere foto
   - 
-    title: Adding a map or video
+    title: Aggiungere una mappa o un video
   - 
-    title: Making a list
+    title: Fare una lista
   - 
-    title: Creating links
+    title: Creare collegamenti
   - 
-    title: Adding more pages
+    title: Aggiungere più pagine
   - 
-    title: Navigating your website
+    title: Navigare nel tuo sito web
   - 
-    title: Making a menu bar
+    title: Creare una barra dei menu
   - 
-    title: Styling the menu bar
+    title: Dare uno stile alla la barra dei menu
   - 
-    title: Adding a table
+    title: Aggiungere una tabella
   - 
-    title: What next?
+    title: E adesso?
