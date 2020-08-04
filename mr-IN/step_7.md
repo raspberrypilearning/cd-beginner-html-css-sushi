@@ -1,8 +1,8 @@
-## Making a list
+## एखादी लिस्ट बनवणे
 
-Now you will learn how to turn a list of items, such as "unicorns, robots, cats", into a nicer-looking list that you can do cool things with later.
+आता आपण आयटम्सची एक लिस्ट जसे कि "युनिकॉर्नस, रोबोट्स, मांजरी" ला एका छान दिसणाऱ्या यादीत कसे बदलायचे हे शिकणार आहात ज्याबरोबर आपण नंतर झकास गोष्टी करू शकता.
 
-- In the `index.html` file, add the following code just above the line with `</main>` on it:
+- `index.html` file मध्ये `</main>` ह्या ओळीच्या अगदी वर, खाली दिलेला code जोडा:
 
 ```html
     <ul>
@@ -13,17 +13,17 @@ Now you will learn how to turn a list of items, such as "unicorns, robots, cats"
     </ul>
 ```
 
-The result should be a nice list like this:
+परिणामस्वरूप ह्यासारखी एक छान लिस्ट दिसेल:
 
-![Unordered list](images/egUnorderedList.png)
+![अक्रमांकित लिस्ट(Unordered list)](images/egUnorderedList.png)
 
-Notice that there is a separate pair of `<li> </li>` tags around each item in the list.
+लक्षात घ्या कि लिस्टच्या प्रत्येक आयटम भोवती `<li></li>` ह्या टॅग्सची एक वेगळी जोडी आहे.
 
-This is a list of some animals you might see in Ireland. You can change the items on the list to things that make sense for your website, and add a paragraph above the list to describe what it's a list of, if you like!
+आर्लंडमध्ये आपल्याला दिसू शकणाऱ्या काही प्राण्यांची हि एक लिस्ट आहे. आपण लिस्टमध्ये असलेले आयटम्स आपल्या वेबसाईटनुसार अर्थपूर्ण गोष्टींमध्ये बदलू शकता, आणि आपल्याला आवडत असल्यास, लिस्टच्या वर हि लिस्ट कसली आहे ह्याबद्दल एक परिच्छेद जोडून वर्णन करू शकता.
 
-How about if you wanted a numbered list? It's almost the same, but instead of `<ul>`, you use `<ol>`. A numbered list is also called an **ordered** list.
+आपल्याला क्रमांकीत (numbered) लिस्ट हवी असल्यास कसं कराल? हे जवळजवळ सारखंच आहे, परंतु `<ul>` ह्या ऐवजी, आपण `<ol>` ह्याला वापरा. क्रमांकित लिस्टला **ऑर्डर्ड (ordered)** लिस्ट देखील म्हणतात.
 
-- Add the following code below the code you just wrote — make sure it's **below** the `</ul>` tag!
+- आपण जो code आत्ता लिहिला त्याखाली पुढील code जोडा - तो code `</ul>` ह्या टॅगच्या **खाली** असल्याची खात्री करून घ्या!
 
 ```html
     <p>
@@ -36,14 +36,14 @@ How about if you wanted a numbered list? It's almost the same, but instead of `<
     </ol>
 ```
 
-Here's what it should look like now:
+हे आता असे दिसले पाहिजे:
 
-![Ordered list](images/egOrderedList.png)
+![क्रमांकीत लिस्ट(Ordered list)](images/egOrderedList.png)
 
 \--- challenge \---
 
-## Challenge: add style to your lists
+## Challenge: आपल्या लिस्टना शैली (style) जोडा
 
-- See if you can add **CSS rules** to your stylesheet to change how your lists look.
+- आपल्या स्टाइलशीटमध्ये आपल्या लिस्ट कश्या दिसतात ते **सीएसएस नियम (CSS rules)** जोडून बदलून पहा.
 
 \--- /challenge \---
