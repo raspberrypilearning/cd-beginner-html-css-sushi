@@ -1,54 +1,54 @@
-## Adding more pages
+## Aggiungere più pagine
 
-This card will show you how to add more pages to your website.
+Questa scheda ti mostrerà come aggiungere più pagine al tuo sito web.
 
-- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
+- Nella parte superiore del pannello del codice, fai clic sul simbolo **+** accanto alle schede e digita un nome per il tuo nuovo file. Deve terminare in `.html` (incluso il punto!) in modo che il browser sappia che si tratta di una pagina web.
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+![Aggiungere un nuovo file in Trinket](images/tktNewFileArrows.png)
 
 ## \---- collapse \---
 
-## title: Renaming or deleting a file
+## title: Rinominare ed eliminare un file
 
-If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon.
+Se si desidera modificare il nome di un file, fai clic sull'icona **ingranaggio** a destra del nome del file, quindi fai clic sull'icona **matita**. Digitare il nuovo nome e premi **Invio**. Puoi anche eliminare un file facendo clic sull'icona **cestino** invece che sull'icona **matita**.
 
 ![](images/EditFilename.png)
 
-You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
+Ci si potrebbe chiedere perché non è possibile modificare il nome del file `index.html`. `index.html` è un nome speciale utilizzato per la **homepage** di un sito Web. Questa è la prima pagina sulla quale ti trovi quando visiti un sito web. Ogni volta che si accede alla home page di un sito web, il browser cerca il file denominato `index.html` e lo visualizza sullo schermo.
 
 \--- /collapse \---
 
-- Find the file `blank_page.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
+- Trova il file `blank_page.html` e copia e incolla tutto il codice contenuto in esso nel nuovo file. Volendo copiare tutto, puoi fare clic in qualsiasi punto del codice e utilizzare la scorciatoia da tastiera <kbd>Ctrl</kbd> (o <kbd>cmd</kbd>) e <kbd>A</kbd> per selezionarla in una volta sola.
 
-- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
+- Cambia il testo tra i tag `<title> </title>` in modo che la tua nuova pagina abbia un titolo migliore. Trinket non visualizzerà il titolo, ma puoi vederlo nella parte superiore della finestra del browser se scarichi il tuo progetto.
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+![Il titolo della pagina visualizzato nella scheda del browser](images/egLocalFileWindowTitle.png)
 
-- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
+- All'interno dei tag `<main> </main>` del nuovo file, usa i tag che hai imparato per aggiungere elementi alla pagina, come paragrafi, intestazioni, immagini ed elenchi!
 
-- Repeat the steps above for each new page that you want to add.
+- Ripeti i passaggi precedenti per ogni nuova pagina che vuoi aggiungere.
 
-When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
+Quando ci sono troppe schede da visualizzare in Trinket, puoi usare le icone **<** e **>** nell'angolo in alto a sinistra delle schede per scorrere tra di esse.
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+![I pulsanti per scorrere le schede](images/tktScrollTabIcons.png)
 
-Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
+Ora devi creare collegamenti in modo da poter accedere a ciascuna delle tue nuove pagine! Mettiamo tutti i link in una lista.
 
-- In the `index.html` file, add the following code to the body of your webpage:
+- Nel file `index.html`, aggiungi il seguente codice al corpo della tua pagina web:
 
 ```html
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="attractions.html">Places to visit</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="food.html">Things to eat</a></li>
+        <li><a href="attractions.html">Luoghi da visitare</a></li>
+        <li><a href="music.html">Musica</a></li>
+        <li><a href="food.html">Cose da mangiare</a></li>
     </ul>
 ```
 
-- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created.
+- Cambia il valore dell'attributo `href` per ogni link (ricorda, questo è il testo tra virgolette) in modo che corrisponda esattamente al nome di ogni file HTML che hai creato.
 
-- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
+- Cambia il testo tra i tag `<a> </a>` e le descrizioni appropriate delle tue pagine.
 
-Now you can navigate to your new pages!
+Ora puoi navigare verso le tue nuove pagine!
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+![Esempio di lista di collegamenti su una pagina web](images/egListOfPageLinks.png)
