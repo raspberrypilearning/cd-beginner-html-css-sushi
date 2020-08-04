@@ -1,4 +1,4 @@
-## Navegando por tu sitio web
+## Navegando por tu página web
 
 Muchos sitios web tienen un menú de **navegación** para ayudar a los visitantes a moverse entre páginas. Ahora que tienes muchas páginas, una página de inicio y enlaces a cada una de ellas, movamos la lista de enlaces a la sección de navegación en la parte superior de cada una de las páginas.
 

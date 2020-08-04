@@ -14,7 +14,7 @@
 
 --- collapse ---
 ---
-title: explicación de HTML y etiquetas
+title: Explicación de HTML y etiquetas
 ---
 
 **HTML** es el código que conforma una página web.

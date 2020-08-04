@@ -1,4 +1,4 @@
-## Controlando cómo se ve
+## Controlando cómo lucirá
 
 El código que describe el aspecto de un sitio web se llama **CSS**.
 
@@ -33,7 +33,7 @@ Las llaves `{ }` y el código entre ellas son un conjunto de **reglas CSS**. La 
 
 Cada regla dentro de las llaves se compone de:
 
-- Una ** propiedad** a la izquierda, seguida de un símbolo de dos puntos `:`
+- Una **propiedad** a la izquierda, seguida de un símbolo de dos puntos `:`
 - Un **valor** para la propiedad en el lado derecho después de los dos puntos
 - Un símbolo de punto y coma `;` al final
 

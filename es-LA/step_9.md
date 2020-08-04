@@ -1,4 +1,4 @@
-## Agregando más paginas
+## Añadiendo más páginas
 
 Esta tarjeta te mostrará como agregar más páginas a tu sitio web.
 

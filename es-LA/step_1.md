@@ -25,7 +25,7 @@ title: Lo que aprenderás
 
 --- collapse ---
 ---
-title: lo que necesitas
+title: Lo que necesitas
 ---
 
 ### Hardware

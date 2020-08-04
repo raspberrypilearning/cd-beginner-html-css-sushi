@@ -1,4 +1,4 @@
-## Agregando una tabla
+## Añadiendo una tabla
 
 A veces puede ser útil mostrar información en una tabla. Por ejemplo, es posible que desees incluir información en tu sitio web sobre los miembros de un club deportivo o un colegio, o información sobre tus diez canciones favoritas.
 
@@ -16,7 +16,7 @@ En este momento tu tabla está vacía.
 
 --- collapse ---
 ---
-title: código de ejemplo
+title: Código de ejemplo
 ---
 
 El código HTML para la tabla que se muestra arriba se ve así:
