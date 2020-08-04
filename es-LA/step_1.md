@@ -24,7 +24,7 @@ Crear un sitio web sobre tu país de origen, como el que se muestra en el trinke
 
 ## \--- collapse \---
 
-## title: lo que necesitas
+## title: Lo que necesitas
 
 ### Hardware
 
