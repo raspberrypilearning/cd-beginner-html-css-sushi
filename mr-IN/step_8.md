@@ -1,44 +1,44 @@
-## Creating links
+## लिंक तयार करणे
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+ह्या कार्डवर आपण एक लिंक कसा बनवायचा ते शिकाल ज्यावर क्लिक केल्यावर वर तो आपल्याला दुसऱ्या पृष्ठावर घेऊन जातो.
 
-- Add the following code to the body section of `index.html`:
+- `index.html` च्या बॉडी विभागाला (section) पुढील code जोडा:
 
 ```html
   <a href="">Click here</a>
 ```
 
-The `<a> </a>` tags turn whatever is in between them into a link.
+`<a></a>` ह्या टॅग्स मध्ये जे काही असेल ते एका दुव्यात बदलतं.
 
-- Try clicking your link to see what happens. It does nothing, right?
+- आपल्या लिंकवर क्लिक करून काय होते ते पहा. हे काहीच करत नाही, बरोबर?
 
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
+कारण `href` attribute ह्या क्षणी रिकामा आहे. त्यात ज्या पृष्ठाशी आपल्याला जोडायचे आहे त्या पृष्ठाचा **युआरएल (URL)** (वेब पत्ता) असला पाहिजे.
 
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about Ireland.
+- विकिपीडियावर जा आणि आपल्या संकेतस्थळावरील कशावर तरी एक पृष्ठ शोधा. मी आयर्लंड बद्दलचं पान वापरणार आहे.
 
-- Click in the address bar and select all of the text in it. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it.
+- Address बारवर क्लिक करा आणि त्यातील सर्व टेक्स्ट निवडा. आपण ज्या पानावर आहात त्या पानाचा तो संपूर्ण युआरएल (URL) आहे. Press the <kdb>Ctrl</kdb> (किंव्हा <kdb>cmd</kdb>) आणि <kdb>C</kdb> कळे एकाच वेळी दाबून त्याला कॉपी करा.
     
-    ![URL in address bar](images/AddressBarURL.png)
+    ![पत्ता बारमधील युआरएल (URL)](images/AddressBarURL.png)
 
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
+- आपल्या trinketमध्ये, `href=` च्या नंतर अवतरण चिन्हांच्या quotation marks) मध्ये टिचकी मारा आणि <kdb>Ctrl</kdb> (किंव्हा <kdb>सीएमडी (cmd)</kdb>) आणि <kdb>V</kdb> कळे एकाच वेळी दाबून आपण आत्ताच कॉपी केलेल्या युआरएल (URL) मध्ये पेस्ट करा. आता आपला कोड (code) काही असा दिसला पाहिजे:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a>
 ```
 
-You just created your first link! Click on it to see if it works now.
+आपण नुकताच आपली पहिला लिंक तयार केली आहे! तो काम करतो का हे बघण्यासाठी त्यावर क्लिक करा.
 
-![Link tag](images/egLinkTagWithURL.png)
+![लिंक टॅग](Images/egLinkTagWithURL.png)
 
 ## \--- collapse \---
 
-## title: Links to other websites
+## title: इतर वेबसाईटसाठी लिंक्स 
 
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+Trinketला काही वेब पत्त्यांसह काम करायला त्रास होतो. आपल्याला आवडल्यास आपण विकिपीडियाशिवाय इतर वेबसाईटचे युआरएल (URL) वापरून पाहू शकता, पण ते आपल्या trinketमध्ये काम करतीलच असं नाही. जर आपण आपला प्रकल्प (project) डाउनलोड केलंत आणि वेब browserमध्ये filesना बघितलं, तर आपल्याला लिंक्स काम करतांना दिसतील.
 
 \--- /collapse \---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- `Click here` ह्या शब्दांऐवजी `<a></a>` ह्या टॅग्स मध्ये एक छायाचित्र टाकून बघा, हे असं:
 
 ```html
   <a href="https://en.wikipedia.org/wiki/Ireland">
@@ -46,20 +46,20 @@ Trinket has trouble with some web addresses. You can try URLs of websites other 
   </a>
 ```
 
-- Click on your picture. Do you see that it was turned into a link?
+- आपल्या छायाचित्रावर टिचकी मारा. आपण ते एका लिंक मध्ये रूपांतरित झालेलं पाहिलंत का?
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+आपण आपल्या वेबपृष्ठाच्या इतर एलिमेन्ट्स मध्येही लिंक टाकू शकता, जसे की एखाद्या परिच्छेदामध्ये (paragraph) किंव्हा एखाद्या लिस्ट मध्ये देखील. येथे एका वाक्यामध्ये दुवा असलेले उदाहरण आहे:
 
 ```html
   <p>
-    <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> to read the Wikipedia page!
+    विकिपीडिया पान वाचण्यास <a href="https://en.wikipedia.org/wiki/Ireland">Click here</a> वर टिचकी मारा!
   </p>
 ```
 
 \--- challenge \---
 
-## Challenge: put a link into a list
+## Challenge: लिस्टमध्ये लिंक टाका
 
-- See if you can make a list that contains a link inside one of the list items.
+- आपल्याला एक लिस्ट बनवता येत आहे का ते बघा ज्यात लिस्टच्या एखाद्या आयटममध्ये लिंक असेल.
 
 \--- /challenge \---
