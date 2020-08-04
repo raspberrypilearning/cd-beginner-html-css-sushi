@@ -1,4 +1,4 @@
-## Controlando cómo se ve
+## Controlando cómo lucirá
 
 El código que describe el aspecto de un sitio web se llama **CSS**.
 
