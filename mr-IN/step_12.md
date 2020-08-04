@@ -1,10 +1,10 @@
-## Styling the menu bar
+## मेनू बारची शैली (स्टाईल) ठरवणे
 
-With CSS, the possibilities for making your menu bar look great are endless.
+सीएसएस (CSS) सह, आपला मेनू बार उत्कृष्ट दिसणाच्या शक्यता अंतहीन आहेत.
 
-- Move to the `styles.css` file again — the place where the cool stuff happens!
+- परत `styles.css` fileलवर जा - ती जागा जेथे झकास गोष्टी होतात!
 
-- Find your `nav ul` selector, and add more rules so that it looks like this:
+- `nav ul` निवडकाला (सिलेक्टरला) शोधून त्यात आणखी नियम (रूल्स) जोडा जेणेकरून ते असं दिसेल:
 
 ```css
   nav ul {
@@ -16,11 +16,11 @@ With CSS, the possibilities for making your menu bar look great are endless.
   }
 ```
 
-The `padding` property adds space. Can you work out what each of the other properties do? Try experimenting with different colours and numbers of pixels.
+`padding` हा गुणधर्म जागा जोडतो. आपण प्रत्येक इतर गुणधर्म काय करतात ह्याचा अंदाज लावू शकता का? वेगवेगळ्या रंगांबरोबर आणि पिक्सेल्सच्या अंकांबरोबर प्रयोग करून पहा.
 
-![Menu bar with borders and padding added](images/egMenuBarMoreStyle.png)
+![सीमा आणि पॅडिंग असणारा मेनू बार जोडला](images/egMenuBarMoreStyle.png)
 
-- To get rid of the underlining of the links, add the following code on a new line after the closing curly brace `}` for the `nav ul li` rules. You could put it after any `}`, but it's a good idea to keep related stuff together so it's easier to find!
+- पेज अधोरेखित (अंडरलाइन) न व्हावेत ह्यासाठी `nav ul li`च्या बंद होणाऱ्या कुरळ्या कंसानंतर `}` एका नव्या ओळीवर पुढील code जोडावा. आपण त्या codeला कोणत्याही `}` नंतर टाकू शकता, पण संबंधित सामग्री एकत्र ठेवणे हि एक चांगली कल्पना आहे जेणेकरून त्याला नंतर शोधणे सोपे जाईल!
 
 ```css
   nav ul li a {
@@ -28,32 +28,32 @@ The `padding` property adds space. Can you work out what each of the other prope
   }
 ```
 
-The above rule applies to links `<a>` inside list items `<li>` in an unordered list `<ul>` inside a navigation section `<nav>`. Wow, that's four selectors!
+वरील नियम त्या `<a>` लिंक्सवर लागू होतात जे एका मार्गनिर्देशक (नॅव्हिगेशन) विभागाच्या (सेक्शनच्या) आंत `<nav>` एका अनऑर्डर्ड लिस्ट `<ul>` च्या आयटम्सच्या आंत `<li>` असतात. व्वा, ते चार निवडक आहेत!
 
-![Menu bar with link underlining removed](images/egMenuBarNoUnderline.png)
+![अधोरेखित (अंडरलाईन असणारा) दुवा असलेला मेनू बार काढला](images/egMenuBarNoUnderline.png)
 
-Remember how you removed the link tags from some list items in the `<nav>` so you can easily see what page you're on? Why not also change the text colour of those navigation list items which are not links!
+आपल्याला आठवलं आपण कसे दुवा टॅग्सना `<nav>` च्या आतल्या काही यादी आयटम्समधून काढले होते जेणेकरून आपण कुठल्या पानावर आहात हे आरामात पाहू शकाल? दुवे नसलेल्या त्या मार्गनिर्देशन (नॅव्हिगेशन) सूची आयटम्सचा मजकूर रंग देखील बदलून पाहुयात का!
 
-- Find your `nav ul li` selector, and **inside** the curly braces add the line:
+- आपल्या `nav ul li` निवडकाला शोधा, आणि कुरळ्या कंसाच्या **आंत** हि ओळ जोडा:
 
 ```css
   color: PapayaWhip;
 ```
 
-You can choose any colour you like!
+आपण आपल्या आवडीचा कोणताही रंग निवडू शकता!
 
-You can add the `color` property to the `nav ul li a` rule as well if you want the menu links to be a different colour from other links on your website.
+आपल्याला आपल्या वेबसाइटवरील मेनू लिंकना इतर लिंकपासून वेगळ्या रंगात करायचे असल्यास आपण `color` हा गुणधर्म `nav ul li a` नियमाला सुद्धा जोडू शकता.
 
-- How about some rounded corners for your menu? Try adding the following code to the `nav ul` rule to see what happens: `border-radius: 10px;`.
+- आपल्या मेनूसाठी काही वळसा असलेल्या कोपऱ्यांबद्दल (राऊंडेड कॉर्नर्स बद्दल) काय म्हणता? `nav ul` नियमात पुढील code जोडून काय होतं ते बघा `border-radius: 10px;`.
 
-The `border-radius` property is a really easy way to make anything look cooler!
+`border-radius` हा प्रॉपर्टी कुठल्याही गोष्टीला मस्तं बनवण्यासाठी खरंच एक सोपा मार्ग आहे!
 
-![Webpage with rounded corners on the menu bar and on a picture](images/egMenuBarFullStyles_result.png)
+![वेबपेजसकट गोल कोपरा असलेले मेनू बार आणि एक छायाचित्र](images/egMenuBarFullStyles_result.png)
 
 \--- challenge \---
 
-## Challenge: make your pictures have rounded corners
+## आव्हान: आपल्या छायाचित्रांचे कोपरे गोल करा
 
-- In your style sheet, create a new set of rules for pictures using the `img` selector, and add in a `border-radius` rule there.
+- आपल्या शैली पत्रकात (स्टाइल शीट मध्ये), ` img` हा निवडक (सिलेक्टर) वापरून छायाचित्रांसाठी नियमांचा (रूल्सचा) एक नवीन संच (सेट) तयार करा, आणि तेथे एक `border-radius` नियम (रूल) जोडा.
 
 \--- /challenge \---
