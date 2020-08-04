@@ -1,35 +1,35 @@
-## Getting set up
+## सुरुवात अशी करा
 
-- Go to [the starter trinket](http://dojo.soy/html-b-start). You will see a box containing an example website project. On the right-hand side is the website, and on the left-hand side is the code that makes the website. ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- [the starter trinket](http://dojo.soy/html-b-start) येथे जा. आपल्याला तिथे एक बॉक्स दिसेल ज्याच्यात एक वेबसाईट प्रकल्प उदाहरण म्हणून दिला असेल. उजव्या बाजूला वेबसाईट तर डाव्या बाजूला code असेल ज्याने वेबसाईट बनते. ![वेब पेज आणि code Trinket मध्ये](images/tktHTMLStartingPoint.png)
 
 ## \--- collapse \---
 
-## title: I have a Trinket account
+## title: माझे एक Trinket खाते आहे
 
-- Click the **Remix** button at the top right of the project. If you are not signed in, you will be prompted to do so. Once you've signed in, you'll need to click **Remix** again. Clicking this button creates a copy of the project for you to work with. 
+- प्रकल्पात वर उजव्या बाजूला असलेल्या **Remix** बटण वर क्लिक करा. आपण साईन इन नसल्यास, आपल्याला ते करण्यास सांगितले जाईल. एकदाका आपण साईन इन केले, त्यानंतर आपल्याला **Remix** वर पुन्हा क्लिक करायला लागेल. ह्या button वर क्लिक केल्यावर आपल्या प्रकल्पाची एक प्रत तयार होते ज्याच्यावर आपल्याला काम करता येईल. 
 
 ![Remix button](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+आपण त्यावर टिचकी मारल्यावर ते **remixed** असे म्हणेल:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![Button आता म्हणते "remixed"](images/tktRemixedSmall.png)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: I don't have a Trinket account
+## title: माझे Trinket खाते नाही
 
-You can save your work by using one of the options in the **Share** menu. You will get a link that you can either save somewhere, for example in a document, or send to someone via email. **Note:** each time you make a change, you will get a new link.
+आपण आपले कार्य **Share** मेनू मधील एका पर्यायाला वापरून जतन करू शकता. आपल्याला एक लिंक मिळेल जो आपण एकतर कुठेतरी जतन करू शकता, उदाहरणार्थ एका दस्तऐवजात, किंव्हा ईमेलद्वारे एखाद्यास पाठवण्याकरता वापरता येईल. ** Note:** प्रत्येक वेळी आपण बदल केल्यास, आपल्याला एक नवीन लिंक मिळतो.
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you. Remixing means you will save a copy of a project so you can make your own changes to it.
+आपणास Trinket वर एखादे खाते तयार करायचे असल्यास खाली दिलेल्या सूचना अनुसरण करा. हे आपल्याला कुठल्याही संगणकावरुन सहजपणे कार्य करण्यास आणि कुणी आपल्यासह ** remix** प्रकल्प सामायिक केला असल्यास त्यावर काम करण्यास प्रवेश देईल. रीमिक्सिंग म्हणजे आपल्या प्रकल्पाची एक प्रत जतन होईल जेणेकरून आपण त्यात आपले स्वतःचे काही बदल करू शकाल.
 
-- Go to [the Trinket website](http://dojo.soy/trinket) and click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- [the Trinket website](http://dojo.soy/trinket) वर जा आणि **साईन अप वर क्लिक करून आपले मोफत खाते तयार करा**. साईन अप करण्याकरता आपला एक ईमेल पत्ता लागेल.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Enter your email address आणि एखादा पासवर्ड ठेवा किंव्हा एखाद्यास आपल्यासाठी हे करण्यास सांगा.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+- आपण आता आपल्या सर्व जतन केलेल्या किंव्हा रीमिक्स केलेल्या प्रकल्पांमध्ये आपल्या वापरकर्तानावावर क्लिक करून **My Trinkets ** वर गेल्यास आपल्याला आपले काम करण्यास प्रवेश असेल. !["My Trinkets" मेनू आयटम](images/MyTrinketsMenuWide.png)
 
 \--- /collapse \---
 
-Let's start coding!
+चला तर मग कोडींग करूयात!
