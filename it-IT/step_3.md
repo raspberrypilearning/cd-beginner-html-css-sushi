@@ -1,89 +1,88 @@
-## Your first webpage!
+## La tua prima pagina web!
 
-- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
+- Nel riquadro di sinistra, il **pannello del codice**, fai clic sulla scheda che dice `index.html`.
 
-- Find the line that says `Welcome to Ireland!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
+- Trova la riga che dice `Benvenuto in Irlanda!` e modificalo sul tuo messaggio - fai attenzione **a non** eliminare i tag`<p>`all'inizio della riga e`</p>` alla fine della riga. Dovresti vedere l'aggiornamento della tua pagina web nel pannello di destra.
 
-![HTML paragraph example](images/egFirstHtmlCode.png)
+![Esempio di paragrafo HTML](images/egFirstHtmlCode.png)
 
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
+- Ora sulla stessa linea, cambia lo `<p>` e il `</p>` a `<h1>` e `</h1>`. Noti qualche cambiamento nel risultato a destra?
 
 ```html
-  <h1>Welcome to Ireland!</h1>
+  <h1>Benvenuto in Irlanda!</h1>
 ```
 
 ## \--- collapse \---
 
-## title: HTML and tags explained
+## title: HTML e tag spiegati
 
-**HTML** is the code that makes a webpage.
+**HTML** è il codice che crea una pagina web.
 
-The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
+Lo `.html` nel nome del file indica al browser che il file è una pagina Web, quindi il browser sa di cercare **tag** dicendogli cosa visualizzarlo. (Un browser è il programma che si usa per guardare i siti web, ad esempio Chrome o Firefox.)
 
-HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+Tag HTML come `<p>` e `</p>` definiscono pezzi diversi di una pagina, ad esempio paragrafi, intestazioni o il corpo. I pezzi sono tutti chiamati **elementi**. Pensa a loro come elementi costitutivi.
 
-### Why do I need two tags?
+### Perché ho bisogno di due tag?
 
-You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
+È necessario un tag **apertura** e **chiusura** per indicare al browser dove gli elementi **iniziano** e **terminano**. Quindi per un paragrafo, il tag di apertura `<p>` dice "Arriva un testo che voglio che tu mostri come un paragrafo". Il tag di chiusura `</p>` indica al browser dove finisce il paragrafo.
 
-Everything in between the `<body>` and `</body>` tags is your webpage.
+Tutto tra i tag `<body>` e `</body>` è la tua pagina web.
 
-- Notice how the closing tag **always** has a forward slash `/`.
+- Si noti come il tag di chiusura **sempre** ha una barra `/`.
 
 \--- /collapse \---
 
-- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
+- Prova a cambiare i numeri nei tuoi tag **intestazione** per vedere le diverse dimensioni che ti danno. Possono andare da `<h1>` fino a `<h6>`. Ricorda di modificare sia il tag di apertura che quello di chiusura in modo che corrispondano.
 
-- Find the code for the paragraph that says `My website is about Ireland.` and change it so that it looks like this:
+- Trova il codice per il paragrafo che dice `Il mio sito web sull'Irlanda.` e cambialo in modo che assomigli a questo:
 
 ```html
   <p>
-    <em>My website</em> is about <strong>Ireland</strong>. 
-    It is going to have the following pages: Attractions, Music, Food
+    <em>Il mio sito web</em> riguarda <strong>l'Irlanda</strong>. 
+    Avrà le seguenti pagine: Attrazioni, Musica, Cibo
   </p>
 ```
 
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+Riesci a capire cosa fanno i tag `<em> </em>` e `<strong> </strong>`?
 
-![Example of HTML tags](images/egFirstTags.png)
+![Esempio di tag HTML](images/egFirstTags.png)
 
 \--- challenge \---
 
-## Challenge: add some more text of your own
+## Sfida: aggiungi un altro testo personale
 
-- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
+- Prova ad aggiungere un nuovo paragrafo o un titolo alla tua pagina utilizzando alcuni dei tag che hai imparato.
 
 \--- hints \---
 
 \--- hint \---
 
-When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+Quando vuoi inserire del testo in una pagina, devi metterlo tra due tag che indicano al tuo browser come visualizzare il tuo testo. Ad esempio, i tag `<p> </p>` dicono al browser che qualunque cosa vi sia tra loro è un nuovo paragrafo di testo, e i tag `<h1> </h1>` dicono che il testo in mezzo è un'intestazione.
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for paragraphs looks like this:
+Il codice per i paragrafi è simile al seguente:
 
 ```html
-  <p>This is one paragraph of text.</p>
+  <p>Questo è un paragrafo di testo.</p>
 
-  <p>This is another paragraph.
-  Everything in between one set of p tags is 
-  displayed together in one long line on the webpage.</p>
+  <p>Questo è un altro paragrafo.
+  Tutto ciò che si trova tra una serie di tag p viene visualizzato insieme in un'unica riga sulla pagina web.</p>
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-The code for headings looks like this:
+Il codice per le intestazioni è simile al seguente:
 
 ```html
-  <h1>This is a heading.</h1>
+  <h1>Questa è una intestazione.</h1>
 ```
 
-Headings will normally be displayed bigger or bolder than the paragraphs.
+I titoli saranno normalmente visualizzati più grandi o più visibili dei paragrafi.
 
 \--- /hint \---
 
@@ -91,4 +90,4 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 
 \--- /challenge \---
 
-Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
+Congratulazioni, hai creato la tua prima pagina web! Sulla prossima carta, scoprirai la tecnica per controllare come appare.
