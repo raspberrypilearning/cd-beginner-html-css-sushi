@@ -1,73 +1,73 @@
-## Adding pictures
+## छायाचित्रे जोडणे
 
-Let's add a picture!
+चला एक छायाचित्र जोडूया!
 
-- Go to the tab named `index.html`. Find the `</main>` tag and type the following **above** it: 
+- `index.html` नाव असणाऱ्या tab वर जा. `</main>` हा टॅग शोधा आणि **त्यावर** पुढील टंकलेखित करा: 
 
 ```html
     <img src="tito.png" alt="Tito the dog" width="100px" />
 ```
 
-Here's what the result should look like:
+आपला परिणाम असा दिसला पाहीजे:
 
-![Image code and picture of Tito](images/egImgCodeTito.png)
+![टिटोचे प्रतिमा कोड (Image code) आणि छायाचित्र](images/egImgCodeTito.png)
 
-Notice that this tag has extra bits of information inside it. They are called **attributes**.
+लक्षात घ्या की ह्या टॅगमध्ये अतिरिक्त माहितीचे बिट्स आहेत. त्यांना **attributes** असे म्हणतात.
 
-- Find the bit of code that says `width="100px"` and try experimenting with different numbers to see if you can figure out what this attribute does. Don't delete the letters `px`!
+- `width="100px"` म्हणणारा code चा बिट शोधा आणि वेगवेगळ्या अंकांबरोबर प्रयोग करून हे attribute काय करतं ते पहा. `px` ह्या अक्षरांना delete नका करू
 
 ## \--- collapse \---
 
-## title: How the `img` tag works
+## title: `img` टॅग कसा काम करतो
 
-Notice that the `<img>` tag is different from the other tags you've used so far — there is no closing `</img>` tag. Instead, this tag is **self-closing**: it has `/>` at the end. This is because there is no 'start' and 'end' to an image element like there is for text on the page.
+लक्षात घ्या की आपण आत्तापर्यंत वापरलेल्या इतर टॅगपेक्षा `<img>` टॅग वेगळा आहे - बंद होणारा ` </img>` टॅग नाही आहे. त्याऐवजी, हा टॅग **स्वतः बंद होणारा** आहे: ह्यात ` />` हे शेवटी असतं. हे असे आहे कारण पृष्ठावरील मजकुरासारखा प्रतिमेच्या (image) घटकाला (element) 'प्रारंभ' आणि 'अंत' नसतो.
 
-The tag contains **attributes** with extra information:
+टॅगमध्ये अधीक माहितीसह **attributes ** असतात:
 
-- The `src` attribute tells the browser what file to use for the picture. 
-- The `alt` attribute is a short description that the browser will show if it cannot display the picture. 'alt' is short for 'alternative'. This text also helps people using a screen reader to know what the picture is.
-- The `width` attribute tells the browser how wide to make the picture. `100px` means one hundred **pixels**, which are the tiny dots that make up what you're seeing on your screen. If you don't include this attribute, the picture will be displayed in its original size.
+- `src` हा attribute browser ला छायाचित्रासाठी कुठली फाईल वापरावी हे सांगतो. 
+- `alt` हा attribute म्हणजे एक थोडक्यात वर्णन असतं जे browser चे छायाचित्रं दाखवण्यास असक्षम असल्यास दाखवतं. 'alt' हे 'alternative'चं संक्षिप्त रूप आहे. हा मजकूर स्क्रीन रीडर वापरणार्‍या लोकांना छायाचित्र काय आहे हे जाणून घेण्यास देखील मदत करतो.
+- `width` हा attribute ब्राउझरला छायाचित्राची रुंदी किती ठेवावी हे सांगतो. `100px` म्हणजे शंभर **पिक्सेलस**, हे लहान बिंदू असतात ज्यांनी आपल्या स्क्रीनवर दिसणारे सर्वकाही बनले असते. आपण हे गुण (attribute) समाविष्ट न केल्यास, छायाचित्र त्याच्या मूळ आकारात दाखवलं जाईल.
 
 \--- /collapse \---
 
-Now that you know the code to put a picture on your website, you probably want to change the picture, right?
+आता जेंव्हा आपल्याला आपल्या वेबसाईटच छायाचित्र टाकण्याचा code कळलाच आहे तेंव्हा आपण एकदा छायाचित्र बदलून पाहूया का?
 
-- The first thing you will need is, of course, a picture! You can either use one you've already got on your computer, such as a photograph you took, or you can get one from the internet.
+- आपल्याला आवश्यक असलेली प्रथम गोष्ट अर्थातच एक चित्र आहे! आपण एकतर आपल्या कंपप्यूटर वर आधीपासून असलेला एखादा फोटो वापरू शकता, जसे की आपण घेतलेला एक फोटो, किंव्हा आपण इंटरनेटवरुन एक मिळवू शकता.
 
 [[[generic-get-picture-from-web]]]
 
-**Note:** not all images you will find on the internet are free for anyone to use. If you download a picture, you should make sure it is one that you are allowed to use. Find out more about this here:
+**लक्षात घ्या:** इंटरनेटवर असणारे सर्वच images काही कुणीही वापरू शकत नाही. जर आपण एक छायाचित्र डाउनलोड करत असाल तर ते वापरण्याची आपल्याला परवानगी आहे कि नाही ह्याची खात्री करून घ्या. ह्याबद्दल अधिक येथे जाणून घ्या:
 
 [[[images-permissions-to-use]]]
 
-Once you have a picture, you can **upload** the file to Trinket:
+एकदाका आपल्याला एक छायाचित्र मिळालं कि आपण ती फाईल Trinketवर **अपलोड** करू शकता:
 
-- In your trinket, click on the **image** icon next to the **+** sign. 
+- आपल्या trinketमध्ये, **+** चिन्हाच्या बाजूला असलेल्या **प्रतिमा (image)** आयकॉनवर क्लिक करा. 
 
-![The image icon](images/tktImageIconArrow.png)
+![Image icon](images/tktImageIconArrow.png)
 
-This is where you can see the pictures that you are able to use on your website. You should see the picture of Tito, the CoderDojo dog.
+आपण आपल्या वेबसाईटवर वापरू शकणारी छायाचित्रे येथे पाहू शकता. आपल्याला टिटो जो कि एक CoderDojo कुत्रा आहे चे छायाचित्र दिसेल.
 
-- Click the button **Add Image** and then click **Upload**.
+- **Add Image** ह्या बटणावर क्लिक करा आणि मग **Upload** ह्यावर क्लिक करा.
 
-- Click on the button **Click To Select Files**. Find and double-click your image file in the window that opens.
+- **Click To Select Files** ह्या बटणावर क्लिक करा. आता जी विंडो (window) उघडेल त्यामध्ये आपल्या प्रतिमा फाईल (image file)ला शोधून त्यावर दोन वेळा क्लिक करा.
 
-- Click **Done**.
+- **Done**वर क्लिक करा.
 
-![Image upload area](images/tktUploadImages.png)
+![Image अपलोड क्षेत्र](images/tktUploadImages.png)
 
-Your picture will be uploaded and should be ready to use.
+आपले छायाचित्र अपलोड केले जाईल आणि वापरण्यासाठी सज्ज असेल.
 
-- Go to the file `index.html` and find the `<img>` tag. Change the text `tito.png` so that it exactly matches the name of the image file you've chosen. Note that its name might end in `.jpg` instead of `.png`!
+- `index.html` ह्या फाईलवर जाऊन `<img>` टॅग शोधा. ` tito.png ` हा मजकूर बदला जेणेकरून ते आपण निवडलेल्या प्रतिमा फाईलच्या (image file) नावाशी अचूक जुळेल. लक्षात घ्या की त्याचं नाव `.png` ऐवजी `.jpg` म्हणून समाप्त होऊ शकतं!
 
-The text you just changed is the attribute called `src`, which tells the browser which file to display.
+आपण आत्ताच जो मजकूर बदलला तो एक attribute आहे ज्याला `src` म्हणतात जो ब्राऊझरला कोणती फाईल दाखवायची ते सांगतो.
 
-**Note:** the value you type for an attribute must have quotation marks `""` around it!
+**लाखात घ्या:** आपण एका attributeसाठी जी value टंकलिखित करता त्या भोवती अवतरण चिन्हे (quotation marks) `""` असलेच पाहिजे!
 
 \--- challenge \---
 
-## Challenge: change the alt text of the picture
+## Challenge(चॅलेंज): छायाचित्राचा alt मजकूर बदला
 
-- Find the `alt` attribute of your image element and change the text in it to a short description of your picture. 
+- आपल्या प्रतिमेचा (image) `alt` attribute शोधा आणि त्यातील मजकुराला आपल्या छायाचित्राच्या एका संक्षिप्त वर्णनामध्ये (short description) बदला. 
 
 \--- /challenge \---
