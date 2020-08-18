@@ -1,3 +1,17 @@
-## Wat nu?
+## Reflection
 
-Nu je je eerste website hebt gebouwd, kun je doorgaan met het [Ervaren HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project. Bouw daar verder op je bestaande HTML/CSS-vaardigheden om een ​​website te maken en meer controle te krijgen over hoe deze eruit ziet.
+Congratulations on completing the Guide to My Country project. We would love to know whether you think this project has helped you develop your digital making skills.
+
+\--- no-print \---
+
+## \--- quiz \---
+
+## question: Now that you've completed Guide to My Country, how confident do you feel about coding in HTML and CSS?
+
+- ( ) Less confident
+- ( ) About the same
+- ( ) More confident
+
+\--- /quiz \---
+
+\--- /no-print \---
