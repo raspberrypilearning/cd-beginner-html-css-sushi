@@ -43,4 +43,8 @@ steps:
   - 
     title: 테이블 추가하기
   - 
-    title: 더 나아가기
+    title: Reflection
+    quiz: true
+  - 
+    title: What next?
+
