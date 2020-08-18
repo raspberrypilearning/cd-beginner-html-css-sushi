@@ -43,4 +43,8 @@ steps:
   - 
     title: ಟೇಬಲ್ ಸೇರಿಸುವುದು
   - 
-    title: ಮುಂದೆ ಏನು?
+    title: Reflection
+    quiz: true
+  - 
+    title: What next?
+
