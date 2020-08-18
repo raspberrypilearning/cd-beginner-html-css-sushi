@@ -1,3 +1,17 @@
-## ಮುಂದೆ ಏನು?
+## Reflection
 
-ಈಗ ನೀವು ನಿಮ್ಮ ಮೊದಲ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ನಿರ್ಮಿಸಿದ್ದೀರಿ, ಏಕೆ [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) ಯೋಜನೆಯನ್ನು ನೋಡಬಾರದು? ನಿಮ್ಮ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ HTML/CSS ಕೌಶಲ್ಯಗಳನ್ನು ನೀವು ಅಲ್ಲಿ ನಿರ್ಮಿಸಬಹುದು, ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಸೇರಿಸಿ ಮತ್ತು ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದರ ಕುರಿತು ಹೆಚ್ಚಿನ ನಿಯಂತ್ರಣವನ್ನು ಪಡೆಯಿರಿ.
+Congratulations on completing the Guide to My Country project. We would love to know whether you think this project has helped you develop your digital making skills.
+
+\--- no-print \---
+
+## \--- quiz \---
+
+## question: Now that you've completed Guide to My Country, how confident do you feel about coding in HTML and CSS?
+
+- ( ) Less confident
+- ( ) About the same
+- ( ) More confident
+
+\--- /quiz \---
+
+\--- /no-print \---
