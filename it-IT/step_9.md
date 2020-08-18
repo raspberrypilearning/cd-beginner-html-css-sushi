@@ -6,7 +6,7 @@ Questa scheda ti mostrerà come aggiungere più pagine al tuo sito web.
 
 ![Aggiungere un nuovo file in Trinket](images/tktNewFileArrows.png)
 
----- collapse ---
+--- collapse ---
 ---
 title: Rinominare ed eliminare un file
 ---

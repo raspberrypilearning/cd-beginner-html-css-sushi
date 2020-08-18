@@ -35,11 +35,11 @@ Tutto tra i tag `<body>` e `</body>` è la tua pagina web.
 
 - Prova a cambiare i numeri nei tuoi tag **intestazione** per vedere le diverse dimensioni che ti danno. Possono andare da `<h1>` fino a `<h6>`. Ricorda di modificare sia il tag di apertura che quello di chiusura in modo che corrispondano.
 
-- Trova il codice per il paragrafo che dice `Il mio sito web sull'Irlanda.` e cambialo in modo che assomigli a questo:
+- Trova il codice per il paragrafo che dice `Il mio sito parla dell'Irlanda.` e cambialo in modo che assomigli a questo:
 
 ```html
   <p>
-    <em>Il mio sito web</em> riguarda <strong>l'Irlanda</strong>. 
+    <em>Il mio sito web</em> parla dell'<strong>Irlanda</strong>. 
     Avrà le seguenti pagine: Attrazioni, Musica, Cibo
   </p>
 ```
