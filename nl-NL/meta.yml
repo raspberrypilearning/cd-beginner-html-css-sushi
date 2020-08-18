@@ -43,4 +43,8 @@ steps:
   - 
     title: Een tabel toevoegen
   - 
-    title: Wat kun je verder nog doen?
+    title: Reflection
+    quiz: true
+  - 
+    title: What next?
+
