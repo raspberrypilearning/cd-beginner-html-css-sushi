@@ -1,3 +1,17 @@
-## E adesso?
+## Reflection
 
-Ora che hai creato il tuo primo sito web, perché non dare un'occhiata al progetto [Sushi HTML/CSS intermedio](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/)? Lì potrai migliorare le tue attuali abilità HTML/CSS, fare aggiunte al tuo sito web e ottenere più controllo su come si presenta.
+Congratulations on completing the Guide to My Country project. We would love to know whether you think this project has helped you develop your digital making skills.
+
+\--- no-print \---
+
+## \--- quiz \---
+
+## question: Now that you've completed Guide to My Country, how confident do you feel about coding in HTML and CSS?
+
+- ( ) Less confident
+- ( ) About the same
+- ( ) More confident
+
+\--- /quiz \---
+
+\--- /no-print \---
