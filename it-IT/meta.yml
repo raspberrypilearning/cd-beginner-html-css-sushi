@@ -1,0 +1,32 @@
+---
+title: Guida al mio paese 1.0
+hero_image: images/banner.png
+description: Impara a creare un sito web
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 3
+last_tested: 2017/01/01
+steps:
+  - title: Introduzione
+  - title: Prepararsi
+  - title: La tua prima pagina web!
+  - title: Controllare come appare
+  - title: Aggiungere foto
+  - title: Aggiungere una mappa o un video
+  - title: Creare una lista
+  - title: Creare collegamenti
+  - title: Aggiungere più pagine
+  - title: Navigare nel tuo sito web
+  - title: Creare una barra dei menu
+  - title: Dare uno stile alla la barra dei menu
+  - title: Aggiungere una tabella
+  - title: E adesso?
