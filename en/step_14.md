@@ -1,3 +1,18 @@
-## What next?
+## Reflection
 
-Now that you've built your first website, why not take a look at the [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project? There you can build upon your existing HTML/CSS skills, add to your website and gain more control over how it looks.
+Congratulations on completing the Guide to My Country project. We would love to know whether you think this project has helped you develop your digital making skills.
+
+--- no-print ---
+
+--- quiz ---
+---
+question: Now that you've completed Guide to My Country, how confident do you feel about coding in HTML and CSS?
+---
+
+- ( ) Less confident
+- ( ) About the same
+- ( ) More confident
+
+--- /quiz ---
+
+--- /no-print ---

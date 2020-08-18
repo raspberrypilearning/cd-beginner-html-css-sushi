@@ -1,19 +1,3 @@
-## Project Evaluation
+## What next?
 
-You have successfully completed the Guide to My Country project, we would love it if you could answer the following questions about your experiences.
-
---- no-print ---
-
---- quiz ---
----
-question: Now that you've completed Guide To My Country, how confident do you feel about coding HTML and CSS?
----
-
-- ( ) Less confident
-- ( ) About the same
-- ( ) More confident
-
---- /quiz ---
-
---- /no-print ---
-
+Now that you've built your first website, why not take a look at the [Intermediate HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) project? There you can build upon your existing HTML/CSS skills, add to your website and gain more control over how it looks.
