@@ -1,3 +1,17 @@
-## 더 나아가기
+## Reflection
 
-수고하셨습니다. 여러분은 첫 번째 웹사이트를 제작하셨습니다. 웹 페이지를 만드는 방법에 대해 더 궁금한 학생은 [중급 HTML/CSS Sushi](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) 프로젝트를 해 보세요! 더 많은 HTML/CSS 스킬을 배우고 모양을 제어하는 방법에 대해 배워 볼 수 있습니다.
+Congratulations on completing the Guide to My Country project. We would love to know whether you think this project has helped you develop your digital making skills.
+
+\--- no-print \---
+
+## \--- quiz \---
+
+## question: Now that you've completed Guide to My Country, how confident do you feel about coding in HTML and CSS?
+
+- ( ) Less confident
+- ( ) About the same
+- ( ) More confident
+
+\--- /quiz \---
+
+\--- /no-print \---
