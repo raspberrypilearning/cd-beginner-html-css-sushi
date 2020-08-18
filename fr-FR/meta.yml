@@ -43,4 +43,8 @@ steps:
   - 
     title: Ajout d'un tableau
   - 
-    title: Et ensuite?
+    title: Reflection
+    quiz: true
+  - 
+    title: What next?
+
