@@ -43,4 +43,8 @@ steps:
   - 
     title: Adding a table
   - 
+    title: Reflection
+    quiz: true
+  - 
     title: What next?
+
