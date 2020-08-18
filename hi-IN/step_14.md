@@ -1,3 +1,17 @@
-## आगे क्या?
+## Reflection
 
-अब जब आपने अपनी पहली वेबसाइट बना ली है, तो क्यों न [इंटरमीडिएट HTML /CSS सुशी](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi/) परियोजना पर एक नज़र डालें? वहाँ आप अपने मौजूदा HTML / CSS कौशल को और विकसित कर सकते हैं, अपनी वेबसाइट में दुसरे भाग जोड़ सकते हैं और वेबसाइट के रूप पर अधिक नियंत्रण प्राप्त कर सकते हैं।
+Congratulations on completing the Guide to My Country project. We would love to know whether you think this project has helped you develop your digital making skills.
+
+\--- no-print \---
+
+## \--- quiz \---
+
+## question: Now that you've completed Guide to My Country, how confident do you feel about coding in HTML and CSS?
+
+- ( ) Less confident
+- ( ) About the same
+- ( ) More confident
+
+\--- /quiz \---
+
+\--- /no-print \---
