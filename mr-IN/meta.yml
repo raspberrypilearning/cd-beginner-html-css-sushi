@@ -43,4 +43,8 @@ steps:
   - 
     title: एक टेबल जोडणे
   - 
+    title: Reflection
+    quiz: true
+  - 
     title: What next?
+
