@@ -43,4 +43,8 @@ steps:
   - 
     title: إضافة جدول
   - 
-    title: ما هي الخطوة التالية؟
+    title: Reflection
+    quiz: true
+  - 
+    title: What next?
+
