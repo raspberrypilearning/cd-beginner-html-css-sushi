@@ -28,4 +28,7 @@ steps:
 - title: Making a menu bar
 - title: Styling the menu bar
 - title: Adding a table
+- title: Reflection
+  quiz: true
 - title: What next?
+
