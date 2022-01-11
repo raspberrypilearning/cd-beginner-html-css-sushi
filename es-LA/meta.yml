@@ -2,7 +2,7 @@
 title: Guía a mi país 1.0
 hero_image: images/banner.png
 description: Aprende a hacer un sitio web
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -16,17 +16,19 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introducción
-  - title: Preparación
-  - title: '¡Tu primera página web!'
-  - title: Controlando cómo lucirá
-  - title: Añadiendo imágenes
-  - title: Añadiendo un mapa o vídeo
-  - title: Crear una lista
-  - title: Creando enlaces
-  - title: Añadiendo más páginas
-  - title: Navegando por tu página web
-  - title: Haciendo una barra de menú
-  - title: Dando estilo a la barra de menú
-  - title: Añadiendo una tabla
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Preparación
+- title: "¡Tu primera página web!"
+- title: Controlando cómo lucirá
+- title: Añadiendo imágenes
+- title: Añadiendo un mapa o vídeo
+- title: Crear una lista
+- title: Creando enlaces
+- title: Añadiendo más páginas
+- title: Navegando por tu página web
+- title: Haciendo una barra de menú
+- title: Dando estilo a la barra de menú
+  completion: internal
+- title: Añadiendo una tabla
+- title: "¿Qué sigue?"

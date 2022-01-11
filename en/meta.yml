@@ -1,7 +1,8 @@
+---
 title: Guide to my country 1.0
 hero_image: images/banner.png
 description: Learn to make a website
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -14,8 +15,9 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
+  completion: engaged
 - title: Getting set up
 - title: Your first webpage!
 - title: Controlling how it looks
@@ -27,8 +29,8 @@ steps:
 - title: Navigating your website
 - title: Making a menu bar
 - title: Styling the menu bar
+  completion: internal
 - title: Adding a table
 - title: Reflection
   quiz: true
 - title: What next?
-
