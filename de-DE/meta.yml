@@ -2,7 +2,7 @@
 title: Mein Länderführer 1.0
 hero_image: images/banner.png
 description: Lerne, wie du eine Website erstellst
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -16,17 +16,21 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Einleitung
-  - title: Erste Schritte
-  - title: Deine erste Website!
-  - title: Steuern wie es aussieht
-  - title: Bilder hinzufügen
-  - title: Karte oder Video hinzufügen
-  - title: Eine Liste erstellen
-  - title: Links erstellen
-  - title: Weitere Seiten hinzufügen
-  - title: Navigieren auf deiner Website
-  - title: Eine Menüleiste erstellen
-  - title: Die Menüleiste gestalten
-  - title: Eine Tabelle hinzufügen
-  - title: Wie geht es weiter?
+- title: Einleitung
+- title: Erste Schritte
+- title: Deine erste Website!
+- title: Steuern wie es aussieht
+  completion:
+  - engaged
+- title: Bilder hinzufügen
+- title: Karte oder Video hinzufügen
+- title: Eine Liste erstellen
+- title: Links erstellen
+- title: Weitere Seiten hinzufügen
+- title: Navigieren auf deiner Website
+- title: Eine Menüleiste erstellen
+- title: Die Menüleiste gestalten
+- title: Eine Tabelle hinzufügen
+  completion:
+  - internal
+- title: Wie geht es weiter?

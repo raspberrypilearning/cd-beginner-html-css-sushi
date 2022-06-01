@@ -1,8 +1,9 @@
+---
 title: Beginner HTML & CSS Sushi Cards
 hero_image: images/banner.svg
 description: Learn to make a website
-theme: navy # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 1 # possible values: 1, 2 or 3
+theme: navy
+duration: 1
 listed: false
 ingredient: false
 copyedit: false
@@ -14,11 +15,13 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: はじめに
 - title: ウェブページをつくろう
 - title: CSS（スタイルシート）を設定しよう
+  completion:
+  - engaged
 - title: リストをつくってみよう
 - title: 画像を追加する
 - title: さらにページをつくろう
@@ -28,3 +31,5 @@ steps:
 - title: マップとビデオの追加
 - title: テーブルの追加
 - title: プロジェクトのダウンロード
+  completion:
+  - internal

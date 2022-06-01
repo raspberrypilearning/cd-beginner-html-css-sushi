@@ -16,17 +16,21 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Opstarten
-  - title: Je eerste webpagina!
-  - title: Bepalen hoe het eruit ziet
-  - title: Afbeeldingen toevoegen
-  - title: Een kaart of video toevoegen
-  - title: Een lijst maken
-  - title: Links maken
-  - title: Meer pagina's toevoegen
-  - title: Navigeren door je website
-  - title: Een menubalk maken
-  - title: De menubalk opmaken
-  - title: Een tabel toevoegen
-  - title: Hoe nu verder?
+- title: Inleiding
+- title: Opstarten
+- title: Je eerste webpagina!
+- title: Bepalen hoe het eruit ziet
+  completion:
+  - engaged
+- title: Afbeeldingen toevoegen
+- title: Een kaart of video toevoegen
+- title: Een lijst maken
+- title: Links maken
+- title: Meer pagina's toevoegen
+- title: Navigeren door je website
+- title: Een menubalk maken
+- title: De menubalk opmaken
+- title: Een tabel toevoegen
+  completion:
+  - internal
+- title: Hoe nu verder?

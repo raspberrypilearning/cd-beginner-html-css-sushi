@@ -2,7 +2,7 @@
 title: मेरे देश के लिए गाइड 1.0
 hero_image: images/banner.png
 description: वेबसाइट बनाना सीखें
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -20,6 +20,8 @@ steps:
 - title: शुरू करने के लिए
 - title: आपका पहला वेबपेज!
 - title: वेबसाइट का रूप नियंत्रित करना
+  completion:
+  - engaged
 - title: चित्र जोड़ना
 - title: नक्शा या वीडियो जोड़ना
 - title: सूची बनाना
@@ -29,4 +31,6 @@ steps:
 - title: मेन्यू बार बनाना
 - title: मेनू बार स्टाइल करना
 - title: एक तालिका जोड़ना
+  completion:
+  - internal
 - title: आगे क्या?

@@ -2,7 +2,7 @@
 title: دليل لبلادي 1.0
 hero_image: images/banner.png
 description: تعلم كيفية إنشاء موقع على شبكة الإنترنت
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -16,17 +16,21 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: المقدمة
-  - title: هيا بنا لنبدأ
-  - title: صفحتك الإلكترونية الأولى!
-  - title: تحكم في شكلها
-  - title: إضافة الصور
-  - title: إضافة الخارطة والفيديو
-  - title: إنشاء قائمة
-  - title: إنشاء روابط
-  - title: إضافة المزيد من الصفحات
-  - title: التنقل في موقعك الإلكتروني
-  - title: إنشاء شريط قوائم
-  - title: تصميم شكل شريط القوائم
-  - title: إضافة جدول
-  - title: ما التالي؟
+- title: المقدمة
+- title: هيا بنا لنبدأ
+- title: صفحتك الإلكترونية الأولى!
+- title: تحكم في شكلها
+  completion:
+  - engaged
+- title: إضافة الصور
+- title: إضافة الخارطة والفيديو
+- title: إنشاء قائمة
+- title: إنشاء روابط
+- title: إضافة المزيد من الصفحات
+- title: التنقل في موقعك الإلكتروني
+- title: إنشاء شريط قوائم
+- title: تصميم شكل شريط القوائم
+- title: إضافة جدول
+  completion:
+  - internal
+- title: ما التالي؟
