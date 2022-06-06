@@ -17,10 +17,11 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Opstarten
 - title: Je eerste webpagina!
 - title: Bepalen hoe het eruit ziet
+  completion:
+  - engaged
 - title: Afbeeldingen toevoegen
 - title: Een kaart of video toevoegen
 - title: Een lijst maken
@@ -29,6 +30,7 @@ steps:
 - title: Navigeren door je website
 - title: Een menubalk maken
 - title: De menubalk opmaken
-  completion: internal
 - title: Een tabel toevoegen
+  completion:
+  - internal
 - title: Hoe nu verder?

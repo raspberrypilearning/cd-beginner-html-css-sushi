@@ -17,10 +17,11 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introducción
-  completion: engaged
 - title: Preparación
 - title: "¡Tu primera página web!"
 - title: Controlando cómo lucirá
+  completion:
+  - engaged
 - title: Añadiendo imágenes
 - title: Añadiendo un mapa o vídeo
 - title: Crear una lista
@@ -29,6 +30,7 @@ steps:
 - title: Navegando por tu página web
 - title: Haciendo una barra de menú
 - title: Dando estilo a la barra de menú
-  completion: internal
 - title: Añadiendo una tabla
+  completion:
+  - internal
 - title: "¿Qué sigue?"

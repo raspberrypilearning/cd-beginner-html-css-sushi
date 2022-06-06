@@ -17,10 +17,11 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: هيا بنا لنبدأ
 - title: صفحتك الإلكترونية الأولى!
 - title: تحكم في شكلها
+  completion:
+  - engaged
 - title: إضافة الصور
 - title: إضافة الخارطة والفيديو
 - title: إنشاء قائمة
@@ -29,6 +30,7 @@ steps:
 - title: التنقل في موقعك الإلكتروني
 - title: إنشاء شريط قوائم
 - title: تصميم شكل شريط القوائم
-  completion: internal
 - title: إضافة جدول
+  completion:
+  - internal
 - title: ما التالي؟

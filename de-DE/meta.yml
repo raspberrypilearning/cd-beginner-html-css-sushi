@@ -17,10 +17,11 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Erste Schritte
 - title: Deine erste Website!
 - title: Steuern wie es aussieht
+  completion:
+  - engaged
 - title: Bilder hinzufügen
 - title: Karte oder Video hinzufügen
 - title: Eine Liste erstellen
@@ -29,6 +30,7 @@ steps:
 - title: Navigieren auf deiner Website
 - title: Eine Menüleiste erstellen
 - title: Die Menüleiste gestalten
-  completion: internal
 - title: Eine Tabelle hinzufügen
+  completion:
+  - internal
 - title: Wie geht es weiter?

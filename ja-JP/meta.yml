@@ -17,10 +17,11 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: はじめに
 - title: ウェブページをつくろう
 - title: CSS（スタイルシート）を設定しよう
+  completion:
+  - engaged
 - title: リストをつくってみよう
 - title: 画像を追加する
 - title: さらにページをつくろう
@@ -29,5 +30,6 @@ steps:
 - title: メニューバーのスタイリング
 - title: マップとビデオの追加
 - title: テーブルの追加
-  completion: internal
 - title: プロジェクトのダウンロード
+  completion:
+  - internal

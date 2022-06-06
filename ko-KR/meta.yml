@@ -17,10 +17,11 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 소개
-  completion: engaged
 - title: 설정하기
 - title: 첫 번째 웹 페이지!
 - title: 레이아웃 조정하기
+  completion:
+  - engaged
 - title: 사진 추가하기
 - title: 지도 또는 비디오 추가하기
 - title: 리스트 만들기
@@ -29,6 +30,7 @@ steps:
 - title: 웹 사이트 안내하기
 - title: 메뉴바 만들기
 - title: 메뉴바 꾸미기
-  completion: internal
 - title: 테이블 추가하기
+  completion:
+  - internal
 - title: 더 나아가기
