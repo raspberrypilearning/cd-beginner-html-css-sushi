@@ -2,7 +2,7 @@
 title: ನನ್ನ ದೇಶಕ್ಕೆ ಮಾರ್ಗದರ್ಶನ 1.0
 hero_image: images/banner.png
 description: ವೆಬ್‌ಸೈಟ್ ಮಾಡಲು ಕಲಿಯಿರಿ
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: ನಿಮ್ಮ ಮೊದಲ ಅಂತರ್ಜಾಲ ಪುಟ!
   - 
     title: ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸುವುದು
+    completion:
+      - engaged
   - 
     title: ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸುವುದು
   - 
@@ -42,9 +44,10 @@ steps:
     title: ಮೆನು ಬಾರ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸುವುದು
   - 
     title: ಟೇಬಲ್ ಸೇರಿಸುವುದು
+    completion:
+      - internal
   - 
     title: Reflection
     quiz: true
   - 
     title: What next?
-
