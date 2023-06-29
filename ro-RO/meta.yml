@@ -2,7 +2,7 @@
 title: Guide to my country 1.0
 hero_image: images / banner.png
 description: Află cum să creezi un website
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: Your first webpage!
   - 
     title: Controlling how it looks
+    completion:
+      - engaged
   - 
     title: Adding pictures
   - 
@@ -42,9 +44,10 @@ steps:
     title: Styling the menu bar
   - 
     title: Adding a table
+    completion:
+      - internal
   - 
     title: Reflection
     quiz: true
   - 
     title: What next?
-
