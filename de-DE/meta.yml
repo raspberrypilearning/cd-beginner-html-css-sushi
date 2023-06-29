@@ -2,7 +2,7 @@
 title: Mein Länderführer 1.0
 hero_image: images/banner.png
 description: Lerne, wie du eine Website erstellst
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: Deine erste Website!
   - 
     title: Passe deine Seite an
+    completion:
+      - engaged
   - 
     title: Bilder hinzufügen
   - 
@@ -42,9 +44,10 @@ steps:
     title: Die Menüleiste gestalten
   - 
     title: Eine Tabelle hinzufügen
+    completion:
+      - internal
   - 
     title: Reflection
     quiz: true
   - 
     title: What next?
-
