@@ -2,7 +2,7 @@
 title: 아일랜드 여행 가이드 1.0
 hero_image: images/banner.png
 description: 웹 사이트 제작 방법 배우기
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: 첫 번째 웹 페이지!
   - 
     title: 레이아웃 조정하기
+    completion:
+      - engaged
   - 
     title: 사진 추가하기
   - 
@@ -42,9 +44,10 @@ steps:
     title: 메뉴바 꾸미기
   - 
     title: 테이블 추가하기
+    completion:
+      - internal
   - 
     title: Reflection
     quiz: true
   - 
     title: What next?
-
