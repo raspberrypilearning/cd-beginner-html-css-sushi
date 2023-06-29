@@ -1,16 +1,16 @@
-## Reflection
+## परावर्तन
 
-Congratulations on completing the Guide to My Country project. We would love to know whether you think this project has helped you develop your digital making skills.
+मार्गदर्शक टू माय कंट्री प्रकल्प पूर्ण केल्याबद्दल अभिनंदन. या प्रकल्पामुळे आपल्याला आपले डिजिटल बनवण्याचे कौशल्य विकसित करण्यात मदत झाली की नाही हे आपणास वाटते की नाही हे आम्हाला जाणून घेण्यास आवडेल.
 
 \--- no-print \---
 
 ## \--- quiz \---
 
-## question: Now that you've completed Guide to My Country, how confident do you feel about coding in HTML and CSS?
+## प्रश्नः आता आपण माझे देशाचे मार्गदर्शक पूर्ण केले आहे, तेव्हा HTML आणि CSS मध्ये कोडिंगबद्दल आपल्याबद्दल किती आत्मविश्वास आहे?
 
-- ( ) Less confident
-- ( ) About the same
-- ( ) More confident
+- () कमी आत्मविश्वास
+- () त्याच बद्दल
+- () अधिक आत्मविश्वास
 
 \--- /quiz \---
 
