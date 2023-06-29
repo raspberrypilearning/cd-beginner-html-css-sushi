@@ -2,7 +2,7 @@
 title: Gids voor mijn land 1.0
 hero_image: images/banner.png
 description: Leer een ​​website maken
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: Je eerste webpagina!
   - 
     title: Bepalen hoe het eruit ziet
+    completion:
+      - engaged
   - 
     title: Afbeeldingen toevoegen
   - 
@@ -42,9 +44,10 @@ steps:
     title: De menubalk opmaken
   - 
     title: Een tabel toevoegen
+    completion:
+      - internal
   - 
     title: Reflection
     quiz: true
   - 
     title: What next?
-
