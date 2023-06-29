@@ -2,7 +2,7 @@
 title: माझ्या देशाचे मार्गदर्शन १.०
 hero_image: images/banner.png
 description: वेब साईट बनवायला शिका
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: आपले पहिले webpage!
   - 
     title: ते कसे दिसेल हे नियंत्रित करण्याकरता
+    completion:
+      - engaged
   - 
     title: छायाचित्र जोडणे
   - 
@@ -42,9 +44,10 @@ steps:
     title: Menu bar ची शैली (स्टाईल) ठरवणे
   - 
     title: एक टेबल जोडणे
+    completion:
+      - internal
   - 
-    title: Reflection
+    title: परावर्तन
     quiz: true
   - 
-    title: What next?
-
+    title: पुढे काय?
