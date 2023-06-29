@@ -2,7 +2,7 @@
 title: Guide de mon pays 1.0
 hero_image: images/banner.png
 description: Apprendre à faire un site web
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 3
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: Votre première page web !
   - 
     title: Contrôle de l'apparence
+    completion:
+      - engaged
   - 
     title: Ajouter des images
   - 
@@ -42,9 +44,10 @@ steps:
     title: Styliser la barre de menu
   - 
     title: Ajout d'un tableau
+    completion:
+      - internal
   - 
-    title: Reflection
+    title: Réflexion
     quiz: true
   - 
-    title: What next?
-
+    title: Et ensuite ?
