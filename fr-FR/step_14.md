@@ -1,16 +1,16 @@
-## Reflection
+## Réflexion
 
-Congratulations on completing the Guide to My Country project. We would love to know whether you think this project has helped you develop your digital making skills.
+Félicitations pour avoir terminé le projet Guide de mon pays. Nous aimerions savoir si tu penses que ce projet t'a aidé à développer tes compétences en création numérique.
 
 \--- no-print \---
 
 ## \--- quiz \---
 
-## question: Now that you've completed Guide to My Country, how confident do you feel about coding in HTML and CSS?
+## question : Maintenant que tu as terminé le guide de mon pays, dans quelle mesure es-tu confiant dans le codage en HTML et CSS ?
 
-- ( ) Less confident
-- ( ) About the same
-- ( ) More confident
+- ( ) Moins confiants
+- ( ) À peu près pareil
+- ( ) Plus confiant
 
 \--- /quiz \---
 
