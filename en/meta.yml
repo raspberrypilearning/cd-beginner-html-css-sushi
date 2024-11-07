@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Learn to make a website
 theme: red
 duration: 3
-listed: true
+listed: false
 ingredient: false
 copyedit: true
 curriculum: ''
